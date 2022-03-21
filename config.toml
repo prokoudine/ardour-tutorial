@@ -51,14 +51,14 @@ weight = 20
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
-url = "/appendices/credits"
+url = "/appendices/credits/"
 weight = 30
 
 [Languages.ru]
 title = "Введение в Ardour"
 weight = 1
 languageName = "Russian"
-landingPageURL = "/ardour-tutorial/ru"
+landingPageURL = "/ardour-tutorial/ru/"
 #landingPageURL = "/"
 landingPageName = "<i class='fas fa-home'></i> Начало"
 #
