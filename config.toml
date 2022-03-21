@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://prokoudine.github.io/ardour7-tutorial.github.io'
 languageCode = 'en-us'
 defaultContentLanguage = "en"
 
