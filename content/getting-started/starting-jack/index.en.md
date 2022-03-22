@@ -18,10 +18,10 @@ on native audio engine available in your operating system, like ALSA on Linux
 and Core Audio on macOS. If you do not need a sophisticated solution, feel free
 to skip this part of the tutorial.
 
-If you do need using JACK with Ardour, you have two options: starting it
-separately using either Qjackctl or Cadence, or launching it from within Ardour.
-All user interfaces for JACK operate on the same terminology, you can refer to
-the [JACK
+If you do need to use Ardour with JACK backend, you have two options: starting
+it separately using either Qjackctl or Cadence, or launching it from within
+Ardour. All user interfaces for JACK operate on the same terminology, you can
+refer to the [JACK
 configuration](https://kx.studio/Documentation:Manual:jack_configuration) page
 for details.
 
