@@ -1,15 +1,10 @@
 +++
-title = "Overview of the Interface"
-description = "Basics of Ardour's user interface"
+title = "Editor window"
+description = "Basics of Ardour's editor window"
 chapter = false
-weight = 3
+weight = 1
 #pre = "<b>1. </b>"
 +++
-
-This section will give you an overview of the basic interface of Ardour.
-
-We will take a look at the **Editor Window** and the **Mixer Window**. Later
-chapters will give more detailed information on each feature listed here.
 
 The Editor Window
 -----------------
@@ -184,37 +179,3 @@ chapter. The Tracks tab is covered in the **Arranging Tracks** chapter,
 and Snapshots are discussed in the **Saving Snapshots** chapter.
 
 ![Region List](en/Ardour6_Region_List.png)
-
-Mixer Window Controls
----------------------
-
-The second window, the **Mixer Window**, can be viewed by going to the
-main menu and clicking *Window > Mixer*.
-
-![Mixer Window](en/Ardour6_Mixer_Window_1.png)
-
-The main function of the Mixer Window is to display all the Mixer Strips
-for the various Tracks side by side for easy reference. This window is
-mainly used during the **Mixing** process, and it also provides access
-**Plugins** and other **Routing** features. See the chapters on
-**Understanding Routing**, **Mixing** and **Using Plugins** for details.
-
-![Mixer Window](en/Ardour6_Mixer_Window_2.png)
-
-This window also contains a listing of the available Mixer Strips in the
-upper left hand corner. The check boxes in this area can be used to view
-and hide the Mixer Strips of the different Tracks. Finally, there is an
-area for managing **Groups**.
-
-Switching Between Windows
--------------------------
-
-You can use the key combination **Alt + M** (**Control + M** on a
-Mac) in order to toggle which window is on top: Editor or Mixer.
-
-Continuing
-----------
-
-The next chapter will explain how to start a fresh new project.
-
-Next: [Starting a session](/en/starting-sessions/starting-a-session)
