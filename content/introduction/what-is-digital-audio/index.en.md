@@ -36,7 +36,7 @@ membrane travels from its resting point determines the _amplitude_ (the volume,
 or _loudness_) of the sound. Normally, we measure frequency in _Hertz_ (Hz) and
 amplitude in _decibels_ (dB).
 
-![speaker](en/Ardour4_Digital_Audio_2.png)
+![speaker membrane vibration](en/membrane-vibration.svg)
 
 Check out the great animation on this page illustrating this process:
 
