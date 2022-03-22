@@ -1,7 +1,6 @@
 +++
 title = "Overview of the Interface"
 description = "Basics of Ardour's user interface"
-chapter = true
 weight = 2
 #pre = "<b>1. </b>"
 +++
@@ -12,18 +11,16 @@ We will take a look at shared elements of the interface, main windows, and focus
 
 TODO PARTS OF UI ANNOTATED SCREENSHOT
 
-Switching Between Windows
--------------------------
+## Switching Between Windows
 
 You can use the key combination **Alt + M** (**Control + M** on a
 Mac) in order to toggle which window is on top: Editor or Mixer.
 
-Continuing
-----------
+## Continuing
 
-The next chapters will explain basics of main Ardour's windows:
+The next sections will explain basics of main Ardour's windows:
 
-- Editor window
-- Mixer window
-- Recorder window
-- Cue window
+- Editor
+- Mixer
+- Recorder
+- Cue

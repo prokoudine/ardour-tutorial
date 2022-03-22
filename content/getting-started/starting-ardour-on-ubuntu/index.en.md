@@ -2,25 +2,98 @@
 title = "Starting Ardour"
 description = "Launching Ardour"
 chapter = false
-weight = 2
+weight = 1
 #pre = "<b>1. </b>"
 +++
 
-Once you have started Ardour, the **Session Setup** window shows up.
+Ardour supports both Linux, Windows, and macOS. There is very little difference about how it works on all these operating systems. So while this tutorial assumes using Ubuntu Linux, you should expect it to work the same way on other operating systems and Linux flavors.
 
-![Session Setup](en/Ardour6_Session_Setup.png)
+## First-launch wizard
 
-You can click on **New Session** to create a brand new session, or you
-can open an existing session using the **Other Sessions** options. For now let's create a fresh session, so click on **New Session**. The window should now look like the screenshot below.
+When you first start Ardour, it will ask you a few questions to make a basic customization: user interface and font scale (if you have a HiDPI display), default folder where new sessions would be created, preferred way to monitor signal being recorded etc.
+
+{{< figure src="en/gui-and-font-scaling.png" alt="GUI and font scaling" >}}
+
+This dialog will never be shown again, unless you wipe all settings. You can change all the preferences you set there at any time later in the _Preferences_ dialog.
+
+## Create new session
+
+Once you get past the first-launch wizard, Ardour will suggest you create a new _session_ from one of a few available templates.
+
+{{< figure src="en/new-session-templates.png" alt="New session templates" >}}
+
+A session encompasses all the material you have: tracks with audio and MIDI data, effects associated with tracks and busses etc. Thus, a session is essentially a project file from which you can render a mono or a stereo audio file to deliver to a client, use in a video, or upload to a streaming service.
+
+For simplicity's sake let's go with an empty session as shown above.
+
+Ardour will always automatically suggest storing a new session in the default folder that you set at the previous step.
+
+When giving a new session a name, please avoid using any characters other than letters and numbers, like white spaces, accented letters, `!@#$%*()+`, periods, commas, etc. Use dashes or underscores if you like. For example, instead of "My Great Session!", prefer "My_Great_Session", or "MyGreatSession", or "my-great-session". Instead of "Açaí", write "Acai" (without accented letters), etc.
 
 Name your new project and click **Open** .
 
-![New Session](en/Ardour6_Session_Setup_2.png)
+Once you have created your Ardour session, do _not_ manually rename any folders or files that belong to the session. Otherwise, Ardour will fail to locate the files inside those folders and will ask you to point to them.
 
-{{% notice tip %}}
-Avoid using any characters other than letters and numbers when naming your session. Avoid white spaces, accented letters, !@#$%*()+, periods, commas, etc. Use dashes or underscores if you like. For example, instead of "My Great Session!", prefer "My_Great_Session", or "MyGreatSession", or "my-great-session". Instead of "Açaí", write "Acai" (without accented letters), etc. Once you have created your Ardour session, do **not** manually rename any folders or files that belong to the Session.
+{{% notice info %}}
+Once you saved at least one session, the _Session Setup_ dialog will look differently: there will be a list of recently opened sessions and a way to open an existing session that is not on that list.
 {{% /notice %}}
 
+## Choosing an audio system and its settings
+
+At the next step, you will need to choose and configure the _audio system_.
+
+On Linux, you have multiple audio systems (or _backends_) available. _ALSA_ is
+suggested by default. It is currently the recommended way to use Ardour in
+production. With ALSA, there are no convenience wrappers or abstractions. You
+connect to physical audio and MIDI ports directly. This means Ardour will take
+over the audio interface of your choice and won't share it with any other
+applications. As long as Ardour is running, any other desktop applications you
+are running too won't be able to connect to the audio interface and play any
+sound.
+
+{{< figure src="en/alsa-backend-settings.png" alt="Audio/MIDI setup" >}}
+
+The _PulseAudio_ backend currently only supports playback. This means you won't
+be able to record any audio as long as you use PulseAudio, but you can edit,
+mix, and export in e.g. Bluetooth headphones on the go. It's also the most
+convenient option when you want to follow a mixing or mastering tutorial on e.g.
+YouTube and be able to listen to the output from Ardour.
+
+{{< figure src="en/pulse-audio-settings.png" alt="PulseAudio settings" >}}
+
+Finally, there's JACK audio backend. It is designed following a client-server
+architecture pattern. JACK captures all physical ports of an audio interface and
+routes signal between its clients (e.g. a digital audio workstation, a software
+synthesizer, a drum sequencer etc.) and various ports. It is available on both
+Linux, Windows, and macOS.
+
+Today, the use of JACK audio server is discouraged by Ardour developers except
+for particular use cases like sophisticated signal routing. For simple
+multichannel recording your user experience will be vastly better when relying
+on native audio engine available in your operating system, like ALSA on Linux
+and CoreAudio on macOS. If you absolutely need JACK, it's best to start and
+control it from a separate program like
+[Qjackctl](https://qjackctl.sourceforge.io/) or
+[Cadence](https://kx.studio/Applications:Cadence).
+
+Most supported audio systems have a few common settings:
+
+- _Device_ — it's either your built-in sound card, or an external sound card if
+you have one (such as a USB interface).
+- _Sample Rate_ — 48K or 44.1K are common choices.
+- _Buffer Size_ — especially for external USB audio, try picking an option that
+results in a latency that is a multiple of 1ms (4ms, 6ms etc.) to produce less glitches.
+- _Periods_ — it's best to use 2 for a built-in sound card and 3 for an external
+USB audio interface.
+
+Once you've chosen, configured, and started the audio/MIDI backend, Ardour will
+try to discover any new plugins, and then you will be greeted with Ardour's main
+window:
+
+{{< figure src="en/ardour-empty-session.png" alt="Main Ardour window, empty session" >}}
+
 ## Continuing
+
+In the next chapter you'll familiarize yourself with Ardour's user interface and its main windows: Editor, Mixer, Recorder, and Cue.
 
 Next: [Overview of the interface](../overview-of-the-interface)

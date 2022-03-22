@@ -7,3 +7,10 @@ weight = 4
 +++
 
 TODO
+
+## Continuing
+
+Now that you are familiar with main Ardour's windows, let's jump to the next
+section where we create a new track and then import some audio file.
+
+Next: [Creating tracks and busses](../creating-tracks-and-busses)

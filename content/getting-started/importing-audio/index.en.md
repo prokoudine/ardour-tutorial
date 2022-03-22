@@ -137,12 +137,8 @@ not have a proper *Delete* key).
 **Save your work often!** The shortcut "Control" + "S" is your friend. Use it a lot, all the time.
 {{% /notice %}}
 
-Continuing
-----------
+## Continuing
 
-At this point, you may wish to add some new material to your Session by
-**Recording Audio** in the following chapter, or you may want to skip
-directly ahead to the **Editing Sessions** section to learn how to
-arrange the Regions you have Imported into a composition.
+Now that you have some material in your session, you might want customizing the timeline to better suit your needs or jump to recording new material live.
 
-Next: [RECORDING AUDIO](../recording-audio) or [ARRANGING TRACKS](../arranging-tracks)
+Next: [Setting up the timeline](../setting-up-the-timeline) or [Recording audio](../../recording-audio)

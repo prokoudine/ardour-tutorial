@@ -1,7 +1,7 @@
 +++
 title = "Setting up the timeline"
 chapter = false
-weight = 2
+weight = 5
 #pre = "<b>1. </b>"
 +++
 
