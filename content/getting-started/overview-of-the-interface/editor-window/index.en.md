@@ -6,9 +6,6 @@ weight = 1
 #pre = "<b>1. </b>"
 +++
 
-The Editor Window
------------------
-
 When you create a new session, Ardour opens an empty new window called
 the **Editor Window**. The Editor Window is the most important window in
 Ardour, as this is how you will control the program as well as see and
@@ -36,22 +33,21 @@ extensively in dedicated chapters later on.
 
 The **Transport Menu** controls include the following buttons:
 
--   MIDI Panic
--   Enable/Disable audio click (metronome)
--   Rewind
--   Fast forward
--   Loop playback
--   Play range/selection
--   Play from playhead
--   Stop
--   Record-enable 
--   Jog/shuttle controls
+- MIDI Panic
+- Enable/Disable audio click (metronome)
+- Rewind
+- Fast forward
+- Loop playback
+- Play range/selection
+- Play from playhead
+- Stop
+- Record-enable 
+- Jog/shuttle controls
 
 ### Clocks
 
 ![Clocks](en/Ardour6_Clocks.png)
  
-
 The main **Clocks** are located next to the transport controls. Clocks
 in Ardour can display time in 4 different formats: Time Code,
 Bars:Beats, Minutes:Seconds, and Samples. Right-click on the clock to
@@ -71,20 +67,21 @@ the main canvas and the different functions the cursor can have. There
 are three Edit Modes in the drop-down menu: **Slide**, **Ripple**, and **Lock**. To the right of the Smart button are the
 Cursor Modes:
 
--	**Smart Mode** (shortcut *"Y"*)
--   **Grab Mode** (shortcut *"G"*)
--   **Range Mode** (shortcut *"R"*)
--   **Cut Mode** (shortcut *"C"*)
--   **Stretch Mode** (shortcut *"T"*)
--   **Audition Mode**
--   **Draw Mode** (shortcut *"D"*)
--   **Internal Edit Mode** (shortcut *"E"*)
+- **Smart Mode** (shortcut *"Y"*)
+- **Grab Mode** (shortcut *"G"*)
+- **Range Mode** (shortcut *"R"*)
+- **Cut Mode** (shortcut *"C"*)
+- **Stretch Mode** (shortcut *"T"*)
+- **Audition Mode**
+- **Draw Mode** (shortcut *"D"*)
+- **Internal Edit Mode** (shortcut *"E"*)
 
-Most of them are discussed in the **Working With Regions**
-chapter. The last two are discussed in the **Using Automation** chapter.
+Most of them are discussed in the **Working With Regions** chapter. The last two
+are discussed in the **Using Automation** chapter.
 
-The **Smart Mode** is actually a combination of Grab Mode and Range Mode. When enabled, the mouse behaves as if it is in "Range Mode" in the upper half of a region, and in "Grab Mode" in the
-lower half.
+The **Smart Mode** is actually a combination of Grab Mode and Range Mode. When
+enabled, the mouse behaves as if it is in "Range Mode" in the upper half of a
+region, and in "Grab Mode" in the lower half.
 
 ### Snap Options
 
@@ -124,8 +121,7 @@ expand and shrink all tracks and busses vertically. Use the drop-down menu to ch
 For further information on other buttons and displays on the main
 interface, please refer to the [Ardour Manual](http://manual.ardour.org/ "Ardour Manual").
 
-Main Canvas
------------
+## Main Canvas
 
 The main canvas is just below the top rows of controls described above.
 It basically comprises the **Rulers**, the space where **Tracks** and
