@@ -49,4 +49,8 @@ be even more convenient for audio interfaces with e.g. 18 inputs.
 
 ## Continuing
 
+Finally, in the next section we'll take a quick look at the _Cue_ window that is
+new in Ardour 7.0 and provides a familiar user interface to launching audio and
+MIDI clips.
+
 Next: [Cue window](../cue-window)
