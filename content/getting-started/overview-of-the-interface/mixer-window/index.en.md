@@ -9,6 +9,8 @@ weight = 2
 The _Mixer_ window, can be viewed by going to the main menu and clicking
 `Window > Mixer > Show Mixer`. Alternatively, you can press **Alt+M**.
 
+TODO: not just display mixer strips, but control gain and plugins etc.
+
 The main function of the _Mixer_ window is to display all the mixer strips for
 the various tracks and busses side by side for easy reference. This window is
 mainly used during the _mixing_ process. It also provides access to plugins and

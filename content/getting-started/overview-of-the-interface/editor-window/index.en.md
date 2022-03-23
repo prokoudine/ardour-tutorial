@@ -6,78 +6,51 @@ weight = 1
 #pre = "<b>1. </b>"
 +++
 
-When you create a new session, Ardour opens an empty new window called
-the **Editor Window**. The Editor Window is the most important window in
-Ardour, as this is how you will control the program as well as see and
-edit the audio you have recorded or imported.
+When you create a new session, Ardour opens an empty new window called the
+_Editor_ window. The _Editor_ window is the most important window in Ardour, as
+this is how you will control the program as well as see and edit the audio and
+MIDI data you have recorded or imported.
 
-![Empty Session](en/Ardour6_Empty_Session.png)
+Let's take a look at main parts of the Editor window:
 
-At the top of the Editor Window are several main areas: the **Transport
-Menu**, the **Clocks**, the **Edit** **Modes/Cursor Modes** menu, the
-**Snap Mode** menu and the **Auxiliary Controls**. Below that area is
-the Main Canvas, which contains the **Tracks** and **Busses** used in
-the Session. The **Mixer Strips** for the Tracks appear on the left, and
-a set of tabs allowing for an overview of the **Regions**,
-**Tracks/Busses**, **Snapshots**, **Edit Groups** and **Chunks** appear
-on the right. The very bottom of the window is the **Summary** view,
-which is a miniature timeline view allowing for quick navigation through
-the session.
+{{< figure src="en/editor-window-sections.png" alt="Editor window sections" >}}
 
-We will introduce these controls briefly here and cover them more
-extensively in dedicated chapters later on.
+Here they are:
 
-### Transport Menu
+1. Editor-specific toolbar
+2. Timeline
+3. Tracks and busses
+4. Project overview
+5. Editor mixer strip
+6. Regions, Tracks/Busses, Snapshots, Groups, Ranges, Marks
 
-![Transport Menu](en/Ardour6_Transport_Menu.png)
+Let's overview them quickly.
 
-The **Transport Menu** controls include the following buttons:
-
-- MIDI Panic
-- Enable/Disable audio click (metronome)
-- Rewind
-- Fast forward
-- Loop playback
-- Play range/selection
-- Play from playhead
-- Stop
-- Record-enable 
-- Jog/shuttle controls
-
-### Clocks
-
-![Clocks](en/Ardour6_Clocks.png)
- 
-The main **Clocks** are located next to the transport controls. Clocks
-in Ardour can display time in 4 different formats: Time Code,
-Bars:Beats, Minutes:Seconds, and Samples. Right-click on the clock to
-select a format. You can also turn the clock off. The reason for having
-two transport clocks is that it allows you to see the playhead position
-in two different time units without having to change any settings.
-
-Please see the [**Setting Up the Timeline**](../setting-up-the-timeline) chapter for more details on the
-Clocks.
+## Editor-specific toolbar
 
 ### Edit Modes and Cursor Modes
 
 ![Edit Modes](en/Ardour6_Edit_Modes_Cursor_Modes.png)
 
-The **Edit Modes** and **Cursor Modes** controls define the behavior of
-the main canvas and the different functions the cursor can have. There
-are three Edit Modes in the drop-down menu: **Slide**, **Ripple**, and **Lock**. To the right of the Smart button are the
-Cursor Modes:
+TODO RIPPLE ALL + MODES
 
-- **Smart Mode** (shortcut *"Y"*)
-- **Grab Mode** (shortcut *"G"*)
-- **Range Mode** (shortcut *"R"*)
-- **Cut Mode** (shortcut *"C"*)
-- **Stretch Mode** (shortcut *"T"*)
-- **Audition Mode**
-- **Draw Mode** (shortcut *"D"*)
-- **Internal Edit Mode** (shortcut *"E"*)
+The **Edit Modes** and **Cursor Modes** controls define the behavior of the main
+canvas and the different functions the cursor can have. There are three Edit
+modes in the drop-down menu: **Slide**, **Ripple**, and **Lock**. To the right
+of the Smart button are the Cursor Modes:
 
-Most of them are discussed in the **Working With Regions** chapter. The last two
-are discussed in the **Using Automation** chapter.
+- _Smart_ mode (shortcut **Y**)
+- _Grab_ mode (shortcut **G**)
+- _Range_ mode (shortcut **R**)
+- _Cut_ mode (shortcut **C**)
+- _Stretch_ mode (shortcut **T**)
+- _Audition_ mode
+- _Draw_ mode (shortcut **D**)
+- _Internal Edit_ mode (shortcut **E**)
+
+Most of them are discussed in the [Working With
+Regions]](en/editing-sessions/working-with-regions/) chapter. The last two are
+discussed in the **Using Automation** chapter.
 
 The **Smart Mode** is actually a combination of Grab Mode and Range Mode. When
 enabled, the mouse behaves as if it is in "Range Mode" in the upper half of a
@@ -121,15 +94,7 @@ expand and shrink all tracks and busses vertically. Use the drop-down menu to ch
 For further information on other buttons and displays on the main
 interface, please refer to the [Ardour Manual](http://manual.ardour.org/ "Ardour Manual").
 
-## Main Canvas
-
-The main canvas is just below the top rows of controls described above.
-It basically comprises the **Rulers**, the space where **Tracks** and
-**Busses** are displayed, and a **Summary** view at the bottom.
-
-At the very top of Ardour's Editor Window (to the right) you will find useful information such as sample rate of the session, available recording time, and DSP use.
-
-### Rulers
+## Timeline
 
 Right-click on the names of rulers and you will see a menu with all the
 possible rulers at your disposition. You may uncheck rulers that you
@@ -139,7 +104,7 @@ up the Meter** chapters.
 
 ![Ardour Overview Rulers](en/Ardour6_Overview_Rulers.png)
 
-### Tracks and Busses
+## Tracks and Busses
 
 Just below the Rulers is where Tracks and Busses are displayed. In the
 example below, you can see one Bus called "*Master*" and one Track
@@ -150,7 +115,11 @@ or Bus** chapter.
 
 ![Ardour Track](en/Ardour6_Track.png)
 
-### Editor Mixer
+## Project Overview
+
+TODO
+
+## Editor Mixer
 
 The Editor Mixer is located at the left of the Edit Window. It displays
 the **Mixer Strip** of the currently selected Track or Bus. It controls
@@ -161,7 +130,7 @@ This Mixer is covered in the **Using the Mixer Strip** chapter.
 
 ![Editor Mixer](en/Ardour6_Editor_Mixer.png)
 
-### Regions, Tracks/Busses, Snapshots, Groups, Ranges, Marks
+## Regions, Tracks/Busses, Snapshots, Groups, Ranges, Marks
 
 The space on the right of Ardour's Editor Window can have 5 different
 functions, depending on which tab is currently selected: **Regions**,
@@ -175,3 +144,9 @@ chapter. The Tracks tab is covered in the **Arranging Tracks** chapter,
 and Snapshots are discussed in the **Saving Snapshots** chapter.
 
 ![Region List](en/Ardour6_Region_List.png)
+
+## Continuing
+
+Next up is the _Mixer_ window where you control...
+
+Next: [Mixer window](../mixer-window)

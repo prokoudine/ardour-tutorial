@@ -11,6 +11,38 @@ We will take a look at shared elements of the interface, main windows, and focus
 
 TODO PARTS OF UI ANNOTATED SCREENSHOT
 
+### Transport Menu
+
+![Transport Menu](en/Ardour6_Transport_Menu.png)
+
+The **Transport Menu** controls include the following buttons:
+
+- MIDI Panic
+- Enable/Disable audio click (metronome)
+- Rewind
+- Fast forward
+- Loop playback
+- Play range/selection
+- Play from playhead
+- Stop
+- Record-enable 
+- Jog/shuttle controls
+
+### Clocks
+
+![Clocks](en/Ardour6_Clocks.png)
+ 
+The main **Clocks** are located next to the transport controls. Clocks
+in Ardour can display time in 4 different formats: Time Code,
+Bars:Beats, Minutes:Seconds, and Samples. Right-click on the clock to
+select a format. You can also turn the clock off. The reason for having
+two transport clocks is that it allows you to see the playhead position
+in two different time units without having to change any settings.
+
+Please see the [**Setting Up the Timeline**](../setting-up-the-timeline) chapter for more details on the
+Clocks.
+
+
 ## Switching Between Windows
 
 You can use the key combination **Alt + M** (**Control + M** on a
