@@ -5,7 +5,7 @@ weight = 3
 #pre = "<b>1. </b>"
 +++
 
-## What is an Audio track?
+## What is an audio track?
 
 An _audio track_ is a place where you can drag a _region_ from your region
 list and where you can record sounds coming from an outside source.
@@ -18,7 +18,7 @@ contained within *MyTrack*).
 
 ![Tracks](en/Ardour6_Tracks.png) 
 
-## What is a Bus?
+## What is a bus?
 
 A _bus_ is similar to a track except that it does not contain its own regions.
 You cannot record directly into a bus or drag regions into it. However, you
@@ -29,7 +29,7 @@ The area marked _Master_ in your session is an example of a bus. Typically
 every session has a _Master_ bus. All the audio to be exported from your
 session will be sent to the Master Bus.
 
-## How are tracks and busses Used?
+## How are tracks and busses used?
 
 Audio-processing _plugins_ and _automation_ can be applied to both tracks and
 busses.
@@ -85,6 +85,30 @@ configured, and automatically close the Add track window. The tracks you just
 created will appear as new rows in the **Main Canvas**. If you still wanted to
 add more tracks after this step, you could alternatively have chosen **Add
 selected items (and leave dialog open)** instead.
+
+## Other types of tracks and busses
+
+When adding tracks and busses to your project, you'll see more options
+available. Here is a quick overview of them.
+
+**MIDI tracks** are similar to audio tracks: they have regions with MIDI data,
+they can have multiple plugins in a processor box, e.g. a software synthesizer
+or a sampler followed by a delay plugin followed by an EQ plugin.
+
+**MIDI busses** are similar to audio busses, but they can only transform
+incoming MIDI data.
+
+**Foldback busses** are meant for stage monitoring mixes where you might want
+giving each performer a customized mix that goes right into their earpiece.
+E.g. more rhythm section and less brass section in the mix for a solo
+guitarist. [See
+here](https://manual.ardour.org/ardours-interface/foldback-strip/) for more
+details.
+
+**VCA masters** are another way to group tracks. These mixer strips provide
+a single fader for multiple tracks. Please refer to the [user
+manual](https://manual.ardour.org/ardours-interface/control-masters/) for more
+information.
 
 ## Continuing
 
