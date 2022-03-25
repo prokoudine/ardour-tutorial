@@ -1,7 +1,7 @@
 +++
 title = "Arranging tracks"
 chapter = false
-weight = 1
+weight = 2
 #pre = "<b>1. </b>"
 +++
 
