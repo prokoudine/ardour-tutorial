@@ -1,5 +1,5 @@
 +++
-title = "What is non-destructive editing?"
+title = "Non-destructive editing"
 description = "What is non-destructive editing and how does it work in Ardour?"
 chapter = false
 weight = 1
@@ -21,9 +21,11 @@ project file, and then "replay" them when loading that project.
 
 ## How does it work in Ardour?
 
-Here is a quick example. Let's record a short audio clip, cut it in half and then drag the right half to the right creating a gap:
+Here is a quick example. Let's record a short audio clip, cut it in half and
+then drag the right half to the right creating a gap:
 
-{{< figure src="en/non-destructive-editing-cut-move-example.gif" alt="Cutting and moving a audio region" >}}
+{{< figure src="en/non-destructive-editing-cut-move-example.gif" 
+alt="Cutting and moving a audio region" >}}
 
 Here is what actually happens here. Ardour creates a region that references the
 original audio file and uses all of its data, from the first to the last sample.
@@ -35,7 +37,9 @@ and stops at that sample in the middle, and the second region starts at a
 different point in time with that sample in the middle of the original file, and
 then it stops at the last sample of the original file.
 
-You can cut an audio region into as many smaller clips as you like, move them around tracks, change their start/end points, stretch or contract them etc. The original audio file will never change on the disk.
+You can cut an audio region into as many smaller clips as you like, move them
+around tracks, change their start/end points, stretch or contract them etc. The
+original audio file will never change on the disk.
 
 When you save a project, all that information is preserved in the session file.
 When you reopen the session, Ardour reads all these references, loads original
@@ -48,7 +52,8 @@ a new take. For that, you can open the right sidebar by pressing **Shift+L**, go
 to the _Sources_ tab, grab the name of the original audio file of the take, drop
 it on any track and then move it around, cut etc.
 
-{{< figure src="en/non-destructive-editing-redo-all-over-again.gif" alt="Redo the editing all over again" >}}
+{{< figure src="en/non-destructive-editing-redo-all-over-again.gif" 
+alt="Redo the editing all over again" >}}
 
 Moreover, any effects you apply to a track are also non-destructive. Ardour will
 apply them to original audio stream and play the result on-the-fly.
@@ -110,7 +115,7 @@ Ardour to remove unused files physically.
 Now that you are familiar with basics of non-destructive editing, let's do some
 actual arranging and editing.
 
-Next: [Importing audio](../importing-audio)
+Next: [Arranging tracks](../arranging-tracks)
 
 
 <!-- ## Is it Ardours-specific?
