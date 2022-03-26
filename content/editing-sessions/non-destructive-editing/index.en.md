@@ -84,7 +84,7 @@ Consider this generic project. You have here several audio tracks representing
 drums, two audio tracks for bass and solo guitar, and a MIDI track for electric
 piano.
 
-{{< figure src="en/session-example.png" alt="PLACEHOLDER SCREENSHOT" >}}
+{{< figure src="en/session-example.png" alt="Session example" >}}
 
 If you go to the session folder, you'll find there a number of subfolders,
 including these two:

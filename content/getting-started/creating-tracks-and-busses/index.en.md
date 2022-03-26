@@ -42,49 +42,48 @@ you would call '*drum bus*'. Then, if you decide that all your drum tracks are
 too loud, you can quickly adjust the level of the '*drum bus*' rather than
 adjusting each separate track that feeds into it.
 
-Another use of a Bus would be to have a common **Reverberation** plugin, so that
-any audio track which requires the Reverb effect could be routed to a single
-Bus.
+Another use of a Bus would be to have a common reverberation plugin, so that any
+audio track which requires the reverb effect could be routed to a single bus.
 
 ## Adding tracks and busses
 
-Right-Click in the empty area beneath any existing tracks and busses.
-Alternatively, click on the menu *Track > Add track, Bus, or VCA...* (shortcut
+**Right-click** in the empty area beneath any existing tracks and busses.
+Alternatively, click on the menu `Track > Add track, Bus, or VCA...` (shortcut
 **Ctrl + Shift + N**). The following window will appear:
 
 ![Add track](en/Ardour6_Add_Track_or_Bus.png)
 
-**Add** lets you specify how many tracks (or busses) you would to like
-to create.
+Ardour offers different track types depending on the type of data they contain.
+This tutorial will only cover audio tracks and busses. (see the [Ardour
+manual](http://manual.ardour.org/working-with-tracks/track-types/) for details
+on all track types or their brief explanation in a section below).
 
-Choose **Audio tracks** or **Audio busses** to specify whether you want to
-create tracks or busses. There are also other options such as **MIDI track** and
-more. Ardour offers different track types depending on the type of data they
-contain. This tutorial will only cover Audio tracks and busses. (see the [Ardour
-Manual](http://manual.ardour.org/working-with-tracks/track-types/) for details
-on all track types)
+Choose _Audio tracks_ or _Audio busses_ to specify whether you want to create
+tracks or busses.
 
-You can optionally give a **Name** to the track or Bus being created.
-The **Configuration** drop-down menu allows you to specify how many
-channels of audio you'd like the new track or Bus to handle. For
-example, if you will be recording your voice on this track using a
-single microphone, choose **Mono**. If you plan to import a clip from an
-existing song and place it on this track, choose **Stereo**. The choice
-made here will also affect which plugins you can use on the track (Mono
-tracks cannot use Stereo plugins and vice versa).
+The _Add_ numeric input box lets you specify how many tracks (or busses) you would
+to like to create.
 
-The **Position** menu lets you choose where you want the new track or bus to be
+You can optionally give a _Name_ to the track or bus being created. The
+_Configuration_ drop-down menu allows you to specify how many channels of audio
+you'd like the new track or Bus to handle. For example, if you will be recording
+your voice on this track using a single microphone, choose _Mono_. If you plan
+to import a clip from an existing song and place it on this track, choose
+_Stereo_. The choice made here will also affect which plugins you can use on the
+track (mono tracks cannot use stereo plugins and vice versa).
+
+The _Position_ menu lets you choose where you want the new track or bus to be
 placed: first, last, before or after the selection.
 
 You can safely ignore the other options for now. To learn more about each of
 them, please check [this page of the complete Ardour
-Manual](http://manual.ardour.org/working-with-tracks/adding-tracks-and-busses/).
+manual](http://manual.ardour.org/working-with-tracks/adding-tracks-and-busses/).
 
 Click the **Add and Close** button to create the tracks or busses you have just
-configured, and automatically close the Add track window. The tracks you just
-created will appear as new rows in the **Main Canvas**. If you still wanted to
-add more tracks after this step, you could alternatively have chosen **Add
-selected items (and leave dialog open)** instead.
+configured, and automatically close the _Add Track_ window. The tracks you just
+created will appear as new rows in the main canvas. If you want to add multiple
+tracks with different configuration, opt for **Add selected items (and leave
+dialog open)** instead.
 
 ## Other types of tracks and busses
 
