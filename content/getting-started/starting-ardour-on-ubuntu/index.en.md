@@ -83,8 +83,9 @@ you have one (such as a USB interface).
 - _Sample Rate_ — 48K or 44.1K are common choices.
 - _Buffer Size_ — especially for external USB audio, try picking an option that
 results in a latency that is a multiple of 1ms (4ms, 6ms etc.) to produce less glitches.
-- _Periods_ — it's best to use 2 for a built-in sound card and 3 for an external
-USB audio interface.
+- _Periods_ — it's often suggested to use 3 for an external USB audio interface,
+but you should see if you can get a multiple of 1ms with 3 or if you should dial
+back to 2.
 
 Once you've chosen, configured, and started the audio/MIDI backend, Ardour will
 try to discover any new plugins, and then you will be greeted with Ardour's main
