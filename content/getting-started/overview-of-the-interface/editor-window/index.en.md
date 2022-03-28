@@ -8,10 +8,10 @@ weight = 1
 
 When you create a new session, Ardour opens an empty new window called the
 _Editor_ window. The _Editor_ window is the most important window in Ardour, as
-this is how you will control the program as well as see and edit the audio and
-MIDI data you have recorded or imported.
+this is where you arrange track, import and edit media on the timeline, and
+control plugin automation for creative effects and mixing.
 
-Let's take a look at main parts of the Editor window:
+Let's take a look at main parts of the _Editor_ window:
 
 {{< figure src="en/editor-window-sections.png" alt="Editor window sections" >}}
 
@@ -30,69 +30,67 @@ Let's overview them quickly.
 
 ### Edit Modes and Cursor Modes
 
-![Edit Modes](en/Ardour6_Edit_Modes_Cursor_Modes.png)
+![Edit Modes](en/ardour7-edit-modes-cursor-modes.png)
 
-TODO RIPPLE ALL + MODES
+The _Edit Modes_ and _Cursor Modes_ controls define the behavior of the main
+canvas and the different functions the cursor can have. There are three edit
+modes in the drop-down menu: _Slide_, _Ripple_, and _Lock_. We will discuss them
+in the [Editing sessions](../../../editing-sessions/) chapter.
 
-The **Edit Modes** and **Cursor Modes** controls define the behavior of the main
-canvas and the different functions the cursor can have. There are three Edit
-modes in the drop-down menu: **Slide**, **Ripple**, and **Lock**. To the right
-of the Smart button are the Cursor Modes:
+To the right of the **Smart** button are the _Cursor Modes_:
 
-- _Smart_ mode (shortcut **Y**)
-- _Grab_ mode (shortcut **G**)
-- _Range_ mode (shortcut **R**)
-- _Cut_ mode (shortcut **C**)
-- _Stretch_ mode (shortcut **T**)
+- _Smart_ mode (**Y** shortcut)
+- _Grab_ mode (**G** shortcut)
+- _Range_ mode (**R** shortcut)
+- _Cut_ mode (**C** shortcut)
+- _Stretch_ mode (**T** shortcut)
 - _Audition_ mode
-- _Draw_ mode (shortcut **D**)
-- _Internal Edit_ mode (shortcut **E**)
+- _Draw_ mode (**D** shortcut)
+- _Internal Edit_ mode (**E** shortcut)
 
 Most of them are discussed in the [Working With
-Regions]](en/editing-sessions/working-with-regions/) chapter. The last two are
+Regions](../../../editing-sessions/working-with-regions/) section. The last two are
 discussed in the **Using Automation** chapter.
 
-The **Smart Mode** is actually a combination of Grab Mode and Range Mode. When
-enabled, the mouse behaves as if it is in "Range Mode" in the upper half of a
-region, and in "Grab Mode" in the lower half.
+The _Smart_ mode is actually a combination of _Grab_ mode and _Range_ mode. When
+enabled, the mouse behaves as if it is in _Range_ mode in the upper half of a
+region, and in _Grab_ mode in the lower half.
 
 ### Snap Options
 
-![Snap](en/Ardour6_Snap_Options_and_Nudge_Controls.png)
+![Snap](en/ardour7-snap-options-and-nudge-controls.png)
 
-The **Snap Options** menu controls the **Grid**, **Grid Points** and
-**Edit Point**. Please see the chapters on **Setting Up the Meter**,
-**Using Ranges** and **Working With Regions** for more details.
+The _Snap Options_ toolbar allows selecting visible grid units that affect
+snapping when editing regions and, in case of MIDI regions, their contents.
+Please see the sections on
+[Setting Up the Meter](../../../editing-sessions/setting-up-the-meter/),
+[Using Ranges](../../../editing-sessions/using-ranges/) and
+[Working With Regions](../../../editing-sessions/working-with-regions/) for more
+details.
 
-### Zoom Options
+### Track View and Zoom Options
 
-![Zoom Options](en/Ardour6_Zoom_Options.png)
+![Zoom Options](en/ardour7-view-and-zoom-options.png)
 
-In between **Cursor Modes** and **Snap Options** are the **Zoom
-Options**. Here you can define the behavior of zooming operations. You
-have standard **Zoom In** and **Zoom Out** buttons, plus a third called
-**Zoom to Session** (useful for having a quick overview of your entire
-session: it zooms it to fit the available space on the screen).
+The far right part of the toolbar has track view and zoom options.
+
+Track view options allow selecxting how many tracks to display at the same time,
+and you can also shrink or expand the vertical zoom of selected tracks and
+busses.
+
+Zoom options allow incrementally zooming in and out, as well as zooming out to
+show the entire project horizontally.
 
 {{% notice tip %}}
 Use the shortcuts **=** (the equal sign on your main keyboard) for zooming, and
 **-** (the dash key on your main keyboard) for zooming out.
 {{% /notice %}}
 
-The drop-down menu controls the **Zoom Focus**. It defines the focus
-point of zooming operations. Try zooming in and out
-with a different Zoom Focus each time. For example, choosing Playhead
-will cause zoom to behave in relation to the position of the
-Playhead. Mouse will take your current mouse position as the reference,
-and so on.
-
-The following drop-down menu and the last two buttons control "vertical zoom." They allow you to
-expand and shrink all tracks and busses vertically. Use the drop-down menu to choose a specific number of tracks you want to fit on the screen. Use the buttons to shrink or expand all tracks (or only selected tracks, if a selection is made).
-
-### Auxiliary Controls
-
-For further information on other buttons and displays on the main
-interface, please refer to the [Ardour Manual](http://manual.ardour.org/ "Ardour Manual").
+The drop-down menu controls the _zoom focus_. It defines the focus point of
+zooming operations. Try zooming in and out with a different zoom focus each
+time. For example, choosing _Playhead_ will cause zoom to behave in relation to
+the position of the _Playhead_. _Mouse_ will take your current mouse position as
+the reference, and so on.
 
 ## Timeline
 

@@ -32,7 +32,7 @@ immediate use to you.
 ## Program's menu
 
 This is a fairly straightforward way of accessing features in any program, you
-shouldn't have any problems navigating it. Session-specific comands are in the
+shouldn't have any problems navigating it. Session-specific commands are in the
 _Session_ menu, everything that is related to playing and recording is in the
 _Transport_ menu, most editing features are in _Edit_ and so on.
 
@@ -68,7 +68,7 @@ forward at various speed while playing back the contents of the session.
 
 In case you want the transport panel sans jog-shuttle controls somewhere else on
 the screen, you can open a floating window called _Transport Controls_
-(`Window > Transport Conttrols`). You can move this window anywhere on the
+(`Window > Transport Controls`). You can move this window anywhere on the
 screen and resize it.
 
 ## Clocks
@@ -112,9 +112,10 @@ major Ardour windows — Editor, Mixer, Recorder, and Cue.
 
 {{< figure src="en/ardour7-window-switcher.png" alt="Window switcher" >}}
 
-You can also use shortcuts to switch between _Editor_ and _Mixer_ windows,
-**Alt+E** and **Alt+M** respectively. For the _Recorder_ and _Cue_ windows you
-can setup your own shortcuts.
+You can also use the **Alt+M** shortcut to switch between _Editor_ and _Mixer_
+windows. If you are currently in either _Recorder_ or _Cue_ window, pressing
+that shortcut for the first time will take you to the _Mixer_ window, and the
+another one will take you to the _Editor_ window.
 
 ## Continuing
 
