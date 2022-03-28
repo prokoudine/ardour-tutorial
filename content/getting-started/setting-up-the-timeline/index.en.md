@@ -37,17 +37,8 @@ If you never need the second clock, you can disable it entirely. Go to
 `Edit > Preferences > Appearance > Toolbar` and disable the _Display Secondary
 Clock_ checkbox.
 
-To the right of these two clocks you can see the _mini-timeline_, also called
-_Navigation Timeline_. It's a convenient way to be reminded of cues and location
-markers, especially when you are in the _Recorder_ window where the timeline
-doesn't have those rulers.
-
-{{< figure src="en/ardour7-navigation-timeline.png" alt="Navigation timeline" >}}
-
-Check the Ardour manual for more information on
-[clocks](http://manual.ardour.org/ardours-interface/using-ardour-clock-displays/)
-and the
-[mini-timeline](https://manual.ardour.org/ardours-interface/mini-timeline/).
+Please check the Ardour manual for more information on
+[clocks](http://manual.ardour.org/ardours-interface/using-ardour-clock-displays/).
 
 ## Snap Modes
 
