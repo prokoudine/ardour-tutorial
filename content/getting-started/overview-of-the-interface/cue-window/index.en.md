@@ -34,7 +34,7 @@ You can set up your clip launchers in a way that a clip in a scene B will play 4
 
 ## Combining linear and non-linear workflows
 
-While you can play an entire song live without ever getting out of the _Cue_ window — especially when you have a hardware grid controller and all pre-recorded clips you might need — you can integrate clip launchers into regular linear workflow in the _Editor_ window.
+While you can play an entire song live without ever getting out of the _Cue_ window — especially when you have a hardware grid controller and all pre-recorded clips you might need — you can integrate clip launchers into regular linear workflow in the _Editor_ window. To do that, you need to add markers in the _Cue Markers_ timeline.
 
 Here is a simple example of that:
 
