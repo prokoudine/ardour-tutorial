@@ -30,7 +30,7 @@ Settings below allow customizing how a clip is played, whether it is stretched t
 
 Working with clip launchers is commonly referred to as non-linear workflow, because it is based on looped playback of pre-recorded clips where you don't have to go from scene A to scene H directly.
 
-You can set up your clip launchers in a way that a clip in a scene B will play 4 times, trigger a clip in scene A that will play 2 times, then jump to clip C and play it 6 times, then go back to clip B, which will repeat the entire cycle again and again until you stop it manually. And all that without ever pressing the **Play** button in the transport to play a song from start to finish.
+You can set up your clip launchers in a way that a clip in scene _B_ will play 4 times, trigger a clip in scene _A_ that will play 2 times, then jump to clip _C_ and play it 6 times, then go back to clip _B_, which will repeat the entire cycle again and again until you stop it manually. And all that without ever pressing the **Play** button in the transport to play a song from start to finish.
 
 ## Combining linear and non-linear workflows
 
@@ -40,7 +40,7 @@ Here is a simple example of that:
 
 {{< figure src="en/ardour7-linear-and-nonlinear.png" alt="Combining linear and non-linear workflow" >}}
 
-Ardour plays two bars of a regular MIDI track that uses a sampled instrument, then launches scene A at bar 3, scene B at bar 4, and stops all scenes at bar 5. You can trigger and stop scenes at any time in your otherwise linear project, as many times as you like.
+Ardour plays two bars of a regular MIDI track that uses a sampled instrument, then launches scene _A_ at bar 3, scene _B_ at bar 4, and stops all scenes at bar 5. You can trigger and stop scenes at any time in your otherwise linear project, as many times as you like.
 
 ## Continuing
 
