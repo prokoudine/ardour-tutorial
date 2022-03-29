@@ -97,25 +97,37 @@ the reference, and so on.
 Right-click on the names of rulers and you will see a menu with all the
 possible rulers at your disposition. You may uncheck rulers that you
 don't need in order to save screen space. More information on these
-operations can be found in the **Setting up the Timeline** and **Setting
-up the Meter** chapters.
+operations can be found in the
+[Setting up the Timeline](../../setting-up-the-timeline/) and
+[Setting Up the Meter](../../../editing-sessions/setting-up-the-meter/) chapters.
 
 ![Ardour Overview Rulers](en/Ardour6_Overview_Rulers.png)
 
 ## Tracks and Busses
 
-Just below the Rulers is where Tracks and Busses are displayed. In the
-example below, you can see one Bus called "*Master*" and one Track
-called "*MyTrack*". MyTrack also contains one region, which
-represents an audio file with a drawing of its waveform. More
-information on Tracks and Busses can be found in the **Creating a Track
-or Bus** chapter.
+Just below the rulers is where tracks and busses are displayed. In the example
+below, you can see one bus called _Master_ and one track called _MyTrack_.
+_MyTrack_ also contains one region which represents an audio file with a drawing
+of its waveform. More information on tracks and busses can be found in the
+[Creating a Track or Bus](../../creating-tracks-and-busses/) chapter.
 
 ![Ardour Track](en/Ardour6_Track.png)
 
 ## Project Overview
 
-TODO
+This is a bird's-eye view of the entire session.
+
+{{< figure src="en/ardour7-overview-panel.png" alt="Project overview" >}}
+
+ There are two major use cases
+here:
+
+1. Navigating around the project. Just grab the rectangle and drag it around to
+pan over the entire project.
+
+2. Tweaking zoom and position of the visible part of the project. Grab any part
+of the visible rectangle's border and drag it inwards or outwards to zoom in or
+out respectively.
 
 ## Editor Mixer
 
@@ -126,7 +138,7 @@ corresponds. You can toggle to view or hide the Editor Mixer by clicking
 on the menu *View* > *Show Editor Mixer* (shortcut *"Shift"* + *"E"*).
 This Mixer is covered in the **Using the Mixer Strip** chapter.
 
-![Editor Mixer](en/Ardour6_Editor_Mixer.png)
+{{< figure src="en/Ardour6_Editor_Mixer.png" alt="Editor Mixer" height="50" >}}
 
 ## Regions, Tracks/Busses, Snapshots, Groups, Ranges, Marks
 
