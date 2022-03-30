@@ -49,8 +49,8 @@ To the right of the **Smart** button are the _Cursor Modes_:
 - _Internal Edit_ mode (**E** shortcut)
 
 Most of them are discussed in the [Working With
-Regions](../../../editing-sessions/working-with-regions/) section. The last two are
-discussed in the **Using Automation** chapter.
+Regions](../../../editing-sessions/working-with-regions/) section. The last two
+are discussed in the **Using Automation** chapter.
 
 The _Smart_ mode is actually a combination of _Grab_ mode and _Range_ mode. When
 enabled, the mouse behaves as if it is in _Range_ mode in the upper half of a
@@ -62,6 +62,11 @@ region, and in _Grab_ mode in the lower half.
 
 The _Snap Options_ toolbar allows selecting visible grid units that affect
 snapping when editing regions and, in case of MIDI regions, their contents.
+
+Here is a comparison between 1 bar grid, 1/8 note grid and 1/32 note grid:
+
+![1-bar grid, 1/8 note and 1/32 note grid](en/ardour7-snapping-1-bar-to-1-32-note.png)
+
 Please see the sections on
 [Setting Up the Meter](../../../editing-sessions/setting-up-the-meter/),
 [Using Ranges](../../../editing-sessions/using-ranges/) and
@@ -74,7 +79,7 @@ details.
 
 The far right part of the toolbar has track view and zoom options.
 
-Track view options allow selecxting how many tracks to display at the same time,
+Track view options allow selecting how many tracks to display at the same time,
 and you can also shrink or expand the vertical zoom of selected tracks and
 busses.
 
@@ -94,12 +99,11 @@ the reference, and so on.
 
 ## Timeline
 
-Right-click on the names of rulers and you will see a menu with all the
-possible rulers at your disposition. You may uncheck rulers that you
-don't need in order to save screen space. More information on these
-operations can be found in the
-[Setting up the Timeline](../../setting-up-the-timeline/) and
-[Setting Up the Meter](../../../editing-sessions/setting-up-the-meter/) chapters.
+Right-click on the names of rulers and you will see a menu with all the possible
+rulers at your disposition. You may uncheck rulers that you don't need in order
+to save screen space. More information on these operations can be found in the
+[Setting up the Timeline](../../setting-up-the-timeline/) and [Setting Up the
+Meter](../../../editing-sessions/setting-up-the-meter/) chapters.
 
 ![Ardour Overview Rulers](en/Ardour6_Overview_Rulers.png)
 
@@ -151,19 +155,21 @@ Marks_.
 
 - _Tracks & Busses_ provides an overview of all tracks and busses in the
 project, including the invisible ones. This tab is covered in the
-_Arranging Tracks_ chapter
+[Arranging Tracks](../../../editing-sessions/arranging-tracks/) chapter
 - _Sources_ lists all files on the disk imported to the session.
 - _Regions_ is a list of all takes in the session. You can reuse both sources
-and regions by dragging them onto the canvas. More information on Regions can be
-found in the _Working With Regions_ chapter.
+and regions by dragging them onto the canvas. You'll find more information on
+regions in the [Working With
+Regions](../../../editing-sessions/working-with-regions/) chapter.
 - _Snapshots_ are versions of the same session saved at particular moments in
-time, they are discussed in the _Saving Snapshots_ chapter.
+time, they are discussed in the [Saving a
+Snapshot](../../../saving-sessions/saving-a-snapshot/) chapter.
 - _Ranges and Marks_ is an overview of all markers in the project, with an easy
-UI to edit them.
+user interface to edit them.
 
 ## Continuing
 
-Next up is the _Mixer_ window where you focus on how the mix of different
-insruments sounds together.
+Next up is the _Mixer_ window where you focus on making instruments stand out in
+a song.
 
 Next: [Mixer window](../mixer-window)
