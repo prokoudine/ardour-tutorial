@@ -119,44 +119,51 @@ This is a bird's-eye view of the entire session.
 
 {{< figure src="en/ardour7-overview-panel.png" alt="Project overview" >}}
 
- There are two major use cases
-here:
+There are two major use cases here:
 
 1. Navigating around the project. Just grab the rectangle and drag it around to
 pan over the entire project.
 
-2. Tweaking zoom and position of the visible part of the project. Grab any part
-of the visible rectangle's border and drag it inwards or outwards to zoom in or
-out respectively.
+2. Tweaking zoom and position of the visible part of the project. Grab the left
+or the right side of the visible rectangle's border and drag it inwards or
+outwards to zoom in or out respectively.
 
 ## Editor Mixer
 
-The Editor Mixer is located at the left of the Edit Window. It displays
-the **Mixer Strip** of the currently selected Track or Bus. It controls
-the volume, Plugins and Routing for the Track or Bus to which it
-corresponds. You can toggle to view or hide the Editor Mixer by clicking
-on the menu *View* > *Show Editor Mixer* (shortcut *"Shift"* + *"E"*).
-This Mixer is covered in the **Using the Mixer Strip** chapter.
+The Editor Mixer is located at the left of the _Editor_ window. It displays the
+mixer strip of the currently selected track or bus. It's mainly used to control
+the volume, plugins, and routing for the track or the bus to which it
+corresponds. You can toggle to view or hide the _Editor Mixer_ by clicking on
+the menu `View > Show Editor Mixer` (**Shift + E** shortcut). This Mixer is
+covered in the [Using the Mixer Strip](../mixing-sessions/the-mixer-strip/)
+chapter.
 
-{{< figure src="en/Ardour6_Editor_Mixer.png" alt="Editor Mixer" height="50" >}}
+{{< figure src="en/Ardour6_Editor_Mixer.png" alt="Editor Mixer" height="50%" >}}
 
-## Regions, Tracks/Busses, Snapshots, Groups, Ranges, Marks
+## Editor List
 
-The space on the right of Ardour's Editor Window can have 5 different
-functions, depending on which tab is currently selected: **Regions**,
-**Tracks/Busses**, **Snapshots**, **Track & Bus Groups**, and **Ranges
-and Marks**. Regions is the tab selected by default. This part of the
-Editor Window is commonly referred to as **Regions List**. Regions
-represent audio files stored on the hard drive which can be dragged from
-the Regions List directly onto a track in the main canvas. More
-information on Regions can be found in the **Working With Regions**
-chapter. The Tracks tab is covered in the **Arranging Tracks** chapter,
-and Snapshots are discussed in the **Saving Snapshots** chapter.
+The space on the right of Ardour's _Editor_ window can have 7 different
+functions, depending on which tab is currently selected: _Tracks & Busses_,
+_Sources_, _Regions_, _Clips_, _Snapshots_, _Track & Bus Groups_, and _Ranges &
+Marks_.
 
-![Region List](en/Ardour6_Region_List.png)
+![Sources List](en/ardour7-sources-list.png)
+
+- _Tracks & Busses_ provides an overview of all tracks and busses in the
+project, including the invisible ones. This tab is covered in the
+_Arranging Tracks_ chapter
+- _Sources_ lists all files on the disk imported to the session.
+- _Regions_ is a list of all takes in the session. You can reuse both sources
+and regions by dragging them onto the canvas. More information on Regions can be
+found in the _Working With Regions_ chapter.
+- _Snapshots_ are versions of the same session saved at particular moments in
+time, they are discussed in the _Saving Snapshots_ chapter.
+- _Ranges and Marks_ is an overview of all markers in the project, with an easy
+UI to edit them.
 
 ## Continuing
 
-Next up is the _Mixer_ window where you control...
+Next up is the _Mixer_ window where you focus on how the mix of different
+insruments sounds together.
 
 Next: [Mixer window](../mixer-window)
