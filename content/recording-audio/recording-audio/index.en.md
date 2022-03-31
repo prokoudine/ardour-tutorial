@@ -113,66 +113,62 @@ pressing the space bar) will stop recording.
 
 ![Recording](en/ardour7-recording.png) 
 
-While recording, the armed Track will capture the sounds from the input.
-Any existing sound on other tracks will play normally during the
-recording. This allows you to play, sing or speak along with other
-Regions and Tracks you have already recorded or embedded in your
-Session.
+While recording, the armed track will capture the sounds from the input. Any
+existing sound on other tracks will play normally during the recording. This
+allows you to play, sing or speak along with other regions and tracks you have
+already recorded or embedded in your session.
 
-While recording, you will be able to see the **Levels** (the amplitude
-in Decibels) of the incoming sound, as well as see the **Peaks** of the
-**Waveform** appearing as it is recorded.
+While recording, you will be able to see the _levels_ (the amplitude in
+decibels) of the incoming sound, as well as see the _peaks_ of the _waveform_
+appearing as it is recorded.
 
 ### Avoid Clipping
 
-The audio in the screenshot below was recorded too loud and produced
-**Clipping** (in other words, the signal recorded was outside the bounds
-of what could be represented digitally), which results in a loss of
-information and audible distortion. The clipped peaks in the waveform
-are marked in red.
+The audio in the screenshot below was recorded too loud and produced _clipping_
+(in other words, the signal recorded was outside the bounds of what could be
+represented digitally), which results in a loss of information and audible
+distortion. The clipped peaks in the waveform are marked in red.
 
 ![Clipping](en/ardour7-clipping.png) 
 
-The best and easiest way to avoid Clipping is have some control over the
-volume of the incoming audio signal before it gets to the sound card.
-For example, you can can move the microphone further away from the sound
-being recorded or use a mixer to reduce the volume of the incoming
-signal. 
+The best and easiest way to avoid clipping is have some control over the volume
+of the incoming audio signal before it gets to the sound card. For example, you
+can can move the microphone further away from the sound being recorded or use a
+mixer to reduce the volume of the incoming signal. 
 
-When the audio signal has been recorded within proper limits, you should
-see no red Peaks, and the level meter should show a negative number as
-maximum peak (for example, a maximum peak of around −3.0 Decibels allows
-for a comfortable distance from the Clipping Point.)
+When the audio signal has been recorded within proper limits, you should see no
+red peaks, and the level meter should show a negative number as maximum peak
+(for example, a maximum peak of around −3.0 decibels allows for a comfortable
+distance from the clipping point.)
 
-The range of decibels between the region's maximum Peak and the Clipping
-Point is commonly referred to as **Headroom**. It is common recording
-practice to keep approximately three to six Decibels of Headroom between
-the maximum of your signal and the Clipping Point, with the Clipping
-Point itself being represented as 0dB (zero Decibels). In other words,
-an audio region with a comfortable amount of Headroom would have its
-maximum Peaks between −6dB and −3dB.
+The range of decibels between the region's maximum peak and the clipping point
+is commonly referred to as _headroom_. It is common recording practice to keep
+approximately three to six decibels of headroom between the maximum of your
+signal and the clipping point, with the clipping point itself being represented
+as 0dB (zero decibels). In other words, an audio region with a comfortable
+amount of headroom would have its maximum peaks between −6dB and −3dB.
 
 ### Region List
 
-Recorded audio appears as a new Region in the recording Track. Like all
-Regions, this newly recorded one will be available in the Region List,
-from where you can drag-and-drop it into other Tracks if needed.
+Recorded audio appears as a new region in the recording track. Like all regions,
+this newly recorded one will be available in the _Regions_ list, from where you
+can drag-and-drop it into other tracks if needed.
 
-The Region you just recorded will automatically receive the name of the
-Track where it was recorded, with different takes being automatically
-numbered. In the screenshot below, "*Audio 1-1*" and "*Audio 1-2*"
-represent two different recordings made on a track named "*Audio 1*". 
+The region you just recorded will automatically receive the name of the track
+where it was recorded, with different takes being automatically numbered. In the
+screenshot below, "*Audio 1-1*" and "*Audio 1-2*" represent two different
+recordings made on a track named "*Audio 1*". 
 
 ![Region List Rec](en/ardour7-region-list-recording.png)
 
-You might want to plan ahead and organize your recording Session by
-giving appropriate names to different tracks. For example, a Track used
-only for recording vocals can be named "Voice". This way, recorded sound
-files will be named accordingly, and different takes will appear in the
-Regions List identified as "Voice-1", "Voice-2", etc, rather than the
-default generic names, such as "Audio 1".
+You might want to plan ahead and organize your recording session by giving
+appropriate names to different tracks. For example, a track used only for
+recording vocals can be named "Voice". This way, recorded sound files will be
+named accordingly, and different takes will appear in the _Regions_ list
+identified as "Voice-1", "Voice-2", etc, rather than the default generic names,
+such as "Audio 1".
 
-To rename a Track, just double-click on its name (before you arm the track to
+To rename a track, just double-click on its name (before you arm the track to
 record) and type in the new name.
 
 ![Rename Track](en/ardour7-rename-track.png) 
