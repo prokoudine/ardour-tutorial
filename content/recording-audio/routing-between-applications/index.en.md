@@ -5,64 +5,43 @@ weight = 7
 #pre = "<b>1. </b>"
 +++
 
-Sometimes you may need to record the audio output of another program into Ardour (for example, the sound of a 
-YouTube video playing in Firefox, or the output of SuperCollider or PureData). This chapter shows how to accomplish that.
+Sometimes you may need to record the audio output of another program into
+Ardour, e.g. the sound of a YouTube video playing in Firefox, or the output of
+SuperCollider or PureData. This chapter shows how to accomplish that.
 
-The examples on this page were created on a computer running Ubuntu
-Linux. Beware that things may work differently if you are on another OS
-(in particular if you are using a Mac, in which case you will be using
-JackPilot). The general principles are always the same, though.
+The examples on this page were created on a computer running Ubuntu Linux.
+Beware that things may work differently if you are on another OS (in particular
+if you are using a Mac). The general principles are always the same, though.
 
 ### From your browser to Ardour
 
-Web browsers (Firefox, Chromium, etc) are not JACK-aware applications.
-Luckily, systems such as KXStudio and UbuntuStudio come with a bridge
-application between regular system audio (like PulseAudio) and JACK. This
-tutorial assumes you are using a computer with this bridge already
-running and working.
+Web browsers (Firefox, Chromium, etc.) are not JACK-aware applications.
+Fortunately, PipeWire now makes it fairly easy to connect any application that
+makes sounds to any JACK-aware recording application such as Ardour.
 
-The overall steps to record audio from YouTube (or any other sound
-coming from your browser) into Ardour are: 
+All you have to do is launch Qjackctl, start JACK, then start making sounds in
+the browser, then connect browser's outputs to a track in Ardour. You can use
+either Connections or Graph windows in Qjackctl to do that, or you can do it
+directly in Ardour. For that, in the Audio Connection Manager manager switch to
+the _Other_ tab in _Sources_ on the left and connect your browser's output to an
+Ardour track that is called _From YT_ here:
 
-1.  Create a Stereo Track in Ardour
-2.  Disconnect Hardware sources from Track inputs
-3.  Connect PulseAudio Jack Sink to Track inputs
-4.  Start recording into the Track
-5.  Start playing the YouTube video 
+{{< figure src="en/ardour7-youtube-connection-in-ardour.png" alt="" >}}
 
-For this example, a new session was created with a new Stereo Track
-named "*Firefox*":
+As applications like web browsers do not usually have persistent audio output
+ports, you do need to make your browser output some audio for the ports to be
+created. That usually means playing a video or starting a videoconference.
 
-![YouTube 1](en/Ardour4_YouTube_1.png)
+After that, all you have to do is arm the track for recording, then start
+recording:
 
-Then we select the Track and click on the Inputs button on the Editor
-Mixer strip. In the screenshot above, it's the button just below the track name ("*Firefox*") in the Editor Mixer
-strip (it shows only a "-" (dash)in the example above, meaning that there are no connections made yet). We are presented with the Patchbay window specific to that
-Track's inputs.
+{{< figure src="en/ardour7-youtube-recording.png" alt="" >}}
 
-First thing to do is to disconnect any microphone inputs from that track
-("*system capture*"), if any. After disconnecting, this part of matrix
-for the "*Firefox*" Track should look like this (no green dots):
-
-![YT 2](en/Ardour4_YouTube_2.png) 
-
-Next step is to change tabs in this same window. Choose "*Other*" as the
-source. This is where you will find other running applications that can
-be sound sources to Ardour. On a Linux computer with PulseAudio Jack
-bridge, you will see "*PulseAudio JACK Sink*" as a source. Click on the
-appropriate empty squares to create connections (green dots) between
-"*front-left*" and "*front-right*" to the Left and Right inputs of the
-"*Firefox*" Track. It should eventually look like this: 
-
-![YT 3](en/Ardour4_YouTube_3.png) 
-
-Now you are ready to go. Simply follow the same recording procedures
-explained in the **Recording Audio** chapter: record-enable (arm) the
-Track (small red circle on the track), arm Ardour to record (big red
-button; it starts blinking), then hit the Play button. Go back to your
-browser and start playing the YouTube video.
-
-![YT 4](en/Ardour4_YouTube_4.png) 
+{{% notice info %}}
+Please make sure you disconnected all other outputs (such as a mic) from the
+track's input, otherwise your track might catch more than you wanted and mix it
+with the audio from your browser. 
+{{% /notice %}}
 
 ### From JACK-aware applications to Ardour
 
@@ -72,28 +51,28 @@ destination options in Ardour's Audio Connection Manager. You don't need
 to worry about any PulseAudio / Jack bridge as in the YouTube example
 above.
 
-The procedure is essentially the same: create a Mono or Stereo Track to
-record the audio, set that Track's inputs to the desired source, and
+The procedure is essentially the same: create a mono or stereo track to
+record the audio, set that track's inputs to the desired source, and
 record as usual. 
 
-![Hydrogen](en/Ardour4_Hydrogen.png) 
+![Hydrogen](en/ardour7-hydrogen.png) 
 
-The screenshot above was taken while recording a drum pattern from
-Hydrogen directly into an Ardour track named "*from Hydrogen*".
-Hydrogen's window is on the right. Ardour's Patchbay window was left
-open for demonstration: notice that the application "*Hydrogen*" shows
-up as a source under the "*Other*" tab. It is connected directly to the
-inputs of the track. Also notice that SuperCollider (another jack-aware
-application) happened to be open at the same time, though its window is
-not visible in this screenshot. SuperCollider provides 8 default sound
-outputs, all of which show up as potential sources in Ardour's Patchbay.
+The screenshot above was taken while recording a drum pattern from Hydrogen
+directly into an Ardour tracks named _Drum N_ where N is a number from 1 to 18.
+By default, Hydrogen creates a stereo output from its own mix. However you tell
+it to create per-instrument output ports instead (the checkbox is on the _Audio
+System_ page of the _Preferences_ dialog).
 
+Hydrogen's window is on the right. Ardour's patchbay window was left open for
+demonstration: notice that the application _Hydrogen_ shows up as a source
+under the _Other_ tab. Its ports are connected directly to the inputs of the
+tracks.
 
-Continuing
-----------
+## Continuing
 
-This concludes the **Getting Started** chapters. Now that you have
-some audio imported, recorded from a line or microphone input, or even
-from another application, proceed to the **Arranging Tracks** section and learn how to arrange your composition.
+This concludes the _Recording_ chapter. Now that you have some audio imported,
+recorded from a line or microphone input, or even from another application,
+proceed to the _Arranging Tracks_ section and learn how to arrange your
+composition.
 
-Next: [ARRANGING TRACKS](../arranging-tracks)
+NEXT: [ARRANGING TRACKS](../../editing-sessions/arranging-tracks/)
