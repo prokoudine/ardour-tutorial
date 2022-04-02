@@ -3,14 +3,13 @@ title = "Non-destructive editing"
 description = "What is non-destructive editing and how does it work in Ardour?"
 chapter = false
 weight = 1
-#pre = "<b>1. </b>"
 +++
 
-In the previous chapter we already discussed that Ardour operates on sessions
-that encompass all material you have: audio clips, MIDI clips, all effects
-applied to tracks and busses etc. Before we get to actual editing, let's talk
-about basics of non-destructive editing, how it's implemented in Ardour, and why
-it should give you peace of mind when you do some heavy editing.
+In one of the previous chapters we already discussed that Ardour operates on
+sessions that encompass all material you have: audio clips, MIDI clips, all
+effects applied to tracks and busses etc. Before we get to actual editing, let's
+talk about basics of non-destructive editing, how it's implemented in Ardour,
+and why it should give you peace of mind when you do some heavy editing.
 
 ## What does non-destructive editing actually mean?
 
