@@ -1,43 +1,47 @@
 +++
 title = "Setting up the meter"
 chapter = false
-weight = 2
-#pre = "<b>1. </b>"
+weight = 3
 +++
 
-The **Meter** determines the musical speed of the passage we are
-composing, as measured in **Beats Per Minute**.
+The _meter_, or _time signature_, determines the musical speed of the passage we
+are composing and is measured in _beats per bars_.
 
-If we are composing something rhythmic, it will also determine the lengths of the
-sound samples we use to some extent. So it is important to be able to
-set up the Meter before we continue.
+If we are composing something rhythmic, it will also determine the lengths of
+the sound samples we use to some extent. So it is important to be able to set up
+the meter before we continue.
 
-To see the meter-related timelines for our session, we can right-click
-anywhere in the "header" of the Rulers and check the following options: **Meter**, **Bars & Beats**, and **Tempo**.
+To see the meter-related timelines for the session, you can right-click anywhere
+in the "header" of the rulers and check the following options: _Meter_, _Bars
+& Beats_, and _Tempo_.
 
-![Meter](en/Ardour4_Meter_Timeline.png) 
+![Meter](en/ardour7-meter-timeline.png) 
 
-It is possible to set a **Meter** and **Tempo** for the entire Ardour
-session, as well as to change them at different points in the same
-session.
+There is always at least one marker for both the meter and the tempo in the
+session, right in the beginning of the timeline. You can change either of the
+two further in the session. To do that, you need to pick either time or bar and
+beat on the timeline, right-click on the dedicated timeline lane, choose _New
+Meter_ or _New Tempo_, and provide a new value in the newly opened dialog.
 
-To change the Tempo and Meter (time signature) for the entire session, use the corresponding buttons located underneath the secondary clock:
+{{< figure src="en/ardour7-new-meter.png" alt="New Meter" >}}
+
+You can also easily change the latest meter or tempo even if you scrolled past
+the point in time where you can see the marker on the timeline. Simply click on
+either tempo or TS button right below the secondary clock and provide a new
+value in the newly opened dialog.
 
 ![Tempo_and_Meter](en/Ardour5_Edit_Meter_and_Tempo.png) 
 
-For the **Tempo** (button on the left), choose the number of BPM (**Beats Per Minute**) for your session.
+For the tempo (button on the left), choose the number of beats per minute (bpm)
+for your session.
 
-For the **Meter** (button on the right; the letters "TS" on the button mean "Time Signature"), you can enter new values for the **Beats Per Bar** as well as the **Note Value**. Click "*Apply*" to apply the changes globally to your session.
+For the _meter_ (button on the right; the letters _TS_ on the button mean
+_time signature_), you can enter new values for the _beats per bar_ as well as
+the _note value_.
 
-If the Meter or Tempo of your session changes later in the song or
-composition, simply add a new marker by right-clicking in the Meter or
-Tempo timeline and selecting **New Tempo** or **New Meter** and entering
-the new Tempo or Meter in the resulting dialog.
+## Continuing
 
-Continuing
-----------
-
-Next, we will explore **Using Ranges** to set up a loop we can listen to
-while we arrange the rhythm.
+Next, we will explore using ranges to set up a loop we can listen to while we
+arrange the rhythm.
 
 Next: [USING RANGES](../using-ranges)
