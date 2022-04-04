@@ -114,9 +114,10 @@ unused bus called _Guitar_ bus, all Stereo.
 
 Suppose you want to send the output from the two guitar tracks to the _Guitar_
 bus instead of the _Master_ bus. This can be useful to control the volume of
-both guitars with just one fader (in this case the _Guitar_ bus fader). Then the
-output of the _Guitar_ bus, which is the sum of the two guitars, goes directly
-to the _Master_ bus.
+both guitars with just one fader (in this case the _Guitar_ bus fader) or
+placing two instruments into the same virtual room by using a reverb plugin on
+the bus. Then the output of the _Guitar_ bus, which is the sum of the two
+guitars, goes directly to the _Master_ bus.
 
 Here is how to edit the patchbay to get the desired routing. Select _Ardour
 Tracks_ tab from _Sources_ (vertical tabs), and _Ardour Busses_ from
