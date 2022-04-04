@@ -1,73 +1,107 @@
 +++
 title = "Using ranges"
 chapter = false
-weight = 3
-#pre = "<b>1. </b>"
+weight = 4
 +++
 
-A **Range** is a selection of the Timeline that can include one or more
-Tracks.
+A _range_ is a selection of the timeline that can include one or more tracks. It
+has many uses like selecting a portion of audio/MIDI data to cut it.
 
-The Range tool (shortcut "*R*") is located just below the
-Transport Menu in the Edit Window.
+{{< figure src="en/ardour7-range-example.png" alt="Range example" >}}
 
-![Range Tool](en/Ardour4_Range_Tool.png) 
+## Creating ranges
 
-When you have selected the Range tool, your mouse pointer will look like a vertical line.
+There are two common ways to create a range:
 
-It can be useful to create Range selections that align with the edges of
-regions on your Timeline. Selecting the "*Grid*" and "*Region bounds*"
-items for Grid and Grid Point menus respectively makes this easy.
+1. You can do it with the _Grab_ tool (**G** shortcut) when the _Smart_ mode is
+enabled. In that case you need to position the mouse pointer around the middle
+of a track vertically to start selecting data rather than picking and moving a
+region. The mouse pointer looking like a vertical line means you are good to
+start selecting.
 
-![Region Bounds](en/Ardour4_Grid_Region_Bounds.png) 
+2. You can also use the dedicated _Range_ tool (**R** shortcut). In this case,
+just click and drag anywhere on the canvas to start selecting.
 
-To make a Range selection, drag anywhere on the Timeline. The current
-Grid and Grid Point options determine exactly how the Range selection
-behaves. Once a Range has been selected, Right-Clicking on it opens a
-menu with Range-specific operations.
+You can select data of multiple tracks at once as seen on the screenshot above.
+To do that, just drag the mouse pointer upwards or downwards crossing the
+border between tracks.
 
-![Range selection](en/Ardour4_Range_Selection_and_Menu.png) 
+When the _Editor List_ dock is available, you can see range properties on top of
+it: start/end times of the range as well as its duration. When a range is
+created, the _Tracks & Busses_ tab will also select tracks that the range
+crosses.
 
-**Loop range**, for example, sets up **Loop Markers** around the current
-Range and begins looped playback. The **Loop Start** and **Loop End**
-points can be changed by moving the green triangles which correspond to
-each point.
+{{< figure src="en/ardour7-range-properties.png" alt="Range properties" >}}
 
-![Range Loop](en/Ardour4_Range_Loop.png) 
+It can be useful to create ranges that align with the edges of regions on your
+timeline. To do that, enable the _Snap_ option in the toolbar and select _No
+Grid_ in the drop-down list next to it.
 
-Other useful options here for editing allow you to **Duplicate** the
-Range, **Select All** within the Range or **Crop** the Range.
+{{< figure src="en/ardour7-snap-to-region-boundaries.png" alt="Snap to region boundaries" >}}
 
-Setting Up a Loop
------------------
+## Editing ranges
 
-Returning to our rhythmic passage example, we will want to hear the
-passage we are composing, perhaps as a loop, while we are moving the
-samples around. To do that, we must create a Range to listen to within
-our session, so that we can return to exactly this point in the Session
-again and again.
+Once you created a range, you can easily tweak it's start and end positions by
+hovering range boundaries with the mouse pointer, grabbing them and dragging to
+the left or to the right.
 
-Zoom out if needed (shortcut "*-*") to see full bars in the timeline.
-Use the Range tool to select an entire bar with the help of the Grid
-settings, and right-click inside that range to "*Set loop from
-selection*". You will probably want to set the **Grid** so that your
-actions snap to certain metric elements of the session (for example,
-snapping to **Beats**). Once the one-bar loop has been set up, the
-screen will look like this: 
+{{< figure src="en/ardour7-editing-ranges.gif" alt="Editing ranges" >}}
 
-![Bar Loop](en/Ardour4_Range_Bar_Loop.png) 
+If you forgot to include a track into a range, you don't need to redo the range
+selection. Just hold **Ctrl** button and click on the track's header on the
+canvas. Alternatively, hold **Ctrl** and click on track's name in the _Tracks &
+Busses_ tab of the _Editor List_ dock.
 
-This will set up a loop range which you can play by using the **Play
-Loop** button in the **Transport Menu** at the very top of the Editor
-Window (shortcut: "*L*"). While the Range is looping, you can use the
-**Solo** button on each track to listen to each instrument individually.
+{{< figure src="en/ardour7-adding-track-to-range.gif" alt="Adding track to range" >}}
 
-![Loop Solo](en/Ardour4_Range_One_Bar_Loop_Solo.png) 
+## Playing back ranges in a loop
 
-Continuing
-----------
+Returning to our rhythmic passage example, we will want to hear the passage we
+are composing, perhaps as a loop, while we are moving the samples around. To do
+that, we must create a range to listen to within our session, so that we can
+return to exactly this point in the session again and again.
 
-In the next step, we will learn about **Working With Regions** to
-compose a rhythm with these samples.
+{{< figure src="en/ardour7-loop-range-menu-command.png" alt="Loop Range in the right-click menu" >}}
+
+Zoom out if needed (**-**) to see full bars in the timeline. Use the _Range_
+tool to select an entire bar, then right-click inside a range and pick one of
+the two commands:
+
+1. _Loop Range_ (on the screenshot above) to create a loop and start playing it
+immediately.
+
+2. _Set loop from selection_ to only create loop markers withut immediate
+playback.
+
+{{< figure src="en/ardour7-looped-range-playback.png" alt="Looped range playback" >}}
+
+As long as loop markers are there, you can start playing back that portion of
+the timeline in a loop whenever you like (on the screenshot above). To do that,
+either click the **Play loop range** button in the _Transport_ toolbar or press
+the **L** shortcut.
+
+{{< figure src="en/ardour7-play-loop-range-button.png" alt="Loop range button in Transport" >}}
+
+You can also tweak the position of loop markers while playing the range in a
+loop. Just grab a marker and drag it to the left or to the right.
+
+## More editing options for ranges
+
+There are more operations you can do on ranges, all available in the right-click
+menu:
+
+- _Separate_ will cut the original regions at range borders.
+- _Duplicate_ will create one copy of the range and place it starting at the
+right border of the range. Any existing data will be overlaid, so you can still
+access it.
+- _Crop Region To Range_ will trim affected regions to the extent of the range.
+
+You can also inspect loudness and spectral characteristics of data in a range or
+export just the data inside a range rather than the entire session.
+
+## Continuing
+
+In the next step, we will learn about working with regions to compose a rhythm
+with these samples.
 
 Next: [WORKING WITH REGIONS](../working-with-regions)
