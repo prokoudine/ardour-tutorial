@@ -1,119 +1,149 @@
 +++
 title = "Changing edit modes"
 chapter = false
-weight = 6
-#pre = "<b>1. </b>"
+weight = 7
 +++
 
-We have already learned a bit about the Grab Mode (select/move objects) and Range Mode. In
-this chapter we will get an overview of all the **Edit Modes** and
-**Cursor Modes** available on that part of the Editor Window.
-
-## Edit Modes and Cursor Modes
+We have already learned a bit about the Grab Mode (select/move objects) and
+Range Mode. In this chapter we will get an overview of all the **Edit Modes**
+and **cursor modes** available on that part of the Editor Window.
 
 ![Ardour Edit Modes](en/Ardour6_Edit_Modes_Cursor_Modes.png)
+
+## Edit Modes
 
 These controls define the behavior of the main canvas and the different
 functions of the cursor.
 
-The drop-down **Edit Mode** menu contains three options. **Slide Edit**
-is the standard mode, and the one we will be using in this tutorial. It
-allows you to freely drag regions around horizontally (within the same
-track) and vertically (between tracks). The other two options limit or
-block your ability to move regions from their positions, but we will not
-cover them in detail here.
+The drop-down _Edit Mode_ menu contains three options:
 
-### Grab Mode (shortcut "*G*")
+**Slide mode**
+: This is the standard mode. It allows you to freely drag regions around
+horizontally (within the same track) and vertically (between tracks).
 
-![G](en/Ardour4_EditModes_G.png)
+**Ripple mode**
+: Automatically moves regions when you cut or shift one of the regions. E.g. if
+you cut a portion of an audio interview that isn't interesting, Ardour will
+shift all regions in all tracks to the left so that there would be no silence
+where content used to be.
 
-This Cursor Mode allows you to select or move objects such as regions
-and breakpoints (in an automation curve). When this Cursor Mode is
+**Lock mode**
+: However you edit a region with this mode on, the content of the region will
+always be where it is. You can only move the region up or down between tracks,
+but not left or right.
+
+We will only use the _Slide_ edit mode in this tutorial.
+
+## Cursor Modes
+### Grab Mode
+
+![G](en/ardour7-grab-edit-mode.png)
+
+This cursor mode (**G** shortcut) allows you to select or move objects such as
+regions and breakpoints (in an automation curve). When this cursor mode is
 selected, your cursor pointer will look like a little hand icon.
 
-### Range Mode (shortcut "*R*")
+### Range Mode
 
-![R](en/Ardour4_EditModes_R.png)
+![R](en/ardour7-range-edit-mode.png)
 
-This Cursor Mode allows you to click and drag to define or resize time
-Ranges.  When this Cursor Mode is selected, your cursor pointer will
-look like a vertical line. Time ranges can be selected over one or several tracks, depending on the selection of your tracks.
+This cursor mode (**R** shortcut) allows you to click and drag to define or
+resize time ranges.  When this cursor mode is selected, your cursor pointer will
+look like a vertical line. Time ranges can be selected over one or several
+tracks, depending on the selection of your tracks.
 
-### **Cut Mode** (shortcut *"C"*)
+### Cut Mode
 
-![C](en/Ardour4_EditModes_C.png)
+![C](en/ardour7-cut-edit-mode.png)
 
-Use this Cursor Mode to split Regions into smaller Regions. The cursor turns into the shape of scissors. This allows you to point and click on a Region to split it at the cursor.
-
-{{% notice tip %}}
-You can cut Regions directly from the Grab Mode too (sometimes this method can be more practical.) Without leaving the Grab Mode, simply place the mouse at the desired location on the Region to be cut, and hit the shortcut *"S"* (for "split"). Important: your Edit Point (to the right of the Grid settings) must be set to Mouse.
-{{% /notice %}}
-
-### **Stretch/Shrink Region** (shortcut *"T"*)
-
-![T](en/Ardour4_EditModes_T.png)
-
-This Cursor Mode allows you to drag and resize the duration of an entire
-Region without changing the Pitch. This is sometimes called 'Time
-stretching', hence the shortcut **"T"**. Please see the chapter on
-**Stretching/Shrinking Regions** for more details. When this Cursor Mode
-is selected, your cursor pointer will look like a diagonal arrow.
-
-### **Audition Mode (listen to specific regions)**
-
-![Audition](en/Ardour4_EditModes_Audition.png)
-
-This Cursor Mode allows you to click on any existing Region on any track
-and have it immediately played back. Playback stops at the end of the
-Region. When this Cursor Mode is selected, your cursor pointer will look
-like a small loudspeaker icon.
+Use this cursor mode (**C** shortcut) to split regions into smaller regions. The
+cursor turns into the shape of scissors. This allows you to point and click on a
+region to split it at the cursor.
 
 {{% notice tip %}}
-You can also quickly audition a selected Region without leaving the Grab Mode. Simply select a Region and hit the shortcut key "*H*".
+You can cut regions directly from the _Grab_ mode too (sometimes this method can
+be more practical.) Without leaving the _Grab_ mode, simply place the mouse at
+the desired location on the region to be cut, and hit the **S** shortcut (for
+"split"). Important: your edit point (to the left of the _Modes_ toolbar) must
+be set to _Mouse_.
 {{% /notice %}}
 
-### **Draw Mode (shortcut D)**
+### Audition Mode
 
-Use this mode to draw gain automation points. Cursor looks like a pencil. Automation will be discussed in detail in the chapter [Using Automation](../using-automation).
+![Audition](en/ardour7-audition-edit-mode.png)
 
-You can also *edit* individual points in this mode if you bring your cursor right on top of the automation point you want to move (mouse will turn into a small cross). However, if you are not precise this may accidentally create a new automation point. If this becomes a problem, you should use the next Mode, which only allows for editing existing points, not creating new ones.
+This cursor mode allows you to click on any existing region on any track and
+have it immediately played back. Playback stops at the end of the region. When
+this cursor mode is selected, your cursor pointer will look like a small
+loudspeaker icon.
 
-![D](en/Ardour4_EditModes_D.png)
+{{% notice tip %}}
+You can also quickly audition a selected region without leaving the _Grab_ mode.
+Simply select a region and hit the shortcut key **H**.
+{{% /notice %}}
 
-### **Internal Edit Mode (shortcut E)**
+### Stretch/Shrink Region
 
-Use this mode to edit existing gain automation points. Cursor looks like a hand, and turns into a small cross when you are on top of an existing point. Click (hold the click down) and drag in order to move points.
+![T](en/ardour7-stretch-shrink-edit-mode.png)
 
-![E](en/Ardour4_EditModes_E.png)
+This cursor mode (**T** shortcut) allows you to drag and resize the duration of
+an entire region without changing the pitch. This is sometimes called "time
+stretching', hence the **T** shortcut. Please see the chapter on
+_Stretching/Shrinking Regions_ for more details. When this cursor mode is
+selected, your cursor pointer will look like a diagonal arrow.
 
-### MIDI
+### Draw Mode
 
-The last two buttons explained above are also used to create and edit MIDI information.
+![D](en/ardour7-draw-edit-mode.png)
 
-### Horizontal Zoom and view options
+This mode (**D** shortcut) has 4 use cases:
 
-![Z](en/Ardour6_Zoom_Options.png)
+1. Drawing new automation points (automation will be discussed in detail in the
+chapter [Using Automation](../../mixing-sessions/using-automation/)).
+2. Drawing new MIDI regions.
+3. Drawing new MIDI notes in MIDI regions.
+4. Editing existing MIDI notes and automation points when a region is
+sufficiently zoomed in.
 
-The main shortcuts you will probably be using all the time are "*-*" and "*=*" (zoom out and zoom in, respectively). Zooming will happen in relation to the Edit Point currently chosen (Mouse, Marker, or Playhead). If in doubt of which Edit Point to choose, try Mouse.
+If you haven't zoomed in enough, it's easy to create either a new MIDI note or a
+new automation point you did not need. If this becomes a problem, you should use
+the next mode which only allows for editing existing points and notes, not
+creating new ones.
 
-The Zoom to Session button (shortcut "*_*" - that's the underscore character) zooms in or out as needed so that you can see the Start and End markers of your project.
+For drawing MIDI notes, the toolbar additionally has controls for default note
+length, MIDI channel, and velocity.
 
-All the zoom options discussed above control the amount of *horizontal* content you will be seeing on screen. Once you have a session with several tracks, you will also want to control the amount of *vertical* content you are able to fit (see) on the screen. There are several ways to do this:
+### Internal Edit Mode
 
-* Use the "*Number of visible tracks*" drop down menu to select how many tracks you want to fit on your screen.
-* Use the "*Shrink tracks*" button to make all selected tracks smaller.
-* Use the "*Expand tracks*" button to make all selected tracks larger.
-* You can also change an individual track size by dragging from its bottom edge, or right clicking on the track header and selecting the desired "Height".
+![E](en/ardour7-internal-edit-mode.png)
 
-#### The navigation tool
+Use this mode (**E** shortcut) to edit existing automation points or MIDI notes.
 
-You can use the navigation tool at the bottom of the Editor window in order to scroll up and down the session, and adjust horizontal and vertical zoom by adjusting the size of the viewing rectangle.
+For automation points, the cursor looks like a hand and turns into a small cross
+when you are on top of an existing point. Click, hold, and drag in order to move
+points.
 
-![navigation](en/Ardour4_Navigation.png)
+For MIDI notes, the cursor looks like a hand with a quarter note above it when
+you hover the middle of note, that's for selecting a note and moving it around.
+Hovering either the left or the right border of a note will change the cursor
+and allow adjusting start/end position (and thus duration) of a note.
+
+For both automation points and MIDI notes, you can press **Ctrl** and click on
+multiple items to add them to a selection of items, then move multiple notes or
+points altogether.
+
+{{< figure src="en/ardour7-internal-edit-mode-multiple-points.png" alt="Moving multiple automation points" >}}
+
+For MIDI notes specifically, you can also use rubberband selection: place the
+cursor anywhere outside existing notes (the cursor will lose the quarter note
+symbol), then press left mouse button and start dragging. A selection frame will
+appear. All notes it touches will be selected.
+
+{{< figure src="en/ardour7-internal-edit-mode-rubberband-selection.png" alt="Rubberband selection of notes" >}}
 
 ## Continuing
 
-In the following chapter, we will see how to take the Regions we have
-edited and **Creating Looped Sections** from them.
+In the following chapter, we will see how to take the regions we have
+edited and create looped sections from them.
 
 Next: [Creating looped sections](../creating-looped-sections)
