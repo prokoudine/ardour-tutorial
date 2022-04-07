@@ -97,7 +97,9 @@ access it.
 - _Crop Region To Range_ will trim affected regions to the extent of the range.
 
 You can also inspect loudness and spectral characteristics of data in a range or
-export just the data inside a range rather than the entire session.
+export just the data inside a range rather than the entire session (see [this
+chapter](../../exporting-sessions/exporting-a-range/) for more info on exporting
+ranges).
 
 ## Continuing
 

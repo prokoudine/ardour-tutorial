@@ -46,6 +46,9 @@ of the _Editor_ window and drag-and-dropping the tracks in the order you want.
 
 ![FS4](en/ardour7-freesound-4.png) 
 
+Another option to rearrange tracks is to select a track and use **Ctrl+Arrow
+Up/Down** shortcut to move it up or down.
+
 {{% notice tip %}}
 You can also use the V check boxes in this tab to view or hide
 tracks in the main canvas.
