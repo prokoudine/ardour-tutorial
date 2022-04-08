@@ -1,7 +1,7 @@
 +++
 title = "Further region operations"
 chapter = false
-weight = 5
+weight = 6
 +++
 
 In this section you will learn a few more things you can do with regions.
@@ -14,7 +14,7 @@ menu.
 This section describes a few of the most commonly used operations
 accessible from these menus.
 
-![region menu 1](en/ardour7-region-menu.png)
+![Region menu](en/ardour7-region-menu.png)
 
 **Play**
 : Play back from the beginning to the end of that region (**H** shortcut).

@@ -1,7 +1,7 @@
 +++
 title = "Working with regions"
 chapter = false
-weight = 4
+weight = 5
 +++
 
 Sections of audio are called _regions_ in Ardour. To compose the short rhythmic
