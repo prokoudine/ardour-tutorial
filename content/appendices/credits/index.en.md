@@ -2,7 +2,6 @@
 title = "Credits"
 chapter = false
 weight = 4
-#pre = "<b>1. </b>"
 +++
 
 The main body of the manual was written during a **Book Sprint** led by Derek
@@ -32,6 +31,8 @@ Christie.
 2018 update by Miroslav Šulc.
 
 2021 update for Ardour v6 by Luca Aquino.
+
+2022 update for Ardour v7 by Alexandre Prokoudine.
 
 <!-- 2022 update for Ardour v7 by Alexandre Prokoudine. -->
 
