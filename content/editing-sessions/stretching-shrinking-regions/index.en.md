@@ -1,7 +1,7 @@
 +++
 title = "Stretching & shrinking regions"
 chapter = false
-weight = 8
+weight = 9
 +++
 
 Regions can be stretched or shrunk in length without changing their pitch by
