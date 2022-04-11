@@ -13,22 +13,22 @@ _Reverbs_ and others.
 
 ## Processor Box 
 
-In Ardour terminology, a _processor_ is anything which gets plugged
-into a Mixer Strip, and treats the signal in some way. Ardour provides
-several built-in processors such as the fader or panners. Processors can
-also be plugins used for effects or as instruments, as well as sends or
-inserts which affect signal routing. The arrangement of processors is
-arbitrary, and there is no limit to how many there can be.
+In Ardour terminology, a _processor_ is anything that gets plugged into a mixer
+strip and treats the signal in some way. Ardour provides several built-in
+processors such as the fader or panners. Processors can also be plugins used for
+effects or as instruments, as well as sends or inserts which affect signal
+routing. The arrangement of processors is arbitrary, and there is no limit to
+how many there can be.
 
-![mixer strip 2](en/Ardour4_Mixer_Strip_2.png) 
+![mixer strip 2](en/ardour7-default-processor-box.png) 
  
-The main space shown in the screenshot above is the **processor box**. The blue
+The main space shown in the screenshot above is the _processor box_. The blue
 box fader is in fact a _processor_ that comes by default inside the processor
 box. It represents the fader that you use to control the track's volume. All
-Processors are shown as colored rectangles, with a small "LED" beside them that
+processors are shown as colored rectangles, with a small "LED" beside them that
 lights up when the processor is enabled. The colour of the processor depends on
 its location in the sequence; processors that are pre-fader are colored in red,
-and post-fader processors are colored green. 
+and post-fader processors are colored in green. 
 
 ## Adding a Plugin to a Track or a Bus 
 
@@ -36,20 +36,20 @@ Plugins can be added by right-clicking in the processor box of the track or
 bus. A menu of options is presented. From the menu, new processors can be
 inserted. 
 
-![plugins1](en/Ardour4_Plugins_1.png) 
+![plugins1](en/ardour7-plugin-selector-in-menu.png) 
 
 The _Plugin Selector_ is a convenient way to browse and choose plugins:
 
-![plugins2](en/Ardour4_Plugins_2.png)
+![plugins2](en/ardour7-plugin-selector.png)
 
-From the _Plugin Selector_, you can search them by name, type, or other
-criteria available from the drop-down menu. For example, we will add the
-reverb plugin called "ACE Reverb":
+From the _Plugin Selector_, you can search them by name, type, or other criteria
+available from the drop-down menu. Let's add the reverb plugin called _ACE
+Reverb_:
 
-![pSelecting ACE Reverb](en/ardour7-select-ace-reverb.png)
+![Selecting ACE Reverb](en/ardour7-select-ace-reverb.png)
 
 Once selected, click **Add** and the plugin will show up in the bottom list of
-"Plugins to be connected". Then click **Insert Plugin(s)** and they will show
+"Plugins to be connected". Then click **Insert Plugin(s)**, and they will show
 up in the processor box.
 
 ![plugins reverb](en/ardour7-ace-reverb-added-to-processor-box.png)
@@ -57,21 +57,19 @@ up in the processor box.
 ## Editing Plugin Parameters
 
 Double-click a plugin to edit its parameters. In this example, we double click
-the "Freeverb" green box and get this window:
+the "ACE Reverb" red box and get this window:
 
 ![freeverb settings](en/ardour7-ace-reverb-settings.png) 
 
-Here you can control reverb parameters such as Room Size, Damping,
-amount of Wet and Dry signal, and Width. The effect will apply to all
-sounds contained in the track. 
+Here you can control reverb parameters such as _Blend_ and _Room Size_. The
+effect will apply to all sounds contained in the track. 
 
 ## Bypassing Plugins
 
-To bypass the plugin, press the *Bypass* button in the plugin settings
-window, or simply click the "LED" of the plugin in the processor box.
-This turns the plugin off and allows the signal to pass by it
-unaffected. This is useful when you want to compare how a track sounds
-with and without the plugin. 
+To bypass the plugin, press the **Bypass** button in the plugin settings window,
+or simply click the LED of the plugin in the processor box. This turns the
+plugin off and allows the signal to pass by it unaffected. This is useful when
+you want to compare how a track sounds with and without the plugin. 
 
 ![bypass](en/ardour7-ace-reverb-bypass-in-mixer-strip.png) 
 
@@ -82,17 +80,17 @@ _Delete_.
 
 ## Pre-Fader vs Post-Fader
 
-You have a choice whether you would like to add your plugin before or
-after the fader rectangle in the **processor box**. Pre-fader plugins
-are inserted in the signal path *before* the fader, so that the fader
-controls the level of the signal coming out of the plugin. Post-Fader
-Plugins are inserted *after* the fader: the fader controls the level of
-the signal going into the plugin. For some plugins, Pre- or Post-fader
-placement does not matter. For others, the difference is subtle. For
-others still, inserting them in the right place is absolutely essential 
-(for more details, see for example 
-[this thread](https://discourse.ardour.org/t/fader-before-or-after-plugins/100666)
-at the Ardour discussion forum).
+You have a choice whether you would like to add your plugin before or after the
+fader rectangle in the _processor box_. Pre-fader plugins are inserted in the
+signal path *before* the fader, so that the fader controls the level of the
+signal coming out of the plugin. Post-Fader Plugins are inserted *after* the
+fader: the fader controls the level of the signal going into the plugin.
+
+For some plugins, Pre- or Post-fader placement does not matter. For others, the
+difference is subtle. For others still, inserting them in the right place is
+absolutely essential  (for more details, see for example [this
+thread](https://discourse.ardour.org/t/fader-before-or-after-plugins/100666) at
+the Ardour discussion forum).
 
 ## Plugin Formats
 
@@ -108,10 +106,10 @@ for these systems.
 **AU plugins** are the native plugin format for macOS and will only work in
 that operating system.
 
-**VST plugins** is a fairly common on both Windows and macOS. Some VST plugins
-can be used on Linux, however they may not function correctly, or even cause
-Ardour to crash. Using these plugins requires manually **Compiling** the Ardour
-application, a task which is outside the scope of this manual.
+**VST plugins** is fairly common on both Windows and macOS. Some VST plugins
+built for Windows can be used on Linux, however they may not function correctly
+and require 3rd party software to run. Others are built natively for Linux and
+tend to work fine.
 
 More information about using plugins with Ardour can be found
 [in the user manual](http://manual.ardour.org/working-with-plugins/).
