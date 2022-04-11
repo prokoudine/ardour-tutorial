@@ -59,10 +59,15 @@ up in the processor box.
 Double-click a plugin to edit its parameters. In this example, we double click
 the "ACE Reverb" red box and get this window:
 
-![freeverb settings](en/ardour7-ace-reverb-settings.png) 
+![ACE Reverb](en/ardour7-ace-reverb-settings.png) 
 
 Here you can control reverb parameters such as _Blend_ and _Room Size_. The
-effect will apply to all sounds contained in the track. 
+effect will apply to all sounds contained in the track.
+
+{{% notice tip %}}
+Double-click on a slider to switch to numeric input mode, type the new value in,
+then press **Enter** to confirm the change or **Esc** to abort.
+{{% /notice %}}
 
 ## Bypassing Plugins
 
