@@ -2,124 +2,167 @@
 title = "Using automation"
 chapter = false
 weight = 8
-#pre = "<b>1. </b>"
 +++
 
-**Automation** is a way of dynamically changing audio processing parameters over time.
+_Automation_ is a way of dynamically changing audio processing parameters over
+time.
 
-Up to now, we have used fixed values for various parameters of our Tracks (for example, a Track Fader set to -3.0 dB; or a Mono Panner set to 100% Left; etc.) These fixed values would apply for the entire Track throughout the whole Session.
+Up to now, we have used fixed values for various parameters of our tracks, for
+example, a track fader set to -3.0dB; or a mono panner set to 100% left. These
+fixed values would apply for the entire track throughout the whole session.
 
-But what if you would like these values to change over time in a pre-determined way? For example, you may want to have the Gain of a Track to gradually decrease over twenty seconds. Or you may want to make a sound move from Left to Right over two seconds.
+But what if you would like these values to change over time in a
+pre-determined way? For example, you may want to have the gain of a track to
+gradually decrease over twenty seconds. Or you may want to make a sound move
+from left to right over two seconds.
 
-This is accomplished with **Automation**. The Fader, Panning, and any of the
-parameters of the Plugins used in that Track can be automated. An
-automated parameter is displayed underneath the parent track in its own
-**Automation Track**. Automation data is visually represented as an
-**Automation Line**, made up of a number of **Automation Points**.
-Here's how a track with Automation looks like:
+This is accomplished with automation. The fader, panning, and any of the
+parameters of the plugins used in that track can be automated. An automated
+parameter is displayed underneath the parent track in its own _automation
+track_. Automation data is visually represented as an _automation line_, made
+up of a number of _automation points_. Here's how a track with automation
+looks like:
 
-![automation1](en/Ardour4_Automation_Fader_1.png)
+![Typical automation track](en/Ardour4_Automation_Fader_1.png)
 
-In the image above, the Automation Track called "*Fader*" is associated
-to the parent Track called "*Audio 1*". The Automation Line controls
-Fader (volume) changes over time. 
+In the image above, the automation track called _Fader_ is associated to the
+parent track called _Audio 1_. The automation line controls fader (volume)
+changes over time. 
 
 ## Creating a Fader Automation Line
 
-Let's create a simple Fader Automation. Click the "*A*" button of a chosen track. A menu will appear, where you can select the parameter you would like to Automate. Choose "*Fader*".
+Let's create a simple fader automation. Click the **A** button of a chosen
+track. A menu will appear, where you can select the parameter you would like to
+automate. Choose _Fader_.
 
-![automation2](en/Ardour4_Automation_Button.png)
+![Choose Fader](en/Ardour4_Automation_Button.png)
 
-An Automation Track will then appear. Select the Draw Mode (shortcut "*D*"):
+An automation track will then appear. Select the _Draw_ mode (**D** shortcut):
 
-![automation3](en/Ardour4_EditModes_D.png)
+![Draw mode](en/Ardour4_EditModes_D.png)
 
-Now you can create Automation Points by clicking anywhere in the Automation Track. An Automation Line joins the Automation Points you add. The yellow number (-15.3 decibels in the image below) indicates the Gain level for the selected Automation Point.
+Now you can create automation points by clicking anywhere in the automation
+lane. An automation line joins the automation points you add. The yellow number
+(-15.3dB in the image below) indicates the gain level for the selected
+automation point.
 
-![automation3](en/Ardour4_Automation_Fader_2.png)
+![Automation point value indication](en/Ardour4_Automation_Fader_2.png)
 
 ### Automation States
 
-The Automation Curve will not play, however, until you set the Automation State to "*Play*".
+The automation curve will not play, however, until you set the automation state
+to _Play_.
 
 ![automation state](en/Ardour4_Automation_Fader_3.png)
 
-**Manual**: When set to "*Manual*", the Track will ignore any Automation data. It will just play with whatever volume is the Fader is set to. In this mode, you are able to move the Track Fader by hand to set a new fixed level. That's the default behavior of a Track when it's first created.
+**Manual**
+: When set to _Manual_, the track will ignore any automation data. It will just
+play with whatever volume is the fader is set to. In this mode, you are able to
+move the track fader by hand to set a new fixed level. That's the default
+behavior of a track when it's first created.
 
-**Play**: When set to "*Play*", the Track will automatically change the Gain levels following the Automation Curve drawn in the Automation Track. You will no longer be able to move the Track Fader by hand. During playback, you will see the Track Fader moving up and down according to the curve. 
+**Play**
+: When set to _Play_, the track will automatically change the gain levels
+following the automation curve drawn in the automation lane. You will no longer
+be able to move the track fader by hand. During playback, you will see the track
+fader moving up and down according to the curve. 
 
-**Write** mode will continuously record user changes to the Automated
-parameter as the Transport plays, creating an Automation Line. For
-instance, you may start playback and then make real-time changes in gain
-using the Fader of your Track. All the changes you
-make will be written (recorded) as an Automation Line, which then you
-can play back later by switching the Automation Mode back to Play
+**Write**
+: This mode will continuously record user changes to the automated parameter as
+the transport plays, creating an automation line. For instance, you may start
+playback and then make real-time changes in gain using the fader of your track.
+All the changes you make will be written (recorded) as an automation line, which
+then you can play back later by switching the automation mode back to _Play_.
 
-**Touch** mode is similar to Write mode. Unlike Write mode though, Touch
-mode won't record over existing Automation data unless the parameter is
-being changed.
+**Touch**
+: This mode is similar to the _Write_ mode but it won't record over existing
+automation data unless the parameter is being changed.
 
-If these concepts are new to you, focus now on just the first two modes (*Manual* and *Play*), and practice creating automation by drawing Automation Curves by hand.
+If these concepts are new to you, focus now on just the first two modes
+(_Manual_ and _Play_) and practice creating automation by drawing automation
+curves by hand.
 
 ## Creating a Plugin for Automation
 
-You may add Automation to any Plugin which has already been added to a
-Track. In the example below, we have a "**AM pitchshifter**" Plugin added to a track.
+You may add automation to any plugin which has already been added to a track. In
+the example below, we have the _AM pitchshifter_ plugin added to a track.
 
 ![pluginautomation1](en/Ardour4_Automation_Plugin1.png)
 
-In order to select a Plugin parameter for Automation, click the
-button on the Track marked "*a*". The menu will appear. Under "*Processor Automation*" you will find a listing of the Plugins you have added for that Track.
+In order to select a plugin parameter for automation, click the button on the
+track marked _a_. The menu will appear. Under _Processor Automation_ you will
+find a listing of the plugins you have added for that track.
 
 ![pluginautomation2](en/Ardour4_Automation_Plugin2.png)
 
-Within each listed Plugin, you may choose which parameter you want to
-Automate from a list. In the example, we chose the parameter "*Pitch
-shift*" of the Plugin "*AM pitchshifter*". An Automation Track for that
-parameter appears. Note that as you open several Automation Tracks, they
-will appear one after the other below the main parent Track. 
+Within each listed plugin, you may choose which parameter you want to automate
+from a list. In the example, we chose the _Pitch shift_ parameter of the _AM
+pitchshifter_ plugin. An automation lane for that parameter appears. Note that
+as you open several automation lanes, they will appear one after the other
+below the main parent track. 
 
-Draw an automation curve for that parameter. Don't forget to set the Automation State to "*Play*".
+Draw an automation curve for that parameter. Don't forget to set the automation
+state to _Play_.
 
 ![pluginautomation3](en/Ardour4_Automation_Plugin3.png)
 
-In the image above, the pitch shift of the sound is now changing over time, controlled by the curve.
+In the image above, the pitch shift of the sound is now changing over time,
+controlled by the curve.
 
 {{% notice tip %}}
-You can hide an Automation Track by clicking on the "X" at the upper
-left corner of the Automation Track. Note that a hidden Automation Track
-continues to function even when it is not visible. 
+You can hide an automation lane by clicking on the "X" at the upper left corner
+of the automation lane. Note that a hidden automation lane continues to function
+even when it is not visible. 
 {{% /notice %}}
 
 ## Adding Better Visual Resolution to Automation 
 
-You can achieve a greater amount of vertical precision by increasing the
-height of the Automation Track. Move your cursor near the lower edge of the Automation Track. The pointer turns into a vertical double arrow. Drag it down to increase the height of the Automation Track. Notice that the parent Track and the Automation Track heights are independent, so while working in your Automation Curves you might set them up like this:
+You can achieve a greater amount of vertical precision by increasing the height
+of the automation lane. Move your cursor near the lower edge of the automation
+track. The pointer turns into a vertical double arrow. Drag it down to increase
+the height of the automation lane. Notice that the parent track and the
+automation lane heights are independent, so while working in your automation
+curves you might set them up like this:
 
 ![pluginautomation5](en/Ardour4_Automation_Plugin4.png)
 
 {{% notice tip %}}
-Remember you can also Zoom In and Out to increase resolution in the horizontal axis.
+Remember that you can also zoom in and out to increase resolution in the
+horizontal axis.
 {{% /notice %}}
 
 ## Working with Automation Points 
 
-There are several ways ways of adjusting Automation Points, depending on the editing mode you are in:
+There are several ways to adjust automation points, depending on the editing
+mode you are in:
 
-- An Automation Point can be dragged in any direction with the mouse (works in Grab, Draw, and Edit modes).
-- To remove an Automation Point, hold down the "*Shift*" key while Right-Clicking on it (works in Grab, Draw, and Edit modes).
-- Edit Mode only: any segment of the Automation Line between Automation Points may be dragged vertically, affecting both end points at once, without affecting their horizontal position. Simply click somewhere on the line between two points, and drag up and down.
-- How to delete multiple Automation Points at once (Grab Mode and Edit Mode only): select multiple Automation Points by dragging a box starting on the track background around the points. Then the selected points may be deleted by hitting "*Delete*" (*not* "*Backspace*"). If you are on a Mac and do not have a true "*Delete*" key, try "*Function*" + "*Backspace*").
+- An automation point can be dragged in any direction with the mouse (works in
+_Grab_, _Draw_, and _Edit_ modes).
+- To remove an automation point, hold down the **Shift** key while
+right-clicking on it (works in _Grab_, _Draw_, and _Edit_ modes).
+- _Edit_ mode only: any segment of the automation line between automation points
+may be dragged vertically, affecting both end points at once, without affecting
+their horizontal position. Simply click somewhere on the line between two
+points, and drag up and down.
+- How to delete multiple automation points at once (_Grab_ mode and _Edit_ mode
+only): select multiple automation points by dragging a box starting on the track
+background around the points. Then the selected points may be deleted by hitting
+**Delete** (_not_ **Backspace**). If you are on a Mac and do not have a true
+**Delete** key, try **Function + Backspace**.
 
-After an Automation Curve ends, its value will stay at that level for all subsequent regions, whether or not you have drawn a continuation of the curve.
+After an automation curve ends, its value will stay at that level for all
+subsequent regions, whether or not you have drawn a continuation of the curve.
 
 ![end point](en/Ardour4_Automation_Fader_End.png)
 
-In the example above, the last point of the curve is at -23 decibels. That same level will be kept for the remainder of the Track, even though the line is not drawn until the end.
+In the example above, the last point of the curve is at -23dB. That same level
+will be kept for the remainder of the track, even though the line is not drawn
+until the end.
 
 ## Moving Automation
 
-Moving a Region to a new location will automatically move the Automation data that might be aligned with it, as we can see in the following screen shots.
+Moving a region to a new location will automatically move the automation data
+that might be aligned with it, as we can see in the following screen shots.
 
 Before moving:
 
@@ -129,58 +172,70 @@ After moving:
 
 ![mv2](en/Ardour4_Automation_Moving_2.png)
 
-You can change this behavior if you like. In other words, if you want automation curves to *stay where they are* even when you move Regions around, go to Edit > Preferences > Editor and uncheck "Move relevant automation when audio regions are moved."
+You can change this behavior if you like. In other words, if you want automation
+curves to stay where they are even when you move regions around, go to `Edit >
+Preferences > Editor` and uncheck _Move relevant automation when audio regions
+are moved_.
 
 ## Region-specific Gain Automation
 
-There is a way to create a gain automation directly bound to a Region. When you select Draw Mode, you should see a flat line on the top half of each Region rectangle:
+There is a way to create a gain automation directly bound to a region. When you
+select the _Draw_ mode, you should see a flat line on the top half of each
+region rectangle:
 
 ![gain-automation](en/Ardour4_Automation_Region_Specific_1.png)
 
-Click directly on that line to create Automation points. These will be drawn directly on the
-Region itself, unlike Fader Automation which is drawn or recorded in the
-Automation track. Region Gain Automation is separate from, and in
-addition to, Fader Automation.
+Click directly on that line to create automation points. These will be drawn
+directly on the region itself, unlike fader automation which is drawn or
+recorded in the automation track. Region gain automation is separate from, and
+in addition to, fader automation.
 
 ![gain-automation2](en/Ardour4_Automation_Region_Specific_2.png)
 
-As with the Automation Tracks, a **Gain Automation Point** can be
-dragged in any direction with the mouse. To remove a Gain Automation
-Point, hold down the "*Shift*" key while Right-Clicking on it.
+As with the automation tracks, a _gain automation point_ can be dragged in any
+direction with the mouse. To remove a gain automation point, hold down the
+**Shift** key while right-clicking on it.
 
 ### Deactivating and Removing Gain Automation
 
-Gain Automation can be reset or deactivated from the Region context
-menu, which is reached by Right-Clicking on the Region.
+Gain automation can be reset or deactivated from the region context menu, which
+is reached by right-clicking on the region.
 
 ![gain-automation3](en/Ardour4_Automation_Gain_Tool_Reset.png)
 
-Here, the Gain Automation is referred to as the **Envelope**. 
+Here, the gain automation is referred to as the _envelope_:
 
-"*Reset Envelope*" removes the Gain Automation Points you have drawn in the Region.
+- _Reset Envelope_ removes the gain automation points you have drawn in the
+region.
+- _Envelope Active_ toggles the gain automation envelope on and off.
 
-"*Envelope Active*" toggles the Gain Automation Envelope on and off.
+### When should I use region Gain Automation or Track Fader Automation?
 
-### When should I use Region Gain Automation or Track Fader Automation?
+As seen above, both are very similar. With practice you will notice situations
+in which one is more convenient than the other. Here are two examples:
 
-As seen above, both are very similar. With practice you will notice situations in which one is more convenient than the other. Here are two examples:
-
-* If all you need to do is a little touch up (cut or boost gain) in a specific portion of a Region, and you are otherwise happy with the level for the Rest of the passage or entire track, use the Region-specific Automation.
+* If all you need to do is a little touch up (cut or boost gain) in a specific
+portion of a region, and you are otherwise happy with the level for the rest of
+the passage or entire track, use the region-specific automation.
 
 ![gain-example1](en/Ardour4_Automation_Region_Specific_2.png)
 
-* If you have a more complex Track with crossfades over Regions, and/or need to shape a longer dynamic curve across several Regions on the same Track, use Fader Automation.
+* If you have a more complex track with crossfades over regions, and/or need to
+shape a longer dynamic curve across several regions on the same track, use fader
+automation.
 
 ![gain-automation2](en/Ardour4_Automation_Gain_Comparison.png)
 
-The screenshot above shows a simple gradual fade starting from the first Region in the track, and ending at the last Region. It's very straightforward to do this with Fader Automation, but but it would be much harder to do it using region-specific automation.
+The screenshot above shows a simple gradual fade starting from the first region
+in the track, and ending at the last region. It's very straightforward to do
+this with fader automation, but but it would be much harder to do it using
+region-specific automation.
 
 ## Continuing
 
-Once you have your Automation in place, you are just about ready to
-Export your Stereo Mix to an audio file which you can listen to, burn as
-a CDR or convert to an MP3/OGG to share on a website. Please continue on
-to the next section, **Exporting Sessions**, to learn the different ways
-of doing this.
+Once you have your automation in place, you are just about ready to export your
+stereo mix to an audio file which you can listen to or share on a website.
+Please continue on to the next section to learn the different ways of doing
+this.
 
 Next: [EXPORTING A SESSION](../exporting-a-session)
