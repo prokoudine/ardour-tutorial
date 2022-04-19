@@ -1,59 +1,76 @@
 +++
-title = "Exporting a range"
+title = "Exporting ranges"
 chapter = false
-weight = 2
-#pre = "<b>1. </b>"
+weight = 3
 +++
 
-Learn how to export a selected portion (Range) of your Session.
-
-**Exporting** is the process of saving a Region, Track or Session to a
-file on your computer. As we learned previously, exporting an isolated Region does
-not export all of the changes you might have made to that Region. To
-export edits such as **Panning**, **Fader Automation**, and **Plugin effects**,
-you must Export either a Range or the entire Session.
+As you have already learned in previous chapters, exporting an isolated region
+does not export all of the changes you might have made to that region. To export edits such as panning, fader automation, and plugin effects, you must
+export either a range or the entire session.
 
 ## Exporting a Range
 
 To export a range, follow these steps:
 
-* CLick on the **Range Mode** button (shortcut "*R*")
+1. Click on the **Range Mode** button (**R** shortcut)
 
 ![export range 0](en/Ardour4_EditModes_R.png)
 
-* Make a Range selection:
+2. Make a range selection:
 
-![export range 1](en/Ardour4_Export_Range_1.png)
+![export range 1](en/ardour7-exporting-range-1.png)
 
-* Right click on the Range and choose "*Export Range*" from the menu:
+3. Right click on the range and choose _Export Range_ from the menu:
 
-![export range 2](en/Ardour4_Export_Range_2.png)
+![export range 2](en/ardour7-exporting-range-2.png)
 
-This will open the familiar Export dialog explained in the [Exporting a Session](../exporting-a-session) chapter. Choose your options, if any, and click Export. The Range will be exported and saved as an audio file.
+This will open the familiar _Export_ dialog explained in the [Exporting
+Sessions](../exporting-a-session) chapter. Choose your options, if any, and
+click **Export**. The range will be exported and saved as an audio file.
 
-### What exactly is a Range?
-To define a Range is simply to specify a beginning and ending point in time. The **Selection** display to the right of the secondary clock shows the start and end times of the selected range, as well as its duration. The Range created through the method above will disappear as soon as you click outside of it.
+### What Exactly I s a Range?
 
-The Export Range command will export everything that plays through the Master Bus, exactly as it plays back in
-your Session. If any of the Tracks have the Mute or Solo buttons engaged, this will also affect which Tracks are heard in the Exported file.
+To define a range is simply to specify a beginning and ending point in time. The **Selection** display to the right of the secondary clock shows the start and end times of the selected range, as well as its duration.
 
-### What is a Range Marker? 
-Range Markers are essentially two location markers the are grouped together to mark the beginning and end of a section in the timeline. You can user Range Markers to "bookmark" (so to speak) one or more Ranges that you need to remember or use again later. Range Markers look like this on the timeline:
+{{< figure src="en/ardour7-range-duration.png" alt="Range duration" >}}
 
-![range markers](en/Ardour4_Export_Range_Markers.png)
+The range created through the method above will disappear as soon as you click outside of it.
 
-There are a few ways to create Range Markers:
+The _Export Range_ command will export everything that plays through the
+_Master_ bus, exactly as it plays back in your session. If any of the tracks
+have the **Mute** or **Solo** buttons engaged, this will also affect which
+tracks are heard in the exported file.
 
-* From a Range selection, right click on it and choose "*Add Range Marker*".
-* From the timeline, right click on the "Range Markers" horizontal space and choose "*New Range*".
-* From one or more selected Regions, right click on the Region and choose "*Add Single Range Marker*" (if a single Region is selected), or "*Add Range Marker Per Region*" (if multiple Regions are selected).
+### How to Create a Range Marker and Then Re-select a Range
+
+Range markers are essentially two location markers the are grouped together to mark the beginning and end of a section on the timeline. Range markers look like this:
+
+{{< figure src="en/ardour7-range-markers.png" alt="Range markers" >}}
+
+You can use range markers to "bookmark" one or more ranges that you need to remember or use again later. Here is how you can do that.
+
+1. Make a range selection either in _Range_ mode or in _Grab_ mode with _Smart_
+option enabled.
+
+2. Create range markers in one of the following ways:
+
+* Right-click on a range selection and choose _Add Range Marker_.
+* From the timeline, right click on the _Range Markers_ horizontal space and choose _New Range_.
+* From one or more selected regions, right-click on the region and choose _Add
+Single Range Marker_ (if a single region is selected), or _Add Range Marker Per
+Region_ (if multiple regions are selected).
+
+3. Click anywhere outside the range selection to lose it.
+
+4. Right-click on either of the two range selection markers on the timeline and
+choose the _Select Range_ menu option. The range selection will be restored.
 
 {{% notice tip %}}
-You can clear all existing Range Markers by right-clicking on the Range Markers area of the timeline and choosing "*Clear All Ranges*".
+You can clear all existing range markers by right-clicking on the _Range Markers_ area of the timeline and choosing _Clear All Ranges_.
 {{% /notice %}}
 
 ## Continuing 
 
 You now know how to Export isolated Regions, selected Ranges from your Session, or the entire Session as a Stereo Mix. The last section of this tutorial explains saving sessions, snapshots, and templates.
 
-Next: [SAVING A SESSION](../saving-a-session)
+Next: [SAVING A SESSION](../../saving-sessions/saving-a-session/)
