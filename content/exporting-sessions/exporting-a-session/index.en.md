@@ -1,5 +1,5 @@
 +++
-title = "Exporting a session"
+title = "Exporting sessions"
 chapter = false
 weight = 1
 +++
