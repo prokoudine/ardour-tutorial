@@ -47,9 +47,9 @@ If your _end_ marker is too far after the end of your piece, click and drag it t
 
 ## Export it!
 
-To export a session, use the top menu: `Session > Export > Export to Audio File(s)...`. This will open up a dialogue box with a number of options.
+To export a session, use the top menu: `Session > Export > Export to Audio File(s)...`. This will open up a dialog box with a number of options.
 
-![export session dialog](en/ardour7-exporting-settings.png)
+![Export Session dialog](en/ardour7-exporting-settings.png)
 
 **Preset**
 : This is *NOT* where you write the file name. Don't worry about this field now.
@@ -77,9 +77,28 @@ individual edits made to the regions as well. If any of the tracks have the
 **Mute** or **Solo** buttons engaged, this will also affect which tracks will be heard in the exported file.
 {{% /notice %}}
 
-## Advanced Options
+## Normalization
 
-Click on the tabs _Time span_ and _Channels_ in case you need to access advanced exporting options.
+Sometimes the rendered audio is either too loud or too quiet to match demands imposed by various popular streaming services like YouTube or Spotify. Ardour
+provides a tool called _Loudness Assistant_ to help with that.
+
+In layman terms, it analyzes everything that goes through the _Master_ bus,
+estimates how loud the signal is, and then suggests correcting it upwards or
+downwards so that overall loudness would be just about right for this or that
+popular streaming service.
+
+While you can apply loudness (gain) correction directly to the _Master_ bus's
+output and benefit from having more manual control over the result, the most
+convenient way is to apply normalization at the exporting stage. You can do
+that two ways:
+
+1. Just pick a popular service in the drop-down list under _Formats_. Ardour has presets for Apple Music, Deezer, Spotify, YouTube etc.
+
+2. If the service is not listed in the presets, click the **Edit** button to
+open a dialog with advanced exporting settings, enable _Normalize_, choose
+_Loudness_ rather than _Peak_, and then set the desired LUFS value.
+
+{{< figure src="en/ardour7-edit-exporting-format.png" alt="Edit the exporting format" >}}
 
 ## Continuing
 
