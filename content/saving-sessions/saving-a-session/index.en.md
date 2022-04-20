@@ -53,17 +53,20 @@ like to make a backup of it on an external drive, *you must copy the entire
 folder* containing all of the files mentioned above. It is _not_ enough to copy
 just the `*.ardour` file.
 
-{{% notice tip %}}
+{{% notice warning %}}
 When copying an Ardour folder to another computer or drive, do not manually
-change its name or the name of any of the internal files.
+change its name or the name of any of the internal files. Please also note that,
+as Ardour sessions are case-sensitive, copying a session to a USB stick (VFAT
+file-system) will likely corrupt the session. ZIP up the session folder to move
+it between machines.
 {{% /notice %}}
 
-The easiest way to transfer the entire project is to just ZIP the session's
-folder. If you don't have snapshots in your session, you can also use the
-`Session > Archive...` command. This will create a single ZIP file containing
-the project file and all audio data transcoded to lossless FLAC files. Please
-note that this will drop snapshots, only the current state will be saved.
-
+The easiest way to transfer the entire project is indeed to just ZIP the
+session's folder. If you don't have snapshots in your session, you can also use
+the `Session > Archive...` command. This will create a single ZIP file
+containing the project file and all audio data transcoded to lossless FLAC
+files. Please note that an archive will _not_ contain snapshot, only the current
+state of the session will be preserved.
 
 ## Continuing
 
