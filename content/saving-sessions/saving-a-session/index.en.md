@@ -40,29 +40,30 @@ session, and is also periodically backed up.
 used in your session.
 * The `export` folder is where exported files are saved by default.
 
-{{% notice tip %}}
 If double-clicking on the session file does not launch Ardour, use the standard
 method of first opening the application itself, then choosing a session from the
 _Session Setup_ dialog.
-{{% /notice %}}
 
-![Ardour Opening](en/Ardour4_Session_Setup_Dialog.png)
+![Ardour Opening](en/ardour7-session-setup-dialog.png)
 
-## Moving a session to another computer or disk
+## Moving a Session to Another Computer or Disk
 
 If you need to move your Ardour session to another computer, or if you would
 like to make a backup of it on an external drive, *you must copy the entire
 folder* containing all of the files mentioned above. It is _not_ enough to copy
 just the `*.ardour` file.
 
-The convenient way to do so is to use `Session > Archive...` command. A single
-ZIP file with all data will be created. Please note that this will drop
-snapshots, only the current state will be saved.
-
 {{% notice tip %}}
 When copying an Ardour folder to another computer or drive, do not manually
 change its name or the name of any of the internal files.
 {{% /notice %}}
+
+The easiest way to transfer the entire project is to just ZIP the session's
+folder. If you don't have snapshots in your session, you can also use the
+`Session > Archive...` command. This will create a single ZIP file containing
+the project file and all audio data transcoded to lossless FLAC files. Please
+note that this will drop snapshots, only the current state will be saved.
+
 
 ## Continuing
 
