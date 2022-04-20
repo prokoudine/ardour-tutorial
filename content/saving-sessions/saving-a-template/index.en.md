@@ -39,10 +39,10 @@ the program.
 
 In the following section, the **Appendices**, we have included some extra
 information we thought would be useful to new users of Ardour, including how to
-get [**Further Help**](../further-help), a [**Glossary**](../glossary) of
-technical terms used in this manual, some [**Links**](../links) to further
+get [_Further Help_](../further-help), a [_Glossary_](../glossary) of
+technical terms used in this manual, some [_Links_](../links) to further
 information about Ardour on the Internet and, last but not least, the
-[**Credits**](../credits) of those involved in creating this free/libre
+[_Credits_](../credits) of those involved in creating this free/libre
 open-source software (FLOSS) manual.
 
 Thanks for reading, and if you have some knowledge about Ardour that is not
