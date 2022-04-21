@@ -4,9 +4,11 @@ chapter = false
 weight = 2
 +++
 
-A _snapshot_ is a representation of the current state of a session at some point
-in time. In a nutshell, it's like versioning your project by giving every
-version a meaningful name.
+A _snapshot_ is a representation of the current state of a session. In a
+nutshell, it's like versioning your project by giving every version a
+meaningful, descriptive name. Even though it's not really exposed to users,
+every session always has at least one snapshot which is whatever you have
+there at the moment.
 
 Let's say you recorded a song in your home studio and you are trying different
 arrangements to see which one works best. Instead of creating multiple sessions
@@ -21,22 +23,23 @@ Ardour provides two commands in the _Session_ menu to create a snapshot:
 
 **Snapshot (& keep working on current version)**
 : You will create a new snapshot and continue working on the original version.
-Mental model: "I think this is good enough, I might want returning to that
-later, so I'll save a snapshot, undo, then carry on with my original idea
-regardless".
+Any new saves will overwrite the current state of the project, the newly
+created snapshot will not be affected. Mental model: "I think I'm about to
+change things in a major way, so I need a backup if everything goes sideways
+with my experiment".
 
 **Snapshot (& switch to new version)**
-: You will create a new snapshot and switch to working on that version. Mental
-model: "This is actually quite interesting, let's explore this idea further and
-get back to the previous one if this turns out to be a dead end."
+: You will create a new snapshot and switch to working on that version. Any new
+saves you do will affect the new snapshot until you switch to the original
+snapshot. Mental model: "This is actually quite interesting, let's explore this
+idea further and get back to the previous one if this turns out to be a dead
+end". 
 
 ![snapshots](en/ardour7-snapshot-menu.png)
 
 By default the program will name the new snapshot according to the current date
 and timestamp of your system. If you wish, you can change the name to one that
-more meaningfully corresponds to the session you are working on. From the menu,
-you can also choose whether to save a snapshot and keep working on the present
-version, or save a snapshot and switch immediately to that snapshot.
+more meaningfully corresponds to the session you are working on.
 
 ![snapshots](en/ardour7-snapshot-name.png)
 
