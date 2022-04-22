@@ -817,8 +817,3 @@ inside the colored rectangles representing Regions in the Main Canvas.
 
 **Word length**
 : See **Bit Depth**. 
-
-**Appendices:**
-[FURTHER HELP](../further-help)   ||
-[LINKS](../links)   ||
-[CREDITS](../credits)

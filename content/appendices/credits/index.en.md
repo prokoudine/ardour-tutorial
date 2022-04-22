@@ -1,7 +1,7 @@
 +++
 title = "Credits"
 chapter = false
-weight = 4
+weight = 3
 +++
 
 The main body of the manual was written during a **Book Sprint** led by Derek
@@ -9,7 +9,8 @@ Holzer in the [moddr_lab](http://moddr.net "moddr_lab @ WORM, Rotterdam") at
 WORM in Rotterdam, the Netherlands, between 23 and 27 November 2009, with input 
 and support from the international community of Ardour users and developers. 
 The tutorial was originally written for Ardour 2.X versions. The original FLOSS
-manual can be found at [flossmanuals.net](http://archive.flossmanuals.net/ardour/index.html).
+manual can be found at
+[flossmanuals.net](http://archive.flossmanuals.net/ardour/index.html).
 
 Original contributors: Adam Hyde, Bruno Ruviaro, Dave Peticolas, Walter 
 Langelaar, David Elwell, Thomas Goose, Derick H., Rob Fell, William Abernathy, 
@@ -33,11 +34,3 @@ Christie.
 2021 update for Ardour v6 by Luca Aquino.
 
 2022 update for Ardour v7 by Alexandre Prokoudine.
-
-<!-- 2022 update for Ardour v7 by Alexandre Prokoudine. -->
-
-[FURTHER HELP](../further-help)   ||
-[GLOSSARY](../glossary)   ||
-[LINKS](../links)
-
-
