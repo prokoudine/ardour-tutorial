@@ -23,9 +23,9 @@ track_. Automation data is visually represented as an _automation line_, made
 up of a number of _automation points_. Here's how a track with automation
 looks like:
 
-![Typical automation track](en/Ardour4_Automation_Fader_1.png)
+![Typical automation lane](en/Ardour4_Automation_Fader_1.png)
 
-In the image above, the automation track called _Fader_ is associated to the
+In the image above, the automation lane called _Fader_ is associated to the
 parent track called _Audio 1_. The automation line controls fader (volume)
 changes over time. 
 
@@ -37,7 +37,7 @@ automate. Choose _Fader_.
 
 ![Choose Fader](en/Ardour4_Automation_Button.png)
 
-An automation track will then appear. Select the _Draw_ mode (**D** shortcut):
+An automation lane will then appear. Select the _Draw_ mode (**D** shortcut):
 
 ![Draw mode](en/Ardour4_EditModes_D.png)
 
@@ -187,12 +187,12 @@ region rectangle:
 
 Click directly on that line to create automation points. These will be drawn
 directly on the region itself, unlike fader automation which is drawn or
-recorded in the automation track. Region gain automation is separate from, and
+recorded in the automation lane. Region gain automation is separate from, and
 in addition to, fader automation.
 
 ![gain-automation2](en/Ardour4_Automation_Region_Specific_2.png)
 
-As with the automation tracks, a _gain automation point_ can be dragged in any
+As with the automation lanes, a _gain automation point_ can be dragged in any
 direction with the mouse. To remove a gain automation point, hold down the
 **Shift** key while right-clicking on it.
 
