@@ -10,7 +10,28 @@ We intentionally limit the scope of this tutorial to very basic techniques that
 are sufficient to get users started with recording, mixing, and exporting with
 Ardour. So we'll gratefully accept patches that do not change the scope in any
 major way: bug fixes, better explanations, better illustrations etc. We also
-encourage translations of the tutorial.
+encourage translations of the ardour-tutorial.
+
+## Using Markdown Syntax And Extras
+
+All text files use Markdown syntax with a few extras. We use a limited subset of
+available options and one shortcode specific to HTML5, a `<figure>` element
+([see here](https://gohugo.io/content-management/shortcodes/#figure) for more
+info). Another extra feature available in the template of choice is a so called
+shortcode for notice boxes that look like this:
+
+{{% notice tip %}}
+Some text
+{{% /notice %}}
+
+We generally stick to two type of notice boxes: 'tip' and 'warning'.
+
+The rest is really straightforward:
+
+- Single underscore like `_Name_` makes italics and is used for UI elements like
+window captions.
+- Double asterisk like `**OK**` makes bolds and is reserved for button captions.
+- Backticks around some text are typically reserved for menu paths and filenames.
 
 ## How to Submit Changes
 
@@ -132,16 +153,6 @@ name it `index.fr.md` and then translate it.
 
 4. Repeat step 3 for all subfolders. This should give you the translation of an
 entire chapter on getting started with Ardour.
-
-All text files use Markdown syntax with a few extras. We use a limited subset of
-available options and one shortcode specific to HTML5, a `<figure>` element
-([see here](https://gohugo.io/content-management/shortcodes/#figure) for more
-info). The rest is really straightforward:
-
-- Single underscore like `_Name_` makes italics and is used for UI elements like
-window captions.
-- Double asterisk like `**OK**` makes bolds and is reserved for button captions.
-- Backticks around some text are typically reserved for menu paths and filenames.
 
 ### Translating User Interface Elements and Screenshots
 
