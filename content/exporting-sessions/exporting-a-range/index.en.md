@@ -14,21 +14,21 @@ To export a range, follow these steps:
 
 1. Click on the **Range Mode** button (**R** shortcut)
 
-![export range 0](en/Ardour4_EditModes_R.png)
+{{< figure src="en/Ardour4_EditModes_R.png" alt="Range mode" >}}
 
 2. Make a range selection:
 
-![export range 1](en/ardour7-exporting-range-1.png)
+{{< figure src="en/ardour7-exporting-range-1.png" alt="Make a range selection" >}}
 
 3. Right click on the range and choose _Export Range_ from the menu:
 
-![export range 2](en/ardour7-exporting-range-2.png)
+{{< figure src="en/ardour7-exporting-range-2.png" alt="Export Range in menu" >}}
 
 This will open the familiar _Export_ dialog explained in the [Exporting
 Sessions](../exporting-a-session) chapter. Choose your options, if any, and
 click **Export**. The range will be exported and saved as an audio file.
 
-### What Exactly I s a Range?
+### What Exactly Is a Range?
 
 To define a range is simply to specify a beginning and ending point in time. The **Selection** display to the right of the secondary clock shows the start and end times of the selected range, as well as its duration.
 
