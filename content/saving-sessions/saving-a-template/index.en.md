@@ -20,16 +20,17 @@ basis for each session you created in that situation.
 ## Save a Template
 
 You can save a new template from the main menu: `Session > Save Template`. You
-are asked to give the new template a name and optionally provide a description that will show up in the _Session Setup_ dialog:
+are asked to give the new template a name and optionally provide a description
+that will show up in the _Session Setup_ dialog:
 
-![template1](en/ardour7-save-template.png)
+{{< figure src="en/ardour7-save-template.png" alt="Template options" >}}
 
 ## Load a Template
 
 When creating a new session, you can load up a previously saved template. All
 you will need is to tell Ardour where on the disk to save the session:
 
-![template2](en/ardour7-session-setup.png)
+{{< figure src="en/ardour7-session-setup.png" alt="New session from a custom template" >}}
 
 ## Conclusion
 
