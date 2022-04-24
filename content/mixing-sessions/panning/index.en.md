@@ -1,5 +1,6 @@
 +++
 title = "Panning"
+description = "How to pan signal in Ardour"
 chapter = false
 weight = 3
 +++

@@ -1,5 +1,6 @@
 +++
 title = "Equalizing"
+description = "Applying equalization to audio in Ardour"
 chapter = false
 weight = 7
 +++
@@ -26,7 +27,7 @@ the screenshot below is just such an EQ. If you don't have this particular
 plugin on your computer, explore the ones you have that have "EQ" in the name;
 you will likely find something similar.
 
-![DJ EQ](en/ardour7-dj-eq.png)
+{{< figure alt="DJ EQ" src="en/ardour7-dj-eq.png" >}}
 
 ## Multi-Band (or Graphic) Equalizer
 
@@ -37,7 +38,7 @@ Equalizer_ plugin shown below, the center frequency of each band can be defined
 by the user. This allows you to either attenuate (or remove) an unwanted
 frequency, or to reinforce (boost) a desired one.
 
-![tap eq](en/ardour7-lsp-graphic-16-band-eq.png)
+{{< figure alt="tap eq" src="en/ardour7-lsp-graphic-16-band-eq.png" >}}
 
 The overall "curve" of the bands can also be used to determine the general tone
 of your track or mix. In the example above, the lower part of the mid-range
@@ -51,14 +52,14 @@ The _parametric equalizer_ is the most versatile type of EQ used for mixing
 because of its extensive control over all types of EQ parameters. Ardour ships
 with a parametric equalizer plug-in called the _ACE EQ_. It looks like this:
 
-![a-eq](en/ardour7-ace-eq.png)
+{{< figure alt="a-eq" src="en/ardour7-ace-eq.png" >}}
 
 Others may have shinier graphical interfaces like the _x42 EQ_ by Robin Gareus,
 but they all essentially do the exact same thing. You may have EQ plugins on
 your computer that look a bit different than these screenshots, but the
 parameters you can control are likely very similar.
 
-![x42 eq](en/ardour7-x42-eq.png)
+{{< figure alt="x42 eq" src="en/ardour7-x42-eq.png" >}}
 
 In both screenshots above (_a-EQ_ and _x42 EQ_), there are options you can
 adjust for each frequency band. Each of the three bands has a _level_ (dB)

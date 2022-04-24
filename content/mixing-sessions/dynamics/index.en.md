@@ -1,5 +1,6 @@
 +++
 title = "Dynamics"
+description = "Applying limiters, compressors, and a gate in Ardour"
 chapter = false
 weight = 6
 +++
@@ -31,7 +32,7 @@ slider. The _Fast Lookahead Limiter_ literally looks ahead in the signal by a
 few milliseconds, and when it sees that the signal is about to go over the limit
 you have set, it automatically turns the levels down.
 
-![limiter](en/ardour7-fast-lookahead-lmiter.png)
+{{< figure alt="limiter" src="en/ardour7-fast-lookahead-lmiter.png" >}}
 
 The _Input Gain (dB)_ slider determines how much the levels are increased before
 they reach the limiter, and the _Attenuation (dB)_ meter on the right-hand side
@@ -64,7 +65,7 @@ A typical compressor will have these obligatory controls:
 **Attack** and **Release**
 : Control how quickly the compressor affects the sound.
 
-![ACE Compressor](en/ardour7-ace-compressor.png)
+{{< figure alt="ACE Compressor" src="en/ardour7-ace-compressor.png" >}}
 
 The _ACE Compressor_ plugin on the screenshot above has two additional controls:
 
@@ -92,7 +93,7 @@ dynamics between the beginning and end of the drum hit similar.
 Below is a screenshot of a similar compressor from the [LSP plugins
 suite](https://lsp-plug.in/):
 
-![LSP Compressor Mono](en/ardour7-lsp-compressor-mono.png)
+{{< figure alt="LSP Compressor Mono" src="en/ardour7-lsp-compressor-mono.png" >}}
 
 If you want to speed up learning how to use a compressor, a generally good idea
 is to insert one scope visualization plugin before the compressor and one right
@@ -114,14 +115,14 @@ Here, the _Hard Gate_ plugin (from a suite of LADSPA plugins called
 parameter, the _Threshold_ at which the gate will open and let the signal
 through.
 
-![Hard Gate](en/ardour7-hard-gate.png)
+{{< figure alt="Hard Gate" src="en/ardour7-hard-gate.png" >}}
 
 Other kinds of gates, such as the _LSP Gate_ plugin on the screenshot below, are
 more complex. They have independent control over how quickly the gate opens
 (_Attack_) and closes (_Release_), as well as other parameters quite similar to
 those described for the SC Compressor above.
 
-![LSP Gate](en/ardour7-lsp-gate-mono.png)
+{{< figure alt="LSP Gate" src="en/ardour7-lsp-gate-mono.png" >}}
 
 ## Continuing
 

@@ -1,5 +1,6 @@
 +++
 title = "Using sends"
+description = "Using sends in Ardour"
 chapter = false
 weight = 5
 +++
@@ -25,19 +26,19 @@ the amount of work. Every time you want to change a reverb setting across the
 board for all drums, you'd have to open all four reverb plugins and change
 them in the same way.
 
-*This is where sends come in handy: you can use them to add a particular
+This is where sends come in handy: you can use them to add a particular
 effect to a set of tracks without creating multiple instances of the same
-plugin.*
+plugin.
 
 Here's the overview of how we will do this:
 
-* Create a single bus with the desired plugin.
-* Add a send to each drum track to which you want to apply the effect.
-* Route these sends to the bus.
+1. Create a single bus with the desired plugin.
+2. Add a send to each drum track to which you want to apply the effect.
+3. Route these sends to the bus.
 
 ## Creating the Bus and adding a Plugin
 
-Create a bus (menu *Track > Add Track, Bus, or VCA...*), name it
+Create a bus (`Track > Add Track, Bus, or VCA...` in the menu), name it
 appropriately, and add a plugin in the pre-fader region (right-click just
 above the fader's blue rectangle in the processor box), as discussed in the
 previous chapter, _Using Plugins_.
@@ -108,13 +109,13 @@ You can drag the send rectangle up and down the processor box to make it pre-
 or post-fader as needed.
 
 {{% notice tip %}}
-The choice of pre- or post-fader depending on the type of effect plugin
-used and the desired result. For this exercise, either one will work.
+The choice of pre- or post-fader depending on the type of effect plugin used and
+the desired result. For this exercise, either one will work.
 {{% /notice %}}
 
 A send behaves just like any other plugin in the processor box. You can
-deactivate it temporarily by clicking on the small LED, and you can right
-click on the rectangle to access other options, including _Delete_.
+deactivate it temporarily by clicking on the small LED, and you can right click
+on the rectangle to access other options, including _Delete_.
 
 ### Send Fader
 
@@ -124,10 +125,9 @@ increase or decrease its volume.
 {{< figure alt="sendfader" src="en/Ardour4_Send_Fader.png" >}} 
 
 The _Drums_ bus is now receiving the sum of all tracks, and applying the effect
-to it. A single plugin applied to the bus controls the effect for the mix of
-all drum sounds routed there. This way, you have independent control over the
-"dry" sound of the original tracks, and the "wet" sound of coming out of the
-Bus. 
+to it. A single plugin applied to the bus controls the effect for the mix of all
+drum sounds routed there. This way, you have independent control over the "dry"
+sound of the original tracks, and the "wet" sound of coming out of the bus. 
 
 Because sends are very useful for this kind of work with effect plugins, they
 are also commonly called "Effect Sends".

@@ -1,5 +1,6 @@
 +++
 title = "Using plugins"
+description = "How to use plugins in Ardour"
 chapter = false
 weight = 4
 +++

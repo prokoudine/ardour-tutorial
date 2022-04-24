@@ -1,5 +1,6 @@
 +++
 title = "Using automation"
+description = "How to create and edit automation in Ardour"
 chapter = false
 weight = 8
 +++
@@ -23,7 +24,7 @@ track_. Automation data is visually represented as an _automation line_, made
 up of a number of _automation points_. Here's how a track with automation
 looks like:
 
-![Typical automation lane](en/Ardour4_Automation_Fader_1.png)
+{{< figure alt="Typical automation lane" src="en/Ardour4_Automation_Fader_1.png" >}}
 
 In the image above, the automation lane called _Fader_ is associated to the
 parent track called _Audio 1_. The automation line controls fader (volume)
@@ -35,25 +36,25 @@ Let's create a simple fader automation. Click the **A** button of a chosen
 track. A menu will appear, where you can select the parameter you would like to
 automate. Choose _Fader_.
 
-![Choose Fader](en/Ardour4_Automation_Button.png)
+{{< figure alt="Choose Fader" src="en/Ardour4_Automation_Button.png" >}}
 
 An automation lane will then appear. Select the _Draw_ mode (**D** shortcut):
 
-![Draw mode](en/Ardour4_EditModes_D.png)
+{{< figure alt="Draw mode" src="en/Ardour4_EditModes_D.png" >}}
 
 Now you can create automation points by clicking anywhere in the automation
 lane. An automation line joins the automation points you add. The yellow number
 (-15.3dB in the image below) indicates the gain level for the selected
 automation point.
 
-![Automation point value indication](en/Ardour4_Automation_Fader_2.png)
+{{< figure alt="Automation point value indication" src="en/Ardour4_Automation_Fader_2.png" >}}
 
 ### Automation States
 
 The automation curve will not play, however, until you set the automation state
 to _Play_.
 
-![automation state](en/Ardour4_Automation_Fader_3.png)
+{{< figure alt="automation state" src="en/Ardour4_Automation_Fader_3.png" >}}
 
 **Manual**
 : When set to _Manual_, the track will ignore any automation data. It will just
@@ -87,13 +88,13 @@ curves by hand.
 You may add automation to any plugin which has already been added to a track. In
 the example below, we have the _AM pitchshifter_ plugin added to a track.
 
-![pluginautomation1](en/Ardour4_Automation_Plugin1.png)
+{{< figure alt="pluginautomation1" src="en/Ardour4_Automation_Plugin1.png" >}}
 
 In order to select a plugin parameter for automation, click the button on the
 track marked _a_. The menu will appear. Under _Processor Automation_ you will
 find a listing of the plugins you have added for that track.
 
-![pluginautomation2](en/Ardour4_Automation_Plugin2.png)
+{{< figure alt="pluginautomation2" src="en/Ardour4_Automation_Plugin2.png" >}}
 
 Within each listed plugin, you may choose which parameter you want to automate
 from a list. In the example, we chose the _Pitch shift_ parameter of the _AM
@@ -104,7 +105,7 @@ below the main parent track.
 Draw an automation curve for that parameter. Don't forget to set the automation
 state to _Play_.
 
-![pluginautomation3](en/Ardour4_Automation_Plugin3.png)
+{{< figure alt="pluginautomation3" src="en/Ardour4_Automation_Plugin3.png" >}}
 
 In the image above, the pitch shift of the sound is now changing over time,
 controlled by the curve.
@@ -124,7 +125,7 @@ the height of the automation lane. Notice that the parent track and the
 automation lane heights are independent, so while working in your automation
 curves you might set them up like this:
 
-![pluginautomation5](en/Ardour4_Automation_Plugin4.png)
+{{< figure alt="pluginautomation5" src="en/Ardour4_Automation_Plugin4.png" >}}
 
 {{% notice tip %}}
 Remember that you can also zoom in and out to increase resolution in the
@@ -153,7 +154,7 @@ background around the points. Then the selected points may be deleted by hitting
 After an automation curve ends, its value will stay at that level for all
 subsequent regions, whether or not you have drawn a continuation of the curve.
 
-![end point](en/Ardour4_Automation_Fader_End.png)
+{{< figure alt="end point" src="en/Ardour4_Automation_Fader_End.png" >}}
 
 In the example above, the last point of the curve is at -23dB. That same level
 will be kept for the remainder of the track, even though the line is not drawn
@@ -166,11 +167,11 @@ that might be aligned with it, as we can see in the following screen shots.
 
 Before moving:
 
-![mv1](en/Ardour4_Automation_Moving_1.png)
+{{< figure alt="mv1" src="en/Ardour4_Automation_Moving_1.png" >}}
 
 After moving:
 
-![mv2](en/Ardour4_Automation_Moving_2.png)
+{{< figure alt="mv2" src="en/Ardour4_Automation_Moving_2.png" >}}
 
 You can change this behavior if you like. In other words, if you want automation
 curves to stay where they are even when you move regions around, go to `Edit >
@@ -183,14 +184,14 @@ There is a way to create a gain automation directly bound to a region. When you
 select the _Draw_ mode, you should see a flat line on the top half of each
 region rectangle:
 
-![gain-automation](en/Ardour4_Automation_Region_Specific_1.png)
+{{< figure alt="gain-automation" src="en/Ardour4_Automation_Region_Specific_1.png" >}}
 
 Click directly on that line to create automation points. These will be drawn
 directly on the region itself, unlike fader automation which is drawn or
 recorded in the automation lane. Region gain automation is separate from, and
 in addition to, fader automation.
 
-![gain-automation2](en/Ardour4_Automation_Region_Specific_2.png)
+{{< figure alt="gain-automation2" src="en/Ardour4_Automation_Region_Specific_2.png" >}}
 
 As with the automation lanes, a _gain automation point_ can be dragged in any
 direction with the mouse. To remove a gain automation point, hold down the
@@ -201,7 +202,7 @@ direction with the mouse. To remove a gain automation point, hold down the
 Gain automation can be reset or deactivated from the region context menu, which
 is reached by right-clicking on the region.
 
-![gain-automation3](en/Ardour4_Automation_Gain_Tool_Reset.png)
+{{< figure alt="gain-automation3" src="en/Ardour4_Automation_Gain_Tool_Reset.png" >}}
 
 Here, the gain automation is referred to as the _envelope_:
 
@@ -218,13 +219,13 @@ in which one is more convenient than the other. Here are two examples:
 portion of a region, and you are otherwise happy with the level for the rest of
 the passage or entire track, use the region-specific automation.
 
-![gain-example1](en/Ardour4_Automation_Region_Specific_2.png)
+{{< figure alt="gain-example1" src="en/Ardour4_Automation_Region_Specific_2.png" >}}
 
 * If you have a more complex track with crossfades over regions, and/or need to
 shape a longer dynamic curve across several regions on the same track, use fader
 automation.
 
-![gain-automation2](en/Ardour4_Automation_Gain_Comparison.png)
+{{< figure alt="gain-automation2" src="en/Ardour4_Automation_Gain_Comparison.png" >}}
 
 The screenshot above shows a simple gradual fade starting from the first region
 in the track, and ending at the last region. It's very straightforward to do

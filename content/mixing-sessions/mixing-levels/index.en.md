@@ -26,7 +26,7 @@ not changed. In the screenshot below, the fader for the track named "kick" is
 set to -0.0, and the peak meter indicates that the highest peak so far was
 -5.1dB.
 
-![levels1](en/Ardour4_Mixing_Levels_1.png) 
+{{< figure alt="levels1" src="en/Ardour4_Mixing_Levels_1.png" >}} 
 
 ## Avoiding Clipping
 
@@ -38,7 +38,7 @@ In the screenshot below, the synth track has just clipped to +5.9. You can also
 see little red edges on the waveform itself, indicating the exact locations
 where the recorded sound clipped. 
 
-![levels2](en/Ardour4_Mixing_Levels_2.png)
+{{< figure alt="levels2" src="en/Ardour4_Mixing_Levels_2.png" >}}
 
 Click on the red number in the peak meter to reset it.
 

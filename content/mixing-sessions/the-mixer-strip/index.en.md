@@ -1,5 +1,6 @@
 +++
 title = "The mixer strip"
+description = "Elements of the mixer strip in Ardour"
 chapter = false
 weight = 1
 +++
@@ -41,7 +42,7 @@ display the Editor's mixer strip.
 Here we see the entire mixer strip, as it would appear in either the _Editor_
 window or the _Mixer_ window. 
 
-![strip1](en/Ardour4_Mixer_Strip_1.png) 
+{{< figure alt="strip1" src="en/Ardour4_Mixer_Strip_1.png" >}} 
 
 ### Regular & Narrow Modes
 
@@ -50,7 +51,7 @@ width to conserve space. The very top part of the mixer strip, pictured below,
 switches between regular and narrow modes using the left button. The button with
 an eye icon hides the mixer strip entirely (you can re-enable it later).
  
-![strip top](en/ardour7-narrow-wide-strip.png)
+{{< figure alt="strip top" src="en/ardour7-narrow-wide-strip.png" >}}
 
 You can easily spot differences between narrow and regular modes: shorter
 captions on buttons, no legend for the peak meter etc.
@@ -65,7 +66,7 @@ see the _Understanding Routing_ and _Recording Audio_ chapters for more
 information on input routing. The last narrow region controls phase reversing
 (we won't go into details on this topic in this tutorial). 
 
-![strip 2](en/Ardour4_Mixer_Strip_2.png) 
+{{< figure alt="strip 2" src="en/Ardour4_Mixer_Strip_2.png" >}} 
 
 ### Processor Box 
 
@@ -168,7 +169,7 @@ mono track, and two bar graphs in case of a stereo track. The small rectangular
 field above the meters shows the highest peak value that has been played on that
 track so far.
 
-![strip 7](en/Ardour4_Mixer_Strip_5.png) 
+{{< figure alt="strip 7" src="en/Ardour4_Mixer_Strip_5.png" >}} 
 
 By clicking the right-hand button at the bottom of the mixer strip (it reads
 "post" in the image above), you will be able to select the _metering point_, for
@@ -180,7 +181,7 @@ in each track, called the _track mixer_, which contains a horizontal fader, a
 vertical peak meter, as well as miniature buttons for arm record, mute, and
 solo. They all mirror those found in the mixer strip for that track.
 
-![strip 6](en/Ardour4_Mixer_Strip_6.png) 
+{{< figure alt="strip 6" src="en/Ardour4_Mixer_Strip_6.png" >}} 
 
 Please refer to the chapter on _Mixing Levels_ for more detailed instruction
 about using the fader and peak meters.
