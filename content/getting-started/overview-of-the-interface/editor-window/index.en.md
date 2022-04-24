@@ -3,7 +3,6 @@ title = "Editor window"
 description = "Basics of Ardour's editor window"
 chapter = false
 weight = 1
-#pre = "<b>1. </b>"
 +++
 
 When you create a new session, Ardour opens an empty new window called the
@@ -13,7 +12,7 @@ control plugin automation for creative effects and mixing.
 
 Let's take a look at main parts of the _Editor_ window:
 
-{{< figure src="en/editor-window-sections.png" alt="Editor window sections" >}}
+{{< figure src="en/ardour7-editor-window-sections.png" alt="Editor window sections" >}}
 
 Here they are:
 
@@ -30,7 +29,7 @@ Let's overview them quickly.
 
 ### Edit Modes and Cursor Modes
 
-![Edit Modes](en/ardour7-edit-modes-cursor-modes.png)
+{{< figure alt="Edit Modes" src="en/ardour7-edit-modes-cursor-modes.png" >}}
 
 The _Edit Modes_ and _Cursor Modes_ controls define the behavior of the main
 canvas and the different functions the cursor can have. There are three edit
@@ -58,14 +57,14 @@ region, and in _Grab_ mode in the lower half.
 
 ### Snap Options
 
-![Snap](en/ardour7-snap-options-and-nudge-controls.png)
+{{< figure alt="Snap" src="en/ardour7-snap-options-and-nudge-controls.png" >}}
 
 The _Snap Options_ toolbar allows selecting visible grid units that affect
 snapping when editing regions and, in case of MIDI regions, their contents.
 
 Here is a comparison between 1 bar grid, 1/8 note grid and 1/32 note grid:
 
-![1-bar grid, 1/8 note and 1/32 note grid](en/ardour7-snapping-1-bar-to-1-32-note.png)
+{{< figure alt="1-bar grid, 1/8 note and 1/32 note grid" src="en/ardour7-snapping-1-bar-to-1-32-note.png" >}}
 
 Please see the sections on
 [Setting Up the Meter](../../../editing-sessions/setting-up-the-meter/),
@@ -75,7 +74,7 @@ details.
 
 ### Track View and Zoom Options
 
-![Zoom Options](en/ardour7-view-and-zoom-options.png)
+{{< figure alt="Zoom Options" src="en/ardour7-view-and-zoom-options.png" >}}
 
 The far right part of the toolbar has track view and zoom options.
 
@@ -105,7 +104,7 @@ to save screen space. More information on these operations can be found in the
 [Setting up the Timeline](../../setting-up-the-timeline/) and [Setting Up the
 Meter](../../../editing-sessions/setting-up-the-meter/) chapters.
 
-![Ardour Overview Rulers](en/Ardour6_Overview_Rulers.png)
+{{< figure alt="Ardour Overview Rulers" src="en/ardour7-overview-rulers.png" >}}
 
 ## Tracks and Busses
 
@@ -115,7 +114,7 @@ _MyTrack_ also contains one region which represents an audio file with a drawing
 of its waveform. More information on tracks and busses can be found in the
 [Creating a Track or Bus](../../creating-tracks-and-busses/) chapter.
 
-![Ardour Track](en/Ardour6_Track.png)
+{{< figure alt="Ardour Track" src="en/Ardour6_Track.png" >}}
 
 ## Project Overview
 
@@ -151,7 +150,7 @@ functions, depending on which tab is currently selected: _Tracks & Busses_,
 _Sources_, _Regions_, _Clips_, _Snapshots_, _Track & Bus Groups_, and _Ranges &
 Marks_.
 
-![Sources List](en/ardour7-sources-list.png)
+{{< figure alt="Sources List" src="en/ardour7-sources-list.png" >}}
 
 - _Tracks & Busses_ provides an overview of all tracks and busses in the
 project, including the invisible ones. This tab is covered in the
@@ -172,4 +171,4 @@ user interface to edit them.
 Next up is the _Mixer_ window where you focus on making instruments stand out in
 a song.
 
-Next: [Mixer window](../mixer-window)
+Next: [MIXER WINDOW](../mixer-window)

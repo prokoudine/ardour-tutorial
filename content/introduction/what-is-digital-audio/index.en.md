@@ -105,3 +105,8 @@ more detail:
 
 {{< youtube zC5KFnSUPNo >}}
 
+## Continuing
+
+In the next chapter, we'll laucnh Ardour on Ubuntu Linux and learn the basics of the user interface.
+
+Next: [STARTING ARDOUR](../starting-ardour).

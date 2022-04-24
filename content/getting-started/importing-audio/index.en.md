@@ -3,7 +3,6 @@ title = "Importing audio"
 description = "Importing audio to Ardour tracks"
 chapter = false
 weight = 4
-#pre = "<b>1. </b>"
 +++
 
 Sections of audio are known as _regions_ in Ardour. A Region can be an entire
@@ -18,7 +17,7 @@ On the left side of this dialog you will see a file browser which allows you to
 search your hard drive for appropriate sound files to add (preferably, start
 with a common file format, such as WAV or AIFF).
 
-![Add Media](en/ardour7-add-existing-media.png) 
+{{< figure alt="Add Media" src="en/ardour7-add-existing-media.png" >}} 
 
 At the lower left corner there is a menu which indicates how these files will
 be added. _Add files… as new tracks_ will import audio files and place them on
@@ -27,7 +26,7 @@ files into the Sources list, without creating any new tracks. Choose this
 option now, as we don't want Ardour to create any tracks at this point. Make
 sure the _Mapping_ options says _one region per file_.
 
-![Add to source list](en/ardour7-to-source-list.png) 
+{{< figure alt="Add to source list" src="en/ardour7-to-source-list.png" >}} 
 
 {{% notice tip %}}
 If you do not have any suitable audio files on your hard drive to follow these
@@ -62,7 +61,7 @@ list is located at the far right of the editor window. If you don't see it,
 make sure _Show Editor List_ is checked under the _View_ menu.
 {{% /notice %}}
 
-![Editor List](en/ardour7-audio-imported-to-sources-list.png) 
+{{< figure alt="Editor List" src="en/ardour7-audio-imported-to-sources-list.png" >}} 
 
 By dragging and dropping an audio file listed on the _Sources_ list onto the
 main canvas, you can insert it in an existing or new track. If you drag it into
@@ -88,7 +87,7 @@ used. In the screenshot below, a stereo file with very distinct left and right
 channels was dragged onto a stereo track and a nono track. Notice that in the
 mono track only the left channel is displayed (and played back).  
 
-![Stereo Mono](en/Ardour4_Stereo_Mono_Comparison.png) 
+{{< figure alt="Stereo Mono" src="en/Ardour4_Stereo_Mono_Comparison.png" >}} 
 
 ### Importing Audio Directly to a Track
 
@@ -98,7 +97,7 @@ audio files directly onto tracks.
 Choose _Add files… as new tracks_ to automatically create a new track and add
 the selected file to it. The track will be named after the sound file name.
 
-![Add as New Tracks](en/ardour7-import-as-new-tracks.png) 
+{{< figure alt="Add as New Tracks" src="en/ardour7-import-as-new-tracks.png" >}} 
 
 If you have previously selected one or more tracks, the menu will display the
 additional option _Add files… to selected tracks_ to add a sound file into the
@@ -115,7 +114,7 @@ When using either one of the options above (_add as new track_ or _add to
 selected tracks_), you should also specify where in the track you want the new
 region to be placed. In the screenshot below, we are choosing _session start_.
 
-![Insert At](en/ardour7-insert-point-list.png) 
+{{< figure alt="Insert At" src="en/ardour7-insert-point-list.png" >}} 
 
 The region appears in a new track in the session. The new track automatically
 receives the name of the imported sound file.
@@ -141,5 +140,5 @@ a lot, all the time.
 Now that you have some material in your session, you might want customizing the
 timeline to better suit your needs or jump to recording new material live.
 
-Next: [Setting up the timeline](../setting-up-the-timeline) or
-[Recording audio](../../recording-audio)
+Next: [SETTING UP THE TIMELINE](../setting-up-the-timeline) or
+[RECORDING AUDIO](../../recording-audio)

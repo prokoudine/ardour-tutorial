@@ -16,7 +16,7 @@ portion of a sound file. In the image below, the horizontal strip areas marked
 information are called regions (for example, the region "*wheels-mono.1*" is
 contained within *MyTrack*).
 
-![Tracks](en/Ardour6_Tracks.png) 
+{{< figure alt="Tracks" src="en/Ardour6_Tracks.png" >}}
 
 ## What is a bus?
 
@@ -51,7 +51,7 @@ audio track which requires the reverb effect could be routed to a single bus.
 Alternatively, click on the menu `Track > Add track, Bus, or VCA...` (shortcut
 **Ctrl + Shift + N**). The following window will appear:
 
-![Add track](en/Ardour6_Add_Track_or_Bus.png)
+{{< figure alt="Add track" src="en/Ardour6_Add_Track_or_Bus.png" >}}
 
 Ardour offers different track types depending on the type of data they contain.
 This tutorial will only cover audio tracks and busses. (see the [Ardour
@@ -115,4 +115,4 @@ Once you've added one or more tracks, you will want to put some audio material
 into them to work with. Continue on to the **Importing Audio** and **Recording
 Audio** chapters to learn how to do this.
 
-Next: [Importing audio](../importing-audio)
+Next: [IMPORTING AUDIO](../importing-audio)

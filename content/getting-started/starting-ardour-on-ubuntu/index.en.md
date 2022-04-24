@@ -96,4 +96,4 @@ window:
 
 In the next chapter you'll familiarize yourself with Ardour's user interface and its main windows: Editor, Mixer, Recorder, and Cue.
 
-Next: [Overview of the interface](../overview-of-the-interface)
+Next: [OVERVIEW OF THE INTERFACE](../overview-of-the-interface)

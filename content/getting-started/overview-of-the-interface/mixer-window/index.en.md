@@ -3,15 +3,7 @@ title = "Mixer window"
 description = "Basics of Ardour's Mixer window"
 chapter = false
 weight = 2
-#pre = "<b>1. </b>"
 +++
-
-<!-- There are 3 ways to switch to the _Mixer_ window:
-
-1. The **Mix** button in the window switcher in the top right corner of Ardour's
-window
-2. `Window > Mixer > Show Mixer` in the main menu.
-3. The **Alt+M** shortcut. -->
 
 The main function of the _Mixer_ window is to display all the mixer strips for
 the various tracks and busses side by side for easy reference and finetuning.
@@ -27,7 +19,7 @@ The user interface of a virtual mixing console largely resembles that of a
 physical mixing console where you have mixer channels with gain control and a
 signal meter.
 
-![Mixer Window](en/mixer-window-sections.png)
+{{< figure src="en/mixer-window-sections.png" alt="Mixer Window" >}}
 
 The _Mixer_ window has 3 larger sections:
 
@@ -44,4 +36,4 @@ In the next section we'll take a quick look at the _Recorder_ window that is
 streamlined for launching and controlling the recording of multiple tracks at
 the same time.
 
-Next: [Recorder window](../recorder-window)
+Next: [RECORDER WINDOW](../recorder-window)

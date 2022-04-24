@@ -2,7 +2,6 @@
 title = "Overview of the Interface"
 description = "Basics of Ardour's user interface"
 weight = 2
-#pre = "<b>1. </b>"
 +++
 
 This section will give you a basic overview of Ardour's user interface.
@@ -61,7 +60,7 @@ The transport panel allows easily navigating the project: going to session
 start/end, playing entire session or just a selection (called 'range' in
 Ardour), initiating recording.
 
-![Transport Panel](en/ardour7-transport-panel.png)
+{{< figure src="en/ardour7-transport-panel.png" alt="Transport Panel" >}}
 
 The bottom of the panel has jog/shuttle controls for skipping backward and
 forward at various speed while playing back the contents of the session.
