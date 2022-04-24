@@ -1,5 +1,6 @@
 +++
 title = "License"
+description = "This tutorial's license"
 chapter = false
 weight = 4
 +++

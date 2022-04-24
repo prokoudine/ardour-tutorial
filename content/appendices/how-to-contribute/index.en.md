@@ -1,5 +1,6 @@
 +++
 title = "How to contribute"
+description = "How to contribute to this intro tutorial"
 chapter = false
 weight = 5
 +++

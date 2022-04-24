@@ -1,6 +1,6 @@
 +++
 title = "Recording"
-description = "Learn how to route signal and record audio"
+description = "Learn how to route signal and record audio with Ardour"
 chapter = true
 weight = 3
 pre = "<b>3. </b>"

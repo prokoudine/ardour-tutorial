@@ -3,7 +3,6 @@ title = "Understanding routing"
 description = "Routing signal in Ardour"
 chapter = false
 weight = 2
-#pre = "<b>1. </b>"
 featherlight = false
 +++
 
@@ -39,7 +38,7 @@ way to make connections to, from ,and within Ardour's mixer. You can open this
 window with the shortcut **Alt + P**, or through the
 `Window > Audio Connections` menu.
 
-![_Audio Connection Manager_](en/ardour7-audio-connections-in-menu.png) 
+{{< figure alt="Audio Connection Manager" src="en/ardour7-audio-connections-in-menu.png" >}} 
 
 The patchbay presents two groups of ports; one set of sources, and one of
 destinations. Sources and destinations are organized by tabs. The available
@@ -52,7 +51,7 @@ in the bottom. This means that the matrix you see displays connections from
 available hardware sound sources (for example, a microphone), into existing
 Ardour tracks.  
 
-![ACM 1](en/ardour7-audio-connection-manager-1.png) 
+{{< figure alt="ACM 1" src="en/ardour7-audio-connection-manager-1.png" >}} 
 
 The green dots represent a connection. The screenshot above tells us that
 incoming sounds from _capture\_1_ (the first input source of your soundcard, or
@@ -69,15 +68,15 @@ vertical tab) into Ardour busses (selected horizontal tab). As mentioned
 earlier, the default setting for all _Ardour Tracks_ is that their sound goes to
 the _Master_ bus.
 
-![ACM 2](en/ardour7-audio-connection-manager-2.png) 
+{{< figure alt="ACM 2" src="en/ardour7-audio-connection-manager-2.png" >}} 
 
 Note: remember that _Audio 1_ is a Mono track? We saw it in the earlier
 screenshot that _Audio 1_ only has one input slot. But now on the screenshot
-above you see that "Audio 1" has two outputs (Left and Right). This is normal:
+above you see that "Audio 1" has two outputs (left and right). This is normal:
 we define whether a track is Mono or Stereo by its *number of inputs*, not
 outputs. Mono tracks will hold a single channel of audio, but you can still
 choose to place the sound on the left or the right speaker (or anywhere in
-between). More on this in the chapter **Panning**.
+between). For more on this  please see the _Panning_ chapter.
 
 Finally, let's explore a couple more tabs in the _Audio Connection Manager_ to
 see the sound going from the _Master_ bus to the actual hardware outputs (your
@@ -110,7 +109,7 @@ connection line. Here is how you do it:
 In the following example session, there are two guitar tracks and one
 unused bus called _Guitar_ bus, all Stereo.
 
-![ACM 4](en/ardour7-audio-connection-manager-4.png) 
+{{< figure alt="ACM 4" src="en/ardour7-audio-connection-manager-4.png" >}} 
 
 Suppose you want to send the output from the two guitar tracks to the _Guitar_
 bus instead of the _Master_ bus. This can be useful to control the volume of
@@ -125,7 +124,7 @@ destinations (horizontal bottom tabs). Undo existing connections from both
 tracks to _Master_. Then create connections from both tracks to _Guitar_ bus.
 The final result would look like this: 
 
-![ACM 5](en/ardour7-audio-connection-manager-5.png) 
+{{< figure alt="ACM 5" src="en/ardour7-audio-connection-manager-5.png" >}} 
 
 Now both guitar tracks are routed to the _Guitar_ bus, and no longer directly
 connected to the _Master_ bus. We then make sure that the _Guitar_ bus is, by
@@ -149,7 +148,7 @@ of the  strip. Clicking on either one will show you a menu of connection
 options. In the  screenshot below, for example, you would click on the **1/2**
 button right under the track name _Guitar 1_ in order to access this menu:
 
-![Editor Mixer In Out](en/ardour7-editor-mixer-in-out.png)
+{{< figure alt="Editor Mixer In Out" src="en/ardour7-editor-mixer-in-out.png" >}}
 
 You may select a connection right there from the menu, or choose _Routing Grid_ 
 to see a simpler version of the _Audio Connection Manager_ with only the
@@ -163,10 +162,9 @@ applications like _Qjackctl_ or _Catia_, depending on your operating system.
 Below is an example of a _Catia_ window (Linux only) displaying the same JACK
 connections discussed above:
 
-![Catia](en/Ardour4_Catia_Example.png) 
+{{< figure alt="Catia" src="en/Ardour4_Catia_Example.png" >}} 
 
-Continuing
-----------
+## Continuing
 
 In this chapter, we covered how to manage routing inside Ardour, or between
 Ardour and the sound card. However, one of the strengths of using the JACK

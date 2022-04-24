@@ -1,5 +1,6 @@
 +++
 title = "Editing sessions"
+description = "The basics of editing Ardour sessions"
 chapter = true
 weight = 4
 pre = "<b>4. </b>"

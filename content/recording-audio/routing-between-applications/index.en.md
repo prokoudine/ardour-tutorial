@@ -1,8 +1,8 @@
 +++
 title = "Routing between applications"
+description = "Routing signal from one JACK client to another"
 chapter = false
 weight = 7
-#pre = "<b>1. </b>"
 +++
 
 Sometimes you may need to record the audio output of another program into
@@ -55,7 +55,7 @@ The procedure is essentially the same: create a mono or stereo track to
 record the audio, set that track's inputs to the desired source, and
 record as usual. 
 
-![Hydrogen](en/ardour7-hydrogen.png) 
+{{< figure src="en/ardour7-hydrogen.png" alt="Hydrogen" >}} 
 
 The screenshot above was taken while recording a drum pattern from Hydrogen
 directly into an Ardour tracks named _Drum N_ where N is a number from 1 to 18.

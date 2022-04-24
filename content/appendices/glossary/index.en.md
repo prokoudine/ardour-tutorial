@@ -1,17 +1,17 @@
 +++
 title = "Glossary"
+description = "Terminology used in this Ardour tutorial"
 chapter = false
 weight = 2
-#pre = "<b>1. </b>"
 +++
 
 This glossary offers brief definitions for many or the terms used throuhout the Ardour3 FLOSS Tutorial.
 
-**Aggregate Device** (Mac OS X)
+**Aggregate Device** (macOS)
 : An Aggregate Device is one virtual soundcard made of of two or more
 physical soundcards. PowerBooks and MacBooks made in 2007 or later will
-need this set up in order for **JACK** to have both input and output
-channels. This is set up in the **Audio MIDI Setup** application.
+need this set up in order for _JACK_ to have both input and output
+channels. This is set up in the _Audio MIDI Setup_ application.
 
 **AIFF**
 : A sound file format developed by Apple and commonly used for lossless
@@ -24,10 +24,11 @@ functionality to the Linux operating system.
 
 **Amplitude** (mixing)
 : The strength of an audio signal. The scale of amplitude is
-**logarithmic**, since it expresses the physical ratio of power between
+_*logarithmic_, since it expresses the physical ratio of power between
 one sound and another. Levels in digital audio systems are usually
 represented as the number of Decibels below the clipping point of 0 dB.
-See also **loudness**. 
+See also _loudness_.
+
 **Arm** (Track to record/Ardour to record)
 : Action that makes Ardour ready to start recording. Before recording in
 Ardour, one or more tracks need to be armed first, and then Ardour needs
@@ -41,17 +42,17 @@ intentional sound transformation.
 
 **Attenuation**
 : Reducing the **level** of an audio signal, usually measured using a
-**logarithmic** scale. See also **gain**. 
+_logarithmic_ scale. See also _gain_. 
 
-**Audio MIDI Setup** (Mac OS X)
-: The Audio MIDI Setup utility is a program that comes with the Mac OS X
+**Audio MIDI Setup** (macOS)
+: The Audio MIDI Setup utility is a program that comes with the macOS
 operating system for adjusting the computer's audio input and output
 configuration settings and managing MIDI devices.
 
 **Audio Unit Plugins**
-: Audio Unit (AU) is a plugin architecture in Mac OS X computers. It may
+: Audio Unit (AU) is a plugin architecture in macOS computers. It may
 be thought of as Apple's equivalent to the popular VST plugin format by
-Steinberg. Mac OS X comes with a collection of AU plug-ins such as EQ
+Steinberg. MacOS comes with a collection of AU plug-ins such as EQ
 filters, dynamic processors, delay, reverb, time stretch, among others.
 
 **Audition**
@@ -76,23 +77,23 @@ amplitude usually sound louder.
 
 **Bands** (equalization)
 : The particular frequency regions to be boosted or attenuated in the
-process of **Equalization**.
+process of _Equalization_.
 
 **Bars** (music)
 : Same as 'measure', a bar is a metrical unit. In Western notation, it is
 the space comprised between two vertical lines drawn through the staff.
-The specific duration of a bar depends of its **time signature** and the
-current **Tempo** of the music.
+The specific duration of a bar depends of its _time signature_ and the
+current _tempo_ of the music.
 
 **Bass** (Frequencies)
-: A generic way of referring to the lower frequencies of the **Spectrum**
+: A generic way of referring to the lower frequencies of the _spectrum_
 of a sound.
 
 **Beat**
 : The basic pulse underlying a piece of music.
 
 **Beats per Minute**
-: Beats per minute (BPM) is a measure of Tempo in music. A rate of 60
+: Beats per minute (BPM) is a measure of tempo in music. A rate of 60
 beats per minute means that one beat will occur every second; 120 bpm
 equals two beats per second, and so on. BPM indications usually appear
 at the beginning of a traditional musical score as a metronome mark (for
@@ -103,11 +104,11 @@ example, "quarter note equals 60", meaning one quarter note per second).
 or 1. 
 
 **Bit Depth**
-: Refers to the number of bits used to write a **sample**. In the CD
+: Refers to the number of bits used to write a _sample_. In the CD
 standard, each sample of audio is represented by a 16-bit number. This
 gives 2\^16 (two to the power of sixteen = 65,536) possible values that
-a sample can have. A higher bit depth means a greater possible **dynamic
-range**. Studio recordings are usually first made recorded with a bit
+a sample can have. A higher bit depth means a greater possible _dynamic
+range_. Studio recordings are usually first made recorded with a bit
 depth of 24 (or even 32) to preserve as much detail before transfer to
 CD. DVDs are made at 24 bit, while video games from the 1980s remain
 famous for their distinctively rough "8 bit sound". Bit depth is also
@@ -127,9 +128,9 @@ computer if you don't have an external sound card. In a laptop, they are
 the common input (mic) and output (headphone) connections.
 
 **Bus**
-: A bus is similar to a **Track** except that it does not contain its
+: A bus is similar to a track except that it does not contain its
 own regions. You cannot record directly into a bus or drag regions into
-it. The Mixer Strip vertically represents the signal flow of a bus,
+it. The _Mixer_ strip vertically represents the signal flow of a bus,
 whereas the Main Canvas horizontally displays time-based information for
 each bus (such as automation lines).
 
@@ -143,7 +144,7 @@ computer platforms and applications.
 
 **CAF**
 : CAF (Core Audio Format) is a file format for storing audio, developed by
-Apple. It is compatible with Mac OS X 10.4 and higher. The Core Audio
+Apple. It is compatible with macOS 10.4 and higher. The Core Audio
 Format is designed to overcome limitations of older digital audio
 formats, including AIFF and WAV. Just like the QuickTime .mov file
 format, a .caf file format can contain many different audio formats,
@@ -151,7 +152,7 @@ metadata tracks, and much more data.
 
 **Center Frequency**
 : In some EQ plugins, the user has the possibility of choosing the center
-frequency for each of the Frequency Bands. The center frequency of a
+frequency for each of the frequency bands. The center frequency of a
 Band will be the one most sharply attenuated or reinforced by the
 equalizer for that specific band. Frequencies surrounding the center
 frequency will be less affected. 
@@ -164,7 +165,7 @@ referred to as "right-click".
 **Clipping**
 : Clipping occurs when a signal is too high in level to be reproduced. Any
 samples too high in level will simply be truncated, resulting in
-**distortion**, loss of audio detail, and artefact **frequencies** which
+_distortion_, loss of audio detail, and artefact _frequencies_ which
 were not present in the original sound.
 
 **Clipping Point**
@@ -173,19 +174,18 @@ the level of any sound is measured in how far below the clipping point
 it is (-10 dB, -24 dB, etc).
 
 **Clocks**
-: The two big numerical displays near the top of the Editor Window. They
-can display the time in a number of formats: Timecode, Bars:Beats,
-Minutes:Seconds, and Samples.
+: The two big numerical displays near the top of the _Editor_ window. They can
+display the time in a number of formats: _Timecode_, _Bars:Beats_,
+_Minutes:Seconds_, and _Samples_.
 
 **Compile**
-: FLOSS applications are distributed as source code, which is
-human-readable but cannot be run as an actual application. To turn this
-source code into a running application, it must first be Compiled. When
-you download a disk image for Mac OS X or a software package from your
-distribution (such as Ubuntu, Debian or Fedora), it has been compiled
-for you already. However, if you wish to add features (such as support
-for **VST Plugins**) which your distribution does not provide, then you
-must Compile the application from source code yourself. 
+: FLOSS applications are distributed as source code, which is human-readable but
+cannot be run as an actual application. To turn this source code into a running
+application, it must first be Compiled. When you download a disk image for macOS
+or a software package from your distribution (such as Ubuntu, Debian or Fedora),
+it has been compiled for you already. However, if you wish to add features (such
+as support for _VST Plugins_) which your distribution does not provide, then
+you must compile the application from source code yourself. 
 
 **Compression**(DSP)
 : Essentially, compression makes the quiet parts of a signal louder
@@ -206,8 +206,8 @@ effect.
 : The window in Jack that allows to manage all connections between audio
 inputs and outputs.
 
-**CoreAudio**(Mac OS X)
-: CoreAudio provides audio functionality to the Mac OS X operating system.
+**CoreAudio**(macOS)
+: CoreAudio provides audio functionality to the macOS operating system.
 
 **Cursor Modes**
 : These are the six buttons just below the Transport commands in the
@@ -218,29 +218,26 @@ Regions.
 
 **Decibels**
 : Decibel is a logarithmic scale used to measure many quantities,
-including the **gain**, **level** or **loudness** of a signal. Decibel
+including the gain_, level_ or loudness_ of a signal. Decibel
 is usually abbreviated to dB and in digital audio usually denotes how
-far under 0 dBFS (the **clipping** point of a system) a signal is. 
+far under 0 dBFS (the clipping_ point of a system) a signal is. 
 
-**Delay**(effect)
-: The amount of time between one event and another. As an audio effect, a
-delay takes an incoming sound signal and delays it for a certain length
-of time. When mixed with the original sound, an "echo" is heard. By
-using **feedback** to return the delayed signal back into the delay
-(usually after lowering its **gain**), multiple echos with a **decay**
-result.
+**Delay** (effect)
+: The amount of time between one event and another. As an audio effect, a delay
+takes an incoming sound signal and delays it for a certain length of time. When
+mixed with the original sound, an "echo" is heard. By using _feedback_ to return
+the delayed signal back into the delay (usually after lowering its _gain_),
+multiple echos with a _decay_ result.
 
 **Destructive Editing/Recording**
-: Destructive actions are those that permanently modify or erase the
-original data (sound files) in the course of editing or recording. 
+: Destructive actions are those that permanently modify or erase the original
+data (sound files) in the course of editing or recording. 
 
-**Distortion**
-: Distortion occurs when an audio signal is changed in some way that
-produces **frequencies** not present in the original. Distortion can be
+**Distortion** : Distortion occurs when an audio signal is changed in some way
+that produces _frequencies_ not present in the original. Distortion can be
 deliberate or unwanted, and can be produced by driving the signal to a
-**clipping**point, or by using mathematical transformations to alter the
-shape (or "waveform") of the signal (usually referred to as
-"waveshaping").
+_clipping_point_, or by using mathematical transformations to alter the shape (or
+"waveform") of the signal (usually referred to as "waveshaping").
 
 **Disk Image (.dmg)**
 : A disk image is a single file containing the complete contents and
@@ -364,7 +361,7 @@ JACK-enabled audio programs on your computer. You must install JACK for
 Linux or JackOSX before you can use Ardour.
 
 **JackOSX** (OS X)
-: The name of the version of **JACK** that runs on Mac OS X. See **JACK**
+: The name of the version of **JACK** that runs on macOS. See **JACK**
 for more details. 
 
 **JackPilot**
@@ -585,7 +582,7 @@ equalizers are examples of plugins that can be used in Ardour in
 association with Tracks or Busses.
 
 **Portaudio**
-: A free and open source set of **audio drivers**for Linux and Mac OS X.
+: A free and open source set of **audio drivers**for Linux and macOS.
 
 **Post-Fader** (Plugin or Send)
 : In the Mixer Strip, the post-fader area is the black space below the
@@ -762,7 +759,7 @@ common in scores (Allegro, Adagio, Very Fast, etc).
 **Terminal**
 : A "terminal" is the text-based interface that allows to operate a
 computer by typing commands into it. Most computer users today rely
-solely on a graphical interface to control their systems. Both Mac OS X
+solely on a graphical interface to control their systems. Both macOS
 and Linux though, include a terminal which may make some tasks easier
 for some users. 
 
