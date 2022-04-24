@@ -1,9 +1,8 @@
 +++
 title = "Starting Ardour"
-description = "Launching Ardour"
+description = "Launching Ardour on Ubuntu Linux, first steps"
 chapter = false
 weight = 1
-#pre = "<b>1. </b>"
 +++
 
 Ardour supports both Linux, Windows, and macOS. There is very little difference about how it works on all these operating systems. So while this tutorial assumes using Ubuntu Linux, you should expect it to work the same way on other operating systems and Linux flavors.
@@ -12,7 +11,7 @@ Ardour supports both Linux, Windows, and macOS. There is very little difference 
 
 When you first start Ardour, it will ask you a few questions to make a basic customization: user interface and font scale (if you have a HiDPI display), default folder where new sessions would be created, preferred way to monitor signal being recorded etc.
 
-{{< figure src="en/gui-and-font-scaling.png" alt="GUI and font scaling" >}}
+{{< figure src="en/ardour7-gui-and-font-scaling.png" alt="GUI and font scaling" >}}
 
 This dialog will never be shown again, unless you wipe all settings. You can change all the preferences you set there at any time later in the _Preferences_ dialog.
 
@@ -20,7 +19,7 @@ This dialog will never be shown again, unless you wipe all settings. You can cha
 
 Once you get past the first-launch wizard, Ardour will suggest you create a new _session_ from one of a few available templates.
 
-{{< figure src="en/new-session-templates.png" alt="New session templates" >}}
+{{< figure src="en/ardour7-new-session-templates.png" alt="New session templates" >}}
 
 A session encompasses all the material you have: tracks with audio and MIDI data, effects associated with tracks and busses etc. Thus, a session is essentially a project file from which you can render a mono or a stereo audio file to deliver to a client, use in a video, or upload to a streaming service.
 
@@ -51,7 +50,7 @@ applications. As long as Ardour is running, any other desktop applications you
 are running too won't be able to connect to the audio interface and play any
 sound.
 
-{{< figure src="en/alsa-backend-settings.png" alt="Audio/MIDI setup" >}}
+{{< figure src="en/ardour7-alsa-backend-settings.png" alt="Audio/MIDI setup" >}}
 
 The _PulseAudio_ backend currently only supports playback. This means you won't
 be able to record any audio as long as you use PulseAudio, but you can edit,
@@ -59,7 +58,7 @@ mix, and export in e.g. Bluetooth headphones on the go. It's also the most
 convenient option when you want to follow a mixing or mastering tutorial on e.g.
 YouTube and be able to listen to the output from Ardour.
 
-{{< figure src="en/pulse-audio-settings.png" alt="PulseAudio settings" >}}
+{{< figure src="en/ardour7-pulse-audio-settings.png" alt="PulseAudio settings" >}}
 
 Finally, there's JACK audio backend. It is designed following a client-server
 architecture pattern. JACK captures all physical ports of an audio interface and
@@ -91,7 +90,7 @@ Once you've chosen, configured, and started the audio/MIDI backend, Ardour will
 try to discover any new plugins, and then you will be greeted with Ardour's main
 window:
 
-{{< figure src="en/ardour-empty-session.png" alt="Main Ardour window, empty session" >}}
+{{< figure src="en/ardour7-ardour-empty-session.png" alt="Main Ardour window, empty session" >}}
 
 ## Continuing
 
