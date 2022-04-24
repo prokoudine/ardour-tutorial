@@ -94,6 +94,10 @@ suite](https://lsp-plug.in/):
 
 ![LSP Compressor Mono](en/ardour7-lsp-compressor-mono.png)
 
+If you want to speed up learning how to use a compressor, a generally good idea
+is to insert one scope visualization plugin before the compressor and one right
+after, then open both 
+
 ## Gating
 
 The simplest kind of a _gate_ allows a signal to pass through when it is over a

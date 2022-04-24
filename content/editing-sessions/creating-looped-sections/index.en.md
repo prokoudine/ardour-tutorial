@@ -25,18 +25,18 @@ have the ability to separate them later, use _Consolidate Range_ option.
 
 Simply select all the regions you want to combine:
 
-![combine](en/ardour7-combine-regions-1.png)
+{{< figure alt="combine" src="en/ardour7-combine-regions-1.png" >}}
 
 Then go to menu *Region > Edit > Combine* (or right-click on the
 selected regions and find the same option through the context menu, as
 shown below):
 
-![combine2](en/ardour7-combine-regions-2.png) 
+{{< figure alt="combine2" src="en/ardour7-combine-regions-2.png" >}} 
 
 The combined regions will look like this (note the word "compound"
 appended to the name):
 
-![combine4](en/ardour7-combine-regions-3.png) 
+{{< figure alt="combine4" src="en/ardour7-combine-regions-3.png" >}} 
 
 Should you need to separate them again in the future, simply select the
 compound region and go to the same menu and choose the option _Uncombine_. 
@@ -60,7 +60,7 @@ right-click on the range and select _Consolidate range_. If you would like any
 automation or plugin effects you have added to the loop to be included, select
 _Consolidate range with processing_.
 
-![consolidate](en/ardour7-consolidate-range-1.png) 
+{{< figure alt="consolidate" src="en/ardour7-consolidate-range-1.png" >}} 
 
 When the range is consolidated, new regions will appear in each track, each
 containing all the repetitions of the samples which you set up in the previous
@@ -69,7 +69,7 @@ operation. In any case, if you find that you need to alter the rhythm in any
 way, you can always retrieve the original individual samples from the region
 List and rebuild the pattern with them.
 
-![consolidate2](en/ardour7-consolidate-range-2.png)
+{{< figure alt="consolidate2" src="en/ardour7-consolidate-range-2.png" >}}
 
 ## Duplicating the Range
 
@@ -83,7 +83,7 @@ Go back to _Grab_ mode (**G**) , select all regions,  and hit
 **Shift+D**. Choose how many times you want to duplicate the pattern (for
 example, 16). After duplication our session looks something like this:
 
-![multi-dup](en/ardour7-multi-duplicate.png) 
+{{< figure alt="multi-dup" src="en/ardour7-multi-duplicate.png" >}} 
 
 Just for review, other options you could have used for duplication are:
 

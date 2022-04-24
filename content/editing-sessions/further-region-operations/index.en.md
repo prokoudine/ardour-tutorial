@@ -14,7 +14,7 @@ menu.
 This section describes a few of the most commonly used operations
 accessible from these menus.
 
-![Region menu](en/ardour7-region-menu.png)
+{{< figure alt="Region menu" src="en/ardour7-region-menu.png" >}}
 
 **Play**
 : Play back from the beginning to the end of that region (**H** shortcut).
@@ -74,7 +74,7 @@ transposition desired. The window includes a _Preserve Formants_ option. When
 pitch shifting by large amounts, the preserve formants option can give results
 that sound slightly more natural, particularly when used on vocal material.
 
-![Pitch Shift](en/ardour7-pitch-shift-window.png) 
+{{< figure alt="Pitch Shift" src="en/ardour7-pitch-shift-window.png" >}} 
 
 ## Normalize
 
@@ -84,7 +84,7 @@ normalizing  to 0.0, the region will be as loud as possible while avoiding
 clipping.  Sometimes you may find useful to normalize a region to a value less
 than 0,  such as -1.0, -3.0, or -6.0 decibels, so it doesn't become too loud. 
 
-![normalize](en/ardour7-normalize-window.png) 
+{{< figure alt="normalize" src="en/ardour7-normalize-window.png" >}} 
 
 Two other useful gain operations for regions are _Boost Gain_ (**Alt+6**) and
 _Cut Gain_ (**Alt+7**), both incrementing gain by 1dB upwards or downwards.
@@ -107,12 +107,12 @@ Some operations from the context menu will only become available when two or
 more regions are selected. For example, let's take a look at the _Combine_
 function, under the sub-menu _Edit_. First we select two adjacent regions:
 
-![combine](en/ardour7-region-combine-1.png)
+{{< figure alt="combine" src="en/ardour7-region-combine-1.png" >}}
 
 Then we choose _Combine_ from the right-click context menu, or from Ardour's
 main menu `Region > Edit > Combine`: 
 
-![combine 2](en/ardour7-region-combine-2.png)
+{{< figure alt="combine 2" src="en/ardour7-region-combine-2.png" >}}
 
 As a result, the selected regions are combined into one. This is particulary
 useful when you have found an exact sequence of regions that works just as you
@@ -121,7 +121,7 @@ want, and then you would like to copy and/or move the whole sequence as group.
 Notice that the resulting combined region has the word "compound" attached to
 its name. 
 
-![combine 3](en/ardour7-region-combine-3.png) 
+{{< figure alt="combine 3" src="en/ardour7-region-combine-3.png" >}} 
 
 ## Continuing
 
