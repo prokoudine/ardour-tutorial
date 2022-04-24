@@ -1,5 +1,6 @@
 +++
 title = "Creating looped sections"
+description = "Creating and combining region duplicates in Ardour"
 chapter = false
 weight = 8
 +++
@@ -27,19 +28,18 @@ Simply select all the regions you want to combine:
 
 {{< figure alt="combine" src="en/ardour7-combine-regions-1.png" >}}
 
-Then go to menu *Region > Edit > Combine* (or right-click on the
-selected regions and find the same option through the context menu, as
-shown below):
+Then go to menu `Region > Edit > Combine` (or right-click on the selected
+regions and find the same option through the context menu, as shown below):
 
 {{< figure alt="combine2" src="en/ardour7-combine-regions-2.png" >}} 
 
-The combined regions will look like this (note the word "compound"
-appended to the name):
+The combined regions will look like this (note the word "compound" appended to
+the name):
 
 {{< figure alt="combine4" src="en/ardour7-combine-regions-3.png" >}} 
 
-Should you need to separate them again in the future, simply select the
-compound region and go to the same menu and choose the option _Uncombine_. 
+Should you need to separate them again in the future, simply select the compound
+region and go to the same menu and choose the option _Uncombine_. 
 
 ## Consolidating the Range
 

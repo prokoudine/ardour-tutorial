@@ -114,10 +114,4 @@ Ardour to remove unused files physically.
 Now that you are familiar with basics of non-destructive editing, let's do some
 actual arranging and editing.
 
-Next: [Arranging tracks](../arranging-tracks)
-
-
-<!-- ## Is it Ardours-specific?
-
-Not really. It's a very popular you'll see in pretty much every digital audio workstation, non-linear video editor and even advanced image editors. The idea is the same, implementation varies from program to program.
- -->
+Next: [ARRANGING TRACKS](../arranging-tracks)

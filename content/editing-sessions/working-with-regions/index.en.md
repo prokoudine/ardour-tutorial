@@ -1,5 +1,6 @@
 +++
 title = "Working with regions"
+description = "Selecting, splitting, moving regions in Ardour"
 chapter = false
 weight = 5
 +++
@@ -17,7 +18,7 @@ The _Grab_ mode (**G** shortcut) is the tool to select and move objects. It is
 located just below the transport menu in the _Editor_ window (the little "hand"
 icon). You will use this tool a lot in your Ardour work.
 
-![Object Tool](en/ardour7-grab-mode.png) 
+{{< figure alt="Object Tool" src="en/ardour7-grab-mode.png" >}} 
 
 When it is active, your mouse pointer will look like a little hand icon.
 
@@ -34,7 +35,7 @@ on each region you want to select.
     
 - You can also drag a selection box over multiple regions to select them all.
 
-![object selection](en/ardour7-object-selection.png) 
+{{< figure alt="object selection" src="en/ardour7-object-selection.png" >}} 
 
 - Move multiple regions at the same time after selecting them. 
 
@@ -93,7 +94,7 @@ the entire track, all the way up to the _End_ marker on the timeline.
 In the following screenshot, regions have been duplicated using the methods
 above.
 
-![Duplicate](en/Ardour4_Region_Duplicate.png) 
+{{< figure alt="Duplicate" src="en/Ardour4_Region_Duplicate.png" >}} 
 
 ## Using Edit Points
 
@@ -101,7 +102,7 @@ When you use the standard copy/cut/paste commands, where exactly will the
 regions be pasted? The exact location is determined by the edit point
 drop-down menu.
 
-![Edit Point](en/ardour7-edit-point-menu.png) 
+{{< figure alt="Edit Point" src="en/ardour7-edit-point-menu.png" >}} 
 
 If _Mouse_ is selected as the edit point, the copied region will be pasted at
 the current position of the mouse.
@@ -126,7 +127,7 @@ make it visible. Location markers can also be selected with the mouse and
 moved to new positions. Right-clicking on a location marker lets you rename
 the marker, among other options. 
 
-![Loc Marker](en/Ardour4_Location_Marker.png) 
+{{< figure alt="Location Marker" src="en/Ardour4_Location_Marker.png" >}} 
 
 {{% notice tip %}}
 When you first create a new session, two location markers are automatically
@@ -149,13 +150,13 @@ currently selected edit point. If _Mouse_ is selected as your current edit
 point, select a region and place the cursor at the point you would like to
 _Split_, then type **S**" (same as going to menu `Edit > Split Region`).
 
-![Split](en/Ardour4_Split_Region.png)
+{{< figure alt="Split" src="en/Ardour4_Split_Region.png" >}}
 
 After being split, the original single region becomes two independent regions, 
 with a new name for each, as in the image above. The two new regions are now 
 entirely independent. You can move and edit them separately.
 
-![Split](en/Ardour4_Split_Region_Moved.png)
+{{< figure alt="Split" src="en/Ardour4_Split_Region_Moved.png" >}}
 
 Regions can also be split by using the playhead or a marker as the edit point. 
 
@@ -187,7 +188,7 @@ don't need anymore. Later on, you can "un-trim" the region (i.e., extend it
 back to its original full size), even if it has been moved or copied to a new
 track.
 
-![Trim](en/Ardour4_Trimming_Regions.gif)
+{{< figure alt="Trim" src="en/Ardour4_Trimming_Regions.gif)
 
 {{% notice tip %}}
 Like splitting, trimming will obey grid settings. If you don't want your
@@ -210,7 +211,7 @@ top corners, which can be dragged inwards from either edge to create a fade in
 or fade out. The screenshot below shows a fade in (indicated by the shaded
 area). 
 
-![Fades1](en/Ardour4_Fades_1.png) 
+{{< figure alt="Fades1" src="en/Ardour4_Fades_1.png" >}} 
 
 In fact, every region has a fade in and fade out built-in. By default, the
 region fade is very short and serves to avoid clicks in the transitions at
@@ -220,7 +221,7 @@ above, a more gradual transition can be accomplished.
 By right-clicking on one of the fades (the shaded area), the speed of the fade
 can also be adjusted.
 
-![Fade Options](en/Ardour4_Fade_Options.png) 
+{{< figure alt="Fade Options" src="en/Ardour4_Fade_Options.png" >}} 
 
 ## Crossfading Between Two Regions
 
@@ -229,7 +230,7 @@ _crossfade_. If the two regions are in different tracks, you can use the
 method described above with the fade in and fade out handles. The following
 screenshot shows an example. 
 
-![Crossfade](en/Ardour4_Crossfade_1.png) 
+{{< figure alt="Crossfade" src="en/Ardour4_Crossfade_1.png" >}} 
 
 However, if both regions are in the same track, you need to overlap them in
 order to create a crossfade. When regions overlap on the same track, Ardour
@@ -243,13 +244,13 @@ Once you understand this principle, it's easy to create and control crossfades
 between regions. Here's an example. The two separate regions seen below will
 be made to overlap in order to create a crossfade.
 
-![Crossfade2](en/Ardour4_Crossfade_2.png) 
+{{< figure alt="Crossfade2" src="en/Ardour4_Crossfade_2.png" >}} 
 
 Note that we did not add any extra fade out to the first region, but we did
 add a longer fade in to the second region. Then we drag the second region
 partly on top of the first:
 
-![Crossfade3](en/Ardour4_Crossfade_3.png) 
+{{< figure alt="Crossfade3" src="en/Ardour4_Crossfade_3.png" >}} 
 
 The fade in of the second region works now as the crossfade between the two
 regions. In other words, the first region will fade out in a mirror image way
@@ -260,7 +261,7 @@ has the desired fade is *on top* in Ardour's layering system. In order to
 change layering of regions, select a region and go to the menu `Region >
 Layering`. 
 
-![Crossfade4](en/ardour7-crossfade-4.png) 
+{{< figure alt="Crossfade4" src="en/ardour7-crossfade-4.png" >}} 
 
 The difference may be hard to hear if you are doing this with the very short
 percussive sounds we imported earlier. To really hear the effect, import a
@@ -283,7 +284,7 @@ regions to sixteenth notes within each bar. You may wish to trim the endpoints
 of some of the samples, as discussed above, to fit within the metric structure
 you have set up.
 
-![Beat](en/ardour7-beat.png) 
+{{< figure alt="Beat" src="en/ardour7-beat.png" >}} 
 
 ## Continuing
 

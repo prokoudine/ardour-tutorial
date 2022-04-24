@@ -1,5 +1,6 @@
 +++
 title = "Setting up time signature"
+description = "How to set up time signature in Ardour"
 chapter = false
 weight = 3
 +++

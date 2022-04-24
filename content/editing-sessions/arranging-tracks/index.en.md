@@ -1,5 +1,6 @@
 +++
 title = "Arranging tracks"
+description = "How to organize regions on the timeline in Ardour"
 chapter = false
 weight = 2
 +++
@@ -22,7 +23,7 @@ used in this tutorial were obtained from a sample pack from the
 [Nord Drum Mini Kit](https://freesound.org/people/menegass/packs/10430/) sample
 pack).
 
-![FS1](en/ardour7-freesound-1.png) 
+{{< figure alt="FS1" src="en/ardour7-freesound-1.png" >}}
 
 After importing a few sounds from the downloaded sample pack (bass drum, snare,
 hi-hat, clap), our session looks like this (in this case we used the _Add files
@@ -31,20 +32,20 @@ appear as new individual tracks in the _Editor_ window, each with the name of th
 audio file used. If the file names are too long or obscure, you may want to
 rename your tracks for clarity.
 
-![FS2](en/ardour7-freesound-2.png) 
+{{< figure alt="FS2" src="en/ardour7-freesound-2.png" >}}
 
 ## Organizing the Tracks
 
 Let's rename the tracks so we can quickly see the location of each instrument.
 To do that, double-click on the track name to edit it.
 
-![FS3](en/ardour7-freesound-3.png) 
+{{< figure alt="FS3" src="en/ardour7-freesound-3.png" >}}
 
 You may also wish to rearrange the order of the tracks from top to bottom in the
 editor window. Do that by clicking the _Tracks & Busses_ tab at the far right
 of the _Editor_ window and drag-and-dropping the tracks in the order you want.
 
-![FS4](en/ardour7-freesound-4.png) 
+{{< figure alt="FS4" src="en/ardour7-freesound-4.png" >}}
 
 Another option to rearrange tracks is to select a track and use **Ctrl+Arrow
 Up/Down** shortcut to move it up or down.
@@ -57,7 +58,7 @@ tracks in the main canvas.
 Here we have ordered the drumkit so that the kick drum is on the bottom, the
 snare and high-hat are in the middle, and the clap is on top.  
 
-![FS6](en/ardour7-freesound-5.png) 
+{{< figure alt="FS6" src="en/ardour7-freesound-5.png" >}}
 
 ## Continuing
 

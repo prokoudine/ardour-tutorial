@@ -1,5 +1,6 @@
 +++
 title = "Stretching & shrinking regions"
+description = "Stretching and shrinking regions in Ardour"
 chapter = false
 weight = 9
 +++

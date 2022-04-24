@@ -1,5 +1,6 @@
 +++
 title = "Using ranges"
+description = "How to create and edit range selection in Ardour"
 chapter = false
 weight = 4
 +++

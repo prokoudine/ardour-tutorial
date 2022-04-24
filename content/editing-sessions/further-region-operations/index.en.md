@@ -1,5 +1,6 @@
 +++
 title = "Further region operations"
+description = "Pitch-shifting, normalizing and other operations on regions in Ardour"
 chapter = false
 weight = 6
 +++

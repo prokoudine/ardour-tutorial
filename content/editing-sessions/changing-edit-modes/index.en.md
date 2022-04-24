@@ -1,5 +1,6 @@
 +++
 title = "Changing edit modes"
+description = "Edit modes for regions in Ardour"
 chapter = false
 weight = 7
 +++
@@ -146,4 +147,4 @@ appear. All notes it touches will be selected.
 In the following chapter, we will see how to take the regions we have
 edited and create looped sections from them.
 
-Next: [Creating looped sections](../creating-looped-sections)
+Next: [CREATING LOOPED SECTIONS](../creating-looped-sections)
