@@ -1,6 +1,6 @@
 +++
 title = "Routing between applications"
-description = "Routing signal from one JACK client to another"
+description = "Routing signal from programs to Ardour"
 chapter = false
 weight = 7
 +++
@@ -26,7 +26,7 @@ directly in Ardour. For that, in the Audio Connection Manager manager switch to
 the _Other_ tab in _Sources_ on the left and connect your browser's output to an
 Ardour track that is called _From YT_ here:
 
-{{< figure src="en/ardour7-youtube-connection-in-ardour.png" alt="" >}}
+{{< figure src="en/ardour7-youtube-connection-in-ardour.png" alt="Connection to YouTube output" >}}
 
 As applications like web browsers do not usually have persistent audio output
 ports, you do need to make your browser output some audio for the ports to be
@@ -35,12 +35,12 @@ created. That usually means playing a video or starting a videoconference.
 After that, all you have to do is arm the track for recording, then start
 recording:
 
-{{< figure src="en/ardour7-youtube-recording.png" alt="" >}}
+{{< figure src="en/ardour7-youtube-recording.png" alt="Start recording" >}}
 
-{{% notice info %}}
+{{% notice tip %}}
 Please make sure you disconnected all other outputs (such as a mic) from the
-track's input, otherwise your track might catch more than you wanted and mix it
-with the audio from your browser. 
+track's input, otherwise your track might catch more than you wanted and mix 
+it with the audio from your browser. 
 {{% /notice %}}
 
 ### From JACK-aware applications to Ardour
