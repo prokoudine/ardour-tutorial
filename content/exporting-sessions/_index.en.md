@@ -1,5 +1,6 @@
 +++
 title = "Exporting sessions"
+description = "How to export sessions, regions, and ranges in Ardour"
 chapter = true
 weight = 6
 pre = "<b>6. </b>"

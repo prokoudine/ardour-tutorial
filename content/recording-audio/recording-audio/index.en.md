@@ -25,7 +25,7 @@ track you wish to record to.
 volume slider.
 2. The track becomes highlighted.
 
-{{< figure alt="Highlighting a track" src="en/ardour7-audio-1-highlight.gif)
+{{< figure alt="Highlighting a track" src="en/ardour7-audio-1-highlight.gif" >}}
 
 3. The vertical _Editor Mixer_ strip located on the left side of the _Editor_
 window should now show the track you just selected (*Audio 1* in the image

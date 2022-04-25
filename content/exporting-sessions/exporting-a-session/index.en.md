@@ -1,5 +1,6 @@
 +++
 title = "Exporting sessions"
+description = "How to export sessions in Ardour"
 chapter = false
 weight = 1
 +++
@@ -20,15 +21,15 @@ before exporting.
 
 * Select "All" from the "Number of visible tracks" menu:
 
-![track heights](en/ardour7-track-height.png)
+{{< figure alt="track heights" src="en/ardour7-track-height.png" >}}
 
 * Click on the **Zoom to Session** button (third button in the zoom options):
 
-![zoom options](en/ardour7-session-zoom-all.png)
+{{< figure alt="zoom options" src="en/ardour7-session-zoom-all.png" >}}
 
 * You should now have a nice overview of your whole session, like this:
 
-![birds eye view](en/ardour7-birds-eye-view.png)
+{{< figure alt="birds eye view" src="en/ardour7-birds-eye-view.png" >}}
 
 Listen to your piece one last time and make sure you hear everything the way you
 want (any **Solo** or **Mute** button you forgot to deactivate? Any volume
@@ -57,7 +58,7 @@ To export a session, use the top menu:
 `Session > Export > Export to Audio File(s)...`. This will open up a dialog box
 with a number of options.
 
-![Export Session dialog](en/ardour7-exporting-settings.png)
+{{< figure alt="Export Session dialog" src="en/ardour7-exporting-settings.png" >}}
 
 **Preset**
 : This is *NOT* where you write the file name. Don't worry about this field now.
@@ -68,7 +69,7 @@ default is CD (Red Book), which will give you a 16-bit WAV file with 44.1kHz
 sample rate.
 
 **Add another format**
-: if you'd like to export in more than one format at the same time, click on
+: If you'd like to export in more than one format at the same time, click on
 this tab.
 
 **Location**
@@ -127,5 +128,3 @@ or selected ranges from your session. This will be covered briefly in the next
 two chapters.
 
 Next: [EXPORTING REGIONS](../exporting-a-region)
-
-

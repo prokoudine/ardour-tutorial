@@ -1,5 +1,6 @@
 +++
 title = "Exporting ranges"
+description = "How to export ranges in Ardour"
 chapter = false
 weight = 3
 +++

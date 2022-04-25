@@ -188,7 +188,7 @@ don't need anymore. Later on, you can "un-trim" the region (i.e., extend it
 back to its original full size), even if it has been moved or copied to a new
 track.
 
-{{< figure alt="Trim" src="en/Ardour4_Trimming_Regions.gif)
+{{< figure alt="Trim" src="en/Ardour4_Trimming_Regions.gif" >}}
 
 {{% notice tip %}}
 Like splitting, trimming will obey grid settings. If you don't want your
