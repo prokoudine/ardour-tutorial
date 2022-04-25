@@ -34,7 +34,7 @@ above).
 allows you to edit the routing.
 5. Click on that button to investigate the routing.
 
-{{% notice note %}}
+{{% notice tip %}}
 If you don't see the _Editor Mixer_ strip, use the **Shift + E** shortcut to
 make it appear.
 {{% /notice %}}
@@ -66,7 +66,7 @@ you want to use so that we can do a test recording. If you don't see a green dot
 as in the screenshot above, click on the matrix to make the connection manually.
 You can now close this window.
 
-{{% notice note %}}
+{{% notice tip %}}
 The example above assumes you are recording a mono sound source onto a mono
 track. If you want to record in stereo, the instructions are pretty much the
 same, but you should create a stereo track. You should then see two green dots,
@@ -95,7 +95,7 @@ If you are using headphones, you should be able to hear ("monitor") the sounds
 being recorded. If you are using loudspeakers, be sure to turn their volume down
 to avoid feedback.
 
-{{% notice note %}}
+{{% notice tip %}}
 Unless you have told Ardour to do otherwise, the input being recorded will be
 monitored (in other words, heard) via the _Audition_ output. If you are not
 using headphones to monitor the recording process, you may get some loud

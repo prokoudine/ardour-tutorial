@@ -67,7 +67,7 @@ different track.
 When a set of one or more regions is selected, you can move the whole set by
 dragging with the mouse.
 
-{{% notice note %}}
+{{% notice tip %}}
 Make sure to select the region in its waveform section, because selecting the
 bottom title bar area is used for a different action (see _Trimming Regions_
 below).

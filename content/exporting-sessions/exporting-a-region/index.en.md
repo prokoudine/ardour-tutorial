@@ -70,13 +70,15 @@ ranges, not the whole session.
 
 Your regions have now been exported to single audio files.
 
-{{% notice info %}} This method exports *everything* that falls under each
-defined time range. In other words, if you have other regions in other tracks
-sounding simultaneously with the region(s) you want to export, they will be
-mixed together. Another way of looking at it is this: the export operation will
+{{% notice tip %}}
+This method exports *everything* that falls under each defined time range.
+In other words, if you have other regions in other tracks sounding
+simultaneously with the region(s) you want to export, they will be mixed 
+together. Another way of looking at it is this: the export operation will
 export everything that *plays* under the defined time ranges. If that is not
-what you want, you can use solo or mute buttons on select tracks to ensure you
-export only what you want. {{% /notice %}}
+what you want, you can use solo or mute buttons on select tracks to ensure 
+you export only what you want.
+{{% /notice %}}
 
 ## Continuing
 
