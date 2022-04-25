@@ -1,6 +1,7 @@
----
-title: "Home"
----
++++
+title = "Home"
+description = "Ardour v7.0 tutorial"
++++
 
 # Ardour v7.0 tutorial
 
