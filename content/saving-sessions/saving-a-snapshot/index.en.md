@@ -1,5 +1,6 @@
 +++
 title = "Saving a snapshot"
+description = "How to save and recall a snapshot of an Ardour session"
 chapter = false
 weight = 2
 +++
@@ -63,4 +64,3 @@ learn how to do this, please continue to the next section called _Saving a
 Template_. 
 
 Next: [SAVING A TEMPLATE](../saving-a-template)
-

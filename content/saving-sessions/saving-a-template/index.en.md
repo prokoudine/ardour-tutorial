@@ -1,5 +1,6 @@
 +++
 title = "Saving a template"
+description = "How to save and use a session template in Ardour"
 chapter = false
 weight = 3
 +++

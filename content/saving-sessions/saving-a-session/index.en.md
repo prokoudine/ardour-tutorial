@@ -1,5 +1,6 @@
 +++
 title = "Saving a session"
+description = "How to save and move an Ardour session"
 chapter = false
 weight = 1
 +++
@@ -27,7 +28,7 @@ folders or files that belong to the session.
 The contents of a typical session's folder on your hard drive might look
 something like this:
 
-![Ardour Folder](en/Ardour4_Session_Folder_Structure.png)
+{{< figure alt="Ardour Folder" src="en/Ardour4_Session_Folder_Structure.png" >}}
 
 A bit of information about some of the components inside that folder:
 
@@ -44,7 +45,7 @@ If double-clicking on the session file does not launch Ardour, use the standard
 method of first opening the application itself, then choosing a session from the
 _Session Setup_ dialog.
 
-![Ardour Opening](en/ardour7-session-setup-dialog.png)
+{{< figure alt="Ardour Opening" src="en/ardour7-session-setup-dialog.png" >}}
 
 ## Moving a Session to Another Computer or Disk
 
