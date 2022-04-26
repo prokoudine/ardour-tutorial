@@ -14,7 +14,7 @@ home = [ "HTML", "RSS", "JSON"]
 disableSearch = false
 featherlight = false
 themeVariant = "blue"
-disableNextPrev = true
+#disableNextPrev = true
 disableInlineCopyToClipBoard = true
 
 [Languages]
