@@ -79,7 +79,8 @@ you want to compare how a track sounds with and without the plugin.
 
 {{< figure alt="bypass" src="en/ardour7-ace-reverb-bypass-in-mixer-strip.png" >}} 
 
-Bypassed plugins are shown with the LED turned off. 
+Bypassed plugins are shown with the LED turned off. On the screenshot above, the
+fader is enabled and the _ACE Reverb_ plugin is bypassed.
 
 Right-clicking the plugins will give a menu with several options, including
 _Delete_. 
@@ -89,14 +90,14 @@ _Delete_.
 You have a choice whether you would like to add your plugin before or after the
 fader rectangle in the _processor box_. Pre-fader plugins are inserted in the
 signal path *before* the fader, so that the fader controls the level of the
-signal coming out of the plugin. Post-Fader Plugins are inserted *after* the
+signal coming out of the plugin. Post-fader plugins are inserted *after* the
 fader: the fader controls the level of the signal going into the plugin.
 
-For some plugins, Pre- or Post-fader placement does not matter. For others, the
-difference is subtle. For others still, inserting them in the right place is
-absolutely essential  (for more details, see for example [this
-thread](https://discourse.ardour.org/t/fader-before-or-after-plugins/100666) at
-the Ardour discussion forum).
+For some plugins, pre- or post-fader placement does not matter. For others,
+the difference is subtle. For others still, inserting them in the right place
+is absolutely essential  (for more details, see for example [this
+thread](https://discourse.ardour.org/t/fader-before-or-after-plugins/100666)
+at the Ardour discussion forum).
 
 ## Plugin Formats
 
