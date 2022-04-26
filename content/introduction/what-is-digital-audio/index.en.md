@@ -21,10 +21,6 @@ membrane travels from its resting point determines the _amplitude_ (the
 volume, or _loudness_) of the sound. Normally, we measure frequency in
 _Hertz_ (Hz) and amplitude in _decibels_ (dB).
 
-Check out the great animation on this page illustrating this process:
-
-{{< youtube RxdFP31QYAg >}}
-
 A microphone works like a loudspeaker in reverse: vibrations in the air 
 cause its membrane to vibrate. The microphone turns these acoustic
 vibrations into an electrical current. If you plug this microphone into a
@@ -99,11 +95,6 @@ using only 8 bits. By increasing the sample rate, we are able to record higher
 sonic frequencies, and by increasing the bit depth, we are able to use a
 greater _dynamic range_ (the difference between the quietest and the loudest
 sounds possible to record and play).
-
-Here is a great video tutorial explaining sampling rate and bit depth in a lot
-more detail:
-
-{{< youtube zC5KFnSUPNo >}}
 
 ## Continuing
 
