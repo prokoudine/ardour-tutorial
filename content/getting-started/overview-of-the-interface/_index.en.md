@@ -111,6 +111,9 @@ major Ardour windows — Editor, Mixer, Recorder, and Cue.
 
 {{< figure src="en/ardour7-window-switcher.png" alt="Window switcher" >}}
 
+Alternatively, you can use **Ctrl+PageUp/PageDown** to cycle through windows,
+much like in any web browser.
+
 You can also use the **Alt+M** shortcut to switch between _Editor_ and _Mixer_
 windows. If you are currently in either _Recorder_ or _Cue_ window, pressing
 that shortcut for the first time will take you to the _Mixer_ window, and the
