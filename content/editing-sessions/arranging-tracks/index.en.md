@@ -65,4 +65,4 @@ snare and high-hat are in the middle, and the clap is on top. 
 In the next step we will learn about setting up the meter to organize these
 samples into a rhythm.
 
-Next: [SETTING UP THE METER](../setting-up-the-meter)
+Next: [SETTING UP TIME SIGNATURE](../setting-up-time-signature)

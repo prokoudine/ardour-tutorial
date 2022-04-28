@@ -67,7 +67,7 @@ Here is a comparison between 1 bar grid, 1/8 note grid and 1/32 note grid:
 {{< figure alt="1-bar grid, 1/8 note and 1/32 note grid" src="en/ardour7-snapping-1-bar-to-1-32-note.png" >}}
 
 Please see the sections on
-[Setting Up the Meter](../../../editing-sessions/setting-up-the-meter/),
+[Setting Up Time Signature](../../../editing-sessions/setting-up-time-signature/),
 [Using Ranges](../../../editing-sessions/using-ranges/) and
 [Working With Regions](../../../editing-sessions/working-with-regions/) for more
 details.
@@ -101,8 +101,7 @@ the reference, and so on.
 Right-click on the names of rulers and you will see a menu with all the possible
 rulers at your disposition. You may uncheck rulers that you don't need in order
 to save screen space. More information on these operations can be found in the
-[Setting up the Timeline](../../setting-up-the-timeline/) and [Setting Up the
-Meter](../../../editing-sessions/setting-up-the-meter/) chapters.
+[Setting up the Timeline](../../setting-up-the-timeline/) and [Setting Up Time Signature](../../../editing-sessions/setting-up-time-signature/) chapters.
 
 {{< figure alt="Ardour Overview Rulers" src="en/ardour7-overview-rulers.png" >}}
 
