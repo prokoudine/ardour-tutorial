@@ -3,7 +3,7 @@ languageCode = 'en-us'
 defaultContentLanguage = "en"
 
 title = 'Ardour Tutorial'
-theme = 'hugo-theme-learn'
+theme = 'hugo-theme-relearn'
 
 defaultContentLanguageInSubdir = true
 
