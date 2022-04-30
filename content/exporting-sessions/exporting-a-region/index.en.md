@@ -1,5 +1,5 @@
 +++
-title = "Exporting regions"
+title = "Exporting a region"
 description = "How to export regions in Ardour"
 chapter = false
 weight = 2

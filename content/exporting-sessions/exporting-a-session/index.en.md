@@ -1,5 +1,5 @@
 +++
-title = "Exporting sessions"
+title = "Exporting a session"
 description = "How to export sessions in Ardour"
 chapter = false
 weight = 1
