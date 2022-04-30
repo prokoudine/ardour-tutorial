@@ -26,3 +26,14 @@ and [UbuntuStudio](http://ubuntustudio.org/) offer a wide selection of useful
 music software, including Ardour.
 
 {{% button href="https://ardour.org/download.html" icon="fas fa-download" %}}Download latest Ardour{{% /button %}}
+
+Contents:
+
+1. [Introduction](introduction/)
+2. [Getting started](getting-started/)
+3. [Recording](recording/)
+4. [Editing sessions](editing-sessions/)
+5. [Mixing sessions](mixing-sessions/)
+6. [Exporting sessions](exporting-sessions/)
+7. [Saving sessions](saving-sessions/)
+8. [Appendices](appendices/)
