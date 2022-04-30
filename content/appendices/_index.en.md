@@ -9,3 +9,11 @@ pre = "<b>8. </b>"
 # Appendices
 
 Where to find more info about Ardour and how to improve this tutorial
+
+Contents:
+
+1. [Further help](further-help/)
+2. [Glossary](glossary/)
+3. [Credits](credits/)
+4. [License](license/)
+5. [How to contribute to this tutorial](how-to-contribute/)

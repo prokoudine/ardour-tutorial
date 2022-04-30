@@ -10,3 +10,9 @@ pre = "<b>6. </b>"
 # Exporting sessions
 
 How to export a region, a selection of data, and a whole session
+
+Contents:
+
+1. [Exporting a session](exporting-a-session/)
+2. [Exporting a region](exporting-a-region/)
+3. [Exporting a range](exporting-a-range/)
