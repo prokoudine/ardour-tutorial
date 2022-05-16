@@ -12,7 +12,7 @@ Create your first session and learn the basics of Ardour's user interface
 
 Contents:
 
-1. [Starting Ardour](starting-ardour-on-ubuntu/)
+1. [Starting Ardour](starting-ardour/)
 2. [Overview of the interface](overview-of-the-interface/)
 3. [Creating tracks and busses](creating-tracks-and-busses/)
 4. [Importing audio](importing-audio/)
