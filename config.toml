@@ -58,7 +58,7 @@ weight = 30
 title = "Введение в Ardour"
 weight = 1
 languageName = "Russian"
-landingPageURL = "/ardour-tutorial/ru/"
+landingPageURL = "/"
 #landingPageURL = "/"
 landingPageName = "<i class='fas fa-home'></i> Начало"
 #
