@@ -2,7 +2,7 @@
 title = "Routing between applications"
 description = "Routing signal from programs to Ardour"
 chapter = false
-weight = 7
+weight = 5
 +++
 
 Sometimes you may need to record the audio output of another program into
