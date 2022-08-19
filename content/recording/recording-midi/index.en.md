@@ -22,6 +22,8 @@ whatever you play. It's a pretty straightforward process:
 
 4. Roll the transport (**Space** bar) to begin recording.
 
+{{< figure src="en/real-time-recording.png" alt="Recording to a MIDI region" >}}
+
 5. Stop the transport (**Space** bar) when you are done.
 
 Usually when you record a part from a MIDI keyboard, you should be able to
@@ -54,10 +56,12 @@ use your keyboard to enter the notes one by one at your own pace. Ardour will
 record a note you play, move the playhead to the end of that note, then sit
 and wait for the next note you play.
 
+{{< figure src="en/step-entry-duration-preview.png" alt="Note duration preview in Step Entry" >}}
+
 To enable this mode, right-click on **Record** button of a MIDI track, choose
 _Step Entry_ in the newly opened menu. The _Step Entry_ dialog opens.
 
-{{< figure src="en/step-entry-dialog.png" alt="The Step Entry dialog" >}}
+{{< figure src="en/step-entry-dialog.svg" alt="The Step Entry dialog" >}}
 
 Here are the options:
 
@@ -101,7 +105,8 @@ dialog apply. Ardour will use the defined note length, but it won't bother
 with either velocity, channel, or octave settings and will use whatever you
 send from the keyboard.
 
-Let's try to use it.
+Let's try to use it and create a simple bass line that we can later use in the
+project.
 
 1. Create a new track, select Surge XT as a virtual instrument.
 
