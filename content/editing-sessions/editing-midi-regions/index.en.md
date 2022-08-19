@@ -33,7 +33,7 @@ notes, press and hold the left mouse button, then drag the mouse to "draw" a
 rectangular area. All notes inside that area will be selected. Release the
 mouse button to complete the selection.
 
-{{< figure src="en/.gif" alt="" >}}
+{{< figure src="en/rubberband-selection.png" alt="Rubberband selection" >}}
 
 Finally, if you need to select all notes, just press **Ctrl+A**.
 
@@ -49,7 +49,7 @@ edit.
 Snapping options apply here, when snapping is enabled. Moreover, if multiple
 notes are selected, they all will be shrunk or extended.
 
-{{< figure src="en/.gif" alt="" >}}
+{{< figure src="en/drag-note-ends.png" alt="Drag note ends" >}}
 
 Quantization effectively means adjusting start and end times of notes in a way
 that makes them snap to a grid of your choice. It is something you will
@@ -60,24 +60,14 @@ both.
 Another command that effectively adjusts the duration of notes is _Legatize_.
 When you have two notes that begin at different positions on the timeline,
 _Legatize_ adjusts the end of the note that begins earlier so that it ends
-exactly where the second note begins.
+exactly where the second note begins. This might mean either expanding or
+shrinking the duration of the the earlier note:
 
-{{< figure src="en/.gif" alt="" >}}
+{{< figure src="en/legatize.png" alt="legatize" >}}
 
-This is, however, a very simple use case. You can legatize multiple notes:
-
-{{< figure src="en/.gif" alt="" >}}
-
-## Removing overlaps
-
-Sometimes when you perform a part, your finger won't release a key in time, so a
-note will play a little longer thus resulting in overlapped notes where not are
-supposed to be.
-
-Two commands available through the right-click menu, _Legatize_ and _Remove
-Overlap_ help removing overlaps. Here is how they differ.
-
-FIXME
+As you can see, the first note is expanded to join the second one, and second
+one is shrunk to join the third one, and the third one is expanded to join the
+fourth one.
 
 ## Shifting and transposing notes
 
@@ -110,9 +100,18 @@ you can select, let's say, 3 notes at 25, 50, and 100 velocity values
 respectively, increment each one by 20, and end up with notes that have 45, 70,
 and 120 for velocities.
 
-## Applying multiple transforms all at once
+{{< figure src="en/velocity-tooltip.png" alt="Velocity tooltip" >}}
 
-FIXME
+A simple way to numerically change velocity (as well as MIDI channel, pitch, and
+position) is to use the note's properties dialog. Right-click on a note or
+multiple notes, then select _Edit…_.
+
+{{< figure src="en/note-properties.png" alt="Editing note properties" >}}
+
+If multiple notes have been selected, you can mass-change them to the same
+value. For that enable the _Set selected notes to this velocity_ option before
+applying changes.
+
 
 ## Editing example start to end
 
