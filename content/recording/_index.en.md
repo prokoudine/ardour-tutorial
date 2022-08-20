@@ -14,5 +14,7 @@ Learn how to route signal and record audio
 Contents:
 
 1. [Recording audio](recording-audio/)
-2. [Understanding routing](understanding-routing/)
-3. [Routing between applications](routing-between-applications/)
+2. [Recording MIDI](recording-midi/)
+3. [Performing on time](performing-on-time/)
+4. [Understanding routing](understanding-routing/)
+5. [Routing between applications](routing-between-applications/)
