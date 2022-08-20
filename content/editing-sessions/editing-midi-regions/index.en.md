@@ -80,7 +80,7 @@ You can also transpose by a given amount of octaves and semitones in one go.
 Left-click on the region where some notes are selected, choose _Transpose..._.
 Then specify the amount of octaves and semitones to transpose by.
 
-{{< figure src="en/midi-note-transpose.png" alt="Transpose MIDI notes" >}}
+{{< figure src="en/transpose.png" alt="Transpose MIDI notes" >}}
 
 ## Editing velocity
 
@@ -189,6 +189,11 @@ louder than the rest of the notes in each bar.
 
 {{< figure src="en/example-regular-velocity-pattern.png" alt="" >}}
 
+## Continuing
 
+This was the last chapter of the _Editing Regions_ section. Next we go into
+_Mixing_.
+
+Next: [MIXING SESSIONS](../../mixing-sessions/the-mixer-strip/)
 
 <!-- ## Editing and creating automation -->
