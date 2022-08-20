@@ -13,6 +13,8 @@ pre = "<b>3. </b>"
 
 Содержание:
 
-1. [Запись](recording-audio/)
-2. [Основы маршрутизации](understanding-routing/)
-3. [Маршрутизация между приложениями](routing-between-applications/)
+1. [Запись звука](recording-audio/)
+2. [Запись MIDI](recording-midi/)
+3. [Как попадать в такт при игре](performing-on-time/)
+4. [Основы маршрутизации](understanding-routing/)
+5. [Маршрутизация между приложениями](routing-between-applications/)
