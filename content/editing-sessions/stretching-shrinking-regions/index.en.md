@@ -63,7 +63,6 @@ the drum samples.
 
 ## Continuing
 
-This was the last chapter of the _Editing Regions_ section. Next we go into
-_Mixing_.
+Now let's talk about editing MIDI regions.
 
-Next: [MIXING SESSIONS](../../mixing-sessions/the-mixer-strip/)
+Next: [EDITING MIDI REGIONS](../editing-midi-regions/)
