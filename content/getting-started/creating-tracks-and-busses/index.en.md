@@ -5,10 +5,21 @@ weight = 3
 #pre = "<b>1. </b>"
 +++
 
-## What is an audio track?
+## What are tracks?
 
-An _audio track_ is a place where you can drag a _region_ from your region
-list and where you can record sounds coming from an outside source.
+A track typically represents a part played with one instrument or sung with
+voice. That part can start in the very beginning and finish at the very end of
+a song. Or there can be multiple occurences of that instrument/voice within a
+song, in which case there will likely be multiple _regions_, or _clips_,
+inside a track.
+
+A region is just a portion of audio or MIDI data. For example, a 'Lead guitar'
+track can have several regions, one per each solo. Meanwhile, a 'Drums' track
+could be just one huge MIDI region spanning the entire song.
+
+An _audio_ track is usually self-contained as it has all the data to play back
+music. A _MIDI_ track, however, is comprised of instructions that need to be
+interpreted and executed to provide actual sound to listen to.
 
 A region represents an audio clip, i.e., one of your sound files or just a
 portion of a sound file. In the image below, the horizontal strip areas marked
@@ -18,16 +29,19 @@ contained within *MyTrack*).
 
 {{< figure alt="Tracks" src="en/Ardour6_Tracks.png" >}}
 
-## What is a bus?
+## What are busses?
 
 A _bus_ is similar to a track except that it does not contain its own regions.
 You cannot record directly into a bus or drag regions into it. However, you
 can add plugins to a bus and then feed the output of multiple tracks into that
 bus (see below for details).
 
+A MIDI bus is similar to an audio bus: no regions, just processing incoming
+stream of data and outputting processed data.
+
 The area marked _Master_ in your session is an example of a bus. Typically
 every session has a _Master_ bus. All the audio to be exported from your
-session will be sent to the Master Bus.
+session will be sent to the Master bus.
 
 ## How are tracks and busses used?
 
@@ -42,14 +56,13 @@ you would call '*drum bus*'. Then, if you decide that all your drum tracks are
 too loud, you can quickly adjust the level of the '*drum bus*' rather than
 adjusting each separate track that feeds into it.
 
-Another use of a Bus would be to have a common reverberation plugin, so that any
+Another use of a bus would be to have a common reverberation plugin, so that any
 audio track which requires the reverb effect could be routed to a single bus.
 
 ## Adding tracks and busses
 
 **Right-click** in the empty area beneath any existing tracks and busses.
-Alternatively, click on the menu `Track > Add track, Bus, or VCA...` (shortcut
-**Ctrl + Shift + N**). The following window will appear:
+Alternatively, click on the menu `Track > Add track, Bus, or VCA...` (**Ctrl+Shift+N** shortcut). The following window will appear:
 
 {{< figure alt="Add track" src="en/Ardour6_Add_Track_or_Bus.png" >}}
 
@@ -58,7 +71,7 @@ This tutorial will only cover audio tracks and busses. (see the [Ardour
 manual](http://manual.ardour.org/working-with-tracks/track-types/) for details
 on all track types or their brief explanation in a section below).
 
-Choose _Audio tracks_ or _Audio busses_ to specify whether you want to create
+Choose _Audio tracks_ or _Audio busses_ to specify whether you want to create audio
 tracks or busses.
 
 The _Add_ numeric input box lets you specify how many tracks (or busses) you would
@@ -71,6 +84,9 @@ your voice on this track using a single microphone, choose _Mono_. If you plan
 to import a clip from an existing song and place it on this track, choose
 _Stereo_. The choice made here will also affect which plugins you can use on the
 track (mono tracks cannot use stereo plugins and vice versa).
+
+When you create a new MIDI track, the name is automatically taken from
+whatever virtual instrument you pick by default.
 
 The _Position_ menu lets you choose where you want the new track or bus to be
 placed: first, last, before or after the selection.
@@ -88,14 +104,7 @@ dialog open)** instead.
 ## Other types of tracks and busses
 
 When adding tracks and busses to your project, you'll see more options
-available. Here is a quick overview of them.
-
-**MIDI tracks** are similar to audio tracks: they have regions with MIDI data,
-they can have multiple plugins in a processor box, e.g. a software synthesizer
-or a sampler followed by a delay plugin followed by an EQ plugin.
-
-**MIDI busses** are similar to audio busses, but they can only transform
-incoming MIDI data.
+available.
 
 **Foldback busses** are meant for stage monitoring mixes where you might want
 giving each performer a customized mix that goes right into their earpiece.
