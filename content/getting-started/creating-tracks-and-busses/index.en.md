@@ -85,8 +85,10 @@ to import a clip from an existing song and place it on this track, choose
 _Stereo_. The choice made here will also affect which plugins you can use on the
 track (mono tracks cannot use stereo plugins and vice versa).
 
+{{% notice tip %}}
 When you create a new MIDI track, the name is automatically taken from
 whatever virtual instrument you pick by default.
+{{% /notice %}}
 
 The _Position_ menu lets you choose where you want the new track or bus to be
 placed: first, last, before or after the selection.
