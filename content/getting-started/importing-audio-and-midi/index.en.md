@@ -1,32 +1,50 @@
 +++
-title = "Importing audio"
-description = "Importing audio to Ardour tracks"
+title = "Importing audio and MIDI"
+description = "Importing audio and MIDI files to Ardour tracks"
 chapter = false
 weight = 4
 +++
 
-Sections of audio are known as _regions_ in Ardour. A Region can be an entire
-sound file or a portion of it. Here you will learn how to import audio files
-from the hard drive of your computer so they can be used in your Ardour session.
-
-To import an audio file into your session, you will use the _Add Existing Media_
- dialog. Use the shortcut **Ctrl+I** to get to this window, or alternatively go
-to the `Session > Import` menu).
-
-On the left side of this dialog you will see a file browser which allows you to
-search your hard drive for appropriate sound files to add (preferably, start
-with a common file format, such as WAV or AIFF).
+You can reuse existing audio and MIDI files by adding them as regions on
+existing or new tracks. To do so, press the **Ctrl+I** shortcut or go to the
+`Session > Import` menu to open the _Add Existing Media_ dialog, pick a file of interest, and import it.
 
 {{< figure alt="Add Media" src="en/ardour7-add-existing-media.png" >}} 
 
-At the lower left corner there is a menu which indicates how these files will
-be added. _Add files… as new tracks_ will import audio files and place them on
-a newly created track. _Add files… to source list_ will simply import audio
-files into the Sources list, without creating any new tracks. Choose this
-option now, as we don't want Ardour to create any tracks at this point. Make
-sure the _Mapping_ options says _one region per file_.
+Some settings are the same for audio and MIDI, some are format-specific.
 
-{{< figure alt="Add to source list" src="en/ardour7-to-source-list.png" >}} 
+## Playing existing files
+
+Before you import a file, it's a good idea to make sure it's the right one. On
+the right side of the _Add Existing Media_ dialog you will see a section
+allowing you to inspect the properties of the file you selected. Here you will
+see the name, number of channels, sample rate, format and length of the sound
+file, along with any tags you have chosen to add to the file.
+
+The **Play** button allows you to preview the file. You can also select
+**Auto-play** if you would like to hear a sound file immediately as soon as
+you click on it in the file browser (without having to push the **Play**
+button).
+
+For MIDI files, you can select a virtual instrument that will be used to play
+the selected MIDI file, although you won't be able to select a particular
+synth patch.
+
+## Choosing Tracks and Insertion Point
+
+There are some common scenarios for importing media files: importing multiple
+audio files as new tracks and inserting them into the session start, importing
+multiple audio files to the list of of available sources for later use,
+importing one MIDI file into an existing track at the playhead position, etc.
+So there are two important options here: where to insert a region generally
+(which track, if at all), and which point of the timeline to insert to.
+
+The _Add files …_ drop-down list if where you choose the former, and the
+_Insert at_ drop-down list is where you choose the latter.
+
+## Inserting to Sources list
+
+Let's start with the scenario where you import some audio files into the list of sources.
 
 {{% notice tip %}}
 If you do not have any suitable audio files on your hard drive to follow these
@@ -35,14 +53,10 @@ large collection of Public Domain and Creative Commons–licensed samples in a
 variety of sample rates and formats.
 {{% /notice %}}
 
-On the right side of the _Add Existing Media_ dialog you will see a section
-allowing you to inspect the properties of the file you selected. Here you will
-see the name, number of channels, sample rate, format and length of the sound
-file, along with any tags you have chosen to add to the file.
+Select some files and in the _Add files…_ drop-down list choose _to source
+list_. Make sure the _Mapping_ options says _one region per file_.
 
-The **Play** button allows you to preview the file. You can also select
-**Auto-play** if you would like to hear a sound file immediately as soon as you
-click on it in the file browser (without having to push the Play button).
+{{< figure alt="Add to source list" src="en/ardour7-to-source-list.png" >}} 
 
 You will notice that the option _Copy files to session_ is checked by default.
 This will make a copy of the imported file(s) into the folder of the current
@@ -55,11 +69,9 @@ box checked (_Copy files to session_)**.
 
 Click **OK** to proceed.
 
-{{% notice tip %}}
 The file(s) you have imported will appear listed in your _Sources_ list. This
 list is located at the far right of the editor window. If you don't see it,
 make sure _Show Editor List_ is checked under the _View_ menu.
-{{% /notice %}}
 
 {{< figure alt="Editor List" src="en/ardour7-audio-imported-to-sources-list.png" >}} 
 
@@ -89,7 +101,7 @@ mono track only the left channel is displayed (and played back). 
 
 {{< figure alt="Stereo Mono" src="en/Ardour4_Stereo_Mono_Comparison.png" >}} 
 
-### Importing Audio Directly to a Track
+## Importing Directly to a Track
 
 As mentioned earlier, the _Add existing media_ dialog also allows you to import
 audio files directly onto tracks.
@@ -103,14 +115,16 @@ If you have previously selected one or more tracks, the menu will display the
 additional option _Add files… to selected tracks_ to add a sound file into the
 already existing selected track.
 
-When adding files as new tracks, note that the _Mapping_ options lets you choose
-between _one track per channel_ and _one track per file_. For the purpose of
-this tutorial, choose _one track per file_, otherwise the left and right
-channels of a stereo file will be split into two separate tracks.
+Note that if you import a multitrack MIDI file, Ardour will always create one new track per one existing track in the MIDI file and map them accordingly.
 
-#### Choose Insert Point
+When adding files as new tracks, note that the _Mapping_ options lets you
+choose between _one track per channel_ and _one track per file_. For the
+purpose of this tutorial, choose _one track per file_, otherwise the left and
+right channels of a stereo file will be split into two separate tracks.
 
-When using either one of the options above (_add as new track_ or _add to
+## Choose Insert Point
+
+When using either one of the options above (_Add as new track_ or _Add to
 selected tracks_), you should also specify where in the track you want the new
 region to be placed. In the screenshot below, we are choosing _session start_.
 
@@ -119,10 +133,10 @@ region to be placed. In the screenshot below, we are choosing _session start_.
 The region appears in a new track in the session. The new track automatically
 receives the name of the imported sound file.
 
-The sound file will also appear in the _Regions_ list so that it can be inserted
-into other tracks as well by dragging and dropping it.
+The sound file will also appear in the _Regions_ list so that it can be
+inserted into other tracks as well by dragging and dropping it.
 
-### Remove Regions from Tracks
+## Remove Regions from Tracks
 
 To remove a region from a track, you can select it with the mouse and use the
 *Cut* function from the menu, the **Control** (or **Apple**) key and the **X**
