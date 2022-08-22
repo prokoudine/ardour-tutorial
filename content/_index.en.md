@@ -16,8 +16,7 @@ and it can use LADSPA, LV2, VST and AudioUnit plugin formats.
 
 This tutorial provides a beginner's introduction to using Ardour for basic sound 
 recording and editing tasks. It assumes you already have Ardour up and running
-on your computer. Please note that this tutorial does not (yet) cover any MIDI
-functionality.
+on your computer.
 
 For information on how to install Ardour on Linux and Mac OS X, please visit the
 [Requirements](https://ardour.org/requirements.html) page. For Linux users, 
