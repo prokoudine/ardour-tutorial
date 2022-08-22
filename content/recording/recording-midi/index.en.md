@@ -110,7 +110,9 @@ project.
 
 1. Create a new track, select Surge XT as a virtual instrument.
 
-3. Open the _Factory Patches_ navigator and select _Bass 2_ in _Basses_.
+2. Open the _Factory Patches_ navigator and select _Bass 2_ in _Basses_.
+
+{{< figure src="en/surge-xt-bass-patch.png" alt="Selecting a bass patch in Surge XT" >}}
 
 3. Make sure the playhead is at the beginning of the session so that it
 matches the beginning of the first bar of all percussion tracks in the current
@@ -120,15 +122,11 @@ project.
 
 5. Select 1/8 note length and octave 3
 
-5. On your regular keyboard press D,G,H,G,D,G,U,J
-
-6. Press 4 to switch to octave 4, press S,D,G,T,D,S, press 3 to switch to octave 3
-
-7. Press U,J. Then press H4ASA3H4AEDGH5A4JHGED.
+6. On your regular keyboard press D,G,H,G,D,G,U,J,H,4,A,S,A,3,H,4,A,E,D.
 
 Now you have a basic bass line you can repeat.
 
-{{< figure src="en/initial-bass-line.png" alt="Initial bass line" >}}
+{{< figure src="en/bassline.png" alt="Initial bass line" >}}
 
 <!-- ## TODO: Drawing sticks on the piano roll
 
