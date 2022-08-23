@@ -128,12 +128,42 @@ Now you have a basic bass line you can repeat.
 
 {{< figure src="en/bassline.png" alt="Initial bass line" >}}
 
-<!-- ## TODO: Drawing sticks on the piano roll
+## Drawing notes on the piano roll
 
-If there is no existing region in your MIDI track, select the Draw mode,
-left-click at the position where the region should start, drag to the point
-where it should end, release the mouse button. Now you can draw and edit notes
-inside the region. -->
+Perhaps the easiest way to add notes to a MIDI track is to draw them on the
+canvas.
+
+1. Create a MIDI track.
+
+2. Switch to the _Draw_ mode by pressing **D** or clicking the respective button
+in the toolbar.
+
+3. Click and drag on the canvas to create a MIDI region.
+
+{{< figure src="en/draw-new-midi-region.gif" alt="Draw a new MIDI region" >}}
+
+4. Point the mouse to where a note should begin, press and hold left/primary
+mouse button and drag to the right as far as the note should go. Release the
+mouse button.
+
+{{< figure src="en/draw-new-midi-notes.gif" alt="Draw new MIDI notes" >}}
+
+5. The top toolbar has some default settings for new notes: duration,
+velocity, channel. You can change these settings before adding new notes: by
+either choosing a preset in a drop-down list of by scrolling the mousewheel
+over any of the three drop-down lists.
+
+{{< figure src="en/midi-draw-toobar.png" alt="MIDI drawing toolbar" >}}
+
+6. Repeat until you wrote down the melody.
+
+If you are not accustomed to this type of entering notes and mentally rotating
+the keyboard by 90° clock wise seems difficult for you, try clicking on the
+vertical piano keyboard widget to listen to notes until it grows on you.
+
+While in the _Draw_ mode, you also can do some leight editing: select and
+resize individual notes, drag them around, adjust velocity, use the
+right-click menu to perform various transformations.
 
 Continuing
 ----------
