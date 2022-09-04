@@ -122,6 +122,17 @@ While recording, you will be able to see the _levels_ (the amplitude in
 decibels) of the incoming sound, as well as see the _peaks_ of the _waveform_
 appearing as it is recorded.
 
+{{% notice tip %}}
+If you are some distance away from the computer running Ardour and you need to
+record audio, one of the options is to add the plugin called _Voice/Level
+Activate_ which is part of the Ardour's bundle. Place it in the beginning of
+the signal chain in the processor box, that is, at the very top. Once you arm
+the track and enable the recording mode, clapping hands in front of a mic or
+plucking a guitar string will trigger the transport to roll and thus start
+recording. Tweak the threshold value (measured in dBFS) to make it work for
+you.
+{{% /notice %}}
+
 ### Avoid Clipping
 
 The audio in the screenshot below was recorded too loud and produced _clipping_
