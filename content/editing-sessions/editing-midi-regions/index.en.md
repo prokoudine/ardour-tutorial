@@ -132,8 +132,9 @@ Rubberband-select all visible notes.
 
 {{< figure src="en/example-select-all.png" alt="" >}}
 
-2. Right-click, select _Quantize_, use 1/8 or Main Grid for note starts and
-ends, because in this case, it's the same thing.
+2. Right-click and select _Quantize_ (or just press **Q**). Use _1/8 Note_
+or _Main Grid_ for note starts and ends, because in this case, it's the
+same thing.
 
 {{< figure src="en/example-quantize-dialog.png" alt="" >}}
 
@@ -148,16 +149,17 @@ But there are some overlapping notes.
 {{< figure src="en/example-legatize.png" alt="" >}}
 
 4. Press **Arrow Left** key just once to shift all selected notes by one grid
-unit so that they start right at the beginning of the bar:
+unit (it's _1/8 Note_) so that they start right at the beginning of the bar:
 
 {{< figure src="en/example-shift-left.png" alt="" >}}
 
 Positions are all fine now. But there's more.
 
 5. It's time to cleanup velocity. Select all notes but the first one in each of
-the two bars. You can do that by pressing **Ctrl+A**, then using **Ctrl-click**
-twice to deselect first notes in both bars. Or you can rubber-band select the
-first portion, then press and hold **Shift** and add the second portion.
+the two bars. You can do that by pressing **Ctrl+A**, then press and hold
+**Ctrl** and click on the first note in each bars to deselect them. Or you can
+rubber-band select the first portion (sans the first note), then press and hold
+**Shift** and add the second portion (sans the first note in that bar as well).
 
 {{< figure src="en/example-select-all-but-firsts.png" alt="" >}}
 
