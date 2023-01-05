@@ -17,7 +17,7 @@ basic customization: user interface and font scale (if you have a HiDPI
 display), default folder where new sessions would be created, preferred way 
 to monitor signal being recorded etc.
 
-{{< figure src="en/ardour7-gui-and-font-scaling.png" alt="GUI and font scaling" >}}
+![GUI and font scaling](en/ardour7-gui-and-font-scaling.png?width=40vw)
 
 This dialog will never be shown again, unless you wipe all settings. You 
 can change all the preferences you set there at any time later in the 
@@ -28,7 +28,7 @@ _Preferences_ dialog.
 Once you get past the first-launch wizard, Ardour will suggest you create a 
 new _session_ from one of a few available templates.
 
-{{< figure src="en/ardour7-new-session-templates.png" alt="New session templates" >}}
+![New session templates](en/ardour7-new-session-templates.png?width=25vw)
 
 A session encompasses all the material you have: tracks with audio and MIDI 
 data, effects associated with tracks and busses etc. Thus, a session is 
@@ -73,7 +73,7 @@ share it with any other applications. As long as Ardour is running, any
 other desktop applications you are running too won't be able to connect to 
 the audio interface and play any sound.
 
-{{< figure src="en/ardour7-alsa-backend-settings.png" alt="Audio/MIDI setup" >}}
+![Audio/MIDI setup](en/ardour7-alsa-backend-settings.png?width=40vw)
 
 The _PulseAudio_ backend currently only supports playback. This means you won't
 be able to record any audio as long as you use PulseAudio, but you can edit,
@@ -81,7 +81,7 @@ mix, and export in e.g. Bluetooth headphones on the go. It's also the most
 convenient option when you want to follow a mixing or mastering tutorial on e.g.
 YouTube and be able to listen to the output from Ardour.
 
-{{< figure src="en/ardour7-pulse-audio-settings.png" alt="PulseAudio settings" >}}
+![PulseAudio settings](en/ardour7-pulse-audio-settings.png?width=40vw)
 
 Finally, there's JACK audio backend. It is designed following a client-server
 architecture pattern. JACK captures all physical ports of an audio interface and
@@ -113,7 +113,7 @@ Once you've chosen, configured, and started the audio/MIDI backend, Ardour will
 try to discover any new plugins, and then you will be greeted with Ardour's main
 window:
 
-{{< figure src="en/ardour7-ardour-empty-session.png" alt="Main Ardour window, empty session" >}}
+![Main Ardour window, empty session](en/ardour7-ardour-empty-session.png)
 
 ## Continuing
 

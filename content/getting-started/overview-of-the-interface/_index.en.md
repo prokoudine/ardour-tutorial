@@ -14,7 +14,7 @@ detailed information on each feature listed here.
 
 Here is a typical view of a project opened in Ardour:
 
-{{< figure src="en/ardour7-main-window-parts.png" alt="Main window of Ardour 7" >}}
+![Main window of Ardour 7](en/ardour7-main-window-parts.png)
 
 There are two larger parts of the user interface:
 
@@ -35,7 +35,7 @@ shouldn't have any problems navigating it. Session-specific commands are in the
 _Session_ menu, everything that is related to playing and recording is in the
 _Transport_ menu, most editing features are in _Edit_ and so on.
 
-{{< figure src="en/ardour7-program-menu.png" alt="Ardour program menu" >}}
+![Ardour program menu](en/ardour7-program-menu.png?width=50vw)
 
 For convenience, item-specific features are duplicated in the right-click menu.
 For instance, you'll find the contents of the _Region_ menu in the right-click
@@ -48,7 +48,7 @@ This panel displays useful information about the currently opened project
 (sampling rate, latency, DSP load) as well as how many estimated minutes of
 recording are available given the current amount of free disk space.
 
-{{< figure src="en/ardour7-info-panel.png" alt="Ardour info panel" >}}
+![Ardour info panel](en/ardour7-info-panel.png?width=50vw)
 
 If you right-click on it, you will see more options such as name of the current
 project snapshot (more on that later) and wall clock (as seen on the screenshot
@@ -60,7 +60,7 @@ The transport panel allows easily navigating the project: going to session
 start/end, playing entire session or just a selection (called 'range' in
 Ardour), initiating recording.
 
-{{< figure src="en/ardour7-transport-panel.png" alt="Transport Panel" >}}
+![Transport Panel](en/ardour7-transport-panel.png?width=15vw)
 
 The bottom of the panel has jog/shuttle controls for skipping backward and
 forward at various speed while playing back the contents of the session.
@@ -72,7 +72,7 @@ screen and resize it.
 
 ## Clocks
 
-{{< figure src="en/Ardour6_Clocks.png" alt="Clocks" >}}
+![Clocks](en/Ardour6_Clocks.png?width=30vw)
 
 The main _clocks_ are located next to the transport controls. Clocks in Ardour
 can display time in 4 different formats: Time Code, Bars:Beats, Minutes:Seconds,
@@ -86,7 +86,7 @@ recording and you are a few meters away from the screen, you might want a bigger
 clock. Use `Window > Big Clock` to open a clock window that will float on top of
 all other windows and resize it to your liking.
 
-{{< figure src="en/ardour7-big-clock.png" alt="Big Clock" >}}
+![Big Clock](en/ardour7-big-clock.png?width=50vw)
 
 Please see the [Setting Up the Timeline](../setting-up-the-timeline) chapter
 for more details on the clocks.
@@ -98,7 +98,7 @@ _Navigation Timeline_. It's a convenient way to be reminded of cues and location
 markers, especially when you are in the _Recorder_ window where the timeline
 doesn't have those rulers.
 
-{{< figure src="en/ardour7-navigation-timeline.png" alt="Navigation timeline" >}}
+![Navigation timeline](en/ardour7-navigation-timeline.png?width=40vw)
 
 Please check the Ardour manual for more information on the
 [mini-timeline](https://manual.ardour.org/ardours-interface/mini-timeline/).
@@ -109,7 +109,7 @@ To the right of the global toolbar, right after the _Navigation Timeline_ and
 the master bus output meter, you'll find a convenient widget to switch between
 major Ardour windows — Editor, Mixer, Recorder, and Cue.
 
-{{< figure src="en/ardour7-window-switcher.png" alt="Window switcher" >}}
+![Window switcher](en/ardour7-window-switcher.png?width=6vw)
 
 Alternatively, you can use **Ctrl+PageUp/PageDown** to cycle through windows,
 much like in any web browser.

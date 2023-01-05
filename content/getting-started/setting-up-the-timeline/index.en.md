@@ -25,7 +25,7 @@ There are two clocks near the top of the _Editor_ window which can display the
 time in a number of formats: *Timecode*, *Bars:Beats*, *Minutes:Seconds*, and
 *Samples*. Right-click to change the format of each of the two clocks.
 
-{{< figure alt="Clock Units" src="en/Ardour6_Clock_Units.png" >}}
+![Clock Units](en/Ardour6_Clock_Units.png?width=30vw)
 
 These are called the transport clocks. The left one is the primary transport
 clock and the right one is the secondary transport clock. The advantage of
@@ -52,7 +52,7 @@ There is one global switch, _Snap_, and then a drop-down list of grid
 quantization presets: _Bar_, _1/4 note_, _1/8 note_ etc., _Triplets_,
 _Timecode_, _Minutes and Seconds_, _CD frames_, and more.
 
-{{< figure alt="Snap" src="en/Ardour6_Snap_Options_and_Nudge_Controls.png" >}}
+![Snap](en/Ardour6_Snap_Options_and_Nudge_Controls.png?width=20vw)
 
 When _No Grid_ quantization preset is selected, there is no grid displayed on
 the tracks/busses canvas. In that case, with snapping off, nothing will snap.

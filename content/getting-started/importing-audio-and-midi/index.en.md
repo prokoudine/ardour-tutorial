@@ -7,9 +7,10 @@ weight = 4
 
 You can reuse existing audio and MIDI files by adding them as regions on
 existing or new tracks. To do so, press the **Ctrl+I** shortcut or go to the
-`Session > Import` menu to open the _Add Existing Media_ dialog, pick a file of interest, and import it.
+`Session > Import` menu to open the _Add Existing Media_ dialog, pick a file
+of interest, and import it.
 
-{{< figure alt="Add Media" src="en/ardour7-add-existing-media.png" >}} 
+{{< figure alt="Add Media" src="en/ardour7-import-as-new-tracks.png" >}} 
 
 Some settings are the same for audio and MIDI, some are format-specific.
 
@@ -73,7 +74,7 @@ The file(s) you have imported will appear listed in your _Sources_ list. This
 list is located at the far right of the editor window. If you don't see it,
 make sure _Show Editor List_ is checked under the _View_ menu.
 
-{{< figure alt="Editor List" src="en/ardour7-audio-imported-to-sources-list.png" >}} 
+![Editor List](en/ardour7-audio-imported-to-sources-list.png?height=50vh)
 
 By dragging and dropping an audio file listed on the _Sources_ list onto the
 main canvas, you can insert it in an existing or new track. If you drag it into

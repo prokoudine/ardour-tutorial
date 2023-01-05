@@ -29,7 +29,7 @@ Let's overview them quickly.
 
 ### Edit Modes and Cursor Modes
 
-{{< figure alt="Edit Modes" src="en/ardour7-edit-modes-cursor-modes.png" >}}
+![Edit Modes](en/ardour7-edit-modes-cursor-modes.png?width=30vw)
 
 The _Edit Modes_ and _Cursor Modes_ controls define the behavior of the main
 canvas and the different functions the cursor can have. There are three edit
@@ -57,10 +57,10 @@ region, and in _Grab_ mode in the lower half.
 
 ### Snap Options
 
-{{< figure alt="Snap" src="en/ardour7-snap-options-and-nudge-controls.png" >}}
-
 The _Snap Options_ toolbar allows selecting visible grid units that affect
 snapping when editing regions and, in case of MIDI regions, their contents.
+
+![Snap](en/ardour7-snap-options-and-nudge-controls.png?width=25vw)
 
 Here is a comparison between 1 bar grid, 1/8 note grid and 1/32 note grid:
 
@@ -74,9 +74,9 @@ details.
 
 ### Track View and Zoom Options
 
-{{< figure alt="Zoom Options" src="en/ardour7-view-and-zoom-options.png" >}}
-
 The far right part of the toolbar has track view and zoom options.
+
+![Zoom Options](en/ardour7-view-and-zoom-options.png?width=20vw)
 
 Track view options allow selecting how many tracks to display at the same time,
 and you can also shrink or expand the vertical zoom of selected tracks and
@@ -103,7 +103,7 @@ rulers at your disposition. You may uncheck rulers that you don't need in order
 to save screen space. More information on these operations can be found in the
 [Setting up the Timeline](../../setting-up-the-timeline/) and [Setting Up Time Signature](../../../editing-sessions/setting-up-time-signature/) chapters.
 
-{{< figure alt="Ardour Overview Rulers" src="en/ardour7-overview-rulers.png" >}}
+![Ardour Overview Rulers](en/ardour7-overview-rulers.png?width=40vw)
 
 ## Tracks and Busses
 
@@ -113,7 +113,7 @@ _MyTrack_ also contains one region which represents an audio file with a drawing
 of its waveform. More information on tracks and busses can be found in the
 [Creating a Track or Bus](../../creating-tracks-and-busses/) chapter.
 
-{{< figure alt="Ardour Track" src="en/Ardour6_Track.png" >}}
+![Ardour Track](en/Ardour6_Track.png?width=30vw)
 
 ## Project Overview
 
@@ -135,12 +135,13 @@ outwards to zoom in or out respectively.
 The Editor Mixer is located at the left of the _Editor_ window. It displays the
 mixer strip of the currently selected track or bus. It's mainly used to control
 the volume, plugins, and routing for the track or the bus to which it
-corresponds. You can toggle to view or hide the _Editor Mixer_ by clicking on
-the menu `View > Show Editor Mixer` (**Shift + E** shortcut). This Mixer is
-covered in the [Using the Mixer Strip](../mixing-sessions/the-mixer-strip/)
-chapter.
+corresponds.
 
-{{< figure src="en/Ardour6_Editor_Mixer.png" alt="Editor Mixer" height="50%" >}}
+![Editor Mixer](en/Ardour6_Editor_Mixer.png?height=40vw)
+
+You can toggle to view or hide the _Editor Mixer_ by clicking on the menu
+`View > Show Editor Mixer` (**Shift + E** shortcut). This Mixer is covered in
+the [Using the Mixer Strip](../mixing-sessions/the-mixer-strip/) chapter.
 
 ## Editor List
 
@@ -149,7 +150,7 @@ functions, depending on which tab is currently selected: _Tracks & Busses_,
 _Sources_, _Regions_, _Clips_, _Snapshots_, _Track & Bus Groups_, and _Ranges &
 Marks_.
 
-{{< figure alt="Sources List" src="en/ardour7-sources-list.png" >}}
+![Sources List](en/ardour7-sources-list.png?height=60vh)
 
 - _Tracks & Busses_ provides an overview of all tracks and busses in the
 project, including the invisible ones. This tab is covered in the
