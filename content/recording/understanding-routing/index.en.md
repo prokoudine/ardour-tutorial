@@ -102,14 +102,14 @@ There is a neat trick you can use when you need to map many mono/stereo outputs
 to many mono/stereo inputs: rather than making many single clicks, draw a
 connection line. Here is how you do it:
 
-![Drawing connection lines](en/ardour7-drawing-connection-lines.gif)
+![Drawing connection lines](en/ardour7-drawing-connection-lines.gif?height=75vh)
 
 ### Practical example of routing to a bus 
 
 In the following example session, there are two guitar tracks and one
 unused bus called _Guitar_ bus, all Stereo.
 
-![ACM 4](en/ardour7-audio-connection-manager-4.png?width=40vw)
+![ACM 4](en/ardour7-audio-connection-manager-4.png?width=30vw)
 
 Suppose you want to send the output from the two guitar tracks to the _Guitar_
 bus instead of the _Master_ bus. This can be useful to control the volume of
@@ -148,7 +148,7 @@ of the  strip. Clicking on either one will show you a menu of connection
 options. In the  screenshot below, for example, you would click on the **1/2**
 button right under the track name _Guitar 1_ in order to access this menu:
 
-![Editor Mixer In Out](en/ardour7-editor-mixer-in-out.png?width=40vw)
+![Editor Mixer In Out](en/ardour7-editor-mixer-in-out.png?width=30vw)
 
 You may select a connection right there from the menu, or choose _Routing Grid_ 
 to see a simpler version of the _Audio Connection Manager_ with only the
