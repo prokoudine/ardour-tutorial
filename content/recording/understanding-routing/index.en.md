@@ -36,9 +36,9 @@ routing.
 The _Audio Connection Manager_ window (also known as the patchbay) is the main
 way to make connections to, from ,and within Ardour's mixer. You can open this
 window with the shortcut **Alt + P**, or through the
-`Window > Audio Connections` menu.
+`Window >> Audio Connections` menu.
 
-{{< figure alt="Audio Connection Manager" src="en/ardour7-audio-connections-in-menu.png" >}} 
+![Audio Connection Manager](en/ardour7-audio-connections-in-menu.png?width=40vw)
 
 The patchbay presents two groups of ports; one set of sources, and one of
 destinations. Sources and destinations are organized by tabs. The available
@@ -51,7 +51,7 @@ in the bottom. This means that the matrix you see displays connections from
 available hardware sound sources (for example, a microphone), into existing
 Ardour tracks.  
 
-{{< figure alt="ACM 1" src="en/ardour7-audio-connection-manager-1.png" >}} 
+![ACM 1](en/ardour7-audio-connection-manager-1.png?width=40vw)
 
 The green dots represent a connection. The screenshot above tells us that
 incoming sounds from _capture\_1_ (the first input source of your soundcard, or
@@ -68,7 +68,7 @@ vertical tab) into Ardour busses (selected horizontal tab). As mentioned
 earlier, the default setting for all _Ardour Tracks_ is that their sound goes to
 the _Master_ bus.
 
-{{< figure alt="ACM 2" src="en/ardour7-audio-connection-manager-2.png" >}} 
+![ACM 2](en/ardour7-audio-connection-manager-2.png?width=40vw)
 
 Note: remember that _Audio 1_ is a Mono track? We saw it in the earlier
 screenshot that _Audio 1_ only has one input slot. But now on the screenshot
@@ -82,7 +82,7 @@ Finally, let's explore a couple more tabs in the _Audio Connection Manager_ to
 see the sound going from the _Master_ bus to the actual hardware outputs (your
 loudspeakers or headphones):
 
-{{< figure src="en/ardour7-audio-connection-manager-3.png" alt="ACM3" >}}
+![ACM 3](en/ardour7-audio-connection-manager-3.png?width=40vw)
 
 As you can see, the selected source tab is now _Ardour Busses_, and the
 destination tab is _Hardware_. This session happens to have only one bus, the
@@ -102,14 +102,14 @@ There is a neat trick you can use when you need to map many mono/stereo outputs
 to many mono/stereo inputs: rather than making many single clicks, draw a
 connection line. Here is how you do it:
 
-{{< figure src="en/ardour7-drawing-connection-lines.gif" alt="Drawing connection lines" >}}
+![Drawing connection lines](en/ardour7-drawing-connection-lines.gif)
 
 ### Practical example of routing to a bus 
 
 In the following example session, there are two guitar tracks and one
 unused bus called _Guitar_ bus, all Stereo.
 
-{{< figure alt="ACM 4" src="en/ardour7-audio-connection-manager-4.png" >}} 
+![ACM 4](en/ardour7-audio-connection-manager-4.png?width=40vw)
 
 Suppose you want to send the output from the two guitar tracks to the _Guitar_
 bus instead of the _Master_ bus. This can be useful to control the volume of
@@ -124,7 +124,7 @@ destinations (horizontal bottom tabs). Undo existing connections from both
 tracks to _Master_. Then create connections from both tracks to _Guitar_ bus.
 The final result would look like this: 
 
-{{< figure alt="ACM 5" src="en/ardour7-audio-connection-manager-5.png" >}} 
+![ACM 5](en/ardour7-audio-connection-manager-5.png?width=40vw)
 
 Now both guitar tracks are routed to the _Guitar_ bus, and no longer directly
 connected to the _Master_ bus. We then make sure that the _Guitar_ bus is, by
@@ -148,7 +148,7 @@ of the  strip. Clicking on either one will show you a menu of connection
 options. In the  screenshot below, for example, you would click on the **1/2**
 button right under the track name _Guitar 1_ in order to access this menu:
 
-{{< figure alt="Editor Mixer In Out" src="en/ardour7-editor-mixer-in-out.png" >}}
+![Editor Mixer In Out](en/ardour7-editor-mixer-in-out.png?width=40vw)
 
 You may select a connection right there from the menu, or choose _Routing Grid_ 
 to see a simpler version of the _Audio Connection Manager_ with only the

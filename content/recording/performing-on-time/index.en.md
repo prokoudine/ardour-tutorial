@@ -19,12 +19,12 @@ are recording. So if performing to a metronome to pace yourself is something
 you are comfortable with, you can enable the metronome on the transport
 toolbar (or press the **\`** shortcut).
 
-If the metronome clicks are not audible, go to _Window > Audio Connections_,
+If the metronome clicks are not audible, go to `Window > Audio Connections`,
 click _Ardour Misc_ on the left and see if the _Click out_ ports are connected
 to the Master bus. This will make the metronome clicks play through the same
 output as the rest of your session.
 
-{{< figure src="en/click-out-ports.png" alt="Click out ports connected to the master bus" >}}
+![Click out ports connected to the master bus](en/click-out-ports.png?width=40vw)
 
 There are also a handful of customization options for the metronome on the
 same-name _Preferences_ dialog page: doing (or not) an emphasis on the first
@@ -45,14 +45,14 @@ begins. You have three options here:
 
 The first two options are similar. Here is what they do.
 
-Preroll (_Transport > Record w/Preroll_ or **Shift+<**) means Ardour will
+Preroll (`Transport > Record w/Preroll` or **Shift+<**) means Ardour will
 start playing audible session's material ahead of the point where you want to
 begin recording, then when the playhead reaches the original point where it
 was located, actual recording starts. By default, Ardour goes 2 bars back for
 preroll. You can configure this in the _Preferences_ dialog on the _Transport_
 page.
 
-Count-in (_Transport > Record w/Count-in_ or **Shift+>**) means that Ardour
+Count-in (`Transport > Record w/Count-in` or **Shift+>**) means that Ardour
 will play two bars worth of metronome clicks, _then_ start recording.
 
 In both cases playing exactly on beat is crucial if there should be MIDI notes

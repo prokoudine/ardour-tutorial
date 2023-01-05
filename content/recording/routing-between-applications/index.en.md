@@ -26,7 +26,7 @@ directly in Ardour. For that, in the Audio Connection Manager manager switch to
 the _Other_ tab in _Sources_ on the left and connect your browser's output to an
 Ardour track that is called _From YT_ here:
 
-{{< figure src="en/ardour7-youtube-connection-in-ardour.png" alt="Connection to YouTube output" >}}
+![Connection to YouTube output](en/ardour7-youtube-connection-in-ardour.png?width=40vw)
 
 As applications like web browsers do not usually have persistent audio output
 ports, you do need to make your browser output some audio for the ports to be

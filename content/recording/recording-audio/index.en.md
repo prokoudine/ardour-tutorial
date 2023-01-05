@@ -16,7 +16,7 @@ your computer which have been connected to Ardour via JACK. Please see the
 This section will show you how to record audio from an external source (for
 example, a microphone) onto a track in Ardour.
 
-{{< figure alt="Editor Mixer Input" src="en/ardour7-editor-mixer-input.png" >}} 
+![Editor Mixer Input](en/ardour7-editor-mixer-input.png?width=50vw)
 
 First, you should check that the proper inputs have been routed to the
 track you wish to record to.
@@ -25,7 +25,7 @@ track you wish to record to.
 volume slider.
 2. The track becomes highlighted.
 
-{{< figure alt="Highlighting a track" src="en/ardour7-audio-1-highlight.gif" >}}
+![Highlighting a track](en/ardour7-audio-1-highlight.gif?width=30vw)
 
 3. The vertical _Editor Mixer_ strip located on the left side of the _Editor_
 window should now show the track you just selected (*Audio 1* in the image
@@ -47,7 +47,7 @@ whether you are using a macOS, Windows, or Linux computer. If you don't see a
 connection named *system capture_1*, look for whichever connection name is
 likely to be your input microphone. 
 
-{{< figure alt="Audio 1 input" src="en/ardour7-audio-1-input.png" >}} 
+![Audio 1 input](en/ardour7-audio-1-input.png?height=30vw)
 
 The tabs that you see displayed vertically on the left are available
 sources. "*Audio 1 in*" on the bottom right is the
@@ -85,7 +85,7 @@ checked that the proper capture inputs have been routed to the Track, you can
 arm the Track to record by clicking on the small red icon on the horizontal
 track strip (not the big one in the Transport controls).
 
-{{< figure alt="Arming Track" src="en/ardour7-arming-the-track.png" >}} 
+![Arming Track](en/ardour7-arming-the-track.png?width=40vw)
 
 When properly armed, the small red icon will remain highlighted, and you will be
 able to see the incoming signal by looking at the _peak meter_ on the _Editor
@@ -111,7 +111,7 @@ recording, click on the **Play** button in the _Transport_ menu, or press the
 space bar of your computer keyboard. Clicking the **Play** button again (or
 pressing the space bar) will stop recording.
 
-{{< figure alt="Recording" src="en/ardour7-recording.png" >}} 
+![Recording](en/ardour7-recording.png?width=50vw)
 
 While recording, the armed track will capture the sounds from the input. Any
 existing sound on other tracks will play normally during the recording. This
@@ -140,7 +140,7 @@ The audio in the screenshot below was recorded too loud and produced _clipping_
 represented digitally), which results in a loss of information and audible
 distortion. The clipped peaks in the waveform are marked in red.
 
-{{< figure alt="Clipping" src="en/ardour7-clipping.png" >}} 
+![Clipping](en/ardour7-clipping.png?width=50vw)
 
 The best and easiest way to avoid clipping is have some control over the volume
 of the incoming audio signal before it gets to the sound card. For example, you
@@ -170,7 +170,7 @@ where it was recorded, with different takes being automatically numbered. In the
 screenshot below, "*Audio 1-1*" and "*Audio 1-2*" represent two different
 recordings made on a track named "*Audio 1*". 
 
-{{< figure alt="Region List Rec" src="en/ardour7-region-list-recording.png" >}}
+![Region List Rec](en/ardour7-region-list-recording.png?width=40vw)
 
 You might want to plan ahead and organize your recording session by giving
 appropriate names to different tracks. For example, a track used only for
@@ -182,7 +182,7 @@ such as "Audio 1".
 To rename a track, just double-click on its name (before you arm the track to
 record) and type in the new name.
 
-{{< figure alt="Rename Track" src="en/ardour7-rename-track.png" >}} 
+![Rename Track](en/ardour7-rename-track.png?width=40vw)
 
 {{% notice tip %}}
 Did we mention how important it is to **save your work often**? Hit **Ctrl + S**
