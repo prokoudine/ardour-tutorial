@@ -32,13 +32,13 @@ it: start/end times of the range as well as its duration. When a range is
 created, the _Tracks & Busses_ tab will also select tracks that the range
 crosses.
 
-{{< figure src="en/ardour7-range-properties.png" alt="Range properties" >}}
+![Range properties](en/ardour7-range-properties.png?height=60vh)
 
 It can be useful to create ranges that align with the edges of regions on your
 timeline. To do that, enable the _Snap_ option in the toolbar and select _No
 Grid_ in the drop-down list next to it.
 
-{{< figure src="en/ardour7-snap-to-region-boundaries.png" alt="Snap to region boundaries" >}}
+![Snap to region boundaries](en/ardour7-snap-to-region-boundaries.png?width=10vw)
 
 ## Editing ranges
 
@@ -81,7 +81,7 @@ the timeline in a loop whenever you like (on the screenshot above). To do that,
 either click the **Play loop range** button in the _Transport_ toolbar or press
 the **L** shortcut.
 
-{{< figure src="en/ardour7-play-loop-range-button.png" alt="Loop range button in Transport" >}}
+![Loop range button in Transport](en/ardour7-play-loop-range-button.png?width=35vw)
 
 You can also tweak the position of loop markers while playing the range in a
 loop. Just grab a marker and drag it to the left or to the right.

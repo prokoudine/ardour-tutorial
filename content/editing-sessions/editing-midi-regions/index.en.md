@@ -106,7 +106,7 @@ A simple way to numerically change velocity (as well as MIDI channel, pitch, and
 position) is to use the note's properties dialog. Right-click on a note or
 multiple notes, then select _Edit…_.
 
-{{< figure src="en/note-properties.png" alt="Editing note properties" >}}
+![Editing note properties](en/note-properties.png?width=45vw)
 
 If multiple notes have been selected, you can mass-change them to the same
 value. For that enable the _Set selected notes to this velocity_ option before

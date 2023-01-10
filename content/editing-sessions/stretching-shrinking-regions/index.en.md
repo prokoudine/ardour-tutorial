@@ -8,7 +8,7 @@ weight = 9
 Regions can be stretched or shrunk in length without changing their pitch by
 using the _Stretch/Shrink Regions_ tool (**T** shortcut, for "Time-stretch").
 
-{{< figure src="en/ardour7-stretch-shrink-edit-mode.png" alt="Stretch/Shrink Regions tool" >}}
+![Stretch/Shrink Regions tool](en/ardour7-stretch-shrink-edit-mode.png?width=20vw)
 
 A small adjustment to the length of a region may not cause noticeable sound
 _artifacts_. However, the more extreme the change in length, the more obvious
@@ -50,7 +50,7 @@ will affect the sound in a different way. It's a good idea to try different
 stretch settings to find out which one gives you the result you're most happy
 with.
 
-{{< figure src="en/ardour7-stretch-shrink-2.png" alt="Time Stretch Audio dialog" >}}
+![Time Stretch Audio dialog](en/ardour7-stretch-shrink-2.png?width=30vw)
 
 Click **Stretch/Shrink** in the _Time Stretch Audio_ dialog to start the
 operation.

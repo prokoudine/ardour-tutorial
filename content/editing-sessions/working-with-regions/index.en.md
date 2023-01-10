@@ -18,7 +18,7 @@ The _Grab_ mode (**G** shortcut) is the tool to select and move objects. It is
 located just below the transport menu in the _Editor_ window (the little "hand"
 icon). You will use this tool a lot in your Ardour work.
 
-{{< figure alt="Object Tool" src="en/ardour7-grab-mode.png" >}} 
+![Object Tool](en/ardour7-grab-mode.png?width=30vw)
 
 When it is active, your mouse pointer will look like a little hand icon.
 
@@ -35,7 +35,7 @@ on each region you want to select.
     
 - You can also drag a selection box over multiple regions to select them all.
 
-{{< figure alt="object selection" src="en/ardour7-object-selection.png" >}} 
+![Object selection](en/ardour7-object-selection.png?width=50vw)
 
 - Move multiple regions at the same time after selecting them. 
 
@@ -102,7 +102,7 @@ When you use the standard copy/cut/paste commands, where exactly will the
 regions be pasted? The exact location is determined by the edit point
 drop-down menu.
 
-{{< figure alt="Edit Point" src="en/ardour7-edit-point-menu.png" >}} 
+![Edit Point](en/ardour7-edit-point-menu.png?width=25vw)
 
 If _Mouse_ is selected as the edit point, the copied region will be pasted at
 the current position of the mouse.
@@ -261,7 +261,7 @@ has the desired fade is *on top* in Ardour's layering system. In order to
 change layering of regions, select a region and go to the menu `Region >
 Layering`. 
 
-{{< figure alt="Crossfade4" src="en/ardour7-crossfade-4.png" >}} 
+![Crossfade4](en/ardour7-crossfade-4.png?width=50vw)
 
 The difference may be hard to hear if you are doing this with the very short
 percussive sounds we imported earlier. To really hear the effect, import a

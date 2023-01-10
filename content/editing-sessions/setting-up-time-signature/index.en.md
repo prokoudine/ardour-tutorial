@@ -32,7 +32,7 @@ scrolled past the point in time where you can see the marker on the timeline.
 Simply click on either tempo or TS button right below the secondary clock and 
 provide a new value in the newly opened dialog.
 
-{{< figure src="en/Ardour5_Edit_TS_and_Tempo.png" alt="Tempo and Time Signature" >}}
+![Tempo and Time Signature](en/Ardour5_Edit_TS_and_Tempo.png?width=25vw)
 
 For the tempo (button on the left), choose the number of beats per minute (bpm)
 for your session.

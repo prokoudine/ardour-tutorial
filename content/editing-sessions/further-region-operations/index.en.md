@@ -75,7 +75,7 @@ transposition desired. The window includes a _Preserve Formants_ option. When
 pitch shifting by large amounts, the preserve formants option can give results
 that sound slightly more natural, particularly when used on vocal material.
 
-{{< figure alt="Pitch Shift" src="en/ardour7-pitch-shift-window.png" >}} 
+![Pitch Shift](en/ardour7-pitch-shift-window.png?height=30vh)
 
 ## Normalize
 
@@ -85,7 +85,7 @@ normalizing  to 0.0, the region will be as loud as possible while avoiding
 clipping.  Sometimes you may find useful to normalize a region to a value less
 than 0,  such as -1.0, -3.0, or -6.0 decibels, so it doesn't become too loud. 
 
-{{< figure alt="normalize" src="en/ardour7-normalize-window.png" >}} 
+![Normalize](en/ardour7-normalize-window.png?width=20vw)
 
 Two other useful gain operations for regions are _Boost Gain_ (**Alt+6**) and
 _Cut Gain_ (**Alt+7**), both incrementing gain by 1dB upwards or downwards.

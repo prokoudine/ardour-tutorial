@@ -9,7 +9,7 @@ We have already learned a bit about the _Grab_ mode (select/move objects) and
 _Range_ mode. In this chapter we will get an overview of all the _edit modes_
 and _cursor modes_ available on that part of the _Editor_ window.
 
-{{< figure alt="Ardour Edit Modes" src="en/Ardour6_Edit_Modes_Cursor_Modes.png" >}}
+![Ardour Edit Modes](en/Ardour6_Edit_Modes_Cursor_Modes.png?width=30vw)
 
 ## Edit Modes
 
@@ -38,7 +38,7 @@ We will only use the _Slide_ edit mode in this tutorial.
 ## Cursor Modes
 ### Grab Mode
 
-{{< figure alt="G" src="en/ardour7-grab-edit-mode.png" >}}
+![G](en/ardour7-grab-edit-mode.png?width=20vw)
 
 This cursor mode (**G** shortcut) allows you to select or move objects such as
 regions and breakpoints (in an automation curve). When this cursor mode is
@@ -46,7 +46,7 @@ selected, your cursor pointer will look like a little hand icon.
 
 ### Range Mode
 
-{{< figure alt="R" src="en/ardour7-range-edit-mode.png" >}}
+![R](en/ardour7-range-edit-mode.png?width=20vw)
 
 This cursor mode (**R** shortcut) allows you to click and drag to define or
 resize time ranges.  When this cursor mode is selected, your cursor pointer will
@@ -55,7 +55,7 @@ tracks, depending on the selection of your tracks.
 
 ### Cut Mode
 
-{{< figure alt="C" src="en/ardour7-cut-edit-mode.png" >}}
+![C](en/ardour7-cut-edit-mode.png?width=20vw)
 
 Use this cursor mode (**C** shortcut) to split regions into smaller regions. The
 cursor turns into the shape of scissors. This allows you to point and click on a
@@ -71,7 +71,7 @@ be set to _Mouse_.
 
 ### Audition Mode
 
-{{< figure alt="Audition" src="en/ardour7-audition-edit-mode.png" >}}
+![Audition](en/ardour7-audition-edit-mode.png?width=20vw)
 
 This cursor mode allows you to click on any existing region on any track and
 have it immediately played back. Playback stops at the end of the region. When
@@ -85,7 +85,7 @@ Simply select a region and hit the shortcut key **H**.
 
 ### Stretch/Shrink Region
 
-{{< figure alt="T" src="en/ardour7-stretch-shrink-edit-mode.png" >}}
+![T](ardour7-stretch-shrink-edit-mode.png?width=20vw)
 
 This cursor mode (**T** shortcut) allows you to drag and resize the duration of
 an entire region without changing the pitch. This is sometimes called "time
@@ -116,7 +116,7 @@ length, MIDI channel, and velocity.
 
 ### Internal Edit Mode
 
-{{< figure alt="E" src="en/ardour7-internal-edit-mode.png" >}}
+![E](en/ardour7-internal-edit-mode.png?width=20vw)
 
 Use this mode (**E** shortcut) to edit existing automation points or MIDI notes.
 
