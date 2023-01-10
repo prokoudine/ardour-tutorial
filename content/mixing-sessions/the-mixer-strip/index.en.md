@@ -42,7 +42,7 @@ display the Editor's mixer strip.
 Here we see the entire mixer strip, as it would appear in either the _Editor_
 window or the _Mixer_ window. 
 
-{{< figure alt="strip1" src="en/Ardour4_Mixer_Strip_1.png" >}} 
+![strip1](en/Ardour4_Mixer_Strip_1.png?height=60vh)
 
 ### Regular & Narrow Modes
 
@@ -81,7 +81,7 @@ where in the processor chain the main channel fader is located — this is the
 fader shown in the lower half of the strip. Please see _Using Plugins_ and
 _Using Sends_ for a detailed discussion of this area.
 
-{{< figure src="en/ardour7-inline-views-and-controls.png" alt="Inline view and controls" >}}
+![Inline view and controls](en/ardour7-inline-views-and-controls.png?width=50vw)
 
 There are additional views and controls possible in the processor box, as seen
 on the screenshot above:
@@ -102,7 +102,7 @@ To control both these features, use _Controls_ submenu in the right-click menu
 of a plugin. As inline displays are enabled by default, all you can do is
 disable it (and then enable back). To enable a control for a plugin, simply click on its name in the menu.
 
-{{< figure src="en/ardour7-plugin-controls-submenu.png" alt="Controls submenu in Ardour 7" >}}
+![Controls submenu in Ardour 7](en/ardour7-plugin-controls-submenu.png?height=60vh)
 
 {{% notice tip %}}
 To enable multiple controls for a plugin, the most convenient way is to open the
@@ -123,7 +123,7 @@ Depending on the amount of channels in a track, Ardour will provide a dedicated
 user interface to control panning. In the screenshot below, a mono track is on
 the left and a stereo track is on the right:
 
-{{< figure src="en/ardour7-mono-vs-stereo-panning.png" alt="Mono vs. stereo panning" >}}
+![Mono vs. stereo panning](en/ardour7-mono-vs-stereo-panning.png?width=20vw)
 
 Please refer to the _Panning_ chapter for more information.
 
@@ -137,7 +137,7 @@ _Audition_. The track mixer also contains a miniaturized **Mute** button, in
 between the **Record Arm** button and the **Solo** button. Right-clicking on the
 **Mute** button gives you advanced options for the behavior of the mute button.
 
-{{< figure src="en/ardour7-mute.png" alt="Mute button in on and off states" >}}
+![Mute button in on and off states](en/ardour7-mute.png?width=20vw)
 
 When a track or a bus is _soloing_, all the other tracks and busses are
 inaudible through the _Master_ bus or the _Audition_, unless you solo them. So
@@ -145,19 +145,19 @@ if you need to play just two tracks out of eight, you don't have to mute six
 other tracks, you only need to solo those two. Please note that soloing a bus
 will not silence any tracks and vice-versa. 
 
-{{< figure src="en/ardour7-solo.png" alt="Solo button" >}}
+![Solo button](en/ardour7-solo.png?width=20vw)
 
 When any track or bus is on solo, the _solo indicator_ in the _Auxiliary
 Controls_ menu will flash red. Clicking the solo indicator while it is flashing
 will deactivate every solo in the session.
 
-{{< figure src="en/ardour7-soloing-flash-button.png" alt="Soloing" >}}
+![Soloing](en/ardour7-soloing-flash-button.png?width=40vw)
 
 ### Arm Record
 
 The _Rec_ button arms the track for recording, as seen in the _Recording Audio_ chapter.
 
-{{< figure src="en/ardour7-arm-rec.png" alt="Arm for recording" >}}
+![Arm for recording](en/ardour7-arm-rec.png?width=20vw)
 
 ### Fader, Fade/Peak Meters
 

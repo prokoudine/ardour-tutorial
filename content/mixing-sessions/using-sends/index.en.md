@@ -46,7 +46,7 @@ previous chapter, _Using Plugins_.
 In this example, we have created a mono bus called _Drums_, and added the
 _ACE Reverb_ plugin to the bus.
 
-{{< figure alt="sends1" src="en/ardour7-ace-reverb-in-mixer-strip.png" >}} 
+![sends1](en/ardour7-ace-reverb-in-mixer-strip.png?height=200)
 
 ### Bus inputs
 
@@ -63,7 +63,7 @@ routed to the _Master_ bus, as shown below (button at bottom reads "*master*").
 Also, open the plugin window (double click on the _ACE Reverb_ rectangle) and
 set the plugin's signal mix to 1.0 _Blend_ value.
 
-{{< figure alt="sends3" src="en/ardour7-ace-reverb-settings.png" >}} 
+![sends3](en/ardour7-ace-reverb-settings.png?width=400)
 
 This ensures that the bus carries all of the processed signal from the plugin,
 and none of the unprocessed signal to the _Master_ bus. Remember, the
@@ -78,7 +78,7 @@ Like plugins, sends are also created in the processor box. Go to each of your
 drum tracks, right-click in empty space of the processor box, and create a
 _New Aux Send..._ directed to the appropriate bus (in our case, named _Drums_).
 
-{{< figure alt="sends4" src="en/ardour7-adding-aux-send.png" >}} 
+![sends4](en/ardour7-adding-aux-send.png?height=500)
 
 {{% notice tip %}}
 If you do *not* see the _New Aux Sends..._ option in the menu, it's probably
@@ -88,7 +88,7 @@ the bus.
 
 You should now see the send displayed in the processor box:
 
-{{< figure alt="postfader" src="en/ardour7-post-fader-send.png" >}} 
+![postfader](en/ardour7-post-fader-send.png?height=200)
 
 The little _Send_ slider you see just below the green rectangle is the send
 fader, which  controls how much sound will be sent from this track to the bus.
@@ -103,7 +103,7 @@ In a _pre_-fader send, on the other hand, the send level is controlled only by
 the send fader, independently of the track/bus fader. A pre-fader send would
 look like this:
 
-{{< figure alt="prefader" src="en/ardour7-pre-fader-send.png" >}} 
+![prefader](en/ardour7-pre-fader-send.png?height=200)
 
 You can drag the send rectangle up and down the processor box to make it pre-
 or post-fader as needed.

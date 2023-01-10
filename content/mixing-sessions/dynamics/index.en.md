@@ -32,7 +32,7 @@ slider. The _Fast Lookahead Limiter_ literally looks ahead in the signal by a
 few milliseconds, and when it sees that the signal is about to go over the limit
 you have set, it automatically turns the levels down.
 
-{{< figure alt="limiter" src="en/ardour7-fast-lookahead-lmiter.png" >}}
+![limiter](en/ardour7-fast-lookahead-lmiter.png?width=500)
 
 The _Input Gain (dB)_ slider determines how much the levels are increased before
 they reach the limiter, and the _Attenuation (dB)_ meter on the right-hand side
@@ -65,7 +65,7 @@ A typical compressor will have these obligatory controls:
 **Attack** and **Release**
 : Control how quickly the compressor affects the sound.
 
-{{< figure alt="ACE Compressor" src="en/ardour7-ace-compressor.png" >}}
+![ACE Compressor](en/ardour7-ace-compressor.png?width=450)
 
 The _ACE Compressor_ plugin on the screenshot above has two additional controls:
 
@@ -115,7 +115,7 @@ Here, the _Hard Gate_ plugin (from a suite of LADSPA plugins called
 parameter, the _Threshold_ at which the gate will open and let the signal
 through.
 
-{{< figure alt="Hard Gate" src="en/ardour7-hard-gate.png" >}}
+![Hard Gate](en/ardour7-hard-gate.png?width=400)
 
 Other kinds of gates, such as the _LSP Gate_ plugin on the screenshot below, are
 more complex. They have independent control over how quickly the gate opens

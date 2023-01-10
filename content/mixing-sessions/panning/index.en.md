@@ -17,11 +17,11 @@ The panning control in Ardour is located in the middle of the mixer strip.
 
 A mono track will have a mono panner. It looks like this:
 
-{{< figure src="en/ardour7-mono-panner.png" alt="Mono panner" >}}
+![Mono panner](en/ardour7-mono-panner.png?width=10vw)
 
 A stereo track will have a stereo panner, like this:
 
-{{< figure src="en/ardour7-stereo-panner.png" alt="Stereo panner" >}}
+![Stereo panner](en/ardour7-stereo-panner.png?width=10vw)
 
 ### Mono Panner
 
@@ -69,7 +69,7 @@ an example of a 4-channel audio track. You can see that there is a small user
 interface right in the mixer and a larger editor window that you can access by
 clicking anywhere in the empty space inside the panning area:
 
-{{< figure src="en/ardour7-multichannel-panning.png" alt="Multichannel panning" >}}
+![Multichannel panning](en/ardour7-multichannel-panning.png?width=30vw)
 
 Unless you work on projects where e.g.
 [Ambisonics](https://en.wikipedia.org/wiki/Ambisonics) is involved, you will

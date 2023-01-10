@@ -27,7 +27,7 @@ the screenshot below is just such an EQ. If you don't have this particular
 plugin on your computer, explore the ones you have that have "EQ" in the name;
 you will likely find something similar.
 
-{{< figure alt="DJ EQ" src="en/ardour7-dj-eq.png" >}}
+![DJ EQ](en/ardour7-dj-eq.png?width=400)
 
 ## Multi-Band (or Graphic) Equalizer
 
@@ -52,7 +52,7 @@ The _parametric equalizer_ is the most versatile type of EQ used for mixing
 because of its extensive control over all types of EQ parameters. Ardour ships
 with a parametric equalizer plug-in called the _ACE EQ_. It looks like this:
 
-{{< figure alt="a-eq" src="en/ardour7-ace-eq.png" >}}
+![ACE EQ](en/ardour7-ace-eq.png?width=500)
 
 Others may have shinier graphical interfaces like the _x42 EQ_ by Robin Gareus,
 but they all essentially do the exact same thing. You may have EQ plugins on

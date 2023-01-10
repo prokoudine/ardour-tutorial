@@ -21,7 +21,7 @@ effects or as instruments, as well as sends or inserts which affect signal
 routing. The arrangement of processors is arbitrary, and there is no limit to
 how many there can be.
 
-{{< figure alt="mixer strip 2" src="en/ardour7-default-processor-box.png" >}} 
+![mixer strip 2](en/ardour7-default-processor-box.png?width=150)
  
 The main space shown in the screenshot above is the _processor box_. The blue
 box fader is in fact a _processor_ that comes by default inside the processor
@@ -37,7 +37,7 @@ Plugins can be added by right-clicking in the processor box of the track or
 bus. A menu of options is presented. From the menu, new processors can be
 inserted. 
 
-{{< figure alt="plugins1" src="en/ardour7-plugin-selector-in-menu.png" >}} 
+![plugins1](en/ardour7-plugin-selector-in-menu.png?width=500)
 
 The _Plugin Selector_ is a convenient way to browse and choose plugins:
 
@@ -53,14 +53,14 @@ Once selected, click **Add** and the plugin will show up in the bottom list of
 "Plugins to be connected". Then click **Insert Plugin(s)**, and they will show
 up in the processor box.
 
-{{< figure alt="plugins reverb" src="en/ardour7-ace-reverb-added-to-processor-box.png" >}}
+![plugins reverb](en/ardour7-ace-reverb-added-to-processor-box.png?width=150)
 
 ## Editing Plugin Parameters
 
 Double-click a plugin to edit its parameters. In this example, we double click
 the "ACE Reverb" red box and get this window:
 
-{{< figure alt="ACE Reverb" src="en/ardour7-ace-reverb-settings.png" >}} 
+![ACE Reverb](en/ardour7-ace-reverb-settings.png?width=400)
 
 Here you can control reverb parameters such as _Blend_ and _Room Size_. The
 effect will apply to all sounds contained in the track.
@@ -77,7 +77,7 @@ or simply click the LED of the plugin in the processor box. This turns the
 plugin off and allows the signal to pass by it unaffected. This is useful when
 you want to compare how a track sounds with and without the plugin. 
 
-{{< figure alt="bypass" src="en/ardour7-ace-reverb-bypass-in-mixer-strip.png" >}} 
+![bypass](en/ardour7-ace-reverb-bypass-in-mixer-strip.png?width=150)
 
 Bypassed plugins are shown with the LED turned off. On the screenshot above, the
 fader is enabled and the _ACE Reverb_ plugin is bypassed.
