@@ -42,14 +42,14 @@ By default the program will name the new snapshot according to the current date
 and timestamp of your system. If you wish, you can change the name to one that
 more meaningfully corresponds to the session you are working on.
 
-{{< figure alt="snapshots" src="en/ardour7-snapshot-name.png" >}}
+![snapshots](en/ardour7-snapshot-name.png?width=350)
 
 ## Recalling Snapshots
 
 You can recall a saved snapshot via the _Snapshots_ tab in the area on the
 right:
 
-{{< figure alt="snapshot2" src="en/ardour7-snapshot-list.png" >}}
+![snapshot2](en/ardour7-snapshot-list.png?width=700)
 
 There you see a few snapshots that we created, and the _my\_session_ entry
 represents the original state of our session.

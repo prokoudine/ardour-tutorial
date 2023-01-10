@@ -45,7 +45,7 @@ If double-clicking on the session file does not launch Ardour, use the standard
 method of first opening the application itself, then choosing a session from the
 _Session Setup_ dialog.
 
-{{< figure alt="Ardour Opening" src="en/ardour7-session-setup-dialog.png" >}}
+![Ardour Opening](en/ardour7-session-setup-dialog.png?width=600)
 
 ## Moving a Session to Another Computer or Disk
 
