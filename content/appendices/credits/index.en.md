@@ -33,4 +33,4 @@ Christie.
 
 2021 update for Ardour v6 by Luca Aquino.
 
-2022 update for Ardour v7 by Alexandre Prokoudine.
+2022/2023 update for Ardour v7 by Alexandre Prokoudine.
