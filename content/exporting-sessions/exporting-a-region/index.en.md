@@ -14,7 +14,7 @@ chapter shows you how to do that.
 To export a region, select it in _Grab_ mode and then right-click into the
 sub-menu _Export_, or use the top menu: `Region > Export`.
 
-{{< figure alt="export region" src="en/ardour7-export-region-in-right-click-menu.png" >}}
+![export region](en/ardour7-export-region-in-right-click-menu.png?width=600)
 
 This will open up the same export dialog box explained in the
 [Exporting Sessions](../exporting-a-session) chapter. Choose your options and

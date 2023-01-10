@@ -15,7 +15,7 @@ To export a range, follow these steps:
 
 1. Click on the **Range Mode** button (**R** shortcut)
 
-{{< figure src="en/Ardour4_EditModes_R.png" alt="Range mode" >}}
+![Range mode](en/ardour7-range-edit-mode.png?width=250)
 
 2. Make a range selection:
 
@@ -33,7 +33,7 @@ click **Export**. The range will be exported and saved as an audio file.
 
 To define a range is simply to specify a beginning and ending point in time. The **Selection** display to the right of the secondary clock shows the start and end times of the selected range, as well as its duration.
 
-{{< figure src="en/ardour7-range-duration.png" alt="Range duration" >}}
+![Range duration](en/ardour7-range-duration.png?width=600)
 
 The range created through the method above will disappear as soon as you click outside of it.
 

@@ -25,7 +25,7 @@ before exporting.
 
 * Click on the **Zoom to Session** button (third button in the zoom options):
 
-{{< figure alt="zoom options" src="en/ardour7-session-zoom-all.png" >}}
+![zoom options](en/ardour7-session-zoom-all.png?width=200)
 
 * You should now have a nice overview of your whole session, like this:
 
