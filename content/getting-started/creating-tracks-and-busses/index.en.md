@@ -126,4 +126,4 @@ Once you've added one or more tracks, you will want to put some audio material
 into them to work with. Continue on to the **Importing Audio** and **Recording
 Audio** chapters to learn how to do this.
 
-Next: [IMPORTING AUDIO](../importing-audio)
+Next: [IMPORTING AUDIO AND MIDI](../importing-audio-and-midi)
