@@ -37,7 +37,7 @@ Plugins can be added by right-clicking in the processor box of the track or
 bus. A menu of options is presented. From the menu, new processors can be
 inserted. 
 
-![plugins1](en/ardour7-plugin-selector-in-menu.png?width=500)
+![plugins1](en/ardour7-plugin-selector-in-menu.png?height=450)
 
 The _Plugin Selector_ is a convenient way to browse and choose plugins:
 
