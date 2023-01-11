@@ -22,7 +22,7 @@ disableInlineCopyToClipBoard = true
 title = "Ardour tutorial"
 weight = 1
 languageName = "English"
-landingPageURL = "/"
+landingPageURL = "https://prokoudine.github.io/ardour-tutorial"
 #landingPageURL = "/"
 landingPageName = "<i class='fas fa-home'></i> Home"
 
