@@ -94,6 +94,7 @@ by right-clicking in the timeline and checking the _Timecode_ box.
 ## Continuing
 
 Now that you've set up the timeline, continue on to the chapter on
-creating tracks and busses to add one or more tracks to your session.
+installing plugins. This is will come in handy in the next chapter when
+you learn how to record MIDI.
 
-Next: [CREATING A TRACK OR BUS](../creating-a-track-or-bus)
+Next: [INSTALLING PLUGINS](../installing-plugins)
