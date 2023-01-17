@@ -43,7 +43,7 @@ appropriately, and add a plugin in the pre-fader region (right-click just
 above the fader's blue rectangle in the processor box), as discussed in the
 previous chapter, _Using Plugins_.
 
-In this example, we have created a mono bus called _Drums_, and added the
+In this example, we have created a stereo bus called _Drums_, and added the
 _ACE Reverb_ plugin to the bus.
 
 ![sends1](en/ardour7-ace-reverb-in-mixer-strip.png?height=200)
