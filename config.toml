@@ -54,6 +54,42 @@ name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
 url = "en/appendices/credits/"
 weight = 30
 
+[Languages.fr]
+title = "Tutoriel Ardour"
+weight = 1
+languageName = "Français"
+landingPageURL = "https://prokoudine.github.io/ardour-tutorial"
+#landingPageURL = "/"
+landingPageName = "<i class='fas fa-home'></i> Accueil"
+
+[[Languages.fr.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> Ce tutoriel dans GitHub"
+identifier = "github"
+url = "https://github.com/prokoudine/ardour-tutorial"
+weight = 10
+
+[[Languages.fr.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-home'></i> Page d'accueil d'Ardour"
+url = "https://ardour.org/"
+weight = 11
+
+[[Languages.fr.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bookmark'></i> Manuel utilisateur"
+identifier = "usermanual"
+url = "https://manual.ardour.org"
+weight = 20
+
+[[Languages.fr.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-users'></i> Forum"
+identifier = "forum"
+url = "https://discourse.ardour.org/"
+weight = 20
+
+[[Languages.fr.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
+url = "en/appendices/credits/"
+weight = 30
+
 [Languages.ru]
 title = "Введение в Ardour"
 weight = 1
