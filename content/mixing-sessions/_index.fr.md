@@ -1,5 +1,5 @@
 +++
-title = "Sessions de mixage"
+title = "Mixer des sessions"
 description = "Comment mixer une session dans Ardour"
 chapter = true
 weight = 5
@@ -7,9 +7,9 @@ pre = "<b>5. </b>"
 +++
 
 ### Chapitre 5
-# Sessions de mixage
+# Mixer des sessions
 
-Comment utiliser les outils de base pour faire ressortir chaque instrument dans un mixage
+Comment utiliser les outils de base pour faire ressortir chaque instrument dans un mixage.
 
 Contenu :
 

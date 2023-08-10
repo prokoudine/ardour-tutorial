@@ -1,11 +1,13 @@
 +++
-title = "Home"
-description = "Ardour v7.0 tutorial"
+title = "Accueil"
+description = "Tutoriel Ardour v7.0"
 +++
 
 # Tutoriel pour Ardour v7.0
 
-**Ardour** est un enregistreur sur disque dur complet et professionnel, ainsi qu'une station de travail audio numérique (STAN). Ardour est un logiciel libre et open source (FLOSS). Il offre un nombre illimité de pistes et de bus audio, une édition non destructive et non linéaire avec annulation illimitée et un routage du signal de n'importe où à n'importe quel endroit. Il prend en charge les formats de fichiers standard, tels que BWF, WAV, WAV64, AIFF et CAF et il peut utiliser les formats de plugins LADSPA, LV2, VST et AudioUnit.
+**Ardour** est un enregistreur sur disque dur complet et professionnel, ainsi qu'une station de travail audio numérique (STAN).
+Ardour est un logiciel libre et open source (FLOSS). Il offre un nombre illimité de pistes et de bus audio, une édition non destructive et non linéaire avec annulation illimitée et un routage du signal de n'importe où à n'importe quel endroit.
+Il prend en charge les formats de fichiers standard, tels que BWF, WAV, WAV64, AIFF et CAF et il peut utiliser les formats de plugins LADSPA, LV2, VST et AudioUnit.
 
 {{< figure src="/ardour-tutorial/images/Ardour6.png" alt="Ardour 6" >}}
 
@@ -19,10 +21,10 @@ Pour plus d'informations sur l'installation d'Ardour sur Linux et Mac OS X, veui
 Contenu :
 
 1. [Introduction](introduction/)
-2. [Getting started](getting-started/)
-3. [Recording](recording/)
-4. [Editing sessions](editing-sessions/)
-5. [Mixing sessions](mixing-sessions/)
-6. [Exporting sessions](exporting-sessions/)
-7. [Saving sessions](saving-sessions/)
-8. [Appendices](appendices/)
+2. [Pour commencer](getting-started/)
+3. [Enregistrer](recording/)
+4. [Editer des sessions](editing-sessions/)
+5. [Mixer des sessions](mixing-sessions/)
+6. [Exporter des sessions](exporting-sessions/)
+7. [Sauvergarder des sessions](saving-sessions/)
+8. [Annexes](appendices/)
