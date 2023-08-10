@@ -26,5 +26,5 @@ Contenu :
 4. [Editer des sessions](editing-sessions/)
 5. [Mixer des sessions](mixing-sessions/)
 6. [Exporter des sessions](exporting-sessions/)
-7. [Sauvergarder des sessions](saving-sessions/)
+7. [Sauvegarder des sessions](saving-sessions/)
 8. [Annexes](appendices/)

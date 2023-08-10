@@ -15,7 +15,7 @@ Il s'agit d'un travail en cours, ce qui signifie que vous n'y trouverez pas (enc
 
 Un bon moyen d'obtenir de l'aide lorsque vous apprenez Ardour et que vous travaillez avec est d'utiliser la fonction **Chat**. Ardour a une option "Chat" intégrée, que l'on trouve dans le menu principal sous `Help > Chat` pour vous connecter (via votre navigateur web) au forum Ardour [IRC](http://en.wikipedia.org/wiki/IRC) de Ardour à libera.chat.
 
-Vous pouvez également utiliser votre application de chat compatible IRC (comme Pidgin ou Xchat) pour vous connecter au canal Ardour (\#	ardour ou \#ardour-osx) sur le réseau libera.chat ou utiliser directement ce lien web :
+Vous pouvez également utiliser votre application de chat compatible IRC (comme Pidgin ou Xchat) pour vous connecter au canal Ardour (\#ardour ou \#ardour-osx) sur le réseau libera.chat ou utiliser directement ce lien web :
 
 [https://web.libera.chat//#ardour](https://web.libera.chat//#ardour)
 
