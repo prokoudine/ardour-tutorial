@@ -15,7 +15,7 @@ la créez. Pendant que vous travaillez sur la session, vous devez la sauvegarder
 fréquemment. Prenez l'habitude d'appuyer sur **Ctrl+S** (ou **Commande+S** sur Mac)
 après quelques minutes.
 
-{{% avis conseil %}}
+{{% notice tip %}}
 Évitez d'utiliser des caractères autres que des lettres et des chiffres pour
 nommer votre session. Évitez les espaces blancs, les lettres accentuées, !@#$%\*()+,
 les points, les virgules, etc.
@@ -25,7 +25,7 @@ ou "MaGrandeSession", ou encore "ma-grande-session". Au lieu de "Açaí", écriv
 (sans les lettres accentuées), etc.
 Une fois que vous avez créé votre session Ardour, ne renommez _pas_ manuellement
 les dossiers ou fichiers qui appartiennent à la session.
-{{% /avis %}}
+{{% /notice %}}
 
 ## Format des fichiers et des dossiers Ardour
 
