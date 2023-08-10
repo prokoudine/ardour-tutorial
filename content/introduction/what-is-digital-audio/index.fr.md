@@ -48,4 +48,4 @@ Ainsi, nous pouvons dire que les fichiers audio de qualité CD ont une fréquenc
 
 Dans le prochain chapitre, nous lancerons Ardour sur Ubuntu Linux et apprendrons les bases de l'interface utilisateur.
 
-Next: [DEMARRER ARDOUR](../../getting-started/starting-ardour/).
+Next: [Démarrer Ardour](../../getting-started/starting-ardour/).

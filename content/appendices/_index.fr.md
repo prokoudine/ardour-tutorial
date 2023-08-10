@@ -1,5 +1,5 @@
 +++
-title = "Appendices"
+title = "Annexes"
 chapter = true
 weight = 8
 pre = "<b>8. </b>"
@@ -8,7 +8,7 @@ pre = "<b>8. </b>"
 ### Chapitre 8
 # Annexes
 
-Où trouver plus d'informations sur Ardour et comment améliorer ce tutoriel
+Où trouver plus d'informations sur Ardour et comment améliorer ce tutoriel.
 
 Table des matières :
 

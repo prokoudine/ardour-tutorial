@@ -87,7 +87,7 @@ weight = 20
 
 [[Languages.fr.menu.shortcuts]]
 name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
-url = "en/appendices/credits/"
+url = "appendices/credits/"
 weight = 30
 
 [Languages.ru]
