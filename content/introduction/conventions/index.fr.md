@@ -38,4 +38,4 @@ L'exemple ci-dessus est une abréviation de "cliquez d'abord sur le menu _Vue_, 
 
 ## Mots du glossaire
 
-Ce tutoriel ne suppose aucune connaissance préalable des ordinateurs ou de l'édition audio, aussi les termes qui pourraient être inconnus du lecteur général sont écrits en majuscules tout au long de ce manuel, et sont listés en **caractères gras** la première fois qu'ils sont utilisés dans un chapitre. Les mots du glossaire sont également définis en ligne la première fois qu'ils apparaissent dans le manuel, et sont sont inclus dans le glossaire à la fin de ce tutoriel.
+Ce tutoriel ne suppose aucune connaissance préalable des ordinateurs ou de l'édition audio, aussi les termes qui pourraient être inconnus du lecteur général sont écrits en majuscules tout au long de ce manuel, et sont listés en **caractères gras** la première fois qu'ils sont utilisés dans un chapitre. Les mots du glossaire sont également définis en ligne la première fois qu'ils apparaissent dans le manuel, et sont inclus dans le glossaire à la fin de ce tutoriel.

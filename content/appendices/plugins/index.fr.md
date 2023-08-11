@@ -1,6 +1,6 @@
 +++
-title = "Recommended plugins"
-description = "Plugins we recommend to use with Ardour"
+title = "Greffons recommandés"
+description = "Greffons que nous recommandons d'utiliser avec Ardour"
 chapter = false
 weight = 6
 +++
@@ -14,25 +14,24 @@ weight = 6
 
 ## Visualisation
 
-- [x42 Meter Collection](https://x42-plugins.com/x42/x42-meters), une grande aide dans l'analyse audio
-- [sisco.lv2](https://x42-plugins.com/x42/x42-scope), un oscilloscope
-- [spectra.lv2](https://x42-plugins.com/x42/x42-spectra), un analyseur de spectre
+- [x42 Meter Collection](https://x42-plugins.com/x42/x42-meters), une grande aide dans l'analyse audio,
+- [sisco.lv2](https://x42-plugins.com/x42/x42-scope), un oscilloscope,
+- [spectra.lv2](https://x42-plugins.com/x42/x42-spectra), un analyseur de spectre.
 
 ## Batterie et percussion
 
-- [AVL Drumkits](https://x42-plugins.com/x42/x42-avldrums), un échantillonneur de batterie avec deux kits intégrés
-- [DrumGizmo](https://drumgizmo.org), un échantillonneur de batterie avec des kits à télécharger séparément
-- [Geonkick](https://github.com/free-sm/geonkick), un synthétiseur batterie/percussion
+- [AVL Drumkits](https://x42-plugins.com/x42/x42-avldrums), un échantillonneur de batterie avec deux kits intégrés,
+- [DrumGizmo](https://drumgizmo.org), un échantillonneur de batterie avec des kits à télécharger séparément,
+- [Geonkick](https://github.com/free-sm/geonkick), un synthétiseur batterie/percussion.
 
 ## Synthétiseurs
 
-- [Cardinal](https://github.com/DISTRHO/Cardinal), un synthétiseur modulaire avec l'esthétique Eurorack
-- [OB-Xd](https://github.com/reales/OB-Xd), un synthétiseur doux ressemblant au synthétiseur vintage Oberheim OB-X
-- [Dexed](https://github.com/asb2m10/dexed), un simulateur de Yamaha DX7
-- [Odin2](https://www.thewavewarden.com/odin2), un synthétiseur polyphonique 24-voix
-- [Surge XT](https://surge-synthesizer.github.io/), un synthétiseur hybride
-- [Vital](https://vital.audio/), un synthétiseur à table d'ondes à déformation spectrale
+- [Cardinal](https://github.com/DISTRHO/Cardinal), un synthétiseur modulaire avec l'esthétique Eurorack,
+- [OB-Xd](https://github.com/reales/OB-Xd), un synthétiseur doux ressemblant au synthétiseur vintage Oberheim OB-X,
+- [Dexed](https://github.com/asb2m10/dexed), un simulateur de Yamaha DX7,
+- [Odin2](https://www.thewavewarden.com/odin2), un synthétiseur polyphonique 24-voix,
+- [Surge XT](https://surge-synthesizer.github.io/), un synthétiseur hybride,
+- [Vital](https://vital.audio/), un synthétiseur à table d'ondes à déformation spectrale.
 <!-- - [Helm](https://tytel.org/helm/) -->
 
-[Ce site internet](http://linuxsynths.com/) garde une trace de tous les synthétiseurs
-synthétiseurs disponibles pour Linux.
+[Ce site internet](http://linuxsynths.com/) garde une trace de tous les synthétiseurs disponibles pour Linux.

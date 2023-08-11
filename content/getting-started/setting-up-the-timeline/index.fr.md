@@ -51,7 +51,7 @@ Time Signature_.
 **Timecode**
 : Pour travailler avec le timecode vidéo SMPTE, vous devez d'abord définir le _timecode fps_ (frames per second). Ceci peut être trouvé dans l'onglet timecode de la fenêtre _Session Properties_ (`Session > Properties` dans le menu ou le raccourci **Alt+O** raccourci).
 
-{{< figure alt="Timecode" src="fr/Ardour6_Timecode.png" >}}
+{{< figure alt="Timecode" src="en/Ardour6_Timecode.png" >}}
 
 Une fois que vous avez fait cela, assurez-vous de rendre la règle _Timecode_ visible en cliquant avec le bouton droit de la souris sur la timeline et en cochant la case _Timecode_. 
 
