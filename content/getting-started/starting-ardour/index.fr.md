@@ -81,4 +81,4 @@ Dans le chapitre suivant, vous allez vous familiariser avec l'interface utilisat
 - enregistreur,
 - et Cue.
 
-Next: [VUE D'ENSEMBLE DE L'INTERFACE](../overview-of-the-interface)
+Next: [Vue d'ensemble de l'interface](../overview-of-the-interface)
