@@ -49,7 +49,7 @@ la méthode standard qui consiste à ouvrir d'abord l'application elle-même,
 puis à cliquer sur le fichier de session dans la boîte de dialogue
 _Session Setup_ (Configuration de la session).
 
-![Ardour Opening](fr/ardour7-session-setup-dialog.png?width=600)
+![Ardour Opening](en/ardour7-session-setup-dialog.png?width=600)
 
 ## Déplacer une session vers un autre ordinateur ou un autre disque
 
@@ -79,6 +79,6 @@ de la session sera préservé.
 L'enregistrement d'un ensemble vous permet de l'ouvrir à nouveau ultérieurement.
 Cependant, si vous souhaitez conserver un certain état de votre document,
 afin de pouvoir revenir à cet état plus tard après y avoir apporté des modifications,
-passez à la sesection suivante intitulée _Sauvegarde d'un instantané_. 
+passez à la section suivante intitulée _Sauvegarde d'un instantané_. 
 
-Suivant : [SAUVEGARDE D'UN INSTANTANNE](../saving-a-snapshot)
+Suivant : [Sauvegarde d'un instantané](../saving-a-snapshot)
