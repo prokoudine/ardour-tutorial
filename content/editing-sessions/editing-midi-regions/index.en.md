@@ -1,201 +1,145 @@
 +++
-title = "Editing MIDI regions"
+title = "Editer des régions MIDI"
 chapter = false
 weight = 10
 +++
 
-Almost all the MIDI editing happens in the _Internal Edit_ mode (**E**
-shortcut). The vast majority of the work there involves tweaking position and
-duration of notes, adjusting velocity, and editing automation. Ardour provides
-tools to edit these settings both interactively and numerically.
+La quasi-totalité de l'édition MIDI se fait dans le mode _Internal Edit_ (**E**).
+La grande majorité du travail consiste à modifier la position et la durée des notes, à ajuster la vélocité et à éditer l'automatisation. Ardour fournit des outils pour éditer ces paramètres à la fois de manière interactive et numérique.
 
-So let's review available tool and then do a quick exercise.
+Passons donc en revue les outils disponibles, puis faisons un exercice rapide.
 
-Most of the editing assumes having at least one note selected in a MIDI region.
-We'll start with selecting notes.
+La plupart de l'édition suppose d'avoir au moins une note sélectionnée dans une région MIDI.
+Nous commencerons par la sélection des notes.
 
-## Selecting notes
+## Sélectionner des notes
 
-There are multiple ways to select notes in the _Internal Edit_ mode, it really
-depends on what you want to do.
+Il y a plusieurs façons de sélectionner des notes dans le mode _Internal Edit_, cela dépend vraiment de ce que vous voulez faire.
 
-To select one note, just single-click it. To add another note to the
-selection, press and hold **Ctrl**, then click that note. To remove a note
-from the selection, again, press and hold **Ctrl**, then click it.
+Pour sélectionner une note, il suffit de cliquer dessus. Pour ajouter une autre note à la sélection, appuyez sur **Ctrl** et maintenez-le enfoncé, puis cliquez sur cette note. Pour supprimer une note de la sélection, maintenez la touche **Ctrl** enfoncée, puis cliquez sur la note.
 
-If you need to extend an existing selection to another note and include all
-notes inbetween, press and hold **Shift**, then click the note that you want
-to extend the selection to.
+Si vous devez étendre une sélection existante à une autre note et inclure toutes les notes situées entre les deux, appuyez et maintenez la touche **Ctrl** enfoncée, puis cliquez sur la note à laquelle vous voulez étendre la sélection.
 
-To select multiple adjucent notes, you can do a regular rubberband selection.
-Move the mouse pointer to a blank part of the canvas that is close to those
-notes, press and hold the left mouse button, then drag the mouse to "draw" a
-rectangular area. All notes inside that area will be selected. Release the
-mouse button to complete the selection.
+Pour sélectionner plusieurs notes adjacentes, vous pouvez effectuer une sélection élastique classique. Déplacez le pointeur de la souris sur une partie vierge du canevas qui est proche de ces notes, appuyez sur le bouton gauche de la souris et maintenez-le enfoncé, puis faites glisser la souris pour "dessiner" une zone rectangulaire. Toutes les notes situées à l'intérieur de cette zone seront sélectionnées. Relâchez le bouton pour terminer la sélection.
 
 {{< figure src="en/rubberband-selection.png" alt="Rubberband selection" >}}
 
-Finally, if you need to select all notes, just press **Ctrl+A**.
+Enfin, si vous souhaitez sélectionner toutes les notes, appuyez simplement sur **Ctrl+A**.
 
-Once you selected multiple notes, you can mass-edit them in various ways.
+Une fois que vous avez sélectionné plusieurs notes, vous pouvez les éditer en masse de différentes manières.
 
-## Editing start and end of notes
+## Modifier le début et la fin des notes
 
-To edit the start or the end of the note, hover an edge of a note until you
-see the mouse pointer change its icon. Then press and hold the left mouse
-button, drag left or right to edit, release the mouse button to confirm the
-edit.
+Pour modifier le début ou la fin d'une note, survolez un bord de la note jusqu'à ce que vous voyiez le pointeur de la souris changer d'icône. Appuyez ensuite sur le bouton gauche de la souris et maintenez-le enfoncé. Faites glisser la souris vers la gauche ou la droite pour modifier, relâchez le bouton de la souris pour confirmer la modification.
 
-Snapping options apply here, when snapping is enabled. Moreover, if multiple
-notes are selected, they all will be shrunk or extended.
+Les options d'accrochage s'appliquent ici, lorsque l'accrochage est activé. De plus, si plusieurs notes sont sélectionnées, elles seront toutes réduites ou étendues.
 
 {{< figure src="en/drag-note-ends.png" alt="Drag note ends" >}}
 
-Quantization effectively means adjusting start and end times of notes in a way
-that makes them snap to a grid of your choice. It is something you will
-probably use after real-time recording. Ardour provides some flexibility when
-applying quantization: you can snap to grid just the starts, just the ends, or
-both.
+La quantification consiste à ajuster les temps de début et de fin des notes de manière à les faire correspondre à une grille de notes de manière à ce qu'elles s'alignent sur une grille de votre choix. C'est quelque chose que vous utiliserez probablement après l'enregistrement en temps réel. Ardour offre une certaine flexibilité lors de l'application de la quantification. Vous pouvez fixer à la grille uniquement les débuts, uniquement les fins, ou les deux.
 
-Another command that effectively adjusts the duration of notes is _Legatize_.
-When you have two notes that begin at different positions on the timeline,
-_Legatize_ adjusts the end of the note that begins earlier so that it ends
-exactly where the second note begins. This might mean either expanding or
-shrinking the duration of the the earlier note:
+Une autre commande qui ajuste efficacement la durée des notes est _Legatize_.
+Lorsque vous avez deux notes qui commencent à des positions différentes sur la ligne de temps, la fin de la note qui commence plus tôt de façon à ce qu'elle se termine exactement à l'endroit où la seconde note commence. Cela peut se traduire par une extension ou une réduction de la durée de la note antérieure :
 
 {{< figure src="en/legatize.png" alt="legatize" >}}
 
-As you can see, the first note is expanded to join the second one, and second
-one is shrunk to join the third one, and the third one is expanded to join the
-fourth one.
+Comme vous pouvez le voir, la première note est élargie pour rejoindre la deuxième, et la deuxième est réduite pour rejoindre la troisième et la troisième est développée pour rejoindre la quatrième.
 
-## Shifting and transposing notes
+## Décalage et transposition des notes
 
-You can shift and/or transpose selected notes by just pressing arrow keys on
-your keyboard. Alternatively, you can hover the middle of one of the selected
-nodes, press the left mouse button, hold it and then drag the selection
-left/right or up/down (or both).
+Vous pouvez décaler et/ou transposer les notes sélectionnées en appuyant simplement sur les touches fléchées de votre clavier.
+Vous pouvez également placer le curseur au milieu de l'un des nœuds sélectionnés, appuyer sur le bouton gauche de la souris, le maintenir enfoncé et faire glisser la sélection vers la gauche/droite ou le haut/bas (ou les deux).
 
-You can also transpose by a given amount of octaves and semitones in one go.
-Left-click on the region where some notes are selected, choose _Transpose..._.
-Then specify the amount of octaves and semitones to transpose by.
+Vous pouvez également transposer d'un nombre donné d'octaves et de demi-tons en une seule fois.
+Cliquez avec le bouton gauche de la souris sur la région où certaines notes sont sélectionnées, choisissez _Transposer..._. Spécifiez ensuite la quantité d'octaves et de demi-tons à transposer.
 
-{{< figure src="en/transpose.png" alt="Transpose MIDI notes" >}}
+{{< figure src="en/transpose.png" alt="Transposer les notes MIDI" >}}
 
-## Editing velocity
+## Édition de la vélocité
 
-Ardour uses two ways to represent a note's velocity: through color coding and
-through a 2D chart.
+Ardour utilise deux façons de représenter la vélocité d'une note : par un code couleur et par un graphique 2D.
 
 {{< figure src="en/velocities.png" alt="Velocities" >}}
 
-The paler the note and the shorter the dark line inside the note, the lower the
-velocity. A deep red note and the dark line going through the entire note mean
-the velocity is at (on near) its maximum value.
+Plus la note est pâle et plus la ligne sombre à l'intérieur de la note est courte, plus la vitesse est faible. Une note rouge foncé et la ligne sombre qui la traverse entièrement signifient que la vélocité est à sa valeur maximale (ou presque).
 
-To quickly change a note's velocity, hover its middle on the canvas, then start
-scrolling the mouse wheel up and down to change the velocity value. When
-multiple notes are selected, each will receive the same amount of adjustment. So
-you can select, let's say, 3 notes at 25, 50, and 100 velocity values
-respectively, increment each one by 20, and end up with notes that have 45, 70,
-and 120 for velocities.
+Pour modifier rapidement la vélocité d'une note, survolez son milieu sur le canevas, puis commencez à faire défiler la molette de la souris vers le haut et vers le bas pour modifier la valeur de la vélocité. Lorsque plusieurs sont sélectionnées, chacune recevra la même quantité d'ajustement. Ainsi vous pouvez sélectionner, disons, 3 notes à 25, 50 et 100 valeurs de vélocité respectivement, incrémenter chacune d'entre elles de 20, et obtenir des notes dont la vélocité est de 45, 70, et 120 pour la vélocité.
 
 {{< figure src="en/velocity-tooltip.png" alt="Velocity tooltip" >}}
 
-A simple way to numerically change velocity (as well as MIDI channel, pitch, and
-position) is to use the note's properties dialog. Right-click on a note or
-multiple notes, then select _Edit…_.
+Un moyen simple de modifier numériquement la vélocité (ainsi que le canal MIDI, la hauteur et la position) est d'utiliser les paramètres la boîte de dialogue des propriétés de la note. Cliquez avec le bouton droit de la souris sur une ou plusieurs notes, puis sélectionnez _Editer_.
 
-![Editing note properties](en/note-properties.png?width=45vw)
+![Édition des propriétés de la note](en/note-properties.png?width=45vw)
 
-If multiple notes have been selected, you can mass-change them to the same
-value. For that enable the _Set selected notes to this velocity_ option before
-applying changes.
+Si plusieurs notes ont été sélectionnées, vous pouvez les modifier en masse pour leur donner la même valeur. Pour cela, activez l'option _Set selected notes to this velocity_ avant d'appliquer les changements.
 
+## Exemple d'édition du début à la fin
 
-## Editing example start to end
-
-Let's have a look at this quick real-time performance capture.
+Jetons un coup d'œil à cette capture rapide de performance en temps réel.
 
 {{< figure src="en/example-original.png" alt="" >}}
 
-Even without listening to it, a few things stand out:
+Même sans l'écouter, quelques éléments ressortent :
 
-- wrong start times;
-- wrong durations;
-- velocity all over the place.
+- des heures de départ erronées ;
+- durées erronées ;
+- une vélocité qui n'a pas lieu d'être.
 
-Let's fix it and start with positions and durations.
+Corrigeons tout cela et commençons par les positions et les durées.
 
-1. Press **E** to switch to the _Internal Edit_ mode.
-Rubberband-select all visible notes.
+1. Appuyez sur **E** pour passer en mode _Édition interne_.
+Sélectionnez toutes les notes visibles à l'aide d'un élastique.
 
 {{< figure src="en/example-select-all.png" alt="" >}}
 
-2. Right-click and select _Quantize_ (or just press **Q**). Use _1/8 Note_
-or _Main Grid_ for note starts and ends, because in this case, it's the
-same thing.
+2. Cliquez avec le bouton droit de la souris et sélectionnez _Quantize_ (ou appuyez simplement sur **Q**). Utilisez _1/8 Note_
+ou _Main Grid_ pour le début et la fin des notes, car dans ce cas, c'est la même chose.
+même chose.
 
 {{< figure src="en/example-quantize-dialog.png" alt="" >}}
 
-This is already much better:
+C'est déjà beaucoup mieux :
 
 {{< figure src="en/example-quantize-result.png" alt="" >}}
 
-But there are some overlapping notes.
+Mais il y a quelques notes qui se chevauchent.
 
-3. Right-click and select _Legatize_.
+3. Cliquez avec le bouton droit de la souris et sélectionnez _Legatize_.
 
 {{< figure src="en/example-legatize.png" alt="" >}}
 
-4. Press **Arrow Left** key just once to shift all selected notes by one grid
-unit (it's _1/8 Note_) so that they start right at the beginning of the bar:
+4. Appuyez une seule fois sur la touche **Flèche gauche** pour décaler toutes les notes sélectionnées d'une unité de grille (c'est _1/8 Note_) pour qu'elles commencent au début de la mesure :
 
 {{< figure src="en/example-shift-left.png" alt="" >}}
 
-Positions are all fine now. But there's more.
+Les positions sont toutes correctes maintenant. Mais ce n'est pas tout.
 
-5. It's time to cleanup velocity. Select all notes but the first one in each of
-the two bars. You can do that by pressing **Ctrl+A**, then press and hold
-**Ctrl** and click on the first note in each bars to deselect them. Or you can
-rubber-band select the first portion (sans the first note), then press and hold
-**Shift** and add the second portion (sans the first note in that bar as well).
+5. Il est temps de nettoyer la vélocité. Sélectionnez toutes les notes sauf la première dans chacune des deux mesures. Vous pouvez le faire en appuyant sur **Ctrl+A**, puis en maintenant **Ctrl** enfoncé et en cliquant sur la première note de chaque mesure pour les désélectionner. Vous pouvez également sélectionner la première partie (sans la première note), puis appuyer et maintenir la touche **Maj** et ajouter la deuxième partie (sans la première note de cette mesure également).
 
 {{< figure src="en/example-select-all-but-firsts.png" alt="" >}}
 
-6. Right-click, select _Transform_. We need to set this to more or less the same
-lower velocity, let's say, 60. So we set Velocity, we set it to an exact value,
-and we use 60:
+6. Cliquez avec le bouton droit de la souris et sélectionnez _Transformer_. Nous devons régler ceci à plus ou moins la même vélocité, disons 60. Nous définissons donc la vélocité, nous la fixons à une valeur exacte, et nous utilisons 60 :
 
 {{< figure src="en/example-transform-all-60.png" alt="" >}}
 
-This, again, much better:
+Là encore, c'est beaucoup mieux :
 
-{{< figure src="en/example-now-all-60.png" alt="" >}}
+{{< figure src="en/example-transform-all-60.png" alt="" >}}
 
-But it's going to sound a little too robotic if we keep it that way.
+Mais cela va sonner un peu trop robotique si nous continuons ainsi.
 
-7. Let's call the _Transform_ dialog again and add a tiny bit of random
-variation:
+7. Appelons à nouveau la boîte de dialogue _Transform_ et ajoutons un tout petit peu de variation aléatoire :
 
 {{< figure src="en/example-transform-variation-56-to-64.png" alt="" >}}
 
-Given the small range of the variation, the difference won't be very visible.
-But if you hover individual notes, you'll see that notes' velocities are now
-somewhere between 56 and 64.
+Étant donné la faible amplitude de la variation, la différence ne sera pas très visible. Mais si vous survolez des notes individuelles, vous verrez que les vélocité des notes se situent maintenant quelque part entre 56 et 64.
 
-8. Finally, click the first note of the first bar and use mouse wheel scrolling
-to set its velocity to 82, then repeat for the first note of the second bar. You
-will now how a regular velocity pattern where the first note of each bar sounds
-louder than the rest of the notes in each bar.
+8. Enfin, cliquez sur la première note de la première mesure et utilisez le défilement de la molette de la souris pour régler sa vélocité sur 82, puis répétez l'opération pour la première note de la deuxième mesure. Vous avez maintenant un modèle de vélocité régulier où la première note de chaque mesure sonne plus forte que le reste des notes de chaque mesure.
 
 {{< figure src="en/example-regular-velocity-pattern.png" alt="" >}}
 
-## Continuing
+## Suite
 
-This was the last chapter of the _Editing Regions_ section. Next we go into
-_Mixing_.
+C'était le dernier chapitre de la section _Édition de régions_. Le prochain chapitre sera consacré à _Mixage_.
 
-Next: [MIXING SESSIONS](../../mixing-sessions/the-mixer-strip/)
-
-<!-- ## Editing and creating automation -->
+Suivant : [SESSIONS DE MIXAGE](../../mixing-sessions/the-mixer-strip/)
