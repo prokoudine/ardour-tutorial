@@ -1,9 +1,9 @@
 +++
 title = "Home"
-description = "Ardour v7.0 tutorial"
+description = "Ardour v8 tutorial"
 +++
 
-# Ardour v7.0 tutorial
+# Ardour v8 tutorial
 
 **Ardour** is a professional, full-featured hard disk recorder and Digital Audio 
 Workstation (DAW). Ardour is Free/Libre Open Source Software (FLOSS). It
@@ -12,7 +12,7 @@ editing with unlimited undo, and anything-to-anywhere signal routing. It
 supports standard file formats, such as BWF, WAV, WAV64, AIFF and CAF,
 and it can use LADSPA, LV2, VST and AudioUnit plugin formats.
 
-{{< figure src="/ardour-tutorial/images/Ardour6.png" alt="Ardour 6" >}}
+{{< figure src="/ardour-tutorial/images/Ardour8.png" alt="Ardour 8" >}}
 
 This tutorial provides a beginner's introduction to using Ardour for basic sound 
 recording and editing tasks. It assumes you already have Ardour up and running

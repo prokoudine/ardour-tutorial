@@ -28,7 +28,7 @@ _Preferences_ dialog.
 Once you get past the first-launch wizard, Ardour will suggest you create a 
 new _session_ from one of a few available templates.
 
-![New session templates](en/ardour7-new-session-templates.png?width=25vw)
+![New session templates](en/ardour7-new-session-templates.png?width=40vw)
 
 A session encompasses all the material you have: tracks with audio and MIDI 
 data, effects associated with tracks and busses etc. Thus, a session is 
@@ -47,6 +47,11 @@ periods, commas, etc. Use dashes or underscores if you like. For example,
 instead of "My Great Session!", prefer "My_Great_Session", or 
 "MyGreatSession", or "my-great-session". Instead of "Açaí", write "Acai" 
 (without accented letters), etc.
+
+The default time domain setting mostly affects rulers and markers. With "Audio
+Time", it will enable the set of rulers with minutes, seconds, and timecode.
+With "Musical Time", it will enable musical time rulers — Bars:Beats, Time
+Signature, Tempo.
 
 Name your new project and click **Open** .
 

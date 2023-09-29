@@ -42,8 +42,9 @@ To the right of the **Smart** button are the _Cursor Modes_:
 - _Grab_ mode (**G** shortcut)
 - _Range_ mode (**R** shortcut)
 - _Cut_ mode (**C** shortcut)
-- _Stretch_ mode (**T** shortcut)
 - _Audition_ mode
+- _Stretch_ mode (**T** shortcut)
+- _Grid_ mode (**Y** shortcut)
 - _Draw_ mode (**D** shortcut)
 - _Internal Edit_ mode (**E** shortcut)
 
@@ -145,10 +146,10 @@ the [Using the Mixer Strip](../mixing-sessions/the-mixer-strip/) chapter.
 
 ## Editor List
 
-The space on the right of Ardour's _Editor_ window can have 7 different
+The space on the right of Ardour's _Editor_ window can have 8 different
 functions, depending on which tab is currently selected: _Tracks & Busses_,
-_Sources_, _Regions_, _Clips_, _Snapshots_, _Track & Bus Groups_, and _Ranges &
-Marks_.
+_Sources_, _Regions_, _Clips_, _Arrangement_, _Snapshots_, _Track & Bus
+Groups_, and _Ranges & Marks_.
 
 ![Sources List](en/ardour7-sources-list.png?height=60vh)
 
@@ -160,6 +161,10 @@ project, including the invisible ones. This tab is covered in the
 and regions by dragging them onto the canvas. You'll find more information on
 regions in the [Working With
 Regions](../../../editing-sessions/working-with-regions/) chapter.
+- _Clips_ lists reusable audio and MIDI clips that can be drag-and-dropped
+either to the timeline or to the grid of clips on the _Cue_ page.
+- _Arrangement_ lists all available user-defined arrangement sections
+(like verse, chorus, bridge etc.) and allows quickly copy-pasting them.
 - _Snapshots_ are versions of the same session saved at particular moments in
 time, they are discussed in the [Saving a
 Snapshot](../../../saving-sessions/saving-a-snapshot/) chapter.
