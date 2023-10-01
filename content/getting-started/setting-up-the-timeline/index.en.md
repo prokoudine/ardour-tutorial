@@ -91,6 +91,9 @@ shortcut).
 Once you have done that, make sure you make the _Timecode_ ruler visible
 by right-clicking in the timeline and checking the _Timecode_ box.
 
+There are other types of rulers: tempo, time signature, location markers,
+and more.
+
 ## Continuing
 
 Now that you've set up the timeline, continue on to the chapter on

@@ -49,6 +49,35 @@ automation point.
 
 {{< figure alt="Automation point value indication" src="en/Ardour4_Automation_Fader_2.png" >}}
 
+You can also draw automation lines freely in the Draw mode. Just click, hold,
+and draw a free automation line:
+
+{{< figure alt="Drawing automation freely, before releasing mouse button" src="en/ardour8-draw-automation-freely-pre-release.png" >}}
+
+Once you release the mouse button, you see a lot of automation control points,
+because Ardour tries to preserve the exact movement you made when drawing
+the line.
+
+{{< figure alt="Drawing automation freely, after releasing mouse button" src="en/ardour8-draw-automation-freely-post-release.png" >}}
+
+You can see that when you zoom in:
+
+{{< figure alt="Drawing automation freely, zoomed in" src="en/ardour8-draw-automation-freely-zoomed.png" >}}
+
+You can also press **Ctrl** and click to create straight lines:
+
+{{< figure alt="Drawing straight segments of automation lines, pre-release" src="en/ardour8-draw-automation-lines-pre-release.png" >}}
+
+This will create this automation line:
+
+{{< figure alt="Drawing straight segments of automation lines, post-release" src="en/ardour8-draw-automation-lines-post-release.png" >}}
+
+It's also possible to combine free automation drawing with drawing lines.
+Simply press **Ctrl** when you need to draw straight segment and release the
+button when the straight segment has to end, then keep drawing a free line:
+
+{{< figure alt="A combination of free and straight segments" src="en/ardour8-draw-automation-freely-with-lines-pre-release.png" >}}
+
 ### Automation States
 
 The automation curve will not play, however, until you set the automation state
