@@ -36,10 +36,11 @@ A droite du bouton **Smart** se trouvent les _Modes Curseur_ :
 - Mode _Grab_ (raccourci **G**)
 - Mode _Range_ (**R** raccourci)
 - Mode _Cut_ (**C** raccourci)
+- Mode _Audition_
 - Mode _Stretch_ (**T** raccourci)
-- Mode Audio
-- Mode Dessin (**D** raccourci)
-- Mode d'édition interne (raccourci **E**)
+- Mode _Grid_ (**Y** raccourci)
+- Mode _Draw_ (**D** raccourci)
+- Mode _Internal edit_ (raccourci **E**)
 
 La plupart d'entre eux sont abordés dans la section [Working With Régions](../../../editing-sessions/working-with-regions/). Les deux dernières sont abordés dans le chapitre **Utilisation de l'automatisation**.
 
@@ -107,15 +108,17 @@ Vous pouvez basculer pour afficher ou cacher l'_Editor Mixer_ en cliquant sur le
 
 ## Liste des éditeurs
 
-L'espace à droite de la fenêtre _Editor_ d'Ardour peut avoir 7 fonctions différentes fonctions différentes, en fonction de l'onglet sélectionné : _Pistes et bus_, _Sources_, _Regions_, _Clips_, _Snapshots_, _Groupes de Pistes et de Bus_, et _Gammes et Marques_.
+L'espace à droite de la fenêtre _Editor_ d'Ardour peut avoir 8 fonctions différentes fonctions différentes, en fonction de l'onglet sélectionné : _Pistes et bus_, _Sources_, _Regions_, _Clips_, _Arrangement_,  _Snapshots_, _Groupes de Pistes et de Bus_, et _Ranges and Marks_.
 
 ![Liste des sources](en/ardour7-sources-list.png?height=60vh)
 
 - _Tracks & Busses_ fournit une vue d'ensemble de toutes les pistes et bus du projet, y compris ceux qui sont invisibles. Cet onglet est traité dans la section [Arrangement des pistes](../../../editing-sessions/arranging-tracks/).
 - _Sources_ liste tous les fichiers du disque importés dans la session.
 - _Regions_ est une liste de toutes les prises de la session. Vous pouvez réutiliser à la fois les sources et les régions en les faisant glisser sur le canevas. Vous trouverez de plus amples informations sur les régions dans la section [Travailler avec des régions](../../../editing-sessions/working-with-regions/).
+- _Clips_ répertorie les clips audio et MIDI réutilisables qui peuvent être glissés et déposés sur la ligne de temps ou sur la grille de clips de la page _Cue_.
+- L'option _Arrangement_ répertorie toutes les sections d'arrangement définies par l'utilisateur (comme le couplet, le refrain, le pont, etc) et permet de les copier-coller rapidement.
 - Les instantanés sont des versions de la même session enregistrées à des moments particuliers, elles sont abordées dans le chapitre [Enregistrer un instantané](../../../saving-sessions/saving-a-snapshot/).
-- _Gammes et marques_ est une vue d'ensemble de tous les marqueurs du projet, avec une interface facile à utiliser pour les éditer.
+- _Ranges and marks_ est une vue d'ensemble de tous les marqueurs du projet, avec une interface facile à utiliser pour les éditer.
 
 ## Poursuivre
 
