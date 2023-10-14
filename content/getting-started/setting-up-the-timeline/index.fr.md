@@ -53,7 +53,9 @@ Time Signature_.
 
 {{< figure alt="Timecode" src="en/Ardour6_Timecode.png" >}}
 
-Une fois que vous avez fait cela, assurez-vous de rendre la règle _Timecode_ visible en cliquant avec le bouton droit de la souris sur la timeline et en cochant la case _Timecode_. 
+Une fois que vous avez fait cela, assurez-vous de rendre la règle _Timecode_ visible en cliquant avec le bouton droit de la souris sur la timeline et en cochant la case _Timecode_.
+
+Il existe d'autres types de règles : tempo, signature temporelle, marqueurs d'emplacement et bien d'autres encore.
 
 ## Poursuivre
 

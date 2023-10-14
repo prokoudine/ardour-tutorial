@@ -23,7 +23,7 @@ Cette boîte de dialogue ne sera plus jamais affichée, sauf si vous effacez tou
 
 Une fois que vous avez passé l'assistant de démarrage, Ardour vous propose de créer une nouvelle _session_ à partir d'un des quelques modèles disponibles.
 
-![Modèles de nouvelle session](en/ardour7-new-session-templates.png?width=25vw)
+![Modèles de nouvelle session](en/ardour7-new-session-templates.png?width=40vw)
 
 Une session englobe tout le matériel dont vous disposez :
 - les pistes avec les données audio et MIDI,
@@ -36,6 +36,8 @@ Pour des raisons de simplicité, prenons une session vide comme indiqué ci-dess
 Ardour vous proposera toujours de stocker une nouvelle session dans le dossier par défaut que vous avez défini à l'étape précédente.
 
 Lorsque vous donnez un nom à une nouvelle session, évitez d'utiliser d'autres caractères que des que les lettres et les chiffres, comme les espaces blancs, les lettres accentuées, les `!@#$%*()+`, les points, les virgules, etc. Utilisez des tirets ou des caractères de soulignement si vous le souhaitez. Par exemple, au lieu de "Ma Grande Session !", préférez "Ma_Grande_Session", ou encore "MaGrandeSession", ou "ma-grande-session". Au lieu de "Açaí", écrivez "Acai" (sans lettres accentuées), etc.
+
+Le réglage par défaut du domaine temporel affecte principalement les règles et les marqueurs. Avec "Audio Time", il activera l'ensemble des règles avec les minutes, les secondes et le timecode. Avec "Temps musical", il activera les règles de temps musical - Mesures:Temps, Signature temporelle, Tempo.
 
 Nommez votre nouveau projet et cliquez sur **Ouvrir**.
 

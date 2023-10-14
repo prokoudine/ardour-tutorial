@@ -24,7 +24,7 @@ Notez que lorsqu'un nouveau bus est créé, rien n'est acheminé vers son entré
 
 Cette configuration de routage est judicieuse pour les sessions ne contenant que des pistes mais pour utiliser des bus (autres que le bus _Master_) ou pour être créatif avec les chemins des signaux audio à l'intérieur d'Ardour, nous devons être en mesure de changer le routage.
 
-La fenêtre _Audio Connection Manager_ (également connue sous le nom de "patchbay") et la principale façon d'établir des connexions vers, depuis et à l'intérieur du mixeur d'Ardour. Vous pouvez ouvrir cette fenêtre avec le raccourci **Alt + P**, ou par le menu `Fenêtre >> Connexions Audio`.
+La fenêtre _Audio Connection Manager_ (également connue sous le nom de "patchbay") et la principale façon d'établir des connexions vers, depuis et à l'intérieur du mixeur d'Ardour. Vous pouvez ouvrir cette fenêtre avec le raccourci **Shift + Alt + A**, ou par le menu `Fenêtre >> Connexions Audio`.
 
 ![Manager de connexion audio](en/ardour7-audio-connections-in-menu.png?width=40vw)
 
