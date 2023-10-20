@@ -18,12 +18,11 @@ click is not the same and may in fact give a different result.
 
 ## Key Names & Combinations
 
-The names of keys to be pressed are written in quotation marks and
-italicised, like this:
+The names of keys to be pressed are written in bold typeface like this:
 
 **Ctrl**, **Return**, **Backspace**, **R**
 
-Key combinations are written like this:
+Key combinations are written in bold typeface as well:
 
 **Ctrl + X**
 
