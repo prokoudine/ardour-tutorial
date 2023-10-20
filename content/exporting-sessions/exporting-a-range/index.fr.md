@@ -66,4 +66,4 @@ Vous pouvez effacer tous les marqueurs d'intervalle existants en cliquant avec l
 
 Vous savez maintenant comment exporter des régions isolées, des plages sélectionnées de votre session ou la session entière sous forme de mixage stéréo. La dernière section de ce didacticiel explique comment sauvegarder les sessions, les instantanés et les modèles.
 
-Next: [SAUVEGARDER UNE SESSION](../../saving-sessions/saving-a-session/)
+Suivant : [SAUVEGARDER UNE SESSION](../../saving-sessions/saving-a-session/)
