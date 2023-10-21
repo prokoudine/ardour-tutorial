@@ -66,15 +66,10 @@ Les signaux audio ayant une amplitude plus élevée ont généralement un son pl
 : La pulsation de base d'un morceau de musique.
 
 **Beats per Minute**
-: Beats per minute (BPM) is a measure of tempo in music. A rate of 60
-beats per minute means that one beat will occur every second; 120 bpm
-equals two beats per second, and so on. BPM indications usually appear
-at the beginning of a traditional musical score as a metronome mark (for
-example, "quarter note equals 60", meaning one quarter note per second).
+: Les battements par minute (BPM) sont une mesure du tempo en musique. Un rythme de 60 battements par minute signifie qu'un battement se produit toutes les secondes ; 120 bpm équivaut à deux battements par seconde, et ainsi de suite. Les indications de BPM apparaissent généralement au début d'une partition musicale traditionnelle sous la forme d'une marque de métronome (par exemple, "la noire égale 60", ce qui signifie une noire par seconde).
 
 **Bit**
-: A bit (**bi**nary dig**it**) is a single number with a value of either 0
-or 1. 
+: Un bit (**bi**nary dig**it**) est un nombre unique dont la valeur est soit 0 soit 1. 
 
 **Bit Depth**
 : Refers to the number of bits used to write a _sample_. In the CD
