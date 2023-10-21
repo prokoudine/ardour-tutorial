@@ -15,11 +15,11 @@ Une touche **Ctrl**, **Cmd** ou **Pomme** enfoncée avec un clic de souris n'est
 
 ## Noms des touches & combinaisons
 
-Les noms des touches qui doivent être pressées sont écrites entre guillemets et en italiques, comme ceci :
+Les noms des touches qui doivent être pressées sont écrits en caractères gras, comme ceci :
 
 **Ctrl**, **Return**, **Backspace**, **R**
 
-Les combinaisons de touches sont écrites comme ceci :
+Les combinaisons de touches sont également écrites en caractères gras :
 
 **Ctrl + X**
 
