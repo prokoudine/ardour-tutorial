@@ -72,63 +72,35 @@ Les signaux audio ayant une amplitude plus élevée ont généralement un son pl
 : Un bit (**bi**nary dig**it**) est un nombre unique dont la valeur est soit 0 soit 1. 
 
 **Bit Depth**
-: Refers to the number of bits used to write a _sample_. In the CD
-standard, each sample of audio is represented by a 16-bit number. This
-gives 2\^16 (two to the power of sixteen = 65,536) possible values that
-a sample can have. A higher bit depth means a greater possible _dynamic
-range_. Studio recordings are usually first made recorded with a bit
-depth of 24 (or even 32) to preserve as much detail before transfer to
-CD. DVDs are made at 24 bit, while video games from the 1980s remain
-famous for their distinctively rough "8 bit sound". Bit depth is also
-referred to as **word length**. 
+: Se réfère au nombre de bits utilisés pour écrire un _échantillon_. Dans la norme CD, chaque échantillon audio est représenté par un nombre de 16 bits. Cela donne 2\^16 (deux à la puissance seize = 65 536) valeurs possibles qu'un échantillon peut avoir. Une plus grande profondeur de bits signifie une plus grande _plage dynamique_ possible. Les enregistrements en studio sont généralement réalisés avec une profondeur de bits de 24 (voire 32) pour préserver le plus de détails possible avant le transfert sur CD. Les DVD sont réalisés en 24 bits, tandis que les jeux vidéo des années 1980 sont restés célèbres pour leur "son 8 bits" distinctif et rugueux. La profondeur de bits est également également appelée **word length**. 
 
 **Buffer Size** (JACK)
-: The buffer is a section of memory specifically allotted to temporary
-signal data. Small buffer sizes allow a lower latency and so are needed
-when using audio applications that require real-time interaction. The
-drawback is that CPU consumption for the system is higher with smaller
-buffer sizes. Larger buffers (like 512 or 1024) can be used when there
-is no such requirement.
+: La mémoire tampon est une section de la mémoire spécifiquement allouée aux données temporaires du signal.
+Les petites tailles de mémoire tampon permettent une latence plus faible et sont donc nécessaires pour les applications audio qui nécessitent une interaction en temps réel.
+lors de l'utilisation d'applications audio nécessitant une interaction en temps réel. L'inconvénient est que la consommation de CPU pour le système est plus élevée avec des petites tailles de mémoire tampon. Des tampons plus grands (comme 512 ou 1024) peuvent être utilisés lorsqu'il n'y a pas de telles exigences.
 
 **Built-in Input and Output**
-: These are the default interfaces for getting sound in and out of your
-computer if you don't have an external sound card. In a laptop, they are
-the common input (mic) and output (headphone) connections.
+: Ce sont les interfaces par défaut pour faire entrer et sortir le son de votre ordinateur si vous n'avez pas de carte son externe.
+Dans un ordinateur portable, il s'agit des connexions communes d'entrée (micro) et de sortie (casque).
 
 **Bus**
-: A bus is similar to a track except that it does not contain its
-own regions. You cannot record directly into a bus or drag regions into
-it. The _Mixer_ strip vertically represents the signal flow of a bus,
-whereas the Main Canvas horizontally displays time-based information for
-each bus (such as automation lines).
+: Un bus est similaire à une piste, sauf qu'il ne contient pas ses propres régions. Vous ne pouvez pas enregistrer directement dans un bus ni y faire glisser des régions. La bande _Mixer_ représente verticalement le flux de signal d'un bus, tandis que le canevas principal affiche horizontalement des informations temporelles pour chaque bus (telles que les lignes d'automatisation).
 
 **BWF**
-: Broadcast Wave Format (BWF) is an extension of the popular Microsoft
-WAVE audio format and is the recording format of most file-based
-non-linear digital recorders used for motion picture and television
-production. This file format allows the inclusion of metadata to
-facilitate the seamless exchange of sound data between different
-computer platforms and applications.
+: Broadcast Wave Format (BWF) est une extension du célèbre format audio Microsoft WAVE et est le format d'enregistrement de la plupart des enregistreurs numériques non linéaires utilisés pour la production cinématographique et télévisuelle.
+Ce format de fichier permet d'inclure des métadonnées pour faciliter l'échange de données sonores entre différentes plates-formes et applications informatiques.
 
 **CAF**
-: CAF (Core Audio Format) is a file format for storing audio, developed by
-Apple. It is compatible with macOS 10.4 and higher. The Core Audio
-Format is designed to overcome limitations of older digital audio
-formats, including AIFF and WAV. Just like the QuickTime .mov file
-format, a .caf file format can contain many different audio formats,
-metadata tracks, and much more data.
+: CAF (Core Audio Format) est un format de fichier pour le stockage de données audio, développé par Apple.
+Il est compatible avec macOS 10.4 et les versions ultérieures. Le format Core Audio est conçu pour surmonter les limites des anciens formats audio numériques, notamment AIFF et WAV. Tout comme le format de fichier QuickTime .mov, un format de fichier .caf peut contenir de nombreux formats audio différents, des pistes de métadonnées et bien d'autres données.
 
 **Center Frequency**
-: In some EQ plugins, the user has the possibility of choosing the center
-frequency for each of the frequency bands. The center frequency of a
-Band will be the one most sharply attenuated or reinforced by the
-equalizer for that specific band. Frequencies surrounding the center
-frequency will be less affected. 
+: Dans certains greffons d'égalisation, l'utilisateur a la possibilité de choisir la fréquence centrale pour chaque bande de fréquence.
+La fréquence centrale d'une bande sera celle qui sera la plus fortement atténuée ou renforcée par l'égaliseur pour cette bande spécifique. Les fréquences l'entourant seront moins affectées.
 
 **Click** (Mouse)
-: In this manual, it specifically means to click on the left button of
-your mouse. Whenever the right button is required, the action is
-referred to as "right-click".
+: Dans ce manuel, il s'agit de cliquer sur le bouton gauche de la souris.
+Lorsque le bouton droit est requis, l'action est appelée "clic droit".
 
 **Clipping**
 : Clipping occurs when a signal is too high in level to be reproduced. Any
