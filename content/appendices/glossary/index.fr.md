@@ -103,35 +103,22 @@ La fréquence centrale d'une bande sera celle qui sera la plus fortement atténu
 Lorsque le bouton droit est requis, l'action est appelée "clic droit".
 
 **Clipping**
-: Clipping occurs when a signal is too high in level to be reproduced. Any
-samples too high in level will simply be truncated, resulting in
-_distortion_, loss of audio detail, and artefact _frequencies_ which
-were not present in the original sound.
+: L'écrêtage se produit lorsqu'un signal est trop élevé pour être reproduit. Tous les échantillons trop élevés seront simplement tronqués, ce qui entraîne une _distorsion_, une perte de détails audio et des artefacts de _fréquences_ qui n'étaient pas présents dans le son original.
 
 **Clipping Point**
-: The clipping point of a digital system is referred to as 0 dB, and
-the level of any sound is measured in how far below the clipping point
-it is (-10 dB, -24 dB, etc).
+: Le point d'écrêtage d'un système numérique est appelé 0 dB.
+Le niveau d'un son est mesuré en fonction de la distance qui le sépare du point d'écrêtage (-10 dB, -24 dB, etc.).
 
 **Clocks**
-: The two big numerical displays near the top of the _Editor_ window. They can
-display the time in a number of formats: _Timecode_, _Bars:Beats_,
-_Minutes:Seconds_, and _Samples_.
+: les deux gros afficheurs numériques en haut de la fenêtre _Editor_.
+Il peuvent affiche le temps dans un certain nombre de formats : _Timecode_, _Bars:Beats_, _Minutes:Seconds_, et _Samples_.
 
 **Compile**
-: FLOSS applications are distributed as source code, which is human-readable but
-cannot be run as an actual application. To turn this source code into a running
-application, it must first be Compiled. When you download a disk image for macOS
-or a software package from your distribution (such as Ubuntu, Debian or Fedora),
-it has been compiled for you already. However, if you wish to add features (such
-as support for _VST Plugins_) which your distribution does not provide, then
-you must compile the application from source code yourself. 
+: Les applications FLOSS sont distribuées sous forme de code source, qui est lisible par l'homme mais ne peut pas être exécuté comme une application réelle. Pour transformer ce code source en une application il doit d'abord être compilé. Lorsque vous téléchargez une image disque pour macOS ou un paquetage logiciel de votre distribution (comme Ubuntu, Debian ou Fedora), il a déjà été compilé pour vous. Cependant, si vous souhaitez ajouter des fonctionnalités (telles que la prise en charge des _VST Plugins_) que votre distribution ne fournit pas, alors vous devez compiler vous-même l'application à partir du code source.
 
 **Compression**(DSP)
-: Essentially, compression makes the quiet parts of a signal louder
-without changing the level of 
-the louder parts. This entails a reduction of the actual dynamic range:
-a compressed sound is less dynamic (has a smaller range of levels) 
+: Essentiellement, la compression rend les parties calmes d'un signal plus bruyantes sans modifier le niveau des parties 
+les parties les plus bruyantes. Cela entraîne une réduction de la plage dynamique réelle : un son compressé est moins dynamique.
 
 **Compression** (data)
 : Like any other data, audio data can be compressed so that it uses less
