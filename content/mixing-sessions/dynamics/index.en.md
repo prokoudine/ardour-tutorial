@@ -1,134 +1,92 @@
 +++
-title = "Dynamics"
+title= "Dynamique"
 description = "Applying limiters, compressors, and a gate in Ardour"
+description = " Utiliser limiteurs, compresseurs et gate dans Ardour"
 chapter = false
 weight = 6
 +++
 
-One of the problems you may encounter in a mix is that, depending on the
-material, the loud parts are too loud, and/or the quiet parts are too quiet.
+Un des problèmes que vous pouvez rencontrer lors d'un mixage, selon le matériel sonore, est que les parties fortes sont trop fortes et/ou que les parties faibles sont trop faibles.     
 
-This kind of problem cannot be easily solved using faders to adjust the levels
-alone. You may set the levels so high that they clip, or you may add unwanted
-background noise by simply turning levels up. These are all problems with what
-is called the _dynamic range_, i.e., the difference between the loudest and
-quietest parts of your session. There are several types of tools for adjusting
-the dynamic range available mostly as third-party plugins within Ardour,
-including _limiting_, _compression_, and _gating_.
+Ce genre de problème ne peut pas être facilement résolu en utilisant uniquement les atténuateurs pour ajuster les niveaux.
+Vous pourriez mettre les niveaux tellement haut que cela saturerait, ou vous pourriez ajouter du bruit de fond non désiré en montant simplement les volumes.
+Cet ensemble de problèmes est appelé la _plage dynamique_, par exemple, la différence entre les parties fortes et les parties calmes de votre session.
+Il y a plusieurs types d'outils pour ajuster la plage dynamique en général disponibles en tant que greffons externe à Ardour, dont notamment _limitation_, _compression_ et _déclenchement_.   
 
-## Limiting
+## Limitation
 
-A _limiter_ is a tool that prevents the volume of a track from going over a
-certain level, usually the peak level (0dB) or something close to it. Many
-limiters have the option to boost the levels of the incoming signal before they
-are limited, and in this way you can "close the gap" between the loudest and
-quietest parts of your mix. A limiter can be used on the _Master_ bus to prevent
-the overall mix from clipping. Limiters are almost always used post-fader.
+Un _limiteur_ est un outil qui empêche le volume d'une piste d'aller au-delà d'un certain niveau, habituellement le niveau de crête (0dB) ou quelque chose qui s'en rapproche. Beaucoup de limiteurs ont une option pour augmenter le niveau du signal entrant avant de le limiter, ce qui permet de "resserer l'écart" entre les parties les plus fortes et les parties les plus calmes de votre mix. 
+Un limiteur peut-être utilisé sur le bus _Master_ pour empêcher l'ensemble du mix de saturer. Les limiteurs sont quasiment toujours utilisés post-atténuateurs.
 
-In the example below, a plugin named _Fast Lookahead Limiter_ is used (if you
-don't find that specific one among your installed plugins, look for any other
-called "Limiter"). To set how much it limits, simply adjust the _Limit (dB)_
-slider. The _Fast Lookahead Limiter_ literally looks ahead in the signal by a
-few milliseconds, and when it sees that the signal is about to go over the limit
-you have set, it automatically turns the levels down.
+Dans l'exemple ci-dessous, on utilise un greffon nommé _Fast Lookahead Limiter_ (si vous ne le trouvez pas dans vos greffons déjà installés, cherchez-en un autre avec "Limiter"). Pour régler le niveau de limitation, ajustez simplement le réglage _Limit (dB)_.
+Le greffon _Fast Lookahead Limiter_ observe le signal avec une avance de quelques millisecondes et quand il voit que celui-ci est proche de dépasser la limite que vous avez définie, il baisse automatiquement le niveau.
 
 ![limiter](en/ardour7-fast-lookahead-lmiter.png?width=500)
 
-The _Input Gain (dB)_ slider determines how much the levels are increased before
-they reach the limiter, and the _Attenuation (dB)_ meter on the right-hand side
-shows how much the levels are being reduced at any given moment. While the
-reduction in volume is nearly-instantaneous, the _Release time (s)_ slider
-determines how long it takes the limiter to return to 0dB of _Attenuation_.
+Le réglage _Input Gain (dB)_ détermine la manière dont les niveaux sont augmentés avant d'atteindre le limiteur, le vue-mètre _Attenuation (dB)_ du côté droit montre la manière dont les niveaux sont réduits à n'importe quel moment.
+Alors que la réduction du volume est quasiment instantanée, le réglage _Release time (s)_ (temps de relâche) détermine la durée mise par le limiteur pour retourner au 0dB de l'_Attenuation_.
 
-Note that the "harder" one drives the limiter (by increasing the input gain
-and/or decreasing the maximum peak limit allowed), the more reduction the
-limiter is forced to make, and the more likely it is that artifacts of the
-processing will occur (such as distortions or erratic changes in volume). On
-the _Master_ bus, it is generally best to avoid excessive limiting.
+Notez que plus "dur" est le réglage du limiteur (en augmentant le gain d'entrée et/ou en diminuant la limite de pic autorisée), plus le limiteur est forcé de faire une réduction et plus il sera probable que des artefacts du processus apparaisent (comme de la distortion ou des changements erratiques de volume).
+Sur le bus _Master_, il est généralement mieux d'éviter une limitation excessive.  
 
 ## Compression
 
-A _compressor_ boosts the overall volume of a sound, but then "squeezes" it
-depending on how loud it is. This can make vocals sound more even or drums
-sound fuller and louder. The end effect is similar to how a limiter can reduce
-the range between the quietest and the loudest sound, however the effect is
-more selective when using a compressor.
+Un _compresseur_ augmente le volume global d'un son, mais ensuite l'"écrase" en fonction de la force de son volume. Cela peut mettre en avant les voix ou faire sonner les batteries plus complètes et plus fortes. L'effet final est similaire à la façon dont un limiteur peut réduire l'écart entre le son le plus fort et le son le plus faible, même si l'effet est plus sélectif quand on utilise un compresseur.
 
-A typical compressor will have these obligatory controls:
+Un compresseur type aura obligatoirement ces contrôles :
 
-**Threshold**
-: Sets the level at which the compressor will start to act.
+**Seuil**
+: Détermine le niveau à partir duquel le compresseur commencera à agir.
+
 
 **Ratio**
-: Controls how much the compressor will "squeeze" the sound.
+: Contrôle la façon dont le compresseur va "écraser" le son.
 
-**Attack** and **Release**
-: Control how quickly the compressor affects the sound.
+**Attaque** et **Relâchement**
+: Contrôle la rapidité du compresseur pour agir sur le son.
 
 ![ACE Compressor](en/ardour7-ace-compressor.png?width=450)
 
-The _ACE Compressor_ plugin on the screenshot above has two additional controls:
+Le greffon _ACE Compressor_ sur la capture d'écran ci-dessus a deux contrôles en plus:
 
-**Threshold level** (in dB)
-: Sets the level at which the compressor will compress or squeeze the sound.
+**Niveau de seuil** (en dB)
+: Détermine le niveau à partir duquel le compresseur va compresser ou écraser le son.
 
-**Makeup gain** (in dB)
-: Boosts the whole signal after the compression occurs.
+**Gain additionnel**
+: Augmente l'ensemble du signal après l'application de la compression.
 
-To soften out a vocal, for example, you could set _Threshold level_ of −10dB or
-so and a _Ratio_ of 2.5, and then bring the volume back up with the _Makeup
-gain_. The other three controls — _Attack time_, _Release time_, and _Knee_ —
-allow you to control the shape of the compression.
+Pour adoucir une voix, par exemple, vous pouvez régler le _Threshold level_ aux envrions de -10dB et le _Ratio_ sur 2.5, ensuite remonter le volume avec le _Makeup gain_. Les trois autres contrôles — _Attack time_, _Release time_, _Knee_ — vous permettent de contrôler la forme de la compression.
 
-For soft vocal compression, you would want a semi-fast attack time so that the
-compressor catches the beginning of each word, a slower release time to let the
-voice ring out, and a soft knee radius to create a gentle form of compression
-that isn't too noticeable.
+Pour une compression douce de voix, vous pourriez vouloir un temps d'attaque semi-rapide afin que le compresseur attrape le début de chaque mot, un temps de relâchement plus lent pour laisser la voix retentir ainsi qu'un angle de genou doux pour créer une forme de compression en douceur qui ne serait pas trop perceptible. 
 
-If you want to make drums sound big, you might try a slow attack time so that
-you don't compress the pop of the drum, a fast release time so that the
-compressor can catch the next hit of the drum, and a large ratio to make the
-dynamics between the beginning and end of the drum hit similar.
+Si vous voulez faire en sorte que la batterie sonne de manière imposante, vous pouvez essayer un temps d'attaque lent comme ça vous ne compressez pas l'attaque du fût, un temps de relâchement rapide comme ça le compresseur peut attraper la prochaine frappe, ainsi qu'un fort ratio pour faire en sorte que la dynamique entre le début et la fin de la frappe du fût soit similaire. 
 
-Below is a screenshot of a similar compressor from the [LSP plugins
-suite](https://lsp-plug.in/):
+Voici une capture d'écran d'un compresseur similaire qui vient de [LSP plugins
+suite](https://lsp-plug.in/): 
 
 {{< figure alt="LSP Compressor Mono" src="en/ardour7-lsp-compressor-mono.png" >}}
 
-If you want to speed up learning how to use a compressor, a generally good idea
-is to insert one scope visualization plugin before the compressor and one right
-after, then open both 
-
+Si vous voulez accélérer dans l'apprentisage de l'utilisation d'un compresseur, une bonne idée en général est d'insérer un greffon de visualisation d'un oscilloscope avant le compresseur et un autre juste après, puis d'ouvrir les deux.
+ 
 ## Gating
 
-The simplest kind of a _gate_ allows a signal to pass through when it is over a
-certain level, and blocks the signal when it is lower than that.
+La forme la plus simple d'un _gate_ (déclencehur) autorise un signal à passer au travers au dessus d'un certain niveau et bloque le signal lorsqu'il est en deça de ce niveau.  
 
-Gates are often used as a kind of noise reduction. For example, the gate on a
-microphone channel might only open while the singer is singing, preventing other
-background noises from coming through as well when she is not singing. Gated
-drums are also a very well-known studio production trick to make them sound
-"sharper".
+Les "gates" sont souvent utilisés pour faire office de réducteur de bruit. Par exemple, un gate sur la piste d'un microphone pourrait s'ouvrir uniquement lorsque le chanteur ou la chanteuse chante, ce qui empêche les bruits de fond d'être entendus quand il/elle ne chante pas. Utiliser un "gate" sur une batterie est un truc assez connu dans le monde de l'enregistrement afin de la faire mieux sonner.
 
-Here, the _Hard Gate_ plugin (from a suite of LADSPA plugins called
-[CMT](https://www.ladspa.org/cmt/overview.html)) displays a single control
-parameter, the _Threshold_ at which the gate will open and let the signal
-through.
+Ici, nous avons le greffon _Hard Gate_ (issu d'une suite de greffons LADSPA appelée 
+[CMT](https://www.ladspa.org/cmt/overview.html)) qui présente un seul paramètre de contrôle: le _Threshold_ (seuil) à partir duquel le "gate" va s'ouvrir et laisser passer le signal.
 
 ![Hard Gate](en/ardour7-hard-gate.png?width=400)
 
-Other kinds of gates, such as the _LSP Gate_ plugin on the screenshot below, are
-more complex. They have independent control over how quickly the gate opens
-(_Attack_) and closes (_Release_), as well as other parameters quite similar to
-those described for the SC Compressor above.
+
+D'autres types de "gates", comme le greffon _LSP Gate_ présenté sur la capture d'écran ci-dessous, sont plus complexes. Ils ont un contrôle indépendant sur la rapidité à laquelle le "gate" s'ouvre (_Attack_) et se referme (_Release_), ainsi que d'autres paramètres assez similaires à ceux décrits pour le SC Compressor ci-dessus.
 
 {{< figure alt="LSP Gate" src="en/ardour7-lsp-gate-mono.png" >}}
 
-## Continuing
+## Poursuivre
 
-Now that we've explored some tools for getting the dynamic range exactly where
-you want it, it's time to look at adjusting the balance of frequencies present
-in each individual track and in your overall mix. In the next chapter, we'll
-learn how to use the equalizer to do just that.
+Maintenant que nous avons exploré quelques outils pour positionner la plage dynamique là où vous le souhaitez, il est temps de procéder au réglage de la balance des fréquences présentes dans chaque piste individuelle et dans votre mix global.
+Dans le prochain chapitre, nous apprendrons comment utiliser l'égaliseur pour faire cela correctement.
 
-Next: [EQUALIZING](../equalizing)
+Suite: [ÉGALISER](../equalizing)
