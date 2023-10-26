@@ -121,62 +121,37 @@ Il peuvent affiche le temps dans un certain nombre de formats : _Timecode_, _Bar
 les parties les plus bruyantes. Cela entraîne une réduction de la plage dynamique réelle : un son compressé est moins dynamique.
 
 **Compression** (data)
-: Like any other data, audio data can be compressed so that it uses less
-hard disk space. Compression such as FLAC, ALAC, or MLP reduce the size
-of audio files compared to WAV or AIFF without changing the data, which
-is referred to as lossless compression. Audio can be compressed to a
-still smaller size by using lossy compression such as MP3, Ogg Vorbis or
-AAC but this is achieved by removing data which can have an audible
-effect. 
+: Comme toutes les autres données, les données audio peuvent être compressées de manière à utiliser moins d'espace sur le disque dur.
+La compression telle que FLAC, ALAC ou MLP réduit la taille des fichiers audio par rapport à WAV ou AIFF sans modifier les données, ce que l'on appelle la compression sans perte. L'audio peut être compressé à une taille encore plus petite en utilisant la compression avec perte comme le MP3, l'Ogg Vorbis ou l'AAC, mais cela se fait en supprimant des données qui peuvent avoir un effet audible.
 
 **Connections Manager**(JACK)
-: The window in Jack that allows to manage all connections between audio
-inputs and outputs.
+: La fenêtre dans JACK qui permet de gérer toutes les connexions entre les entrées et les sorties audio.
 
 **CoreAudio**(macOS)
-: CoreAudio provides audio functionality to the macOS operating system.
+: CoreAudio fournit des fonctionnalités audio au système d'exploitation macOS.
 
 **Cursor Modes**
-: These are the six buttons just below the Transport commands in the
-Editor Window. The six different functions that the mouse pointer can
-have in Ardour are: Select/Move Objects, Select/Move Ranges, Select Zoom
-Range, Draw Gain Automation, Stretch/Shrink Regions, Listen to Specific
-Regions.
+: Il s'agit des six boutons situés juste en dessous des commandes de transport dans la fenêtre de l'éditeur. Les six fonctions différentes que le pointeur de la souris peut avoir dans Ardour sont les suivantes : Sélectionner/déplacer des objets, Sélectionner/déplacer des intervalles, Sélectionner la plage de zoom, dessiner l'automatisation du gain, étirer/rétrécir les régions, écouter des régions spécifiques.
 
 **Decibels**
-: Decibel is a logarithmic scale used to measure many quantities,
-including the gain_, level_ or loudness_ of a signal. Decibel
-is usually abbreviated to dB and in digital audio usually denotes how
-far under 0 dBFS (the clipping_ point of a system) a signal is. 
+: Le décibel est une échelle logarithmique utilisée pour mesurer de nombreuses quantités, y compris le gain, le niveau ou l'intensité sonore d'un signal. Le décibel est généralement abrégé en dB et, dans le domaine de l'audio numérique, il indique généralement à quelle distance de 0 dBFS (le point d'écrêtage d'un système).
 
-**Delay** (effect)
-: The amount of time between one event and another. As an audio effect, a delay
-takes an incoming sound signal and delays it for a certain length of time. When
-mixed with the original sound, an "echo" is heard. By using _feedback_ to return
-the delayed signal back into the delay (usually after lowering its _gain_),
-multiple echos with a _decay_ result.
+**Delay** (effet)
+: Temps qui s'écoule entre un événement et un autre. En tant qu'effet audio, un délai prend un signal sonore entrant et le retarde pendant un certain temps. Lorsqu'il est mélangé au son original, on entend un "écho". En utilisant le _feedback_ pour renvoyer
+le signal retardé dans le délai (généralement après avoir baissé son _gain_), on obtient des échos multiples avec une _décroissance_.
 
 **Destructive Editing/Recording**
-: Destructive actions are those that permanently modify or erase the original
-data (sound files) in the course of editing or recording. 
+: Les actions destructives sont celles qui modifient ou effacent de façon permanente les données originales (fichiers sonores) au cours de l'édition ou de l'enregistrement.
 
-**Distortion** : Distortion occurs when an audio signal is changed in some way
-that produces _frequencies_ not present in the original. Distortion can be
-deliberate or unwanted, and can be produced by driving the signal to a
-_clipping_point_, or by using mathematical transformations to alter the shape (or
-"waveform") of the signal (usually referred to as "waveshaping").
+**Distortion**
+: La distorsion se produit lorsqu'un signal audio est modifié d'une manière ou d'une autre qui produit des _fréquences_ absentes de l'original. La distorsion peut être délibérée ou non, et peut être produite en conduisant le signal à un _point d'écrêtage_, ou en utilisant des transformations mathématiques pour modifier la forme (ou "forme d'onde") du signal (généralement appelée "mise en forme d'onde").
 
 **Disk Image (.dmg)**
-: A disk image is a single file containing the complete contents and
-structure representing a data storage medium or device. By
-double-clicking on a .dmg file on a Mac, a virtual device will be
-mounted to your Desktop (it will look as if you had inserted a USB
-device or a DVD, for example). Many software installers in OS X are
-available as .dmg files. 
+: Une image de disque est un fichier unique de l'intégralité du contenu et de la structure d'un support ou d'un périphérique de stockage de données. En double-cliquant sur un fichier .dmg sur un Mac, un périphérique virtuel sera monté sur votre bureau (comme si vous aviez inséré un périphérique USB ou un DVD, par exemple). De nombreux programmes d'installation de logiciels sous OS X sont
+sont disponibles sous forme de fichiers .dmg.
 
 **Driver**(JACK)
-: Software written to control hardware. CoreAudio is the Mac sound driver.
-ALSA is the most common Linux driver.
+: Logiciel écrit pour contrôler le matériel. CoreAudio est le pilote de son pour Mac. ALSA est le pilote Linux le plus courant.
 
 **DSP**
 : Digital Signal Processing.
