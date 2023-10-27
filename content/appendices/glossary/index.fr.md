@@ -157,61 +157,44 @@ sont disponibles sous forme de fichiers .dmg.
 : Digital Signal Processing.
 
 **Dynamic Range**
-: Used to refer to the difference between the loudest and the quietest
-sound that can possibly recorded, as well as the amount of detail which
-can be heard in between those extremes. Sounds which are too quiet to be
-recorded are said to be below the **noise floor**of the recording system
-(microphone, recorder, sound card, audio software, etc). Sounds which
-are too loud will be **distorted**or **clipped**. 
+: Utilisé pour faire référence à la différence entre le son le plus fort et le son le plus faible qu'il est possible d'enregistrer, ainsi qu'à la quantité de détails qui peuvent être entendus entre ces deux extrêmes. Les sons qui sont trop faibles pour être
+être enregistrés sont considérés comme étant en dessous du **plancher de bruit** du système d'enregistrement (microphone, enregistreur, carte son, etc.). Les sons qui
+sont trop forts seront **distordus** ou **écrêtés**. 
 
 **Edit** **Modes**
-: The three available Edit Modes (**Slide Edit**, **Slice Edit**, and
-**Lock Edit**) control the behavior of editing operations in the **Main
-Canvas**.
+: Les trois modes d'édition disponibles (**Slide Edit**, **Slice Edit** et **Lock Edit**) contrôlent le comportement des opérations d'édition dans le **Main Canvas**.
 
 **Edit Point**
-: The point in the Main Canvas where an action such as Paste takes place.
-This can be the Mouse, the Playhead or a Marker.
+: Point du canevas principal où se déroule une action telle que Coller. Il peut s'agir de la souris, de la tête de lecture ou d'un marqueur.
 
 **Editor Window**
-: Ardour provides two ways of viewing a session: the Editor and the Mixer.
-The Editor represents the time based aspects of a session: it shows
-tracks and busses as horizontal timeline displays, with material within
-the tracks (audio, MIDI, video, automation data, etc.) arranged along
-the horizontal (time) axis.
+: Ardour propose deux façons de visualiser une session : l'éditeur et le mixeur.
+L'éditeur représente les aspects temporels d'une session :
+Il affiche les pistes et les bus comme des affichages horizontaux, avec le matériel dans les pistes (audio, MIDI, vidéo, données d'automatisation, etc.) le long de l'axe horizontal (temps).
 
 **EQ**
-: See Equalization.
+: Voir Égalisation.
 
-**Equalization**
-: Equalization (EQ) is the process of adjusting the relative levels of
-different frequencies in a recording or signal. In other words, it is
-the process of boosting or attenuating the various frequency bands of a
-sound according to a chosen artistic goal.
+**Égalisation**
+: L'égalisation (EQ) est le processus d'ajustement des niveaux relatifs des différentes fréquences dans un enregistrement ou un signal.
+En d'autres termes, c'est le processus d'augmentation ou d'atténuation des différentes bandes de fréquences d'un son en fonction d'un objectif artistique choisi.
 
 **Filter**
-: A type of signal processing that supresses some frequencies. 
+: Un type de traitement du signal qui supprime certaines fréquences. 
 
 **Floating Point Numbers**
-: It is simply a number with a decimal point. "Floating Point" refers to
-the specific technique the computer uses to represent a larger range of
-integer and non-integer values.
+: Il s'agit simplement d'un nombre avec un point décimal. Le terme "virgule flottante" fait référence à la technique spécifique utilisée par l'ordinateur pour représenter une gamme plus large de valeurs entières et non entières.
 
 **FLAC**
-: An open source lossless audio format generally compatible with Linux,
-Windows and Macintosh. Unlike AIFF and WAV, FLAC is a compressed format,
-allowing file sizes to be reduced. 
+: Format audio sans perte à source ouverte généralement compatible avec Linux, Windows et Macintosh. Contrairement à AIFF et WAV, FLAC est un format compressé, permettant de réduire la taille des fichiers.
 
 **FLOSS**
-: FLOSS stands for Free Libre Open Source Software. FLOSS Manuals is a
-collection of manuals about free and open source software together with
-the tools used to create them and the community that uses those tools.
-They include authors, editors, artists, software developers, activists,
-and many others.
+: FLOSS est l'acronyme de Free Libre Open Source Software. FLOSS Manuals est une collection de manuels sur les logiciels libres et open source, ainsi que sur les outils utilisés pour les créer et la communauté qui utilise ces outils.
+Ils comprennent des auteurs, des éditeurs, des artistes, des développeurs de logiciels, des activistes, et bien d'autres.
 
 **Format** (audio file)
-: The types of sound file that sounds are saved as. Among the most common
-are AIFF, WAV, FLAC, mp3 and Ogg Vorbis. 
+: Les types de fichiers sonores sous lesquels les sons sont enregistrés. Parmi les plus courants
+on trouve AIFF, WAV, FLAC, mp3 et Ogg Vorbis. 
 
 **fps**
 : Frames Per Second. Frame rate, or frame frequency is the frequency
