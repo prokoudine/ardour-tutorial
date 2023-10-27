@@ -601,101 +601,67 @@ material, and have also been adapted to synchronize music. They provide
 a time reference for editing, synchronization and identification.
 
 **Snap Mode**
-: The **Snap Mode** menus are found just below the **Clocks**. They
-control the amount **Quantization** of the time grid, i.e., the amount
-of "snap" an audio **Region** has to the type of grid you have chosen.
+: Les menus **Snap Mode** e trouvent juste en dessous des **Clocks**. Ils controlent le degré de **Quantization** de la grille de temps, par exemple, le degré de "snap" q'une **Région** audio a par rapoort au type de grille choisi.
 
 **Snapshots**
-: Saving a snapshot in Ardour is similar to saving the session to a new
-file to avoid overwriting the original session file. A snapshot contains
-the current state of your work, while sharing all the audio and data
-files of the Session. If you were trying to find a "Save As" function in
-Ardour, saving a snapshot is probably what you are looking for. 
+: L'enregistrement d'un instantané dans Ardour est similaire à l'enregistrement de la session dans un nouveau fichier afin d'éviter d'écraser le fichier de session d'origine.
+Un instantané contient l'état actuel de votre travail, tout en partageant tous les fichiers audio et de données de la session. Si vous essayez de trouver une fonction "Enregistrer sous" dans Ardour, l'enregistrement d'un instantané est probablement ce que vous recherchez. 
 
 **Solo**
-: Toggle switch found in track controls and mixer strips. When toggled on,
-only solo tracks will send output. Several tracks can be marked solo at
-once. The general Solo button (top row of controls in the Editor Window)
-can be used to un-solo all soloed tracks at once.
+: Interrupteur à bascule que l'on trouve dans les commandes de piste et les bandes de mixage. Lorsqu'il est activé, seules les pistes solo enverront une sortie. Plusieurs pistes peuvent être marquées comme plusieurs pistes à la fois. Le bouton Solo général (rangée supérieure de commandes dans la fenêtre d'édition) peut être utilisé pour annuler la mise en solo de toutes les pistes en solo en même temps.
 
 **Spectrum**
-: The representation of a signal in terms of its frequency components. 
+: La représentation d'un signal en termes de ses composantes de fréquence. 
 
 **Stereo**
-: A stereo sound file contains two channels of audio (usually known as
-Left and Right channels). A stereo track in Ardour has two inputs and
-outputs, in order to record and playback stereo files.
+: Un fichier audio stéréo contient deux canaux audio (généralement appelés canaux gauche et droit). Une piste stéréo dans Ardour possède deux entrées et deux sorties afin d'enregistrer et de lire des fichiers stéréo.
 
 **Stereo Field**
-: Stereo field is the perception of spatial location of sounds based on a
-sound reproduction system of 2 channels (Left and Right). 
+: Le champ stéréophonique est la perception de la localisation spatiale des sons basée sur un système de reproduction sonore à deux canaux (gauche et droit).
 
 **Take**(recording)
-: A sequence of sound recorded continuously at one time.
+: Une séquence de sons enregistrée en une fois.
 
 **Tape Mode**
-: See **Track Mode**. 
+: Voir **Track Mode**. 
 
 **Tempo**(music)
-: The rate at which beats occur. Precise Tempo indications are measured in
-**bpm** (beats per minute), although subjective indications are also
-common in scores (Allegro, Adagio, Very Fast, etc). 
+: La vitesse à laquelle les battements se produisent. Les indications précises de tempo sont mesurées en **bpm** (battements par minute), bien que des indications subjectives soient également subjectives sont également courantes dans les partitions (Allegro, Adagio, Très rapide, etc.).
 
 **Terminal**
-: A "terminal" is the text-based interface that allows to operate a
-computer by typing commands into it. Most computer users today rely
-solely on a graphical interface to control their systems. Both macOS
-and Linux though, include a terminal which may make some tasks easier
-for some users. 
+: Un "terminal" est l'interface textuelle qui permet d'utiliser un ordinateur en y tapant des commandes. Aujourd'hui, la plupart des utilisateurs d'ordinateurs uniquement sur une interface graphique pour contrôler leurs systèmes. macOS et Linux incluent un terminal qui peut faciliter certaines tâches pour certains utilisateurs.
 
 **Timecode**
-: A time code is a sequence of numeric codes generated at regular
-intervals by a timing system. The SMPTE family of timecodes is almost
-universally used in film, video and audio production.
+: Un code temporel est une séquence de codes numériques générés à intervalles réguliers par un système de synchronisation. La famille des timecodes SMPTE est presque universellement utilisée dans la production cinématographique, vidéo et audio.
 
-**Time Signature** (music) 
-: A sign placed at the start of a piece of music (after the clef and key
-signature) or during the course of it, indicating the meter of the
-music.
+**Time Signature** (musique) 
+: Signe placé au début d'un morceau de musique (après la clef et l'armure) ou au cours de celui-ci, indiquant la mesure du morceau.
 
 **Track**
-: A Track is the place to where you can drag a **Region** from your
-**Region List**and where you can record sounds coming from an
-outside source. The Mixer Strip vertically represents the signal flow of
-a track, whereas the Main Canvas horizontally displays time-based
-information for each track. 
+: Une piste est un endroit où vous pouvez glisser une **Région** depuis votre **Liste de Régions** et où vous pouvez enreistrer des son qui viennent d'une source externe.
+La bande de mixage représente verticalement le flux de signal d'une piste, tandis que le canevas principal affiche horizontalement des informations
+pour chaque piste.
 
 **Track Mode**
-: **Track Mode** gives you a choice between **Normal Mode** and **Tape
-Mode**. Normal Mode creates a new Region for each Recording **Take**,
-while **Tape Mode** destructively records--in other words the previous
-Take of a Track is eliminated with each new Take.
+: **Track Mode** vous donne le choix entre **Normal Mode** et **Tape
+Mode**. Normal Mode crée une nouvelle région pour chaque enregistrement **Take**,
+alors que **Tape Mode** enregistre par dessus, la prise précédente de la piste est éliminée par chaque nouvelle prise.
 
 **Transport**
-: The buttons located on the upper left corner of the Editor Window, with
-controls such as Rewind, Play, Stop. 
+: Les boutons situés dans le coin supérieur gauche de la fenêtre de l'éditeur, avec des commandes telles que Rewind, Play, Stop.
 
-**Treble**(frequencies)
-: Generic way of referring to high frequencies of the **Spectrum** of a
-sound.
+**Treble**(fréquences)
+: Façon générique de désigner les hautes fréquences du **Spectre** d'un son.
 
 **VST (Virtual Studio Technology)**
-: [Steinberg](http://en.wikipedia.org/wiki/Steinberg) VST is an
-interface for integrating software audio synthesizer and effect plugins
-with audio editors and digital workstations such as Ardour. VST and
-similar technologies use digital signal processing to simulate
-traditional recording studio hardware with software. Thousands of
-plugins exist, both commercial and freeware. VST was created by
-Steinberg. 
+: [Steinberg](http://en.wikipedia.org/wiki/Steinberg) VST est une interface permettant d'intégrer des synthétiseurs audio logiciels et des plugins d'effets dans des éditeurs audio et des stations de travail numériques comme Ardour. VST et les technologies similaires utilisent le traitement des signaux numériques pour simuler le matériel traditionnel d'un studio d'enregistrement avec un logiciel. Des milliers de greffons existent, qu'ils soient commerciaux ou gratuits. VST a été créé par Steinberg. 
 
 **WAV**
-: A sound file format developed by Microsoft and IBM and commonly used for
-lossless and uncompressed audio. WAV files are compatible with Windows,
-Macintosh and Linux operating systems.
+: Format de fichier audio développé par Microsoft et IBM et couramment utilisé pour les fichiers audio non compressés et sans perte. Les fichiers WAV sont compatibles avec les systèmes d'exploitation Windows, Macintosh et Linux.
 
 **Waveform**
-: The time-domain visual representation of a sound. Waveforms are drawn
-inside the colored rectangles representing Regions in the Main Canvas.
+: Représentation visuelle d'un son dans le domaine temporel. Les formes d'onde sont dessinées
+à l'intérieur des rectangles colorés représentant les régions dans le canevas principal.
 
 **Word length**
-: See **Bit Depth**. 
+: Voir **Bit Depth**. 
