@@ -519,86 +519,50 @@ slowly decay as the sound is absorbed by the walls and air. Digital
 reverberation can be added to a sound in Ardour through the use of
 plugins. 
 
-**Right Click** (mouse)
-: Click on the right button of your mouse.
+**Right Click** (souris)
+: Cliquez sur le bouton droit de la souris.
 
 **Routing**
-: Routing is sending an audio signal from somewhere to somewhere else.
-Signals can be routed not only from the outside world into Ardour and
-vice-versa, but also within Ardour itself (for example, from a Track to
-a Bus).
+: Le routage consiste à envoyer un signal audio d'un endroit à un autre.
+Les signaux peuvent être routés non seulement du monde extérieur vers Ardour et vice-versa, mais aussi à l'intérieur même d'Ardour (par exemple, d'une piste vers un bus).
 
 **Rulers**
-: Rulers are the thin horizontal bars that display the time line, helping
-to see when exactly a region or sound starts or stops. Also displayed
-with the rulers are the meter and tempo markers, the location markers,
-the range markers and the loop/punch ranges. 
+: Les règles sont les fines barres horizontales qui affichent la ligne temporelle, ce qui aide à voir quand une région ou un son commence ou il s'arrête exactement. Les marqueurs de mesure et de tempo, les marqueurs d'emplacement, les marqueurs d'intervalles et les intervalles de boucles et de punch sont eux aussi affichés avec les règles.
 
-**Sample** (data)
-: In digital audio, a sample is the smallest possible segment of a
-recorded sound. In CD audio, for example, it takes 44,100 samples to
-make one second of recorded sound, and so we can say that the **sampling
-rate** is 44,100 **Hertz**. Samples also have a **bit depth** which
-determines the **dynamic range** that is possible to record and
-playback. Common bit depths are 16 (for CD audio), 24 (for studio
-recording and DVDs) or 32 (for sounds inside the computer).
+**Sample** (données)
+: En audio numérique, un échantillon est le plus petit segment possible d'un son enregistré.
+En audio CD, par exemple, il faut 44 100 échantillons pour obtenir une seconde de son enregistré et nous pouvons donc dire que le **taux d'échantillonnage** est de 44 100 **Hertz**.
+Les échantillons ont également une **profondeur de bits** qui détermine la **plage dynamique** qu'il est possible d'enregistrer et de d'enregistrement et de lire. Les profondeurs de bits courantes sont de 16 (pour les CD audio), 24 (pour les enregistrements en studio et les DVD) ou 32 (pour les sons à l'intérieur de l'ordinateur).
 
-**Sample** (music) 
-: In electronic music, the word sample can mean any portion of sound
-extracted from an existing piece of music to be reused in a new
-composition.
+**Sample** (musique) 
+: Dans le domaine de la musique électronique, le mot "sample" peut désigner toute portion de son extrait d'un morceau de musique existant pour être réutilisé dans une nouvelle composition.
 
 **Sampler**
-: An electronic music instrument or software which plays back a recorded
-sound (or **sample**) whenever it is sent a **note** message. The
-**pitch** of the note determines how fast or slow the sample is played
-back, which emulates the pitch changes in other instruments. Samples can
-be looped (played over and over) and one-shot (played once).
+: Un instrument de musique électronique ou un logiciel qui lit des sons enregistrés (ou **sample**) chaque fois qu'un message **note** lui est envoyé. La **hauteur** de la note détermine la vitesse ou la lenteur avec laquelle l'échantillon est joué, ce qui émule les changements de hauteur dans d'autres instruments. Les échantillons peuvent être joués en boucle (à plusieurs reprises) ou en une seule fois.
 
 **Sampling Rate**
-: The rate at which the computer records and plays back sound, which is
-measured in **Hertz**representing the number of **samples**per second.
-CD audio is recorded and played at 44,100 Hz (or 44.1 kHz), while DVD
-audio runs at 96,000 Hz (96 kHz) and cheap consumer gadgets like voice
-recorders, video games, mobile phones, toys and some MP3 players often
-use a rate of 22,050 Hz (22.05 kHz) or even less. The sampling rate
-determines the highest **frequency** that can be recorded or played,
-which is expressed by the Nyquist number (half the sampling rate).
-Playing back sounds at a different sampling rate then they were recorded
-at will result in hearing that sound at the "wrong speed".
+: La vitesse à laquelle l'ordinateur enregistre et lit le son, mesurée en **Hertz** représentant le nombre d'**échantillons** par seconde.
+Les CD audio sont enregistrés et lus à 44 100 Hz (ou 44,1 kHz), tandis que les DVD audio fonctionnent à 96 000 Hz (96 kHz) et les gadgets grand public bon marché comme les enregistreurs vocaux, les jeux vidéo, les téléphones portables, les jouets et certains lecteurs MP3 utilisent souvent une fréquence de 22 050 Hz, voire moins. La fréquence d'échantillonnage détermine la **fréquence** la plus élevée qui peut être enregistrée ou jouée, qui est exprimée par le nombre de Nyquist (la moitié de la fréquence d'échantillonnage).
+La lecture de sons à une fréquence d'échantillonnage différente de celle à laquelle ils ont été enregistrés entraînera leur lecture à la mauvaise vitesse.
 
 **Send**
-: An optional auxiliary output for a track or bus.
+: Une sortie auxiliaire optionnelle pour une piste ou un bus.
 
 **Session**
-: A session is all of the information that constitutes one project in
-Ardour. Each session is saved in its own folder containing all the
-audio, region and parametric data, and a master file with the .ardour
-extension.
+: Une session est l'ensemble des informations qui constituent un projet dans Ardour.
+Chaque session est sauvegardée dans son propre dossier contenant toutes les données audio, régionales et paramétriques, ainsi qu'un fichier maître portant l'extension .ardour.
 
 **Shelf**
-: In an **Equalizer**, a **Shelf** cuts or boosts everything above (High
-Shelf) or below (Low Shelf) a specific frequency.
+: Dans un **Equalizer**, une **Shelf** coupe ou renforce tout ce qui se trouve au-dessus (High Shelf) ou au-dessous (Low Shelf) d'une fréquence spécifique.
 
 **Slice Edit**
-: One of the three available **Edit Modes**, Slice Edit does not allow
-dragging regions around, but still allows you to perform slice
-operations (such as cut, paste, and split). Space between regions will
-be kept constant after any edit operation that affects it. If you delete
-the second half of a region, for example, any subsequent regions on the
-same track will automatically move back in the time grid.
+: L'un des trois **modes d'édition** disponibles, l'édition en tranches ne permet pas de faire glisser des régions, mais permet néanmoins d'effectuer des opérations de coupes (telles que couper, coller et diviser). L'espace entre les régions sera maintenu constant après toute opération d'édition qui l'affecte. Si vous supprimez la seconde moitié d'une région, par exemple, toutes les régions suivantes sur la même piste reculeront automatiquement dans la grille temporelle.
 
 **Slide Edit**
-: Another one of the three available **Edit Modes**, Slide Edit is the
-default mode. It allows you to drag regions around horizontally (within
-the same track) and vertically (between tracks).
+: Un autre des trois **modes d'édition** disponibles, l'édition des diapositives est le mode par défaut. Il vous permet de faire glisser des régions horizontalement (au sein de la même piste) et verticalement (entre les pistes).
 
 **SMPTE timecode**
-: : A set of cooperating standards to label individual frames of video
-or film with a timecode defined by the Society of Motion Picture and
-Television Engineers. Timecodes are added to film, video or audio
-material, and have also been adapted to synchronize music. They provide
-a time reference for editing, synchronization and identification.
+: Ensemble de normes coopératives permettant d'étiqueter les images individuelles d'une vidéo ou d'un film avec un code temporel défini par la "Society of Motion Picture and Television Engineers". Les codes temporels sont ajoutés au film, à la vidéo ou au matériel audio et ont également été adaptés pour synchroniser la musique. Ils fournissent une référence temporelle pour le montage, la synchronisation et l'identification.
 
 **Snap Mode**
 : Les menus **Snap Mode** e trouvent juste en dessous des **Clocks**. Ils controlent le degré de **Quantization** de la grille de temps, par exemple, le degré de "snap" q'une **Région** audio a par rapoort au type de grille choisi.
