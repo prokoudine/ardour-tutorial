@@ -15,5 +15,5 @@ Contents:
 1. [Starting Ardour](starting-ardour/)
 2. [Overview of the interface](overview-of-the-interface/)
 3. [Creating tracks and busses](creating-tracks-and-busses/)
-4. [Importing audio](importing-audio/)
+4. [Importing audio and MIDI](importing-audio-and-midi/)
 5. [Setting up the timeline](setting-up-the-timeline/)
