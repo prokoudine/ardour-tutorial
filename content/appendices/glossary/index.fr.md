@@ -193,99 +193,63 @@ En d'autres termes, c'est le processus d'augmentation ou d'atténuation des diff
 Ils comprennent des auteurs, des éditeurs, des artistes, des développeurs de logiciels, des activistes, et bien d'autres.
 
 **Format** (audio file)
-: Les types de fichiers sonores sous lesquels les sons sont enregistrés. Parmi les plus courants
-on trouve AIFF, WAV, FLAC, mp3 et Ogg Vorbis. 
+: Les types de fichiers sonores sous lesquels les sons sont enregistrés. Parmi les plus courants on trouve AIFF, WAV, FLAC, mp3 et Ogg Vorbis. 
 
-**fps**
-: Frames Per Second. Frame rate, or frame frequency is the frequency
-(rate) at which an imaging device produces unique consecutive images
-called frames. The term applies equally well to computer graphics, video
-cameras, film cameras, and motion capture systems. Frame rate is most
-often expressed in frames per second (FPS). 
+**ips** (fps)
+: Images par seconde. La fréquence d'images est la fréquence (taux) à laquelle un dispositif d'imagerie produit des images consécutives uniques. Le terme s'applique aussi bien aux images de synthèse qu'aux caméras vidéo, aux caméras cinématographiques et aux systèmes de capture de mouvement. La fréquence des images est le plus souvent exprimée en images par seconde (IPS ou FPS en anglais). 
 
-**Frequency**
-: Refers to the number of times an oscillation occurs in one second.
-Frequency is measured in **Hertz**, and is correlated to the **pitch**
-of a sound. Frequency is a **linear** scale, while pitch is
-**logarithmic**. The pitch 'A' above the middle C has a frequency of 440
-Hz. The 'A' one octave above is twice that frequency (880 Hz).
+**Fréquence**
+: Se réfère au nombre de fois qu'une oscillation se produit en une seconde.
+La fréquence est mesurée en **Hertz**, et est corrélée à la **hauteur** d'un son. La fréquence est une échelle **linéaire**, tandis que la hauteur est **logarithmique**.
+La hauteur "LA" au-dessus du do central a une fréquence de 440 Hz. Le "LA" situé une octave plus haut a une fréquence deux fois plus élevée (880 Hz).
 
 **Gain**
-: Increasing the **level**of an audio signal, usually measured using a
-**logarithmic** scale. See also **attenuation**.
+: Augmentation du **niveau** d'un signal audio, généralement mesurée à l'aide d'une échelle **logarithmique**. Voir également **atténuation**.
 
-**Grid**
-: The Grid is a system of points that a Region might snap to while editing
-it. The Grid can be "No Grid", "Grid" or "Magnetic". 
+**Grile**
+: La grille est un système de points sur lesquels une région peut s'accrocher lors de son édition. Le paramètre grille peut être réglé sur la valeur "Pas de grille", "Grille" ou "Magnétique".
 
-**Grid Points**
-: The points in the **Grid** which Regions will snap to when it is active.
-Grid Points may be minutes, seconds, video frames, bars, beats or some
-multiple of beats. 
+**Points de la grille**
+: Points de la **grille** sur lesquels les régions s'accrochent lorsqu'elles sont actives.
+Les points de la grille peuvent être des minutes, des secondes, des images vidéo, des mesures, des battements ou des multiples de battements.
 
 **Hertz**
-: A term used to describe the number of times something occurs in one
-second. In digital audio, it is used to describe the **sampling rate**,
-and in acoustics it is used to describe the **frequency** of a sound.
-Thousands of Herz are described as kHz (kilo Herz). 
+: Terme utilisé pour décrire le nombre de fois qu'une chose se produit en une seconde.
+En audio numérique, il est utilisé pour décrire le **taux d'échantillonnage**, et en acoustique, il est utilisé pour décrire la **fréquence** d'un son. Les milliers de Hertz sont appelés kHz (kilo Hertz). 
 
-**High Shelf**
-: In an **Equalizer**, a **Shelf** cuts or boosts everything above (High
-Shelf) or below (Low Shelf) a specific frequency.
+**Plateau haut**
+: Dans un **Égaliseur**, un **plateau** coupe ou augmente tout ce qui se trouve au-dessus (Haut) ou au-dessous (Bas) d'une fréquence spécifique.
 
 **Headroom**
-: The range of **Decibels** between the region's maximum **Peak**and the
-**Clipping Point** is commonly referred to as **Headroom**. It is common
-recording practice to keep approximately three to six Decibels of
-Headroom between the maximum of your signal and the Clipping Point.
+: La plage de **décibels** entre le **point culminant** de la région et le **point d'écrêtage** est communément appelée **headroom**. Il est courant d'enregistrer en conservant environ trois à six décibels de marge entre le maximum de votre signal et le point d'écrêtage.
 
 **Jack Audio Connection Kit (JACK)**
-: JACK is a low-latency audio system which manages connections between
-Ardour and the soundcard of your computer, and between Ardour and other
-JACK-enabled audio programs on your computer. You must install JACK for
-Linux or JackOSX before you can use Ardour.
+: JACK est un système audio à faible latence qui gère les connexions entre Ardour et la carte son de votre ordinateur, et entre Ardour et d'autres programmes audio de votre ordinateur compatibles avec JACK. Vous devez installer JACK pour Linux ou JackOSX avant de pouvoir utiliser Ardour.
 
 **JackOSX** (OS X)
-: The name of the version of **JACK** that runs on macOS. See **JACK**
-for more details. 
+: Le nom de la version de **JACK** qui fonctionne sur macOS. Voir **JACK** pour plus de détails.
 
 **JackPilot**
-: The control interface that comes with JackOSX. 
+: L'interface de contrôle fournie avec JackOSX. 
 
 **Jack Server**
-: The Jack Server is the "engine" or "backend" of the Jack Audio
-Connection Kit. 
+: Le serveur Jack est le "moteur" ou "backend" du kit de connexion Jack Audio.
 
 **Jack Router**
-: The Jack Router allows audio to be routed from one application to
-another using the **Jack Server**. 
+: Le routeur Jack permet d'acheminer l'audio d'une application à une autre à l'aide du **serveur Jack**.
 
 **JAMin**
-: JAMin is the Jack Audio Connection Kit Audio Mastering interface. JAMin
-is an open source application designed to perform professional audio
-mastering of stereo input streams. It uses **LADSPA** for digital signal
-processing (DSP).
+: JAMin est l'interface Jack Audio Connection Kit Audio Mastering. JAMin est une application open source conçue pour effectuer un mastering audio des flux d'entrée stéréo. Il utilise **LADSPA** pour le traitement du signal numérique (DSP).
 
-**LADSPA Plugins**
-: Linux Audio Developer Simple Plugin API (LADSPA) is a standard that
-allows software audio processors and effects to be plugged into a wide
-range of audio synthesis and recording packages. For instance, it allows
-a developer to write a reverb program and bundle it into a LADSPA
-"plugin library." Ordinary users can then use this reverb within any
-LADSPA-friendly audio application. Most major audio applications on
-Linux support LADSPA.
+**Greffons LADSPA**
+: Linux Audio Developer Simple Plugin API (LADSPA) est une norme qui permet de brancher des processeurs audio et des effets logiciels dans une large gamme de logiciels de synthèse et d'enregistrement audio. Par exemple, il permet à un développeur d'écrire un programme de réverbération et de le regrouper dans une "bibliothèque de greffons" LADSPA.
+Les utilisateurs ordinaires peuvent alors utiliser cette réverbération dans n'importe quelle application audio compatible avec LADSPA. La plupart des applications audio majeures sous
+Linux supportent LADSPA.
 
-**Latency**
-: Latency is the amount of time needed to process all the samples coming
-from sound applications on your computer and send it to the soundcard
-for playback, or to gather samples from the sound card for recording or
-processing. A shorter latency means you will hear the results quicker,
-giving the impression of a more responsive system. However, with a
-shorter latency you also run a greater risk of **glitches** in the audio
-because the computer might not have enough time to process the sound
-before sending it to the soundcard. A longer latency means fewer
-glitches, but at the price of a slower response time. Latency is
-measured in milliseconds.
+**Latence**
+: La latence est le temps nécessaire pour traiter tous les échantillons provenant des applications sonores sur votre ordinateur et les envoyer à la carte son et de les envoyer à la carte son pour la lecture, ou pour collecter les échantillons de la carte son pour l'enregistrement ou le traitement.
+Une latence plus courte signifie que vous entendrez les résultats plus rapidement, donnant l'impression d'un système plus réactif. Cependant, avec une latence plus courte, vous courez également un plus grand risque d'**artefacts** dans l'audio car l'ordinateur n'a peut-être pas assez de temps pour traiter le son avant de l'envoyer à la carte son. Une latence plus longue signifie moins d'artefacts mais au prix d'un temps de réponse plus lent. La latence est
+mesurée en millisecondes.
 
 **Limiting**
 : The process by which the amplitude of the output of a device is
@@ -296,7 +260,7 @@ prevented from exceeding a predetermined value.
 adding one (1, 2, 3, 4...), two (2, 4, 6, 8...) or ten (10, 20, 30,
 40...). Multiplying an audio signal, for example, by either a linear or
 a logarithmic scale will produce very different results. The scale of
-**frequency** is linear, while the scales of **pitch** and **gain** are
+**frequency** is linear, while the scales of **hauteur** and **gain** are
 logarithmic.
 
 **Linux kernel**
@@ -311,7 +275,7 @@ regardless of any edit operation performed.
 
 **Logarithmic**
 : A scale of numbers which progresses according to a certain ratio, such
-as exponentially (2, 4, 8, 16, 256...). Both scales of **pitch** and
+as exponentially (2, 4, 8, 16, 256...). Both scales of **hauteur** and
 **gain** are logarithmic, while the scale of **frequency** is linear.
 
 **Lossless**
@@ -362,7 +326,7 @@ controllers, computers and other electronic equipment to communicate,
 control, and synchronize with each other. MIDI allows computers,
 synthesizers, MIDI controllers, sound cards, samplers and drum machines
 to control one another, and to exchange system data. MIDI does not
-transmit audio signals, but simply messages such as note number (pitch),
+transmit audio signals, but simply messages such as note number (hauteur),
 velocity (intensity), note-on, and note-off.
 
 **Mixer Strip**
@@ -444,13 +408,13 @@ filtering.
 Region, and are located next to the Fader in the Mixer Window, and also
 in the Track Mixer, of each Track. 
 
-**Pitch**
-: Pitch represents the perceived fundamental frequency of a
+**hauteur**
+: hauteur represents the perceived fundamental frequency of a
 sound.^[](http://en.wikipedia.org/wiki/Pitch_(music)#cite_note-0)^^^It
 is one of the three major auditory attributes of sounds along with
-loudness and timbre. In MIDI, pitch is represented by a number between 0
+loudness and timbre. In MIDI, hauteur is represented by a number between 0
 and 127, with each number representing a key on a MIDI keyboard. The
-relation of pitch to **Frequency** is **Logarithmic**. This means that a
+relation of hauteur to **Frequency** is **Logarithmic**. This means that a
 sound which is heard as one **Octave**(+12 MIDI notes) above another one
 is twice the frequency in Hz, while a sound one octave below (-12 MIDI
 notes) is half the frequency.
