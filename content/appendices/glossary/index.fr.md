@@ -455,69 +455,47 @@ sound which is heard as one **Octave**(+12 MIDI notes) above another one
 is twice the frequency in Hz, while a sound one octave below (-12 MIDI
 notes) is half the frequency.
 
-**Playhead**
-: In Ardour, the Playhead is the red line that moves in time (i.e., left
-to right) to indicate the current playback position. 
+**Tête de lecture**
+: Dans Ardour, la tête de lecture est la ligne rouge qui se déplace dans le temps (c'est-à-dire de gauche à droite) pour indiquer la position de lecture actuelle.
 
-**Plugin**
-: In computing, a plugin consists of a computer program that interacts
-with a host application (in this case, Ardour) to provide a certain
-function "on demand", usually a very specific one. Reverb, filters, and
-equalizers are examples of plugins that can be used in Ardour in
-association with Tracks or Busses.
+**Greffon** (Plugin)
+: En informatique, un greffon est un programme informatique qui interagit avec une application hôte (dans le cas présent, Ardour) pour fournir certaines fonctionnalités.
+La réverbération, les filtres et les égaliseurs sont des exemples de greffons qui peuvent être utilisés dans Ardour en association avec des pistes ou des bus.
 
 **Portaudio**
-: A free and open source set of **audio drivers**for Linux and macOS.
+: Un ensemble de **pilotes audio** libres et gratuits pour Linux et macOS.
 
-**Post-Fader** (Plugin or Send)
-: In the Mixer Strip, the post-fader area is the black space below the
+**Post-atténuateur** (greffon ou départ)
+: Dans la bande de mixage, la zone post-atténuateur est l'espace noir situé sous le curseur de gain, auquel des greffons ou des départs peuvent être ajoutés. L'entrée de ces greffons et envois sera le signal *après* tout changement de gain manuel ou automatisé (d'où le terme "post-atténuateur").
+In the Mixer Strip, the post-fader area is the black space below the
 gain slider, to which plugins or sends can be added. The input of these
 plugins and sends will be the signal *after* any manual or automated
 gain change (thus "post-fader"). 
 
-**Pre-Fader** (Plugin or Send)
-: In the Mixer Strip, the pre-fader area is the black space above the gain
-slider, to which plugins or sends can be added. The input of these
-plugins and sends will be the incoming signal *before* it is affected by
-any manual or automated gain changes controlled by the slider (thus
-"pre-fader").
+**Pre-attnuateur** (greffon ou départ)
+: Dans la bande de mixage, la zone de pré-atténuateur est l'espace noir au-dessus de curseur de gain, auquel des greffons ou des départs peuvent être ajoutés. L'entrée de ces
+greffons et envois sera le signal entrant *avant* qu'il ne soit affecté par tout changement de gain manuel ou automatisé contrôlé par le curseur (donc "pré-atténuateur").
 
 **Quantization**
-: In signal processing, quantization may refer to bit depth (see **bit
-depth** definition). In MIDI, quantization refers to the process of
-aligning notes to a precise temporal grid. This results in notes being
-set on beats or exact fractions of beats. MIDI sequencers typically
-include some type of quantization function.
+: Dans le traitement des signaux, la quantification peut se référer à la profondeur de bits (voir la définition de **profondeur de bits**). En MIDI, la quantification fait référence au processus d'alignement des notes sur une grille temporelle précise. Il en résulte que les notes sont sur des temps ou des fractions exactes de temps. Les séquenceurs MIDI comprennent généralement une fonction de quantification.
 
 **Range**
-: A segment of time. Ranges are created with the Select/Move Ranges tool
-and may include one or more tracks. Loop and punch ranges are special
-types of ranges that are created and manipulated with the loop/punch
-ranges meter.
+: Un segment de temps. Les intervalles sont créés à l'aide de l'outil Sélectionner/Déplacer les intervalles et peuvent inclure une ou plusieurs pistes. Les Intervalles de boucles et de punch sont des types d'intervalles spéciaux qui sont créés et manipulés avec l'indicateur d'intervalle boucle/punch
 
 **Real-time System**(Linux)
-: In a **Real-time System**, the **Linux kernel** is usually recompiled
-(rebuilt) with new parameters, and other settings in the system are
-optimized which speed up the use of audio applications in the system.
+: Dans un **Real-time System**, Le **Linux kernel** est généralement recompilé
+(reconstruit) avec de nouveaux paramètres, et d'autres paramètres du système sont optimisés, ce qui accélère l'utilisation des applications audio dans le système.
 
 **Regions**
-: Regions are the basic elements of editing and composing in Ardour. Each
-region represents all or part of an audio file. Removing a region from a
-track does not remove the audio file from the disk.
+: Les régions sont les éléments de base de l'édition et de la composition dans Ardour. Chaque
+région représente tout ou partie d'un fichier audio. La suppression d'une région n'enlève pas le fichier audio du disque.
 
 **Region List**
-: The region list is located at the right hand side of the Editor Window
-and it shows all the regions associated with the session. 
+: La liste des régions se trouve à droite de la fenêtre de l'éditeur et affiche toutes les régions associées à la session.
 
 **Reverberation**
-: Reverberation is the persistence of sound in a particular space after
-the original sound source is
-removed.^[](http://en.wikipedia.org/wiki/Reverberation#cite_note-0)^^^A
-reverberation, or reverb, is created when a sound is produced in an
-enclosed space causing a large number of echoes to build up and then
-slowly decay as the sound is absorbed by the walls and air. Digital
-reverberation can be added to a sound in Ardour through the use of
-plugins. 
+: La réverbération est la persistance du son dans un espace particulier après que la source sonore d'origine ce soit tue.^[](http://en.wikipedia.org/wiki/Reverberation#cite_note-0)^^^
+Une réverbération est créée lorsqu'un son est produit dans un espace clos, ce qui provoque l'apparition d'un grand nombre d'échos, puis, lentement, au fur et à mesure, le son est absorbé par les murs et l'air. La réverbération numérique peut être ajoutée à un son dans Ardour grâce à l'utilisation de greffons.
 
 **Right Click** (souris)
 : Cliquez sur le bouton droit de la souris.
