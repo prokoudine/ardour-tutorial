@@ -252,172 +252,105 @@ Une latence plus courte signifie que vous entendrez les résultats plus rapideme
 mesurée en millisecondes.
 
 **Limiting**
-: The process by which the amplitude of the output of a device is
-prevented from exceeding a predetermined value.
+: Le processus par lequel l'amplitude de la sortie d'un appareil est empêchée de dépasser une valeur prédéterminée. 
 
 **Linear**
-: A scale of numbers which progresses in an additive fashion, such as by
-adding one (1, 2, 3, 4...), two (2, 4, 6, 8...) or ten (10, 20, 30,
-40...). Multiplying an audio signal, for example, by either a linear or
-a logarithmic scale will produce very different results. The scale of
-**frequency** is linear, while the scales of **hauteur** and **gain** are
-logarithmic.
+: Une échelle de nombres qui progresse de manière additive, par exemple en ajoutant un (1, 2, 3, 4...), deux (2, 4, 6, 8...) ou dix (10, 20, 30, 40...).
+La multiplication d'un signal audio, par exemple, par une échelle linéaire ou logarithmique produira des résultats très différents. L'échelle de **fréquence** est linéaire, alors que les échelles de **hauteur** et **gain** sont logarithmiques.
 
 **Linux kernel**
-: The core of the GNU/Linux operating system. In a **Real-time System**,
-this kernel is usually **Compiled**with new parameters which speed up
-the use of audio applications in the system. 
+: Le cœur du système d'exploitation GNU/Linux. Dans un **système en temps réel**, ce noyau est généralement **compilé** avec de nouveaux paramètres qui accélèrent l'utilisation des applications audio dans le système.
 
 **Lock Edit**
-: One of the three available **Edit Modes**, Lock Edit is similar to
-**Slice Edit**, but regions will remain at their original positions
-regardless of any edit operation performed.
+: L'un des trois **modes d'édition** disponibles, Lock Edit est similaire à **Slice Edit**, mais les régions restent dans leur position d'origine, quelle que soit l'opération d'édition effectuée.
 
 **Logarithmic**
-: A scale of numbers which progresses according to a certain ratio, such
-as exponentially (2, 4, 8, 16, 256...). Both scales of **hauteur** and
-**gain** are logarithmic, while the scale of **frequency** is linear.
+: Une échelle de nombres qui progresse selon un certain rapport, par exemple de manière exponentielle (2, 4, 8, 16, 256...). Les échelles de **hauteur** et de **gain** sont logarithmiques, tandis que l'échelle de **fréquence** est linéaire.
 
 **Lossless**
-: See **Compression** (data) 
+: Voir **Compression** (données) 
 
 **Lossy**
-: See Compression (data)
+: Voir Compression (Données)
 
 **Loudness**
-: Unlike **amplitude**, which expresses the physical power of a sound,
-loudness is the perceived strength of a sound. Tones at different
-frequencies may be perceived as being at different loudnesses, even if
-they are at the same amplitude.
+: Contrairement à l'**amplitude**, qui exprime la puissance physique d'un son, l'intensité sonore est la force perçue d'un son. Des sons de différentes fréquences peuvent être perçus comme ayant des intensités différentes, même s'ils ont la même amplitude.
 
 **LV2** 
-: LV2 is an open standard for plugins and matching host applications,
-mainly targeted at audio processing and generation. LV2 is a simple but
-extensible successor of LADSPA, intended to address the limitations of
-LADSPA which many applications have outgrown.
+: LV2 est une norme ouverte pour les greffons et les applications hôtes correspondantes, principalement destinés au traitement et à la génération audio.
+LV2 est un successeur simple mais extensible de LADSPA, destiné à remédier aux limites de LADSPA.
 
 **Main Canvas**
-: In the Editor Window of Ardour, the Main Canvas is the space just below
-the timeline rulers where Tracks and Busses are displayed horizontally.
+: Dans la fenêtre d'édition d'Ardour, le canevas principal est l'espace situé juste en dessous des règles de la ligne de temps où les pistes et les bus sont affichés horizontalement.
 
 **Master Out**
-: A master out is a bus to which all (or most) tracks and other busses
-send their output. It provides a convenient single point of control for
-the output of Ardour, and is a typical location for global effects.
-Master out use is enabled by default, and the master out bus is set up
-to be stereo.
+: Une sortie maître est un bus vers lequel toutes (ou la plupart) les pistes et autres bus envoient leur sortie. Il fournit un point de contrôle unique et pratique pour la sortie d'Ardour, et est un emplacement typique pour les effets globaux.
+L'utilisation de la sortie master est activée par défaut, et le bus de sortie master est configuré pour être stéréo.
 
 **Meter**
-: The grouping of strong and weak beats into larger units called bars or
-measures. 
+: Le regroupement des temps forts et faibles en unités plus grandes appelées mesures.
 
 **Mixing**
-: Audio mixing is the process by which a multitude of recorded sounds are
-combined into one or more channels, most commonly two-channel stereo. In
-the process, the levels, frequency content, dynamics and panoramic
-position of the source signals are commonly manipulated and effects such
-as reverb may be added. 
+: Le mixage audio est le processus par lequel une multitude de sons enregistrés sont combinés en un ou plusieurs canaux, le plus souvent en stéréo à deux canaux. Dans ce processus, les niveaux, le contenu en fréquence, la dynamique et la position panoramique des signaux sources sont généralement manipulés et des effets tels que la réverbération peuvent être ajoutés.
 
 **MIDI**
-: MIDI is an industry-standard protocol defined
-in^[](http://en.wikipedia.org/wiki/Musical_Instrument_Digital_Interface#cite_note-0)^
-1982 that enables electronic musical instruments such as keyboard
-controllers, computers and other electronic equipment to communicate,
-control, and synchronize with each other. MIDI allows computers,
-synthesizers, MIDI controllers, sound cards, samplers and drum machines
-to control one another, and to exchange system data. MIDI does not
-transmit audio signals, but simply messages such as note number (hauteur),
-velocity (intensity), note-on, and note-off.
+: MIDI est un protocole industriel standard défini en^[](http://en.wikipedia.org/wiki/Musical_Instrument_Digital_Interface#cite_note-0)^ 1982 qui permet aux instruments de musique électroniques tels que les claviers, les ordinateurs et autres équipements électroniques de communiquer, de contrôler et de se synchroniser les uns avec les autres. Le MIDI permet aux ordinateurs, synthétiseurs, contrôleurs MIDI, cartes son, échantillonneurs et boîtes à rythmes de se contrôler mutuellement et d'échanger des données système. Le MIDI ne transmet pas de signaux audio, mais simplement des messages tels que le numéro de la note (hauteur), vélocité (intensité), note-on et note-off.
 
 **Mixer Strip**
-: Each track and bus is represented in the Mixer Window by a vertical
-Mixer Strip** that contains various controls related to signal flow.
-There are two places in Ardour in which you can see mixer strips. The
-mixer window is the obvious one, but you can also view a single mixer
-strip on the left hand side of the Editor (shift + E to hide/view) 
+: Chaque piste et chaque bus est représenté dans la fenêtre du mixeur par une bande de mixage** verticale qui contient diverses commandes liées au flux du signal.
+Il y a deux endroits dans Ardour où vous pouvez voir des bandes de mixage. La fenêtre du mixeur est l'endroit le plus évident, mais vous pouvez aussi en voir une seule sur le côté gauche de l'éditeur (shift + E pour cacher/afficher).
 
 **Mixer Window**
-: The Mixer shows the session by representing tracks vertically as Mixer
-Strips, with controls for gain, record enable, soloing, plugins etc. The
-Mixer represents the signal flow of Tracks and Busses in an Ardour
-session. The mixer window provides a view that mimics a traditional
-hardware mixing console.
+: La table de mixage présente la session en représentant les pistes verticalement sous forme de Mixer avec des contrôles pour le gain, l'activation de l'enregistrement, la mise en solo, les greffons, etc. Le Mixer représente le flux de signal des pistes et des bus dans une session Ardour. La fenêtre du mixeur offre une vue qui imite une console de mixage traditionnelle.
 
 **Monitoring**
-: Monitoring is the process of routing a specific mix or submix of your
-session into separate outputs (like headphones). For example, a musician
-being recorded may want to listen to existing material while performing.
-Ardour and JACK make it easy to setup monitor outs since any incoming
-signal can then be delivered back to any output, optionally mixed
-together with other signals and with any kind of sound processing added.
+: Le monitoring consiste à acheminer un mixage ou un sous-mixage spécifique de votre session vers des sorties séparées (comme un casque). Par exemple, un musicien en cours d'enregistrement peut vouloir écouter le matériel existant pendant qu'il joue. Ardour et JACK facilitent la mise en place de sorties de contrôle, car tout signal entrant peut être renvoyé vers n'importe quelle sortie, éventuellement mixé avec d'autres signaux et avec n'importe quel type de traitement sonore ajouté.
 
 **Mono**
-: A mono sound file contains only one channel of audio. A mono track in
-Ardour has only one input and handles mono sound files. 
+: Un fichier audio mono ne contient qu'un seul canal audio. Une piste mono dans Ardour n'a qu'une seule entrée et gère les fichiers sonores mono.
 
 **MP3**
-: A lossy, size-compressed sound file **Format**. 
+: Un **Format** de fichier son avec perte, compressé en taille. 
 
 **Graphic Equalizer/Multi-Band Equalizer**
-: A Graphic (or Multi-Band) Equalizer consists of a bank of sliders for
-boosting or attenuating different frequency of a sound. 
+: Un égaliseur graphique (ou multibande) est constitué d'une banque de curseurs permettant de
+d'augmenter ou d'atténuer les différentes fréquences d'un son.
 
 **Non-destructive Editing/Recording**
-: This is a form of editing where the original content is not modified in
-the course of editing. Behind the scenes, the original sound file is
-kept intact, and your edits are in fact a list of instructions that
-Ardour will use in order to reconstruct the signal from the original
-source when you play it back. For example, creating fade-ins and
-fade-outs on your Regions is a type of non-destructive editing. 
+: Il s'agit d'une forme d'édition où le contenu original n'est pas modifié au cours du montage. En coulisses, le fichier son original est conservé intact, et vos éditions sont en fait une liste d'instructions qu'Ardour utilisera pour reconstruire le signal de la source originale lorsque vous l'écouterez. Par exemple, la création de fade-ins et de fade-outs sur vos régions est un type d'édition non destructive.
 
 **Normalize**
-: To normalize an audio signal means to adjust its **Gain** so that it
-peaks at the maximum the sound card allows before **Clipping**.
+: Normaliser un signal audio signifie ajuster son **gain** de façon à ce qu'il atteigne le maximum autorisé par la carte son avant **écrêtage**.
 
 **Normal Mode**
-: See **Track Mode**. 
+: Voir **Track Mode**. 
 
 **Note value**
-: The proportional duration of a note or rest in relation to a standard
-unit. For instance, a 'quarter note' (crotchet) is so-called because its
-relative duration is one quarter of a whole note (semibreve). 
+: Durée proportionnelle d'une note ou d'un silence par rapport à une unité standard.
+unité standard. 
 
 **Octave** (music) 
-: A distance of 12 semitones between two notes. In **Hertz**, the ratio of
-an octave is 2:1. For example, the note 'A' above the middle C has a
-frequency of 440 Hz. The note 'A' one octave above is 880 Hz, and one
-octave below is 220 Hz. 
+: Distance de 12 demi-tons entre deux notes. Dans **Hertz**, le rapport d'une octave est de 2:1. Par exemple, la note "La" au-dessus du do moyen a une fréquence de 440 Hz.
+La note "La" une octave au-dessus a une fréquence de 880 Hz, et une octave en dessous a une fréquence de 220 Hz.
 
 **Ogg Vorbis**
-: An open source lossy, size-compressed sound file format. 
+: Un Format de fichier son libre avec perte, compressé en taille.
 
 **Panning**
-: Panning is the location of sounds in the **Stereo Field**. 
+: Le panoramique est l'emplacement des sons dans le **champ stéréo**. 
 
 **Parametric Equalizer**
-: The Parametric Equalizer is the most versatile type of**EQ** used for
-**Mixing** because of its extensive control over all the parameters of
-filtering. 
+: L'égaliseur paramétrique est le type d'égaliseur** le plus polyvalent utilisé pour le **mixage** car il permet un contrôle étendu de tous les paramètres de filtrage. 
 
 **Peaks**
-: Peaks are a graphical representation of the maximum **Levels** of a
-**Region**. 
+: Les crêtes sont une représentation graphique des **niveaux** maximums d'une **région**. 
 
 **Peak Meters**
-: Peak Meters are a running representation of the maximum Levels of a
-Region, and are located next to the Fader in the Mixer Window, and also
-in the Track Mixer, of each Track. 
+: Les crête-mètres représentent les niveaux maximums d'une région et sont situés à côté de l'atténuateur dans la fenêtre du mixeur mais aussi dans le mixeur de piste de chaque piste.
 
-**hauteur**
-: hauteur represents the perceived fundamental frequency of a
-sound.^[](http://en.wikipedia.org/wiki/Pitch_(music)#cite_note-0)^^^It
-is one of the three major auditory attributes of sounds along with
-loudness and timbre. In MIDI, hauteur is represented by a number between 0
-and 127, with each number representing a key on a MIDI keyboard. The
-relation of hauteur to **Frequency** is **Logarithmic**. This means that a
-sound which is heard as one **Octave**(+12 MIDI notes) above another one
-is twice the frequency in Hz, while a sound one octave below (-12 MIDI
-notes) is half the frequency.
+**Hauteur**
+: La hauteur représente la fréquence fondamentale perçue d'un son.
+^[](http://en.wikipedia.org/wiki/Pitch_(music)#cite_note-0)^^Il est l'un des trois principaux attributs auditifs des sons, avec l'intensité la sonorité et le timbre. En MIDI, la hauteur est représentée par un nombre compris entre 0 et 127, chaque chiffre représentant une touche d'un clavier MIDI. La relation entre la hauteur et la **fréquence** est **logarithmique**. Cela signifie qu'un son qui est entendu une **Octave** (+12 notes MIDI) au-dessus d'un autre son est le double de la fréquence en Hz, tandis qu'un son une octave plus bas (-12 notes MIDI) correspond à la moitié de la fréquence.
 
 **Tête de lecture**
 : Dans Ardour, la tête de lecture est la ligne rouge qui se déplace dans le temps (c'est-à-dire de gauche à droite) pour indiquer la position de lecture actuelle.
