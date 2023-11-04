@@ -5,7 +5,7 @@ chapter = false
 weight = 1
 +++
 
-Ardour supporte à la fois Linux, Windows et macOS. Il y a très peu de différence dans la façon dont il fonctionne sur tous ces systèmes d'exploitation. Ainsi, bien que ce tutoriel suppose l'utilisation d'Ubuntu Linux, vous pouvez vous attendre à ce qu'il en soit de même sur d'autres systèmes d'exploitation et d'autres versions de Linux.
+Ardour supporte à la fois Linux, Windows et macOS. Il y a très peu de différences dans la façon dont il fonctionne sur tous ces systèmes d'exploitation. Ainsi, bien que ce tutoriel suppose l'utilisation d'Ubuntu Linux, vous pouvez vous attendre à ce qu'il en soit de même sur d'autres systèmes d'exploitation et d'autres versions de Linux.
 
 ## Assistant de premier lancement
 
@@ -35,7 +35,7 @@ Pour des raisons de simplicité, prenons une session vide comme indiqué ci-dess
 
 Ardour vous proposera toujours de stocker une nouvelle session dans le dossier par défaut que vous avez défini à l'étape précédente.
 
-Lorsque vous donnez un nom à une nouvelle session, évitez d'utiliser d'autres caractères que des que les lettres et les chiffres, comme les espaces blancs, les lettres accentuées, les `!@#$%*()+`, les points, les virgules, etc. Utilisez des tirets ou des caractères de soulignement si vous le souhaitez. Par exemple, au lieu de "Ma Grande Session !", préférez "Ma_Grande_Session", ou encore "MaGrandeSession", ou "ma-grande-session". Au lieu de "Açaí", écrivez "Acai" (sans lettres accentuées), etc.
+Lorsque vous donnez un nom à une nouvelle session, évitez d'utiliser d'autres caractères que des lettres et des chiffres, comme les espaces blancs, les lettres accentuées, les `!@#$%*()+`, les points, les virgules, etc. Utilisez des tirets ou des caractères de soulignement si vous le souhaitez. Par exemple, au lieu de "Ma Grande Session !", préférez "Ma_Grande_Session", ou encore "MaGrandeSession", ou "ma-grande-session". Au lieu de "Açaí", écrivez "Acai" (sans lettres accentuées), etc.
 
 Le réglage par défaut du domaine temporel affecte principalement les règles et les marqueurs. Avec "Audio Time", il activera l'ensemble des règles avec les minutes, les secondes et le timecode. Avec "Temps musical", il activera les règles de temps musical - Mesures:Temps, Signature temporelle, Tempo.
 
@@ -44,15 +44,15 @@ Nommez votre nouveau projet et cliquez sur **Ouvrir**.
 Une fois que vous avez créé votre session Ardour, ne renommez _pas_ manuellement les dossiers ou fichiers qui appartiennent à la session, sinon, Ardour ne parviendra pas à localiser les fichiers contenus dans ces dossiers et vous demandera de les pointer.
 
 {{% notice tip %}}
-Une fois que vous avez sauvegardé au moins une session, la boîte de dialogue _Session Setup_ se présente différemment se présentera différemment :
-il y aura une liste des sessions récemment ouvertes et un moyen de ouvrir une session existante qui ne figure pas dans cette liste.
+Une fois que vous avez sauvegardé au moins une session, la boîte de dialogue _Session Setup_ se présentera différemment :
+il y aura une liste des sessions récemment ouvertes et un moyen d'ouvrir une session existante qui ne figure pas dans cette liste.
 {{% /notice %}}
 
 ## Choix d'un système audio et de ses paramètres
 
 À l'étape suivante, vous devrez choisir et configurer le _système audio_.
 
-Sous Linux, vous disposez de plusieurs systèmes audio (ou _backends_). Le système _ALSA_ est proposé par défaut. C'est actuellement la façon recommandée d'utiliser Ardour en production. Avec ALSA, il n'y a pas d'enveloppements ou d'abstractions abstractions. Vous vous connectez directement aux ports physiques audio et MIDI. Cela signifie qu'Ardour prendra le contrôle de l'interface audio de votre choix et ne la et ne la partagera pas avec d'autres applications. Tant qu'Ardour fonctionne, toutes les applications de bureau que vous exécutez ne pourront pas se connecter à l'interface audio et jouer un son.
+Sous Linux, vous disposez de plusieurs systèmes audio (ou _backends_). Le système _ALSA_ est proposé par défaut. C'est actuellement la façon recommandée d'utiliser Ardour en production. Avec ALSA, il n'y a pas d'enveloppements ou d'abstractions. Vous vous connectez directement aux ports physiques audio et MIDI. Cela signifie qu'Ardour prendra le contrôle de l'interface audio de votre choix et ne la et ne la partagera pas avec d'autres applications. Tant qu'Ardour fonctionne, toutes les applications de bureau que vous exécutez ne pourront pas se connecter à l'interface audio et jouer un son.
 
 ![Configuration audio/MIDI](en/ardour7-alsa-backend-settings.png?width=40vw)
 
@@ -62,7 +62,7 @@ Le backend _PulseAudio_ ne supporte actuellement que la lecture. Cela signifie q
 
 Enfin, il y a le backend audio JACK. Il est conçu selon un modèle d'architecture client-serveur. JACK capture tous les ports physiques d'une interface audio et achemine le signal entre ses clients (par exemple, une station de travail audio numérique, un synthétiseur logiciel, un séquenceur de batterie, etc.) et les différents ports. Il est disponible à la fois sur Linux, Windows et macOS.
 
-Aujourd'hui, l'utilisation du serveur audio JACK est découragée par les développeurs d'Ardour sauf pour des cas d'utilisation particuliers comme le routage sophistiqué du signal. Pour un simple enregistrement multicanal, l'expérience de l'utilisateur sera bien meilleure si vous utilisez sur le moteur audio natif disponible dans votre système d'exploitation, comme ALSA sur Linux et CoreAudio sur macOS. Si vous avez absolument besoin de JACK, il est préférable de le démarrer et de le contrôler à partir d'un programme distinct comme le logiciel [Qjackctl](https://qjackctl.sourceforge.io/) ou [Cadence](https://kx.studio/Applications:Cadence).
+Aujourd'hui, l'utilisation du serveur audio JACK est découragée par les développeurs d'Ardour sauf pour des cas d'utilisation particuliers comme le routage sophistiqué du signal. Pour un simple enregistrement multicanal, l'expérience de l'utilisateur sera bien meilleure si vous utilisez sur le moteur audio natif disponible dans votre système d'exploitation, comme ALSA sur Linux et CoreAudio sur macOS. Si vous avez absolument besoin de JACK, il est préférable de le démarrer et de le contrôler à partir d'un programme distinct comme les logiciels [Qjackctl](https://qjackctl.sourceforge.io/) ou [Cadence](https://kx.studio/Applications:Cadence).
 
 La plupart des systèmes audio pris en charge ont quelques paramètres communs :
 

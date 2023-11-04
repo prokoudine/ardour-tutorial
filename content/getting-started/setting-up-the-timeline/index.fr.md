@@ -1,5 +1,5 @@
 +++
-title = "Mise en place de la ligne de temps"
+title = "Configuration de la ligne de temps"
 chapter = false
 weight = 5
 +++
@@ -27,7 +27,7 @@ Veuillez consulter le manuel Ardour pour plus d'informations sur les horloges.
 
 Les paramètres d'accrochage sont situés juste en dessous des horloges, à droite. Ils contrôlent la _quantification_ de la grille temporelle, c'est-à-dire les unités de la grille temporelle qui sont divisée et dans quelle mesure les régions audio et les notes MIDI sont accrochées lorsque l'accrochage est activé. Par exemple, vous pouvez faire un snap sur des secondes entières lorsque vous faites glisser une région audio ou vous pouvez faire un accrochage sur une note 1/16 lors de la création ou de l'édition de notes MIDI.
 
-Il existe un commutateur global, _Snap_, puis une liste déroulante de presets de quantification de la grille de quantification de grille : _Bar_, _1/4 note_, _1/8 note_ etc, _Timecode_, _Minutes et Secondes_, _CAD frames_, et plus encore.
+Il existe un commutateur global, _Snap_, puis une liste déroulante de presets de quantification de la grille : _Bar_, _1/4 note_, _1/8 note_ etc, _Timecode_, _Minutes et Secondes_, _CAD frames_, et plus encore.
 
 ![Snap](en/Ardour6_Snap_Options_et_Contrôles_de_blocage.png?width=20vw)
 

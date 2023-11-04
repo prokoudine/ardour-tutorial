@@ -18,8 +18,7 @@ L'interface utilisateur se compose de deux grandes parties :
 
 1. Partie statique qui contient le menu du programme, le panneau de transport, les horloges, la navigation de la ligne temporelle et diverses commandes. Nous en parlerons plus tard dans cette page.
 
-2. Partie dynamique qui change en fonction de la fenêtre actuellement ouverte. Nous en
-Nous en parlerons sur d'autres pages couvrant chaque fenêtre (Editeur, Mixeur, Enregistreur,
+2. Partie dynamique qui change en fonction de la fenêtre actuellement ouverte. Nous en parlerons sur d'autres pages couvrant chaque fenêtre (Editeur, Mixeur, Enregistreur,
 Cue).
 
 Passons maintenant à la partie statique et concentrons-nous sur les fonctionnalités qui vous seront utiles dans l'immédiat.
@@ -42,15 +41,14 @@ Si vous cliquez dessus avec le bouton droit de la souris, vous verrez apparaîtr
 
 ## Panneau Transport
 
-Le panneau de transport permet de naviguer facilement dans le projet : aller au début/à la fin de la session, jouer toute la session ou seulement une sélection (appelée 'range' (plage) dans le logiciel), lancer l'enregistrement.
+Le panneau de transport permet de naviguer facilement dans le projet : aller au début/à la fin de la session, jouer toute la session ou seulement une sélection (appelée 'range' (intervalle) dans le logiciel), lancer l'enregistrement.
 
 ![Panneau Transport](en/ardour7-transport-panel.png?width=15vw)
 
 Le bas du panneau comporte des commandes de type jog/shuttle permettant de sauter en arrière et en avant à différentes vitesses pendant la lecture du contenu de la session.
 
 Si vous souhaitez que le panneau de transport sans les commandes jog-shuttle soit placé ailleurs sur l'écran, vous pouvez ouvrir une fenêtre flottante appelée _Contrôles de transport_.
-(`Window > Transport Controls`). Vous pouvez déplacer cette fenêtre n'importe où sur l'écran
-l'écran et la redimensionner.
+(`Window > Transport Controls`). Vous pouvez déplacer cette fenêtre n'importe où sur l'écran et la redimensionner.
 
 ## Horloges
 

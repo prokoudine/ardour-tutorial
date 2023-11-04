@@ -19,6 +19,6 @@ La fenêtre _Mixer_ comporte 3 grandes sections :
 
 ## Poursuivre
 
-Dans la prochaine section, nous allons jeter un coup d'œil rapide à la fenêtre _Recorder_ qui est rationalisée pour lancer et contrôler l'enregistrement de plusieurs pistes en même temps.
+Dans la prochaine section, nous allons jeter un coup d'œil rapide à la fenêtre _Enregistreur_ qui est rationalisée pour lancer et contrôler l'enregistrement de plusieurs pistes en même temps.
 
 Suivant : [FENÊTRE ENREGISTREUR](../recorder-window)
