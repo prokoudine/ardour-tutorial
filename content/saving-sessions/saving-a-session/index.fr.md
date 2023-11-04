@@ -1,6 +1,6 @@
 +++
-title = "Saving a session"
-description = "How to save and move an Ardour session"
+title = "Sauvegarder une session"
+description = "Comment sauvegarder et déplacer une session Ardour"
 chapter = false
 weight = 1
 +++

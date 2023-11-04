@@ -17,3 +17,4 @@ Contenu :
 3. [Création de pistes et de bus](creating-tracks-and-busses/)
 4. [Import audio et MIDI](importing-audio-and-midi/)
 5. [Configuration de la ligne de temps](setting-up-the-timeline/)
+6. [Installation de greffons](installing_lugins/)

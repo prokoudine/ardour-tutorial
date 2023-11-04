@@ -14,7 +14,7 @@ Une région est simplement une portion de données audio ou MIDI. Par exemple, u
 
 Une piste _audio_ est généralement autonome car elle contient toutes les données nécessaires à la lecture de la musique. Une piste _MIDI_, en revanche, est constituée d'instructions qui doivent être interprétées et exécutées pour fournir un son réel à écouter.
 
-Une région représente un clip audio, c'est-à-dire l'un de vos fichiers audio ou juste une partie d'un fichier audio. Dans l'image ci-dessous, les zones de bande horizontale marquées "*MyTrack*" et "*short-drone-mono*" sont des pistes. Les rectangles contenant des informations audio sont appelés régions (par exemple, la région "*wheels-mono.1*" est contenue dans contenue dans *MyTrack*).
+Une région représente un clip audio, c'est-à-dire l'un de vos fichiers audio ou juste une partie d'un fichier audio. Dans l'image ci-dessous, les zones de bande horizontale marquées "*MyTrack*" et "*short-drone-mono*" sont des pistes. Les rectangles contenant des informations audio sont appelés régions (par exemple, la région "*wheels-mono.1*" est contenue dans *MyTrack*).
 
 ![Pistes](en/Ardour6_Tracks.png?width=30vw)
 
@@ -43,9 +43,7 @@ Alternativement, cliquez sur le menu `Piste > Ajouter une piste, un Bus, ou un V
 ![Ajouter une piste](en/Ardour7_Add_Track_ou_Bus.png?width=45vw)
 
 Ardour propose différents types de pistes en fonction du type de données qu'elles contiennent.
-Ce tutoriel ne traitera que des pistes et bus audio. (voir le [Manuel d'Ardour
-manuel](http://manual.ardour.org/working-with-tracks/track-types/) pour plus de détails
-sur tous les types de pistes ou leur brève explication dans une section ci-dessous).
+Ce tutoriel ne traitera que des pistes et bus audio. (voir le [Manuel d'Ardour](http://manual.ardour.org/working-with-tracks/track-types/) pour plus de détails sur tous les types de pistes ou leur brève explication dans une section ci-dessous).
 
 Choisissez _Pistes audio_ ou _Bus audio_ pour spécifier si vous souhaitez créer des pistes ou des bus audio.
 
@@ -59,7 +57,7 @@ Lorsque vous créez une nouvelle piste MIDI, le nom est automatiquement tiré de
 
 Le menu _Position_ vous permet de choisir où vous voulez placer la nouvelle piste ou le nouveau bus : en premier, en dernier, avant ou après l'instrument virtuel.
 
-Vous pouvez ignorer les autres options pour l'instant. Pour en savoir plus sur chacune d'entre elles, consultez [cette page du manuel complet d'Ardour complet](http://manual.ardour.org/working-with-tracks/adding-tracks-and-busses/).
+Vous pouvez ignorer les autres options pour l'instant. Pour en savoir plus sur chacune d'entre elles, consultez [cette page du manuel complet d'Ardour](http://manual.ardour.org/working-with-tracks/adding-tracks-and-busses/).
 
 Cliquez sur le bouton **Add and Close** pour créer les pistes ou les bus que vous venez de configurer, et fermer automatiquement la fenêtre _Add Track_. Les pistes que vous venez de créer apparaîtront comme de nouvelles lignes dans le canevas principal. Si vous souhaitez ajouter plusieurs pistes avec une configuration différente, optez pour **Add selected items (et laisser la boîte de dialogue ouverte)** à la place.
 
@@ -70,7 +68,7 @@ Lorsque vous ajoutez des pistes et des bus à votre projet, d'autres options son
 **Les bus foldback** sont conçus pour les mixages de monitoring de scène où vous pourriez vouloir donner à chaque interprète un mixage personnalisé qui va directement dans son oreillette.
 Par exemple, plus de section rythmique et moins de section de cuivre dans le mixage d'un guitariste solo. [Voir ici](https://manual.ardour.org/ardours-interface/foldback-strip/) pour plus de détails.
 
-Les **VCA masters** sont une autre façon de regrouper les pistes. Ces bandes de mixage fournissent un seul fader pour plusieurs pistes. Veuillez vous référer au [manuel de l'utilisateur manuel](https://manual.ardour.org/ardours-interface/control-masters/) pour plus d'informations.
+Les **VCA masters** sont une autre façon de regrouper les pistes. Ces bandes de mixage fournissent un seul fader pour plusieurs pistes. Veuillez vous référer au [manuel de l'utilisateur](https://manual.ardour.org/ardours-interface/control-masters/) pour plus d'informations.
 
 ## Poursuivre
 

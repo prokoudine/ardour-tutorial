@@ -1,15 +1,12 @@
 +++
-title = "Installing plugins"
-description = "How to install plugins for Ardour"
+title = "Installation de greffons"
+description = "Comment installer de greffons pour Ardour"
 chapter = false
 weight = 6
 +++
 
-Ardour est déjà livré avec quelques greffons, mais il y a de fortes chances que
-vous ayez besoin de plus que cela :
-un compresseur ou une réverbération plus sophistiqués, un échantillonneur, etc.
-un échantillonneur capable de jouer une bibliothèque d'orchestres de haute qualité,
-un synthétiseur polyphonique, etc.
+Ardour est déjà livré avec quelques greffons, mais il y a de fortes chances que vous ayez besoin de plus que cela :
+un compresseur ou une réverbération plus sophistiqués, un échantillonneur capable de jouer une bibliothèque d'orchestres de haute qualité, un synthétiseur polyphonique, etc.
 
 Ardour supporte plusieurs API de greffons :
 
@@ -17,10 +14,9 @@ Ardour supporte plusieurs API de greffons :
 - **Windows** : LADSPA, LV2, VST2.x, VST3
 - **macOS** : LADSPA, LV2, VST2.x, VST3, AU
 
-Vous pouvez trouver une liste de plugins libres/libre recommandés
-[en annexe](../../appendices/plugins/).
+Vous pouvez trouver une liste de greffons libres/libre recommandés [en annexe](../../appendices/plugins/).
 
-## Installation des plugins
+## Installation des greffons
 
 ### LADSPA et LV2
 
@@ -38,7 +34,7 @@ un dossier `nom du plugin.lv2` soit dans `/usr/local/lib/lv2` ou dans `~/.lv2`.
 Les greffons VST2 n'ont pas d'emplacement recommandé par le vendeur pour l'installation.
 Ce que vous pouvez faire, c'est :
 
-1. Décompresser tous vos plugins VST2.x dans le même dossier.
+1. Décompresser tous vos greffons VST2.x dans le même dossier.
 (Sous Linux, `~/.vst` est généralement suggéré).
 
 2. Dans Ardour, allez dans _Editer > Préférences > greffons > VST_ et dans la section VST2.x,
@@ -51,7 +47,7 @@ Cette approche fonctionne sur tous les systèmes d'exploitation pris en charge.
 
 ### VST3
 
-La spécification VST3 a des chemins système codés en dur pour le stockage des plugins.
+La spécification VST3 a des chemins système codés en dur pour le stockage des greffons.
 Sous Windows et macOS, la plupart du temps, vos greffons sont installés dans le bon dossier.
 Tout ce que vous avez à faire est de re-scanner les dossiers de greffons.
 
@@ -62,7 +58,7 @@ dans `/usr/local/lib/vst3`.
 
 ### AU
 
-Ces plugins spécifiques à macOS sont installés à partir du DMG dans les bons dossiers.
+Ces greffons spécifiques à macOS sont installés à partir du DMG dans les bons dossiers.
 Tout ce que vous avez à faire est de re-scanner ces dossiers.
 
 ## Re-scanner les dossiers pour les greffons installés

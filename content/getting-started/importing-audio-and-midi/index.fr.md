@@ -5,7 +5,7 @@ chapter = false
 weight = 4
 +++
 
-Vous pouvez réutiliser des fichiers audio et MIDI existants en les ajoutant comme régions sur des pistes existantes ou nouvelles. Pour ce faire, appuyez sur le raccourci **Ctrl+I** ou allez dans le menu `Session > Import` pour ouvrir la boîte de dialogue _Add Existing Media_, sélectionnez un fichier d'intérêt et l'importer.
+Vous pouvez réutiliser des fichiers audio et MIDI existants en les ajoutant comme régions sur des pistes existantes ou nouvelles. Pour ce faire, appuyez sur le raccourci **Ctrl+I** ou allez dans le menu `Session > Import` pour ouvrir la boîte de dialogue _Add Existing Media_, sélectionnez votre fichier et importez-le.
 
 {{< figure alt="Add Media" src="en/ardour7-import-as-new-tracks.png" >}} 
 
@@ -17,13 +17,13 @@ Avant d'importer un fichier, il est bon de s'assurer que c'est le bon. Dans la p
 
 Le bouton **Jouer** vous permet de prévisualiser le fichier. Vous pouvez également sélectionner**Lecture automatique** si vous souhaitez écouter un fichier sonore dès que vous cliquez dessus dans le navigateur de fichiers (sans avoir à appuyer sur le bouton **Lecture**).
 
-Pour les fichiers MIDI, vous pouvez sélectionner un instrument virtuel qui sera utilisé pour jouer le fichier MIDI sélectionné. le fichier MIDI sélectionné, bien que vous ne puissiez pas sélectionner un patch de synthétiseur particulier.
+Pour les fichiers MIDI, vous pouvez sélectionner un instrument virtuel qui sera utilisé pour jouer le fichier MIDI sélectionné, bien que vous ne puissiez pas sélectionner un patch de synthétiseur particulier.
 
 ## Choix des pistes et du point d'insertion
 
 Il existe des scénarios courants pour l'import de fichiers multimédias : l'import de plusieurs fichiers audio en tant que nouvelles pistes et les insérer dans le début de la session, importer plusieurs fichiers audio dans la liste des sources disponibles pour une utilisation ultérieure, import d'un fichier MIDI dans une piste existante à la position de la tête de lecture, etc. Il y a donc deux options importantes ici : où insérer une région généralement (quelle piste, si c'est le cas), et à quel endroit de la timeline insérer.
 
-La liste déroulante _Add files ..._ vous permet de choisir la première option, et la liste déroulante _Ajouter des fichiers ..._ vous permet de choisir la première option, et la liste déroulante _Insérer à_ vous permet de choisir la seconde.
+La liste déroulante _Ajouter des fichiers ..._ vous permet de choisir la première option, et la liste déroulante _Insérer à_ vous permet de choisir la seconde.
 
 ## Insertion dans la liste des sources
 
@@ -33,7 +33,7 @@ Commençons par le scénario où vous importez quelques fichiers audio dans la l
 Si vous n'avez pas de fichiers audio appropriés sur votre disque dur pour suivre ces étapes, visitez [freesound.org](http://www.freesound.org/)), où vous pouvez trouver une grande grande collection d'échantillons du domaine public et sous licence Creative Commons dans une dans une variété de taux d'échantillonnage et de formats.
 {{% /notice %}}
 
-Sélectionnez quelques fichiers et dans la liste déroulante _Add files..._ choisissez _to source source_. Assurez-vous que les options _Mapping_ indiquent _une région par fichier_.
+Sélectionnez quelques fichiers et dans la liste déroulante _Add files..._ choisissez _to source list_. Assurez-vous que les options _Mapping_ indiquent _une région par fichier_.
 
 {{< figure alt="Ajouter à la liste des sources" src="en/ardour7-to-source-list.png" >}} 
 

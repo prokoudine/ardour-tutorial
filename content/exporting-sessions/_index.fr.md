@@ -15,4 +15,4 @@ Contenu :
 
 1. [Exporter une session](exporting-a-session/)
 2. [Exporter une région](exporting-a-region/)
-3. [Exporter une plage](exporting-a-range/)
+3. [Exporter un intervalle](exporting-a-range/)
