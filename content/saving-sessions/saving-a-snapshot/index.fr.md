@@ -1,6 +1,6 @@
 +++
-title = "Saving a snapshot"
-description = "How to save and recall a snapshot of an Ardour session"
+title = "Sauvgarder un instantané"
+description = "Comment sauvegarder et rappelerun instantané d'une session Ardour"
 chapter = false
 weight = 2
 +++

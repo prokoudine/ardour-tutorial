@@ -1,6 +1,6 @@
 +++
-title = "Saving a template"
-description = "How to save and use a session template in Ardour"
+title = "Sauvegarder un modèle"
+description = "Comment suavegarder et utilsier un modèle de session dans Ardour"
 chapter = false
 weight = 3
 +++
