@@ -62,6 +62,6 @@ Il y a plusieurs façons d'envisager l'égalisation. Nous espérons que cela vou
 ## Poursuivre
 
 Vous devriez avoir assez d'outils maintenant pour créer un mix stéréo propre et bien spatialisé de votre session.
-Cependant, si vous voulez que les paramètres de vos atténuateurs, de vos panoramiques ou de vos greffons changent dans le temps, alors vous allez explorer le prochain chapitre au sujet de l'automatisation. Dans le cas contraire, sautez directement pour apprendre à _exporter des sessions_
+Cependant, si vous voulez que les paramètres de vos atténuateurs, de vos panoramiques ou de vos greffons changent dans le temps, vous allez devoir explorer le prochain chapitre au sujet de l'automatisation. Dans le cas contraire, sautez directement pour apprendre à _exporter des sessions_
 
 Suivant : [UTILISER L'AUTOMATISATION](../using-automation)
