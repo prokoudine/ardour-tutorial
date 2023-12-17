@@ -1,5 +1,5 @@
 +++
-title= "Dynamique"
+title= "Dynamiques"
 description = " Utiliser limiteurs, compresseurs et gate dans Ardour"
 chapter = false
 weight = 6
