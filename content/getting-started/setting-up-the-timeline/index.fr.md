@@ -29,7 +29,7 @@ Les paramètres d'accrochage sont situés juste en dessous des horloges, à droi
 
 Il existe un commutateur global, _Snap_, puis une liste déroulante de presets de quantification de la grille : _Bar_, _1/4 note_, _1/8 note_ etc, _Timecode_, _Minutes et Secondes_, _CAD frames_, et plus encore.
 
-![Snap](en/Ardour6_Snap_Options_et_Contrôles_de_blocage.png?width=20vw)
+![Snap](en/Ardour6_Snap_Options_and_Nudge_Controls.png?width=20vw)
 
 Lorsque le préréglage de quantification _No Grid_ est sélectionné, aucune grille ne s'affiche sur le canevas des pistes/bus. Dans ce cas, avec le snapping désactivé, rien ne s'accrochera. Et avec le snapping activé, les régions et les notes ne s'accrocheront qu'aux marqueurs d'emplacement.
 
