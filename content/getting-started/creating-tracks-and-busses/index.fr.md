@@ -40,7 +40,7 @@ Une autre utilisation d'un bus serait d'avoir un plugin de réverbération commu
 **Faites un clic droit** dans la zone vide située sous les pistes et les bus existants.
 Alternativement, cliquez sur le menu `Piste > Ajouter une piste, un Bus, ou un VCA...` ( ** raccourci Ctrl+Shift+N** ). La fenêtre suivante apparaîtra :
 
-![Ajouter une piste](en/Ardour7_Add_Track_ou_Bus.png?width=45vw)
+![Ajouter une piste](en/Ardour7_Add_Track_or_Bus.png?width=45vw)
 
 Ardour propose différents types de pistes en fonction du type de données qu'elles contiennent.
 Ce tutoriel ne traitera que des pistes et bus audio. (voir le [Manuel d'Ardour](http://manual.ardour.org/working-with-tracks/track-types/) pour plus de détails sur tous les types de pistes ou leur brève explication dans une section ci-dessous).

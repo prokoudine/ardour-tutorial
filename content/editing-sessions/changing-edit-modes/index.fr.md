@@ -69,7 +69,7 @@ Il suffit de sélectionner une région et d'appuyer sur la touche de raccourci *
 
 ### Étirer/réduire la région
 
-![T](ardour7-stretch-shrink-edit-mode.png?width=20vw)
+![T](en/ardour7-stretch-shrink-edit-mode.png?width=20vw)
 
 Ce mode de curseur (raccourci **T**) vous permet de faire glisser et de redimensionner la durée d'une région entière sans modifier la hauteur. On parle parfois d'"étirement du temps", d'où le raccourci **T**. Voir le chapitre sur _Stretching/Shrinking Regions_ pour plus de détails.
 Lorsque ce mode de curseur est sélectionné, le pointeur du curseur ressemble à une flèche diagonale.
@@ -80,8 +80,7 @@ Lorsque ce mode de curseur est sélectionné, le pointeur du curseur ressemble �
 
 Ce mode (raccourci **D**) a 4 cas d'utilisation :
 
-1. Dessiner de nouveaux points d'automatisation (l'automatisation sera discutée en détail dans la section
-[Utiliser l'automation](../../mixing-sessions/utiliser-automation/)).
+1. Dessiner de nouveaux points d'automatisation (l'automatisation sera discutée en détail dans la section [Utiliser l'automatisation](../../mixing-sessions/using-automation/)).
 2. Dessiner de nouvelles régions MIDI.
 3. Dessiner de nouvelles notes MIDI dans les régions MIDI.
 4. Modification des notes MIDI et des points d'automatisation existants lorsqu'une région est suffisamment zoomée.
