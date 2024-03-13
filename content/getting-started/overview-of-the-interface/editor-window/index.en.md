@@ -38,7 +38,7 @@ in the [Editing sessions](../../../editing-sessions/) chapter.
 
 To the right of the **Smart** button are the _Cursor Modes_:
 
-- _Smart_ mode (**Y** shortcut)
+- _Smart_ mode (**3** shortcut)
 - _Grab_ mode (**G** shortcut)
 - _Range_ mode (**R** shortcut)
 - _Cut_ mode (**C** shortcut)
