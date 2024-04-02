@@ -70,7 +70,7 @@ typically done with the _Plugin Manager_ (_Window > Plugin Manager_).
 {{< figure src="en/plugin-manager.png" alt="Plugin manager" >}}
 
 If you only installed new plugins, discovering those will be sufficient. In
-the left sidebar of the _Plugin Manager_, click **Discover New/Updated**, the
+the left sidebar of the _Plugin Manager_, click **Discover New/Updated**, then
 wait for the scan to finish.
 
 If you removed some of the previously installed plugins, it's best to do a
