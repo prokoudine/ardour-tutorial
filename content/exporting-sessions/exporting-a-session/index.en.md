@@ -37,7 +37,7 @@ adjusment left to do? etc.)
 
 #### Start and End Markers
 
-Finally, make sure the _start_ and _end_ markers on the ocation markers
+Finally, make sure the _start_ and _end_ markers on the location markers
 timeline are in the right place.
 
 Everything included between the _start_ and _end_ markers will be exported, so
