@@ -9,7 +9,7 @@ shortcut). The vast majority of the work there involves tweaking position and
 duration of notes, adjusting velocity, and editing automation. Ardour provides
 tools to edit these settings both interactively and numerically.
 
-So let's review available tool and then do a quick exercise.
+So let's review available tools and then do a quick exercise.
 
 Most of the editing assumes having at least one note selected in a MIDI region.
 We'll start with selecting notes.
