@@ -163,7 +163,7 @@ Regions can also be split by using the playhead or a marker as the edit point.
 The split regions will receive a name derived from the original name of its
 parent region, and you will see this reflected in your regions list. For
 example, in the image above, you see two regions called _pink.15_ and _pink.16_,
-which means there were split from a parent region called "pink" (not shown in
+which means they were split from a parent region called "pink" (not shown in
 image).
 
 {{% notice tip %}}
