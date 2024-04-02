@@ -44,7 +44,7 @@ tracks are heard in the exported file.
 
 ### How to Create a Range Marker and Then Re-select a Range
 
-Range markers are essentially two location markers the are grouped together to mark the beginning and end of a section on the timeline. Range markers look like this:
+Range markers are essentially two location markers that are grouped together to mark the beginning and end of a section on the timeline. Range markers look like this:
 
 {{< figure src="en/ardour7-range-markers.png" alt="Range markers" >}}
 
