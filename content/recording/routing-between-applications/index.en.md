@@ -22,7 +22,7 @@ makes sounds to any JACK-aware recording application such as Ardour.
 All you have to do is launch Qjackctl, start JACK, then start making sounds in
 the browser, then connect browser's outputs to a track in Ardour. You can use
 either Connections or Graph windows in Qjackctl to do that, or you can do it
-directly in Ardour. For that, in the Audio Connection Manager manager switch to
+directly in Ardour. For that, in the Audio Connection Manager switch to
 the _Other_ tab in _Sources_ on the left and connect your browser's output to an
 Ardour track that is called _From YT_ here:
 
