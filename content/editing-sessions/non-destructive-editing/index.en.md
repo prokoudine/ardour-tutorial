@@ -99,7 +99,7 @@ audio file per channel. So if you did three takes in a stereo track, you'll have
 ## Does Ardour ever change audio data on disk?
 
 The only time Ardour does anything to actual audio files on the disk is when you
-explicitely tell you to remove audio files that aren't used anywhere in the
+explicitely it you to remove audio files that aren't used anywhere in the
 project. Typically this is done when you did dozens of takes, you made your
 choice and you don't want these files on the disk anymore because they take
 space.
