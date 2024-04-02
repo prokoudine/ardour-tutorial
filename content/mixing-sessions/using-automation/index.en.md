@@ -258,7 +258,7 @@ automation.
 
 The screenshot above shows a simple gradual fade starting from the first region
 in the track, and ending at the last region. It's very straightforward to do
-this with fader automation, but but it would be much harder to do it using
+this with fader automation, but it would be much harder to do it using
 region-specific automation.
 
 ## Continuing
