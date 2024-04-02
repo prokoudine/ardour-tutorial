@@ -61,7 +61,7 @@ Another command that effectively adjusts the duration of notes is _Legatize_.
 When you have two notes that begin at different positions on the timeline,
 _Legatize_ adjusts the end of the note that begins earlier so that it ends
 exactly where the second note begins. This might mean either expanding or
-shrinking the duration of the the earlier note:
+shrinking the duration of the earlier note:
 
 {{< figure src="en/legatize.png" alt="legatize" >}}
 
