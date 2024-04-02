@@ -74,6 +74,6 @@ state of the session will be preserved.
 Saving an entire session allows you to open it again at a later time. However, if you
 would like to preserve a certain state that your session is in, to be able to return to
 that state later on after you have made changes, then please continue to the
-next session called _Saving a Snapshot_. 
+next section called _Saving a Snapshot_. 
 
 Next: [SAVING A SNAPSHOT](../saving-a-snapshot)
