@@ -74,7 +74,7 @@ List and rebuild the pattern with them.
 ## Duplicating the Range
 
 After you have merged individual regions that form your pattern (using
-either _Combine_) or _Consolidate)_), it's time to duplicate the
+either _Combine_ or _Consolidate_), it's time to duplicate the
 pattern to make it loop for several bars.
 
 The _Multi-Duplicate_ feature (seen in the [Working with
