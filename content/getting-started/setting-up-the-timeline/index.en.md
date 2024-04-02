@@ -62,7 +62,7 @@ And with snapping enabled, regions and notes will only snap to location markers.
 
 The _timeline_ is located below the snapping settings, just above the main
 canvas. By right-clicking on the timeline labels (i.e., right-click on the
-left-side area where the words "Timecode, Bar:Beats, Meter" etc are displayed),
+left-side area where the words "Timecode, Bars:Beats, Meter" etc are displayed),
 you can set the check boxes to show or hide the different types of time
 information.
 
