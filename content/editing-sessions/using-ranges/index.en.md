@@ -71,7 +71,7 @@ the two commands:
 1. _Loop Range_ (on the screenshot above) to create a loop and start playing it
 immediately.
 
-2. _Set loop from selection_ to only create loop markers withut immediate
+2. _Set loop from selection_ to only create loop markers without immediate
 playback.
 
 {{< figure src="en/ardour7-looped-range-playback.png" alt="Looped range playback" >}}
