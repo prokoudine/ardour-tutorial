@@ -46,7 +46,7 @@ window or the _Mixer_ window.
 
 ### Regular & Narrow Modes
 
-The mixer strip can be switched between  the regular width and a more narrow
+The mixer strip can be switched between the regular width and a more narrow
 width to conserve space. The very top part of the mixer strip, pictured below,
 switches between regular and narrow modes using the left button. The button with
 an eye icon hides the mixer strip entirely (you can re-enable it later).
