@@ -97,7 +97,7 @@ point and click in the empty space right before or after the name.
 Important: always make sure you are placing stereo regions on stereo tracks. If
 you drag a stereo file onto a mono audio track, only the left channel will be
 used. In the screenshot below, a stereo file with very distinct left and right
-channels was dragged onto a stereo track and a nono track. Notice that in the
+channels was dragged onto a stereo track and a mono track. Notice that in the
 mono track only the left channel is displayed (and played back).  
 
 {{< figure alt="Stereo Mono" src="en/Ardour4_Stereo_Mono_Comparison.png" >}} 
