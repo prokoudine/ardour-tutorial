@@ -5,7 +5,7 @@ chapter = false
 weight = 2
 +++
 
-This glossary offers brief definitions for many of the terms used throuhout the Ardour3 FLOSS Tutorial.
+This glossary offers brief definitions for many of the terms used throughout the Ardour 8 FLOSS Tutorial.
 
 **Aggregate Device** (macOS)
 : An Aggregate Device is one virtual soundcard made of two or more
