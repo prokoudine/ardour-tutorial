@@ -74,7 +74,7 @@ List and rebuild the pattern with them.
 ## Duplicating the Range
 
 After you have merged individual regions that form your pattern (using
-either _Combine_) or _Consolidate)_), it's time to duplicate the
+either _Combine_ or _Consolidate_), it's time to duplicate the
 pattern to make it loop for several bars.
 
 The _Multi-Duplicate_ feature (seen in the [Working with
@@ -89,7 +89,7 @@ Just for review, other options you could have used for duplication are:
 
 - The _Fill Track_ command from menu `Region > Duplicate > Fill Track`. This
 would fill the entire track with copies of the selected regions, all the way up
-to the_End Marker_. 
+to the _End Marker_. 
 
 - The single _Duplicate_ command from the same menu (**Alt+D**). This
 lets you make a single copy at a time. 

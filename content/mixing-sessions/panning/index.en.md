@@ -41,7 +41,7 @@ A more extensive discussion of panning philosophy and techniques is beyond the
 scope of this tutorial, but here are some general rules of thumb:
 
 * Guitars tend to be panned to the left and right.
-* Vocals and bass tend to placed in the center. You want to create
+* Vocals and bass tend to be placed in the center. You want to create
 a balance so that one side is not louder then the other.
 * Headphones may be helpful in determining how instruments should be panned, and
 whether the mix feels lopsided because one side is too loud.

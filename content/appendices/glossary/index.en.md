@@ -5,10 +5,10 @@ chapter = false
 weight = 2
 +++
 
-This glossary offers brief definitions for many or the terms used throuhout the Ardour3 FLOSS Tutorial.
+This glossary offers brief definitions for many of the terms used throughout the Ardour 8 FLOSS Tutorial.
 
 **Aggregate Device** (macOS)
-: An Aggregate Device is one virtual soundcard made of of two or more
+: An Aggregate Device is one virtual soundcard made of two or more
 physical soundcards. PowerBooks and MacBooks made in 2007 or later will
 need this set up in order for _JACK_ to have both input and output
 channels. This is set up in the _Audio MIDI Setup_ application.
@@ -218,9 +218,9 @@ Regions.
 
 **Decibels**
 : Decibel is a logarithmic scale used to measure many quantities,
-including the gain_, level_ or loudness_ of a signal. Decibel
+including the _gain_, _level_ or _loudness_ of a signal. Decibel
 is usually abbreviated to dB and in digital audio usually denotes how
-far under 0 dBFS (the clipping_ point of a system) a signal is. 
+far under 0 dBFS (the _clipping_ point of a system) a signal is. 
 
 **Delay** (effect)
 : The amount of time between one event and another. As an audio effect, a delay
@@ -236,7 +236,7 @@ data (sound files) in the course of editing or recording.
 **Distortion** : Distortion occurs when an audio signal is changed in some way
 that produces _frequencies_ not present in the original. Distortion can be
 deliberate or unwanted, and can be produced by driving the signal to a
-_clipping_point_, or by using mathematical transformations to alter the shape (or
+_clipping point_, or by using mathematical transformations to alter the shape (or
 "waveform") of the signal (usually referred to as "waveshaping").
 
 **Disk Image (.dmg)**
@@ -256,13 +256,13 @@ ALSA is the most common Linux driver.
 
 **Dynamic Range**
 : Used to refer to the difference between the loudest and the quietest
-sound that can possibly recorded, as well as the amount of detail which
+sound that can possibly be recorded, as well as the amount of detail which
 can be heard in between those extremes. Sounds which are too quiet to be
-recorded are said to be below the **noise floor**of the recording system
+recorded are said to be below the **noise floor** of the recording system
 (microphone, recorder, sound card, audio software, etc). Sounds which
-are too loud will be **distorted**or **clipped**. 
+are too loud will be **distorted** or **clipped**. 
 
-**Edit** **Modes**
+**Edit Modes**
 : The three available Edit Modes (**Slide Edit**, **Slice Edit**, and
 **Lock Edit**) control the behavior of editing operations in the **Main
 Canvas**.
@@ -326,7 +326,7 @@ of a sound. Frequency is a **linear** scale, while pitch is
 Hz. The 'A' one octave above is twice that frequency (880 Hz).
 
 **Gain**
-: Increasing the **level**of an audio signal, usually measured using a
+: Increasing the **level** of an audio signal, usually measured using a
 **logarithmic** scale. See also **attenuation**.
 
 **Grid**
@@ -342,14 +342,14 @@ multiple of beats.
 : A term used to describe the number of times something occurs in one
 second. In digital audio, it is used to describe the **sampling rate**,
 and in acoustics it is used to describe the **frequency** of a sound.
-Thousands of Herz are described as kHz (kilo Herz). 
+Thousands of Hertz are described as kHz (kilo Hertz). 
 
 **High Shelf**
 : In an **Equalizer**, a **Shelf** cuts or boosts everything above (High
 Shelf) or below (Low Shelf) a specific frequency.
 
 **Headroom**
-: The range of **Decibels** between the region's maximum **Peak**and the
+: The range of **Decibels** between the region's maximum **Peak** and the
 **Clipping Point** is commonly referred to as **Headroom**. It is common
 recording practice to keep approximately three to six Decibels of
 Headroom between the maximum of your signal and the Clipping Point.
@@ -416,7 +416,7 @@ logarithmic.
 
 **Linux kernel**
 : The core of the GNU/Linux operating system. In a **Real-time System**,
-this kernel is usually **Compiled**with new parameters which speed up
+this kernel is usually **Compiled** with new parameters which speed up
 the use of audio applications in the system. 
 
 **Lock Edit**
@@ -482,14 +482,14 @@ velocity (intensity), note-on, and note-off.
 
 **Mixer Strip**
 : Each track and bus is represented in the Mixer Window by a vertical
-Mixer Strip** that contains various controls related to signal flow.
+**Mixer Strip** that contains various controls related to signal flow.
 There are two places in Ardour in which you can see mixer strips. The
 mixer window is the obvious one, but you can also view a single mixer
 strip on the left hand side of the Editor (shift + E to hide/view) 
 
 **Mixer Window**
 : The Mixer shows the session by representing tracks vertically as Mixer
-Strips, with controls for gain, record enable, soloing, plugins etc. The
+Strips, with controls for gain, record enable, soloing, plugins, etc. The
 Mixer represents the signal flow of Tracks and Busses in an Ardour
 session. The mixer window provides a view that mimics a traditional
 hardware mixing console.
@@ -546,7 +546,7 @@ octave below is 220 Hz.
 : Panning is the location of sounds in the **Stereo Field**. 
 
 **Parametric Equalizer**
-: The Parametric Equalizer is the most versatile type of**EQ** used for
+: The Parametric Equalizer is the most versatile type of **EQ** used for
 **Mixing** because of its extensive control over all the parameters of
 filtering. 
 
@@ -582,7 +582,7 @@ equalizers are examples of plugins that can be used in Ardour in
 association with Tracks or Busses.
 
 **Portaudio**
-: A free and open source set of **audio drivers**for Linux and macOS.
+: A free and open source set of **audio drivers** for Linux and macOS.
 
 **Post-Fader** (Plugin or Send)
 : In the Mixer Strip, the post-fader area is the black space below the
@@ -672,7 +672,7 @@ be looped (played over and over) and one-shot (played once).
 
 **Sampling Rate**
 : The rate at which the computer records and plays back sound, which is
-measured in **Hertz**representing the number of **samples**per second.
+measured in **Hertz** representing the number of **samples** per second.
 CD audio is recorded and played at 44,100 Hz (or 44.1 kHz), while DVD
 audio runs at 96,000 Hz (96 kHz) and cheap consumer gadgets like voice
 recorders, video games, mobile phones, toys and some MP3 players often
@@ -709,7 +709,7 @@ default mode. It allows you to drag regions around horizontally (within
 the same track) and vertically (between tracks).
 
 **SMPTE timecode**
-: : A set of cooperating standards to label individual frames of video
+: A set of cooperating standards to label individual frames of video
 or film with a timecode defined by the Society of Motion Picture and
 Television Engineers. Timecodes are added to film, video or audio
 material, and have also been adapted to synchronize music. They provide
@@ -717,7 +717,7 @@ a time reference for editing, synchronization and identification.
 
 **Snap Mode**
 : The **Snap Mode** menus are found just below the **Clocks**. They
-control the amount **Quantization** of the time grid, i.e., the amount
+control the amount of **Quantization** of the time grid, i.e., the amount
 of "snap" an audio **Region** has to the type of grid you have chosen.
 
 **Snapshots**
@@ -775,7 +775,7 @@ music.
 
 **Track**
 : A Track is the place to where you can drag a **Region** from your
-**Region List**and where you can record sounds coming from an
+**Region List** and where you can record sounds coming from an
 outside source. The Mixer Strip vertically represents the signal flow of
 a track, whereas the Main Canvas horizontally displays time-based
 information for each track. 

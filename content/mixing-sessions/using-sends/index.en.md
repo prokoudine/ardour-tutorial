@@ -127,7 +127,7 @@ increase or decrease its volume.
 The _Drums_ bus is now receiving the sum of all tracks, and applying the effect
 to it. A single plugin applied to the bus controls the effect for the mix of all
 drum sounds routed there. This way, you have independent control over the "dry"
-sound of the original tracks, and the "wet" sound of coming out of the bus. 
+sound of the original tracks, and the "wet" sound coming out of the bus. 
 
 Because sends are very useful for this kind of work with effect plugins, they
 are also commonly called "Effect Sends".

@@ -9,7 +9,7 @@ shortcut). The vast majority of the work there involves tweaking position and
 duration of notes, adjusting velocity, and editing automation. Ardour provides
 tools to edit these settings both interactively and numerically.
 
-So let's review available tool and then do a quick exercise.
+So let's review available tools and then do a quick exercise.
 
 Most of the editing assumes having at least one note selected in a MIDI region.
 We'll start with selecting notes.
@@ -61,7 +61,7 @@ Another command that effectively adjusts the duration of notes is _Legatize_.
 When you have two notes that begin at different positions on the timeline,
 _Legatize_ adjusts the end of the note that begins earlier so that it ends
 exactly where the second note begins. This might mean either expanding or
-shrinking the duration of the the earlier note:
+shrinking the duration of the earlier note:
 
 {{< figure src="en/legatize.png" alt="legatize" >}}
 

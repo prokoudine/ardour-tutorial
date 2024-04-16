@@ -6,7 +6,7 @@ weight = 1
 +++
 
 There are a number of ways to save Sessions in Ardour, so that each session
-can be use later on. The simplest way is to save the entire session just like
+can be used later on. The simplest way is to save the entire session just like
 you would save other documents: hitting **Ctrl+S**.
 
 A new session is first saved at the moment you create it. While you are working
@@ -71,9 +71,9 @@ state of the session will be preserved.
 
 ## Continuing
 
-Saving an entire allows you to open it again at a later time. However, if you
-would like to preserve a certain state that your is in, to be able to return to
+Saving an entire session allows you to open it again at a later time. However, if you
+would like to preserve a certain state that your session is in, to be able to return to
 that state later on after you have made changes, then please continue to the
-next session called _Saving  a Snapshot_. 
+next section called _Saving a Snapshot_. 
 
 Next: [SAVING A SNAPSHOT](../saving-a-snapshot)

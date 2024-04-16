@@ -58,7 +58,7 @@ While moving a region, a _timecode_ will appear on the screen in yellow numbers.
 This timecode is the region's starting point on the timeline. The unit of this
 timecode is the same as the unit of the primary clock, which you can change by
 right-clicking on the clock and choosing a new unit (_Minutes:Seconds_,
-_Bar:Beats_, etc).
+_Bars:Beats_, etc).
 
 You can move regions horizontally (sideways) to a different point in time on the
 same track, or you can move the selected region vertically (up or down) to a
@@ -163,7 +163,7 @@ Regions can also be split by using the playhead or a marker as the edit point.
 The split regions will receive a name derived from the original name of its
 parent region, and you will see this reflected in your regions list. For
 example, in the image above, you see two regions called _pink.15_ and _pink.16_,
-which means there were split from a parent region called "pink" (not shown in
+which means they were split from a parent region called "pink" (not shown in
 image).
 
 {{% notice tip %}}

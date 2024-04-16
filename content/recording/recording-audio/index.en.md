@@ -144,7 +144,7 @@ distortion. The clipped peaks in the waveform are marked in red.
 
 The best and easiest way to avoid clipping is have some control over the volume
 of the incoming audio signal before it gets to the sound card. For example, you
-can can move the microphone further away from the sound being recorded or use a
+can move the microphone further away from the sound being recorded or use a
 mixer to reduce the volume of the incoming signal. 
 
 When the audio signal has been recorded within proper limits, you should see no
