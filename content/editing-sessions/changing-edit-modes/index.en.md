@@ -85,7 +85,7 @@ Simply select a region and hit the shortcut key **H**.
 
 ### Stretch/Shrink Region
 
-![T](ardour7-stretch-shrink-edit-mode.png?width=20vw)
+![T](en/ardour7-stretch-shrink-edit-mode.png?width=20vw)
 
 This cursor mode (**T** shortcut) allows you to drag and resize the duration of
 an entire region without changing the pitch. This is sometimes called "time
