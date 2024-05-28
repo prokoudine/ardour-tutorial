@@ -105,8 +105,14 @@ All the changes you make will be written (recorded) as an automation line, which
 then you can play back later by switching the automation mode back to _Play_.
 
 **Touch**
-: This mode is similar to the _Write_ mode but it won't record over existing
+: This mode is similar to the _Write_ mode, but it won't record over existing
 automation data unless the parameter is being changed.
+
+**Latch**
+: This mode is similar to the _Touch_ mode, but it will also change automation
+when the control is changed in some way during session playback. It will also
+overwrite the automation curve with the last value it was changed to until
+playback is stopped.
 
 If these concepts are new to you, focus now on just the first two modes
 (_Manual_ and _Play_) and practice creating automation by drawing automation
