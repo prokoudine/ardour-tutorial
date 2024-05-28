@@ -263,7 +263,7 @@ recorded are said to be below the **noise floor** of the recording system
 are too loud will be **distorted** or **clipped**. 
 
 **Edit Modes**
-: The three available Edit Modes (**Slide Edit**, **Slice Edit**, and
+: The three available Edit Modes (**Slide Edit**, **Ripple Edit**, and
 **Lock Edit**) control the behavior of editing operations in the **Main
 Canvas**.
 
@@ -470,15 +470,15 @@ position of the source signals are commonly manipulated and effects such
 as reverb may be added. 
 
 **MIDI**
-: MIDI is an industry-standard protocol defined
-in^[](http://en.wikipedia.org/wiki/Musical_Instrument_Digital_Interface#cite_note-0)^
-1982 that enables electronic musical instruments such as keyboard
-controllers, computers and other electronic equipment to communicate,
-control, and synchronize with each other. MIDI allows computers,
-synthesizers, MIDI controllers, sound cards, samplers and drum machines
-to control one another, and to exchange system data. MIDI does not
-transmit audio signals, but simply messages such as note number (pitch),
-velocity (intensity), note-on, and note-off.
+: MIDI is an industry-standard protocol [defined in
+1982](http://en.wikipedia.org/wiki/Musical_Instrument_Digital_Interface#cite_note-0),
+that enables electronic musical instruments such as keyboard controllers,
+computers and other electronic equipment to communicate, control, and
+synchronize with each other. MIDI allows computers, synthesizers, MIDI
+controllers, sound cards, samplers and drum machines to control one another,
+and to exchange system data. MIDI does not transmit audio signals, but simply
+messages such as note number (pitch), velocity (intensity), note-on, and
+note-off.
 
 **Mixer Strip**
 : Each track and bus is represented in the Mixer Window by a vertical
@@ -560,15 +560,14 @@ Region, and are located next to the Fader in the Mixer Window, and also
 in the Track Mixer, of each Track. 
 
 **Pitch**
-: Pitch represents the perceived fundamental frequency of a
-sound.^[](http://en.wikipedia.org/wiki/Pitch_(music)#cite_note-0)^^^It
-is one of the three major auditory attributes of sounds along with
-loudness and timbre. In MIDI, pitch is represented by a number between 0
-and 127, with each number representing a key on a MIDI keyboard. The
-relation of pitch to **Frequency** is **Logarithmic**. This means that a
-sound which is heard as one **Octave**(+12 MIDI notes) above another one
-is twice the frequency in Hz, while a sound one octave below (-12 MIDI
-notes) is half the frequency.
+: Pitch [represents](http://en.wikipedia.org/wiki/Pitch_(music)#cite_note-0)
+the perceived fundamental frequency of a sound. It is one of the three major
+auditory attributes of sounds along with loudness and timbre. In MIDI, pitch
+is represented by a number between 0 and 127, with each number representing a
+key on a MIDI keyboard. The relation of pitch to **Frequency** is
+**Logarithmic**. This means that a sound which is heard as one **Octave**(+12
+MIDI notes) above another one is twice the frequency in Hz, while a sound one
+octave below (-12 MIDI notes) is half the frequency.
 
 **Playhead**
 : In Ardour, the Playhead is the red line that moves in time (i.e., left
@@ -625,14 +624,13 @@ track does not remove the audio file from the disk.
 and it shows all the regions associated with the session. 
 
 **Reverberation**
-: Reverberation is the persistence of sound in a particular space after
-the original sound source is
-removed.^[](http://en.wikipedia.org/wiki/Reverberation#cite_note-0)^^^A
-reverberation, or reverb, is created when a sound is produced in an
-enclosed space causing a large number of echoes to build up and then
-slowly decay as the sound is absorbed by the walls and air. Digital
-reverberation can be added to a sound in Ardour through the use of
-plugins. 
+: Reverberation is the [persistence of
+sound](http://en.wikipedia.org/wiki/Reverberation#cite_note-0) in a particular
+space after the original sound source is removed. A reverberation, or reverb,
+is created when a sound is produced in an enclosed space causing a large
+number of echoes to build up and then slowly decay as the sound is absorbed by
+the walls and air. Digital reverberation can be added to a sound in Ardour
+through the use of plugins. 
 
 **Right Click** (mouse)
 : Click on the right button of your mouse.
