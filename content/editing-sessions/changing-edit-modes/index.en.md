@@ -9,7 +9,7 @@ We have already learned a bit about the _Grab_ mode (select/move objects) and
 _Range_ mode. In this chapter we will get an overview of all the _edit modes_
 and _cursor modes_ available on that part of the _Editor_ window.
 
-![Ardour Edit Modes](en/Ardour6_Edit_Modes_Cursor_Modes.png?width=30vw)
+![Ardour Edit Modes](en/ardour8-edit-modes.png?width=30vw)
 
 ## Edit Modes
 
@@ -35,27 +35,51 @@ but not left or right.
 
 We will only use the _Slide_ edit mode in this tutorial.
 
-## Cursor Modes
-### Grab Mode
+## Edit point
 
-![G](en/ardour7-grab-edit-mode.png?width=20vw)
+The edit point defines where various editing operations happen. When using
+cutting/splitting as an example...
+
+**Playhead**
+: Regions will be split at the playhead position.
+
+**Marker**
+: Regions will be split at the last marker that is within the range
+of the selected region.
+
+**Mouse**
+: The selected region will be split exactly under the mouse pointer.
+
+## Cursor modes
+
+### Grab mode
+
+![G](en/ardour8-grab-edit-mode.png?width=20vw)
 
 This cursor mode (**G** shortcut) allows you to select or move objects such as
 regions and breakpoints (in an automation curve). When this cursor mode is
 selected, your cursor pointer will look like a little hand icon.
 
-### Range Mode
+### Range mode
 
-![R](en/ardour7-range-edit-mode.png?width=20vw)
+![R](en/ardour8-range-edit-mode.png?width=20vw)
 
 This cursor mode (**R** shortcut) allows you to click and drag to define or
 resize time ranges.  When this cursor mode is selected, your cursor pointer will
 look like a vertical line. Time ranges can be selected over one or several
 tracks, depending on the selection of your tracks.
 
-### Cut Mode
+## Smart mode
 
-![C](en/ardour7-cut-edit-mode.png?width=20vw)
+![3](en/ardour8-smart-mode.png?width=20vw)
+
+When this mode is enabled, depending on where exactly above the region the
+mouse pointer is, Ardour will provide either grabbing functions (e.g. grabbing
+and relocating a region) or range functions (selecting a range).
+
+### Cut mode
+
+![C](en/ardour8-cut-edit-mode.png?width=20vw)
 
 Use this cursor mode (**C** shortcut) to split regions into smaller regions. The
 cursor turns into the shape of scissors. This allows you to point and click on a
@@ -69,23 +93,9 @@ the desired location on the region to be cut, and hit the **S** shortcut (for
 be set to _Mouse_.
 {{% /notice %}}
 
-### Audition Mode
+### Stretch/Shrink region
 
-![Audition](en/ardour7-audition-edit-mode.png?width=20vw)
-
-This cursor mode allows you to click on any existing region on any track and
-have it immediately played back. Playback stops at the end of the region. When
-this cursor mode is selected, your cursor pointer will look like a small
-loudspeaker icon.
-
-{{% notice tip %}}
-You can also quickly audition a selected region without leaving the _Grab_ mode.
-Simply select a region and hit the shortcut key **H**.
-{{% /notice %}}
-
-### Stretch/Shrink Region
-
-![T](en/ardour7-stretch-shrink-edit-mode.png?width=20vw)
+![T](en/ardour8-stretch-shrink-edit-mode.png?width=20vw)
 
 This cursor mode (**T** shortcut) allows you to drag and resize the duration of
 an entire region without changing the pitch. This is sometimes called "time
@@ -93,9 +103,24 @@ stretching', hence the **T** shortcut. Please see the chapter on
 _Stretching/Shrinking Regions_ for more details. When this cursor mode is
 selected, your cursor pointer will look like a diagonal arrow.
 
-### Draw Mode
+### Grid mode
 
-{{< figure alt="D" src="en/ardour7-draw-edit-mode.png" >}}
+{{< figure alt="D" src="en/ardour8-grid-mode.png" >}}
+
+This mode (**Y** shortcut) allows editing the tempo map to accomodate for
+tempo fluctuations of a live session recorded as an audio track. This will
+make the audio track the reference, MIDI regions built based on this tempo map
+will sync to original audio perfectly.
+
+Clicking above a bar line inserts a new tempo marker, and dragging left and
+right immediately after that increases/decreases the tempo value.
+
+Clicking and dragging between bar lines left or right creates a tempo ramp — a
+gradual change in tempo between two tempo markers.
+
+### Draw mode
+
+{{< figure alt="D" src="en/ardour8-draw-edit-mode.png" >}}
 
 This mode (**D** shortcut) has 4 use cases:
 
@@ -114,9 +139,9 @@ creating new ones.
 For drawing MIDI notes, the toolbar additionally has controls for default note
 length, MIDI channel, and velocity.
 
-### Internal Edit Mode
+### Internal edit mode
 
-![E](en/ardour7-internal-edit-mode.png?width=20vw)
+![E](en/ardour8-internal-edit-mode.png?width=20vw)
 
 Use this mode (**E** shortcut) to edit existing automation points or MIDI notes.
 
