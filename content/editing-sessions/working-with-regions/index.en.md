@@ -148,7 +148,7 @@ want to split; or
 In this last case, the point at which a region will be split depends on the
 currently selected edit point. If _Mouse_ is selected as your current edit
 point, select a region and place the cursor at the point you would like to
-_Split_, then type **S**" (same as going to menu `Edit > Split Region`).
+_Split_, then type **S**" (same as going to menu `Edit > Split/Separate`).
 
 {{< figure alt="Split" src="en/Ardour4_Split_Region.png" >}}
 
