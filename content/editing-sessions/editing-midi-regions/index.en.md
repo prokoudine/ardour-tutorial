@@ -186,7 +186,7 @@ somewhere between 56 and 64.
 
 8. Finally, click the first note of the first bar and use mouse wheel scrolling
 to set its velocity to 82, then repeat for the first note of the second bar. You
-will now how a regular velocity pattern where the first note of each bar sounds
+will now have a regular velocity pattern where the first note of each bar sounds
 louder than the rest of the notes in each bar.
 
 {{< figure src="en/example-regular-velocity-pattern.png" alt="" >}}
