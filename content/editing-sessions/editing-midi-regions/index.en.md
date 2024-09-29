@@ -196,6 +196,6 @@ louder than the rest of the notes in each bar.
 This was the last chapter of the _Editing Regions_ section. Next we go into
 _Mixing_.
 
-Next: [MIXING SESSIONS](../../mixing-sessions/the-mixer-strip/)
+Next: [PERFORMING LIVE](../../performing-live/)
 
 <!-- ## Editing and creating automation -->
