@@ -21,10 +21,10 @@ toolbar (or press the **\`** shortcut).
 
 If the metronome clicks are not audible, go to `Window > Audio Connections`,
 click _Ardour Misc_ on the left and see if the _Click out_ ports are connected
-to the Master bus. This will make the metronome clicks play through the same
-output as the rest of your session.
+to the right hardware outputs (or any at all). This will make the metronome
+clicks audible when you record and play, but not audible in the final mix.
 
-![Click out ports connected to the master bus](en/click-out-ports.png?width=40vw)
+![Click out ports connected to the master bus](en/click-out-ports.png?width=33vw)
 
 There are also a handful of customization options for the metronome on the
 same-name _Preferences_ dialog page: doing (or not) an emphasis on the first
