@@ -2,11 +2,11 @@
 title = "Saving sessions"
 description = "Saving sessions, snapshots, templates in Ardour"
 chapter = true
-weight = 7
-pre = "<b>7. </b>"
+weight = 8
+pre = "<b>8. </b>"
 +++
 
-### Chapter 7
+### Chapter 8
 # Saving sessions
 
 How to save a session, a snapshot of it, and a template for further reuse

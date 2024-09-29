@@ -2,11 +2,11 @@
 title = "Sauvegarder des sessions"
 description = "Sauvegarder sessions, instantanés et modèles dans Ardour"
 chapter = true
-weight = 7
-pre = "<b>7. </b>"
+weight = 8
+pre = "<b>8. </b>"
 +++
 
-### Chapitre 7
+### Chapitre 8
 # Sauvegarder des sessions
 
 Comment sauvegarder une session, un instantané de celle-ci et un modèle pour une réutilisation ultérieure ?
