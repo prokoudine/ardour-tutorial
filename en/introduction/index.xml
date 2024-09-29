@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Introduction on Ardour tutorial</title><link>https://prokoudine.github.io/ardour-tutorial/en/introduction/</link><description>Recent content in Introduction on Ardour tutorial</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://prokoudine.github.io/ardour-tutorial/en/introduction/index.xml" rel="self" type="application/rss+xml"/><item><title>Conventions</title><link>https://prokoudine.github.io/ardour-tutorial/en/introduction/conventions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/introduction/conventions/</guid><description>Below are some basic conventions we have adopted in this manual.
-Mouse Clicks Ardour requires a two-button mouse to run (or the emulation of that on your system in some other way). A click is assumed to be a left button mouse click. A right-click refers to the right-hand button on the mouse. A Ctrl, Cmd or Apple key pressed with a mouse click is not the same and may in fact give a different result.</description></item><item><title>What is digital audio?</title><link>https://prokoudine.github.io/ardour-tutorial/en/introduction/what-is-digital-audio/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/introduction/what-is-digital-audio/</guid><description>Ardour is a digital audio workstation (DAW). Beforing using it to record and edit sound, it might be useful to review how digital audio works.
-Frequency and Gain Imagine a loudspeaker. To move the air in front of it and make sound, the membrane of the speaker must vibrate from its center position (at rest) backwards and forwards.
-The number of times the membrane vibrates each second determines the frequency (the note, or pitch) of the sound you hear.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Introduction on Ardour tutorial</title><link>https://prokoudine.github.io/ardour-tutorial/en/introduction/</link><description>Recent content in Introduction on Ardour tutorial</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://prokoudine.github.io/ardour-tutorial/en/introduction/index.xml" rel="self" type="application/rss+xml"/><item><title>Conventions</title><link>https://prokoudine.github.io/ardour-tutorial/en/introduction/conventions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/introduction/conventions/</guid><description>&lt;p>Below are some basic conventions we have adopted in this manual.&lt;/p>
+&lt;h2 id="mouse-clicks">Mouse Clicks&lt;/h2>
+&lt;p>Ardour requires a two-button mouse to run (or the emulation of that on
+your system in some other way). A &lt;strong>click&lt;/strong> is assumed to be a left
+button mouse click. A &lt;strong>right-click&lt;/strong> refers to the right-hand button on
+the mouse. A &lt;strong>Ctrl&lt;/strong>, &lt;strong>Cmd&lt;/strong> or &lt;strong>Apple&lt;/strong> key pressed with a mouse
+click is not the same and may in fact give a different result.&lt;/p></description></item><item><title>What is digital audio?</title><link>https://prokoudine.github.io/ardour-tutorial/en/introduction/what-is-digital-audio/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/introduction/what-is-digital-audio/</guid><description>&lt;p>&lt;strong>Ardour&lt;/strong> is a digital audio workstation (DAW). Beforing using it to
+record and edit sound, it might be useful to review how digital audio
+works.&lt;/p>
+&lt;h2 id="frequency-and-gain">Frequency and Gain&lt;/h2>
+&lt;p>Imagine a loudspeaker. To move the air in front of it and make sound,
+the membrane of the speaker must vibrate from its center position (at
+rest) backwards and forwards.&lt;/p>
+&lt;p>The number of times the membrane vibrates each second determines the
+&lt;em>frequency&lt;/em> (the note, or &lt;em>pitch&lt;/em>) of the sound you hear. The distance the
+membrane travels from its resting point determines the &lt;em>amplitude&lt;/em> (the
+volume, or &lt;em>loudness&lt;/em>) of the sound. Normally, we measure frequency in
+&lt;em>Hertz&lt;/em> (Hz) and amplitude in &lt;em>decibels&lt;/em> (dB).&lt;/p></description></item></channel></rss>

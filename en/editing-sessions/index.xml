@@ -1,20 +1,141 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Editing sessions on Ardour tutorial</title><link>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/</link><description>Recent content in Editing sessions on Ardour tutorial</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/index.xml" rel="self" type="application/rss+xml"/><item><title>Non-destructive editing</title><link>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/non-destructive-editing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/non-destructive-editing/</guid><description>In one of the previous chapters we already discussed that Ardour operates on sessions that encompass all material you have: audio clips, MIDI clips, all effects applied to tracks and busses etc. Before we get to actual editing, let&amp;rsquo;s talk about basics of non-destructive editing, how it&amp;rsquo;s implemented in Ardour, and why it should give you peace of mind when you do some heavy editing.
-What does non-destructive editing actually mean?</description></item><item><title>Arranging tracks</title><link>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/arranging-tracks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/arranging-tracks/</guid><description>In the following chapters we will use Ardour to create a short rhythmic passage using several drumkit samples.
-We will continue working on this passage in later tutorials, such as Working with Regions and Creating Looped Sections. We assume that you have read the chapters in the Getting Started section already, and are familiar with Importing Audio, Tracks, and the Timeline.
-Importing Samples The first step is to add some sounds, which is discussed at length in the Importing Audio chapter.</description></item><item><title>Setting up time signature</title><link>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/setting-up-time-signature/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/setting-up-time-signature/</guid><description>The time signature determines the musical speed of the passage we are composing and is measured in beats per bars.
-If we are composing something rhythmic, it will also determine the lengths of the sound samples we use to some extent. So it is important to be able to set up the time signature before we continue.
-To see the time-signature-related timelines for the session, you can right-click anywhere in the &amp;ldquo;header&amp;rdquo; of the rulers and check the following options: Time Signature, Bars &amp;amp; Beats, and Tempo.</description></item><item><title>Using ranges</title><link>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/using-ranges/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/using-ranges/</guid><description>A range is a selection of the timeline that can include one or more tracks. It has many uses like selecting a portion of audio/MIDI data to cut it.
-Creating ranges There are two common ways to create a range:
-You can do it with the Grab tool (G shortcut) when the Smart mode is enabled. In that case you need to position the mouse pointer around the middle of a track vertically to start selecting data rather than picking and moving a region.</description></item><item><title>Working with regions</title><link>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/working-with-regions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/working-with-regions/</guid><description>Sections of audio are called regions in Ardour. To compose the short rhythmic passage we&amp;rsquo;ve been working on, we will need to know how to select, move, split and trim these regions, as well as how to fade in or fade out their volume and create crossfades between them. Some of these options may need to happen at specific edit points in the composition, or according to the musical meter we can define with the timeline and the grid as well.</description></item><item><title>Further region operations</title><link>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/further-region-operations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/further-region-operations/</guid><description>In this section you will learn a few more things you can do with regions.
-Right-clicking a selected region reveals a context menu. The first item in the menu (labeled with the region&amp;rsquo;s name) contains a large sub-menu. All of these operations are also available from Ardour&amp;rsquo;s main Region menu.
-This section describes a few of the most commonly used operations accessible from these menus.
-Play Play back from the beginning to the end of that region (H shortcut).</description></item><item><title>Changing edit modes</title><link>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/changing-edit-modes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/changing-edit-modes/</guid><description>We have already learned a bit about the Grab mode (select/move objects) and Range mode. In this chapter we will get an overview of all the edit modes and cursor modes available on that part of the Editor window.
-Edit Modes These controls define the behavior of the main canvas and the different functions of the cursor.
-The drop-down Edit mode menu contains three options:
-Slide mode This is the standard mode.</description></item><item><title>Creating looped sections</title><link>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/creating-looped-sections/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/creating-looped-sections/</guid><description>You can easily repeat sections of audio in your Ardour session.
-Here, we take the short rhythmic passage we created in Working with Regions and duplicate it to make a loop.
-Before duplicating the passage, it is a good idea to combine individual regions in the same track into a single one: it is easier to move them around this way, and it prevents you from accidentally moving a single hihat out of place, for example.</description></item><item><title>Stretching &amp; shrinking regions</title><link>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/stretching-shrinking-regions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/stretching-shrinking-regions/</guid><description>Regions can be stretched or shrunk in length without changing their pitch by using the Stretch/Shrink Regions tool (T shortcut, for &amp;ldquo;Time-stretch&amp;rdquo;).
-A small adjustment to the length of a region may not cause noticeable sound artifacts. However, the more extreme the change in length, the more obvious the effect of processing on the sound.
-To use Stretch/Shrink Regions, place your cursor on top of the region, and then click-drag left or right.</description></item><item><title>Editing MIDI regions</title><link>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/editing-midi-regions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/editing-midi-regions/</guid><description>Almost all the MIDI editing happens in the Internal Edit mode (E shortcut). The vast majority of the work there involves tweaking position and duration of notes, adjusting velocity, and editing automation. Ardour provides tools to edit these settings both interactively and numerically.
-So let&amp;rsquo;s review available tools and then do a quick exercise.
-Most of the editing assumes having at least one note selected in a MIDI region. We&amp;rsquo;ll start with selecting notes.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Editing sessions on Ardour tutorial</title><link>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/</link><description>Recent content in Editing sessions on Ardour tutorial</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/index.xml" rel="self" type="application/rss+xml"/><item><title>Non-destructive editing</title><link>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/non-destructive-editing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/non-destructive-editing/</guid><description>&lt;p>In one of the previous chapters we already discussed that Ardour operates on
+sessions that encompass all material you have: audio clips, MIDI clips, all
+effects applied to tracks and busses etc. Before we get to actual editing, let&amp;rsquo;s
+talk about basics of non-destructive editing, how it&amp;rsquo;s implemented in Ardour,
+and why it should give you peace of mind when you do some heavy editing.&lt;/p>
+&lt;h2 id="what-does-non-destructive-editing-actually-mean">What does non-destructive editing actually mean?&lt;/h2>
+&lt;p>In a nutshell, a non-destructive approach to editing means this: whatever you
+do, your source material always stays intact. Instead of writing to original
+files, a program would rather describe changes you applied, store them in a
+project file, and then &amp;ldquo;replay&amp;rdquo; them when loading that project.&lt;/p></description></item><item><title>Arranging tracks</title><link>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/arranging-tracks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/arranging-tracks/</guid><description>&lt;p>In the following chapters we will use Ardour to create a short rhythmic passage
+using several drumkit samples.&lt;/p>
+&lt;p>We will continue working on this passage in later tutorials, such as &lt;em>Working
+with Regions&lt;/em> and &lt;em>Creating Looped Sections&lt;/em>. We assume that you have read
+the chapters in the &lt;em>Getting Started&lt;/em> section already, and are familiar with
+&lt;em>Importing Audio&lt;/em>, &lt;em>Tracks&lt;/em>, and the &lt;em>Timeline&lt;/em>.&lt;/p>
+&lt;h2 id="importing-samples">Importing Samples&lt;/h2>
+&lt;p>The first step is to add some sounds, which is discussed at length in the
+&lt;em>Importing Audio&lt;/em> chapter. Here, we are using the &lt;em>Add existing media&lt;/em>
+dialog (&lt;strong>Ctrl + I&lt;/strong>) to import some drumkit samples as regions. The samples
+used in this tutorial were obtained from a sample pack from the
+&lt;a href="http://www.freesound.org/">freesound.org&lt;/a> website (the
+&lt;a href="https://freesound.org/people/menegass/packs/10430/">Nord Drum Mini Kit&lt;/a> sample
+pack).&lt;/p></description></item><item><title>Setting up time signature</title><link>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/setting-up-time-signature/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/setting-up-time-signature/</guid><description>&lt;p>The &lt;em>time signature&lt;/em> determines the musical speed of the passage we are
+composing and is measured in &lt;em>beats per bars&lt;/em>.&lt;/p>
+&lt;p>If we are composing something rhythmic, it will also determine the lengths of
+the sound samples we use to some extent. So it is important to be able to set
+up the time signature before we continue.&lt;/p>
+&lt;p>To see the time-signature-related timelines for the session, you can
+right-click anywhere in the &amp;ldquo;header&amp;rdquo; of the rulers and check the following
+options: &lt;em>Time Signature&lt;/em>, &lt;em>Bars &amp;amp; Beats&lt;/em>, and &lt;em>Tempo&lt;/em>.&lt;/p></description></item><item><title>Using ranges</title><link>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/using-ranges/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/using-ranges/</guid><description>&lt;p>A &lt;em>range&lt;/em> is a selection of the timeline that can include one or more tracks. It
+has many uses like selecting a portion of audio/MIDI data to cut it.&lt;/p>
+&lt;figure>&lt;img src="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/editing-sessions/using-ranges/en/ardour7-range-example.png"
+alt="Range example">
+&lt;/figure>
+&lt;h2 id="creating-ranges">Creating ranges&lt;/h2>
+&lt;p>There are two common ways to create a range:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>You can do it with the &lt;em>Grab&lt;/em> tool (&lt;strong>G&lt;/strong> shortcut) when the &lt;em>Smart&lt;/em> mode is
+enabled. In that case you need to position the mouse pointer around the middle
+of a track vertically to start selecting data rather than picking and moving a
+region. The mouse pointer looking like a vertical line means you are good to
+start selecting.&lt;/p></description></item><item><title>Working with regions</title><link>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/working-with-regions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/working-with-regions/</guid><description>&lt;p>Sections of audio are called &lt;em>regions&lt;/em> in Ardour. To compose the short rhythmic
+passage we&amp;rsquo;ve been working on, we will need to know how to &lt;em>select&lt;/em>, &lt;em>move&lt;/em>,
+&lt;em>split&lt;/em> and &lt;em>trim&lt;/em> these regions, as well as how to &lt;em>fade in&lt;/em> or &lt;em>fade out&lt;/em>
+their volume and create &lt;em>crossfades&lt;/em> between them. Some of these options may
+need to happen at specific &lt;em>edit points&lt;/em> in the composition, or according to the
+musical &lt;em>meter&lt;/em> we can define with the &lt;em>timeline&lt;/em> and the &lt;em>grid&lt;/em> as well.&lt;/p></description></item><item><title>Further region operations</title><link>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/further-region-operations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/further-region-operations/</guid><description>&lt;p>In this section you will learn a few more things you can do with regions.&lt;/p>
+&lt;p>Right-clicking a selected region reveals a context menu. The first item
+in the menu (labeled with the region&amp;rsquo;s name) contains a large sub-menu.
+All of these operations are also available from Ardour&amp;rsquo;s main &lt;em>Region&lt;/em>
+menu.&lt;/p>
+&lt;p>This section describes a few of the most commonly used operations
+accessible from these menus.&lt;/p>
+&lt;figure>&lt;img src="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/editing-sessions/further-region-operations/en/ardour7-region-menu.png"
+alt="Region menu">
+&lt;/figure>
+&lt;dl>
+&lt;dt>&lt;strong>Play&lt;/strong>&lt;/dt>
+&lt;dd>Play back from the beginning to the end of that region (&lt;strong>H&lt;/strong> shortcut).&lt;/dd>
+&lt;dt>&lt;strong>Tag&lt;/strong>&lt;/dt>
+&lt;dd>Give a region some meaningful tag, e.g. &amp;ldquo;Good&amp;rdquo; that helps distinguishing it
+from others in the &lt;em>Regions&lt;/em> list&lt;/dd>
+&lt;dt>&lt;strong>Loop&lt;/strong>&lt;/dt>
+&lt;dd>Set the loop range to fit that region&amp;rsquo;s duration, and start looping it right
+away.&lt;/dd>
+&lt;dt>&lt;strong>Rename&lt;/strong>&lt;/dt>
+&lt;dd>Change a region&amp;rsquo;s name.&lt;/dd>
+&lt;dt>&lt;strong>Properties&lt;/strong>&lt;/dt>
+&lt;dd>Lots of information on the region, plus the ability to change its gain.&lt;/dd>
+&lt;dt>&lt;strong>Position&lt;/strong>&lt;/dt>
+&lt;dd>Among other options, in this sub-menu you will find the &lt;em>Lock&lt;/em> toggle box: it
+locks the region so that it cannot be moved or trimmed. It can still be split,
+however, and the resulting regions will be unlocked.&lt;/dd>
+&lt;dt>&lt;strong>Edit&lt;/strong>&lt;/dt>
+&lt;dd>This submenu contains useful tools such as &lt;em>Pitch Shift&lt;/em> (&lt;strong>Alt+8&lt;/strong>) and
+&lt;em>Reverse&lt;/em> (&lt;strong>Alt+4&lt;/strong>). &lt;em>Pitch Shift&lt;/em> alters the pitch of a region without
+changing its duration. &lt;em>Reverse&lt;/em> makes the region play backwards.&lt;/dd>
+&lt;dt>&lt;strong>Gain&lt;/strong>&lt;/dt>
+&lt;dd>Has useful options such as &lt;em>Mute&lt;/em> (&lt;strong>Alt+1&lt;/strong>), &lt;em>Normalize&lt;/em> (&lt;strong>Alt+3&lt;/strong>),
+&lt;em>Boost Gain&lt;/em> (&lt;strong>Alt+6&lt;/strong>), and &lt;em>Cut Gain&lt;/em> (&lt;strong>Alt+7&lt;/strong>).&lt;/dd>
+&lt;dt>&lt;strong>Duplicate&lt;/strong>&lt;/dt>
+&lt;dd>Includes &lt;em>Duplicate&lt;/em> (shortcut &lt;strong>Alt+D&lt;/strong>), &lt;em>Multi-Duplicate&lt;/em>, and &lt;em>Fill Track&lt;/em>.
+These were explained in detail in the
+&lt;a href="../working-with-regions">Working with Regions&lt;/a> chapter.&lt;/dd>
+&lt;dt>&lt;strong>Loudness Analysis&lt;/strong>&lt;/dt>
+&lt;dd>Estimates loudness of a region in LUFS, as well as &lt;em>Peak&lt;/em> and &lt;em>True Peak&lt;/em>
+values.&lt;/dd>
+&lt;dt>&lt;strong>Spectral Analysis&lt;/strong>&lt;/dt>
+&lt;dd>Window displaying the overall frequency content of the region.&lt;/dd>
+&lt;/dl>
+&lt;p>Feel free to explore by yourself other submenus not mentioned above. Many of
+them are mirrors of the options you find under Ardour&amp;rsquo;s &lt;em>Region&lt;/em> menu. Below we
+go into a bit more details on some of the most useful functions.&lt;/p></description></item><item><title>Changing edit modes</title><link>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/changing-edit-modes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/changing-edit-modes/</guid><description>&lt;p>We have already learned a bit about the &lt;em>Grab&lt;/em> mode (select/move objects) and
+&lt;em>Range&lt;/em> mode. In this chapter we will get an overview of all the &lt;em>edit modes&lt;/em>
+and &lt;em>cursor modes&lt;/em> available on that part of the &lt;em>Editor&lt;/em> window.&lt;/p>
+&lt;p>&lt;img alt="Ardour Edit Modes" src="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/editing-sessions/changing-edit-modes/en/ardour8-edit-modes.png?width=30vw">&lt;/p>
+&lt;h2 id="edit-modes">Edit Modes&lt;/h2>
+&lt;p>These controls define the behavior of the main canvas and the different
+functions of the cursor.&lt;/p>
+&lt;p>The drop-down &lt;em>Edit&lt;/em> mode menu contains three options:&lt;/p>
+&lt;dl>
+&lt;dt>&lt;strong>Slide mode&lt;/strong>&lt;/dt>
+&lt;dd>This is the standard mode. It allows you to freely drag regions around
+horizontally (within the same track) and vertically (between tracks).&lt;/dd>
+&lt;dt>&lt;strong>Ripple mode&lt;/strong>&lt;/dt>
+&lt;dd>Automatically moves regions when you cut or shift one of the regions. E.g. if
+you cut a portion of an audio interview that isn&amp;rsquo;t interesting, Ardour will
+shift all regions in all tracks to the left so that there would be no silence
+where content used to be.&lt;/dd>
+&lt;dt>&lt;strong>Lock mode&lt;/strong>&lt;/dt>
+&lt;dd>However you edit a region with this mode on, the content of the region will
+always be where it is. You can only move the region up or down between tracks,
+but not left or right.&lt;/dd>
+&lt;/dl>
+&lt;p>We will only use the &lt;em>Slide&lt;/em> edit mode in this tutorial.&lt;/p></description></item><item><title>Creating looped sections</title><link>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/creating-looped-sections/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/creating-looped-sections/</guid><description>&lt;p>You can easily repeat sections of audio in your Ardour session.&lt;/p>
+&lt;p>Here, we take the short rhythmic passage we created in &lt;em>Working with Regions&lt;/em>
+and duplicate it to make a loop.&lt;/p>
+&lt;p>Before duplicating the passage, it is a good idea to combine individual regions
+in the same track into a single one: it is easier to move them around this way,
+and it prevents you from accidentally moving a single hihat out of place, for
+example. There are two ways of doing this: &lt;em>Combine Regions&lt;/em> (allows you to
+&amp;ldquo;uncombine&amp;rdquo; later on), and &lt;em>Consolidate Range&lt;/em> (&amp;ldquo;writes it in stone&amp;rdquo;, does not
+allow you to separate them later).&lt;/p></description></item><item><title>Stretching &amp; shrinking regions</title><link>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/stretching-shrinking-regions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/stretching-shrinking-regions/</guid><description>&lt;p>Regions can be stretched or shrunk in length without changing their pitch by
+using the &lt;em>Stretch/Shrink Regions&lt;/em> tool (&lt;strong>T&lt;/strong> shortcut, for &amp;ldquo;Time-stretch&amp;rdquo;).&lt;/p>
+&lt;p>&lt;img alt="Stretch/Shrink Regions tool" src="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/editing-sessions/stretching-shrinking-regions/en/ardour7-stretch-shrink-edit-mode.png?width=20vw">&lt;/p>
+&lt;p>A small adjustment to the length of a region may not cause noticeable sound
+&lt;em>artifacts&lt;/em>. However, the more extreme the change in length, the more obvious
+the effect of processing on the sound.&lt;/p>
+&lt;p>To use &lt;em>Stretch/Shrink Regions&lt;/em>, place your cursor on top of the region, and
+then click-drag left or right. While dragging, you will see a highlighted area
+which represents the new duration to which the region will be shrunk or
+stretched when you release the mouse at the current position. Ardour will also
+display the new duration of the region next to the highlighted area in units of
+the primary clock.&lt;/p></description></item><item><title>Editing MIDI regions</title><link>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/editing-midi-regions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/editing-midi-regions/</guid><description>&lt;p>Almost all the MIDI editing happens in the &lt;em>Internal Edit&lt;/em> mode (&lt;strong>E&lt;/strong>
+shortcut). The vast majority of the work there involves tweaking position and
+duration of notes, adjusting velocity, and editing automation. Ardour provides
+tools to edit these settings both interactively and numerically.&lt;/p>
+&lt;p>So let&amp;rsquo;s review available tools and then do a quick exercise.&lt;/p>
+&lt;p>Most of the editing assumes having at least one note selected in a MIDI region.
+We&amp;rsquo;ll start with selecting notes.&lt;/p></description></item></channel></rss>

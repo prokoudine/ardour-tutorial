@@ -1,8 +1,266 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Appendices on Ardour tutorial</title><link>https://prokoudine.github.io/ardour-tutorial/en/appendices/</link><description>Recent content in Appendices on Ardour tutorial</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://prokoudine.github.io/ardour-tutorial/en/appendices/index.xml" rel="self" type="application/rss+xml"/><item><title>Further help</title><link>https://prokoudine.github.io/ardour-tutorial/en/appendices/further-help/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/appendices/further-help/</guid><description>There are a couple of resources on the Internet to help you learn Ardour and fix some of the problems that you might have along the way.
-Ardour Manual The official Ardour Manual is the main reference to Ardour. It is a work in progress, meaning you will not find every single feature explained there (yet). But it is already an amazing resource:
-Getting Help via Chat A good way to get support when learning Ardour and working with it is using the Chat function.</description></item><item><title>Glossary</title><link>https://prokoudine.github.io/ardour-tutorial/en/appendices/glossary/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/appendices/glossary/</guid><description>This glossary offers brief definitions for many of the terms used throughout the Ardour 8 FLOSS Tutorial.
-Aggregate Device (macOS) An Aggregate Device is one virtual soundcard made of two or more physical soundcards. PowerBooks and MacBooks made in 2007 or later will need this set up in order for JACK to have both input and output channels. This is set up in the Audio MIDI Setup application. AIFF A sound file format developed by Apple and commonly used for lossless and uncompressed audio.</description></item><item><title>Credits</title><link>https://prokoudine.github.io/ardour-tutorial/en/appendices/credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/appendices/credits/</guid><description>The main body of the manual was written during a Book Sprint led by Derek Holzer in the moddr_lab at WORM in Rotterdam, the Netherlands, between 23 and 27 November 2009, with input and support from the international community of Ardour users and developers. The tutorial was originally written for Ardour 2.X versions. The original FLOSS manual can be found at flossmanuals.net.
-Original contributors: Adam Hyde, Bruno Ruviaro, Dave Peticolas, Walter Langelaar, David Elwell, Thomas Goose, Derick H.</description></item><item><title>License</title><link>https://prokoudine.github.io/ardour-tutorial/en/appendices/license/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/appendices/license/</guid><description>License All chapters copyright of the authors (see below). Unless otherwise stated all chapters in this manual licensed with GNU General Public License version 2.
-This documentation is free documentation; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
-This documentation is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</description></item><item><title>How to contribute</title><link>https://prokoudine.github.io/ardour-tutorial/en/appendices/how-to-contribute/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/appendices/how-to-contribute/</guid><description>What Kind Of Contributions We Accept We intentionally limit the scope of this tutorial to very basic techniques that are sufficient to get users started with recording, mixing, and exporting with Ardour. So we&amp;rsquo;ll gratefully accept patches that do not change the scope in any major way: bug fixes, better explanations, better illustrations etc. We also encourage translations of the ardour-tutorial.
-Using Markdown Syntax And Extras All text files use Markdown syntax with a few extras.</description></item><item><title>Recommended plugins</title><link>https://prokoudine.github.io/ardour-tutorial/en/appendices/plugins/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/appendices/plugins/</guid><description>Filters and processing LSP plugins, an extensive set of plugins for effects and channel processing dpl.lv2, a look-ahead digital peak limiter fil4.lv2, a 4 band parametric equalizer with additional low &amp;amp; high shelfing and high &amp;amp; low-pass filters Visualization x42 Meter Collection, a big help in analyzing audio sisco.lv2, an oscilloscope spectra.lv2, a spectrum analyzer Drums and percussion AVL Drumkits, a drum sampler with two built-in kits DrumGizmo, a drum sampler with separately downloadable kits Geonkick, a drums/percussion synthesizer Synthesizers Cardinal, a modular synthesizer with Eurorack aesthetics OB-Xd, a soft synth resembling vintage Oberheim OB-X synth Dexed, a Yamaha DX7 simulator Odin2, a 24-voice polyphonic synth Surge XT, a hybrid synthesizer Vital, a spectral warping wavetable synth This website keeps a track of all software synthesizers available for Linux.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Appendices on Ardour tutorial</title><link>https://prokoudine.github.io/ardour-tutorial/en/appendices/</link><description>Recent content in Appendices on Ardour tutorial</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://prokoudine.github.io/ardour-tutorial/en/appendices/index.xml" rel="self" type="application/rss+xml"/><item><title>Further help</title><link>https://prokoudine.github.io/ardour-tutorial/en/appendices/further-help/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/appendices/further-help/</guid><description>&lt;p>There are a couple of resources on the Internet to help you learn Ardour and
+fix some of the problems that you might have along the way.&lt;/p>
+&lt;h2 id="ardour-manual">Ardour Manual&lt;/h2>
+&lt;p>The official &lt;a href="http://manual.ardour.org/">Ardour Manual&lt;/a> is the main reference to Ardour. It is a work in progress, meaning you will not find every single feature explained there (yet). But it is already an amazing resource:&lt;/p>
+&lt;h2 id="getting-help-via-chat">Getting Help via Chat&lt;/h2>
+&lt;p>A good way to get support when learning Ardour and working with it is using the
+&lt;strong>Chat&lt;/strong> function. Ardour has a built-in &amp;ldquo;Chat&amp;rdquo; option, found in the main menu
+under &lt;code>Help &amp;gt; Chat&lt;/code> to connect (via your web browser) to the Ardour
+&lt;a href="http://en.wikipedia.org/wiki/IRC">IRC&lt;/a> channel at libera.chat.&lt;/p></description></item><item><title>Glossary</title><link>https://prokoudine.github.io/ardour-tutorial/en/appendices/glossary/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/appendices/glossary/</guid><description>&lt;p>This glossary offers brief definitions for many of the terms used throughout the Ardour 8 FLOSS Tutorial.&lt;/p>
+&lt;dl>
+&lt;dt>&lt;strong>Aggregate Device&lt;/strong> (macOS)&lt;/dt>
+&lt;dd>An Aggregate Device is one virtual soundcard made of two or more
+physical soundcards. PowerBooks and MacBooks made in 2007 or later will
+need this set up in order for &lt;em>JACK&lt;/em> to have both input and output
+channels. This is set up in the &lt;em>Audio MIDI Setup&lt;/em> application.&lt;/dd>
+&lt;dt>&lt;strong>AIFF&lt;/strong>&lt;/dt>
+&lt;dd>A sound file format developed by Apple and commonly used for lossless
+and uncompressed audio. AIFF files are compatible with Windows,
+Macintosh and Linux operating systems.&lt;/dd>
+&lt;dt>&lt;strong>ALSA&lt;/strong> (Linux)&lt;/dt>
+&lt;dd>Advanced Linux Sound Architecture. ALSA provides audio and MIDI
+functionality to the Linux operating system.&lt;/dd>
+&lt;dt>&lt;strong>Amplitude&lt;/strong> (mixing)&lt;/dt>
+&lt;dd>The strength of an audio signal. The scale of amplitude is
+&lt;em>*logarithmic&lt;/em>, since it expresses the physical ratio of power between
+one sound and another. Levels in digital audio systems are usually
+represented as the number of Decibels below the clipping point of 0 dB.
+See also &lt;em>loudness&lt;/em>.&lt;/dd>
+&lt;dt>&lt;strong>Arm&lt;/strong> (Track to record/Ardour to record)&lt;/dt>
+&lt;dd>Action that makes Ardour ready to start recording. Before recording in
+Ardour, one or more tracks need to be armed first, and then Ardour needs
+to be armed itself.&lt;/dd>
+&lt;dt>&lt;strong>Artifacts&lt;/strong> (sound)&lt;/dt>
+&lt;dd>Perceivable distortion or decrease in sound quality generated as a
+by-product of certain signal processing operations. Artefacts are
+usually seen as undesirable or unexpected results of an otherwise
+intentional sound transformation.&lt;/dd>
+&lt;dt>&lt;strong>Attenuation&lt;/strong>&lt;/dt>
+&lt;dd>Reducing the &lt;strong>level&lt;/strong> of an audio signal, usually measured using a
+&lt;em>logarithmic&lt;/em> scale. See also &lt;em>gain&lt;/em>.&lt;/dd>
+&lt;dt>&lt;strong>Audio MIDI Setup&lt;/strong> (macOS)&lt;/dt>
+&lt;dd>The Audio MIDI Setup utility is a program that comes with the macOS
+operating system for adjusting the computer&amp;rsquo;s audio input and output
+configuration settings and managing MIDI devices.&lt;/dd>
+&lt;dt>&lt;strong>Audio Unit Plugins&lt;/strong>&lt;/dt>
+&lt;dd>Audio Unit (AU) is a plugin architecture in macOS computers. It may
+be thought of as Apple&amp;rsquo;s equivalent to the popular VST plugin format by
+Steinberg. MacOS comes with a collection of AU plug-ins such as EQ
+filters, dynamic processors, delay, reverb, time stretch, among others.&lt;/dd>
+&lt;dt>&lt;strong>Audition&lt;/strong>&lt;/dt>
+&lt;dd>The auditioner is a hidden mixer strip which auditioned regions are
+played back through. Auditioning a region will play only that region,
+without processing sends or plugins.&lt;/dd>
+&lt;dt>&lt;strong>Automation&lt;/strong>&lt;/dt>
+&lt;dd>Automation is the automatic adjustment of various parameters such as
+gain, panning or plugin settings. Changes can be made once and then will
+be repeated every time the mix is replayed. Automation in Ardour is
+controlled by automation lines linked to each Track or Bus.&lt;/dd>
+&lt;dt>&lt;strong>Auxiliary Controls&lt;/strong>&lt;/dt>
+&lt;dd>Buttons on the top right side of the controls found in the Editor
+Window: Punch In/Out, Auto Play, Auto Return, Auto Input, Click, Solo,
+and Audition.&lt;/dd>
+&lt;dt>&lt;strong>Amplitude&lt;/strong>&lt;/dt>
+&lt;dd>The level or magnitude of a signal. Audio signals with a higher
+amplitude usually sound louder.&lt;/dd>
+&lt;dt>&lt;strong>Bands&lt;/strong> (equalization)&lt;/dt>
+&lt;dd>The particular frequency regions to be boosted or attenuated in the
+process of &lt;em>Equalization&lt;/em>.&lt;/dd>
+&lt;dt>&lt;strong>Bars&lt;/strong> (music)&lt;/dt>
+&lt;dd>Same as &amp;lsquo;measure&amp;rsquo;, a bar is a metrical unit. In Western notation, it is
+the space comprised between two vertical lines drawn through the staff.
+The specific duration of a bar depends of its &lt;em>time signature&lt;/em> and the
+current &lt;em>tempo&lt;/em> of the music.&lt;/dd>
+&lt;dt>&lt;strong>Bass&lt;/strong> (Frequencies)&lt;/dt>
+&lt;dd>A generic way of referring to the lower frequencies of the &lt;em>spectrum&lt;/em>
+of a sound.&lt;/dd>
+&lt;dt>&lt;strong>Beat&lt;/strong>&lt;/dt>
+&lt;dd>The basic pulse underlying a piece of music.&lt;/dd>
+&lt;dt>&lt;strong>Beats per Minute&lt;/strong>&lt;/dt>
+&lt;dd>Beats per minute (BPM) is a measure of tempo in music. A rate of 60
+beats per minute means that one beat will occur every second; 120 bpm
+equals two beats per second, and so on. BPM indications usually appear
+at the beginning of a traditional musical score as a metronome mark (for
+example, &amp;ldquo;quarter note equals 60&amp;rdquo;, meaning one quarter note per second).&lt;/dd>
+&lt;dt>&lt;strong>Bit&lt;/strong>&lt;/dt>
+&lt;dd>A bit (&lt;strong>bi&lt;/strong>nary dig&lt;strong>it&lt;/strong>) is a single number with a value of either 0
+or 1.&lt;/dd>
+&lt;dt>&lt;strong>Bit Depth&lt;/strong>&lt;/dt>
+&lt;dd>Refers to the number of bits used to write a &lt;em>sample&lt;/em>. In the CD
+standard, each sample of audio is represented by a 16-bit number. This
+gives 2^16 (two to the power of sixteen = 65,536) possible values that
+a sample can have. A higher bit depth means a greater possible &lt;em>dynamic
+range&lt;/em>. Studio recordings are usually first made recorded with a bit
+depth of 24 (or even 32) to preserve as much detail before transfer to
+CD. DVDs are made at 24 bit, while video games from the 1980s remain
+famous for their distinctively rough &amp;ldquo;8 bit sound&amp;rdquo;. Bit depth is also
+referred to as &lt;strong>word length&lt;/strong>.&lt;/dd>
+&lt;dt>&lt;strong>Buffer Size&lt;/strong> (JACK)&lt;/dt>
+&lt;dd>The buffer is a section of memory specifically allotted to temporary
+signal data. Small buffer sizes allow a lower latency and so are needed
+when using audio applications that require real-time interaction. The
+drawback is that CPU consumption for the system is higher with smaller
+buffer sizes. Larger buffers (like 512 or 1024) can be used when there
+is no such requirement.&lt;/dd>
+&lt;dt>&lt;strong>Built-in Input and Output&lt;/strong>&lt;/dt>
+&lt;dd>These are the default interfaces for getting sound in and out of your
+computer if you don&amp;rsquo;t have an external sound card. In a laptop, they are
+the common input (mic) and output (headphone) connections.&lt;/dd>
+&lt;dt>&lt;strong>Bus&lt;/strong>&lt;/dt>
+&lt;dd>A bus is similar to a track except that it does not contain its
+own regions. You cannot record directly into a bus or drag regions into
+it. The &lt;em>Mixer&lt;/em> strip vertically represents the signal flow of a bus,
+whereas the Main Canvas horizontally displays time-based information for
+each bus (such as automation lines).&lt;/dd>
+&lt;dt>&lt;strong>BWF&lt;/strong>&lt;/dt>
+&lt;dd>Broadcast Wave Format (BWF) is an extension of the popular Microsoft
+WAVE audio format and is the recording format of most file-based
+non-linear digital recorders used for motion picture and television
+production. This file format allows the inclusion of metadata to
+facilitate the seamless exchange of sound data between different
+computer platforms and applications.&lt;/dd>
+&lt;dt>&lt;strong>CAF&lt;/strong>&lt;/dt>
+&lt;dd>CAF (Core Audio Format) is a file format for storing audio, developed by
+Apple. It is compatible with macOS 10.4 and higher. The Core Audio
+Format is designed to overcome limitations of older digital audio
+formats, including AIFF and WAV. Just like the QuickTime .mov file
+format, a .caf file format can contain many different audio formats,
+metadata tracks, and much more data.&lt;/dd>
+&lt;dt>&lt;strong>Center Frequency&lt;/strong>&lt;/dt>
+&lt;dd>In some EQ plugins, the user has the possibility of choosing the center
+frequency for each of the frequency bands. The center frequency of a
+Band will be the one most sharply attenuated or reinforced by the
+equalizer for that specific band. Frequencies surrounding the center
+frequency will be less affected.&lt;/dd>
+&lt;dt>&lt;strong>Click&lt;/strong> (Mouse)&lt;/dt>
+&lt;dd>In this manual, it specifically means to click on the left button of
+your mouse. Whenever the right button is required, the action is
+referred to as &amp;ldquo;right-click&amp;rdquo;.&lt;/dd>
+&lt;dt>&lt;strong>Clipping&lt;/strong>&lt;/dt>
+&lt;dd>Clipping occurs when a signal is too high in level to be reproduced. Any
+samples too high in level will simply be truncated, resulting in
+&lt;em>distortion&lt;/em>, loss of audio detail, and artefact &lt;em>frequencies&lt;/em> which
+were not present in the original sound.&lt;/dd>
+&lt;dt>&lt;strong>Clipping Point&lt;/strong>&lt;/dt>
+&lt;dd>The clipping point of a digital system is referred to as 0 dB, and
+the level of any sound is measured in how far below the clipping point
+it is (-10 dB, -24 dB, etc).&lt;/dd>
+&lt;dt>&lt;strong>Clocks&lt;/strong>&lt;/dt>
+&lt;dd>The two big numerical displays near the top of the &lt;em>Editor&lt;/em> window. They can
+display the time in a number of formats: &lt;em>Timecode&lt;/em>, &lt;em>Bars:Beats&lt;/em>,
+&lt;em>Minutes:Seconds&lt;/em>, and &lt;em>Samples&lt;/em>.&lt;/dd>
+&lt;dt>&lt;strong>Compile&lt;/strong>&lt;/dt>
+&lt;dd>FLOSS applications are distributed as source code, which is human-readable but
+cannot be run as an actual application. To turn this source code into a running
+application, it must first be Compiled. When you download a disk image for macOS
+or a software package from your distribution (such as Ubuntu, Debian or Fedora),
+it has been compiled for you already. However, if you wish to add features (such
+as support for &lt;em>VST Plugins&lt;/em>) which your distribution does not provide, then
+you must compile the application from source code yourself.&lt;/dd>
+&lt;dt>&lt;strong>Compression&lt;/strong>(DSP)&lt;/dt>
+&lt;dd>Essentially, compression makes the quiet parts of a signal louder
+without changing the level of
+the louder parts. This entails a reduction of the actual dynamic range:
+a compressed sound is less dynamic (has a smaller range of levels)&lt;/dd>
+&lt;dt>&lt;strong>Compression&lt;/strong> (data)&lt;/dt>
+&lt;dd>Like any other data, audio data can be compressed so that it uses less
+hard disk space. Compression such as FLAC, ALAC, or MLP reduce the size
+of audio files compared to WAV or AIFF without changing the data, which
+is referred to as lossless compression. Audio can be compressed to a
+still smaller size by using lossy compression such as MP3, Ogg Vorbis or
+AAC but this is achieved by removing data which can have an audible
+effect.&lt;/dd>
+&lt;dt>&lt;strong>Connections Manager&lt;/strong>(JACK)&lt;/dt>
+&lt;dd>The window in Jack that allows to manage all connections between audio
+inputs and outputs.&lt;/dd>
+&lt;dt>&lt;strong>CoreAudio&lt;/strong>(macOS)&lt;/dt>
+&lt;dd>CoreAudio provides audio functionality to the macOS operating system.&lt;/dd>
+&lt;dt>&lt;strong>Cursor Modes&lt;/strong>&lt;/dt>
+&lt;dd>These are the six buttons just below the Transport commands in the
+Editor Window. The six different functions that the mouse pointer can
+have in Ardour are: Select/Move Objects, Select/Move Ranges, Select Zoom
+Range, Draw Gain Automation, Stretch/Shrink Regions, Listen to Specific
+Regions.&lt;/dd>
+&lt;dt>&lt;strong>Decibels&lt;/strong>&lt;/dt>
+&lt;dd>Decibel is a logarithmic scale used to measure many quantities,
+including the &lt;em>gain&lt;/em>, &lt;em>level&lt;/em> or &lt;em>loudness&lt;/em> of a signal. Decibel
+is usually abbreviated to dB and in digital audio usually denotes how
+far under 0 dBFS (the &lt;em>clipping&lt;/em> point of a system) a signal is.&lt;/dd>
+&lt;dt>&lt;strong>Delay&lt;/strong> (effect)&lt;/dt>
+&lt;dd>The amount of time between one event and another. As an audio effect, a delay
+takes an incoming sound signal and delays it for a certain length of time. When
+mixed with the original sound, an &amp;ldquo;echo&amp;rdquo; is heard. By using &lt;em>feedback&lt;/em> to return
+the delayed signal back into the delay (usually after lowering its &lt;em>gain&lt;/em>),
+multiple echos with a &lt;em>decay&lt;/em> result.&lt;/dd>
+&lt;dt>&lt;strong>Destructive Editing/Recording&lt;/strong>&lt;/dt>
+&lt;dd>Destructive actions are those that permanently modify or erase the original
+data (sound files) in the course of editing or recording.&lt;/dd>
+&lt;/dl>
+&lt;p>&lt;strong>Distortion&lt;/strong> : Distortion occurs when an audio signal is changed in some way
+that produces &lt;em>frequencies&lt;/em> not present in the original. Distortion can be
+deliberate or unwanted, and can be produced by driving the signal to a
+&lt;em>clipping point&lt;/em>, or by using mathematical transformations to alter the shape (or
+&amp;ldquo;waveform&amp;rdquo;) of the signal (usually referred to as &amp;ldquo;waveshaping&amp;rdquo;).&lt;/p></description></item><item><title>Credits</title><link>https://prokoudine.github.io/ardour-tutorial/en/appendices/credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/appendices/credits/</guid><description>&lt;p>The main body of the manual was written during a &lt;strong>Book Sprint&lt;/strong> led by Derek
+Holzer in the &lt;a href="http://moddr.net" title="moddr_lab @ WORM, Rotterdam">moddr_lab&lt;/a> at
+WORM in Rotterdam, the Netherlands, between 23 and 27 November 2009, with input
+and support from the international community of Ardour users and developers.
+The tutorial was originally written for Ardour 2.X versions. The original FLOSS
+manual can be found at
+&lt;a href="http://archive.flossmanuals.net/ardour/index.html">flossmanuals.net&lt;/a>.&lt;/p>
+&lt;p>Original contributors: Adam Hyde, Bruno Ruviaro, Dave Peticolas, Walter
+Langelaar, David Elwell, Thomas Goose, Derick H., Rob Fell, William Abernathy,
+Derek Holzer, Stefan Hanser, Tomasz Kaye, Dick MacInnis, Mr Stock, Ross Johnson,
+Jon Cohrs, Claudia Borges, Ma Rk, Al Thompson, Jay Maechtlen, Christopher
+Stamper, Thomas Margolf, Mark Lindhout, Joern Nettingsmeier.&lt;/p></description></item><item><title>License</title><link>https://prokoudine.github.io/ardour-tutorial/en/appendices/license/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/appendices/license/</guid><description>&lt;h2 id="license">License&lt;/h2>
+&lt;p>All chapters copyright of the authors (see below). Unless otherwise
+stated all chapters in this manual licensed with &lt;strong>GNU General Public
+License version 2&lt;/strong>.&lt;/p>
+&lt;p>This documentation is free documentation; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as published
+by the Free Software Foundation; either version 2 of the License, or (at
+your option) any later version.&lt;/p>
+&lt;p>This documentation is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
+Public License for more details.&lt;/p></description></item><item><title>How to contribute</title><link>https://prokoudine.github.io/ardour-tutorial/en/appendices/how-to-contribute/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/appendices/how-to-contribute/</guid><description>&lt;h2 id="what-kind-of-contributions-we-accept">What Kind Of Contributions We Accept&lt;/h2>
+&lt;p>We intentionally limit the scope of this tutorial to very basic techniques that
+are sufficient to get users started with recording, mixing, and exporting with
+Ardour. So we&amp;rsquo;ll gratefully accept patches that do not change the scope in any
+major way: bug fixes, better explanations, better illustrations etc. We also
+encourage translations of the ardour-tutorial.&lt;/p>
+&lt;h2 id="using-markdown-syntax-and-extras">Using Markdown Syntax And Extras&lt;/h2>
+&lt;p>All text files use Markdown syntax with a few extras. We use a limited subset of
+available options and one shortcode specific to HTML5, a &lt;code>&amp;lt;figure&amp;gt;&lt;/code> element
+(&lt;a href="https://gohugo.io/content-management/shortcodes/#figure">see here&lt;/a> for more
+info). Another extra feature available in the template of choice is a so called
+shortcode for notice boxes that look like this:&lt;/p></description></item><item><title>Recommended plugins</title><link>https://prokoudine.github.io/ardour-tutorial/en/appendices/plugins/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/appendices/plugins/</guid><description>&lt;h2 id="filters-and-processing">Filters and processing&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://lsp-plug.in/">LSP plugins&lt;/a>, an extensive set of plugins for effects and channel processing&lt;/li>
+&lt;li>&lt;a href="https://x42-plugins.com/x42/x42-limiter">dpl.lv2&lt;/a>, a look-ahead digital peak limiter&lt;/li>
+&lt;li>&lt;a href="https://x42-plugins.com/x42/x42-eq">fil4.lv2&lt;/a>, a 4 band parametric equalizer with additional low &amp;amp; high shelfing and high &amp;amp; low-pass filters&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;h2 id="visualization">Visualization&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://x42-plugins.com/x42/x42-meters">x42 Meter Collection&lt;/a>, a big help in analyzing audio&lt;/li>
+&lt;li>&lt;a href="https://x42-plugins.com/x42/x42-scope">sisco.lv2&lt;/a>, an oscilloscope&lt;/li>
+&lt;li>&lt;a href="https://x42-plugins.com/x42/x42-spectra">spectra.lv2&lt;/a>, a spectrum analyzer&lt;/li>
+&lt;/ul>
+&lt;h2 id="drums-and-percussion">Drums and percussion&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://x42-plugins.com/x42/x42-avldrums">AVL Drumkits&lt;/a>, a drum sampler with two built-in kits&lt;/li>
+&lt;li>&lt;a href="https://drumgizmo.org">DrumGizmo&lt;/a>, a drum sampler with separately downloadable kits&lt;/li>
+&lt;li>&lt;a href="https://github.com/free-sm/geonkick">Geonkick&lt;/a>, a drums/percussion synthesizer&lt;/li>
+&lt;/ul>
+&lt;h2 id="synthesizers">Synthesizers&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/DISTRHO/Cardinal">Cardinal&lt;/a>, a modular synthesizer with Eurorack aesthetics&lt;/li>
+&lt;li>&lt;a href="https://github.com/reales/OB-Xd">OB-Xd&lt;/a>, a soft synth resembling vintage Oberheim OB-X synth&lt;/li>
+&lt;li>&lt;a href="https://github.com/asb2m10/dexed">Dexed&lt;/a>, a Yamaha DX7 simulator&lt;/li>
+&lt;li>&lt;a href="https://www.thewavewarden.com/odin2">Odin2&lt;/a>, a 24-voice polyphonic synth&lt;/li>
+&lt;li>&lt;a href="https://surge-synthesizer.github.io/">Surge XT&lt;/a>, a hybrid synthesizer&lt;/li>
+&lt;li>&lt;a href="https://vital.audio/">Vital&lt;/a>, a spectral warping wavetable synth&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;p>&lt;a href="http://linuxsynths.com/">This website&lt;/a> keeps a track of all software
+synthesizers available for Linux.&lt;/p></description></item></channel></rss>

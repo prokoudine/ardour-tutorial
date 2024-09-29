@@ -1,8 +1,408 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Annexes on Tutoriel Ardour</title><link>https://prokoudine.github.io/ardour-tutorial/fr/appendices/</link><description>Recent content in Annexes on Tutoriel Ardour</description><generator>Hugo -- gohugo.io</generator><language>fr</language><atom:link href="https://prokoudine.github.io/ardour-tutorial/fr/appendices/index.xml" rel="self" type="application/rss+xml"/><item><title>Aide supplémentaire</title><link>https://prokoudine.github.io/ardour-tutorial/fr/appendices/further-help/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/fr/appendices/further-help/</guid><description>Il existe quelques ressources sur Internet pour vous aider à apprendre Ardour et à résoudre les problèmes que vous pourriez rencontrer en cours de route.
-Manuel Ardour Le manuel Ardour officiel est la référence principale pour Ardour. Il s&amp;rsquo;agit d&amp;rsquo;un travail en cours, ce qui signifie que vous n&amp;rsquo;y trouverez pas (encore) toutes les fonctionnalités expliquées. Mais c&amp;rsquo;est déjà une ressource formidable :
-Obtenir de l&amp;rsquo;aide par chat Un bon moyen d&amp;rsquo;obtenir de l&amp;rsquo;aide lorsque vous apprenez Ardour et que vous travaillez avec est d&amp;rsquo;utiliser la fonction Chat.</description></item><item><title>Glossaire</title><link>https://prokoudine.github.io/ardour-tutorial/fr/appendices/glossary/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/fr/appendices/glossary/</guid><description>Ce glossaire propose de brèves définitions pour de nombreux termes utilisés dans le tutoriel Ardour3 FLOSS.
-Aggregate Device (macOS) Un dispositif agrégé est une carte son virtuelle composée de deux cartes son physiques ou plus. Les PowerBooks et les MacBooks fabriqués en 2007 ou plus tard auront besoin de cette configuration pour que JACK ait des canaux d&amp;rsquo;entrée et de sortie. Cette configuration se fait dans l&amp;rsquo;application Audio MIDI Setup. AIFF Format de fichier audio développé par Apple et couramment utilisé pour le son sans perte et sans compression.</description></item><item><title>Crédits</title><link>https://prokoudine.github.io/ardour-tutorial/fr/appendices/credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/fr/appendices/credits/</guid><description>Le corps principal du manuel a été écrit lors d&amp;rsquo;un Book Sprint mené par Derek Holzer dans le moddr_lab au WORM à Rotterdam, Pays-Bas, entre le 23 et le 27 novembre 2009, avec l&amp;rsquo;aide et le soutien de la communauté internationale des utilisateurs et des développeurs d&amp;rsquo;Ardour. Le tutoriel a été écrit à l&amp;rsquo;origine pour les versions 2.X d&amp;rsquo;Ardour. Le manuel FLOSS est disponible à l&amp;rsquo;adresse suivante flossmanuals.net.
-Le contributeurs originaux : Adam Hyde, Bruno Ruviaro, Dave Peticolas, Walter Langelaar, David Elwell, Thomas Goose, Derick H.</description></item><item><title>Licence</title><link>https://prokoudine.github.io/ardour-tutorial/fr/appendices/license/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/fr/appendices/license/</guid><description>License All chapters copyright of the authors (see below). Unless otherwise stated all chapters in this manual licensed with GNU General Public License version 2.
-This documentation is free documentation; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
-This documentation is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</description></item><item><title>Comment contribuer</title><link>https://prokoudine.github.io/ardour-tutorial/fr/appendices/how-to-contribute/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/fr/appendices/how-to-contribute/</guid><description>Quel type de contributions acceptons nous Nous limitons intentionnellement la portée de ce tutoriel à des techniques très basiques qui sont suffisantes pour permettre aux utilisateurs de commencer à enregistrer, mixer et exporter avec Ardour. Nous accepterons donc avec gratitude les correctifs qui ne modifient pas le champ d&amp;rsquo;application de manière majeure : corrections de bogues, meilleures explications, etc. Nous encourageons également les traductions de ardour-tutorial.
-Utilisation de la syntaxe Markdown et des extras Tous les fichiers texte utilisent la syntaxe Markdown avec quelques extras.</description></item><item><title>Greffons recommandés</title><link>https://prokoudine.github.io/ardour-tutorial/fr/appendices/plugins/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/fr/appendices/plugins/</guid><description>Filtres and traitement LSP plugins, un ensemble complet de greffons pour les effets et le traitement des canaux, dpl.lv2, un limiteur de crête numérique à anticipation, fil4.lv2, un égaliseur paramétrique à 4 bandes avec des filtres passe-haut et passe-bas et des filtres d&amp;rsquo;étagement bas et haut additionnels. Visualisation x42 Meter Collection, une grande aide dans l&amp;rsquo;analyse audio, sisco.lv2, un oscilloscope, spectra.lv2, un analyseur de spectre. Batterie et percussion AVL Drumkits, un échantillonneur de batterie avec deux kits intégrés, DrumGizmo, un échantillonneur de batterie avec des kits à télécharger séparément, Geonkick, un synthétiseur batterie/percussion.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Annexes on Tutoriel Ardour</title><link>https://prokoudine.github.io/ardour-tutorial/fr/appendices/</link><description>Recent content in Annexes on Tutoriel Ardour</description><generator>Hugo -- gohugo.io</generator><language>fr</language><atom:link href="https://prokoudine.github.io/ardour-tutorial/fr/appendices/index.xml" rel="self" type="application/rss+xml"/><item><title>Aide supplémentaire</title><link>https://prokoudine.github.io/ardour-tutorial/fr/appendices/further-help/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/fr/appendices/further-help/</guid><description>&lt;p>Il existe quelques ressources sur Internet pour vous aider à apprendre Ardour et à résoudre les problèmes que vous pourriez rencontrer en cours de route.&lt;/p>
+&lt;h2 id="manuel-ardour">Manuel Ardour&lt;/h2>
+&lt;p>Le &lt;a href="http://manual.ardour.org/">manuel Ardour&lt;/a> officiel est la référence principale pour Ardour.
+Il s&amp;rsquo;agit d&amp;rsquo;un travail en cours, ce qui signifie que vous n&amp;rsquo;y trouverez pas (encore) toutes les fonctionnalités expliquées. Mais c&amp;rsquo;est déjà une ressource formidable :&lt;/p>
+&lt;h2 id="obtenir-de-laide-par-chat">Obtenir de l&amp;rsquo;aide par chat&lt;/h2>
+&lt;p>Un bon moyen d&amp;rsquo;obtenir de l&amp;rsquo;aide lorsque vous apprenez Ardour et que vous travaillez avec est d&amp;rsquo;utiliser la fonction &lt;strong>Chat&lt;/strong>. Ardour a une option &amp;ldquo;Chat&amp;rdquo; intégrée, que l&amp;rsquo;on trouve dans le menu principal sous &lt;code>Help &amp;gt; Chat&lt;/code> pour vous connecter (via votre navigateur web) au forum Ardour &lt;a href="http://en.wikipedia.org/wiki/IRC">IRC&lt;/a> de Ardour à libera.chat.&lt;/p></description></item><item><title>Glossaire</title><link>https://prokoudine.github.io/ardour-tutorial/fr/appendices/glossary/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/fr/appendices/glossary/</guid><description>&lt;p>Ce glossaire propose de brèves définitions pour de nombreux termes utilisés dans le tutoriel Ardour3 FLOSS.&lt;/p>
+&lt;dl>
+&lt;dt>&lt;strong>Aggregate Device&lt;/strong> (macOS)&lt;/dt>
+&lt;dd>Un dispositif agrégé est une carte son virtuelle composée de deux cartes son physiques ou plus.
+Les PowerBooks et les MacBooks fabriqués en 2007 ou plus tard auront besoin de cette configuration pour que &lt;em>JACK&lt;/em> ait des canaux d&amp;rsquo;entrée et de sortie. Cette configuration se fait dans l&amp;rsquo;application &lt;em>Audio MIDI Setup&lt;/em>.&lt;/dd>
+&lt;dt>&lt;strong>AIFF&lt;/strong>&lt;/dt>
+&lt;dd>Format de fichier audio développé par Apple et couramment utilisé pour le son sans perte et sans compression. Les fichiers AIFF sont compatibles avec les systèmes d&amp;rsquo;exploitation Windows, Macintosh et Linux.&lt;/dd>
+&lt;dt>&lt;strong>ALSA&lt;/strong> (Linux)&lt;/dt>
+&lt;dd>Advanced Linux Sound Architecture. ALSA fournit des fonctionnalités audio et MIDI au système d&amp;rsquo;exploitation Linux.&lt;/dd>
+&lt;dt>&lt;strong>Amplitude&lt;/strong> (mixage)&lt;/dt>
+&lt;dd>La force d&amp;rsquo;un signal audio. L&amp;rsquo;échelle de l&amp;rsquo;amplitude est &lt;em>*logarithmique&lt;/em>, puisqu&amp;rsquo;elle exprime le rapport physique de puissance entre un son et un autre. Dans les systèmes audio numériques, les niveaux sont généralement représentés par le nombre de décibels en dessous du point d&amp;rsquo;écrêtage de 0 dB.
+Voir également &lt;em>loudness&lt;/em>.&lt;/dd>
+&lt;dt>&lt;strong>Arm&lt;/strong> (Piste à enregistrer/Ardour pour enregistrement)&lt;/dt>
+&lt;dd>Action qui permet à Ardour de commencer l&amp;rsquo;enregistrement. Avant d&amp;rsquo;enregistrer dans Ardour, il faut d&amp;rsquo;abord armer une ou plusieurs pistes, puis armer Ardour.&lt;/dd>
+&lt;dt>&lt;strong>Artifacts&lt;/strong> (sound)&lt;/dt>
+&lt;dd>Distorsion perceptible ou diminution de la qualité du son générée en tant que sous-produit de certaines opérations de traitement du signal. Les artefacts sont généralement considérés comme des résultats indésirables ou inattendus d&amp;rsquo;une transformation sonore par ailleurs intentionnelle.&lt;/dd>
+&lt;dt>&lt;strong>Attenuation&lt;/strong>&lt;/dt>
+&lt;dd>Réduire le &lt;strong>niveau&lt;/strong> d&amp;rsquo;un signal audio, généralement mesuré à l&amp;rsquo;aide d&amp;rsquo;une échelle &lt;em>logarithmique&lt;/em>.
+Voir aussi &lt;em>gain&lt;/em>.&lt;/dd>
+&lt;dt>&lt;strong>Audio MIDI Setup&lt;/strong> (macOS)&lt;/dt>
+&lt;dd>L&amp;rsquo;utilitaire Audio MIDI Setup est un programme fourni avec le système d&amp;rsquo;exploitation macOS pour ajuster les paramètres de configuration de l&amp;rsquo;entrée et de la sortie audio de l&amp;rsquo;ordinateur et gérer les périphériques MIDI.&lt;/dd>
+&lt;dt>&lt;strong>Audio Unit Plugins&lt;/strong>&lt;/dt>
+&lt;dd>Audio Unit (AU) est une architecture de greffons dans les ordinateurs macOS. Il peut comme l&amp;rsquo;équivalent pour Apple du format de greffons VST de Steinberg. MacOS est livré avec une collection de greffons AU tels que l&amp;rsquo;égaliseur, des filtres, des processeurs dynamiques, des délais, des réverbérations, des étirements temporels, entre autres.&lt;/dd>
+&lt;dt>&lt;strong>Audition&lt;/strong>&lt;/dt>
+&lt;dd>L&amp;rsquo;auditeur est une bande de mixage cachée qui permet de lire des régions jouées par son intermédiaire. L&amp;rsquo;audition d&amp;rsquo;une région ne joue que cette région, sans traitement ni greffons.&lt;/dd>
+&lt;dt>&lt;strong>Automation&lt;/strong>&lt;/dt>
+&lt;dd>L&amp;rsquo;automatisation est l&amp;rsquo;ajustement automatique de divers paramètres tels que le gain, le panoramique ou les réglages des greffons.
+Les changements peuvent être effectués une fois et seront ensuite répétés à chaque fois que le mixage sera rejoué.
+Dans Ardour, l&amp;rsquo;automatisation est contrôlée par des lignes d&amp;rsquo;automatisation liées à chaque piste ou bus.&lt;/dd>
+&lt;dt>&lt;strong>Auxiliary Controls&lt;/strong>&lt;/dt>
+&lt;dd>Boutons situés en haut à droite des commandes de l&amp;rsquo;éditeur.
+Fenêtre : Punch In/Out, Auto Play, Auto Return, Auto Input, Click, Solo et Audition.&lt;/dd>
+&lt;dt>&lt;strong>Amplitude&lt;/strong>&lt;/dt>
+&lt;dd>Le niveau ou l&amp;rsquo;ampleur d&amp;rsquo;un signal.
+Les signaux audio ayant une amplitude plus élevée ont généralement un son plus fort.&lt;/dd>
+&lt;dt>&lt;strong>Bands&lt;/strong> (egalisation)&lt;/dt>
+&lt;dd>Les régions de fréquences particulières à amplifier ou à atténuer dans le processus d&amp;rsquo;égalisation.&lt;/dd>
+&lt;dt>&lt;strong>Bars&lt;/strong> (musique)&lt;/dt>
+&lt;dd>La barre de mesure est une unité métrique. Dans la notation occidentale, c&amp;rsquo;est l&amp;rsquo;espace compris entre deux lignes verticales tracées sur la portée. La durée spécifique d&amp;rsquo;une mesure dépend de sa &lt;em>signature temporelle&lt;/em> et du &lt;em>tempo&lt;/em> actuel de la musique.&lt;/dd>
+&lt;dt>&lt;strong>Bass&lt;/strong> (Fréquences)&lt;/dt>
+&lt;dd>Une manière générique de se référer aux basses fréquences du &lt;em>spectre&lt;/em> d&amp;rsquo;un son.&lt;/dd>
+&lt;dt>&lt;strong>Beat&lt;/strong>&lt;/dt>
+&lt;dd>La pulsation de base d&amp;rsquo;un morceau de musique.&lt;/dd>
+&lt;dt>&lt;strong>Beats per Minute&lt;/strong>&lt;/dt>
+&lt;dd>Les battements par minute (BPM) sont une mesure du tempo en musique. Un rythme de 60 battements par minute signifie qu&amp;rsquo;un battement se produit toutes les secondes ; 120 bpm équivaut à deux battements par seconde, et ainsi de suite. Les indications de BPM apparaissent généralement au début d&amp;rsquo;une partition musicale traditionnelle sous la forme d&amp;rsquo;une marque de métronome (par exemple, &amp;ldquo;la noire égale 60&amp;rdquo;, ce qui signifie une noire par seconde).&lt;/dd>
+&lt;dt>&lt;strong>Bit&lt;/strong>&lt;/dt>
+&lt;dd>Un bit (&lt;strong>bi&lt;/strong>nary dig&lt;strong>it&lt;/strong>) est un nombre unique dont la valeur est soit 0 soit 1.&lt;/dd>
+&lt;dt>&lt;strong>Bit Depth&lt;/strong>&lt;/dt>
+&lt;dd>Se réfère au nombre de bits utilisés pour écrire un &lt;em>échantillon&lt;/em>. Dans la norme CD, chaque échantillon audio est représenté par un nombre de 16 bits. Cela donne 2^16 (deux à la puissance seize = 65 536) valeurs possibles qu&amp;rsquo;un échantillon peut avoir. Une plus grande profondeur de bits signifie une plus grande &lt;em>plage dynamique&lt;/em> possible. Les enregistrements en studio sont généralement réalisés avec une profondeur de bits de 24 (voire 32) pour préserver le plus de détails possible avant le transfert sur CD. Les DVD sont réalisés en 24 bits, tandis que les jeux vidéo des années 1980 sont restés célèbres pour leur &amp;ldquo;son 8 bits&amp;rdquo; distinctif et rugueux. La profondeur de bits est également également appelée &lt;strong>word length&lt;/strong>.&lt;/dd>
+&lt;dt>&lt;strong>Buffer Size&lt;/strong> (JACK)&lt;/dt>
+&lt;dd>La mémoire tampon est une section de la mémoire spécifiquement allouée aux données temporaires du signal.
+Les petites tailles de mémoire tampon permettent une latence plus faible et sont donc nécessaires pour les applications audio qui nécessitent une interaction en temps réel.
+lors de l&amp;rsquo;utilisation d&amp;rsquo;applications audio nécessitant une interaction en temps réel. L&amp;rsquo;inconvénient est que la consommation de CPU pour le système est plus élevée avec des petites tailles de mémoire tampon. Des tampons plus grands (comme 512 ou 1024) peuvent être utilisés lorsqu&amp;rsquo;il n&amp;rsquo;y a pas de telles exigences.&lt;/dd>
+&lt;dt>&lt;strong>Built-in Input and Output&lt;/strong>&lt;/dt>
+&lt;dd>Ce sont les interfaces par défaut pour faire entrer et sortir le son de votre ordinateur si vous n&amp;rsquo;avez pas de carte son externe.
+Dans un ordinateur portable, il s&amp;rsquo;agit des connexions communes d&amp;rsquo;entrée (micro) et de sortie (casque).&lt;/dd>
+&lt;dt>&lt;strong>Bus&lt;/strong>&lt;/dt>
+&lt;dd>Un bus est similaire à une piste, sauf qu&amp;rsquo;il ne contient pas ses propres régions. Vous ne pouvez pas enregistrer directement dans un bus ni y faire glisser des régions. La bande &lt;em>Mixer&lt;/em> représente verticalement le flux de signal d&amp;rsquo;un bus, tandis que le canevas principal affiche horizontalement des informations temporelles pour chaque bus (telles que les lignes d&amp;rsquo;automatisation).&lt;/dd>
+&lt;dt>&lt;strong>BWF&lt;/strong>&lt;/dt>
+&lt;dd>Broadcast Wave Format (BWF) est une extension du célèbre format audio Microsoft WAVE et est le format d&amp;rsquo;enregistrement de la plupart des enregistreurs numériques non linéaires utilisés pour la production cinématographique et télévisuelle.
+Ce format de fichier permet d&amp;rsquo;inclure des métadonnées pour faciliter l&amp;rsquo;échange de données sonores entre différentes plates-formes et applications informatiques.&lt;/dd>
+&lt;dt>&lt;strong>CAF&lt;/strong>&lt;/dt>
+&lt;dd>CAF (Core Audio Format) est un format de fichier pour le stockage de données audio, développé par Apple.
+Il est compatible avec macOS 10.4 et les versions ultérieures. Le format Core Audio est conçu pour surmonter les limites des anciens formats audio numériques, notamment AIFF et WAV. Tout comme le format de fichier QuickTime .mov, un format de fichier .caf peut contenir de nombreux formats audio différents, des pistes de métadonnées et bien d&amp;rsquo;autres données.&lt;/dd>
+&lt;dt>&lt;strong>Center Frequency&lt;/strong>&lt;/dt>
+&lt;dd>Dans certains greffons d&amp;rsquo;égalisation, l&amp;rsquo;utilisateur a la possibilité de choisir la fréquence centrale pour chaque bande de fréquence.
+La fréquence centrale d&amp;rsquo;une bande sera celle qui sera la plus fortement atténuée ou renforcée par l&amp;rsquo;égaliseur pour cette bande spécifique. Les fréquences l&amp;rsquo;entourant seront moins affectées.&lt;/dd>
+&lt;dt>&lt;strong>Click&lt;/strong> (Mouse)&lt;/dt>
+&lt;dd>Dans ce manuel, il s&amp;rsquo;agit de cliquer sur le bouton gauche de la souris.
+Lorsque le bouton droit est requis, l&amp;rsquo;action est appelée &amp;ldquo;clic droit&amp;rdquo;.&lt;/dd>
+&lt;dt>&lt;strong>Clipping&lt;/strong>&lt;/dt>
+&lt;dd>L&amp;rsquo;écrêtage se produit lorsqu&amp;rsquo;un signal est trop élevé pour être reproduit. Tous les échantillons trop élevés seront simplement tronqués, ce qui entraîne une &lt;em>distorsion&lt;/em>, une perte de détails audio et des artefacts de &lt;em>fréquences&lt;/em> qui n&amp;rsquo;étaient pas présents dans le son original.&lt;/dd>
+&lt;dt>&lt;strong>Clipping Point&lt;/strong>&lt;/dt>
+&lt;dd>Le point d&amp;rsquo;écrêtage d&amp;rsquo;un système numérique est appelé 0 dB.
+Le niveau d&amp;rsquo;un son est mesuré en fonction de la distance qui le sépare du point d&amp;rsquo;écrêtage (-10 dB, -24 dB, etc.).&lt;/dd>
+&lt;dt>&lt;strong>Clocks&lt;/strong>&lt;/dt>
+&lt;dd>les deux gros afficheurs numériques en haut de la fenêtre &lt;em>Editor&lt;/em>.
+Il peuvent affiche le temps dans un certain nombre de formats : &lt;em>Timecode&lt;/em>, &lt;em>Bars:Beats&lt;/em>, &lt;em>Minutes:Seconds&lt;/em>, et &lt;em>Samples&lt;/em>.&lt;/dd>
+&lt;dt>&lt;strong>Compile&lt;/strong>&lt;/dt>
+&lt;dd>Les applications FLOSS sont distribuées sous forme de code source, qui est lisible par l&amp;rsquo;homme mais ne peut pas être exécuté comme une application réelle. Pour transformer ce code source en une application il doit d&amp;rsquo;abord être compilé. Lorsque vous téléchargez une image disque pour macOS ou un paquetage logiciel de votre distribution (comme Ubuntu, Debian ou Fedora), il a déjà été compilé pour vous. Cependant, si vous souhaitez ajouter des fonctionnalités (telles que la prise en charge des &lt;em>VST Plugins&lt;/em>) que votre distribution ne fournit pas, alors vous devez compiler vous-même l&amp;rsquo;application à partir du code source.&lt;/dd>
+&lt;dt>&lt;strong>Compression&lt;/strong>(DSP)&lt;/dt>
+&lt;dd>Essentiellement, la compression rend les parties calmes d&amp;rsquo;un signal plus bruyantes sans modifier le niveau des parties
+les parties les plus bruyantes. Cela entraîne une réduction de la plage dynamique réelle : un son compressé est moins dynamique.&lt;/dd>
+&lt;dt>&lt;strong>Compression&lt;/strong> (data)&lt;/dt>
+&lt;dd>Comme toutes les autres données, les données audio peuvent être compressées de manière à utiliser moins d&amp;rsquo;espace sur le disque dur.
+La compression telle que FLAC, ALAC ou MLP réduit la taille des fichiers audio par rapport à WAV ou AIFF sans modifier les données, ce que l&amp;rsquo;on appelle la compression sans perte. L&amp;rsquo;audio peut être compressé à une taille encore plus petite en utilisant la compression avec perte comme le MP3, l&amp;rsquo;Ogg Vorbis ou l&amp;rsquo;AAC, mais cela se fait en supprimant des données qui peuvent avoir un effet audible.&lt;/dd>
+&lt;dt>&lt;strong>Connections Manager&lt;/strong>(JACK)&lt;/dt>
+&lt;dd>La fenêtre dans JACK qui permet de gérer toutes les connexions entre les entrées et les sorties audio.&lt;/dd>
+&lt;dt>&lt;strong>CoreAudio&lt;/strong>(macOS)&lt;/dt>
+&lt;dd>CoreAudio fournit des fonctionnalités audio au système d&amp;rsquo;exploitation macOS.&lt;/dd>
+&lt;dt>&lt;strong>Cursor Modes&lt;/strong>&lt;/dt>
+&lt;dd>Il s&amp;rsquo;agit des six boutons situés juste en dessous des commandes de transport dans la fenêtre de l&amp;rsquo;éditeur. Les six fonctions différentes que le pointeur de la souris peut avoir dans Ardour sont les suivantes : Sélectionner/déplacer des objets, Sélectionner/déplacer des intervalles, Sélectionner la plage de zoom, dessiner l&amp;rsquo;automatisation du gain, étirer/rétrécir les régions, écouter des régions spécifiques.&lt;/dd>
+&lt;dt>&lt;strong>Decibels&lt;/strong>&lt;/dt>
+&lt;dd>Le décibel est une échelle logarithmique utilisée pour mesurer de nombreuses quantités, y compris le gain, le niveau ou l&amp;rsquo;intensité sonore d&amp;rsquo;un signal. Le décibel est généralement abrégé en dB et, dans le domaine de l&amp;rsquo;audio numérique, il indique généralement à quelle distance de 0 dBFS (le point d&amp;rsquo;écrêtage d&amp;rsquo;un système).&lt;/dd>
+&lt;dt>&lt;strong>Delay&lt;/strong> (effet)&lt;/dt>
+&lt;dd>Temps qui s&amp;rsquo;écoule entre un événement et un autre. En tant qu&amp;rsquo;effet audio, un délai prend un signal sonore entrant et le retarde pendant un certain temps. Lorsqu&amp;rsquo;il est mélangé au son original, on entend un &amp;ldquo;écho&amp;rdquo;. En utilisant le &lt;em>feedback&lt;/em> pour renvoyer
+le signal retardé dans le délai (généralement après avoir baissé son &lt;em>gain&lt;/em>), on obtient des échos multiples avec une &lt;em>décroissance&lt;/em>.&lt;/dd>
+&lt;dt>&lt;strong>Destructive Editing/Recording&lt;/strong>&lt;/dt>
+&lt;dd>Les actions destructives sont celles qui modifient ou effacent de façon permanente les données originales (fichiers sonores) au cours de l&amp;rsquo;édition ou de l&amp;rsquo;enregistrement.&lt;/dd>
+&lt;dt>&lt;strong>Distortion&lt;/strong>&lt;/dt>
+&lt;dd>La distorsion se produit lorsqu&amp;rsquo;un signal audio est modifié d&amp;rsquo;une manière ou d&amp;rsquo;une autre qui produit des &lt;em>fréquences&lt;/em> absentes de l&amp;rsquo;original. La distorsion peut être délibérée ou non, et peut être produite en conduisant le signal à un &lt;em>point d&amp;rsquo;écrêtage&lt;/em>, ou en utilisant des transformations mathématiques pour modifier la forme (ou &amp;ldquo;forme d&amp;rsquo;onde&amp;rdquo;) du signal (généralement appelée &amp;ldquo;mise en forme d&amp;rsquo;onde&amp;rdquo;).&lt;/dd>
+&lt;dt>&lt;strong>Disk Image (.dmg)&lt;/strong>&lt;/dt>
+&lt;dd>Une image de disque est un fichier unique de l&amp;rsquo;intégralité du contenu et de la structure d&amp;rsquo;un support ou d&amp;rsquo;un périphérique de stockage de données. En double-cliquant sur un fichier .dmg sur un Mac, un périphérique virtuel sera monté sur votre bureau (comme si vous aviez inséré un périphérique USB ou un DVD, par exemple). De nombreux programmes d&amp;rsquo;installation de logiciels sous OS X sont
+sont disponibles sous forme de fichiers .dmg.&lt;/dd>
+&lt;dt>&lt;strong>Driver&lt;/strong>(JACK)&lt;/dt>
+&lt;dd>Logiciel écrit pour contrôler le matériel. CoreAudio est le pilote de son pour Mac. ALSA est le pilote Linux le plus courant.&lt;/dd>
+&lt;dt>&lt;strong>DSP&lt;/strong>&lt;/dt>
+&lt;dd>Digital Signal Processing.&lt;/dd>
+&lt;dt>&lt;strong>Dynamic Range&lt;/strong>&lt;/dt>
+&lt;dd>Utilisé pour faire référence à la différence entre le son le plus fort et le son le plus faible qu&amp;rsquo;il est possible d&amp;rsquo;enregistrer, ainsi qu&amp;rsquo;à la quantité de détails qui peuvent être entendus entre ces deux extrêmes. Les sons qui sont trop faibles pour être
+être enregistrés sont considérés comme étant en dessous du &lt;strong>plancher de bruit&lt;/strong> du système d&amp;rsquo;enregistrement (microphone, enregistreur, carte son, etc.). Les sons qui
+sont trop forts seront &lt;strong>distordus&lt;/strong> ou &lt;strong>écrêtés&lt;/strong>.&lt;/dd>
+&lt;dt>&lt;strong>Edit&lt;/strong> &lt;strong>Modes&lt;/strong>&lt;/dt>
+&lt;dd>Les trois modes d&amp;rsquo;édition disponibles (&lt;strong>Slide Edit&lt;/strong>, &lt;strong>Slice Edit&lt;/strong> et &lt;strong>Lock Edit&lt;/strong>) contrôlent le comportement des opérations d&amp;rsquo;édition dans le &lt;strong>Main Canvas&lt;/strong>.&lt;/dd>
+&lt;dt>&lt;strong>Edit Point&lt;/strong>&lt;/dt>
+&lt;dd>Point du canevas principal où se déroule une action telle que Coller. Il peut s&amp;rsquo;agir de la souris, de la tête de lecture ou d&amp;rsquo;un marqueur.&lt;/dd>
+&lt;dt>&lt;strong>Editor Window&lt;/strong>&lt;/dt>
+&lt;dd>Ardour propose deux façons de visualiser une session : l&amp;rsquo;éditeur et le mixeur.
+L&amp;rsquo;éditeur représente les aspects temporels d&amp;rsquo;une session :
+Il affiche les pistes et les bus comme des affichages horizontaux, avec le matériel dans les pistes (audio, MIDI, vidéo, données d&amp;rsquo;automatisation, etc.) le long de l&amp;rsquo;axe horizontal (temps).&lt;/dd>
+&lt;dt>&lt;strong>EQ&lt;/strong>&lt;/dt>
+&lt;dd>Voir Égalisation.&lt;/dd>
+&lt;dt>&lt;strong>Égalisation&lt;/strong>&lt;/dt>
+&lt;dd>L&amp;rsquo;égalisation (EQ) est le processus d&amp;rsquo;ajustement des niveaux relatifs des différentes fréquences dans un enregistrement ou un signal.
+En d&amp;rsquo;autres termes, c&amp;rsquo;est le processus d&amp;rsquo;augmentation ou d&amp;rsquo;atténuation des différentes bandes de fréquences d&amp;rsquo;un son en fonction d&amp;rsquo;un objectif artistique choisi.&lt;/dd>
+&lt;dt>&lt;strong>Filter&lt;/strong>&lt;/dt>
+&lt;dd>Un type de traitement du signal qui supprime certaines fréquences.&lt;/dd>
+&lt;dt>&lt;strong>Floating Point Numbers&lt;/strong>&lt;/dt>
+&lt;dd>Il s&amp;rsquo;agit simplement d&amp;rsquo;un nombre avec un point décimal. Le terme &amp;ldquo;virgule flottante&amp;rdquo; fait référence à la technique spécifique utilisée par l&amp;rsquo;ordinateur pour représenter une gamme plus large de valeurs entières et non entières.&lt;/dd>
+&lt;dt>&lt;strong>FLAC&lt;/strong>&lt;/dt>
+&lt;dd>Format audio sans perte à source ouverte généralement compatible avec Linux, Windows et Macintosh. Contrairement à AIFF et WAV, FLAC est un format compressé, permettant de réduire la taille des fichiers.&lt;/dd>
+&lt;dt>&lt;strong>FLOSS&lt;/strong>&lt;/dt>
+&lt;dd>FLOSS est l&amp;rsquo;acronyme de Free Libre Open Source Software. FLOSS Manuals est une collection de manuels sur les logiciels libres et open source, ainsi que sur les outils utilisés pour les créer et la communauté qui utilise ces outils.
+Ils comprennent des auteurs, des éditeurs, des artistes, des développeurs de logiciels, des activistes, et bien d&amp;rsquo;autres.&lt;/dd>
+&lt;dt>&lt;strong>Format&lt;/strong> (audio file)&lt;/dt>
+&lt;dd>Les types de fichiers sonores sous lesquels les sons sont enregistrés. Parmi les plus courants on trouve AIFF, WAV, FLAC, mp3 et Ogg Vorbis.&lt;/dd>
+&lt;dt>&lt;strong>ips&lt;/strong> (fps)&lt;/dt>
+&lt;dd>Images par seconde. La fréquence d&amp;rsquo;images est la fréquence (taux) à laquelle un dispositif d&amp;rsquo;imagerie produit des images consécutives uniques. Le terme s&amp;rsquo;applique aussi bien aux images de synthèse qu&amp;rsquo;aux caméras vidéo, aux caméras cinématographiques et aux systèmes de capture de mouvement. La fréquence des images est le plus souvent exprimée en images par seconde (IPS ou FPS en anglais).&lt;/dd>
+&lt;dt>&lt;strong>Fréquence&lt;/strong>&lt;/dt>
+&lt;dd>Se réfère au nombre de fois qu&amp;rsquo;une oscillation se produit en une seconde.
+La fréquence est mesurée en &lt;strong>Hertz&lt;/strong>, et est corrélée à la &lt;strong>hauteur&lt;/strong> d&amp;rsquo;un son. La fréquence est une échelle &lt;strong>linéaire&lt;/strong>, tandis que la hauteur est &lt;strong>logarithmique&lt;/strong>.
+La hauteur &amp;ldquo;LA&amp;rdquo; au-dessus du do central a une fréquence de 440 Hz. Le &amp;ldquo;LA&amp;rdquo; situé une octave plus haut a une fréquence deux fois plus élevée (880 Hz).&lt;/dd>
+&lt;dt>&lt;strong>Gain&lt;/strong>&lt;/dt>
+&lt;dd>Augmentation du &lt;strong>niveau&lt;/strong> d&amp;rsquo;un signal audio, généralement mesurée à l&amp;rsquo;aide d&amp;rsquo;une échelle &lt;strong>logarithmique&lt;/strong>. Voir également &lt;strong>atténuation&lt;/strong>.&lt;/dd>
+&lt;dt>&lt;strong>Grile&lt;/strong>&lt;/dt>
+&lt;dd>La grille est un système de points sur lesquels une région peut s&amp;rsquo;accrocher lors de son édition. Le paramètre grille peut être réglé sur la valeur &amp;ldquo;Pas de grille&amp;rdquo;, &amp;ldquo;Grille&amp;rdquo; ou &amp;ldquo;Magnétique&amp;rdquo;.&lt;/dd>
+&lt;dt>&lt;strong>Points de la grille&lt;/strong>&lt;/dt>
+&lt;dd>Points de la &lt;strong>grille&lt;/strong> sur lesquels les régions s&amp;rsquo;accrochent lorsqu&amp;rsquo;elles sont actives.
+Les points de la grille peuvent être des minutes, des secondes, des images vidéo, des mesures, des battements ou des multiples de battements.&lt;/dd>
+&lt;dt>&lt;strong>Hertz&lt;/strong>&lt;/dt>
+&lt;dd>Terme utilisé pour décrire le nombre de fois qu&amp;rsquo;une chose se produit en une seconde.
+En audio numérique, il est utilisé pour décrire le &lt;strong>taux d&amp;rsquo;échantillonnage&lt;/strong>, et en acoustique, il est utilisé pour décrire la &lt;strong>fréquence&lt;/strong> d&amp;rsquo;un son. Les milliers de Hertz sont appelés kHz (kilo Hertz).&lt;/dd>
+&lt;dt>&lt;strong>Plateau haut&lt;/strong>&lt;/dt>
+&lt;dd>Dans un &lt;strong>Égaliseur&lt;/strong>, un &lt;strong>plateau&lt;/strong> coupe ou augmente tout ce qui se trouve au-dessus (Haut) ou au-dessous (Bas) d&amp;rsquo;une fréquence spécifique.&lt;/dd>
+&lt;dt>&lt;strong>Headroom&lt;/strong>&lt;/dt>
+&lt;dd>La plage de &lt;strong>décibels&lt;/strong> entre le &lt;strong>point culminant&lt;/strong> de la région et le &lt;strong>point d&amp;rsquo;écrêtage&lt;/strong> est communément appelée &lt;strong>headroom&lt;/strong>. Il est courant d&amp;rsquo;enregistrer en conservant environ trois à six décibels de marge entre le maximum de votre signal et le point d&amp;rsquo;écrêtage.&lt;/dd>
+&lt;dt>&lt;strong>Jack Audio Connection Kit (JACK)&lt;/strong>&lt;/dt>
+&lt;dd>JACK est un système audio à faible latence qui gère les connexions entre Ardour et la carte son de votre ordinateur, et entre Ardour et d&amp;rsquo;autres programmes audio de votre ordinateur compatibles avec JACK. Vous devez installer JACK pour Linux ou JackOSX avant de pouvoir utiliser Ardour.&lt;/dd>
+&lt;dt>&lt;strong>JackOSX&lt;/strong> (OS X)&lt;/dt>
+&lt;dd>Le nom de la version de &lt;strong>JACK&lt;/strong> qui fonctionne sur macOS. Voir &lt;strong>JACK&lt;/strong> pour plus de détails.&lt;/dd>
+&lt;dt>&lt;strong>JackPilot&lt;/strong>&lt;/dt>
+&lt;dd>L&amp;rsquo;interface de contrôle fournie avec JackOSX.&lt;/dd>
+&lt;dt>&lt;strong>Jack Server&lt;/strong>&lt;/dt>
+&lt;dd>Le serveur Jack est le &amp;ldquo;moteur&amp;rdquo; ou &amp;ldquo;backend&amp;rdquo; du kit de connexion Jack Audio.&lt;/dd>
+&lt;dt>&lt;strong>Jack Router&lt;/strong>&lt;/dt>
+&lt;dd>Le routeur Jack permet d&amp;rsquo;acheminer l&amp;rsquo;audio d&amp;rsquo;une application à une autre à l&amp;rsquo;aide du &lt;strong>serveur Jack&lt;/strong>.&lt;/dd>
+&lt;dt>&lt;strong>JAMin&lt;/strong>&lt;/dt>
+&lt;dd>JAMin est l&amp;rsquo;interface Jack Audio Connection Kit Audio Mastering. JAMin est une application open source conçue pour effectuer un mastering audio des flux d&amp;rsquo;entrée stéréo. Il utilise &lt;strong>LADSPA&lt;/strong> pour le traitement du signal numérique (DSP).&lt;/dd>
+&lt;dt>&lt;strong>Greffons LADSPA&lt;/strong>&lt;/dt>
+&lt;dd>Linux Audio Developer Simple Plugin API (LADSPA) est une norme qui permet de brancher des processeurs audio et des effets logiciels dans une large gamme de logiciels de synthèse et d&amp;rsquo;enregistrement audio. Par exemple, il permet à un développeur d&amp;rsquo;écrire un programme de réverbération et de le regrouper dans une &amp;ldquo;bibliothèque de greffons&amp;rdquo; LADSPA.
+Les utilisateurs ordinaires peuvent alors utiliser cette réverbération dans n&amp;rsquo;importe quelle application audio compatible avec LADSPA. La plupart des applications audio majeures sous
+Linux supportent LADSPA.&lt;/dd>
+&lt;dt>&lt;strong>Latence&lt;/strong>&lt;/dt>
+&lt;dd>La latence est le temps nécessaire pour traiter tous les échantillons provenant des applications sonores sur votre ordinateur et les envoyer à la carte son et de les envoyer à la carte son pour la lecture, ou pour collecter les échantillons de la carte son pour l&amp;rsquo;enregistrement ou le traitement.
+Une latence plus courte signifie que vous entendrez les résultats plus rapidement, donnant l&amp;rsquo;impression d&amp;rsquo;un système plus réactif. Cependant, avec une latence plus courte, vous courez également un plus grand risque d&amp;rsquo;&lt;strong>artefacts&lt;/strong> dans l&amp;rsquo;audio car l&amp;rsquo;ordinateur n&amp;rsquo;a peut-être pas assez de temps pour traiter le son avant de l&amp;rsquo;envoyer à la carte son. Une latence plus longue signifie moins d&amp;rsquo;artefacts mais au prix d&amp;rsquo;un temps de réponse plus lent. La latence est
+mesurée en millisecondes.&lt;/dd>
+&lt;dt>&lt;strong>Limiting&lt;/strong>&lt;/dt>
+&lt;dd>Le processus par lequel l&amp;rsquo;amplitude de la sortie d&amp;rsquo;un appareil est empêchée de dépasser une valeur prédéterminée.&lt;/dd>
+&lt;dt>&lt;strong>Linear&lt;/strong>&lt;/dt>
+&lt;dd>Une échelle de nombres qui progresse de manière additive, par exemple en ajoutant un (1, 2, 3, 4&amp;hellip;), deux (2, 4, 6, 8&amp;hellip;) ou dix (10, 20, 30, 40&amp;hellip;).
+La multiplication d&amp;rsquo;un signal audio, par exemple, par une échelle linéaire ou logarithmique produira des résultats très différents. L&amp;rsquo;échelle de &lt;strong>fréquence&lt;/strong> est linéaire, alors que les échelles de &lt;strong>hauteur&lt;/strong> et &lt;strong>gain&lt;/strong> sont logarithmiques.&lt;/dd>
+&lt;dt>&lt;strong>Linux kernel&lt;/strong>&lt;/dt>
+&lt;dd>Le cœur du système d&amp;rsquo;exploitation GNU/Linux. Dans un &lt;strong>système en temps réel&lt;/strong>, ce noyau est généralement &lt;strong>compilé&lt;/strong> avec de nouveaux paramètres qui accélèrent l&amp;rsquo;utilisation des applications audio dans le système.&lt;/dd>
+&lt;dt>&lt;strong>Lock Edit&lt;/strong>&lt;/dt>
+&lt;dd>L&amp;rsquo;un des trois &lt;strong>modes d&amp;rsquo;édition&lt;/strong> disponibles, Lock Edit est similaire à &lt;strong>Slice Edit&lt;/strong>, mais les régions restent dans leur position d&amp;rsquo;origine, quelle que soit l&amp;rsquo;opération d&amp;rsquo;édition effectuée.&lt;/dd>
+&lt;dt>&lt;strong>Logarithmic&lt;/strong>&lt;/dt>
+&lt;dd>Une échelle de nombres qui progresse selon un certain rapport, par exemple de manière exponentielle (2, 4, 8, 16, 256&amp;hellip;). Les échelles de &lt;strong>hauteur&lt;/strong> et de &lt;strong>gain&lt;/strong> sont logarithmiques, tandis que l&amp;rsquo;échelle de &lt;strong>fréquence&lt;/strong> est linéaire.&lt;/dd>
+&lt;dt>&lt;strong>Lossless&lt;/strong>&lt;/dt>
+&lt;dd>Voir &lt;strong>Compression&lt;/strong> (données)&lt;/dd>
+&lt;dt>&lt;strong>Lossy&lt;/strong>&lt;/dt>
+&lt;dd>Voir Compression (Données)&lt;/dd>
+&lt;dt>&lt;strong>Loudness&lt;/strong>&lt;/dt>
+&lt;dd>Contrairement à l&amp;rsquo;&lt;strong>amplitude&lt;/strong>, qui exprime la puissance physique d&amp;rsquo;un son, l&amp;rsquo;intensité sonore est la force perçue d&amp;rsquo;un son. Des sons de différentes fréquences peuvent être perçus comme ayant des intensités différentes, même s&amp;rsquo;ils ont la même amplitude.&lt;/dd>
+&lt;dt>&lt;strong>LV2&lt;/strong>&lt;/dt>
+&lt;dd>LV2 est une norme ouverte pour les greffons et les applications hôtes correspondantes, principalement destinés au traitement et à la génération audio.
+LV2 est un successeur simple mais extensible de LADSPA, destiné à remédier aux limites de LADSPA.&lt;/dd>
+&lt;dt>&lt;strong>Main Canvas&lt;/strong>&lt;/dt>
+&lt;dd>Dans la fenêtre d&amp;rsquo;édition d&amp;rsquo;Ardour, le canevas principal est l&amp;rsquo;espace situé juste en dessous des règles de la ligne de temps où les pistes et les bus sont affichés horizontalement.&lt;/dd>
+&lt;dt>&lt;strong>Master Out&lt;/strong>&lt;/dt>
+&lt;dd>Une sortie maître est un bus vers lequel toutes (ou la plupart) les pistes et autres bus envoient leur sortie. Il fournit un point de contrôle unique et pratique pour la sortie d&amp;rsquo;Ardour, et est un emplacement typique pour les effets globaux.
+L&amp;rsquo;utilisation de la sortie master est activée par défaut, et le bus de sortie master est configuré pour être stéréo.&lt;/dd>
+&lt;dt>&lt;strong>Meter&lt;/strong>&lt;/dt>
+&lt;dd>Le regroupement des temps forts et faibles en unités plus grandes appelées mesures.&lt;/dd>
+&lt;dt>&lt;strong>Mixing&lt;/strong>&lt;/dt>
+&lt;dd>Le mixage audio est le processus par lequel une multitude de sons enregistrés sont combinés en un ou plusieurs canaux, le plus souvent en stéréo à deux canaux. Dans ce processus, les niveaux, le contenu en fréquence, la dynamique et la position panoramique des signaux sources sont généralement manipulés et des effets tels que la réverbération peuvent être ajoutés.&lt;/dd>
+&lt;dt>&lt;strong>MIDI&lt;/strong>&lt;/dt>
+&lt;dd>MIDI est un protocole industriel standard défini en^&lt;a href="http://en.wikipedia.org/wiki/Musical_Instrument_Digital_Interface#cite_note-0">&lt;/a>^ 1982 qui permet aux instruments de musique électroniques tels que les claviers, les ordinateurs et autres équipements électroniques de communiquer, de contrôler et de se synchroniser les uns avec les autres. Le MIDI permet aux ordinateurs, synthétiseurs, contrôleurs MIDI, cartes son, échantillonneurs et boîtes à rythmes de se contrôler mutuellement et d&amp;rsquo;échanger des données système. Le MIDI ne transmet pas de signaux audio, mais simplement des messages tels que le numéro de la note (hauteur), vélocité (intensité), note-on et note-off.&lt;/dd>
+&lt;dt>&lt;strong>Mixer Strip&lt;/strong>&lt;/dt>
+&lt;dd>Chaque piste et chaque bus est représenté dans la fenêtre du mixeur par une bande de mixage** verticale qui contient diverses commandes liées au flux du signal.
+Il y a deux endroits dans Ardour où vous pouvez voir des bandes de mixage. La fenêtre du mixeur est l&amp;rsquo;endroit le plus évident, mais vous pouvez aussi en voir une seule sur le côté gauche de l&amp;rsquo;éditeur (shift + E pour cacher/afficher).&lt;/dd>
+&lt;dt>&lt;strong>Mixer Window&lt;/strong>&lt;/dt>
+&lt;dd>La table de mixage présente la session en représentant les pistes verticalement sous forme de Mixer avec des contrôles pour le gain, l&amp;rsquo;activation de l&amp;rsquo;enregistrement, la mise en solo, les greffons, etc. Le Mixer représente le flux de signal des pistes et des bus dans une session Ardour. La fenêtre du mixeur offre une vue qui imite une console de mixage traditionnelle.&lt;/dd>
+&lt;dt>&lt;strong>Monitoring&lt;/strong>&lt;/dt>
+&lt;dd>Le monitoring consiste à acheminer un mixage ou un sous-mixage spécifique de votre session vers des sorties séparées (comme un casque). Par exemple, un musicien en cours d&amp;rsquo;enregistrement peut vouloir écouter le matériel existant pendant qu&amp;rsquo;il joue. Ardour et JACK facilitent la mise en place de sorties de contrôle, car tout signal entrant peut être renvoyé vers n&amp;rsquo;importe quelle sortie, éventuellement mixé avec d&amp;rsquo;autres signaux et avec n&amp;rsquo;importe quel type de traitement sonore ajouté.&lt;/dd>
+&lt;dt>&lt;strong>Mono&lt;/strong>&lt;/dt>
+&lt;dd>Un fichier audio mono ne contient qu&amp;rsquo;un seul canal audio. Une piste mono dans Ardour n&amp;rsquo;a qu&amp;rsquo;une seule entrée et gère les fichiers sonores mono.&lt;/dd>
+&lt;dt>&lt;strong>MP3&lt;/strong>&lt;/dt>
+&lt;dd>Un &lt;strong>Format&lt;/strong> de fichier son avec perte, compressé en taille.&lt;/dd>
+&lt;dt>&lt;strong>Graphic Equalizer/Multi-Band Equalizer&lt;/strong>&lt;/dt>
+&lt;dd>Un égaliseur graphique (ou multibande) est constitué d&amp;rsquo;une banque de curseurs permettant de
+d&amp;rsquo;augmenter ou d&amp;rsquo;atténuer les différentes fréquences d&amp;rsquo;un son.&lt;/dd>
+&lt;dt>&lt;strong>Non-destructive Editing/Recording&lt;/strong>&lt;/dt>
+&lt;dd>Il s&amp;rsquo;agit d&amp;rsquo;une forme d&amp;rsquo;édition où le contenu original n&amp;rsquo;est pas modifié au cours du montage. En coulisses, le fichier son original est conservé intact, et vos éditions sont en fait une liste d&amp;rsquo;instructions qu&amp;rsquo;Ardour utilisera pour reconstruire le signal de la source originale lorsque vous l&amp;rsquo;écouterez. Par exemple, la création de fade-ins et de fade-outs sur vos régions est un type d&amp;rsquo;édition non destructive.&lt;/dd>
+&lt;dt>&lt;strong>Normalize&lt;/strong>&lt;/dt>
+&lt;dd>Normaliser un signal audio signifie ajuster son &lt;strong>gain&lt;/strong> de façon à ce qu&amp;rsquo;il atteigne le maximum autorisé par la carte son avant &lt;strong>écrêtage&lt;/strong>.&lt;/dd>
+&lt;dt>&lt;strong>Normal Mode&lt;/strong>&lt;/dt>
+&lt;dd>Voir &lt;strong>Track Mode&lt;/strong>.&lt;/dd>
+&lt;dt>&lt;strong>Note value&lt;/strong>&lt;/dt>
+&lt;dd>Durée proportionnelle d&amp;rsquo;une note ou d&amp;rsquo;un silence par rapport à une unité standard.
+unité standard.&lt;/dd>
+&lt;dt>&lt;strong>Octave&lt;/strong> (music)&lt;/dt>
+&lt;dd>Distance de 12 demi-tons entre deux notes. Dans &lt;strong>Hertz&lt;/strong>, le rapport d&amp;rsquo;une octave est de 2:1. Par exemple, la note &amp;ldquo;La&amp;rdquo; au-dessus du do moyen a une fréquence de 440 Hz.
+La note &amp;ldquo;La&amp;rdquo; une octave au-dessus a une fréquence de 880 Hz, et une octave en dessous a une fréquence de 220 Hz.&lt;/dd>
+&lt;dt>&lt;strong>Ogg Vorbis&lt;/strong>&lt;/dt>
+&lt;dd>Un Format de fichier son libre avec perte, compressé en taille.&lt;/dd>
+&lt;dt>&lt;strong>Panning&lt;/strong>&lt;/dt>
+&lt;dd>Le panoramique est l&amp;rsquo;emplacement des sons dans le &lt;strong>champ stéréo&lt;/strong>.&lt;/dd>
+&lt;dt>&lt;strong>Parametric Equalizer&lt;/strong>&lt;/dt>
+&lt;dd>L&amp;rsquo;égaliseur paramétrique est le type d&amp;rsquo;égaliseur** le plus polyvalent utilisé pour le &lt;strong>mixage&lt;/strong> car il permet un contrôle étendu de tous les paramètres de filtrage.&lt;/dd>
+&lt;dt>&lt;strong>Peaks&lt;/strong>&lt;/dt>
+&lt;dd>Les crêtes sont une représentation graphique des &lt;strong>niveaux&lt;/strong> maximums d&amp;rsquo;une &lt;strong>région&lt;/strong>.&lt;/dd>
+&lt;dt>&lt;strong>Peak Meters&lt;/strong>&lt;/dt>
+&lt;dd>Les crête-mètres représentent les niveaux maximums d&amp;rsquo;une région et sont situés à côté de l&amp;rsquo;atténuateur dans la fenêtre du mixeur mais aussi dans le mixeur de piste de chaque piste.&lt;/dd>
+&lt;dt>&lt;strong>Hauteur&lt;/strong>&lt;/dt>
+&lt;dd>La hauteur représente la fréquence fondamentale perçue d&amp;rsquo;un son.
+^&lt;a href="http://en.wikipedia.org/wiki/Pitch_(music)#cite_note-0">&lt;/a>^^Il est l&amp;rsquo;un des trois principaux attributs auditifs des sons, avec l&amp;rsquo;intensité la sonorité et le timbre. En MIDI, la hauteur est représentée par un nombre compris entre 0 et 127, chaque chiffre représentant une touche d&amp;rsquo;un clavier MIDI. La relation entre la hauteur et la &lt;strong>fréquence&lt;/strong> est &lt;strong>logarithmique&lt;/strong>. Cela signifie qu&amp;rsquo;un son qui est entendu une &lt;strong>Octave&lt;/strong> (+12 notes MIDI) au-dessus d&amp;rsquo;un autre son est le double de la fréquence en Hz, tandis qu&amp;rsquo;un son une octave plus bas (-12 notes MIDI) correspond à la moitié de la fréquence.&lt;/dd>
+&lt;dt>&lt;strong>Tête de lecture&lt;/strong>&lt;/dt>
+&lt;dd>Dans Ardour, la tête de lecture est la ligne rouge qui se déplace dans le temps (c&amp;rsquo;est-à-dire de gauche à droite) pour indiquer la position de lecture actuelle.&lt;/dd>
+&lt;dt>&lt;strong>Greffon&lt;/strong> (Plugin)&lt;/dt>
+&lt;dd>En informatique, un greffon est un programme informatique qui interagit avec une application hôte (dans le cas présent, Ardour) pour fournir certaines fonctionnalités.
+La réverbération, les filtres et les égaliseurs sont des exemples de greffons qui peuvent être utilisés dans Ardour en association avec des pistes ou des bus.&lt;/dd>
+&lt;dt>&lt;strong>Portaudio&lt;/strong>&lt;/dt>
+&lt;dd>Un ensemble de &lt;strong>pilotes audio&lt;/strong> libres et gratuits pour Linux et macOS.&lt;/dd>
+&lt;dt>&lt;strong>Post-atténuateur&lt;/strong> (greffon ou départ)&lt;/dt>
+&lt;dd>Dans la bande de mixage, la zone post-atténuateur est l&amp;rsquo;espace noir situé sous le curseur de gain, auquel des greffons ou des départs peuvent être ajoutés. L&amp;rsquo;entrée de ces greffons et envois sera le signal &lt;em>après&lt;/em> tout changement de gain manuel ou automatisé (d&amp;rsquo;où le terme &amp;ldquo;post-atténuateur&amp;rdquo;).
+In the Mixer Strip, the post-fader area is the black space below the
+gain slider, to which plugins or sends can be added. The input of these
+plugins and sends will be the signal &lt;em>after&lt;/em> any manual or automated
+gain change (thus &amp;ldquo;post-fader&amp;rdquo;).&lt;/dd>
+&lt;dt>&lt;strong>Pre-attnuateur&lt;/strong> (greffon ou départ)&lt;/dt>
+&lt;dd>Dans la bande de mixage, la zone de pré-atténuateur est l&amp;rsquo;espace noir au-dessus de curseur de gain, auquel des greffons ou des départs peuvent être ajoutés. L&amp;rsquo;entrée de ces
+greffons et envois sera le signal entrant &lt;em>avant&lt;/em> qu&amp;rsquo;il ne soit affecté par tout changement de gain manuel ou automatisé contrôlé par le curseur (donc &amp;ldquo;pré-atténuateur&amp;rdquo;).&lt;/dd>
+&lt;dt>&lt;strong>Quantization&lt;/strong>&lt;/dt>
+&lt;dd>Dans le traitement des signaux, la quantification peut se référer à la profondeur de bits (voir la définition de &lt;strong>profondeur de bits&lt;/strong>). En MIDI, la quantification fait référence au processus d&amp;rsquo;alignement des notes sur une grille temporelle précise. Il en résulte que les notes sont sur des temps ou des fractions exactes de temps. Les séquenceurs MIDI comprennent généralement une fonction de quantification.&lt;/dd>
+&lt;dt>&lt;strong>Range&lt;/strong>&lt;/dt>
+&lt;dd>Un segment de temps. Les intervalles sont créés à l&amp;rsquo;aide de l&amp;rsquo;outil Sélectionner/Déplacer les intervalles et peuvent inclure une ou plusieurs pistes. Les Intervalles de boucles et de punch sont des types d&amp;rsquo;intervalles spéciaux qui sont créés et manipulés avec l&amp;rsquo;indicateur d&amp;rsquo;intervalle boucle/punch&lt;/dd>
+&lt;dt>&lt;strong>Real-time System&lt;/strong>(Linux)&lt;/dt>
+&lt;dd>Dans un &lt;strong>Real-time System&lt;/strong>, Le &lt;strong>Linux kernel&lt;/strong> est généralement recompilé
+(reconstruit) avec de nouveaux paramètres, et d&amp;rsquo;autres paramètres du système sont optimisés, ce qui accélère l&amp;rsquo;utilisation des applications audio dans le système.&lt;/dd>
+&lt;dt>&lt;strong>Regions&lt;/strong>&lt;/dt>
+&lt;dd>Les régions sont les éléments de base de l&amp;rsquo;édition et de la composition dans Ardour. Chaque
+région représente tout ou partie d&amp;rsquo;un fichier audio. La suppression d&amp;rsquo;une région n&amp;rsquo;enlève pas le fichier audio du disque.&lt;/dd>
+&lt;dt>&lt;strong>Region List&lt;/strong>&lt;/dt>
+&lt;dd>La liste des régions se trouve à droite de la fenêtre de l&amp;rsquo;éditeur et affiche toutes les régions associées à la session.&lt;/dd>
+&lt;dt>&lt;strong>Reverberation&lt;/strong>&lt;/dt>
+&lt;dd>La réverbération est la persistance du son dans un espace particulier après que la source sonore d&amp;rsquo;origine ce soit tue.^&lt;a href="http://en.wikipedia.org/wiki/Reverberation#cite_note-0">&lt;/a>^^^
+Une réverbération est créée lorsqu&amp;rsquo;un son est produit dans un espace clos, ce qui provoque l&amp;rsquo;apparition d&amp;rsquo;un grand nombre d&amp;rsquo;échos, puis, lentement, au fur et à mesure, le son est absorbé par les murs et l&amp;rsquo;air. La réverbération numérique peut être ajoutée à un son dans Ardour grâce à l&amp;rsquo;utilisation de greffons.&lt;/dd>
+&lt;dt>&lt;strong>Right Click&lt;/strong> (souris)&lt;/dt>
+&lt;dd>Cliquez sur le bouton droit de la souris.&lt;/dd>
+&lt;dt>&lt;strong>Routing&lt;/strong>&lt;/dt>
+&lt;dd>Le routage consiste à envoyer un signal audio d&amp;rsquo;un endroit à un autre.
+Les signaux peuvent être routés non seulement du monde extérieur vers Ardour et vice-versa, mais aussi à l&amp;rsquo;intérieur même d&amp;rsquo;Ardour (par exemple, d&amp;rsquo;une piste vers un bus).&lt;/dd>
+&lt;dt>&lt;strong>Rulers&lt;/strong>&lt;/dt>
+&lt;dd>Les règles sont les fines barres horizontales qui affichent la ligne temporelle, ce qui aide à voir quand une région ou un son commence ou il s&amp;rsquo;arrête exactement. Les marqueurs de mesure et de tempo, les marqueurs d&amp;rsquo;emplacement, les marqueurs d&amp;rsquo;intervalles et les intervalles de boucles et de punch sont eux aussi affichés avec les règles.&lt;/dd>
+&lt;dt>&lt;strong>Sample&lt;/strong> (données)&lt;/dt>
+&lt;dd>En audio numérique, un échantillon est le plus petit segment possible d&amp;rsquo;un son enregistré.
+En audio CD, par exemple, il faut 44 100 échantillons pour obtenir une seconde de son enregistré et nous pouvons donc dire que le &lt;strong>taux d&amp;rsquo;échantillonnage&lt;/strong> est de 44 100 &lt;strong>Hertz&lt;/strong>.
+Les échantillons ont également une &lt;strong>profondeur de bits&lt;/strong> qui détermine la &lt;strong>plage dynamique&lt;/strong> qu&amp;rsquo;il est possible d&amp;rsquo;enregistrer et de d&amp;rsquo;enregistrement et de lire. Les profondeurs de bits courantes sont de 16 (pour les CD audio), 24 (pour les enregistrements en studio et les DVD) ou 32 (pour les sons à l&amp;rsquo;intérieur de l&amp;rsquo;ordinateur).&lt;/dd>
+&lt;dt>&lt;strong>Sample&lt;/strong> (musique)&lt;/dt>
+&lt;dd>Dans le domaine de la musique électronique, le mot &amp;ldquo;sample&amp;rdquo; peut désigner toute portion de son extrait d&amp;rsquo;un morceau de musique existant pour être réutilisé dans une nouvelle composition.&lt;/dd>
+&lt;dt>&lt;strong>Sampler&lt;/strong>&lt;/dt>
+&lt;dd>Un instrument de musique électronique ou un logiciel qui lit des sons enregistrés (ou &lt;strong>sample&lt;/strong>) chaque fois qu&amp;rsquo;un message &lt;strong>note&lt;/strong> lui est envoyé. La &lt;strong>hauteur&lt;/strong> de la note détermine la vitesse ou la lenteur avec laquelle l&amp;rsquo;échantillon est joué, ce qui émule les changements de hauteur dans d&amp;rsquo;autres instruments. Les échantillons peuvent être joués en boucle (à plusieurs reprises) ou en une seule fois.&lt;/dd>
+&lt;dt>&lt;strong>Sampling Rate&lt;/strong>&lt;/dt>
+&lt;dd>La vitesse à laquelle l&amp;rsquo;ordinateur enregistre et lit le son, mesurée en &lt;strong>Hertz&lt;/strong> représentant le nombre d&amp;rsquo;&lt;strong>échantillons&lt;/strong> par seconde.
+Les CD audio sont enregistrés et lus à 44 100 Hz (ou 44,1 kHz), tandis que les DVD audio fonctionnent à 96 000 Hz (96 kHz) et les gadgets grand public bon marché comme les enregistreurs vocaux, les jeux vidéo, les téléphones portables, les jouets et certains lecteurs MP3 utilisent souvent une fréquence de 22 050 Hz, voire moins. La fréquence d&amp;rsquo;échantillonnage détermine la &lt;strong>fréquence&lt;/strong> la plus élevée qui peut être enregistrée ou jouée, qui est exprimée par le nombre de Nyquist (la moitié de la fréquence d&amp;rsquo;échantillonnage).
+La lecture de sons à une fréquence d&amp;rsquo;échantillonnage différente de celle à laquelle ils ont été enregistrés entraînera leur lecture à la mauvaise vitesse.&lt;/dd>
+&lt;dt>&lt;strong>Send&lt;/strong>&lt;/dt>
+&lt;dd>Une sortie auxiliaire optionnelle pour une piste ou un bus.&lt;/dd>
+&lt;dt>&lt;strong>Session&lt;/strong>&lt;/dt>
+&lt;dd>Une session est l&amp;rsquo;ensemble des informations qui constituent un projet dans Ardour.
+Chaque session est sauvegardée dans son propre dossier contenant toutes les données audio, régionales et paramétriques, ainsi qu&amp;rsquo;un fichier maître portant l&amp;rsquo;extension .ardour.&lt;/dd>
+&lt;dt>&lt;strong>Shelf&lt;/strong>&lt;/dt>
+&lt;dd>Dans un &lt;strong>Equalizer&lt;/strong>, une &lt;strong>Shelf&lt;/strong> coupe ou renforce tout ce qui se trouve au-dessus (High Shelf) ou au-dessous (Low Shelf) d&amp;rsquo;une fréquence spécifique.&lt;/dd>
+&lt;dt>&lt;strong>Slice Edit&lt;/strong>&lt;/dt>
+&lt;dd>L&amp;rsquo;un des trois &lt;strong>modes d&amp;rsquo;édition&lt;/strong> disponibles, l&amp;rsquo;édition en tranches ne permet pas de faire glisser des régions, mais permet néanmoins d&amp;rsquo;effectuer des opérations de coupes (telles que couper, coller et diviser). L&amp;rsquo;espace entre les régions sera maintenu constant après toute opération d&amp;rsquo;édition qui l&amp;rsquo;affecte. Si vous supprimez la seconde moitié d&amp;rsquo;une région, par exemple, toutes les régions suivantes sur la même piste reculeront automatiquement dans la grille temporelle.&lt;/dd>
+&lt;dt>&lt;strong>Slide Edit&lt;/strong>&lt;/dt>
+&lt;dd>Un autre des trois &lt;strong>modes d&amp;rsquo;édition&lt;/strong> disponibles, l&amp;rsquo;édition des diapositives est le mode par défaut. Il vous permet de faire glisser des régions horizontalement (au sein de la même piste) et verticalement (entre les pistes).&lt;/dd>
+&lt;dt>&lt;strong>SMPTE timecode&lt;/strong>&lt;/dt>
+&lt;dd>Ensemble de normes coopératives permettant d&amp;rsquo;étiqueter les images individuelles d&amp;rsquo;une vidéo ou d&amp;rsquo;un film avec un code temporel défini par la &amp;ldquo;Society of Motion Picture and Television Engineers&amp;rdquo;. Les codes temporels sont ajoutés au film, à la vidéo ou au matériel audio et ont également été adaptés pour synchroniser la musique. Ils fournissent une référence temporelle pour le montage, la synchronisation et l&amp;rsquo;identification.&lt;/dd>
+&lt;dt>&lt;strong>Snap Mode&lt;/strong>&lt;/dt>
+&lt;dd>Les menus &lt;strong>Snap Mode&lt;/strong> e trouvent juste en dessous des &lt;strong>Clocks&lt;/strong>. Ils controlent le degré de &lt;strong>Quantization&lt;/strong> de la grille de temps, par exemple, le degré de &amp;ldquo;snap&amp;rdquo; q&amp;rsquo;une &lt;strong>Région&lt;/strong> audio a par rapoort au type de grille choisi.&lt;/dd>
+&lt;dt>&lt;strong>Snapshots&lt;/strong>&lt;/dt>
+&lt;dd>L&amp;rsquo;enregistrement d&amp;rsquo;un instantané dans Ardour est similaire à l&amp;rsquo;enregistrement de la session dans un nouveau fichier afin d&amp;rsquo;éviter d&amp;rsquo;écraser le fichier de session d&amp;rsquo;origine.
+Un instantané contient l&amp;rsquo;état actuel de votre travail, tout en partageant tous les fichiers audio et de données de la session. Si vous essayez de trouver une fonction &amp;ldquo;Enregistrer sous&amp;rdquo; dans Ardour, l&amp;rsquo;enregistrement d&amp;rsquo;un instantané est probablement ce que vous recherchez.&lt;/dd>
+&lt;dt>&lt;strong>Solo&lt;/strong>&lt;/dt>
+&lt;dd>Interrupteur à bascule que l&amp;rsquo;on trouve dans les commandes de piste et les bandes de mixage. Lorsqu&amp;rsquo;il est activé, seules les pistes solo enverront une sortie. Plusieurs pistes peuvent être marquées comme plusieurs pistes à la fois. Le bouton Solo général (rangée supérieure de commandes dans la fenêtre d&amp;rsquo;édition) peut être utilisé pour annuler la mise en solo de toutes les pistes en solo en même temps.&lt;/dd>
+&lt;dt>&lt;strong>Spectrum&lt;/strong>&lt;/dt>
+&lt;dd>La représentation d&amp;rsquo;un signal en termes de ses composantes de fréquence.&lt;/dd>
+&lt;dt>&lt;strong>Stereo&lt;/strong>&lt;/dt>
+&lt;dd>Un fichier audio stéréo contient deux canaux audio (généralement appelés canaux gauche et droit). Une piste stéréo dans Ardour possède deux entrées et deux sorties afin d&amp;rsquo;enregistrer et de lire des fichiers stéréo.&lt;/dd>
+&lt;dt>&lt;strong>Stereo Field&lt;/strong>&lt;/dt>
+&lt;dd>Le champ stéréophonique est la perception de la localisation spatiale des sons basée sur un système de reproduction sonore à deux canaux (gauche et droit).&lt;/dd>
+&lt;dt>&lt;strong>Take&lt;/strong>(recording)&lt;/dt>
+&lt;dd>Une séquence de sons enregistrée en une fois.&lt;/dd>
+&lt;dt>&lt;strong>Tape Mode&lt;/strong>&lt;/dt>
+&lt;dd>Voir &lt;strong>Track Mode&lt;/strong>.&lt;/dd>
+&lt;dt>&lt;strong>Tempo&lt;/strong>(music)&lt;/dt>
+&lt;dd>La vitesse à laquelle les battements se produisent. Les indications précises de tempo sont mesurées en &lt;strong>bpm&lt;/strong> (battements par minute), bien que des indications subjectives soient également subjectives sont également courantes dans les partitions (Allegro, Adagio, Très rapide, etc.).&lt;/dd>
+&lt;dt>&lt;strong>Terminal&lt;/strong>&lt;/dt>
+&lt;dd>Un &amp;ldquo;terminal&amp;rdquo; est l&amp;rsquo;interface textuelle qui permet d&amp;rsquo;utiliser un ordinateur en y tapant des commandes. Aujourd&amp;rsquo;hui, la plupart des utilisateurs d&amp;rsquo;ordinateurs uniquement sur une interface graphique pour contrôler leurs systèmes. macOS et Linux incluent un terminal qui peut faciliter certaines tâches pour certains utilisateurs.&lt;/dd>
+&lt;dt>&lt;strong>Timecode&lt;/strong>&lt;/dt>
+&lt;dd>Un code temporel est une séquence de codes numériques générés à intervalles réguliers par un système de synchronisation. La famille des timecodes SMPTE est presque universellement utilisée dans la production cinématographique, vidéo et audio.&lt;/dd>
+&lt;dt>&lt;strong>Time Signature&lt;/strong> (musique)&lt;/dt>
+&lt;dd>Signe placé au début d&amp;rsquo;un morceau de musique (après la clef et l&amp;rsquo;armure) ou au cours de celui-ci, indiquant la mesure du morceau.&lt;/dd>
+&lt;dt>&lt;strong>Track&lt;/strong>&lt;/dt>
+&lt;dd>Une piste est un endroit où vous pouvez glisser une &lt;strong>Région&lt;/strong> depuis votre &lt;strong>Liste de Régions&lt;/strong> et où vous pouvez enreistrer des son qui viennent d&amp;rsquo;une source externe.
+La bande de mixage représente verticalement le flux de signal d&amp;rsquo;une piste, tandis que le canevas principal affiche horizontalement des informations
+pour chaque piste.&lt;/dd>
+&lt;dt>&lt;strong>Track Mode&lt;/strong>&lt;/dt>
+&lt;dd>&lt;strong>Track Mode&lt;/strong> vous donne le choix entre &lt;strong>Normal Mode&lt;/strong> et &lt;strong>Tape
+Mode&lt;/strong>. Normal Mode crée une nouvelle région pour chaque enregistrement &lt;strong>Take&lt;/strong>,
+alors que &lt;strong>Tape Mode&lt;/strong> enregistre par dessus, la prise précédente de la piste est éliminée par chaque nouvelle prise.&lt;/dd>
+&lt;dt>&lt;strong>Transport&lt;/strong>&lt;/dt>
+&lt;dd>Les boutons situés dans le coin supérieur gauche de la fenêtre de l&amp;rsquo;éditeur, avec des commandes telles que Rewind, Play, Stop.&lt;/dd>
+&lt;dt>&lt;strong>Treble&lt;/strong>(fréquences)&lt;/dt>
+&lt;dd>Façon générique de désigner les hautes fréquences du &lt;strong>Spectre&lt;/strong> d&amp;rsquo;un son.&lt;/dd>
+&lt;dt>&lt;strong>VST (Virtual Studio Technology)&lt;/strong>&lt;/dt>
+&lt;dd>&lt;a href="http://en.wikipedia.org/wiki/Steinberg">Steinberg&lt;/a> VST est une interface permettant d&amp;rsquo;intégrer des synthétiseurs audio logiciels et des plugins d&amp;rsquo;effets dans des éditeurs audio et des stations de travail numériques comme Ardour. VST et les technologies similaires utilisent le traitement des signaux numériques pour simuler le matériel traditionnel d&amp;rsquo;un studio d&amp;rsquo;enregistrement avec un logiciel. Des milliers de greffons existent, qu&amp;rsquo;ils soient commerciaux ou gratuits. VST a été créé par Steinberg.&lt;/dd>
+&lt;dt>&lt;strong>WAV&lt;/strong>&lt;/dt>
+&lt;dd>Format de fichier audio développé par Microsoft et IBM et couramment utilisé pour les fichiers audio non compressés et sans perte. Les fichiers WAV sont compatibles avec les systèmes d&amp;rsquo;exploitation Windows, Macintosh et Linux.&lt;/dd>
+&lt;dt>&lt;strong>Waveform&lt;/strong>&lt;/dt>
+&lt;dd>Représentation visuelle d&amp;rsquo;un son dans le domaine temporel. Les formes d&amp;rsquo;onde sont dessinées
+à l&amp;rsquo;intérieur des rectangles colorés représentant les régions dans le canevas principal.&lt;/dd>
+&lt;dt>&lt;strong>Word length&lt;/strong>&lt;/dt>
+&lt;dd>Voir &lt;strong>Bit Depth&lt;/strong>.&lt;/dd>
+&lt;/dl></description></item><item><title>Crédits</title><link>https://prokoudine.github.io/ardour-tutorial/fr/appendices/credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/fr/appendices/credits/</guid><description>&lt;p>Le corps principal du manuel a été écrit lors d&amp;rsquo;un &lt;strong>Book Sprint&lt;/strong> mené par Derek Holzer dans le &lt;a href="http://moddr.net" title="moddr_lab @ WORM, Rotterdam">moddr_lab&lt;/a> au WORM à Rotterdam, Pays-Bas, entre le 23 et le 27 novembre 2009, avec l&amp;rsquo;aide et le soutien de la communauté internationale des utilisateurs et des développeurs d&amp;rsquo;Ardour.
+Le tutoriel a été écrit à l&amp;rsquo;origine pour les versions 2.X d&amp;rsquo;Ardour. Le manuel FLOSS est disponible à l&amp;rsquo;adresse suivante &lt;a href="http://archive.flossmanuals.net/ardour/index.html">flossmanuals.net&lt;/a>.&lt;/p>
+&lt;p>Le contributeurs originaux : Adam Hyde, Bruno Ruviaro, Dave Peticolas, Walter Langelaar, David Elwell, Thomas Goose, Derick H., Rob Fell, William Abernathy, Derek Holzer, Stefan Hanser, Tomasz Kaye, Dick MacInnis, Mr Stock, Ross Johnson, Jon Cohrs, Claudia Borges, MaRk, Al Thompson, Jay Maechtlen, Christopher Stamper, Thomas Margolf, Mark Lindhout, Joern Nettingsmeier.&lt;/p></description></item><item><title>Licence</title><link>https://prokoudine.github.io/ardour-tutorial/fr/appendices/license/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/fr/appendices/license/</guid><description>&lt;h2 id="license">License&lt;/h2>
+&lt;p>All chapters copyright of the authors (see below). Unless otherwise
+stated all chapters in this manual licensed with &lt;strong>GNU General Public
+License version 2&lt;/strong>.&lt;/p>
+&lt;p>This documentation is free documentation; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as published
+by the Free Software Foundation; either version 2 of the License, or (at
+your option) any later version.&lt;/p>
+&lt;p>This documentation is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
+Public License for more details.&lt;/p></description></item><item><title>Comment contribuer</title><link>https://prokoudine.github.io/ardour-tutorial/fr/appendices/how-to-contribute/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/fr/appendices/how-to-contribute/</guid><description>&lt;h2 id="quel-type-de-contributions-acceptons-nous">Quel type de contributions acceptons nous&lt;/h2>
+&lt;p>Nous limitons intentionnellement la portée de ce tutoriel à des techniques très basiques qui sont suffisantes pour permettre aux utilisateurs de commencer à enregistrer, mixer et exporter avec Ardour. Nous accepterons donc avec gratitude les correctifs qui ne modifient pas le champ d&amp;rsquo;application de manière majeure : corrections de bogues, meilleures explications, etc.
+Nous encourageons également les traductions de ardour-tutorial.&lt;/p>
+&lt;h2 id="utilisation-de-la-syntaxe-markdown-et-des-extras">Utilisation de la syntaxe Markdown et des extras&lt;/h2>
+&lt;p>Tous les fichiers texte utilisent la syntaxe Markdown avec quelques extras. Nous utilisons un sous-ensemble limité d&amp;rsquo;options disponibles et un &amp;ldquo;shortcode&amp;rdquo; spécifique à HTML5, l&amp;rsquo;élément &lt;code>&amp;lt;figure&amp;gt;&lt;/code> (&lt;a href="https://gohugo.io/content-management/shortcodes/#figure">voir ici&lt;/a> pour plus d&amp;rsquo;informations).
+Une autre fonctionnalité supplémentaire disponible dans le modèle choisi est un code court appelé pour les boîtes de notification qui ressemblent à ceci :&lt;/p></description></item><item><title>Greffons recommandés</title><link>https://prokoudine.github.io/ardour-tutorial/fr/appendices/plugins/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/fr/appendices/plugins/</guid><description>&lt;h2 id="filtres-and-traitement">Filtres and traitement&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://lsp-plug.in/">LSP plugins&lt;/a>, un ensemble complet de greffons pour les effets et le traitement des canaux,&lt;/li>
+&lt;li>&lt;a href="https://x42-plugins.com/x42/x42-limiter">dpl.lv2&lt;/a>, un limiteur de crête numérique à anticipation,&lt;/li>
+&lt;li>&lt;a href="https://x42-plugins.com/x42/x42-eq">fil4.lv2&lt;/a>, un égaliseur paramétrique à 4 bandes avec des filtres passe-haut et passe-bas et des filtres d&amp;rsquo;étagement bas et haut additionnels.&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;h2 id="visualisation">Visualisation&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://x42-plugins.com/x42/x42-meters">x42 Meter Collection&lt;/a>, une grande aide dans l&amp;rsquo;analyse audio,&lt;/li>
+&lt;li>&lt;a href="https://x42-plugins.com/x42/x42-scope">sisco.lv2&lt;/a>, un oscilloscope,&lt;/li>
+&lt;li>&lt;a href="https://x42-plugins.com/x42/x42-spectra">spectra.lv2&lt;/a>, un analyseur de spectre.&lt;/li>
+&lt;/ul>
+&lt;h2 id="batterie-et-percussion">Batterie et percussion&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://x42-plugins.com/x42/x42-avldrums">AVL Drumkits&lt;/a>, un échantillonneur de batterie avec deux kits intégrés,&lt;/li>
+&lt;li>&lt;a href="https://drumgizmo.org">DrumGizmo&lt;/a>, un échantillonneur de batterie avec des kits à télécharger séparément,&lt;/li>
+&lt;li>&lt;a href="https://github.com/free-sm/geonkick">Geonkick&lt;/a>, un synthétiseur batterie/percussion.&lt;/li>
+&lt;/ul>
+&lt;h2 id="synthétiseurs">Synthétiseurs&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/DISTRHO/Cardinal">Cardinal&lt;/a>, un synthétiseur modulaire avec l&amp;rsquo;esthétique Eurorack,&lt;/li>
+&lt;li>&lt;a href="https://github.com/reales/OB-Xd">OB-Xd&lt;/a>, un synthétiseur doux ressemblant au synthétiseur vintage Oberheim OB-X,&lt;/li>
+&lt;li>&lt;a href="https://github.com/asb2m10/dexed">Dexed&lt;/a>, un simulateur de Yamaha DX7,&lt;/li>
+&lt;li>&lt;a href="https://www.thewavewarden.com/odin2">Odin2&lt;/a>, un synthétiseur polyphonique 24-voix,&lt;/li>
+&lt;li>&lt;a href="https://surge-synthesizer.github.io/">Surge XT&lt;/a>, un synthétiseur hybride,&lt;/li>
+&lt;li>&lt;a href="https://vital.audio/">Vital&lt;/a>, un synthétiseur à table d&amp;rsquo;ondes à déformation spectrale.&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;p>&lt;a href="http://linuxsynths.com/">Ce site internet&lt;/a> garde une trace de tous les synthétiseurs disponibles pour Linux.&lt;/p></description></item></channel></rss>

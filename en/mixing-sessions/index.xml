@@ -1,14 +1,67 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mixing sessions on Ardour tutorial</title><link>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/</link><description>Recent content in Mixing sessions on Ardour tutorial</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/index.xml" rel="self" type="application/rss+xml"/><item><title>The mixer strip</title><link>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/the-mixer-strip/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/the-mixer-strip/</guid><description>Mixing is the process of converting multiple tracks into a stereo or a multi-channel mix where all the instruments can be heard clearly.
-Mixing Tools Levels, panning, equalization (EQ), and compression are the main tools used to achieve a good mix. In addition to these core tools, a wide range of plugin effects can also be used to enhance the sound, such as reverb and delay. Introducing the Mixer Strip The mixer strip is the vertical column that contains various controls related to signal flow.</description></item><item><title>Mixing levels</title><link>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/mixing-levels/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/mixing-levels/</guid><description>Levels are the volumes of each track relative to the others.
-If you can&amp;rsquo;t hear a bass line above the other instruments, one obvious option would be to raise the bass line volume. Levels can be adjusted using the fader in the mixer strip or in each track, just below the track name. The first step in mixing is to listen to everything that has been recorded and adjust the levels of all tracks so you can hear everything clearly, but in a manner that is appropriate for the song.</description></item><item><title>Panning</title><link>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/panning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/panning/</guid><description>Once you have established a good balance of levels on all the tracks, you can begin to think about panning.
-Panning helps to establish a stereo field, a relative space between the speakers in which to place your sounds and instruments.
-The Panning Interface The panning control in Ardour is located in the middle of the mixer strip.
-A mono track will have a mono panner. It looks like this:</description></item><item><title>Using plugins</title><link>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/using-plugins/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/using-plugins/</guid><description>Plugins can be used to enhance or transform the sound of individual tracks.
-They can be applied directly to a single track, or to a group of tracks using a send. Later in this tutorial, we will discuss some plugins specific to the Mixing process, such as Compressors, Limiters, Parametric Equalizers, Reverbs and others.
-Processor Box In Ardour terminology, a processor is anything that gets plugged into a mixer strip and treats the signal in some way.</description></item><item><title>Using sends</title><link>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/using-sends/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/using-sends/</guid><description>A Send is just an extra output for a track or bus with its own separate fader that can be used to route the signal to other points in Ardour.
-Also known as auxiliary sends, they tap the signal at a specific point in the signal flow (pre-fader, post-fader, before or after EQs and other plugins, etc.) and send a copy of that signal somewhere else, without affecting the normal signal flow downwards to the channel fader.</description></item><item><title>Dynamics</title><link>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/dynamics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/dynamics/</guid><description>One of the problems you may encounter in a mix is that, depending on the material, the loud parts are too loud, and/or the quiet parts are too quiet.
-This kind of problem cannot be easily solved using faders to adjust the levels alone. You may set the levels so high that they clip, or you may add unwanted background noise by simply turning levels up. These are all problems with what is called the dynamic range, i.</description></item><item><title>Equalizing</title><link>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/equalizing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/equalizing/</guid><description>An equalizer (or EQ) allows you to separately control the gain of different frequency ranges of a sound.
-This can be useful not only to sculpt the timbre of an isolated sound (for example, to make it sound &amp;ldquo;sharper&amp;rdquo; or &amp;ldquo;smoother&amp;rdquo;), but also to make sounds of various timbres to integrate better into the mix.
-Often, even after adjusting levels and panning, different tracks with similar frequency content (for example, a bass guitar and a kick drum) may be difficult to tell apart in the mix.</description></item><item><title>Using automation</title><link>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/using-automation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/using-automation/</guid><description>Automation is a way of dynamically changing audio processing parameters over time.
-Up to now, we have used fixed values for various parameters of our tracks, for example, a track fader set to -3.0dB; or a mono panner set to 100% left. These fixed values would apply for the entire track throughout the whole session.
-But what if you would like these values to change over time in a pre-determined way?</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mixing sessions on Ardour tutorial</title><link>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/</link><description>Recent content in Mixing sessions on Ardour tutorial</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/index.xml" rel="self" type="application/rss+xml"/><item><title>The mixer strip</title><link>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/the-mixer-strip/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/the-mixer-strip/</guid><description>&lt;p>&lt;em>Mixing&lt;/em> is the process of converting multiple tracks into a stereo or a
+multi-channel mix where all the instruments can be heard clearly.&lt;/p>
+&lt;h2 id="mixing-tools">Mixing Tools&lt;/h2>
+&lt;p>&lt;em>Levels&lt;/em>, &lt;em>panning&lt;/em>, &lt;em>equalization (EQ&lt;/em>), and &lt;em>compression&lt;/em> are the main tools
+used to achieve a good mix. In addition to these core tools, a wide range of
+plugin effects can also be used to enhance the sound, such as &lt;em>reverb&lt;/em> and
+&lt;em>delay&lt;/em>. &lt;/p>
+&lt;h2 id="introducing-the-mixer-strip">Introducing the Mixer Strip&lt;/h2>
+&lt;p>The &lt;em>mixer strip&lt;/em> is the vertical column that contains various controls related
+to signal flow. Each track and bus in Ardour has its own mixer strip. The mixer
+strip is also the main tool we will use in the process of mixing our Tracks. In
+this chapter, we will get a general overview of the mixer strip, with each
+section described. We will also provide references to chapters containing
+information specific to each aspect of the mixer strip.&lt;/p></description></item><item><title>Mixing levels</title><link>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/mixing-levels/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/mixing-levels/</guid><description>&lt;p>&lt;em>Levels&lt;/em> are the volumes of each track relative to the others.&lt;/p>
+&lt;p>If you can&amp;rsquo;t hear a bass line above the other instruments, one obvious option
+would be to raise the bass line volume. Levels can be adjusted using the fader
+in the mixer strip or in each track, just below the track name. The first step
+in mixing is to listen to everything that has been recorded and adjust the
+levels of all tracks so you can hear everything clearly, but in a manner that is
+appropriate for the song. For example, the vocal track is normally louder than
+the rhythm guitar because the voice is the focal point of the song.&lt;/p></description></item><item><title>Panning</title><link>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/panning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/panning/</guid><description>&lt;p>Once you have established a good balance of levels on all the tracks, you can
+begin to think about panning.&lt;/p>
+&lt;p>Panning helps to establish a &lt;em>stereo field&lt;/em>, a relative space between the
+speakers in which to place your sounds and instruments.&lt;/p>
+&lt;h2 id="the-panning-interface">The Panning Interface&lt;/h2>
+&lt;p>The panning control in Ardour is located in the middle of the mixer strip.&lt;/p>
+&lt;p>A mono track will have a mono panner. It looks like this:&lt;/p></description></item><item><title>Using plugins</title><link>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/using-plugins/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/using-plugins/</guid><description>&lt;p>&lt;em>Plugins&lt;/em> can be used to enhance or transform the sound of individual tracks.&lt;/p>
+&lt;p>They can be applied directly to a single track, or to a group of tracks using
+a &lt;em>send&lt;/em>. Later in this tutorial, we will discuss some plugins specific to the
+Mixing process, such as &lt;em>Compressors&lt;/em>, &lt;em>Limiters&lt;/em>, &lt;em>Parametric Equalizers&lt;/em>,
+&lt;em>Reverbs&lt;/em> and others.&lt;/p>
+&lt;h2 id="processor-box">Processor Box&lt;/h2>
+&lt;p>In Ardour terminology, a &lt;em>processor&lt;/em> is anything that gets plugged into a mixer
+strip and treats the signal in some way. Ardour provides several built-in
+processors such as the fader or panners. Processors can also be plugins used for
+effects or as instruments, as well as sends or inserts which affect signal
+routing. The arrangement of processors is arbitrary, and there is no limit to
+how many there can be.&lt;/p></description></item><item><title>Using sends</title><link>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/using-sends/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/using-sends/</guid><description>&lt;p>A &lt;em>Send&lt;/em> is just an extra output for a track or bus with its own separate
+fader that can be used to route the signal to other points in Ardour.&lt;/p>
+&lt;p>Also known as &lt;em>auxiliary sends&lt;/em>, they tap the signal at a specific point in
+the signal flow (pre-fader, post-fader, before or after EQs and other plugins,
+etc.) and send a copy of that signal somewhere else, without affecting the
+normal signal flow downwards to the channel fader.&lt;/p></description></item><item><title>Dynamics</title><link>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/dynamics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/dynamics/</guid><description>&lt;p>One of the problems you may encounter in a mix is that, depending on the
+material, the loud parts are too loud, and/or the quiet parts are too quiet.&lt;/p>
+&lt;p>This kind of problem cannot be easily solved using faders to adjust the levels
+alone. You may set the levels so high that they clip, or you may add unwanted
+background noise by simply turning levels up. These are all problems with what
+is called the &lt;em>dynamic range&lt;/em>, i.e., the difference between the loudest and
+quietest parts of your session. There are several types of tools for adjusting
+the dynamic range available mostly as third-party plugins within Ardour,
+including &lt;em>limiting&lt;/em>, &lt;em>compression&lt;/em>, and &lt;em>gating&lt;/em>.&lt;/p></description></item><item><title>Equalizing</title><link>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/equalizing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/equalizing/</guid><description>&lt;p>An &lt;em>equalizer&lt;/em> (or &lt;em>EQ&lt;/em>) allows you to separately control the gain of different
+frequency ranges of a sound.&lt;/p>
+&lt;p>This can be useful not only to sculpt the timbre of an isolated sound (for
+example, to make it sound &amp;ldquo;sharper&amp;rdquo; or &amp;ldquo;smoother&amp;rdquo;), but also to make sounds of
+various timbres to integrate better into the mix.&lt;/p>
+&lt;p>Often, even after adjusting levels and panning, different tracks with similar
+frequency content (for example, a bass guitar and a kick drum) may be
+difficult to tell apart in the mix. An equalizer is a good tool to address
+this.&lt;/p></description></item><item><title>Using automation</title><link>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/using-automation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/using-automation/</guid><description>&lt;p>&lt;em>Automation&lt;/em> is a way of dynamically changing audio processing parameters over
+time.&lt;/p>
+&lt;p>Up to now, we have used fixed values for various parameters of our tracks, for
+example, a track fader set to -3.0dB; or a mono panner set to 100% left. These
+fixed values would apply for the entire track throughout the whole session.&lt;/p>
+&lt;p>But what if you would like these values to change over time in a
+pre-determined way? For example, you may want to have the gain of a track to
+gradually decrease over twenty seconds. Or you may want to make a sound move
+from left to right over two seconds.&lt;/p></description></item></channel></rss>
