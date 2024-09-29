@@ -168,8 +168,6 @@ right-click menu to perform various transformations.
 Continuing
 ----------
 
-In the next chapter, we'll talk about helping yourself to perform in sync with
-the rest of the session material, whether you are using a MIDI keyboard to
-record a lead synth part or a bass guitar.
+In the next chapter, we'll talk about different recording modes you can choose between.
 
-Next: [PERFORMING ON TIME](../performing-on-time)
+Next: [RECORDING MODES](../recording-modes/)
