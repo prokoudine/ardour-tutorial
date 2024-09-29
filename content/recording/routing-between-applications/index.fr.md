@@ -2,7 +2,7 @@
 title = "Routage entre applications"
 description = "Achemnier un signal depuis des programmes vers Ardour"
 chapter = false
-weight = 5
+weight = 6
 +++
 
 Il peut arriver que vous ayez besoin d'enregistrer la sortie audio d'un autre programme dans Ardour, par exemple le son d'une vidéo YouTube jouée dans Firefox, ou la sortie de SuperCollider ou PureData. Ce chapitre montre comment réaliser cela.

@@ -2,7 +2,7 @@
 title = "Performing on time"
 description = "How to help yourself recording in time with the rest of the session material"
 chapter = false
-weight = 3
+weight = 4
 +++
 
 Normally, to record an instrument or a vocal part live, you place the playhead

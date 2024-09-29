@@ -2,7 +2,7 @@
 title = "Comprendre le routage"
 description = "Acheminer le signal dans Ardour"
 chapter = false
-weight = 4
+weight = 5
 featherlight = false
 +++
 

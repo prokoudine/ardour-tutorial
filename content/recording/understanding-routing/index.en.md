@@ -2,7 +2,7 @@
 title = "Understanding routing"
 description = "Routing signal in Ardour"
 chapter = false
-weight = 4
+weight = 5
 featherlight = false
 +++
 

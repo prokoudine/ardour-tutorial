@@ -15,6 +15,7 @@ Contents:
 
 1. [Recording audio](recording-audio/)
 2. [Recording MIDI](recording-midi/)
-3. [Performing on time](performing-on-time/)
-4. [Understanding routing](understanding-routing/)
-5. [Routing between applications](routing-between-applications/)
+3. [Recording modes](recording-modes/)
+4. [Performing on time](performing-on-time/)
+5. [Understanding routing](understanding-routing/)
+6. [Routing between applications](routing-between-applications/)
