@@ -18,7 +18,7 @@ whatever you play. It's a pretty straightforward process:
 
 2. Arm that track for recording (click the button with a red circle in the track header or press **Shift+B**)
 
-3. Toggle the global recording mode (click the button with a red circle in the track header or press **Shift+B**)
+3. Toggle the global recording mode (click the button with a red circle in the transport panel or press **Shift+R**)
 
 4. Roll the transport (**Space** bar) to begin recording.
 
