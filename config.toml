@@ -18,104 +18,109 @@ themeVariant = "blue"
 disableInlineCopyToClipBoard = true
 
 [Languages]
-[Languages.en]
-title = "Ardour tutorial"
-weight = 1
-languageName = "English"
-landingPageURL = "https://prokoudine.github.io/ardour-tutorial"
-#landingPageURL = "/"
-landingPageName = "<i class='fas fa-home'></i> Home"
+	[Languages.en]
+		title = "Ardour tutorial"
+		weight = 1
+		languageName = "English"
+		languageCode = "en-US"
+		#landingPageURL = "/"
+		
+		[Languages.en.params]
+		#	landingPageURL = "https://prokoudine.github.io/ardour-tutorial"
+			landingPageName = "<i class='fas fa-home'></i> Home"
+		
+		[[Languages.en.menu.shortcuts]]
+		name = "<i class='fab fa-fw fa-github'></i> This tutorial on GitHub"
+		identifier = "github"
+		url = "https://github.com/prokoudine/ardour-tutorial"
+		weight = 10
+		
+		[[Languages.en.menu.shortcuts]]
+		name = "<i class='fas fa-fw fa-home'></i> Ardour's homepage"
+		url = "https://ardour.org/"
+		weight = 11
+		
+		[[Languages.en.menu.shortcuts]]
+		name = "<i class='fas fa-fw fa-bookmark'></i> User manual"
+		identifier = "usermanual"
+		url = "https://manual.ardour.org"
+		weight = 20
+		
+		[[Languages.en.menu.shortcuts]]
+		name = "<i class='fas fa-fw fa-users'></i> Forum"
+		identifier = "forum"
+		url = "https://discourse.ardour.org/"
+		weight = 20
+		
+		[[Languages.en.menu.shortcuts]]
+		name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
+		url = "en/appendices/credits/"
+		weight = 30
+	
+	[Languages.fr]
+		title = "Tutoriel Ardour"
+		weight = 1
+		languageName = "Français"
+		#landingPageURL = "/"
 
-[[Languages.en.menu.shortcuts]]
-name = "<i class='fab fa-fw fa-github'></i> This tutorial on GitHub"
-identifier = "github"
-url = "https://github.com/prokoudine/ardour-tutorial"
-weight = 10
-
-[[Languages.en.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-home'></i> Ardour's homepage"
-url = "https://ardour.org/"
-weight = 11
-
-[[Languages.en.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-bookmark'></i> User manual"
-identifier = "usermanual"
-url = "https://manual.ardour.org"
-weight = 20
-
-[[Languages.en.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-users'></i> Forum"
-identifier = "forum"
-url = "https://discourse.ardour.org/"
-weight = 20
-
-[[Languages.en.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
-url = "en/appendices/credits/"
-weight = 30
-
-[Languages.fr]
-title = "Tutoriel Ardour"
-weight = 1
-languageName = "Français"
-landingPageURL = "https://prokoudine.github.io/ardour-tutorial"
-#landingPageURL = "/"
-landingPageName = "<i class='fas fa-home'></i> Accueil"
-
-[[Languages.fr.menu.shortcuts]]
-name = "<i class='fab fa-fw fa-github'></i> Ce tutoriel dans GitHub"
-identifier = "github"
-url = "https://github.com/prokoudine/ardour-tutorial"
-weight = 10
-
-[[Languages.fr.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-home'></i> Page d'accueil d'Ardour"
-url = "https://ardour.org/"
-weight = 11
-
-[[Languages.fr.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-bookmark'></i> Manuel utilisateur"
-identifier = "usermanual"
-url = "https://manual.ardour.org"
-weight = 20
-
-[[Languages.fr.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-users'></i> Forum"
-identifier = "forum"
-url = "https://discourse.ardour.org/"
-weight = 20
-
-[[Languages.fr.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
-url = "appendices/credits/"
-weight = 30
-
-[Languages.ru]
-title = "Введение в Ardour"
-weight = 1
-languageName = "Russian"
-landingPageURL = "/"
-#landingPageURL = "/"
-landingPageName = "<i class='fas fa-home'></i> Начало"
-#
-#[[Languages.en.menu.shortcuts]]
-#name = "<i class='fab fa-fw fa-github'></i> Репозиторий в GitHub"
-#identifier = "ds"
-#url = "https://github.com/brunoruviaro/ardour4-tutorial/"
-#weight = 10
-#
-#[[Languages.en.menu.shortcuts]]
-#name = "<i class='fas fa-fw fa-home'></i> Сайт Ardour"
-#url = "https://ardour.org/"
-#weight = 11
-#
-#[[Languages.en.menu.shortcuts]]
-#name = "<i class='fas fa-fw fa-bookmark'></i> Руководство пользователя"
-#identifier = "hugodoc"
-#url = "https://manual.ardour.org"
-#weight = 20
-#
-#[[Languages.en.menu.shortcuts]]
-#name = "<i class='fas fa-fw fa-bullhorn'></i> Об авторах"
-#url = "/appendices/credits"
-#weight = 30
+		[Languages.fr.params]
+		#	landingPageURL = "https://prokoudine.github.io/ardour-tutorial"
+			landingPageName = "<i class='fas fa-home'></i> Accueil"
+		
+		[[Languages.fr.menu.shortcuts]]
+			name = "<i class='fab fa-fw fa-github'></i> Ce tutoriel dans GitHub"
+			identifier = "github"
+			url = "https://github.com/prokoudine/ardour-tutorial"
+			weight = 10
+		
+		[[Languages.fr.menu.shortcuts]]
+			name = "<i class='fas fa-fw fa-home'></i> Page d'accueil d'Ardour"
+			url = "https://ardour.org/"
+			weight = 11
+		
+		[[Languages.fr.menu.shortcuts]]
+			name = "<i class='fas fa-fw fa-bookmark'></i> Manuel utilisateur"
+			identifier = "usermanual"
+			url = "https://manual.ardour.org"
+			weight = 20
+		
+		[[Languages.fr.menu.shortcuts]]
+			name = "<i class='fas fa-fw fa-users'></i> Forum"
+			identifier = "forum"
+			url = "https://discourse.ardour.org/"
+			weight = 20
+		
+		[[Languages.fr.menu.shortcuts]]
+			name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
+			url = "appendices/credits/"
+			weight = 30
+	
+	#[Languages.ru]
+		#title = "Введение в Ardour"
+		#weight = 1
+		#languageName = "Russian"
+		#landingPageURL = "/"
+		#landingPageURL = "/"
+		#landingPageName = "<i class='fas fa-home'></i> Начало"
+		#
+		#[[Languages.en.menu.shortcuts]]
+			#name = "<i class='fab fa-fw fa-github'></i> Репозиторий в GitHub"
+			#identifier = "ds"
+			#url = "https://github.com/brunoruviaro/ardour4-tutorial/"
+			#weight = 10
+			#
+		#[[Languages.en.menu.shortcuts]]
+			#name = "<i class='fas fa-fw fa-home'></i> Сайт Ardour"
+			#url = "https://ardour.org/"
+			#weight = 11
+			#
+		#[[Languages.en.menu.shortcuts]]
+			#name = "<i class='fas fa-fw fa-bookmark'></i> Руководство пользователя"
+			#identifier = "hugodoc"
+			#url = "https://manual.ardour.org"
+			#weight = 20
+			#
+		#[[Languages.en.menu.shortcuts]]
+			#name = "<i class='fas fa-fw fa-bullhorn'></i> Об авторах"
+			#url = "/appendices/credits"
+			#weight = 30
