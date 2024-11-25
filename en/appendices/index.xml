@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Appendices on Ardour tutorial</title><link>https://prokoudine.github.io/ardour-tutorial/en/appendices/</link><description>Recent content in Appendices on Ardour tutorial</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://prokoudine.github.io/ardour-tutorial/en/appendices/index.xml" rel="self" type="application/rss+xml"/><item><title>Further help</title><link>https://prokoudine.github.io/ardour-tutorial/en/appendices/further-help/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/appendices/further-help/</guid><description>&lt;p>There are a couple of resources on the Internet to help you learn Ardour and
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Appendices on Ardour tutorial</title><link>https://prokoudine.github.io/ardour-tutorial/en/appendices/</link><description>Recent content in Appendices on Ardour tutorial</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><atom:link href="https://prokoudine.github.io/ardour-tutorial/en/appendices/index.xml" rel="self" type="application/rss+xml"/><item><title>Further help</title><link>https://prokoudine.github.io/ardour-tutorial/en/appendices/further-help/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/appendices/further-help/</guid><description>&lt;p>There are a couple of resources on the Internet to help you learn Ardour and
 fix some of the problems that you might have along the way.&lt;/p>
 &lt;h2 id="ardour-manual">Ardour Manual&lt;/h2>
 &lt;p>The official &lt;a href="http://manual.ardour.org/">Ardour Manual&lt;/a> is the main reference to Ardour. It is a work in progress, meaning you will not find every single feature explained there (yet). But it is already an amazing resource:&lt;/p>
@@ -239,7 +239,7 @@ shortcode for notice boxes that look like this:&lt;/p></description></item><item
 &lt;li>&lt;a href="https://x42-plugins.com/x42/x42-limiter">dpl.lv2&lt;/a>, a look-ahead digital peak limiter&lt;/li>
 &lt;li>&lt;a href="https://x42-plugins.com/x42/x42-eq">fil4.lv2&lt;/a>, a 4 band parametric equalizer with additional low &amp;amp; high shelfing and high &amp;amp; low-pass filters&lt;/li>
 &lt;/ul>
-&lt;!-- raw HTML omitted -->
+&lt;!-- - [airwindows](https://www.airwindows.com/) -->
 &lt;h2 id="visualization">Visualization&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://x42-plugins.com/x42/x42-meters">x42 Meter Collection&lt;/a>, a big help in analyzing audio&lt;/li>
@@ -261,6 +261,16 @@ shortcode for notice boxes that look like this:&lt;/p></description></item><item
 &lt;li>&lt;a href="https://surge-synthesizer.github.io/">Surge XT&lt;/a>, a hybrid synthesizer&lt;/li>
 &lt;li>&lt;a href="https://vital.audio/">Vital&lt;/a>, a spectral warping wavetable synth&lt;/li>
 &lt;/ul>
-&lt;!-- raw HTML omitted -->
+&lt;!-- - [Helm](https://tytel.org/helm/) -->
 &lt;p>&lt;a href="http://linuxsynths.com/">This website&lt;/a> keeps a track of all software
-synthesizers available for Linux.&lt;/p></description></item></channel></rss>
+synthesizers available for Linux.&lt;/p></description></item><item><title>Приложения</title><link>https://prokoudine.github.io/ardour-tutorial/en/appendices/_index.ru/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/appendices/_index.ru/</guid><description>&lt;h3 id="глава-8">Глава 8&lt;/h3>
+&lt;h1 id="приложения">Приложения&lt;/h1>
+&lt;p>Где получить больше информации об Ardour и как улучшить этот урок&lt;/p>
+&lt;p>Содержание:&lt;/p>
+&lt;ol>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/appendices/further-help/">Дальнейшая помощь&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/appendices/glossary/">Словарь терминов&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/appendices/credits/">Авторы урока&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/appendices/license/">Лицензия&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/appendices/how-to-contribute/">Как улучшить этот урок&lt;/a>&lt;/li>
+&lt;/ol></description></item></channel></rss>

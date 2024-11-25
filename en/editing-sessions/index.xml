@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Editing sessions on Ardour tutorial</title><link>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/</link><description>Recent content in Editing sessions on Ardour tutorial</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/index.xml" rel="self" type="application/rss+xml"/><item><title>Non-destructive editing</title><link>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/non-destructive-editing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/non-destructive-editing/</guid><description>&lt;p>In one of the previous chapters we already discussed that Ardour operates on
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Editing sessions on Ardour tutorial</title><link>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/</link><description>Recent content in Editing sessions on Ardour tutorial</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><atom:link href="https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/index.xml" rel="self" type="application/rss+xml"/><item><title>Non-destructive editing</title><link>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/non-destructive-editing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/non-destructive-editing/</guid><description>&lt;p>In one of the previous chapters we already discussed that Ardour operates on
 sessions that encompass all material you have: audio clips, MIDI clips, all
 effects applied to tracks and busses etc. Before we get to actual editing, let&amp;rsquo;s
 talk about basics of non-destructive editing, how it&amp;rsquo;s implemented in Ardour,
@@ -40,7 +40,21 @@ alt="Range example">
 enabled. In that case you need to position the mouse pointer around the middle
 of a track vertically to start selecting data rather than picking and moving a
 region. The mouse pointer looking like a vertical line means you are good to
-start selecting.&lt;/p></description></item><item><title>Working with regions</title><link>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/working-with-regions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/working-with-regions/</guid><description>&lt;p>Sections of audio are called &lt;em>regions&lt;/em> in Ardour. To compose the short rhythmic
+start selecting.&lt;/p></description></item><item><title>Редактирование</title><link>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/_index.ru/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/_index.ru/</guid><description>&lt;h3 id="глава-4">Глава 4&lt;/h3>
+&lt;h1 id="редактирование-сессий">Редактирование сессий&lt;/h1>
+&lt;p>Как расставить дорожки, а затем резать, зацикливать и растягивать области&lt;/p>
+&lt;p>Содержание:&lt;/p>
+&lt;ol>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/editing-sessions/non-destructive-editing/">Недеструктивное редактирование&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/editing-sessions/arranging-tracks/">Расстановка дорожек&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/editing-sessions/setting-up-time-signature/">Настройка тактового размера&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/editing-sessions/using-ranges/">Использование выделений&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/editing-sessions/working-with-regions/">Работа с областями&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/editing-sessions/further-region-operations/">Дополнительные операции с областями&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/editing-sessions/changing-edit-modes/">Режимы редактирования&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/editing-sessions/creating-looped-sections/">Создание повторяющихся частей&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/editing-sessions/stretching-shrinking-regions/">Растягивание и сжатие областей&lt;/a>&lt;/li>
+&lt;/ol></description></item><item><title>Working with regions</title><link>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/working-with-regions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/working-with-regions/</guid><description>&lt;p>Sections of audio are called &lt;em>regions&lt;/em> in Ardour. To compose the short rhythmic
 passage we&amp;rsquo;ve been working on, we will need to know how to &lt;em>select&lt;/em>, &lt;em>move&lt;/em>,
 &lt;em>split&lt;/em> and &lt;em>trim&lt;/em> these regions, as well as how to &lt;em>fade in&lt;/em> or &lt;em>fade out&lt;/em>
 their volume and create &lt;em>crossfades&lt;/em> between them. Some of these options may
