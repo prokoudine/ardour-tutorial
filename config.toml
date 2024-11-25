@@ -124,3 +124,8 @@ disableInlineCopyToClipBoard = true
 			#name = "<i class='fas fa-fw fa-bullhorn'></i> Об авторах"
 			#url = "/appendices/credits"
 			#weight = 30
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
