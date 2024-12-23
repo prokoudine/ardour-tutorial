@@ -108,7 +108,7 @@ them are mirrors of the options you find under Ardour&amp;rsquo;s &lt;em>Region&
 go into a bit more details on some of the most useful functions.&lt;/p></description></item><item><title>Changing edit modes</title><link>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/changing-edit-modes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/changing-edit-modes/</guid><description>&lt;p>We have already learned a bit about the &lt;em>Grab&lt;/em> mode (select/move objects) and
 &lt;em>Range&lt;/em> mode. In this chapter we will get an overview of all the &lt;em>edit modes&lt;/em>
 and &lt;em>cursor modes&lt;/em> available on that part of the &lt;em>Editor&lt;/em> window.&lt;/p>
-&lt;p>&lt;img alt="Ardour Edit Modes" src="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/editing-sessions/changing-edit-modes/en/ardour8-edit-modes.png?width=30vw">&lt;/p>
+&lt;p>&lt;img src="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/editing-sessions/changing-edit-modes/en/ardour8-edit-modes.png?width=30vw" alt="Ardour Edit Modes">&lt;/p>
 &lt;h2 id="edit-modes">Edit Modes&lt;/h2>
 &lt;p>These controls define the behavior of the main canvas and the different
 functions of the cursor.&lt;/p>
@@ -137,7 +137,7 @@ example. There are two ways of doing this: &lt;em>Combine Regions&lt;/em> (allow
 &amp;ldquo;uncombine&amp;rdquo; later on), and &lt;em>Consolidate Range&lt;/em> (&amp;ldquo;writes it in stone&amp;rdquo;, does not
 allow you to separate them later).&lt;/p></description></item><item><title>Stretching &amp; shrinking regions</title><link>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/stretching-shrinking-regions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/editing-sessions/stretching-shrinking-regions/</guid><description>&lt;p>Regions can be stretched or shrunk in length without changing their pitch by
 using the &lt;em>Stretch/Shrink Regions&lt;/em> tool (&lt;strong>T&lt;/strong> shortcut, for &amp;ldquo;Time-stretch&amp;rdquo;).&lt;/p>
-&lt;p>&lt;img alt="Stretch/Shrink Regions tool" src="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/editing-sessions/stretching-shrinking-regions/en/ardour7-stretch-shrink-edit-mode.png?width=20vw">&lt;/p>
+&lt;p>&lt;img src="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/editing-sessions/stretching-shrinking-regions/en/ardour7-stretch-shrink-edit-mode.png?width=20vw" alt="Stretch/Shrink Regions tool">&lt;/p>
 &lt;p>A small adjustment to the length of a region may not cause noticeable sound
 &lt;em>artifacts&lt;/em>. However, the more extreme the change in length, the more obvious
 the effect of processing on the sound.&lt;/p>
