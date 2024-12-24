@@ -48,20 +48,7 @@ background noise by simply turning levels up. These are all problems with what
 is called the &lt;em>dynamic range&lt;/em>, i.e., the difference between the loudest and
 quietest parts of your session. There are several types of tools for adjusting
 the dynamic range available mostly as third-party plugins within Ardour,
-including &lt;em>limiting&lt;/em>, &lt;em>compression&lt;/em>, and &lt;em>gating&lt;/em>.&lt;/p></description></item><item><title>Микширование</title><link>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/_index.ru/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/_index.ru/</guid><description>&lt;h3 id="глава-6">Глава 6&lt;/h3>
-&lt;h1 id="микширование-сессий">Микширование сессий&lt;/h1>
-&lt;p>Как использовать базовые инструменты, чтобы все инструменты выделялись в миксе&lt;/p>
-&lt;p>Содержание:&lt;/p>
-&lt;ol>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/mixing-sessions/the-mixer-strip/">Канал микшера&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/mixing-sessions/mixing-levels/">Уровни микшера&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/mixing-sessions/panning/">Панорама&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/mixing-sessions/using-plugins/">Использование плагинов&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/mixing-sessions/using-sends/">Использование посылов&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/mixing-sessions/dynamics/">Динамика&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/mixing-sessions/equalizing/">Эквализация&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/mixing-sessions/using-automation/">Автоматизация&lt;/a>&lt;/li>
-&lt;/ol></description></item><item><title>Equalizing</title><link>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/equalizing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/equalizing/</guid><description>&lt;p>An &lt;em>equalizer&lt;/em> (or &lt;em>EQ&lt;/em>) allows you to separately control the gain of different
+including &lt;em>limiting&lt;/em>, &lt;em>compression&lt;/em>, and &lt;em>gating&lt;/em>.&lt;/p></description></item><item><title>Equalizing</title><link>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/equalizing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/mixing-sessions/equalizing/</guid><description>&lt;p>An &lt;em>equalizer&lt;/em> (or &lt;em>EQ&lt;/em>) allows you to separately control the gain of different
 frequency ranges of a sound.&lt;/p>
 &lt;p>This can be useful not only to sculpt the timbre of an isolated sound (for
 example, to make it sound &amp;ldquo;sharper&amp;rdquo; or &amp;ldquo;smoother&amp;rdquo;), but also to make sounds of

@@ -19,12 +19,4 @@ etc., then you may wish to create a &lt;em>template&lt;/em> instead.&lt;/p>
 &lt;p>With a &lt;em>template&lt;/em>, you can save the state of a currently open session &lt;em>without&lt;/em>
 all the region information files. Templates are useful if, for example, you&amp;rsquo;re
 doing extensive routing on tracks and busses and want to save the &lt;em>Editor&lt;/em>
-window&amp;rsquo;s state for use in other sessions.&lt;/p></description></item><item><title>Сохранение сессий</title><link>https://prokoudine.github.io/ardour-tutorial/en/saving-sessions/_index.ru/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/saving-sessions/_index.ru/</guid><description>&lt;h3 id="глава-8">Глава 8&lt;/h3>
-&lt;h1 id="сохранение-сессий">Сохранение сессий&lt;/h1>
-&lt;p>Как сохранять сессии, их снимки и шаблоны для дальнейшего применения&lt;/p>
-&lt;p>Содержание:&lt;/p>
-&lt;ol>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/saving-sessions/saving-a-session/">Сохранение сессии&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/saving-sessions/saving-a-snapshot/">Сохранение снимка&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/saving-sessions/saving-a-template/">Сохранение шаблона&lt;/a>&lt;/li>
-&lt;/ol></description></item></channel></rss>
+window&amp;rsquo;s state for use in other sessions.&lt;/p></description></item></channel></rss>

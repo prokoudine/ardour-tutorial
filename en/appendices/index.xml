@@ -263,14 +263,4 @@ shortcode for notice boxes that look like this:&lt;/p></description></item><item
 &lt;/ul>
 &lt;!-- - [Helm](https://tytel.org/helm/) -->
 &lt;p>&lt;a href="http://linuxsynths.com/">This website&lt;/a> keeps a track of all software
-synthesizers available for Linux.&lt;/p></description></item><item><title>Приложения</title><link>https://prokoudine.github.io/ardour-tutorial/en/appendices/_index.ru/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/appendices/_index.ru/</guid><description>&lt;h3 id="глава-8">Глава 8&lt;/h3>
-&lt;h1 id="приложения">Приложения&lt;/h1>
-&lt;p>Где получить больше информации об Ardour и как улучшить этот урок&lt;/p>
-&lt;p>Содержание:&lt;/p>
-&lt;ol>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/appendices/further-help/">Дальнейшая помощь&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/appendices/glossary/">Словарь терминов&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/appendices/credits/">Авторы урока&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/appendices/license/">Лицензия&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/appendices/how-to-contribute/">Как улучшить этот урок&lt;/a>&lt;/li>
-&lt;/ol></description></item></channel></rss>
+synthesizers available for Linux.&lt;/p></description></item></channel></rss>

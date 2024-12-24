@@ -38,12 +38,4 @@ alt="Export Range in menu">
 &lt;/figure>
 &lt;p>This will open the familiar &lt;em>Export&lt;/em> dialog explained in the &lt;a href="../exporting-a-session">Exporting
 Sessions&lt;/a> chapter. Choose your options, if any, and
-click &lt;strong>Export&lt;/strong>. The range will be exported and saved as an audio file.&lt;/p></description></item><item><title>Экспорт</title><link>https://prokoudine.github.io/ardour-tutorial/en/exporting-sessions/_index.ru/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/exporting-sessions/_index.ru/</guid><description>&lt;h3 id="глава-7">Глава 7&lt;/h3>
-&lt;h1 id="экспорт-сессий">Экспорт сессий&lt;/h1>
-&lt;p>Как экспортировать область, выделенные данные и всю сессию&lt;/p>
-&lt;p>Содержание:&lt;/p>
-&lt;ol>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/exporting-sessions/exporting-a-session/">Экспорт сессии&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/exporting-sessions/exporting-a-region/">Экспорт области&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/exporting-sessions/exporting-a-range/">Экспорт выделения&lt;/a>&lt;/li>
-&lt;/ol></description></item></channel></rss>
+click &lt;strong>Export&lt;/strong>. The range will be exported and saved as an audio file.&lt;/p></description></item></channel></rss>
