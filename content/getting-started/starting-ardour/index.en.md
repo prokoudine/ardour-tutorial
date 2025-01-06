@@ -95,7 +95,7 @@ synthesizer, a drum sequencer etc.) and various ports. It is available on both
 Linux, Windows, and macOS.
 
 Today, the use of JACK audio server is discouraged by Ardour developers except
-for particular use cases like sophisticated signal routing. For simple
+for particular use cases like sophisticated signal routing, e.g. recording from physical audio interface ports and other applications at the same time. For simple
 multichannel recording your user experience will be vastly better when relying
 on native audio engine available in your operating system, like ALSA on Linux
 and CoreAudio on macOS. If you absolutely need JACK, it's best to start and
