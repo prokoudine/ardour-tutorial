@@ -123,6 +123,9 @@ choose between _one track per channel_ and _one track per file_. For the
 purpose of this tutorial, choose _one track per file_, otherwise the left and
 right channels of a stereo file will be split into two separate tracks.
 
+Alternatively, you can drag and drop audio and MIDI files from a file manager
+to the timeline to import them.
+
 ## Choose Insert Point
 
 When using either one of the options above (_Add as new track_ or _Add to
