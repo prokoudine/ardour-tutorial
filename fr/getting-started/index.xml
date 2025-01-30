@@ -2,7 +2,7 @@
 &lt;p>Nous examinerons les éléments communs de l&amp;rsquo;interface, les fenêtres principales et nous nous concentrerons sur les fenêtres &lt;em>Editor&lt;/em> et &lt;em>Mixer&lt;/em>. Les chapitres suivants donneront des informations plus détaillées sur chacune des fonctionnalités énumérées ici.&lt;/p>
 &lt;h2 id="fenêtre-dardour">Fenêtre d&amp;rsquo;Ardour&lt;/h2>
 &lt;p>Voici une vue typique d&amp;rsquo;un projet ouvert dans Ardour :&lt;/p>
-&lt;p>&lt;img src="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/getting-started/overview-of-the-interface/fr/ardour7-main-window-parts.fr.png" alt="Fenêtre principale d&amp;rsquo;Ardour 7">&lt;/p>
+&lt;p>&lt;img src="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/getting-started/overview-of-the-interface/fr/ardour7-main-window-parts.fr.png" alt="Fenêtre principale d’Ardour 7">&lt;/p>
 &lt;p>L&amp;rsquo;interface utilisateur se compose de deux grandes parties :&lt;/p>
 &lt;ol>
 &lt;li>
