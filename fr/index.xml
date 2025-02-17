@@ -3,82 +3,82 @@
 &lt;p>Conventions de base dans le tutoriel et introduction à l&amp;rsquo;audio numérique&lt;/p>
 &lt;p>Contenu :&lt;/p>
 &lt;ol>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/introduction/conventions/">Conventions&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/introduction/what-is-digital-audio/">Qu&amp;rsquo;est-ce que l&amp;rsquo;audio numérique ?&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/introduction/conventions/">Conventions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/introduction/what-is-digital-audio/">Qu&amp;rsquo;est-ce que l&amp;rsquo;audio numérique ?&lt;/a>&lt;/li>
 &lt;/ol></description></item><item><title>Pour commencer</title><link>https://prokoudine.github.io/ardour-tutorial/fr/getting-started/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/fr/getting-started/</guid><description>&lt;h3 id="chapitre-2">Chapitre 2&lt;/h3>
 &lt;h1 id="pour-commencer">Pour commencer&lt;/h1>
 &lt;p>Créez votre première session et apprenez les bases de l&amp;rsquo;interface utilisateur d&amp;rsquo;Ardour&lt;/p>
 &lt;p>Contenu :&lt;/p>
 &lt;ol>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/getting-started/starting-ardour/">Démarrer Ardour&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/getting-started/overview-of-the-interface/">Vue d&amp;rsquo;ensemble de l&amp;rsquo;interface&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/getting-started/creating-tracks-and-busses/">Création de pistes et de bus&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/getting-started/importing-audio-and-midi/">Import audio et MIDI&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/getting-started/setting-up-the-timeline/">Configuration de la ligne de temps&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/getting-started/starting-ardour/">Démarrer Ardour&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/getting-started/overview-of-the-interface/">Vue d&amp;rsquo;ensemble de l&amp;rsquo;interface&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/getting-started/creating-tracks-and-busses/">Création de pistes et de bus&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/getting-started/importing-audio-and-midi/">Import audio et MIDI&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/getting-started/setting-up-the-timeline/">Configuration de la ligne de temps&lt;/a>&lt;/li>
 &lt;li>&lt;a href="installing_lugins/">Installation de greffons&lt;/a>&lt;/li>
 &lt;/ol></description></item><item><title>Enregistrer</title><link>https://prokoudine.github.io/ardour-tutorial/fr/recording/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/fr/recording/</guid><description>&lt;h3 id="chapitre-3">Chapitre 3&lt;/h3>
 &lt;h1 id="enregistrer">Enregistrer&lt;/h1>
 &lt;p>Apprenez à acheminer le signal et à enregistrer l&amp;rsquo;audio.&lt;/p>
 &lt;p>Contenu :&lt;/p>
 &lt;ol>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/recording/recording-audio/">Enregistrer l&amp;rsquo;audio&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/recording/recording-midi/">Enregistrer du MIDI&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/recording/performing-on-time/">Jouer dans le tempo&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/recording/understanding-routing/">Comprendre le routage&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/recording/routing-between-applications/">Routage entre applications&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/recording/recording-audio/">Enregistrer l&amp;rsquo;audio&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/recording/recording-midi/">Enregistrer du MIDI&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/recording/performing-on-time/">Jouer dans le tempo&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/recording/understanding-routing/">Comprendre le routage&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/recording/routing-between-applications/">Routage entre applications&lt;/a>&lt;/li>
 &lt;/ol></description></item><item><title>Editer des sessions</title><link>https://prokoudine.github.io/ardour-tutorial/fr/editing-sessions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/fr/editing-sessions/</guid><description>&lt;h3 id="chapitre-4">Chapitre 4&lt;/h3>
 &lt;h1 id="editer-des-sessions">Editer des sessions&lt;/h1>
 &lt;p>Comment arranger les pistes, puis couper, boucler et étirer les régions.&lt;/p>
 &lt;p>Contenu :&lt;/p>
 &lt;ol>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/editing-sessions/non-destructive-editing/">Edition Non-destructive&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/editing-sessions/arranging-tracks/">Routage des pistes&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/editing-sessions/setting-up-time-signature/">Configuration de la signature temporelle&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/editing-sessions/using-ranges/">Utiliser les intervalles&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/editing-sessions/working-with-regions/">Travailler avec les régions&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/editing-sessions/further-region-operations/">Autres opérations sur les régions&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/editing-sessions/changing-edit-modes/">Changer les modes d&amp;rsquo;édition&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/editing-sessions/creating-looped-sections/">Créer des sections en boucle&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/editing-sessions/stretching-shrinking-regions/">Étirer et réduire les régions&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/editing-sessions/editing-midi-regions/">Éditer des régions MIDI&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/editing-sessions/non-destructive-editing/">Edition Non-destructive&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/editing-sessions/arranging-tracks/">Routage des pistes&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/editing-sessions/setting-up-time-signature/">Configuration de la signature temporelle&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/editing-sessions/using-ranges/">Utiliser les intervalles&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/editing-sessions/working-with-regions/">Travailler avec les régions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/editing-sessions/further-region-operations/">Autres opérations sur les régions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/editing-sessions/changing-edit-modes/">Changer les modes d&amp;rsquo;édition&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/editing-sessions/creating-looped-sections/">Créer des sections en boucle&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/editing-sessions/stretching-shrinking-regions/">Étirer et réduire les régions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/editing-sessions/editing-midi-regions/">Éditer des régions MIDI&lt;/a>&lt;/li>
 &lt;/ol></description></item><item><title>Mixer des sessions</title><link>https://prokoudine.github.io/ardour-tutorial/fr/mixing-sessions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/fr/mixing-sessions/</guid><description>&lt;h3 id="chapitre-6">Chapitre 6&lt;/h3>
 &lt;h1 id="mixer-des-sessions">Mixer des sessions&lt;/h1>
 &lt;p>Comment utiliser les outils de base pour faire ressortir chaque instrument dans un mixage.&lt;/p>
 &lt;p>Contenu :&lt;/p>
 &lt;ol>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/mixing-sessions/the-mixer-strip/">La bande de mixage&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/mixing-sessions/mixing-levels/">Niveaux de mixage&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/mixing-sessions/panning/">Panoramique&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/mixing-sessions/using-plugins/">Utilisation des greffons&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/mixing-sessions/using-sends/">Utilisation des envois&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/mixing-sessions/dynamics/">Dynamiques&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/mixing-sessions/equalizing/">Egalisation&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/mixing-sessions/using-automation/">Utilisation de l&amp;rsquo;automatisation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/mixing-sessions/the-mixer-strip/">La bande de mixage&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/mixing-sessions/mixing-levels/">Niveaux de mixage&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/mixing-sessions/panning/">Panoramique&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/mixing-sessions/using-plugins/">Utilisation des greffons&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/mixing-sessions/using-sends/">Utilisation des envois&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/mixing-sessions/dynamics/">Dynamiques&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/mixing-sessions/equalizing/">Egalisation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/mixing-sessions/using-automation/">Utilisation de l&amp;rsquo;automatisation&lt;/a>&lt;/li>
 &lt;/ol></description></item><item><title>Exporter des sessions</title><link>https://prokoudine.github.io/ardour-tutorial/fr/exporting-sessions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/fr/exporting-sessions/</guid><description>&lt;h3 id="chapitre-7">Chapitre 7&lt;/h3>
 &lt;h1 id="exporter-des-sessions">Exporter des sessions&lt;/h1>
 &lt;p>Comment exporter une région, une sélection de données et une session entière.&lt;/p>
 &lt;p>Contenu :&lt;/p>
 &lt;ol>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/exporting-sessions/exporting-a-session/">Exporter une session&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/exporting-sessions/exporting-a-region/">Exporter une région&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/exporting-sessions/exporting-a-range/">Exporter un intervalle&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/exporting-sessions/exporting-a-session/">Exporter une session&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/exporting-sessions/exporting-a-region/">Exporter une région&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/exporting-sessions/exporting-a-range/">Exporter un intervalle&lt;/a>&lt;/li>
 &lt;/ol></description></item><item><title>Annexes</title><link>https://prokoudine.github.io/ardour-tutorial/fr/appendices/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/fr/appendices/</guid><description>&lt;h3 id="chapitre-8">Chapitre 8&lt;/h3>
 &lt;h1 id="annexes">Annexes&lt;/h1>
 &lt;p>Où trouver plus d&amp;rsquo;informations sur Ardour et comment améliorer ce tutoriel.&lt;/p>
 &lt;p>Contenu :&lt;/p>
 &lt;ol>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/appendices/further-help/">Aide supplémentaire&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/appendices/glossary/">Glossaire&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/appendices/credits/">Crédits&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/appendices/further-help/">Aide supplémentaire&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/appendices/glossary/">Glossaire&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/appendices/credits/">Crédits&lt;/a>&lt;/li>
 &lt;li>&lt;a href="licence/">Licence&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/appendices/how-to-contribute/">Comment contribuer à ce tutoriel&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/appendices/plugins/">Greffons recommandés&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/appendices/how-to-contribute/">Comment contribuer à ce tutoriel&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/appendices/plugins/">Greffons recommandés&lt;/a>&lt;/li>
 &lt;/ol></description></item><item><title>Sauvegarder des sessions</title><link>https://prokoudine.github.io/ardour-tutorial/fr/saving-sessions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/fr/saving-sessions/</guid><description>&lt;h3 id="chapitre-8">Chapitre 8&lt;/h3>
 &lt;h1 id="sauvegarder-des-sessions">Sauvegarder des sessions&lt;/h1>
 &lt;p>Comment sauvegarder une session, un instantané de celle-ci et un modèle pour une réutilisation ultérieure ?&lt;/p>
 &lt;p>Contenus :&lt;/p>
 &lt;ol>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/saving-sessions/saving-a-session/">Sauvegarder une session&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/saving-sessions/saving-a-snapshot/">Sauvegarder un instantané&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/saving-sessions/saving-a-template/">Sauvegarder un modèle&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/saving-sessions/saving-a-session/">Sauvegarder une session&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/saving-sessions/saving-a-snapshot/">Sauvegarder un instantané&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/saving-sessions/saving-a-template/">Sauvegarder un modèle&lt;/a>&lt;/li>
 &lt;/ol></description></item></channel></rss>

@@ -4,7 +4,7 @@ on the &lt;em>Editor&lt;/em> window and the &lt;em>Mixer&lt;/em> window. Later c
 detailed information on each feature listed here.&lt;/p>
 &lt;h2 id="ardours-window">Ardour&amp;rsquo;s window&lt;/h2>
 &lt;p>Here is a typical view of a project opened in Ardour:&lt;/p>
-&lt;p>&lt;img src="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/getting-started/overview-of-the-interface/en/ardour7-main-window-parts.png" alt="Main window of Ardour 7">&lt;/p>
+&lt;p>&lt;img src="https://prokoudine.github.io/ardour-tutorial/en/getting-started/overview-of-the-interface/en/ardour7-main-window-parts.png" alt="Main window of Ardour 7">&lt;/p>
 &lt;p>There are two larger parts of the user interface:&lt;/p></description></item><item><title>Starting Ardour</title><link>https://prokoudine.github.io/ardour-tutorial/en/getting-started/starting-ardour/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/getting-started/starting-ardour/</guid><description>&lt;p>Ardour supports both Linux, Windows, and macOS. There is very little
 difference about how it works on all these operating systems. So while this
 tutorial assumes using Ubuntu Linux, you should expect it to work the same
@@ -25,7 +25,7 @@ could be just one huge MIDI region spanning the entire song.&lt;/p></description
 existing or new tracks. To do so, press the &lt;strong>Ctrl+I&lt;/strong> shortcut or go to the
 &lt;code>Session &amp;gt; Import&lt;/code> menu to open the &lt;em>Add Existing Media&lt;/em> dialog, pick a file
 of interest, and import it.&lt;/p>
-&lt;figure>&lt;img src="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/getting-started/importing-audio-and-midi/en/ardour7-import-as-new-tracks.png"
+&lt;figure>&lt;img src="https://prokoudine.github.io/ardour-tutorial/en/getting-started/importing-audio-and-midi/en/ardour7-import-as-new-tracks.png"
 alt="Add Media">
 &lt;/figure>
 &lt;p>Some settings are the same for audio and MIDI, some are format-specific.&lt;/p>
@@ -54,7 +54,7 @@ can play a high-quality orchestra library, a polyphonic synthesizer etc.&lt;/p>
 &lt;li>&lt;strong>macOS&lt;/strong>: LADSPA, LV2, VST2.x, VST3, AU&lt;/li>
 &lt;/ul>
 &lt;p>You can find a list of recommended free/libre plugins
-&lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/appendices/plugins/">in the appendix&lt;/a>.&lt;/p>
+&lt;a href="https://prokoudine.github.io/ardour-tutorial/en/appendices/plugins/">in the appendix&lt;/a>.&lt;/p>
 &lt;h2 id="installing-plugins">Installing plugins&lt;/h2>
 &lt;h3 id="ladspa-and-lv2">LADSPA and LV2&lt;/h3>
 &lt;p>These plugins mostly don&amp;rsquo;t have binary builds for Windows and macOS, so on

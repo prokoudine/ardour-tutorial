@@ -3,7 +3,7 @@
 this is where you arrange track, import and edit media on the timeline, and
 control plugin automation for creative effects and mixing.&lt;/p>
 &lt;p>Let&amp;rsquo;s take a look at main parts of the &lt;em>Editor&lt;/em> window:&lt;/p>
-&lt;figure>&lt;img src="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/getting-started/overview-of-the-interface/editor-window/en/ardour7-editor-window-sections.png"
+&lt;figure>&lt;img src="https://prokoudine.github.io/ardour-tutorial/en/getting-started/overview-of-the-interface/editor-window/en/ardour7-editor-window-sections.png"
 alt="Editor window sections">
 &lt;/figure>
 &lt;p>Here they are:&lt;/p>
@@ -24,7 +24,7 @@ the chapters on &lt;a href="en/recording-audio/understanding-routing/">understan
 routing&lt;/a>,
 &lt;a href="en/mixing-sessions/mixing-levels/">mixing&lt;/a>, and &lt;a href="en/mixing-sessions/using-plugins/">using
 plugins&lt;/a> for details.&lt;/p></description></item><item><title>Recorder window</title><link>https://prokoudine.github.io/ardour-tutorial/en/getting-started/overview-of-the-interface/recorder-window/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/getting-started/overview-of-the-interface/recorder-window/</guid><description>&lt;p>The &lt;em>Recorder&lt;/em> window is streamlined for one particular use case: recording to multiple tracks. The interface is pointedly simplified to remove all distraction.&lt;/p>
-&lt;figure>&lt;img src="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/getting-started/overview-of-the-interface/recorder-window/en/ardour7-recorder-window-sections.png"
+&lt;figure>&lt;img src="https://prokoudine.github.io/ardour-tutorial/en/getting-started/overview-of-the-interface/recorder-window/en/ardour7-recorder-window-sections.png"
 alt="Sections of the Recorder window">
 &lt;/figure>
 &lt;p>There are three major sections in the Recorder window as outlined above:&lt;/p>
@@ -43,6 +43,6 @@ to give you a basic idea what all this is about.&lt;/p>
 &lt;h2 id="user-interface-elements">User interface elements&lt;/h2>
 &lt;p>The user interface follows the general approach expected by users of other
 applications with this type of a feature set.&lt;/p>
-&lt;figure>&lt;img src="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/getting-started/overview-of-the-interface/cue-window/en/ardour7-cue-window-sections.png">
+&lt;figure>&lt;img src="https://prokoudine.github.io/ardour-tutorial/en/getting-started/overview-of-the-interface/cue-window/en/ardour7-cue-window-sections.png">
 &lt;/figure>
 &lt;p>Here are the main UI parts:&lt;/p></description></item></channel></rss>

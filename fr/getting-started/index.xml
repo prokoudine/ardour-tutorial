@@ -2,7 +2,7 @@
 &lt;p>Nous examinerons les éléments communs de l&amp;rsquo;interface, les fenêtres principales et nous nous concentrerons sur les fenêtres &lt;em>Editor&lt;/em> et &lt;em>Mixer&lt;/em>. Les chapitres suivants donneront des informations plus détaillées sur chacune des fonctionnalités énumérées ici.&lt;/p>
 &lt;h2 id="fenêtre-dardour">Fenêtre d&amp;rsquo;Ardour&lt;/h2>
 &lt;p>Voici une vue typique d&amp;rsquo;un projet ouvert dans Ardour :&lt;/p>
-&lt;p>&lt;img src="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/getting-started/overview-of-the-interface/fr/ardour7-main-window-parts.fr.png" alt="Fenêtre principale d’Ardour 7">&lt;/p>
+&lt;p>&lt;img src="https://prokoudine.github.io/ardour-tutorial/fr/getting-started/overview-of-the-interface/fr/ardour7-main-window-parts.fr.png" alt="Fenêtre principale d’Ardour 7">&lt;/p>
 &lt;p>L&amp;rsquo;interface utilisateur se compose de deux grandes parties :&lt;/p>
 &lt;ol>
 &lt;li>
@@ -12,7 +12,7 @@
 &lt;p>Une piste représente généralement une partie jouée par un instrument ou chantée par une voix.
 Cette partie peut commencer au tout début et se terminer à la toute fin de la chanson, ou il peut y avoir plusieurs occurrences de cet instrument/cette voix dans un morceau, auquel cas il y aura probablement plusieurs &lt;em>régions&lt;/em>, ou &lt;em>clips&lt;/em> à l&amp;rsquo;intérieur d&amp;rsquo;une piste.&lt;/p>
 &lt;p>Une région est simplement une portion de données audio ou MIDI. Par exemple, une piste &amp;lsquo;Lead guitar&amp;rsquo; peut avoir plusieurs régions, une pour chaque solo. En revanche, une piste &amp;ldquo;Drums&amp;rdquo; (batterie) pourrait n&amp;rsquo;être qu&amp;rsquo;une énorme région MIDI couvrant l&amp;rsquo;ensemble du morceau.&lt;/p></description></item><item><title>Import audio et MIDI</title><link>https://prokoudine.github.io/ardour-tutorial/fr/getting-started/importing-audio-and-midi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/fr/getting-started/importing-audio-and-midi/</guid><description>&lt;p>Vous pouvez réutiliser des fichiers audio et MIDI existants en les ajoutant comme régions sur des pistes existantes ou nouvelles. Pour ce faire, appuyez sur le raccourci &lt;strong>Ctrl+I&lt;/strong> ou allez dans le menu &lt;code>Session &amp;gt; Import&lt;/code> pour ouvrir la boîte de dialogue &lt;em>Add Existing Media&lt;/em>, sélectionnez votre fichier et importez-le.&lt;/p>
-&lt;figure>&lt;img src="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/getting-started/importing-audio-and-midi/en/ardour7-import-as-new-tracks.png"
+&lt;figure>&lt;img src="https://prokoudine.github.io/ardour-tutorial/en/getting-started/importing-audio-and-midi/en/ardour7-import-as-new-tracks.png"
 alt="Add Media">
 &lt;/figure>
 &lt;p>Certains paramètres sont les mêmes pour l&amp;rsquo;audio et le MIDI, d&amp;rsquo;autres sont spécifiques au format.&lt;/p>
@@ -25,4 +25,4 @@ un compresseur ou une réverbération plus sophistiqués, un échantillonneur ca
 &lt;li>&lt;strong>Windows&lt;/strong> : LADSPA, LV2, VST2.x, VST3&lt;/li>
 &lt;li>&lt;strong>macOS&lt;/strong> : LADSPA, LV2, VST2.x, VST3, AU&lt;/li>
 &lt;/ul>
-&lt;p>Vous pouvez trouver une liste de greffons libres/libre recommandés &lt;a href="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/fr/appendices/plugins/">en annexe&lt;/a>.&lt;/p></description></item></channel></rss>
+&lt;p>Vous pouvez trouver une liste de greffons libres/libre recommandés &lt;a href="https://prokoudine.github.io/ardour-tutorial/fr/appendices/plugins/">en annexe&lt;/a>.&lt;/p></description></item></channel></rss>

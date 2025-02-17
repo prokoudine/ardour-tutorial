@@ -12,7 +12,7 @@ chapter shows you how to do that.&lt;/p>
 &lt;h2 id="exporting-a-region">Exporting a Region&lt;/h2>
 &lt;p>To export a region, select it in &lt;em>Grab&lt;/em> mode and then right-click into the
 sub-menu &lt;em>Export&lt;/em>, or use the top menu: &lt;code>Region &amp;gt; Export&lt;/code>.&lt;/p>
-&lt;p>&lt;img src="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/exporting-sessions/exporting-a-region/en/ardour7-export-region-in-right-click-menu.png?width=600" alt="export region">&lt;/p>
+&lt;p>&lt;img src="https://prokoudine.github.io/ardour-tutorial/en/exporting-sessions/exporting-a-region/en/ardour7-export-region-in-right-click-menu.png?width=600" alt="export region">&lt;/p>
 &lt;p>This will open up the same export dialog box explained in the
 &lt;a href="../exporting-a-session">Exporting Sessions&lt;/a> chapter. Choose your options and
 click &lt;strong>Export&lt;/strong>. Only the selected region will be exported.&lt;/p></description></item><item><title>Exporting a range</title><link>https://prokoudine.github.io/ardour-tutorial/en/exporting-sessions/exporting-a-range/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prokoudine.github.io/ardour-tutorial/en/exporting-sessions/exporting-a-range/</guid><description>&lt;p>As you have already learned in previous chapters, exporting an isolated region
@@ -23,17 +23,17 @@ export either a range or the entire session.&lt;/p>
 &lt;ol>
 &lt;li>Click on the &lt;strong>Range Mode&lt;/strong> button (&lt;strong>R&lt;/strong> shortcut)&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/exporting-sessions/exporting-a-range/en/ardour7-range-edit-mode.png?width=250" alt="Range mode">&lt;/p>
+&lt;p>&lt;img src="https://prokoudine.github.io/ardour-tutorial/en/exporting-sessions/exporting-a-range/en/ardour7-range-edit-mode.png?width=250" alt="Range mode">&lt;/p>
 &lt;ol start="2">
 &lt;li>Make a range selection:&lt;/li>
 &lt;/ol>
-&lt;figure>&lt;img src="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/exporting-sessions/exporting-a-range/en/ardour7-exporting-range-1.png"
+&lt;figure>&lt;img src="https://prokoudine.github.io/ardour-tutorial/en/exporting-sessions/exporting-a-range/en/ardour7-exporting-range-1.png"
 alt="Make a range selection">
 &lt;/figure>
 &lt;ol start="3">
 &lt;li>Right click on the range and choose &lt;em>Export Range&lt;/em> from the menu:&lt;/li>
 &lt;/ol>
-&lt;figure>&lt;img src="https://prokoudine.github.io/ardour-tutorial/ardour-tutorial/en/exporting-sessions/exporting-a-range/en/ardour7-exporting-range-2.png"
+&lt;figure>&lt;img src="https://prokoudine.github.io/ardour-tutorial/en/exporting-sessions/exporting-a-range/en/ardour7-exporting-range-2.png"
 alt="Export Range in menu">
 &lt;/figure>
 &lt;p>This will open the familiar &lt;em>Export&lt;/em> dialog explained in the &lt;a href="../exporting-a-session">Exporting
