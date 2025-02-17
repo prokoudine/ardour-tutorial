@@ -3,6 +3,7 @@ title = "Setting stretch options"
 description = "Sometimes a drum loop that you would really like to use in a song has slower or faster tempo than your session’s tempo."
 chapter = false
 weight = 4
+draft = true
 +++
 
 Sometimes a drum loop that you would really like to use in a song has slower or faster tempo than your session’s tempo. Fortunately, Ardour has a way to keep it perfectly in sync with the rest of the song.

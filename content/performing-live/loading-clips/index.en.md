@@ -3,6 +3,7 @@ title = "Loading clips"
 description = "Before launching a clip or a cue, let’s learn to load clips into trigger slots."
 chapter = false
 weight = 2
+draft = true
 +++
 
 Before launching a clip or a cue, let’s learn to load clips into trigger slots.

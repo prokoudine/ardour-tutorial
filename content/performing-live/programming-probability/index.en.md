@@ -3,6 +3,7 @@ title = "Programming probability"
 description = "The Follow Options group in the Cue window is where you program the sequence of clips"
 chapter = false
 weight = 7
+draft = true
 +++
 
 Now that you are already familiar with basic follow actions in the Cue window, let’s talk about programming probability.

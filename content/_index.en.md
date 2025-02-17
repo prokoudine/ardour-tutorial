@@ -32,8 +32,8 @@ Contents:
 2. [Getting started](getting-started/)
 3. [Recording](recording/)
 4. [Editing sessions](editing-sessions/)
-5. [Performing live](performing-live/)
-6. [Mixing sessions](mixing-sessions/)
-7. [Exporting sessions](exporting-sessions/)
-8. [Saving sessions](saving-sessions/)
-9. [Appendices](appendices/)
+<!-- 5. [Performing live](performing-live/) -->
+5. [Mixing sessions](mixing-sessions/)
+6. [Exporting sessions](exporting-sessions/)
+7. [Saving sessions](saving-sessions/)
+8. [Appendices](appendices/)

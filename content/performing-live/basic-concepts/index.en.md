@@ -3,6 +3,7 @@ title = "Basic Concepts"
 description = "The Cue window provides tools for non-linear sequencing where you trigger the playback of short repeatable audio and MIDI clips."
 chapter = false
 weight = 1
+draft = true
 +++
 
 The Cue window provides tools for non-linear sequencing where you trigger the playback of short repeatable audio and MIDI clips.

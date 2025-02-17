@@ -3,6 +3,7 @@ title = "Programming sequences"
 description = "The Follow Options group in the Cue window is where you program the sequence of clips"
 chapter = false
 weight = 6
+draft = true
 +++
 
 The _Follow Options_ group in the Cue window is where you program the sequence of clips.

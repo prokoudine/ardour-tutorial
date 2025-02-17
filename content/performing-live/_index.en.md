@@ -4,6 +4,7 @@ description = "Learn how to use Cue to perform live with a matrix MIDI controlle
 chapter = true
 weight = 5
 pre = "<b>5. </b>"
+draft = true
 +++
 
 ### Chapter 5
