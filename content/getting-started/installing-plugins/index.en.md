@@ -1,9 +1,10 @@
-+++
-title = "Installing plugins"
-description = "How to install plugins for Ardour"
-chapter = false
-weight = 6
-+++
+---
+title: Installing plugins
+description: How to install plugins for Ardour
+weight: 7
+cascade:
+  type: docs
+---
 
 While Ardour already ships with some plugins, chances are that you will need
 more than that: a more sophisticated compressor or reverb, a sampler that

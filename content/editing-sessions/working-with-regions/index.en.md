@@ -1,9 +1,10 @@
-+++
-title = "Working with regions"
-description = "Selecting, splitting, moving regions in Ardour"
-chapter = false
-weight = 5
-+++
+---
+title: Working with regions
+description: Selecting, splitting, moving regions in Ardour
+weight: 5
+cascade:
+  type: docs
+---
 
 Sections of audio are called _regions_ in Ardour. To compose the short rhythmic
 passage we've been working on, we will need to know how to _select_, _move_,
@@ -67,11 +68,11 @@ different track.
 When a set of one or more regions is selected, you can move the whole set by
 dragging with the mouse.
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 Make sure to select the region in its waveform section, because selecting the
 bottom title bar area is used for a different action (see _Trimming Regions_
 below).
-{{% /notice %}}
+{{< /callout >}}
 
 ## Duplicating Regions
 
@@ -129,12 +130,12 @@ the marker, among other options.
 
 {{< figure alt="Location Marker" src="en/Ardour4_Location_Marker.png" >}} 
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 When you first create a new session, two location markers are automatically
 added by default. These are the _start_ and _end_ markers that you see in
 the screenshot above. If you don't see the _end_ marker, zoom out enough and
 you will find it. 
-{{% /notice %}}
+{{< /callout >}}
 
 ## Splitting Regions
 
@@ -166,12 +167,12 @@ example, in the image above, you see two regions called _pink.15_ and _pink.16_,
 which means they were split from a parent region called "pink" (not shown in
 image).
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 Splitting ranges will follow your grid settings. For example, if you have an
 active grid set for bars, splits will happen at the bar boundaries. If you
 choose _No Grid_, splits will happen wherever the edit point is, regardless of
 any grid.
-{{% /notice %}}
+{{< /callout >}}
 
 ## Trimming Regions
 
@@ -190,10 +191,10 @@ track.
 
 {{< figure alt="Trim" src="en/Ardour4_Trimming_Regions.gif" >}}
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 Like splitting, trimming will obey grid settings. If you don't want your
 trimming to be constrained to any grid, simply turn the grid off (_No Grid_).
-{{% /notice %}}
+{{< /callout >}}
 
 ## Deleted Regions
 

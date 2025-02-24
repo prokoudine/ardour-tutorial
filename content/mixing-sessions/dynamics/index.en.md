@@ -1,9 +1,10 @@
-+++
-title = "Dynamics"
-description = "Applying limiters, compressors, and a gate in Ardour"
-chapter = false
-weight = 6
-+++
+---
+title: Dynamics
+description: Applying limiters, compressors, and a gate in Ardour
+weight: 6
+cascade:
+  type: docs
+---
 
 One of the problems you may encounter in a mix is that, depending on the
 material, the loud parts are too loud, and/or the quiet parts are too quiet.

@@ -1,9 +1,10 @@
-+++
-title = "Using ranges"
-description = "How to create and edit range selection in Ardour"
-chapter = false
-weight = 4
-+++
+---
+title: Using ranges
+description: How to create and edit range selection in Ardour
+weight: 4
+cascade:
+  type: docs
+---
 
 A _range_ is a selection of the timeline that can include one or more tracks. It
 has many uses like selecting a portion of audio/MIDI data to cut it.

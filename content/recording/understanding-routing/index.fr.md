@@ -1,15 +1,14 @@
-+++
-title = "Comprendre le routage"
-description = "Acheminer le signal dans Ardour"
-chapter = false
-weight = 5
-featherlight = false
-+++
+---
+title: Comprendre le routage
+description: Acheminer le signal dans Ardour
+weight: 5
+cascade:
+  type: docs
+---
 
 Le routage d'un signal audio consiste à l'envoyer d'un endroit à un autre.
 
-En plus d'acheminer les signaux audio vers et depuis Ardour, le routage joue un rôle important à l'intérieur même d'Ardour.
-Des exemples d'utilisation du routage à l'intérieur d'Ardour incluent le routage de l'audio des pistes vers le bus _Master_ ou vers d'autres bus, créer des "envois", router les sorties des bus vers le bus _Master_, etc. (voir chapitre **Création d'une piste** pour une explication des pistes et des bus). Tous le routage, à la fois interne et externe à Ardour, est géré par JACK.
+En plus d'acheminer les signaux audio vers et depuis Ardour, le routage joue un rôle important à l'intérieur même d'Ardour. Des exemples d'utilisation du routage à l'intérieur d'Ardour incluent le routage de l'audio des pistes vers le bus _Master_ ou vers d'autres bus, créer des "envois", router les sorties des bus vers le bus _Master_, etc. (voir chapitre **Création d'une piste** pour une explication des pistes et des bus). Tous le routage, à la fois interne et externe à Ardour, est géré par JACK.
 
 ### Routage dans Ardour
 
@@ -61,7 +60,7 @@ Il existe une astuce que vous pouvez utiliser lorsque vous avez besoin d'affecte
 
 ![Tracer des lignes de connexion](en/ardour7-drawing-connection-lines.gif?height=75vh)
 
-### Exemple pratique de routage vers un bus 
+### Exemple pratique de routage vers un bus
 
 Dans l'exemple de session suivant, il y a deux pistes de guitare et un bus inutilisé appelé bus _Guitar_, le tout en stéréo.
 
@@ -100,7 +99,6 @@ Voici un exemple de fenêtre _Catia_ (Linux uniquement) affichant les mêmes con
 
 ## Poursuivre
 
-Dans ce chapitre, nous avons vu comment gérer le routage à l'intérieur d'Ardour, ou entre Ardour et la carte son.
-Cependant, l'une des forces de l'utilisation du système JACK est qu'il peut également gérer les connexions entre les applications sur le même ordinateur. Pour mieux comprendre comment cela fonctionne, nous vous invitons à consulter le chapitre _Routage entre applications_. Si vous préférez travailler uniquement avec Ardour, passez directement à la section _Arrangement des pistes_.
+Dans ce chapitre, nous avons vu comment gérer le routage à l'intérieur d'Ardour, ou entre Ardour et la carte son. Cependant, l'une des forces de l'utilisation du système JACK est qu'il peut également gérer les connexions entre les applications sur le même ordinateur. Pour mieux comprendre comment cela fonctionne, nous vous invitons à consulter le chapitre _Routage entre applications_. Si vous préférez travailler uniquement avec Ardour, passez directement à la section _Arrangement des pistes_.
 
 Suivant : [Routage entre applications](../routing-between-applications) ou [Routage des pistes](../../editing-sessions/arranging-tracks/)

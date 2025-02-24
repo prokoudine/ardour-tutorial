@@ -1,9 +1,10 @@
-+++
-title = "Creating looped sections"
-description = "Creating and combining region duplicates in Ardour"
-chapter = false
-weight = 8
-+++
+---
+title: Creating looped sections
+description: Creating and combining region duplicates in Ardour
+weight: 8
+cascade:
+  type: docs
+---
 
 You can easily repeat sections of audio in your Ardour session.
 

@@ -1,9 +1,10 @@
-+++
-title = "La bande de mixage"
-description = "Éléments de la bande de mixage dans Ardour"
-chapter = false
-weight = 1
-+++
+---
+title: La bande de mixage
+description: Éléments de la bande de mixage dans Ardour
+weight: 1
+cascade:
+  type: docs
+---
 
 Le mixage est le processus de conversion de plusieurs pistes en un mélange stéréo ou multicanal où tous les instruments peuvent être entendus clairement.
 
@@ -41,7 +42,7 @@ En continuant de haut en bas, la section suivante de la bande de mixage contient
 
 {{< figure alt="strip 2" src="en/Ardour4_Mixer_Strip_2.png" >}} 
 
-### Boîte du processeur 
+### Boîte du processeur
 
 La grande zone noire au bas de cette section est la _boîte de processeur_.
 C'est là que vous pouvez ajouter des greffons, par exemple. Le flux de signal dans la bande de mixage se fait de haut en bas. Il commence par l'entrée du haut, le greffon le plus haut dans la boîte est le premier la chaîne d'effets, celui du bas est celui qui est appliqué en dernier.
@@ -61,9 +62,9 @@ Pour contrôler ces deux fonctions, utilisez le sous-menu _Contrôles_ dans le m
 
 ![Sous-menu des contrôles dans Ardour 7](en/ardour7-plugin-controls-submenu.png?height=60vh)
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 Pour activer plusieurs contrôles pour un greffon, la façon la plus pratique est d'ouvrir le menu du clic droit, de survoler un contrôle et d'appuyer sur **Barre d'espace** de votre clavier, de survoler le contrôle suivant, d'appuyer à nouveau sur **Barre d'espace**, etc.
-{{% /notice %}}
+{{< /callout >}}
 
 La partie suivante de la bande de mixage comprend des commandes pour le panoramique, l'enregistrement, la sourdine et le solo, entre autres.
 

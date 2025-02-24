@@ -1,13 +1,10 @@
-+++
-title = "Enregistrer"
-description = "Apprenez à acheminer un signal et à enregistrer de l'audio avec Ardour."
-chapter = true
-weight = 3
-pre = "<b>3. </b>"
-+++
-
-### Chapitre 3
-# Enregistrer
+---
+title: Enregistrer
+description: Apprenez à acheminer un signal et à enregistrer de l'audio avec Ardour.
+weight: 3
+cascade:
+  type: docs
+---
 
 Apprenez à acheminer le signal et à enregistrer l'audio.
 

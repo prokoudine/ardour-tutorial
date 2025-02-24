@@ -1,9 +1,10 @@
-+++
-title = "Changer les modes d'édition" 
-description = "Modes d'édition pour les régions dans Ardour"
-chapter = false
-weight = 7
-+++
+---
+title: Changer les modes d'édition
+description: Modes d'édition pour les régions dans Ardour
+weight: 7
+cascade:
+  type: docs
+---
 
 Nous avons déjà appris quelques notions sur le mode _Grab_ (sélectionner/déplacer des objets) et le mode _Range_.
 Dans ce chapitre, nous allons avoir une vue d'ensemble de tous les _modes d'édition_ et _modes de curseur_ disponibles dans cette partie de la fenêtre de l'_Éditeur_.
@@ -49,11 +50,11 @@ Lorsque ce mode est sélectionné, le curseur ressemble à une ligne verticale. 
 
 Utilisez ce mode de curseur (raccourci **C**) pour diviser des régions en régions plus petites. Le curseur prend la forme de ciseaux. Cela vous permet de pointer et de cliquer sur une région pour la diviser au niveau du curseur.
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 Vous pouvez également découper des régions directement à partir du mode _Grab_ (cette méthode est parfois plus pratique).
 Sans quitter le mode _Grab_, il suffit de placer la souris à l'endroit désiré sur la région à couper, et appuyez sur le raccourci **S** (pour "split").
 Important : votre point d'édition (à gauche de la barre d'outils _Modes_) doit être réglé sur _Souris_.
-{{% /notice %}}
+{{< /callout >}}
 
 ### Mode Audition
 
@@ -62,10 +63,10 @@ Important : votre point d'édition (à gauche de la barre d'outils _Modes_) doit
 Ce mode curseur vous permet de cliquer sur n'importe quelle région existante sur n'importe quelle piste et de la faire jouer immédiatement. Lorsque ce mode curseur est sélectionné, la lecture s'arrête à la fin de la région.
 Dans ce mode de curseur, votre pointeur de curseur ressemblera à une petite icône de haut-parleur.
 
-{{% notice tip %}}
-Vous pouvez également écouter rapidement une région sélectionnée sans quitter le mode _Grab_.
+{{< callout type="info" >}}
+Vous pouvez également écouter rapidement une région sélectionnée sans quitter le mode _Grab_. 
 Il suffit de sélectionner une région et d'appuyer sur la touche de raccourci **H**.
-{{% /notice %}}
+{{< /callout >}}
 
 ### Étirer/réduire la région
 

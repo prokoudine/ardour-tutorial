@@ -1,9 +1,10 @@
-+++
-title= "Dynamiques"
-description = " Utiliser limiteurs, compresseurs et gate dans Ardour"
-chapter = false
-weight = 6
-+++
+---
+title: Dynamiques
+description: Utiliser limiteurs, compresseurs et gate dans Ardour
+weight: 6
+cascade:
+  type: docs
+---
 
 Un des problèmes que vous pouvez rencontrer lors d'un mixage, selon le matériel sonore, est que les parties fortes sont trop fortes et/ou que les parties faibles sont trop faibles.     
 

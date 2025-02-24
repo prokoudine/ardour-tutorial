@@ -1,9 +1,10 @@
-+++
-title = "Fenêtre Mixer"
-description = "Bases de la fenêtre Mixer d'Ardour"
-chapter = false
-weight = 2
-+++
+---
+title: Fenêtre Mixer
+description: Bases de la fenêtre Mixer d'Ardour
+weight: 2
+cascade:
+  type: docs
+---
 
 La principale fonction de la fenêtre _Mixer_ est d'afficher toutes les bandes de mixage pour les différentes pistes et bus, côte à côte, afin de faciliter la référence et le réglage. Cette fenêtre est principalement utilisée pendant le processus de _mixage_ où vous distribuez les instruments dans la salle virtuelle et les traitez avec des effets pour les faire ressortir dans un mixage. Elle permet également d'accéder aux greffons et aux fonctions de routage. Veuillez consulter les chapitres sur [la compréhension routage](en/recording-audio/understanding-routing/), [le mixage](en/mixing-sessions/mixing-levels/), et [l'utilisation des greffons](en/mixing-sessions/using-plugins/) pour plus de détails.
 

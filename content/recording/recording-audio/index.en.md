@@ -1,9 +1,10 @@
-+++
-title = "Recording audio"
-description = "How to record audio with Ardour"
-chapter = false
-weight = 1
-+++
+---
+title: Recording audio
+description: How to record audio with Ardour
+weight: 1
+cascade:
+  type: docs
+---
 
 Besides importing existing audio files, another way to create regions in your
 Ardour session is to *record* new audio.
@@ -34,10 +35,9 @@ above).
 allows you to edit the routing.
 5. Click on that button to investigate the routing.
 
-{{% notice tip %}}
-If you don't see the _Editor Mixer_ strip, use the **Shift + E** shortcut to
+> [!NOTE]
+> If you don't see the _Editor Mixer_ strip, use the **Shift + E** shortcut to
 make it appear.
-{{% /notice %}}
 
 In the next image you can see that the only input of this mono track is
 receiving signal from *system capture_1*. This normally means the first
@@ -47,7 +47,7 @@ whether you are using a macOS, Windows, or Linux computer. If you don't see a
 connection named *system capture_1*, look for whichever connection name is
 likely to be your input microphone. 
 
-![Audio 1 input](en/ardour7-audio-1-input.png?height=30vw)
+{{< figure src="en/ardour7-audio-1-input.png" height="300" >}}
 
 The tabs that you see displayed vertically on the left are available
 sources. "*Audio 1 in*" on the bottom right is the
@@ -66,19 +66,19 @@ you want to use so that we can do a test recording. If you don't see a green dot
 as in the screenshot above, click on the matrix to make the connection manually.
 You can now close this window.
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 The example above assumes you are recording a mono sound source onto a mono
 track. If you want to record in stereo, the instructions are pretty much the
 same, but you should create a stereo track. You should then see two green dots,
 one for _capture_1_ and another for _capture_2_.
-{{% /notice %}}
+{{< /callout >}}
 
-### Arming the Track
+## Arming the Track
 
-{{% notice warning %}}
+{{< callout type="warning" >}}
 Please be sure to first turn down the volume of your loudspeakers before the
 next step.
-{{% /notice %}}
+{{< /callout >}}
 
 "Arming the Track" is simply to get it ready for recording. Once you have
 checked that the proper capture inputs have been routed to the Track, you can
@@ -95,14 +95,14 @@ If you are using headphones, you should be able to hear ("monitor") the sounds
 being recorded. If you are using loudspeakers, be sure to turn their volume down
 to avoid feedback.
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 Unless you have told Ardour to do otherwise, the input being recorded will be
 monitored (in other words, heard) via the _Audition_ output. If you are not
 using headphones to monitor the recording process, you may get some loud
 feedback at this point!
-{{% /notice %}}
+{{< /callout >}}
 
-### Arm Ardour and Start Recording
+## Arm Ardour and Start Recording
 
 Now that you have armed the track to record, you must arm Ardour itself to
 record by clicking on the big red button in the _Transport_ toolbar. The button
@@ -122,7 +122,7 @@ While recording, you will be able to see the _levels_ (the amplitude in
 decibels) of the incoming sound, as well as see the _peaks_ of the _waveform_
 appearing as it is recorded.
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 If you are some distance away from the computer running Ardour and you need to
 record audio, one of the options is to add the plugin called _Voice/Level
 Activate_ which is part of the Ardour's bundle. Place it in the beginning of
@@ -131,9 +131,9 @@ the track and enable the recording mode, clapping hands in front of a mic or
 plucking a guitar string will trigger the transport to roll and thus start
 recording. Tweak the threshold value (measured in dBFS) to make it work for
 you.
-{{% /notice %}}
+{{< /callout >}}
 
-### Avoid Clipping
+## Avoid Clipping
 
 The audio in the screenshot below was recorded too loud and produced _clipping_
 (in other words, the signal recorded was outside the bounds of what could be
@@ -159,7 +159,7 @@ signal and the clipping point, with the clipping point itself being represented
 as 0dB (zero decibels). In other words, an audio region with a comfortable
 amount of headroom would have its maximum peaks between −6dB and −3dB.
 
-### Region List
+## Region List
 
 Recorded audio appears as a new region in the recording track. Like all regions,
 this newly recorded one will be available in the _Regions_ list, from where you
@@ -172,33 +172,16 @@ recordings made on a track named "*Audio 1*".
 
 ![Region List Rec](en/ardour7-region-list-recording.png?width=40vw)
 
-You might want to plan ahead and organize your recording session by giving
-appropriate names to different tracks. For example, a track used only for
-recording vocals can be named "Voice". This way, recorded sound files will be
-named accordingly, and different takes will appear in the _Regions_ list
-identified as "Voice-1", "Voice-2", etc, rather than the default generic names,
-such as "Audio 1".
+You might want to plan ahead and organize your recording session by giving appropriate names to different tracks. For example, a track used only for recording vocals can be named "Voice". This way, recorded sound files will be named accordingly, and different takes will appear in the _Regions_ list identified as "Voice-1", "Voice-2", etc, rather than the default generic names, such as "Audio 1".
 
-To rename a track, just double-click on its name (before you arm the track to
-record) and type in the new name.
+To rename a track, just double-click on its name (before you arm the track to record) and type in the new name.
 
 ![Rename Track](en/ardour7-rename-track.png?width=40vw)
 
-{{% notice tip %}}
-Did we mention how important it is to **save your work often**? Hit **Ctrl + S**
+> [!TIP]
+> Did we mention how important it is to **save your work often**? Hit **Ctrl + S**
 right now. Get in the habit of hitting it every few minutes.
-{{% /notice %}}
 
-Continuing
-----------
+**Continuing**
 
-At this point, you may want to skip directly ahead to the [Arranging
-Tracks](../../editing-sessions/arranging-tracks/) section to learn how to
-arrange the regions into a composition. If you plan on doing more complicated
-Recording than what we have discussed here, in particular with a multichannel
-soundcard, or from other JACK-enabled audio programs on your computer, you
-should also have a look at the [Understanding
-Routing](../understanding-routing) chapter.
-
-Next: [ARRANGING TRACKS](../../editing-sessions/arranging-tracks/) or
-[UNDERSTANDING ROUTING](../understanding-routing)
+At this point, you may want to skip directly ahead to the [Arranging Tracks](/editing-sessions/arranging-tracks/) section to learn how to arrange the regions into a composition. If you plan on doing more complicated Recording than what we have discussed here, in particular with a multichannel soundcard, or from other JACK-enabled audio programs on your computer, you should also have a look at the [Understanding Routing](../understanding-routing) chapter.

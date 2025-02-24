@@ -1,9 +1,10 @@
-+++
-title = "Saving a template"
-description = "How to save and use a session template in Ardour"
-chapter = false
-weight = 3
-+++
+---
+title: Saving a template
+description: How to save and use a session template in Ardour
+weight: 3
+cascade:
+  type: docs
+---
 
 If you often go through the motions of setting up the same information in each
 new session you create, such as tracks/busses, their names and interconnections, what plugins with what settings you have in mixer channels

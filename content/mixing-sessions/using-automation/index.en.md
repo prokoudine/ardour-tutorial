@@ -1,9 +1,10 @@
-+++
-title = "Using automation"
-description = "How to create and edit automation in Ardour"
-chapter = false
-weight = 8
-+++
+---
+title: Using automation
+description: How to create and edit automation in Ardour
+weight: 8
+cascade:
+  type: docs
+---
 
 _Automation_ is a way of dynamically changing audio processing parameters over
 time.
@@ -145,13 +146,13 @@ state to _Play_.
 In the image above, the pitch shift of the sound is now changing over time,
 controlled by the curve.
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 You can hide an automation lane by clicking on the "X" at the upper left corner
 of the automation lane. Note that a hidden automation lane continues to function
 even when it is not visible. 
-{{% /notice %}}
+{{< /callout >}}
 
-## Adding Better Visual Resolution to Automation 
+## Adding Better Visual Resolution to Automation
 
 You can achieve a greater amount of vertical precision by increasing the height
 of the automation lane. Move your cursor near the lower edge of the automation
@@ -162,12 +163,12 @@ curves you might set them up like this:
 
 {{< figure alt="pluginautomation5" src="en/Ardour4_Automation_Plugin4.png" >}}
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 Remember that you can also zoom in and out to increase resolution in the
 horizontal axis.
-{{% /notice %}}
+{{< /callout >}}
 
-## Working with Automation Points 
+## Working with Automation Points
 
 There are several ways to adjust automation points, depending on the editing
 mode you are in:

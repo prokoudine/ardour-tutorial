@@ -1,9 +1,10 @@
-+++
-title = "Import audio et MIDI"
-description = "Importer des fichiers audio et MIDI dans des pistes Ardour"
-chapter = false
-weight = 4
-+++
+---
+title: Import audio et MIDI
+description: Importer des fichiers audio et MIDI dans des pistes Ardour
+weight: 4
+cascade:
+  type: docs
+---
 
 Vous pouvez réutiliser des fichiers audio et MIDI existants en les ajoutant comme régions sur des pistes existantes ou nouvelles. Pour ce faire, appuyez sur le raccourci **Ctrl+I** ou allez dans le menu `Session > Import` pour ouvrir la boîte de dialogue _Add Existing Media_, sélectionnez votre fichier et importez-le.
 
@@ -29,9 +30,9 @@ La liste déroulante _Ajouter des fichiers ..._ vous permet de choisir la premi�
 
 Commençons par le scénario où vous importez quelques fichiers audio dans la liste des sources.
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 Si vous n'avez pas de fichiers audio appropriés sur votre disque dur pour suivre ces étapes, visitez [freesound.org](http://www.freesound.org/)), où vous pouvez trouver une grande grande collection d'échantillons du domaine public et sous licence Creative Commons dans une dans une variété de taux d'échantillonnage et de formats.
-{{% /notice %}}
+{{< /callout >}}
 
 Sélectionnez quelques fichiers et dans la liste déroulante _Add files..._ choisissez _to source list_. Assurez-vous que les options _Mapping_ indiquent _une région par fichier_.
 
@@ -50,9 +51,9 @@ En faisant glisser et en déposant un fichier audio répertorié dans la liste d
 
 Relâchez le bouton de la souris pour terminer l'opération de glisser-déposer. Une nouvelle région sera insérée à l'endroit exact où vous l'avez déposée.
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 Si un fichier son est sélectionné dans la liste de l'éditeur (c.-à-d. s'il est surligné en bleu), la prochaine fois que vous cliquerez sur le nom de ce fichier, Ardour pensera que vous essayez de renommer la région (le nom deviendra éditable). Il est plus probable que vous essayiez simplement de cliquer pour glisser et déposer le fichier sur une piste. Pour cliquer et faire glisser une région précédemment _surlignée_ depuis la liste, vous devez pointer et cliquer dans l'espace vide juste avant ou après le nom.
-{{% /notice %}}
+{{< /callout >}}
 
 Important : vérifiez toujours que vous placez des régions stéréo sur des pistes stéréo.
 Si vous faites glisser un fichier stéréo sur une piste audio mono, seul le canal gauche sera utilisé. Dans la capture d'écran ci-dessous, un fichier stéréo avec des canaux gauche et droit très distincts ont été glissés sur une piste stéréo et une piste nono. Remarquez que dans la piste mono, seul le canal gauche est affiché (et lu).
@@ -87,9 +88,9 @@ Le fichier son apparaîtra également dans la liste _Regions_ afin qu'il puisse 
 
 Pour supprimer une région d'une piste, vous pouvez la sélectionner avec la souris et utiliser la fonction *Couper* dans le menu, la touche **Control** (ou **Apple**) et la touche **X** la touche **Delete** ou la combinaison de touches **Fn + Backspace** (utilisée par exemple sur un ordinateur portable).
 
-{{% notice warning %}}
+{{< callout type="warning" >}}
 **Sauvegardez souvent votre travail!** Le raccourci **Control + S** est votre ami. Utilisez-le beaucoup, tout le temps.
-{{% /notice %}}
+{{< /callout >}}
 
 ## Poursuivre
 

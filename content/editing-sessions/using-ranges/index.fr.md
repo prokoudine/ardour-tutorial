@@ -1,9 +1,10 @@
-+++
-title = "Utilisation des intervalles"
-description = "Comment créer et éditer des sélections d'intervalle dans Ardour"
-chapter = false
-weight = 4
-+++
+---
+title: Utilisation des intervalles
+description: Comment créer et éditer des sélections d'intervalle dans Ardour
+weight: 4
+cascade:
+  type: docs
+---
 
 Un _intervalle_ est une sélection de la ligne de temps qui peut inclure une ou plusieurs pistes. Elle a de nombreuses utilisations, comme la sélection d'une portion de données audio/MIDI pour la couper.
 

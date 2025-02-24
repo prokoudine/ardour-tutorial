@@ -1,9 +1,10 @@
-+++
-title = "Fenêtre Enregistreur"
-description = "Base de la fenêtre d'enregistreur Ardour"
-chapter = false
-weight = 3
-+++
+---
+title: Fenêtre Enregistreur
+description: Bases de la fenêtre d'enregistreur d'Ardour
+weight: 3
+cascade:
+  type: docs
+---
 
 La fenêtre _Enregistreur_ est rationalisée pour un cas d'utilisation particulier : l'enregistrement sur plusieurs pistes. L'interface est volontairement simplifiée pour éliminer toute distraction.
 

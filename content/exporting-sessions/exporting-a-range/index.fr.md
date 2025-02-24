@@ -1,9 +1,10 @@
-+++
-title = "Exporter un intervalle"
-description = "Comment exporter des intervalles dans Ardour"
-chapter = false
-weight = 3
-+++
+---
+title: Exporter un intervalle
+description: Comment exporter des intervalles dans Ardour
+weight: 3
+cascade:
+  type: docs
+---
 
 Comme vous l'avez déjà appris dans les chapitres précédents, l'exportation d'une région isolée n'exporte pas toutes les modifications que vous avez pu apporter à cette région. Pour exporter des modifications telles que le panoramique, l'automatisation des faders et les effets des greffons, vous devez exporter soit un intervalle, soit la session entière.
 
@@ -58,9 +59,9 @@ Vous pouvez utiliser des marqueurs d'intervalle pour "marquer" un ou plusieurs i
 
 4. Cliquez avec le bouton droit de la souris sur l'un des deux marqueurs de sélection d'intervalle sur la ligne de temps et choisissez l'option de menu _Select Range_. La sélection de la plage est rétablie.
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 Vous pouvez effacer tous les marqueurs d'intervalle existants en cliquant avec le bouton droit de la souris sur la zone _Range Markers_ de la ligne de temps et en choisissant _Clear All Ranges_.
-{{% /notice %}}
+{{< /callout >}}
 
 ## Poursuivre
 

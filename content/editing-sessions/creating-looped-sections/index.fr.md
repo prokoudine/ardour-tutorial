@@ -1,9 +1,10 @@
-+++
-title = "Créer des scections en boucles"
-description = "Créer et combiner des régions dupliquées dans Ardour"
-chapter = false
-weight = 8
-+++
+---
+title: Créer des scections en boucles
+description: Créer et combiner des régions dupliquées dans Ardour
+weight: 8
+cascade:
+  type: docs
+---
 
 Vous pouvez facilement répéter des sections audio dans votre session Ardour.
 

@@ -1,9 +1,10 @@
-+++
-title = "Using plugins"
-description = "How to use plugins in Ardour"
-chapter = false
-weight = 4
-+++
+---
+title: Using plugins
+description: How to use plugins in Ardour
+weight: 4
+cascade:
+  type: docs
+---
 
 _Plugins_ can be used to enhance or transform the sound of individual tracks.
 
@@ -12,7 +13,7 @@ a _send_. Later in this tutorial, we will discuss some plugins specific to the
 Mixing process, such as _Compressors_, _Limiters_, _Parametric Equalizers_,
 _Reverbs_ and others.
 
-## Processor Box 
+## Processor Box
 
 In Ardour terminology, a _processor_ is anything that gets plugged into a mixer
 strip and treats the signal in some way. Ardour provides several built-in
@@ -31,7 +32,7 @@ lights up when the processor is enabled. The colour of the processor depends on
 its location in the sequence; processors that are pre-fader are colored in red,
 and post-fader processors are colored in green. 
 
-## Adding a Plugin to a Track or a Bus 
+## Adding a Plugin to a Track or a Bus
 
 Plugins can be added by right-clicking in the processor box of the track or
 bus. A menu of options is presented. From the menu, new processors can be
@@ -65,10 +66,10 @@ the "ACE Reverb" red box and get this window:
 Here you can control reverb parameters such as _Blend_ and _Room Size_. The
 effect will apply to all sounds contained in the track.
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 Double-click on a slider to switch to numeric input mode, type the new value in,
 then press **Enter** to confirm the change or **Esc** to abort.
-{{% /notice %}}
+{{< /callout >}}
 
 ## Bypassing Plugins
 

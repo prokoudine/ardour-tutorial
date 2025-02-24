@@ -1,9 +1,10 @@
-+++
-title = "Travailler avec les régions"
-description = "Sélectionner, diviser, déplacer des régions dans Ardour"
-chapter = false
-weight = 5
-+++
+---
+title: Travailler avec les régions
+description: Sélectionner, diviser, déplacer des régions dans Ardour
+weight: 5
+cascade:
+  type: docs
+---
 
 Dans Ardour, les sections d'audio sont appelées _régions_. Pour composer le court passage rythmique sur lequel nous avons travaillé, nous devrons savoir comment _sélectionner_, _déplacer_, _séparer_ et _découper_ ces régions, ainsi que comment créer un fondu entrant ou un fondu sortant et créer des _crossfades_.
 Certaines de ces options peuvent se produire à des _points d'édition_ spécifiques de la composition, ou en fonction du _meter_ musical que nous pouvons définir avec la _timeline_ et la _grille_.
@@ -47,9 +48,9 @@ Vous pouvez déplacer les régions horizontalement (latéralement) vers un autre
 
 Lorsqu'un ensemble d'une ou plusieurs régions est sélectionné, vous pouvez déplacer l'ensemble en faisant glisser la souris.
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 Veillez à sélectionner la région dans sa section de forme d'onde, car la sélection de la zone de la barre de titre du bas est utilisée pour une action différente (voir _Découpage_ des régions ci-dessous).
-{{% /notice %}}
+{{< /callout >}}
 
 ## Duplication de régions
 
@@ -88,10 +89,10 @@ Les marqueurs d'emplacement peuvent être ajoutés à la ligne de temps en cliqu
 
 {{< figure alt="Marqueur d'emplacement" src="en/Ardour4_Location_Marker.png" >}} 
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 Lorsque vous créez une nouvelle session, deux marqueurs d'emplacement sont automatiquement ajoutés par défaut. Il s'agit des marqueurs _start_ et _end_ que vous voyez dans la capture d'écran ci-dessus.
 Si vous ne voyez pas le marqueur _end_, effectuez un zoom arrière suffisant et vous le trouverez.
-{{% /notice %}}
+{{< /callout >}}
 
 ## Diviser les régions
 
@@ -113,9 +114,9 @@ Les régions peuvent également être divisées en utilisant la tête de lecture
 
 Les régions divisées recevront un nom dérivé du nom original de sa région mère et vous le verrez apparaître dans votre liste de régions. Par exemple, dans l'image ci-dessus, vous voyez deux régions appelées _pink.15_ et _pink.16_, ce qui signifie qu'elles ont été divisées à partir d'une région parente appelée "pink" (non montrée dans l'image).
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 La division des plages suivra les paramètres de votre grille. Par exemple, si vous avez une grille définie pour les temps, les divisions se produiront aux limites des temps. Si vous choisissez _Pas de grille_, les divisions se produiront à l'endroit où se trouve le point d'édition, indépendamment de la grille.
-{{% /notice %}}
+{{< /callout >}}
 
 ## Découpage des régions
 
@@ -126,9 +127,9 @@ Cette action est non destructive : aucun son n'est supprimé. C'est comme si com
 
 {{< figure alt="Trim" src="en/Ardour4_Trimming_Regions.gif" >}}
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 Comme la division, l'élagage obéit aux paramètres de la grille. Si vous ne voulez pas que votre que votre rognage soit contraint à une grille, désactivez simplement la grille (_No Grid_).
-{{% /notice %}}
+{{< /callout >}}
 
 ## Régions supprimées
 

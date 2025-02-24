@@ -1,9 +1,10 @@
-+++
-title = "Fenêtre éditeur"
-description = "Bases de la fenêtre éditeur d'Ardour"
-chapter = false
-weight = 1
-+++
+---
+title: Fenêtre éditeur
+description: Bases de la fenêtre éditeur d'Ardour
+weight: 1
+cascade:
+  type: docs
+---
 
 Lorsque vous créez une nouvelle session, Ardour ouvre une nouvelle fenêtre vide appelée fenêtre _Editor_. La fenêtre _Editor_ est la fenêtre la plus importante dans Ardour, car c'est là que vous arrangez les pistes, importez et éditez les médias sur la ligne de temps, et contrôlez l'automation des greffons pour les effets créatifs et le mixage.
 
@@ -68,9 +69,9 @@ Les options d'affichage des pistes permettent de sélectionner le nombre de pist
 
 Les options de zoom permettent d'effectuer un zoom avant et arrière incrémentiel, ainsi qu'un zoom arrière pour pour afficher l'ensemble du projet à l'horizontale.
 
-{{% notice tip %}}
+{{< callout type-"info" >}}
 Utilisez les raccourcis **=** (la touche égal de votre clavier) pour zoomer, et **-** (la touche moins de votre clavier) pour dézoomer.
-{{% /notice %}}
+{{< /callout >}}
 
 Le menu déroulant contrôle la _focalisation du zoom_. Il définit le point de focalisation des opérations de zoom. Essayez d'effectuer des zooms avant et arrière avec un point focal  différent à chaque fois. Par exemple, si vous choisissez _Playhead_, le zoom se comportera en fonction de la position de l'écran. la position de la _Playhead_. _Souris_ prendra la position actuelle de la souris comme référence, comme référence, et ainsi de suite.
 

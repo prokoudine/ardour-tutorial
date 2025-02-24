@@ -1,9 +1,10 @@
-+++
-title = "Exporting a range"
-description = "How to export ranges in Ardour"
-chapter = false
-weight = 3
-+++
+---
+title: Exporting a range
+description: How to export ranges in Ardour
+weight: 3
+cascade:
+  type: docs
+---
 
 As you have already learned in previous chapters, exporting an isolated region
 does not export all of the changes you might have made to that region. To export edits such as panning, fader automation, and plugin effects, you must
@@ -66,11 +67,11 @@ Region_ (if multiple regions are selected).
 4. Right-click on either of the two range selection markers on the timeline and
 choose the _Select Range_ menu option. The range selection will be restored.
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 You can clear all existing range markers by right-clicking on the _Range Markers_ area of the timeline and choosing _Clear All Ranges_.
-{{% /notice %}}
+{{< /callout >}}
 
-## Continuing 
+## Continuing
 
 You now know how to Export isolated Regions, selected Ranges from your Session, or the entire Session as a Stereo Mix. The last section of this tutorial explains saving sessions, snapshots, and templates.
 

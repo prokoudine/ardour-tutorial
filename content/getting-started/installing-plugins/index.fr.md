@@ -1,9 +1,10 @@
-+++
-title = "Installation de greffons"
-description = "Comment installer de greffons pour Ardour"
-chapter = false
-weight = 6
-+++
+---
+title: Installation de greffons
+description: Comment installer de greffons pour Ardour
+weight: 6
+cascade:
+  type: docs
+---
 
 Ardour est déjà livré avec quelques greffons, mais il y a de fortes chances que vous ayez besoin de plus que cela :
 un compresseur ou une réverbération plus sophistiqués, un échantillonneur capable de jouer une bibliothèque d'orchestres de haute qualité, un synthétiseur polyphonique, etc.

@@ -1,14 +1,14 @@
-+++
-title = "Programming probability"
-description = "The Follow Options group in the Cue window is where you program the sequence of clips"
-chapter = false
-weight = 7
-draft = true
-+++
+---
+title: Programming probability
+description: The Follow Options group in the Cue window is where you program the sequence of clips
+weight: 7
+cascade:
+  type: docs
+---
 
 Now that you are already familiar with basic follow actions in the Cue window, let’s talk about programming probability.
 
-{{< youtube _ET1YqbMPc0 >}}
+<!-- {{< youtube _ET1YqbMPc0 >}} -->
 
 In a nutshell, probability is how you can get Ardour to make happy little accidents for you to explore ideas.
 

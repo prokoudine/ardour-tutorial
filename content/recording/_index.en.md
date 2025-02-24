@@ -1,15 +1,12 @@
-+++
-title = "Recording"
-description = "Learn how to route signal and record audio with Ardour"
-chapter = true
-weight = 3
-pre = "<b>3. </b>"
-+++
+---
+title: Recording
+description: Learn how to route signal and record audio and MIDI with Ardour
+weight: 3
+cascade:
+  type: docs
+---
 
-### Chapter 3
-# Recording
-
-Learn how to route signal and record audio
+Learn how to route signal and record audio and MIDI.
 
 Contents:
 

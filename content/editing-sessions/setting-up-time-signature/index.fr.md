@@ -1,9 +1,10 @@
-+++
-title = "Configuration de la signature temporelle"
-description = "Comment Configurer de la signature temporelle dans Ardour"
-chapter = false
-weight = 3
-+++
+---
+title: Configuration de la signature temporelle
+description: Comment Configurer de la signature temporelle dans Ardour
+weight: 3
+cascade:
+  type: docs
+---
 
 La _signature temporelle_ détermine la vitesse musicale du passage que nous composons et se mesure en _battements par mesure_. 
 

@@ -1,14 +1,14 @@
-+++
-title = "Launching and stopping"
-description = "To start playing a single clip, just click the button with the triangle icon to the left of its name."
-chapter = false
-weight = 3
-draft = true
-+++
+---
+title: Launching and stopping
+description: To start playing a single clip, just click the button with the triangle icon to the left of its name
+weight: 3
+cascade:
+  type: docs
+---
 
 Let's learn how to start and stop single clips and entire cues.
 
-{{< youtube EaNW104iEkM >}}
+<!-- {{< youtube EaNW104iEkM >}} -->
 
 To start playing a single clip, just click the button with the triangle icon to the left of its name.
 

@@ -1,9 +1,10 @@
-+++
-title = "Utilisation de l'automatisation"
-description = "Comment créer et modifier de l'automatisation dans Ardour"
-chapter = false
-weight = 8
-+++
+---
+title: Utilisation de l'automatisation
+description: Comment créer et modifier de l'automatisation dans Ardour
+weight: 8
+cascade:
+  type: docs
+---
 
 L'_automatisation_ est un moyen de modifier dynamiquement les paramètres de traitement audio dans le temps.
 
@@ -101,22 +102,22 @@ Dessinez une courbe d'automatisation pour ce paramètre. N'oubliez pas de régle
 
 Dans l'image ci-dessus, le changement de hauteur du son évolue maintenant dans le temps, contrôlé par la courbe.
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 Vous pouvez masquer une piste d'automatisation en cliquant sur le "X" dans le coin supérieur gauche de la piste d'automatisation. Notez qu'une piste d'automatisation masquée continue à fonctionner même lorsqu'elle n'est pas visible. 
-{{% /notice %}}
+{{< /callout >}}
 
-## Améliorer la résolution visuelle de l'automatisation 
+## Améliorer la résolution visuelle de l'automatisation
 
 Vous pouvez obtenir une plus grande précision verticale en augmentant la hauteur du couloir d'automatisation. Déplacez votre curseur près du bord inférieur de la piste d'automatisation.
 Le pointeur se transforme en une double flèche verticale. Faites-le glisser vers le bas pour augmenter la hauteur de la piste d'automatisation. Notez que les hauteurs de la piste parente et de la piste d'automatisation sont indépendantes de sorte que lorsque vous travaillez sur vos courbes d'automatisation, vous pouvez les configurer de la manière suivante :
 
 {{< figure alt="pluginautomation5" src="en/Ardour4_Automation_Plugin4.png" >}}
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 N'oubliez pas que vous pouvez également effectuer un zoom avant et arrière pour augmenter la résolution sur l'axe horizontal.
-{{% /notice %}}
+{{< /callout >}}
 
-## Travailler avec les points d'automatisation 
+## Travailler avec les points d'automatisation
 
 Il existe plusieurs façons d'ajuster les points d'automatisation, en fonction du mode d'édition dans lequel vous vous trouvez :
 

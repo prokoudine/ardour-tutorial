@@ -1,10 +1,10 @@
-+++
-title = "Fenêtre Cue"
-description = "Bases de la fenêtre cue d'Ardour"
-chapter = false
-weight = 4
-#pre = "<b>1. </b>"
-+++
+---
+title: Fenêtre Cue
+description: Bases de la fenêtre cue d'Ardour
+weight: 4
+cascade:
+  type: docs
+---
 
 La fenêtre _Cue_ fournit des outils pour mettre en place une performance en direct en utilisant Ardour. Nous n'allons pas utiliser _Cue_ dans ce tutoriel, il s'agit donc d'un rapide aperçu pour vous donner une idée de base de ce dont il s'agit.
 

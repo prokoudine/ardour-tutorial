@@ -1,9 +1,10 @@
-+++
-title = "Etirer et réduire les régions"
-description = "Etirer et réduire les régions dans Ardour"
-chapter = false
-weight = 9
-+++
+---
+title: Etirer et réduire les régions
+description: Etirer et réduire les régions dans Ardour
+weight: 9
+cascade:
+  type: docs
+---
 
 Les régions peuvent être allongées ou rétrécies sans que leur hauteur ne soit modifiée en utilisant l'outil _Etirer/Rétrécir les régions_ (raccourci **T**, pour "Time-stretch").
 

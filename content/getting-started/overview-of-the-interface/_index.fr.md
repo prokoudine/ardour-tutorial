@@ -1,8 +1,10 @@
-+++
-title = "Vue d'ensemble de l'interface"
-description = "Bases de l'interface utilisateur d'Ardour"
-weight = 2
-+++
+---
+title: Vue d'ensemble de l'interface
+description: Bases de l'interface utilisateur d'Ardour
+weight: 2
+cascade:
+  type: docs
+---
 
 Cette section vous donnera un aperçu de base de l'interface utilisateur d'Ardour.
 

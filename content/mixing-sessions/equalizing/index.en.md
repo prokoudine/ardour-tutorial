@@ -1,9 +1,10 @@
-+++
-title = "Equalizing"
-description = "Applying equalization to audio in Ardour"
-chapter = false
-weight = 7
-+++
+---
+title: Equalizing
+description: Applying equalization to audio in Ardour
+weight: 7
+cascade:
+  type: docs
+---
 
 An _equalizer_ (or _EQ_) allows you to separately control the gain of different
 frequency ranges of a sound.

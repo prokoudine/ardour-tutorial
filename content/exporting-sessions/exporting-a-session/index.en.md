@@ -1,9 +1,10 @@
-+++
-title = "Exporting a session"
-description = "How to export sessions in Ardour"
-chapter = false
-weight = 1
-+++
+---
+title: Exporting a session
+description: How to export sessions in Ardour
+weight: 1
+cascade:
+  type: docs
+---
 
 _Exporting_ is the process of saving a region, track, or entire session to a
 file on your computer which you can listen to, burn as a CD-R, or convert
@@ -86,14 +87,14 @@ Use this field to give a unique name to your file.
 Having chosen your options, click **Export**. After the operation is finished,
 you can find the file using your file browser.
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 Export is handled through the Master bus, so the final file will include all
 the sounds from tracks and busses that were routed to it. This will include any
 normalizing, fading, panning, and automation you have created, along with the
 individual edits made to the regions as well. If any of the tracks have the
 **Mute** or **Solo** buttons engaged, this will also affect which tracks will be
 heard in the exported file.
-{{% /notice %}}
+{{< /callout >}}
 
 ## Normalization
 

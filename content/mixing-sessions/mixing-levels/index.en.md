@@ -1,8 +1,10 @@
-+++
-title = "Mixing levels"
-chapter = false
-weight = 2
-+++
+---
+title: Mixing levels
+#description: FIXME
+weight: 2
+cascade:
+  type: docs
+---
 
 _Levels_ are the volumes of each track relative to the others.
 
@@ -42,10 +44,10 @@ where the recorded sound clipped.
 
 Click on the red number in the peak meter to reset it.
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 For the sake of the exercise, try to record your voice so that it clips. Hear
 how the playback is distorted.
-{{% /notice %}}
+{{< /callout >}}
 
 You should make sure that anything that you send to your sound card or that you
 will eventually export as a sound file (such as for CD mastering) **never** goes

@@ -21,7 +21,7 @@ Here they are:
 3. Tracks and busses
 4. Project overview
 5. Editor mixer strip
-6. Regions, Tracks/Busses, Snapshots, Groups, Ranges, Marks
+6. Tracks & Busses, Sources, Regions, Clips, etc.
 
 Let's overview them quickly.
 
@@ -86,10 +86,9 @@ busses.
 Zoom options allow incrementally zooming in and out, as well as zooming out to
 show the entire project horizontally.
 
-{{% notice tip %}}
-Use the shortcuts **=** (the equal sign on your main keyboard) for zooming, and
+> [!TIP]
+> Use the shortcuts **=** (the equal sign on your main keyboard) for zooming, and
 **-** (the dash key on your main keyboard) for zooming out.
-{{% /notice %}}
 
 The drop-down menu controls the _zoom focus_. It defines the focus point of
 zooming operations. Try zooming in and out with a different zoom focus each
@@ -109,9 +108,9 @@ to save screen space. More information on these operations can be found in the
 ## Tracks and Busses
 
 Just below the rulers is where tracks and busses are displayed. In the example
-below, you can see one bus called _Master_ and one track called _MyTrack_.
-_MyTrack_ also contains one region which represents an audio file with a drawing
-of its waveform. More information on tracks and busses can be found in the
+below, you can see one bus called _Master_ and one track called _Voiceover_.
+_Voiceover_ also contains one region which represents an audio file with a drawing
+of its waveform. You can find more information on tracks and busses in the
 [Creating a Track or Bus](../../creating-tracks-and-busses/) chapter.
 
 ![Ardour Track](en/Ardour6_Track.png?width=30vw)
@@ -138,7 +137,7 @@ mixer strip of the currently selected track or bus. It's mainly used to control
 the volume, plugins, and routing for the track or the bus to which it
 corresponds.
 
-![Editor Mixer](en/Ardour6_Editor_Mixer.png?height=40vw)
+{{< figure src="en/Ardour6_Editor_Mixer.png" height="100px" >}}
 
 You can toggle to view or hide the _Editor Mixer_ by clicking on the menu
 `View > Show Editor Mixer` (**Shift + E** shortcut). This Mixer is covered in
@@ -171,9 +170,7 @@ Snapshot](../../../saving-sessions/saving-a-snapshot/) chapter.
 - _Ranges and Marks_ is an overview of all markers in the project, with an easy
 user interface to edit them.
 
-## Continuing
+**Continuing**
 
 Next up is the _Mixer_ window where you focus on making instruments stand out in
 a song.
-
-Next: [MIXER WINDOW](../mixer-window)

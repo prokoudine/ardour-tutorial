@@ -1,13 +1,10 @@
-+++
-title = "Mixer des sessions"
-description = "Comment mixer une session dans Ardour"
-chapter = true
-weight = 6
-pre = "<b>6. </b>"
-+++
-
-### Chapitre 6
-# Mixer des sessions
+---
+title: Mixer des sessions
+description: Comment mixer une session dans Ardour
+weight: 6
+cascade:
+  type: docs
+---
 
 Comment utiliser les outils de base pour faire ressortir chaque instrument dans un mixage.
 

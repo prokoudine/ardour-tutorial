@@ -1,8 +1,10 @@
-+++
-title = "Niveaux de mixage"
-chapter = false
-weight = 2
-+++
+---
+title: Niveaux de mixage
+#description: FIXME
+weight: 2
+cascade:
+  type: docs
+---
 
 Les _niveaux_ sont les volumes de chaque piste par rapport aux autres.
 
@@ -29,9 +31,9 @@ Dans la capture d'écran ci-dessous, la piste de synthétiseur vient d'écrêter
 
 Cliquez sur le chiffre rouge de l'indicateur de crête pour le réinitialiser.
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 Pour les besoins de l'exercice, essayez d'enregistrer votre voix de manière à ce qu'elle soit coupée. Écoutez comment la lecture est déformée.
-{{% /notice %}}
+{{< /callout >}}
 
 Vous devez vous assurer que tout ce que vous envoyez à votre carte son ou que vous exporterez éventuellement sous forme de fichier son (par exemple pour le mastering d'un CD) ne dépasse **jamais** 0,0dB afin d'éviter l'écrêtage.
 

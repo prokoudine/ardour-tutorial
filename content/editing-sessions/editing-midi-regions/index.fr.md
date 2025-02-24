@@ -1,8 +1,10 @@
-+++
-title = "Editer des régions MIDI"
-chapter = false
-weight = 10
-+++
+---
+title: Editer des régions MIDI
+#description: FIXME
+weight: 10
+cascade:
+  type: docs
+---
 
 La quasi-totalité de l'édition MIDI se fait dans le mode _Internal Edit_ (**E**).
 La grande majorité du travail consiste à modifier la position et la durée des notes, à ajuster la vélocité et à éditer l'automatisation. Ardour fournit des outils pour éditer ces paramètres à la fois de manière interactive et numérique.

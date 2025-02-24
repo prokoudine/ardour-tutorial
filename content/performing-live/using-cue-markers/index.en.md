@@ -1,14 +1,14 @@
-+++
-title = "Using cue markers"
-description = "Both timeline and cue sequencing have their pros and cons. And thanks to cue markers you can have the best of both worlds."
-chapter = false
-weight = 8
-draft = true
-+++
+---
+title: Using cue markers
+description: Both timeline and cue sequencing have their pros and cons. And thanks to cue markers you can have the best of both worlds
+weight: 8
+cascade:
+  type: docs
+---
 
 Both timeline and cue sequencing have their pros and cons. With timelines you do not have to restrict yourself with musical time or think in terms of clip launch quantization. With cues, however, you can easily program a beat sequence using just a few clips. And thanks to cue markers you can have the best of both worlds.
 
-{{< youtube p_KQojZCThU >}}
+<!-- {{< youtube p_KQojZCThU >}} -->
 
 Here is how it works.
 

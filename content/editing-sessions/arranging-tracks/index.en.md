@@ -1,9 +1,10 @@
-+++
-title = "Arranging tracks"
-description = "How to organize regions on the timeline in Ardour"
-chapter = false
-weight = 2
-+++
+---
+title: Arranging tracks
+description: How to organize regions on the timeline in Ardour
+weight: 2
+cascade:
+  type: docs
+---
 
 In the following chapters we will use Ardour to create a short rhythmic passage
 using several drumkit samples.
@@ -50,10 +51,10 @@ of the _Editor_ window and drag-and-dropping the tracks in the order you want.
 Another option to rearrange tracks is to select a track and use **Ctrl+Arrow
 Up/Down** shortcut to move it up or down.
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 You can also use the V check boxes in this tab to view or hide
 tracks in the main canvas.
-{{% /notice %}}
+{{< /callout >}}
 
 Here we have ordered the drumkit so that the kick drum is on the bottom, the
 snare and high-hat are in the middle, and the clap is on top.  

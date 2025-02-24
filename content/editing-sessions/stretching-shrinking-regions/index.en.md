@@ -1,9 +1,10 @@
-+++
-title = "Stretching & shrinking regions"
-description = "Stretching and shrinking regions in Ardour"
-chapter = false
-weight = 9
-+++
+---
+title: Stretching & shrinking regions
+description: Stretching and shrinking regions in Ardour
+weight: 9
+cascade:
+  type: docs
+---
 
 Regions can be stretched or shrunk in length without changing their pitch by
 using the _Stretch/Shrink Regions_ tool (**T** shortcut, for "Time-stretch").
