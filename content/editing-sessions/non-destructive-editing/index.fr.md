@@ -1,9 +1,10 @@
-+++
-title = "Édition non-destructive"
-description = "Qu'est ce qu'une édition non-destructive et comment celà fonctionne dans Ardour?"
-chapter = false
-weight = 1
-+++
+---
+title: Édition non-destructive
+description: Qu'est ce qu'une édition non-destructive et comment celà fonctionne dans Ardour?
+weight: 1
+cascade:
+  type: docs
+---
 
 Dans l'un des chapitres précédents, nous avons déjà discuté du fait qu'Ardour fonctionne sur des sessions qui englobent tout le matériel que vous avez : clips audio, clips MIDI, tous les effets appliqués aux pistes et aux bus, etc.
 Avant de passer à l'édition proprement dite, parlons des bases de l'édition non destructive, de la façon dont elle est mise en œuvre dans Ardour et pourquoi cela devrait vous rassurer lorsque vous faites de l'édition lourde.

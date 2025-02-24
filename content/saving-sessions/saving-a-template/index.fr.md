@@ -1,9 +1,10 @@
-+++
-title = "Sauvegarder un modèle"
-description = "Comment suavegarder et utilsier un modèle de session dans Ardour"
-chapter = false
-weight = 3
-+++
+---
+title: Sauvegarder un modèle
+description: Comment suavegarder et utilsier un modèle de session dans Ardour
+weight: 3
+cascade:
+  type: docs
+---
 
 Si vous avez l'habitude de configurer les mêmes informations dans chaque nouvelle session que vous créez, comme les pistes/bus, leurs noms et interconnexions, les plugins avec leurs réglages dans les canaux de mixage, etc., vous pouvez alors créer un _template_ à la place.
 

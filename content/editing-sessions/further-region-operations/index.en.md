@@ -1,9 +1,10 @@
-+++
-title = "Further region operations"
-description = "Pitch-shifting, normalizing and other operations on regions in Ardour"
-chapter = false
-weight = 6
-+++
+---
+title: Further region operations
+description: Pitch-shifting, normalizing and other operations on regions in Ardour
+weight: 6
+cascade:
+  type: docs
+---
 
 In this section you will learn a few more things you can do with regions.
 

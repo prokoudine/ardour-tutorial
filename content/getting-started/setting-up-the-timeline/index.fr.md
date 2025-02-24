@@ -1,8 +1,10 @@
-+++
-title = "Configuration de la ligne de temps"
-chapter = false
-weight = 5
-+++
+---
+title: Configuration de la ligne de temps
+#description: FIXME
+weight: 5
+cascade:
+  type: docs
+---
 
 Une fois que vous aurez importé quelques fichiers audio dans Ardour, que vous les aurez lus et que vous vous serez familiarisé avec l'interface utilisateur, vous voudrez peut-être affiner les réglages de différentes parties de l'interface utilisateur en fonction de vos besoins. Les paramètres de la ligne de temps sont l'une des options les plus évidentes, car ce que vous voulez voir sur la ligne de temps dépend largement du type de matériel sur lequel vous travaillez.
 

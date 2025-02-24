@@ -1,9 +1,10 @@
-+++
-title = "Using sends"
-description = "Using sends in Ardour"
-chapter = false
-weight = 5
-+++
+---
+title: Using sends
+description: How to use sends in Ardour
+weight: 5
+cascade:
+  type: docs
+---
 
 A _Send_ is just an extra output for a track or bus with its own separate
 fader that can be used to route the signal to other points in Ardour.
@@ -16,7 +17,7 @@ normal signal flow downwards to the channel fader.
 In Ardour, you can easily add _sends_ to tracks and busses through the mixer
 strip. Sends are processors, just like plugins.
 
-## When is a Send Useful? 
+## When is a Send Useful?
 
 In earlier chapters, we built a drum kit pattern with four separate tracks:
 kick, snare, hihat, and clap. Let's say now you'd like to add a reverb to the
@@ -80,11 +81,11 @@ _New Aux Send..._ directed to the appropriate bus (in our case, named _Drums_).
 
 ![sends4](en/ardour7-adding-aux-send.png?height=500)
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 If you do *not* see the _New Aux Sends..._ option in the menu, it's probably
 because you did not create any bus yet. Go back to the previous step to create
 the bus.
-{{% /notice %}}
+{{< /callout >}}
 
 You should now see the send displayed in the processor box:
 
@@ -108,10 +109,10 @@ look like this:
 You can drag the send rectangle up and down the processor box to make it pre-
 or post-fader as needed.
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 The choice of pre- or post-fader depending on the type of effect plugin used and
 the desired result. For this exercise, either one will work.
-{{% /notice %}}
+{{< /callout >}}
 
 A send behaves just like any other plugin in the processor box. You can
 deactivate it temporarily by clicking on the small LED, and you can right click

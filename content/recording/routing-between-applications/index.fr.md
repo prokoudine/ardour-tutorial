@@ -1,9 +1,10 @@
-+++
-title = "Routage entre applications"
-description = "Achemnier un signal depuis des programmes vers Ardour"
-chapter = false
-weight = 6
-+++
+---
+title: Routage entre applications
+description: Achemnier un signal depuis des programmes vers Ardour
+weight: 6
+cascade:
+  type: docs
+---
 
 Il peut arriver que vous ayez besoin d'enregistrer la sortie audio d'un autre programme dans Ardour, par exemple le son d'une vidéo YouTube jouée dans Firefox, ou la sortie de SuperCollider ou PureData. Ce chapitre montre comment réaliser cela.
 
@@ -11,8 +12,7 @@ Les exemples de cette page ont été créés sur un ordinateur fonctionnant sous
 
 ### De votre navigateur à Ardour
 
-Les navigateurs web (Firefox, Chromium, etc.) ne sont pas des applications compatibles avec JACK.
-Heureusement, PipeWire permet maintenant de connecter assez facilement n'importe quelle application qui émet des sons à une application d'enregistrement compatible JACK telle qu'Ardour.
+Les navigateurs web (Firefox, Chromium, etc.) ne sont pas des applications compatibles avec JACK. Heureusement, PipeWire permet maintenant de connecter assez facilement n'importe quelle application qui émet des sons à une application d'enregistrement compatible JACK telle qu'Ardour.
 
 Tout ce que vous avez à faire est de lancer Qjackctl, de démarrer JACK, puis de commencer à faire des sons dans le navigateur, puis de connecter les sorties du navigateur à une piste dans Ardour. Vous pouvez utiliser les fenêtres Connections ou Graph de Qjackctl pour faire cela, ou vous pouvez le faire directement dans Ardour. Pour cela, dans le gestionnaire de connexions audio, passez à l'onglet _Autre_ dans _Sources_ sur la gauche et connectez la sortie de votre navigateur à une Ardour qui s'appelle ici _From YT_ :
 
@@ -24,9 +24,9 @@ Après cela, il suffit d'armer la piste pour l'enregistrement, puis de démarrer
 
 {{< figure src="en/ardour7-youtube-recording.png" alt="Démarrer l'enregistrement" >}}
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 Assurez-vous d'avoir déconnecté toutes les autres sorties (comme un micro) de l'entrée de la piste, sinon votre piste pourrait capter plus que ce que vous vouliez et avec l'audio de votre navigateur. 
-{{% /notice %}}
+{{< /callout >}}
 
 ### Des applications JACK à Ardour
 

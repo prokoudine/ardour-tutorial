@@ -1,14 +1,10 @@
-+++
-title = "Performing live"
-description = "Learn how to use Cue to perform live with a matrix MIDI controller"
-chapter = true
-weight = 5
-pre = "<b>5. </b>"
-draft = true
-+++
-
-### Chapter 5
-# Performing live
+---
+title: Performing live
+description: Learn how to use Cue to perform live with a matrix MIDI controller
+weight: 5
+cascade:
+  type: docs
+---
 
 Learn how to perform live using the cue sequencer with a matrix MIDI controller.
 

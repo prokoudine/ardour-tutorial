@@ -1,9 +1,10 @@
-+++
-title = "Exporting a region"
-description = "How to export regions in Ardour"
-chapter = false
-weight = 2
-+++
+---
+title: Exporting a region
+description: How to export regions in Ardour
+weight: 2
+cascade:
+  type: docs
+---
 
 You may wish to export only a region of your session, perhaps to use as a
 sample in another application, or to edit it in a different program. This
@@ -20,11 +21,11 @@ This will open up the same export dialog box explained in the
 [Exporting Sessions](../exporting-a-session) chapter. Choose your options and
 click **Export**. Only the selected region will be exported.
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 Not all parameters and edits are taken into consideraton when exporting a
 region. Trimmed, split, stretched and reversed regions can be exported, but
 edits such as panning and automation are _not_ exported.
-{{% /notice %}}
+{{< /callout >}}
 
 Also, the volume of the audio track itself or the _Master_ bus will not affect
 the exported file. To export these edits, please see the chapters on exporting
@@ -70,7 +71,7 @@ ranges, not the whole session.
 
 Your regions have now been exported to single audio files.
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 This method exports *everything* that falls under each defined time range.
 In other words, if you have other regions in other tracks sounding
 simultaneously with the region(s) you want to export, they will be mixed 
@@ -78,7 +79,7 @@ together. Another way of looking at it is this: the export operation will
 export everything that *plays* under the defined time ranges. If that is not
 what you want, you can use solo or mute buttons on select tracks to ensure 
 you export only what you want.
-{{% /notice %}}
+{{< /callout >}}
 
 ## Continuing
 

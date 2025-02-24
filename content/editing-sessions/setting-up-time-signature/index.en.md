@@ -1,9 +1,10 @@
-+++
-title = "Setting up time signature"
-description = "How to set up time signature in Ardour"
-chapter = false
-weight = 3
-+++
+---
+title: Setting up time signature
+description: How to set up time signature in Ardour
+weight: 3
+cascade:
+  type: docs
+---
 
 The _time signature_ determines the musical speed of the passage we are 
 composing and is measured in _beats per bars_.

@@ -1,9 +1,10 @@
-+++
-title = "Saving a snapshot"
-description = "How to save and recall a snapshot of an Ardour session"
-chapter = false
-weight = 2
-+++
+---
+title: Saving a snapshot
+description: How to save and recall a snapshot of an Ardour session
+weight: 2
+cascade:
+  type: docs
+---
 
 A _snapshot_ is a representation of the current state of a session. In a
 nutshell, it's like versioning your project by giving every version a

@@ -1,9 +1,10 @@
-+++
-title = "Utilisation de greffons"
-description = "Comment utiliser les greffons dans Ardour"
-chapter = false
-weight = 4
-+++
+---
+title: Utilisation de greffons
+description: Comment utiliser les greffons dans Ardour
+weight: 4
+cascade:
+  type: docs
+---
 
 Les _greffons_ peuvent être utilisés pour améliorer ou transformer le son des différentes pistes.
 
@@ -19,7 +20,7 @@ L'espace principal illustré dans la capture d'écran ci-dessus est la _boîte d
 L'atténuateur bleu est en fait un _processeur_ qui se trouve par défaut dans la boîte de processeur. Il représente l'atténuateur que vous utilisez pour contrôler le volume de la piste. Tous les processeurs sont représentés par des rectangles de couleur, avec une petite diode à côté d'eux qui s'allume lorsque le processeur est activé.
 La couleur du processeur dépend de son emplacement dans la séquence ; les processeurs pré-atténuateur sont colorés en rouge, et les processeurs post-atténuateur sont colorés en vert.
 
-## Ajout d'un greffon à une piste ou à un bus 
+## Ajout d'un greffon à une piste ou à un bus
 
 Les greffons peuvent être ajoutés en cliquant avec le bouton droit de la souris dans la boîte de processeur de la piste ou du bus. Un menu d'options s'affiche. Ce menu permet d'insérer de nouveaux processeurs.
 
@@ -45,9 +46,9 @@ Double-cliquez sur un greffon pour modifier ses paramètres. Dans cet exemple, n
 
 Ici, vous pouvez contrôler les paramètres de la réverbération tels que _Blend_ et _Room Size_. L'effet s'appliquera à tous les sons contenus dans la piste.
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 Double-cliquez sur un curseur pour passer en mode d'entrée numérique, tapez la nouvelle valeur, puis appuyez sur **Entrée** pour confirmer la modification ou **Esc** pour abandonner.
-{{% /notice %}}
+{{< /callout >}}
 
 ## Contournement des greffons
 

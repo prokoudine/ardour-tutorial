@@ -1,9 +1,10 @@
-+++
-title = "Jouer dans le tempo"
-description = "Comment vous aider à enregistrer dans le tempo du reste du matériel de la session"
-chapter = false
-weight = 4
-+++
+---
+title: Jouer dans le tempo
+description: Comment vous aider à enregistrer dans le tempo du reste du matériel de la session
+weight: 4
+cascade:
+  type: docs
+---
 
 Normalement, pour enregistrer un instrument ou une partie vocale en direct, vous placez la tête de lecture sur une certaine position, vous armez une piste pour l'enregistrement, vous activez le mode d'enregistrement général puis faites rouler le transport lorsque vous êtes prêt. L'enregistrement commence à la position de la tête de lecture et vous écouterez la partie audible du matériel de la session qui commence également à ce point.
 Il y a deux considérations importantes à prendre en compte.

@@ -1,20 +1,24 @@
-+++
-title = "Setting stretch options"
-description = "Sometimes a drum loop that you would really like to use in a song has slower or faster tempo than your session’s tempo."
-chapter = false
-weight = 4
-draft = true
-+++
+---
+title: Setting stretch options
+description: Sometimes a drum loop that you would really like to use in a song has slower or faster tempo than your session’s tempo
+weight: 4
+cascade:
+  type: docs
+---
 
 Sometimes a drum loop that you would really like to use in a song has slower or faster tempo than your session’s tempo. Fortunately, Ardour has a way to keep it perfectly in sync with the rest of the song.
 
-{{< youtube _Pc7CHzewQ0 >}}
+<!-- {{< youtube _Pc7CHzewQ0 >}} -->
+
+## How Ardour handles clip tempo by default
 
 By default, Ardour will estimate the actual tempo in an audio file. Then when you play it back, it will stretch or compress that audio file on the fly to match the current session tempo. This works even within a tempo ramp, so the clip’s tempo will follow acceleration and deceleration.
 
 You can override this default behavior for artistic purposes and play a clip at its original tempo by disabling the stretching of this clip.
 
 <!-- FIXME SCREENSHOT -->
+
+## Overriding clip's tempo
 
 You can also easily make the clip’s tempo two, four, eight or more times faster or slower by clicking these two buttons.
 
@@ -26,12 +30,12 @@ You can increase or decrease the clip’s tempo in smaller steps by editing the 
 
 <!-- FIXME SCREENSHOT -->
 
-And because you can’t stretch or compress drum loops and piano loops the same way, Ardour provides three options.
+## Material-specific options
+
+You can’t stretch or compress drum loops and piano loops the same way, so Ardour provides three options.
 
 <!-- FIXME SCREENSHOT -->
 
 - The _Crisp_ preset works best with drum loops and other material where you have fast attack, high decay, and then fast sustain and release.
 - The _Smooth_ preset works best with long sustained notes that have a slow attack, like a synth pad or bowed strings.
 - And the _Mixed_ preset is for something between those two cases, like vocals or piano chords.
-
-Next: [SETTING LAUNCH OPTIONS](../setting-launch-options)

@@ -1,9 +1,10 @@
-+++
-title = "Démarrer Ardour"
-description = "Lancement d'Ardour sur Ubuntu Linux, premiers pas"
-chapter = false
-weight = 1
-+++
+---
+title: Démarrer Ardour
+description: Lancement d'Ardour sur Ubuntu Linux, premiers pas
+weight: 2
+cascade:
+  type: docs
+---
 
 Ardour supporte à la fois Linux, Windows et macOS. Il y a très peu de différences dans la façon dont il fonctionne sur tous ces systèmes d'exploitation. Ainsi, bien que ce tutoriel suppose l'utilisation d'Ubuntu Linux, vous pouvez vous attendre à ce qu'il en soit de même sur d'autres systèmes d'exploitation et d'autres versions de Linux.
 
@@ -15,7 +16,7 @@ Lorsque vous démarrez Ardour pour la première fois, il vous posera quelques qu
 - méthode préférée pour surveiller le signal enregistré, etc.
 - pour surveiller le signal en cours d'enregistrement, etc.
 
-![IGU et mise à l'echelle des polices](en/ardour7-gui-and-font-scaling.png?width=40vw)
+![IGU et mise à l'echelle des polices](en/ardour7-gui-and-font-scaling.png)
 
 Cette boîte de dialogue ne sera plus jamais affichée, sauf si vous effacez tous les paramètres. Vous pouvez modifier toutes les préférences que vous y avez définies à tout moment, plus tard dans la boite de dialogue _Preferences_.
 
@@ -23,7 +24,7 @@ Cette boîte de dialogue ne sera plus jamais affichée, sauf si vous effacez tou
 
 Une fois que vous avez passé l'assistant de démarrage, Ardour vous propose de créer une nouvelle _session_ à partir d'un des quelques modèles disponibles.
 
-![Modèles de nouvelle session](en/ardour7-new-session-templates.png?width=40vw)
+![Modèles de nouvelle session](en/ardour7-new-session-templates.png)
 
 Une session englobe tout le matériel dont vous disposez :
 - les pistes avec les données audio et MIDI,
@@ -43,10 +44,8 @@ Nommez votre nouveau projet et cliquez sur **Ouvrir**.
 
 Une fois que vous avez créé votre session Ardour, ne renommez _pas_ manuellement les dossiers ou fichiers qui appartiennent à la session, sinon, Ardour ne parviendra pas à localiser les fichiers contenus dans ces dossiers et vous demandera de les pointer.
 
-{{% notice tip %}}
-Une fois que vous avez sauvegardé au moins une session, la boîte de dialogue _Session Setup_ se présentera différemment :
-il y aura une liste des sessions récemment ouvertes et un moyen d'ouvrir une session existante qui ne figure pas dans cette liste.
-{{% /notice %}}
+> [!NOTE]
+> Une fois que vous avez sauvegardé au moins une session, la boîte de dialogue _Session Setup_ se présentera différemment: il y aura une liste des sessions récemment ouvertes et un moyen d'ouvrir une session existante qui ne figure pas dans cette liste.
 
 ## Choix d'un système audio et de ses paramètres
 

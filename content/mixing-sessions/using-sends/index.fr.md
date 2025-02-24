@@ -1,9 +1,10 @@
-+++
-title = "Utilisation des envois"
-description = "Utilisation des envois dans Ardour"
-chapter = false
-weight = 5
-+++
+---
+title: Utilisation des envois
+description: Utilisation des envois dans Ardour
+weight: 5
+cascade:
+  type: docs
+---
 
 Un _Send_ est juste une sortie supplémentaire pour une piste ou un bus avec son propre atténuateur séparé qui peut être utilisé pour acheminer le signal vers d'autres points dans Ardour.
 
@@ -11,7 +12,7 @@ Un _Send_ est juste une sortie supplémentaire pour une piste ou un bus avec son
 
 Dans Ardour, vous pouvez facilement ajouter des _sends_ aux pistes et aux bus à travers la bande de mixage. Les envois sont des processeurs, tout comme les greffons.
 
-## Quand un envoi est-il utile ? 
+## Quand un envoi est-il utile ?
 
 Dans les chapitres précédents, nous avons construit un motif de kit de batterie avec quatre pistes séparées : kick, snare, hihat et clap. Supposons que vous souhaitiez ajouter une réverbération à la batterie. Vous pouvez bien sûr ajouter un greffon séparé pour chaque piste individuelle et régler leurs paramètres séparément, mais cette méthode augmente inutilement la quantité de travail. Chaque fois que vous souhaitez modifier le réglage d'une réverbération pour toutes les pistes, vous devrez ouvrir les quatre greffons de réverbération et les modifier de la même manière.
 
@@ -57,9 +58,9 @@ Comme les greffons, les départs sont également créés dans la boîte du proce
 
 ![sends4](en/ardour7-adding-aux-send.png?height=500)
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 Si vous ne voyez pas l'option _New Aux Sends..._ dans le menu, c'est probablement parce que vous n'avez pas encore créé de bus. Revenez à l'étape précédente pour créer le bus.
-{{% /notice %}}
+{{< /callout >}}
 
 Vous devriez maintenant voir l'envoi affiché dans la boîte du processeur :
 
@@ -77,9 +78,9 @@ Dans un envoi _pre_-atténuateur, en revanche, le niveau d'envoi est contrôlé 
 
 Il est possible de faire glisser le rectangle d'envoi vers le haut ou vers le bas de la boîte du processeur pour le rendre pré ou post-atténuateur selon les besoins.
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 Le choix de pré- ou post-atténuateur dépend du type de greffon d'effet utilisé et du résultat souhaité. Pour cet exercice, l'un ou l'autre fonctionnera.
-{{% /notice %}}
+{{< /callout >}}
 
 Un envoi se comporte comme n'importe quel autre greffon dans la boîte du processeur. Vous pouvez le désactiver temporairement en cliquant sur la petite LED, et vous pouvez faire un clic droit sur le rectangle pour accéder à d'autres options, y compris _Delete_.
 

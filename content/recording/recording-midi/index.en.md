@@ -1,9 +1,10 @@
-+++
-title = "Recording MIDI"
-description = "How to record MIDI with Ardour"
-chapter = false
-weight = 2
-+++
+---
+title: Recording MIDI
+description: How to record MIDI with Ardour
+weight: 2
+cascade:
+  type: docs
+---
 
 There are several ways to get MIDI into a MIDI track in Ardour apart from
 importing an existing MIDI file. Let's have a look at them one by one.
@@ -165,9 +166,6 @@ While in the _Draw_ mode, you also can do some leight editing: select and
 resize individual notes, drag them around, adjust velocity, use the
 right-click menu to perform various transformations.
 
-Continuing
-----------
+**Continuing**
 
 In the next chapter, we'll talk about different recording modes you can choose between.
-
-Next: [RECORDING MODES](../recording-modes/)

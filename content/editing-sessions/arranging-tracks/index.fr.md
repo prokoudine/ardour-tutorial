@@ -1,9 +1,10 @@
-+++
-title = "Routage des pistes"
-description = "Comment organiser les regions sur la ligne de temps dans Ardour"
-chapter = false
-weight = 2
-+++
+---
+title: Routage des pistes
+description: Comment organiser les regions sur la ligne de temps dans Ardour
+weight: 2
+cascade:
+  type: docs
+---
 
 Dans les chapitres suivants, nous utiliserons Ardour pour créer un court passage rythmique en utilisant plusieurs échantillons de batterie.
 
@@ -34,9 +35,9 @@ Pour ce faire, cliquez sur l'onglet _Tracks & Busses_ à l'extrême droite de la
 
 Une autre option pour réorganiser les pistes est de sélectionner une piste et d'utiliser les raccourcis **Ctrl+Flèche Haut/Bas** pour la déplacer vers le haut ou vers le bas.
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 Vous pouvez également utiliser les cases à cocher V dans cet onglet pour afficher ou masquer les pistes dans le canevas principal.
-{{% /notice %}}
+{{< /callout >}}
 
 Ici, nous avons ordonné la batterie de manière à ce que la grosse caisse soit en bas, la caisse claire et le charleston sont au milieu, et le clap est en haut.
 

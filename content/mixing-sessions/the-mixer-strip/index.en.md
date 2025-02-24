@@ -1,9 +1,10 @@
-+++
-title = "The mixer strip"
-description = "Elements of the mixer strip in Ardour"
-chapter = false
-weight = 1
-+++
+---
+title: The mixer strip
+description: Elements of the mixer strip in Ardour
+weight: 1
+cascade:
+  type: docs
+---
 
 _Mixing_ is the process of converting multiple tracks into a stereo or a
 multi-channel mix where all the instruments can be heard clearly.
@@ -68,7 +69,7 @@ information on input routing. The last narrow region controls phase reversing
 
 {{< figure alt="strip 2" src="en/Ardour4_Mixer_Strip_2.png" >}} 
 
-### Processor Box 
+### Processor Box
 
 The large black region at the bottom of this section is the _processor box_.
 This is where you can add plugins, for example. The signal flow in the mixer
@@ -104,11 +105,11 @@ disable it (and then enable back). To enable a control for a plugin, simply clic
 
 ![Controls submenu in Ardour 7](en/ardour7-plugin-controls-submenu.png?height=60vh)
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 To enable multiple controls for a plugin, the most convenient way is to open the
 right click menu, hover a control and press **Spacebar** on your keyboard, hover
 the next control, press **Spacebar** again etc.
-{{% /notice %}}
+{{< /callout >}}
 
 The next portion of the mixer strip includes controls for panning, record, mute,
 and solo, among others.

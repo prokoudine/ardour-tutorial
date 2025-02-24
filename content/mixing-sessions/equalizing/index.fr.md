@@ -1,9 +1,10 @@
-+++
-title = "Égaliser"
-description = "Appliquer l'égalisation à l'audio dans Ardour"
-chapter = false
-weight = 7
-+++
+---
+title: Égaliser
+description: Appliquer l'égalisation à l'audio dans Ardour
+weight: 7
+cascade:
+  type: docs
+---
 
 Un _égaliseur_ (ou _EQ_) vous permet de contrôler séparément le gain de différentes bandes de fréquences d'un son.
 
@@ -13,7 +14,7 @@ Il arrive souvent qu'après avoir ajusté les niveaux et la balance panoramique,
 
 ## Égaliseur 3 bandes
 
-Le type d'égaliseur le plus simple est celui qui nous est familier grâce aux tables de mixage analogiques. Il a trois paramètres, qui ajustent les niveaux de trois _bandes_, ou plages de fréquences : une pour les _basses_ (basses fréquences), une pour la plage des _moyennes_ fréquences et une pour les _aiguës_ (hautes fréquences). Le greffon _DJ EQ_ (égaliseur pour DJ) sur la capture d'écran ci-dessous, est un égaliseur de ce type. Si vous n'avez pas ce greffon en particulier sur votre ordinateur, explorez ceux que vous avez et qui possèdent "EQ" dans leurs noms ; vous trouverez certainement quelque chose de similaire.  
+Le type d'égaliseur le plus simple est celui qui nous est familier grâce aux tables de mixage analogiques. Il a trois paramètres, qui ajustent les niveaux de trois _bandes_, ou plages de fréquences : une pour les _basses_ (basses fréquences), une pour la plage des _moyennes_ fréquences et une pour les _aiguës_ (hautes fréquences). Le greffon _DJ EQ_ (égaliseur pour DJ) sur la capture d'écran ci-dessous, est un égaliseur de ce type. Si vous n'avez pas ce greffon en particulier sur votre ordinateur, explorez ceux que vous avez et qui possèdent "EQ" dans leurs noms ; vous trouverez certainement quelque chose de similaire.
 
 ![DJ EQ](en/ardour7-dj-eq.png?width=400)
 

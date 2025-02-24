@@ -1,13 +1,10 @@
-+++
-title = "Exporting sessions"
-description = "How to export sessions, regions, and ranges in Ardour"
-chapter = true
-weight = 7
-pre = "<b>7. </b>"
-+++
-
-### Chapter 7
-# Exporting sessions
+---
+title: Exporting sessions
+description: How to export sessions, regions, and ranges in Ardour
+weight: 7
+cascade:
+  type: docs
+---
 
 How to export a region, a selection of data, and a whole session
 

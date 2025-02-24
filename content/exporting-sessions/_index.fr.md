@@ -1,13 +1,10 @@
-+++
-title = "Exporter des sessions"
-description = "Comment exporter des session, des régions et des plages dans Ardour"
-chapter = true
-weight = 7
-pre = "<b>7. </b>"
-+++
-
-### Chapitre 7
-# Exporter des sessions
+---
+title: Exporter des sessions
+description: Comment exporter des session, des régions et des plages dans Ardour
+weight: 7
+cascade:
+  type: docs
+---
 
 Comment exporter une région, une sélection de données et une session entière.
 

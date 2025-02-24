@@ -1,9 +1,10 @@
-+++
-title = "Enregistrer du MIDI"
-description = "Comment enregistrer du MIDI avec Ardour"
-chapter = false
-weight = 2
-+++
+---
+title: Enregistrer du MIDI
+description: Comment enregistrer du MIDI avec Ardour
+weight: 2
+cascade:
+  type: docs
+---
 
 Il y a plusieurs façons d'introduire du MIDI dans une piste MIDI dans Ardour, à part l'importation d'un fichier MIDI existant. Examinons-les une à une.
 

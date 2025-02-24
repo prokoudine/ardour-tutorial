@@ -1,12 +1,10 @@
-+++
-title = "Pour commencer"
-chapter = true
-weight = 2
-pre = "<b>2. </b>"
-+++
-
-### Chapitre 2
-# Pour commencer
+---
+title: Pour commencer
+description: Lancement d'Ardour sur Ubuntu Linux, premiers pas
+weight: 2
+cascade:
+  type: docs
+---
 
 Créez votre première session et apprenez les bases de l'interface utilisateur d'Ardour
 

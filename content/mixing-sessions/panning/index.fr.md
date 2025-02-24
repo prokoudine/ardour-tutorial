@@ -1,16 +1,16 @@
-+++
-title = "Panoramique"
-description = "Comment faire un panoramique dans Ardour"
-chapter = false
-weight = 3
-+++
+---
+title: Panoramique
+description: Comment faire un panoramique dans Ardour
+weight: 3
+cascade:
+  type: docs
+---
 
 Une fois que vous avez établi un bon équilibre des niveaux sur toutes les pistes, vous pouvez commencer à penser au panoramique.
 
 Le panoramique permet d'établir un _champ stéréo_, un espace relatif entre les enceintes dans lequel vous pouvez placer vos sons et vos instruments.
 
 ## The Panning Interface
-
 
 Le contrôle du panoramique dans Ardour est situé au milieu de la bande de mixage.
 
@@ -41,9 +41,9 @@ Une discussion plus approfondie sur la philosophie et les techniques de panorami
 Deux autres outils sont utiles pour créer un champ stéréo ou "spatial".
 La _Reverb_ et le _Delay_. Ces effets peuvent être utilisés avec des envois pour créer un départ de batterie qui serait plus en arrière dans le mixage avec plus de Reverb, et un envoi de voix qui pourrait avoir un peu plus de retard mais qui sonnerait plus proche de la batterie. Veuillez consulter les sections sur l'utilisation des greffons et des envois plus loin dans cette partie du tutoriel pour plus d'informations.
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 Gardez toujours un œil sur vos niveaux lorsque vous effectuez des panoramiques sur les pistes ! Le panoramique d'une piste sur un canal augmente le niveau de ce canal. Cela peut modifier l'équilibre des niveaux que vous avez établi dans le chapitre précédent et, dans les cas extrêmes, peut entraîner un écrêtage. Lorsque cela se produit, réduisez les niveaux globaux de cette piste et vérifiez à nouveau comment elle se situe dans le mixage.
-{{% /notice %}}
+{{< /callout >}}
 
 ## Panoramique multicanal
 

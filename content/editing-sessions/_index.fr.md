@@ -1,13 +1,10 @@
-+++
-title = "Editer des sessions"
-description = "Les bases de l'édition de sessiosn dans Ardour"
-chapter = true
-weight = 4
-pre = "<b>4. </b>"
-+++
-
-### Chapitre 4
-# Editer des sessions
+---
+title: Editer des sessions
+description: Les bases de l'édition de sessiosn dans Ardour
+weight: 4
+cascade:
+  type: docs
+---
 
 Comment arranger les pistes, puis couper, boucler et étirer les régions.
 

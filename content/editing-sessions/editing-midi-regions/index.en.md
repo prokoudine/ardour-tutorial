@@ -1,8 +1,10 @@
-+++
-title = "Editing MIDI regions"
-chapter = false
-weight = 10
-+++
+---
+title: Editing MIDI regions
+#description: FIXME
+weight: 10
+cascade:
+  type: docs
+---
 
 Almost all the MIDI editing happens in the _Internal Edit_ mode (**E**
 shortcut). The vast majority of the work there involves tweaking position and

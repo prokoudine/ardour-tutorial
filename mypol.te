@@ -1,0 +1,11 @@
+
+module mypol 1.0;
+
+require {
+	type unlabeled_t;
+	type colord_t;
+	class file read;
+}
+
+#============= colord_t ==============
+allow colord_t unlabeled_t:file read;

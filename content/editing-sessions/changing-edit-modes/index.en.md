@@ -1,9 +1,10 @@
-+++
-title = "Changing edit modes"
-description = "Edit modes for regions in Ardour"
-chapter = false
-weight = 7
-+++
+---
+title: Changing edit modes
+description: Edit modes for regions in Ardour
+weight: 7
+cascade:
+  type: docs
+---
 
 We have already learned a bit about the _Grab_ mode (select/move objects) and
 _Range_ mode. In this chapter we will get an overview of all the _edit modes_
@@ -85,13 +86,13 @@ Use this cursor mode (**C** shortcut) to split regions into smaller regions. The
 cursor turns into the shape of scissors. This allows you to point and click on a
 region to split it at the cursor.
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 You can cut regions directly from the _Grab_ mode too (sometimes this method can
 be more practical.) Without leaving the _Grab_ mode, simply place the mouse at
 the desired location on the region to be cut, and hit the **S** shortcut (for
 "split"). Important: your edit point (to the left of the _Modes_ toolbar) must
 be set to _Mouse_.
-{{% /notice %}}
+{{< /callout >}}
 
 ### Stretch/Shrink region
 

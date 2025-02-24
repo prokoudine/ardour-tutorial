@@ -119,7 +119,7 @@ windows. If you are currently in either _Recorder_ or _Cue_ window, pressing
 that shortcut for the first time will take you to the _Mixer_ window, and the
 another one will take you to the _Editor_ window.
 
-## Continuing
+**Continuing**
 
 The next sections will explain basics of main Ardour's windows:
 

@@ -1,9 +1,10 @@
-+++
-title = "Panning"
-description = "How to pan signal in Ardour"
-chapter = false
-weight = 3
-+++
+---
+title: Panning
+description: How to pan signal in Ardour
+weight: 3
+cascade:
+  type: docs
+---
 
 Once you have established a good balance of levels on all the tracks, you can
 begin to think about panning.
@@ -53,13 +54,13 @@ a vocal send which might have a little more Delay but sound closer than the
 drums. Please see the sections on using plugins and sends later in this part of
 the tutorial for more information.
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 Always keep an eye on your levels while panning tracks! Panning a track to one
 channel increases the level of that channel. This may change the balance of
 levels you set up in the previous chapter, and in extreme cases can result in
 clipping. When this happens, reduce the overall levels of that track and check
 again how it sits in the mix.
-{{% /notice %}}
+{{< /callout >}}
 
 ## Multichannel Panning
 

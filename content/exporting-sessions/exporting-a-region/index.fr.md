@@ -1,9 +1,10 @@
-+++
-title = "Exporter une région"
-description = "Comment exporter des régions dans Ardour"
-chapter = false
-weight = 2
-+++
+---
+title: Exporter une région
+description: Comment exporter des régions dans Ardour
+weight: 2
+cascade:
+  type: docs
+---
 
 Vous pouvez souhaiter n'exporter qu'une partie de votre session, par exemple pour l'utiliser comme échantillon dans une autre application, ou pour l'éditer dans un autre programme. Ce chapitre vous montre comment procéder.
 
@@ -15,10 +16,10 @@ Pour exporter une région, selectionnez la dans le mode _Grab_ et cliquez-droit 
 
 Cela ouvrira la même boîte de dialogue d'exportation que celle expliquée dans le chapitre [Exporter des sessions](../exporting-a-session). Choisissez vos options et cliquez **Export**. Seule la région selectionnée sera exportée.
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 Tous les paramètres et toutes les modifications ne sont pas pris en compte lors de l'exportation d'une région.
 Les régions rognées, divisées, étirées et inversées peuvent être exportées, les éditions telles que le panoramique et l'automatisation ne sont _pas_ exportées.
-{{% /notice %}}
+{{< /callout >}}
 
 De même, le volume de la piste audio elle-même ou du bus _Master_ n'affecte pas le fichier exporté.
 Pour exporter ces éditions, veuillez consulter les chapitres sur l'exportation d'un intervalle et l'exportation d'une session.
@@ -51,10 +52,10 @@ Si vous créez une collection d'échantillons que vous utiliserez plus tard dans
 
 Vos régions ont maintenant été exportées dans des fichiers audio.
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 Cette méthode exporte *tout* ce qui se trouve dans chaque intervalle de temps défini. En d'autres termes, si vous avez d'autres régions dans d'autres pistes qui sonnent en même temps que les régions que vous voulez exporter, elles seront mélangées.
 Une autre façon de voir les choses est la suivante : l'opération d'exportation va exporter tout ce qui *joue* dans les intervalles temporels définis. Si ce n'est pas ce que vous voulez, vous pouvez utiliser les boutons solo ou mute sur certaines pistes pour vous assurer de n'exporter que ce que vous voulez.
-{{% /notice %}}
+{{< /callout >}}
 
 ## Poursuivre
 

@@ -1,9 +1,10 @@
-+++
-title = "Creation de pistes et de bus"
-chapter = false
-weight = 3
-#pre = "<b>1. </b>"
-+++
+---
+title: Creation de pistes et de bus
+description: Lancement d'Ardour sur Ubuntu Linux, premiers pas
+weight: 3
+cascade:
+  type: docs
+---
 
 ## Que sont les pistes ?
 
@@ -51,9 +52,9 @@ La zone de saisie numérique _Add_ vous permet de spécifier le nombre de pistes
 
 Vous pouvez éventuellement donner un _Nom_ à la piste ou au bus à créer. Le menu déroulant _configuration_ vous permet de spécifier le nombre de canaux audio que vous souhaitez pour la nouvelle piste ou le nouveau bus. Par exemple, si vous allez enregistrer votre voix sur cette piste à l'aide d'un seul microphone, choisissez _Mono_. Si vous prévoyez d'importer un clip d'un morceau existant et de le placer sur cette piste, choisissez _Stereo_. Le choix effectué ici affectera également les plugins que vous pouvez utiliser sur la piste (les pistes mono ne peuvent pas utiliser la stéréo).
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 Lorsque vous créez une nouvelle piste MIDI, le nom est automatiquement tiré de l'instrument virtuel que vous choisissez par défaut.
-{{% /notice %}}
+{{< /callout >}}
 
 Le menu _Position_ vous permet de choisir où vous voulez placer la nouvelle piste ou le nouveau bus : en premier, en dernier, avant ou après l'instrument virtuel.
 

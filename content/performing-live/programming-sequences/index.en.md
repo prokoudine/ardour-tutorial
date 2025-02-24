@@ -1,14 +1,14 @@
-+++
-title = "Programming sequences"
-description = "The Follow Options group in the Cue window is where you program the sequence of clips"
-chapter = false
-weight = 6
-draft = true
-+++
+---
+title: Programming sequences
+description: The Follow Options group in the Cue window is where you program the sequence of clips
+weight: 6
+cascade:
+  type: docs
+---
 
 The _Follow Options_ group in the Cue window is where you program the sequence of clips.
 
-{{< youtube Gg1eZK8n7P0 >}}
+<!-- {{< youtube Gg1eZK8n7P0 >}} -->
 
 An easy example of a sequence is a clip that plays 4 bars of intro in cue A, triggers the next clip from cue B that plays eight bars twice, then triggers the clip in cue D, which, after playing four bars four times, triggers the clip in cue B again, and then the B-to-D cycle repeats over and over again.
 

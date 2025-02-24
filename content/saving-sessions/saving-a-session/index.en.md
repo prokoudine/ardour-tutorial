@@ -1,9 +1,10 @@
-+++
-title = "Saving a session"
-description = "How to save and move an Ardour session"
-chapter = false
-weight = 1
-+++
+---
+title: Saving a session
+description: How to save and move an Ardour session
+weight: 1
+cascade:
+  type: docs
+---
 
 There are a number of ways to save Sessions in Ardour, so that each session
 can be used later on. The simplest way is to save the entire session just like
@@ -13,7 +14,7 @@ A new session is first saved at the moment you create it. While you are working
 on it, you should save it frequently. Get into the habit of hitting **Ctrl+S**
 (or **Command+S** on a Mac) every few minutes.
 
-{{% notice tip %}}
+{{< callout type="info" >}}
 Avoid using any characters other than letters and numbers when naming your
 session. Avoid white spaces, accented letters, !@#$%\*()+, periods, commas, etc.
 Use dashes or underscores if you like. For example, instead of "My Great
@@ -21,7 +22,7 @@ Session!", prefer "My_Great_Session", or "MyGreatSession", or
 "my-great-session". Instead of "Açaí", write "Acai" (without accented letters),
 etc. Once you have created your Ardour session, do _not_ manually rename any
 folders or files that belong to the session.
-{{% /notice %}}
+{{< /callout >}}
 
 ## Ardour File and Folder Format
 
@@ -54,13 +55,13 @@ like to make a backup of it on an external drive, *you must copy the entire
 folder* containing all of the files mentioned above. It is _not_ enough to copy
 just the `*.ardour` file.
 
-{{% notice warning %}}
+{{< callout type="warning" >}}
 When copying an Ardour folder to another computer or drive, do not manually
 change its name or the name of any of the internal files. Please also note that,
 as Ardour sessions are case-sensitive, copying a session to a USB stick (VFAT
 file-system) will likely corrupt the session. ZIP up the session folder to move
 it between machines.
-{{% /notice %}}
+{{< /callout >}}
 
 The easiest way to transfer the entire project is indeed to just ZIP the
 session's folder. If you don't have snapshots in your session, you can also use

@@ -1,9 +1,10 @@
-+++
-title = "Autres opérations sur les régions"
-description = "Déphasage, normalisation et autres opérations sur les régions dans Ardour"
-chapter = false
-weight = 6
-+++
+---
+title: Autres opérations sur les régions
+description: Déphasage, normalisation et autres opérations sur les régions dans Ardour
+weight: 6
+cascade:
+  type: docs
+---
 
 Dans cette section, vous apprendrez quelques autres choses que vous pouvez faire avec les régions.
 
