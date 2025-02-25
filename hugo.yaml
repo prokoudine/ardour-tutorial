@@ -1,5 +1,3 @@
-baseURL: /
-languageCode: en-us
 title: Ardour Tutorial
 module:
   imports:
