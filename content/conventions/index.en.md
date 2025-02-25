@@ -1,10 +1,11 @@
-+++
-title = "Conventions"
-description = "Conventions used in this Ardour tutorial"
-chapter = false
-weight = 1
-#pre = "<b>1. </b>"
-+++
+---
+title: Conventions
+slug: conventions
+description: Conventions used in this Ardour tutorial
+weight: 12
+sidebar:
+  exclude: true
+---
 
 Below are some basic conventions we have adopted in this manual.
 
