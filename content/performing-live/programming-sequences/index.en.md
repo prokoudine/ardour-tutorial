@@ -8,17 +8,32 @@ cascade:
 
 The _Follow Options_ group in the Cue window is where you program the sequence of clips.
 
+![Follow Options](en/performing-live-follow-options.png)
 <!-- {{< youtube Gg1eZK8n7P0 >}} -->
 
 An easy example of a sequence is a clip that plays 4 bars of intro in cue A, triggers the next clip from cue B that plays eight bars twice, then triggers the clip in cue D, which, after playing four bars four times, triggers the clip in cue B again, and then the B-to-D cycle repeats over and over again.
 
 <!-- FIXME SCREENSHOT -->
 
-It’s called “follow options” because these settings define what happens next, after a clip has been played once. You have multiple ways to set a follow action.
+It’s called “follow options” because these settings define what happens next, after a clip has been played once.
 
-- You can do it in the drop-down list at the bottom.
-- You can click this widget to the right of the clips’s name and select an action.
-- You can also mass-select a follow action for the entire cue.
+## Setting follow options
+
+You have multiple ways to set a follow action.
+
+1. You can do it in the drop-down list at the bottom:
+
+![Set in Follow Options](en/performing-live-set-in-follow-options.png)
+
+2. You can click this widget to the right of the clips’s name and select an action:
+
+![Set in the clip widget](en/performing-live-set-in-clip-widget.png)
+
+3. You can also mass-select a follow action for the entire cue. To do that, right-click on cue's name and select **Set All Follow Actions**.
+
+![Set all in a cue](en/performing-live-set-all-in-cue.png)
+
+## Follow actions
 
 The default behavior is to just play the same clip over and over again until the user triggers a different clip in that track or stops the playback. This action is called _Again_.
 
@@ -34,6 +49,6 @@ The _Follow Count_ option is also what separates the _None_ follow action from t
 
 If you want a clip to play a given number of times and stop, choose the _Stop_ action.
 
-But If you want to temporarily drop the select number or repeats, disregard the customized duration of the clip, and just stop the playback after one time, select the _None_ follow action.
+But if you want to temporarily drop the select number or repeats, disregard the customized duration of the clip, and just stop the playback after one time, select the _None_ follow action.
 
 Next: [PROGRAMMING PROBABILITY](../programming-probability/)
