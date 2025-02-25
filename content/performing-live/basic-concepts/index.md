@@ -12,6 +12,8 @@ The Cue window provides tools for non-linear sequencing where you trigger the pl
 
 The main part of the Cue window is a grid of clips that are grouped by tracks and cues.
 
+![Grid of clips](en/cue-window-matrix.png)
+
 Tracks are laid out vertically and usually group clips with the same type of instrument. You can have one track for bass lines, one track for drums, one track for synth chord progressions, and so on. You can record new material to these tracks, then cut it and load into the cue sequencer. But as long as a track is visible in the Cue window, this material will not be played back. Only one clip in a track can play at any given time.
 
 Cues, however, are laid out horizontally and organize clips that should start playing at the same time.
