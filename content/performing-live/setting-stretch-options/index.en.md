@@ -14,9 +14,9 @@ Sometimes a drum loop that you would really like to use in a song has slower or 
 
 By default, Ardour will estimate the actual tempo in an audio file. Then when you play it back, it will stretch or compress that audio file on the fly to match the current session tempo. This works even within a tempo ramp, so the clip’s tempo will follow acceleration and deceleration.
 
-You can override this default behavior for artistic purposes and play a clip at its original tempo by disabling the stretching of this clip.
+You can override this default behavior for artistic purposes and play a clip at its original tempo by disabling the stretching of this clip in the **Stretch Options** panel.
 
-<!-- FIXME SCREENSHOT -->
+![Stretch Options](en/stretch-options.png)
 
 ## Overriding clip's tempo
 
