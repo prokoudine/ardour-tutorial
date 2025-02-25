@@ -10,6 +10,8 @@ Ardour provides several options that define how a clip is triggered, when it sta
 
 <!-- {{< youtube TuZvUn311MQ >}} -->
 
+![Launch Options](en/launch-options.png)
+
 ## Launch styles
 
 Let’s say we have a default setup where velocity sense is set to zero, the launch style is set to _Trigger_, the launch quantize unit is 1 bar, both _Legato_ and _Cue Isolate_ options are disabled, and the transport is rolling.
@@ -43,5 +45,3 @@ _Legato_ is useful when you often switch between clips of the same track. Let’
 ## Cue Isolate
 
 The _Cue Isolate_ mode is useful when you don’t need to play a particular clip when you launch the entire cue. Typically this is because you programmed a complex follow sequence for a certain track and you don’t want it to be jeopardized by launching cues.
-
-Next: [PROGRAMMING SEQUENCES](../programming-sequences/)
