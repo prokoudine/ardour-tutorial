@@ -9,4 +9,4 @@ cascade:
 If you are new to recording and producing music, here are some things you need to know before you start learning Ardour:
 
 - [What is digital audio?](/fr/basics/audio/)
-<!-- - [What is MIDI?](/basics/midi) -->
+<!-- - [What is MIDI?](/fr/basics/midi) -->
