@@ -9,7 +9,11 @@ sidebar:
 Le corps principal du manuel a été écrit lors d'un **Book Sprint** mené par Derek Holzer dans le [moddr_lab](http://moddr.net "moddr_lab @ WORM, Rotterdam") au WORM à Rotterdam, Pays-Bas, entre le 23 et le 27 novembre 2009, avec l'aide et le soutien de la communauté internationale des utilisateurs et des développeurs d'Ardour. 
 Le tutoriel a été écrit à l'origine pour les versions 2.X d'Ardour. Le manuel FLOSS est disponible à l'adresse suivante [flossmanuals.net](http://archive.flossmanuals.net/ardour/index.html).
 
-Le contributeurs originaux : Adam Hyde, Bruno Ruviaro, Dave Peticolas, Walter Langelaar, David Elwell, Thomas Goose, Derick H., Rob Fell, William Abernathy, Derek Holzer, Stefan Hanser, Tomasz Kaye, Dick MacInnis, Mr Stock, Ross Johnson, Jon Cohrs, Claudia Borges, MaRk, Al Thompson, Jay Maechtlen, Christopher Stamper, Thomas Margolf, Mark Lindhout, Joern Nettingsmeier.
+## Auteurs originaux
+
+Adam Hyde, Bruno Ruviaro, Dave Peticolas, Walter Langelaar, David Elwell, Thomas Goose, Derick H., Rob Fell, William Abernathy, Derek Holzer, Stefan Hanser, Tomasz Kaye, Dick MacInnis, Mr Stock, Ross Johnson, Jon Cohrs, Claudia Borges, MaRk, Al Thompson, Jay Maechtlen, Christopher Stamper, Thomas Margolf, Mark Lindhout, Joern Nettingsmeier.
+
+## Collaborateurs
 
 Il a été mis à jour en 2010 par Chou Shoichi, Damian Soto, Ross Johnson, Christian Herzberg, Malcolm Smith, Giorgio Moscardi.
 
@@ -21,4 +25,8 @@ En décembre 2014, le tutoriel a été mis à jour pour Ardour 3.5 et déplacé 
 
 2021 mises à jour pour Ardour v6 par Luca Aquino.
 
-2022/2023 mises à jour pour Ardour v7 par Alexandre Prokoudine.
+2022-2025 mises à jour par Aleksandr Prokudin.
+
+## Traducteurs
+
+2023-2024 traduction française par Julien Taverna.
