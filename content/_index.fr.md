@@ -6,24 +6,37 @@ cascade:
   type: docs
 ---
 
-**Ardour** est un enregistreur sur disque dur complet et professionnel, ainsi qu'une station de travail audio numérique (STAN).
-Ardour est un logiciel libre et open source (FLOSS). Il offre un nombre illimité de pistes et de bus audio, une édition non destructive et non linéaire avec annulation illimitée et un routage du signal de n'importe où à n'importe quel endroit.
-Il prend en charge les formats de fichiers standard, tels que BWF, WAV, WAV64, AIFF et CAF et il peut utiliser les formats de plugins LADSPA, LV2, VST et AudioUnit.
+**Ardour** est un enregistreur professionnel à disque dur et une station de travail audio numérique (DAW) offrant les caractéristiques suivantes :
 
-{{< figure src="/images/Ardour8.png" alt="Ardour 8" >}}
+- un nombre illimité de pistes et de bus audio;
+- une édition non destructive et non linéaire avec un nombre illimité d'annulations;
+- routage du signal de n'importe où à n'importe quel endroit;
+- Séquenceur de performance en direct avec prise en charge de Novation Launchpad;
+- prise en charge des plugins LADSPA, LV2, VST/VST3 et AudioUnit;
+- prise en charge des surfaces de contrôle telles que PreSonus Faderport et Steinberg CC121.
 
-Ce tutoriel est une introduction à l'utilisation d'Ardour pour des tâches basiques d'enregistrement et d'édition de sons. 
-Il suppose que vous avez déjà installé Ardour sur votre ordinateur.
+## C'est parti!
 
-Pour plus d'informations sur l'installation d'Ardour sur Linux et Mac OS X, veuillez consulter la page [Configuration requise](https://ardour.org/requirements.html). Pour les utilisateurs de Linux, les distributions telles que [KXStudio](http://kxstudio.sourceforge.net/), [UbuntuStudio](http://ubuntustudio.org/) offrent un large choix de logiciels musicaux utiles, dont Ardour.
+{{< cards >}}
+  {{< card link="/fr/basics" title="Principes de base" subtitle="Qu'est-ce que l'audio et le MIDI?" icon="book-open" >}}
+  {{< card link="/fr/getting-started" title="Pour commencer" subtitle="Comprendre l'interface utilisateur" icon="fast-forward" >}}
+  {{< card link="/fr/recording/" title="Enregistrement" subtitle="Comment enregistrer de l'audio et du MIDI avec Ardour" icon="microphone" >}}
+  {{< card link="/fr/editing-sessions" title="Editer des sessions" subtitle="Comment éditer des sessions avec Ardour" icon="scissors" >}}
+  {{< card link="/fr/performing-live" title="Jouer en direct" subtitle="Comment utiliser le séquenceur matriciel" icon="music-note" >}}
+  {{< card link="/fr/mixing-sessions" title="Mixer des sessions" subtitle="Comment configurer le routage et utiliser les plugins" icon="filter" >}}
+  {{< card link="/fr/exporting-sessions" title="Exporter des sessions" subtitle="Comment exporter vers des stems et des fichiers individuels" icon="save-as" >}}
+  {{< card link="/fr/saving-sessions" title="Sauvegarder des sessions" subtitle="Comment enregistrer des instantanés et des modèles de session?" icon="save" >}}
+{{< /cards >}}
 
-Contenu :
+## Aide aux utilisateurs
 
-1. [Introduction](introduction/)
-2. [Pour commencer](getting-started/)
-3. [Enregistrer](recording/)
-4. [Editer des sessions](editing-sessions/)
-5. [Mixer des sessions](mixing-sessions/)
-6. [Exporter des sessions](exporting-sessions/)
-7. [Sauvegarder des sessions](saving-sessions/)
-8. [Annexes](appendices/)
+{{< cards >}}
+  {{< card link="https://discourse.ardour.org" title="Forum des utilisateurs" subtitle="Discuter d'Ardour avec d'autres utilisateurs" icon="users" >}}
+  {{< card link="https://ardour.org/chat" title="Chat en direct" subtitle="Parler aux développeurs" icon="chat" >}}
+  {{< card link="https://tracker.ardour.org/" title="Suivi des problèmes" subtitle="Soumettre un rapport de bogue ou une demande de fonctionnalité" icon="code" >}}
+  {{< card link="https://manual.ardour.org" title="Manuel de l'utilisateur" subtitle="Lire le guide de l'utilisateur couvrant toutes les fonctionnalités" icon="book-open" >}}
+{{< /cards >}}
+
+## Commentaires sur le tutoriel
+
+Pour nous faire part de vos commentaires sur ce tutoriel, veuillez [déposer un problème](https://github.com/prokoudine/ardour-tutorial/issues) sur GitHub.

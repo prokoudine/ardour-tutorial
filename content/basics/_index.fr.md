@@ -6,7 +6,7 @@ cascade:
   type: docs
 ---
 
-If you are new to recording and producing music, here are some things you need to know before you start learning Ardour:
+Si vous êtes novice en matière d'enregistrement et de production musicale, voici quelques points à connaître avant de commencer à apprendre Ardour :
 
-- [What is digital audio?](/fr/basics/audio/)
-<!-- - [What is MIDI?](/fr/basics/midi) -->
+- [Qu'est-ce que l'audio numérique?](/fr/basics/audio/)
+<!-- - [Qu'est-ce que le MIDI?](/fr/basics/midi) -->
