@@ -28,7 +28,7 @@ sidebar:
   {{< card link="/editing-sessions" title="Editing sessions" subtitle="How to edit sessions with Ardour" icon="scissors" >}}
   {{< card link="/performing-live" title="Performing live" subtitle="How to use the matrix cue sequencer" icon="music-note" >}}
   {{< card link="/mixing-sessions" title="Mixing sessions" subtitle="How to setup routing and use plugins" icon="filter" >}}
-  {{< card link="/exporting-sessions" title="Exporting sessions" subtitle="How to export to stems and single files" icon="save-as" >}}
+  {{< card link="/exporting-sessions" title="Exporting sessions" subtitle="How to export to stems and single files" icon="share" >}}
   {{< card link="/saving-sessions" title="Saving sessions" subtitle="How to save session snapshots and templates" icon="save" >}}
 {{< /cards >}}
 
