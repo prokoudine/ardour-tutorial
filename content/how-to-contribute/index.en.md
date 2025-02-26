@@ -1,5 +1,5 @@
 ---
-title: How to Contribute
+title: How to contribute
 slug: how-to-contribute
 description: How to contribute to this tutorial
 weight: 12
@@ -7,27 +7,66 @@ sidebar:
   exclude: true
 ---
 
-## What Kind of Contributions We Accept
+## What kind of contributions we accept
 
 We intentionally limit the scope of this tutorial to very basic techniques that
 are sufficient to get users started with recording, mixing, and exporting with
 Ardour. So we'll gratefully accept patches that do not change the scope in any
 major way: bug fixes, better explanations, better illustrations etc. We also
-encourage translations of the ardour-tutorial.
+encourage translations of the Ardour tutorial.
 
-## Using Markdown Syntax and Extras
+## Running the tutorial CMS locally
+
+1. Please install Hugo for your operating system.
+
+2. Fork the [Git repository](https://github.com/prokoudine/ardour-tutorial)
+
+3. Clone the forked repository:
+
+```bash
+git clone git@github.com:USERNAME/ardour-tutorial.git
+```
+
+3. Go inside the cloned repository in the terminal:
+
+```bash
+cd ardour-tutorial
+```
+
+4. Run Hugo
+
+```bash
+hugo server -D --disableFastRender
+```
+
+5. Open the locally running CMS in your browser. Hugo defaults to `localhost:1313/`.
+
+## Using Markdown syntax and extras
 
 All text files use Markdown syntax with a few extras. We use a limited subset of
-available options and one shortcode specific to HTML5, a `<figure>` element
-([see here](https://gohugo.io/content-management/shortcodes/#figure) for more
-info). Another extra feature available in the template of choice is a so called
+available options.
+
+The front page uses cards shortcode for navigation to chapters and external user support links. Here is an example:
+
+{{< cards >}}
+  {{< card link="/recording/" title="Recording" subtitle="How to record audio and MIDI with Ardour" icon="microphone" >}}
+  {{< card link="/editing-sessions" title="Editing sessions" subtitle="How to edit sessions with Ardour" icon="scissors" >}}
+{{< /cards >}}
+
+Another extra feature available in the template of choice is a so called
 shortcode for notice boxes that look like this:
 
-{{< callout type="info" >}}
-Some text
-{{< /callout >}}
+> [!TIP]
+> Some text
 
-We generally stick to two type of notice boxes: 'tip' and 'warning'.
+Here is the code for that:
+
+```
+> [!TIP]
+> Some text
+```
+
+We generally stick to two type of notice boxes: 'TIP' and 'WARNING'.
 
 The rest is really straightforward:
 
@@ -36,7 +75,7 @@ window captions.
 - Double asterisk like `**OK**` makes bolds and is reserved for button captions.
 - Backticks around some text are typically reserved for menu paths and filenames.
 
-## How to Submit Changes
+## Submitting changes
 
 The repository with this tutorial is available on GitHub. The general idea is
 that you fork the repository, make changes in a branch, then create a pull
@@ -44,81 +83,76 @@ request. Please [see
 here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 for a complete guide.
 
-## How to Create and Submit a Translation
+## Creating and submitting a translation
 
 The entire tutorial can be translated into a different language. Once you create
 a git branch to separate your work, here is what you do next.
 
-### Translating Menu
+### Translating the menu
 
-The menu is stored in `config.toml`, inside the `[Languages]` section. For each
-language, that section has two parts:
+The top and the sidebar menus are stored in `hugo.yaml`, inside the `menu` section. Here is the snippet for this very page:
 
-1. The main part where names of chapters and pages chow up.
-2. The 'shortcuts' menu with links to Ardour's homepage, forum etc.
-
-To translate the header of the main part, copy and paste the entire block that
-starts with `[Languages.en]` and then:
-
-1. Change the language code in `[Languages.en]`.
-2. Translate the title.
-3. Submit the name of the language that will show up in the drop-down list of
-available translations. We encourage you to use language
-or the local one, in your alphabet — whichever works for you.
-4. Change the two-letter language code in the line that starts with
-`landingPageURL`.
-5. Translate the caption of the homepage of the tutorial in the line that starts
-with `landingPageName`.
-
-Thus
-
-~~~
-[Languages.en]
-title = "Ardour tutorial"
-weight = 1
-languageName = "English"
-landingPageURL = "/ardour-tutorial/en/"
-#landingPageURL = "/"
-landingPageName = "<i class='fas fa-home'></i> Home"
-~~~
-
-translates to e.g.:
-
-~~~
-[Languages.ru]
-title = "Введение в Ardour"
-weight = 1
-languageName = "Russian"
-landingPageURL = "/ardour-tutorial/ru/"
-#landingPageURL = "/"
-landingPageName = "<i class='fas fa-home'></i> Начало"
-~~~
-
-This main part of the menu will start automatically accumulating links to
-translated pages as you start adding pages with translations.
-
-Use the same approach to translate the shortcuts menu. E.g. the link to Ardour's
-website
-
-```toml
-[[Languages.en.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-home'></i> Ardour's homepage"
-url = "https://ardour.org/"
-weight = 11
+```yaml
+    - identifier: contribute
+      name: Contribute
+      pageRef: /how-to-contribute
+      weight: 2
 ```
 
-becomes
+All identifiers are listed for translation in a separate file, e.g. `i18n/fr.yaml`:
 
-```toml
-#[[Languages.ru.menu.shortcuts]]
-#name = "<i class='fas fa-fw fa-home'></i> Сайт Ardour"
-#url = "https://ardour.org/"
-#weight = 11
+```yaml
+conventions: Conventions
+contribute: Contribuer
+license: Licence
+credits: Crédits
+search: Recherche
+more: Plus d'informations
 ```
 
-Please keep all translations of the menu in a single larger block.
+If you want to translate the tutorial to e.g. Spanish, you need to create `i18n/es.yaml` and translate the identifiers.
 
-### Translating Chapters And Pages
+### Adding your language to the drop-down list
+
+1. Open the `hugo.yaml` configuration file. Available translations are listed in the `languages:` subsection:
+
+```yaml
+languages:
+  en:
+    languageName: English
+    weight: 1
+  fr:
+    languageName: Français
+    weight: 2
+```
+
+2. Add a new language subsection: use a two-letter language code and write its name in your native language. For example, for Spanish that would be `es` and `Español` accordingly:
+
+```yaml
+  es:
+    languageName: Español
+    weight: 2
+```
+
+Place the new subsection alphabetically by language code and change weights accordingly:
+
+```yaml
+languages:
+  en:
+    languageName: English
+    weight: 1
+  es:
+    languageName: Español
+    weight: 2
+  fr:
+    languageName: Français
+    weight: 3
+```
+
+> [!IMPORTANT]
+> You need at least one translated page to be able to see any content once you switch to the newly added language.
+
+### Translating tutorial pages
 
 All content lives inside the `content` folder where subfolders are names of
 chapters like _Recording_ (`recording`), _Mixing sessions_ (`mixing-sessions`)
@@ -144,8 +178,8 @@ where XX is a two-letter language code like 'de' for German or 'fr' for French. 
 Supposing you want to translate the _Getting Started_ chapter into French. Here
 is how you do it.
 
-1. Create a copy of `getting-started/_index.en.md` and name it `_index.fr.md`.
-Now you should have `_index.en.md` and `_index.fr.md` in the same folder.
+1. Create a copy of `getting-started/_index.md` and name it `_index.fr.md`.
+Now you should have `_index.md` and `_index.fr.md` in the same folder.
 
 2. Translate `_index.fr.md`. If you already translated the main menu, you should
 be able to open the original page in English, switch the language to 'Français'
@@ -157,7 +191,7 @@ name it `index.fr.md` and then translate it.
 4. Repeat step 3 for all subfolders. This should give you the translation of an
 entire chapter on getting started with Ardour.
 
-### Translating User Interface Elements and Screenshots
+### Translating user interface elements and screenshots
 
 If Ardour's user interface is available in the language you are translating this
 tutorial into, it is generally up to you to decide if you refer to localized
@@ -178,15 +212,15 @@ subfolder that's named after a language code (two-letter of four-letter,
 whichever is applicable) and place your screenshots there. Having done so,
 please update references to screenshots in the text. E.g.
 
-~~~
-src="en/ardour7-save-template.png"
-~~~
+```
+![Save template](en/ardour7-save-template.png)
+```
 
 becomes
 
-~~~
-src="de/ardour7-schablone-speichern.png"
-~~~
+```
+![Schablone speichern](de/ardour7-schablone-speichern.png)
+```
 
 ### Submitting Translation
 

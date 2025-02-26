@@ -1,13 +1,15 @@
-+++
-title = "Comment contribuer"
-description = "Comment contribuer à ce tutoriel"
-chapter = false
-weight = 5
-+++
+---
+title: Comment contribuer
+description: Comment contribuer à ce tutoriel
+weight: 12
+sidebar:
+  exclude: true
+---
 
 ## Quel type de contributions acceptons nous
 
 Nous limitons intentionnellement la portée de ce tutoriel à des techniques très basiques qui sont suffisantes pour permettre aux utilisateurs de commencer à enregistrer, mixer et exporter avec Ardour. Nous accepterons donc avec gratitude les correctifs qui ne modifient pas le champ d'application de manière majeure : corrections de bogues, meilleures explications, etc.
+
 Nous encourageons également les traductions de ardour-tutorial.
 
 ## Utilisation de la syntaxe Markdown et des extras
