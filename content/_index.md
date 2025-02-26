@@ -23,14 +23,14 @@ sidebar:
 
 {{< cards >}}
   {{< card link="/basics" title="Basics" subtitle="What is audio and MIDI?" icon="book-open" >}}
-  {{< card link="/getting-started" title="Getting started" subtitle="Understanding the user interface" icon="volume-up" >}}
+  {{< card link="/getting-started" title="Getting started" subtitle="Understanding the user interface" icon="fast-forward" >}}
   {{< card link="/recording/" title="Recording" subtitle="How to record audio and MIDI with Ardour" icon="microphone" >}}
   {{< card link="/editing-sessions" title="Editing sessions" subtitle="How to edit sessions with Ardour" icon="scissors" >}}
   {{< card link="/performing-live" title="Performing live" subtitle="How to use the matrix cue sequencer" icon="music-note" >}}
   {{< card link="/mixing-sessions" title="Mixing sessions" subtitle="How to setup routing and use plugins" icon="filter" >}}
-  {{< card link="/exporting-sessions" title="Exporting sessions" subtitle="How to setup routing and use plugins" icon="save-as" >}}
-  {{< card link="/saving-sessions" title="Saving sessions" subtitle="How to setup routing and use plugins" icon="save" >}}
- {{< /cards >}}
+  {{< card link="/exporting-sessions" title="Exporting sessions" subtitle="How to export to stems and single files" icon="save-as" >}}
+  {{< card link="/saving-sessions" title="Saving sessions" subtitle="How to save session snapshots and templates" icon="save" >}}
+{{< /cards >}}
 
 ## User support
 
@@ -38,7 +38,7 @@ sidebar:
   {{< card link="https://discourse.ardour.org" title="User forum" subtitle="Discuss Ardour with other users" icon="users" >}}
   {{< card link="https://ardour.org/chat" title="Live chat" subtitle="Talk to developers" icon="chat" >}}
   {{< card link="https://tracker.ardour.org/" title="Issue tracker" subtitle="Submit a bug report or a feature request" icon="code" >}}
-  {{< card link="https://manual.ardour.org" title="User manual" subtitle="Read the user guide coveriung every feature" icon="book-open" >}}
+  {{< card link="https://manual.ardour.org" title="User manual" subtitle="Read the user guide covering every feature" icon="book-open" >}}
 {{< /cards >}}
 
 ## Tutorial feedback
