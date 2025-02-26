@@ -7,11 +7,9 @@ defaultContentLanguage: en
 languages:
   en:
     languageName: English
-    baseURL: https://prokoudine.github.io/ardour-tutorial/
     weight: 1
   fr:
     languageName: Français
-    baseURL: https://prokoudine.github.io/ardour-tutorial/fr/
     weight: 2
 
 params:
