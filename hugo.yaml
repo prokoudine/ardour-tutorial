@@ -29,25 +29,31 @@ menu:
       name: Conventions
       pageRef: /conventions
       weight: 1
+    - identifier: license
+      name: License
+      pageRef: /license
+      weight: 2
+    - identifier: credits
+      name: Credits
+      pageRef: /credits
+      weight: 3
+    - identifier: search
+      name: Search
+      weight: 4
+      params:
+        type: search
+  sidebar:
+    - identifier: more
+      name: More
+      params:
+        type: separator
+      weight: 1
     - identifier: contribute
       name: Contribute
       pageRef: /how-to-contribute
       weight: 2
-    - identifier: license
-      name: License
-      pageRef: /license
-      weight: 3
-    - identifier: credits
-      name: Credits
-      pageRef: /credits
-      weight: 4
-    - identifier: search
-      name: Search
-      weight: 5
-      params:
-        type: search
     - name: GitHub
-      weight: 6
+      weight: 3
       url: "https://github.com/prokoudine/ardour-tutorial"
       params:
         icon: github
