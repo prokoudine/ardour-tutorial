@@ -24,21 +24,22 @@ sidebar:
 {{< cards >}}
   {{< card link="/basics" title="Basics" subtitle="What is audio and MIDI?" icon="book-open" >}}
   {{< card link="/getting-started" title="Getting started" subtitle="Understanding the user interface" icon="volume-up" >}}
-  {{< card link="../callout" title="Recording" subtitle="How to record audio and MIDI with Ardour" icon="microphone" >}}
-  {{< card link="../callout" title="Editing sessions" subtitle="How to edit sessions with Ardour" icon="chip" >}}
-  {{< card link="/performing-live" title="Performing live" subtitle="How to use the non-linear sequencer" icon="music-note" >}}
-  {{< card link="../callout" title="Mixing sessions" subtitle="How to setup routing and use plugins" icon="filter" >}}
-  {{< card link="../callout" title="Exporting sessions" subtitle="How to setup routing and use plugins" icon="save-as" >}}
-  {{< card link="../callout" title="Saving sessions" subtitle="How to setup routing and use plugins" icon="save" >}}
+  {{< card link="/recording/" title="Recording" subtitle="How to record audio and MIDI with Ardour" icon="microphone" >}}
+  {{< card link="/editing-sessions" title="Editing sessions" subtitle="How to edit sessions with Ardour" icon="scissors" >}}
+  {{< card link="/performing-live" title="Performing live" subtitle="How to use the matrix cue sequencer" icon="music-note" >}}
+  {{< card link="/mixing-sessions" title="Mixing sessions" subtitle="How to setup routing and use plugins" icon="filter" >}}
+  {{< card link="/exporting-sessions" title="Exporting sessions" subtitle="How to setup routing and use plugins" icon="save-as" >}}
+  {{< card link="/saving-sessions" title="Saving sessions" subtitle="How to setup routing and use plugins" icon="save" >}}
  {{< /cards >}}
 
 ## User support
 
-You can get user support for Ardour on official channels:
-
-- [User forum](https://discourse.ardour.org/)
-- [Realtime chat](https://ardour.org/chat)
-- [Official bug tracker](https://tracker.ardour.org/)
+{{< cards >}}
+  {{< card link="https://discourse.ardour.org" title="User forum" subtitle="Discuss Ardour with other users" icon="users" >}}
+  {{< card link="https://ardour.org/chat" title="Live chat" subtitle="Talk to developers" icon="chat" >}}
+  {{< card link="https://tracker.ardour.org/" title="Issue tracker" subtitle="Submit a bug report or a feature request" icon="code" >}}
+  {{< card link="https://manual.ardour.org" title="User manual" subtitle="Read the user guide coveriung every feature" icon="book-open" >}}
+{{< /cards >}}
 
 ## Tutorial feedback
 
