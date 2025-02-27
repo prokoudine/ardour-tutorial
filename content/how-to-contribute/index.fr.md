@@ -1,7 +1,7 @@
 ---
 title: Comment contribuer
 description: Comment contribuer à ce tutoriel
-weight: 12
+weight: 1
 sidebar:
   exclude: true
 ---

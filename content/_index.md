@@ -22,14 +22,14 @@ sidebar:
 ## Let's get started!
 
 {{< cards >}}
-  {{< card link="/basics" title="Basics" subtitle="What is audio and MIDI?" icon="book-open" >}}
-  {{< card link="/getting-started" title="Getting started" subtitle="Understanding the user interface" icon="fast-forward" >}}
-  {{< card link="/recording/" title="Recording" subtitle="How to record audio and MIDI with Ardour" icon="microphone" >}}
-  {{< card link="/editing-sessions" title="Editing sessions" subtitle="How to edit sessions with Ardour" icon="scissors" >}}
-  {{< card link="/performing-live" title="Performing live" subtitle="How to use the matrix cue sequencer" icon="music-note" >}}
-  {{< card link="/mixing-sessions" title="Mixing sessions" subtitle="How to setup routing and use plugins" icon="filter" >}}
-  {{< card link="/exporting-sessions" title="Exporting sessions" subtitle="How to export to stems and single files" icon="share" >}}
-  {{< card link="/saving-sessions" title="Saving sessions" subtitle="How to save session snapshots and templates" icon="save" >}}
+  {{< card link="basics/" title="Basics" subtitle="What is audio and MIDI?" icon="book-open" >}}
+  {{< card link="getting-started/" title="Getting started" subtitle="Understanding the user interface" icon="fast-forward" >}}
+  {{< card link="recording/" title="Recording" subtitle="How to record audio and MIDI with Ardour" icon="microphone" >}}
+  {{< card link="editing-sessions/" title="Editing sessions" subtitle="How to edit sessions with Ardour" icon="scissors" >}}
+  {{< card link="performing-live/" title="Performing live" subtitle="How to use the matrix cue sequencer" icon="music-note" >}}
+  {{< card link="mixing-sessions/" title="Mixing sessions" subtitle="How to setup routing and use plugins" icon="filter" >}}
+  {{< card link="exporting-sessions/" title="Exporting sessions" subtitle="How to export to stems and single files" icon="share" >}}
+  {{< card link="saving-sessions/" title="Saving sessions" subtitle="How to save session snapshots and templates" icon="save" >}}
 {{< /cards >}}
 
 ## User support

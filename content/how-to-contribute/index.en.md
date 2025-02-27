@@ -1,6 +1,5 @@
 ---
 title: How to contribute
-slug: how-to-contribute
 description: How to contribute to this tutorial
 weight: 12
 sidebar:
