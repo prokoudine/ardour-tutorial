@@ -51,7 +51,7 @@ menu:
       weight: 1
     - identifier: contribute
       name: Contribute
-      pageRef: how-to-contribute/
+      pageRef: /how-to-contribute
       weight: 2
     - name: GitHub
       weight: 3
