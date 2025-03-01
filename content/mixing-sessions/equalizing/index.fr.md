@@ -16,7 +16,7 @@ Il arrive souvent qu'après avoir ajusté les niveaux et la balance panoramique,
 
 Le type d'égaliseur le plus simple est celui qui nous est familier grâce aux tables de mixage analogiques. Il a trois paramètres, qui ajustent les niveaux de trois _bandes_, ou plages de fréquences : une pour les _basses_ (basses fréquences), une pour la plage des _moyennes_ fréquences et une pour les _aiguës_ (hautes fréquences). Le greffon _DJ EQ_ (égaliseur pour DJ) sur la capture d'écran ci-dessous, est un égaliseur de ce type. Si vous n'avez pas ce greffon en particulier sur votre ordinateur, explorez ceux que vous avez et qui possèdent "EQ" dans leurs noms ; vous trouverez certainement quelque chose de similaire.
 
-![DJ EQ](en/ardour7-dj-eq.png?width=400)
+{{< figure src="en/ardour7-dj-eq.png" alt="DJ EQ" >}}
 
 ## Égaliseur multi-bandes (ou graphique)
 
@@ -29,10 +29,9 @@ La "courbe" générale des plages de fréquences peut aussi être utilisées pou
 
 ## Égaliseur paramétrique
 
-L'_égaliseur paramétrique_ est le type d'égaliseur le plus versatile utilisé pour mixer en raison du nombre de ses contrôles important par rapport à tous les types de paramètres d'égaliseur. Ardour a de base un greffon d'égaliseur paramétrique appelé _ACE EQ_.
-Il ressemble à ça :
+L'_égaliseur paramétrique_ est le type d'égaliseur le plus versatile utilisé pour mixer en raison du nombre de ses contrôles important par rapport à tous les types de paramètres d'égaliseur. Ardour a de base un greffon d'égaliseur paramétrique appelé _ACE EQ_. Il ressemble à ça:
 
-![ACE EQ](en/ardour7-ace-eq.png?width=500)
+{{< figure src="en/ardour7-ace-eq.png" alt="ACE EQ" >}}
 
 D'autres égaliseurs peuvent avoir des interfaces graphiques plus jolies comme le _x42 EQ_ de Robin Gareus, mais ils font essentiellement la même chose. Vous pouvez avoir des greffons d'égalisation sur votre ordinateur qui seront un peu différent de ces captures d'écran, mais les paramètres que vous pouvez contrôler sont probablement très similaires.
 
@@ -60,9 +59,7 @@ Voici une façon de faire.
 
 Il y a plusieurs façons d'envisager l'égalisation. Nous espérons que cela vous fournira un exemple de comment commencer à égaliser les pistes dans votre mix. Mais la chose la plus importante, quand il faut égaliser, est qu'il est préférable d'en faire trop peu que trop, à moins que cela ne soit intentionnel d'utiliser l'égaliseur comme un paramètre de composition.
 
-## Poursuivre
+**Poursuivre**
 
 Vous devriez avoir assez d'outils maintenant pour créer un mix stéréo propre et bien spatialisé de votre session.
-Cependant, si vous voulez que les paramètres de vos atténuateurs, de vos panoramiques ou de vos greffons changent dans le temps, vous allez devoir explorer le prochain chapitre au sujet de l'automatisation. Dans le cas contraire, sautez directement pour apprendre à _exporter des sessions_
-
-Suivant : [UTILISER L'AUTOMATISATION](../using-automation)
+Cependant, si vous voulez que les paramètres de vos atténuateurs, de vos panoramiques ou de vos greffons changent dans le temps, vous allez devoir explorer le prochain chapitre au sujet de l'automatisation. Dans le cas contraire, sautez directement pour apprendre à _exporter des sessions_.

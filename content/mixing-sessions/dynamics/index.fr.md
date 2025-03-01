@@ -21,7 +21,7 @@ Un limiteur peut-être utilisé sur le bus _Master_ pour empêcher l'ensemble du
 Dans l'exemple ci-dessous, on utilise un greffon nommé _Fast Lookahead Limiter_ (si vous ne le trouvez pas dans vos greffons déjà installés, cherchez-en un autre avec "Limiter"). Pour régler le niveau de limitation, ajustez simplement le réglage _Limit (dB)_.
 Le greffon _Fast Lookahead Limiter_ observe le signal avec une avance de quelques millisecondes et quand il voit que celui-ci est proche de dépasser la limite que vous avez définie, il baisse automatiquement le niveau.
 
-![limiteur](en/ardour7-fast-lookahead-lmiter.png?width=500)
+{{< figure src="en/ardour7-fast-lookahead-lmiter.png" alt="limiteur" >}}
 
 Le réglage _Input Gain (dB)_ détermine la manière dont les niveaux sont augmentés avant d'atteindre le limiteur, le vue-mètre _Attenuation (dB)_ du côté droit montre la manière dont les niveaux sont réduits à n'importe quel moment.
 Alors que la réduction du volume est quasiment instantanée, le réglage _Release time (s)_ (temps de relâche) détermine la durée mise par le limiteur pour retourner au 0dB de l'_Attenuation_.
@@ -38,14 +38,13 @@ Un compresseur type aura obligatoirement ces contrôles :
 **Seuil**
 : Détermine le niveau à partir duquel le compresseur commencera à agir.
 
-
 **Ratio**
 : Contrôle la façon dont le compresseur va "écraser" le son.
 
 **Attaque** et **Relâchement**
 : Contrôle la rapidité du compresseur pour agir sur le son.
 
-![ACE Compressor](en/ardour7-ace-compressor.png?width=450)
+{{< figure src="en/ardour7-ace-compressor.png" alt="ACE Compressor" >}}
 
 Le greffon _ACE Compressor_ sur la capture d'écran ci-dessus a deux contrôles en plus :
 
@@ -75,15 +74,13 @@ Les "gates" sont souvent utilisés pour faire office de réducteur de bruit. Par
 
 Ici, nous avons le greffon _Hard Gate_ (issu d'une suite de greffons LADSPA appelée [CMT](https://www.ladspa.org/cmt/overview.html)) qui présente un seul paramètre de contrôle: le _Threshold_ (seuil) à partir duquel le "gate" va s'ouvrir et laisser passer le signal.
 
-![Hard Gate](en/ardour7-hard-gate.png?width=400)
+{{< figure src="en/ardour7-hard-gate.png" alt="Hard Gate" >}}
 
 D'autres types de "gates", comme le greffon _LSP Gate_ présenté sur la capture d'écran ci-dessous, sont plus complexes. Ils ont un contrôle indépendant sur la rapidité à laquelle le "gate" s'ouvre (_Attack_) et se referme (_Release_), ainsi que d'autres paramètres assez similaires à ceux décrits pour le SC Compressor ci-dessus.
 
 {{< figure alt="LSP Gate" src="en/ardour7-lsp-gate-mono.png" >}}
 
-## Poursuivre
+**Poursuivre**
 
 Maintenant que nous avons exploré quelques outils pour positionner la plage dynamique là où vous le souhaitez, il est temps de procéder au réglage de la balance des fréquences présentes dans chaque piste individuelle et dans votre mix global.
 Dans le prochain chapitre, nous apprendrons comment utiliser l'égaliseur pour faire cela correctement.
-
-Suivant : [ÉGALISER](../equalizing)

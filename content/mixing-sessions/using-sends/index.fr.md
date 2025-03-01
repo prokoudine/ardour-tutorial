@@ -31,7 +31,7 @@ Créez un bus (`Piste > Ajouter une piste, un bus ou un VCA...` dans le menu), n
 Dans cet exemple, nous avons créé un bus stéréo appelé _Drums_ et ajouté le greffon
 _Réverbération ACE_ au bus.
 
-![sends1](en/ardour7-ace-reverb-in-mixer-strip.png?height=200)
+{{< figure src="en/ardour7-ace-reverb-in-mixer-strip.png" alt="sends1" >}}
 
 ### Entrées de bus
 
@@ -46,7 +46,7 @@ Avant d'acheminer un envoi vers ce bus, assurez-vous d'abord que les sorties du 
 Ouvrez également la fenêtre du greffon (double-cliquez sur le rectangle _ACE Reverb_) et
 et réglez le mixage du signal du greffon sur la valeur 1.0 _Blend_.
 
-![sends3](en/ardour7-ace-reverb-settings.png?width=400)
+{{< figure src="en/ardour7-ace-reverb-settings.png" alt="sends3" >}}
 
 Cela permet de s'assurer que le bus transporte tout le signal traité du greffon, et aucun signal non traité vers le bus _Master_. Rappelez-vous que les signaux non traités, "propres", sont toujours disponibles sur leurs pistes d'origine, il n'est donc pas nécessaire de les dupliquer dans ce bus.
 
@@ -56,15 +56,14 @@ Nous pouvons maintenant créer des départs dans les autres pistes et les achemi
 
 Comme les greffons, les départs sont également créés dans la boîte du processeur. Allez sur chacune de vos pistes de batterie, cliquez avec le bouton droit de la souris dans l'espace vide de la boîte du processeur et créez un _New Aux Send..._ dirigé vers le bus approprié (dans notre cas, nommé _Drums_).
 
-![sends4](en/ardour7-adding-aux-send.png?height=500)
+{{< figure src="en/ardour7-adding-aux-send.png" alt="sends4" >}}
 
-{{< callout type="info" >}}
-Si vous ne voyez pas l'option _New Aux Sends..._ dans le menu, c'est probablement parce que vous n'avez pas encore créé de bus. Revenez à l'étape précédente pour créer le bus.
-{{< /callout >}}
+> [!NOTE]
+> Si vous ne voyez pas l'option _New Aux Sends..._ dans le menu, c'est probablement parce que vous n'avez pas encore créé de bus. Revenez à l'étape précédente pour créer le bus.
 
 Vous devriez maintenant voir l'envoi affiché dans la boîte du processeur :
 
-![postatténuateur](en/ardour7-post-fader-send.png?height=200)
+{{< figure src="en/ardour7-post-fader-send.png" alt="postatténuateur" >}}
 
 Le petit curseur _Send_ que vous voyez juste en dessous du rectangle vert est l'atténuateur send qui contrôle la quantité de son envoyée de cette piste vers le bus.
 
@@ -74,13 +73,12 @@ Remarquez que l'image ci-dessus montre un envoi post-atténuateur (il se situe _
 
 Dans un envoi _pre_-atténuateur, en revanche, le niveau d'envoi est contrôlé uniquement par l'atténuateur d'envoi, indépendamment de la piste ou du bus. Un envoi pré-atténuateur se présente comme ceci :
 
-![preatténuateur](en/ardour7-pre-fader-send.png?height=200)
+{{< figure src="en/ardour7-pre-fader-send.png" alt="preatténuateur" >}}
 
 Il est possible de faire glisser le rectangle d'envoi vers le haut ou vers le bas de la boîte du processeur pour le rendre pré ou post-atténuateur selon les besoins.
 
-{{< callout type="info" >}}
-Le choix de pré- ou post-atténuateur dépend du type de greffon d'effet utilisé et du résultat souhaité. Pour cet exercice, l'un ou l'autre fonctionnera.
-{{< /callout >}}
+> [!NOTE]
+> Le choix de pré- ou post-atténuateur dépend du type de greffon d'effet utilisé et du résultat souhaité. Pour cet exercice, l'un ou l'autre fonctionnera.
 
 Un envoi se comporte comme n'importe quel autre greffon dans la boîte du processeur. Vous pouvez le désactiver temporairement en cliquant sur la petite LED, et vous pouvez faire un clic droit sur le rectangle pour accéder à d'autres options, y compris _Delete_.
 
@@ -94,9 +92,7 @@ Le bus _Drums_ reçoit maintenant la somme de toutes les pistes et lui applique 
 
 Les départs étant très utiles pour ce type de travail avec les greffons d'effet, ils sont aussi communément appelés "départs d'effet", ils sont aussi communément appelés "Effect Sends" (départs d'effets).
 
-## Poursuivre
+**Poursuivre**
 
 Maintenant que vous savez comment ajouter des plugins à une piste, et comment ajouter des départs aux pistes pour créer des bus de greffons utilisables par n'importe quel nombre de pistes, il peut être utile de connaître quelques autres plugins utiles dans le processus de mixage.
 Veuillez poursuivre avec les chapitres suivants qui traitent de la _dynamique_ et de l' _égalisation_.
-
-Suivant : [DYNAMIQUE](../dynamics)

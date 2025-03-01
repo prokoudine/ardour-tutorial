@@ -102,9 +102,8 @@ Dessinez une courbe d'automatisation pour ce paramètre. N'oubliez pas de régle
 
 Dans l'image ci-dessus, le changement de hauteur du son évolue maintenant dans le temps, contrôlé par la courbe.
 
-{{< callout type="info" >}}
-Vous pouvez masquer une piste d'automatisation en cliquant sur le "X" dans le coin supérieur gauche de la piste d'automatisation. Notez qu'une piste d'automatisation masquée continue à fonctionner même lorsqu'elle n'est pas visible. 
-{{< /callout >}}
+> [!NOTE]
+> Vous pouvez masquer une piste d'automatisation en cliquant sur le "X" dans le coin supérieur gauche de la piste d'automatisation. Notez qu'une piste d'automatisation masquée continue à fonctionner même lorsqu'elle n'est pas visible.
 
 ## Améliorer la résolution visuelle de l'automatisation
 
@@ -113,9 +112,8 @@ Le pointeur se transforme en une double flèche verticale. Faites-le glisser ver
 
 {{< figure alt="pluginautomation5" src="en/Ardour4_Automation_Plugin4.png" >}}
 
-{{< callout type="info" >}}
-N'oubliez pas que vous pouvez également effectuer un zoom avant et arrière pour augmenter la résolution sur l'axe horizontal.
-{{< /callout >}}
+> [!NOTE]
+> N'oubliez pas que vous pouvez également effectuer un zoom avant et arrière pour augmenter la résolution sur l'axe horizontal.
 
 ## Travailler avec les points d'automatisation
 
@@ -186,9 +184,9 @@ Comme nous l'avons vu plus haut, les deux sont très similaires. Avec la pratiqu
 
 La capture d'écran ci-dessus montre un simple fondu progressif commençant par la première région de la piste et se terminant à la dernière région. Il est très simple de faire cela avec l'automatisation des atténuateurs, alors qu'il serait beaucoup plus difficile de le faire en utilisant l'automatisation spécifique à la région.
 
-## Poursuivre
+**Poursuivre**
 
 Une fois votre automatisation en place, vous êtes prêt à exporter votre mixage stéréo vers un fichier audio que vous pouvez écouter ou partager sur un site web.
 Veuillez passer à la section suivante pour apprendre les différentes façons de le faire.
 
-Suivant : [EXPORTATION D'UNE SESSION](../exporting-a-session)
+Suivant : [EXPORTATION D'UNE SESSION](../../exporting-sessions/exporting-a-session/)

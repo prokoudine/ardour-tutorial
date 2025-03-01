@@ -26,7 +26,7 @@ Dans la fenêtre _Editor_, vous pouvez voir la bande de mixage de la piste séle
 
 Nous voyons ici l'ensemble de la bande de mixage, telle qu'elle apparaît dans la fenêtre _Editor_ ou dans la fenêtre _Mixer_. 
 
-![strip1](en/Ardour4_Mixer_Strip_1.png?height=60vh)
+{{< figure src="en/Ardour4_Mixer_Strip_1.png" alt="strip1" >}}
 
 ### Modes standard et étroit
 
@@ -49,7 +49,7 @@ C'est là que vous pouvez ajouter des greffons, par exemple. Le flux de signal d
 
 La boîte de processeur contient toujours un processeur à curseur bleu. Il indique l'endroit de la chaîne de processeurs où se trouve l'atténuateur du canal principal - il s'agit de l'atténuateur affiché dans la moitié inférieure de la bande. Voir _Utilisation des greffons_ et _Utilisation des envois_ pour une discussion détaillée de cette zone.
 
-![Vues et contrôles en ligne](en/ardour7-inline-views-and-controls.png?width=50vw)
+{{< figure src="en/ardour7-inline-views-and-controls.png" alt="Vues et contrôles en ligne" >}}
 
 D'autres vues et contrôles sont possibles dans la boîte du processeur, comme le montre la capture d'écran ci-dessus.
 
@@ -60,11 +60,10 @@ Par exemple, un égaliseur peut afficher un aperçu de la façon dont les diffé
 
 Pour contrôler ces deux fonctions, utilisez le sous-menu _Contrôles_ dans le menu du clic droit d'un greffon. Comme les affichages en ligne sont activés par défaut, tout ce que vous pouvez faire est de le désactiver (puis de le réactiver). Pour activer un contrôle pour un greffon, il suffit de cliquer sur son nom dans le menu.
 
-![Sous-menu des contrôles dans Ardour 7](en/ardour7-plugin-controls-submenu.png?height=60vh)
+{{< figure src="en/ardour7-plugin-controls-submenu.png" alt="Sous-menu des contrôles dans Ardour 7" >}}
 
-{{< callout type="info" >}}
-Pour activer plusieurs contrôles pour un greffon, la façon la plus pratique est d'ouvrir le menu du clic droit, de survoler un contrôle et d'appuyer sur **Barre d'espace** de votre clavier, de survoler le contrôle suivant, d'appuyer à nouveau sur **Barre d'espace**, etc.
-{{< /callout >}}
+> [!NOTE]
+> Pour activer plusieurs contrôles pour un greffon, la façon la plus pratique est d'ouvrir le menu du clic droit, de survoler un contrôle et d'appuyer sur **Barre d'espace** de votre clavier, de survoler le contrôle suivant, d'appuyer à nouveau sur **Barre d'espace**, etc.
 
 La partie suivante de la bande de mixage comprend des commandes pour le panoramique, l'enregistrement, la sourdine et le solo, entre autres.
 
@@ -74,7 +73,7 @@ Le panoramique est généralement lié au placement des sons entre les haut-parl
 
 En fonction du nombre de canaux dans une piste, Ardour fournira une interface utilisateur dédiée pour contrôler le panoramique. Dans la capture d'écran ci-dessous, une piste mono est à gauche et une piste stéréo est à droite :
 
-![Mono vs. stereo panning](en/ardour7-mono-vs-stereo-panning.png?width=20vw)
+{{< figure src="en/ardour7-mono-vs-stereo-panning.png" alt="Mono vs. stereo panning" >}}
 
 Veuillez vous référer au chapitre _Panoramique_ pour plus d'informations.
 
@@ -84,22 +83,22 @@ Les pistes et les bus peuvent avoir deux états connexes supplémentaires : la m
 
 Toute piste ou bus en _mute_ sera inaudible par le bus _Master_ ou le bus _Audition_. Le mélangeur de pistes contient également un bouton **Mute** miniaturisé, situé entre le bouton **Record Arm** et le bouton **Solo**. Un clic droit sur le bouton **Mute** vous permet d'accéder à des options avancées pour le comportement du bouton Mute.
 
-![Bouton sourdine à l'état activé et désactivé](en/ardour7-mute.png?width=20vw)
+{{< figure src="en/ardour7-mute.png" alt="Bouton sourdine à l'état activé et désactivé" >}}
 
 Lorsqu'une piste ou un bus est en _soloing_, toutes les autres pistes et bus sont sont inaudibles à travers le bus _Master_ ou le bus _Audition_, à moins que vous ne les mettiez en solo. Ainsi, si vous avez besoin de jouer seulement deux pistes ou un bus, vous devez les mettre en solo.
 Si vous avez besoin de jouer seulement deux pistes sur huit, vous n'avez pas besoin de couper le son des six autres pistes, vous n'avez qu'à mettre ces deux pistes en solo. Veuillez noter que la mise en solo d'un bus ne rendra aucune piste silencieuse et vice-versa. 
 
-![Bouton Solo](en/ardour7-solo.png?width=20vw)
+{{< figure src="en/ardour7-solo.png" alt="Bouton Solo" >}}
 
 Lorsqu'une piste ou un bus est en solo, l'indicateur _solo_ dans le menu _Auxiliary Controls_ clignote en rouge. Cliquer sur l'indicateur de solo pendant qu'il clignote désactivera tous les solos de la session.
 
-![Soloing](en/ardour7-soloing-flash-button.png?width=40vw)
+{{< figure src="en/ardour7-soloing-flash-button.png" alt="Soloing" >}}
 
 ### Armer l'enregistrement
 
 Le bouton _Rec_ arme la piste pour l'enregistrement, comme indiqué dans le chapitre _Enregistrement audio_.
 
-![Armement pour l'enregistrement](en/ardour7-arm-rec.png?width=20vw)
+{{< figure src="en/ardour7-arm-rec.png" alt="Armement pour l'enregistrement" >}}
 
 ### Atténuateur, Fade/crête mètres
 
@@ -119,8 +118,6 @@ Veuillez vous référer au chapitre _Mixage des niveaux_ pour des instructions p
 
 Enfin, nous atteignons le bas de la bande du mélangeur. C'est là que se trouve le bouton **Output Routing**, marqué comme "Master" dans la capture d'écran précédente, car il se connecte à un bus appelé "Master". Ce point a été abordé plus tôt dans la section chapitre "Comprendre le routage".
 
-## Poursuivre
+**Poursuivre**
 
 Maintenant que nous avons vu les principales zones de la bande de mixage, nous pouvons passer au chapitre _Niveaux de mixage_ pour voir comment nous pouvons commencer à l'utiliser.
-
-Suivant : [NIVEAUX DE MIXAGE](../mixing-levels)
