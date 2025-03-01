@@ -64,8 +64,6 @@ permet de faire une seule copie à la fois.
 
 - L'action unique de duplication avec **Ctrl+Clic** sur la région + _Glisser une copie_.
 
-## Poursuivre
+**Poursuivre**
 
 Dans le prochain tutoriel, nous apprendrons à étirer/réduire les régions qui sont plus longues ou plus courtes qu'une mesure afin de s'adapter au rythme de notre passage.
-
-Suivant : [ETIRER ET REDUIRE LES REGIONS](../stretching-shrinking-regions)

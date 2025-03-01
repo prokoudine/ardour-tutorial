@@ -13,7 +13,7 @@ Certaines de ces options peuvent se produire à des _points d'édition_ spécifi
 
 Le mode _Grab_ (raccourci **G**) est l'outil de sélection et de déplacement des objets. Il est situé juste en dessous du menu transport dans la fenêtre _Editor_ (la petite icône "main"). Vous utiliserez beaucoup cet outil dans votre travail sur Ardour.
 
-![Object Tool](en/ardour7-grab-mode.png?width=30vw)
+{{< figure src="en/ardour7-grab-mode.png" alt="Object Tool" >}}
 
 Lorsqu'il est actif, le pointeur de votre souris ressemble à une petite icône de main.
 
@@ -27,7 +27,7 @@ Essayez toutes les opérations ci-dessous pour vous entraîner :
     
 - Vous pouvez également faire glisser une boîte de sélection sur plusieurs régions pour les sélectionner toutes.
 
-![Object selection](en/ardour7-object-selection.png?width=50vw)
+{{< figure src="en/ardour7-object-selection.png" alt="Object selection" >}}
 
 - Déplacer plusieurs régions en même temps après les avoir sélectionnées. 
 
@@ -48,9 +48,8 @@ Vous pouvez déplacer les régions horizontalement (latéralement) vers un autre
 
 Lorsqu'un ensemble d'une ou plusieurs régions est sélectionné, vous pouvez déplacer l'ensemble en faisant glisser la souris.
 
-{{< callout type="info" >}}
-Veillez à sélectionner la région dans sa section de forme d'onde, car la sélection de la zone de la barre de titre du bas est utilisée pour une action différente (voir _Découpage_ des régions ci-dessous).
-{{< /callout >}}
+> [!NOTE]
+> Veillez à sélectionner la région dans sa section de forme d'onde, car la sélection de la zone de la barre de titre du bas est utilisée pour une action différente (voir _Découpage_ des régions ci-dessous).
 
 ## Duplication de régions
 
@@ -71,7 +70,7 @@ Dans la capture d'écran suivante, les régions ont été dupliquées à l'aide 
 Lorsque vous utilisez les commandes standard copier/couper/coller, où les régions seront-elles collées ?
 L'emplacement exact est déterminé dans le menu déroulant.
 
-![Point d'édition](en/ardour7-edit-point-menu.png?width=25vw)
+{{< figure src="en/ardour7-edit-point-menu.png" alt="Point d'édition" >}}
 
 Si _Mouse_ est sélectionné comme point d'édition, la région copiée sera collée à la position actuelle de la souris.
 
@@ -89,10 +88,8 @@ Les marqueurs d'emplacement peuvent être ajoutés à la ligne de temps en cliqu
 
 {{< figure alt="Marqueur d'emplacement" src="en/Ardour4_Location_Marker.png" >}} 
 
-{{< callout type="info" >}}
-Lorsque vous créez une nouvelle session, deux marqueurs d'emplacement sont automatiquement ajoutés par défaut. Il s'agit des marqueurs _start_ et _end_ que vous voyez dans la capture d'écran ci-dessus.
-Si vous ne voyez pas le marqueur _end_, effectuez un zoom arrière suffisant et vous le trouverez.
-{{< /callout >}}
+> [!NOTE]
+> Lorsque vous créez une nouvelle session, deux marqueurs d'emplacement sont automatiquement ajoutés par défaut. Il s'agit des marqueurs _start_ et _end_ que vous voyez dans la capture d'écran ci-dessus. Si vous ne voyez pas le marqueur _end_, effectuez un zoom arrière suffisant et vous le trouverez.
 
 ## Diviser les régions
 
@@ -114,9 +111,8 @@ Les régions peuvent également être divisées en utilisant la tête de lecture
 
 Les régions divisées recevront un nom dérivé du nom original de sa région mère et vous le verrez apparaître dans votre liste de régions. Par exemple, dans l'image ci-dessus, vous voyez deux régions appelées _pink.15_ et _pink.16_, ce qui signifie qu'elles ont été divisées à partir d'une région parente appelée "pink" (non montrée dans l'image).
 
-{{< callout type="info" >}}
-La division des plages suivra les paramètres de votre grille. Par exemple, si vous avez une grille définie pour les temps, les divisions se produiront aux limites des temps. Si vous choisissez _Pas de grille_, les divisions se produiront à l'endroit où se trouve le point d'édition, indépendamment de la grille.
-{{< /callout >}}
+> [!NOTE]
+> La division des plages suivra les paramètres de votre grille. Par exemple, si vous avez une grille définie pour les temps, les divisions se produiront aux limites des temps. Si vous choisissez _Pas de grille_, les divisions se produiront à l'endroit où se trouve le point d'édition, indépendamment de la grille.
 
 ## Découpage des régions
 
@@ -127,9 +123,8 @@ Cette action est non destructive : aucun son n'est supprimé. C'est comme si com
 
 {{< figure alt="Trim" src="en/Ardour4_Trimming_Regions.gif" >}}
 
-{{< callout type="info" >}}
-Comme la division, l'élagage obéit aux paramètres de la grille. Si vous ne voulez pas que votre que votre rognage soit contraint à une grille, désactivez simplement la grille (_No Grid_).
-{{< /callout >}}
+> [!NOTE]
+> Comme la division, l'élagage obéit aux paramètres de la grille. Si vous ne voulez pas que votre que votre rognage soit contraint à une grille, désactivez simplement la grille (_No Grid_).
 
 ## Régions supprimées
 
@@ -176,22 +171,24 @@ En d'autres termes, la première région s'efface en miroir au fur et à mesure 
 
 Pour que cela fonctionne, cependant, nous devons nous assurer que la région qui a le fondu désiré est *au sommet* dans le système de superposition d'Ardour. Pour modifier la superposition des régions, sélectionnez une région et allez dans le menu `Région > Layering`. 
 
-![Crossfade4](en/ardour7-crossfade-4.png?width=50vw)
+{{< figure src="en/ardour7-crossfade-4.png" alt="Crossfade4" >}}
 
 La différence peut être difficile à entendre si vous faites cela avec les sons percussifs très courts que nous avons importés plus tôt.
+
 Pour vraiment entendre l'effet, importez quelques échantillons plus longs pour l'essayer (par exemple, un échantillon de sons de pluie et un autre d'une voix humaine), Superposez plusieurs secondes de vos échantillons longs sur la même piste. Vous entendrez la différence lorsque vous déplacerez la deuxième région vers le bas (_Lower to Bottom), puis de nouveau vers le haut (_Raise to Top_).
+
 Lorsqu'il est en haut, nous entendrons le fondu enchaîné souhaité. Lorsqu'il est en bas, n'entendrons pas de fondu enchaîné, mais un changement brusque de la première à la deuxième région (en supposant que votre première région n'ait pas de fondu sortant spécifié, comme dans les captures d'écran ci-dessus).
 
 ## Utiliser les paramètres de la grille
 
 Expérimentez avec le paramètre _Grid Mode_, comme indiqué dans le chapitre _Setting Up the timeline_, pour obtenir différents types de quantification - autrement dit, pour contraindre les limites de chaque région à certains points de la grille.
+
 Ici, la grille a été activée et réglée sur _Beats/16_, pour quantifier les régions en doubles croches à l'intérieur de chaque mesure.
+
 Il se peut que vous souhaitiez découper les points finaux de certains échantillons, comme nous l'avons vu plus haut, pour qu'ils s'intègrent dans la structure métrique que vous avez mise en place.
 
 {{< figure alt="Beat" src="en/ardour7-beat.png" >}} 
 
-## Poursuivre
+**Poursuivre**
 
 Dans le prochain chapitre, nous explorerons d'autres possibilités offertes par les régions.
-
-Next: [Autres opérations sur les régions](../further-region-operations)

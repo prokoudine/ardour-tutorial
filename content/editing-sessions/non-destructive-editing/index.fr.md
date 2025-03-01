@@ -69,8 +69,6 @@ Typiquement, cela se fait lorsque vous avez fait des douzaines de prises, que vo
 
 Même dans ce cas, vous le faites en deux étapes. D'abord, vous allez dans `Session > Nettoyer > Nettoyer les sources inutilisées` pour mettre les fichiers originaux inutilisés dans une poubelle, puis vous allez séparément dans `Session > Nettoyage > Nettoyer les sources inutilisées` pour dire à Ardour de supprimer physiquement les fichiers inutilisés.
 
-## Poursuivre
+**Poursuivre**
 
 Maintenant que vous connaissez les bases de l'édition non destructive, passons à l'arrangement et à l'édition proprement dits.
-
-Next: [Arranger les pistes](../arranging-tracks)

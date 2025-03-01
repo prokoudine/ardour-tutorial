@@ -11,8 +11,7 @@ La grande majorité du travail consiste à modifier la position et la durée des
 
 Passons donc en revue les outils disponibles, puis faisons un exercice rapide.
 
-La plupart de l'édition suppose d'avoir au moins une note sélectionnée dans une région MIDI.
-Nous commencerons par la sélection des notes.
+La plupart de l'édition suppose d'avoir au moins une note sélectionnée dans une région MIDI. Nous commencerons par la sélection des notes.
 
 ## Sélectionner des notes
 
@@ -71,7 +70,7 @@ Pour modifier rapidement la vélocité d'une note, survolez son milieu sur le ca
 
 Un moyen simple de modifier numériquement la vélocité (ainsi que le canal MIDI, la hauteur et la position) est d'utiliser les paramètres la boîte de dialogue des propriétés de la note. Cliquez avec le bouton droit de la souris sur une ou plusieurs notes, puis sélectionnez _Editer_.
 
-![Édition des propriétés de la note](en/note-properties.png?width=45vw)
+{{< figure src="en/note-properties.png" alt="Édition des propriétés de la note" >}}
 
 Si plusieurs notes ont été sélectionnées, vous pouvez les modifier en masse pour leur donner la même valeur. Pour cela, activez l'option _Set selected notes to this velocity_ avant d'appliquer les changements.
 
@@ -140,7 +139,7 @@ Mais cela va sonner un peu trop robotique si nous continuons ainsi.
 
 {{< figure src="en/example-regular-velocity-pattern.png" alt="" >}}
 
-## Suite
+**Poursuivre**
 
 C'était le dernier chapitre de la section _Édition de régions_. Le prochain chapitre sera consacré à _Mixage_.
 

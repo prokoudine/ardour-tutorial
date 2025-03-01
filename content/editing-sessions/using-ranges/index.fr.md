@@ -14,24 +14,19 @@ Un _intervalle_ est une sélection de la ligne de temps qui peut inclure une ou 
 
 Il existe deux méthodes communement utilisées pour créer des intervalles :
 
-1. Vous pouvez le faire avec l'outil _Grab_ (raccourci **G**) lorsque le mode _Smart_ est activé.
-Dans ce cas, vous devez positionner le pointeur de la souris autour du milieu d'une piste verticalement pour commencer à sélectionner des données, plutôt que de choisir et de déplacer une région.
-Le pointeur de la souris ressemblant à une ligne verticale signifie que vous pouvez commencer la sélection.
+1. Vous pouvez le faire avec l'outil _Grab_ (raccourci **G**) lorsque le mode _Smart_ est activé. Dans ce cas, vous devez positionner le pointeur de la souris autour du milieu d'une piste verticalement pour commencer à sélectionner des données, plutôt que de choisir et de déplacer une région. Le pointeur de la souris ressemblant à une ligne verticale signifie que vous pouvez commencer la sélection.
 
-2. Vous pouvez également utiliser l'outil dédié _Range_ (raccourci **R**).
-Dans ce cas, il suffit de cliquer et de glisser n'importe où sur le canevas pour commencer à sélectionner.
+2. Vous pouvez également utiliser l'outil dédié _Range_ (raccourci **R**). Dans ce cas, il suffit de cliquer et de glisser n'importe où sur le canevas pour commencer à sélectionner.
 
-Vous pouvez sélectionner les données de plusieurs pistes à la fois, comme le montre la capture d'écran ci-dessus.
-Pour ce faire, il suffit de faire glisser le pointeur de la souris vers le haut ou vers le bas en traversant la frontière entre les pistes.
+Vous pouvez sélectionner les données de plusieurs pistes à la fois, comme le montre la capture d'écran ci-dessus. Pour ce faire, il suffit de faire glisser le pointeur de la souris vers le haut ou vers le bas en traversant la frontière entre les pistes.
 
 Lorsque le dock _Editor List_ est disponible, vous pouvez voir les propriétés de la plage en haut de celui-ci : les heures de début et de fin de l'intervalle ainsi que sa durée. Lorsqu'un intervalle est créé, l'onglet _Pistes & Bus_ sélectionnera également les pistes traversées par l'intervalle.
 
-![Propriétés des intervalles](en/ardour7-range-properties.png?height=60vh)
+{{< figure src="en/ardour7-range-properties.png" alt="Propriétés des intervalles" >}}
 
-Il peut être utile de créer des intervalles qui s'alignent sur les bords des régions de votre ligne de temps.
-Pour ce faire, activez l'option _Snap_ dans la barre d'outils et sélectionnez _No Grille_ dans la liste déroulante située à côté.
+Il peut être utile de créer des intervalles qui s'alignent sur les bords des régions de votre ligne de temps. Pour ce faire, activez l'option _Snap_ dans la barre d'outils et sélectionnez _No Grille_ dans la liste déroulante située à côté.
 
-![Accrochage aux limites de la région](en/ardour7-snap-to-region-boundaries.png?width=10vw)
+{{< figure src="en/ardour7-snap-to-region-boundaries.png" alt="Accrochage aux limites de la région" >}}
 
 ## Edition des intervalles
 
@@ -65,7 +60,7 @@ immédiate.
 Tant que les marqueurs de boucle sont présents, vous pouvez commencer à lire en boucle cette partie de la ligne de temps à tout moment (sur la capture d'écran ci-dessus).
 Pour ce faire, cliquez sur le bouton **Lecture en boucle** dans la barre d'outils _Transport_ ou appuyez sur le raccourci **L**.
 
-![Bouton de boucle d'intervalle dans Transport](en/ardour7-play-loop-range-button.png?width=35vw)
+{{< figure src="en/ardour7-play-loop-range-button.png" alt="Bouton de boucle d'intervalle dans Transport" >}}
 
 Vous pouvez également modifier la position des marqueurs de boucle tout en jouant l'intervalle dans une boucle. Il suffit de saisir un marqueur et de le faire glisser vers la gauche ou vers la droite.
 
@@ -79,8 +74,6 @@ Il existe d'autres opérations que vous pouvez effectuer sur les intervalles, to
 
 Vous pouvez également inspecter les caractéristiques sonores et spectrales des données d'un intervalle ou exporter uniquement les données d'un intervalle plutôt que la session entière (Voir [Ce chapitre](../../exporting-sessions/exporting-a-range/) pour plus d'information sur l'export d'intervalle).
 
-## Poursuivre
+**Poursuivre**
 
 Dans l'étape suivante, nous allons apprendre à travailler avec des régions pour composer un rythme avec ces échantillons.
-
-Suivant : [Travailler avec des régions](../working-with-regions)

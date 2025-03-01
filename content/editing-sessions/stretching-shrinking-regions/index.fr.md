@@ -8,7 +8,7 @@ cascade:
 
 Les régions peuvent être allongées ou rétrécies sans que leur hauteur ne soit modifiée en utilisant l'outil _Etirer/Rétrécir les régions_ (raccourci **T**, pour "Time-stretch").
 
-![Stretch/Shrink Regions tool](en/ardour7-stretch-shrink-edit-mode.png?width=20vw)
+{{< figure src="en/ardour7-stretch-shrink-edit-mode.png" alt="Stretch/Shrink Regions tool" >}}
 
 Un petit ajustement de la longueur d'une région peut ne pas causer d'artefacts sonores perceptibles. Cependant, plus la modification de la longueur est importante, plus l'effet du traitement sur le son est évident.
 
@@ -30,7 +30,7 @@ Nous pouvons corriger ce problème en utilisant l'outil _Stretch/Shrink_. Sélec
 
 Lorsque vous relâchez le bouton de la souris, la boîte de dialogue _Time Stretch Audio_ apparaît. Vous pouvez expérimenter différents paramètres pour l'opération _Time Stretch_. Chacun d'entre eux affectera le son d'une manière différente. C'est une bonne idée d'essayer différents paramètres d'étirement pour trouver celui qui vous donne le résultat le plus satisfaisant.
 
-![Boîte de dialogue Time Stretch Audio](en/ardour7-stretch-shrink-2.png?width=30vw)
+{{< figure src="en/ardour7-stretch-shrink-2.png" alt="Boîte de dialogue Time Stretch Audio" >}}
 
 Cliquez sur **Stretch/Shrink** dans la boîte de dialogue _Time Stretch Audio_ pour lancer l'opération.
 
@@ -38,8 +38,6 @@ Lorsque l'opération est terminée, la région de la ligne de synthétiseur a ma
 
 {{< figure src="en/ardour7-stretch-shrink-3.png" alt="Stretched audio region" >}}
 
-## Poursuivre
+**Poursuivre**
 
 Parlons maintenant de l'édition des régions MIDI.
-
-Suivant : [EDITION DES RÉGIONS MIDI](../editing-midi-regions/)
