@@ -22,7 +22,7 @@ cascade:
   {{< card link="getting-started/" title="Pour commencer" subtitle="Comprendre l'interface utilisateur" icon="fast-forward" >}}
   {{< card link="recording/" title="Enregistrement" subtitle="Comment enregistrer de l'audio et du MIDI avec Ardour" icon="microphone" >}}
   {{< card link="editing-sessions/" title="Editer des sessions" subtitle="Comment éditer des sessions avec Ardour" icon="scissors" >}}
-  {{< card link="performing-live/" title="Jouer en direct" subtitle="Comment utiliser le séquenceur matriciel" icon="music-note" >}}
+<!--   {{< card link="performing-live/" title="Jouer en direct" subtitle="Comment utiliser le séquenceur matriciel" icon="music-note" >}} -->
   {{< card link="mixing-sessions/" title="Mixer des sessions" subtitle="Comment configurer le routage et utiliser les plugins" icon="filter" >}}
   {{< card link="exporting-sessions/" title="Exporter des sessions" subtitle="Comment exporter vers des stems et des fichiers individuels" icon="share" >}}
   {{< card link="saving-sessions/" title="Sauvegarder des sessions" subtitle="Comment enregistrer des instantanés et des modèles de session?" icon="save" >}}
