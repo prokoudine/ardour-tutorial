@@ -30,32 +30,29 @@ La liste déroulante _Ajouter des fichiers ..._ vous permet de choisir la premi�
 
 Commençons par le scénario où vous importez quelques fichiers audio dans la liste des sources.
 
-{{< callout type="info" >}}
-Si vous n'avez pas de fichiers audio appropriés sur votre disque dur pour suivre ces étapes, visitez [freesound.org](http://www.freesound.org/)), où vous pouvez trouver une grande grande collection d'échantillons du domaine public et sous licence Creative Commons dans une dans une variété de taux d'échantillonnage et de formats.
-{{< /callout >}}
+> [!NOTE]
+? Si vous n'avez pas de fichiers audio appropriés sur votre disque dur pour suivre ces étapes, visitez [freesound.org](http://www.freesound.org/)), où vous pouvez trouver une grande grande collection d'échantillons du domaine public et sous licence Creative Commons dans une dans une variété de taux d'échantillonnage et de formats.
 
 Sélectionnez quelques fichiers et dans la liste déroulante _Add files..._ choisissez _to source list_. Assurez-vous que les options _Mapping_ indiquent _une région par fichier_.
 
 {{< figure alt="Ajouter à la liste des sources" src="en/ardour7-to-source-list.png" >}} 
 
-Vous remarquerez que l'option _Copier les fichiers dans la session_ est cochée par défaut.
-Cela fera une copie du ou des fichiers importés dans le dossier de la session actuelle. C'est plus sûr, mais cela utilise plus d'espace disque. Si vous décochez cette option (ce qui n'est pas recommandé !), Ardour utilisera le fichier son à partir de son emplacement actuel sur le disque dur. Dans ce cas, si le fichier est déplacé vers un nouvel emplacement sur le disque dur, vous rencontrerez des difficultés, car Ardour ne pourra pas le retrouver la prochaine fois que vous ouvrirez cette session. **Il est fortement recommandé de laisser cette case cochée (_Copier les fichiers dans la session_)**. 
+Vous remarquerez que l'option _Copier les fichiers dans la session_ est cochée par défaut. Cela fera une copie du ou des fichiers importés dans le dossier de la session actuelle. C'est plus sûr, mais cela utilise plus d'espace disque. Si vous décochez cette option (ce qui n'est pas recommandé !), Ardour utilisera le fichier son à partir de son emplacement actuel sur le disque dur. Dans ce cas, si le fichier est déplacé vers un nouvel emplacement sur le disque dur, vous rencontrerez des difficultés, car Ardour ne pourra pas le retrouver la prochaine fois que vous ouvrirez cette session. **Il est fortement recommandé de laisser cette case cochée (_Copier les fichiers dans la session_)**. 
 
 Cliquez sur **OK** pour continuer.
 
 Le(s) fichier(s) que vous avez importé(s) apparaîtra(ont) dans votre liste _Sources_. Cette liste est située à l'extrême droite de la fenêtre de l'éditeur. Si vous ne la voyez pas, assurez-vous que la case _Montrer la liste de l'éditeur_ est cochée dans le menu _Visualisation_.
 
-!Liste de l'éditeur](fr/ardour7-audio-imported-to-sources-list.png?height=50vh)
+{{< figure src="en/ardour7-audio-imported-to-sources-list.png" alt="Liste de l'éditeur" >}}
 
 En faisant glisser et en déposant un fichier audio répertorié dans la liste des _Sources_ sur le canevas principal, vous pouvez l'insérer dans une piste existante ou nouvelle. Si vous le faites glisser dans une piste existante, il y sera ajouté. Si vous le faites glisser sur l'espace vide sous les pistes existantes, une nouvelle piste sera automatiquement créée pour pour l'accueillir.
 
 Relâchez le bouton de la souris pour terminer l'opération de glisser-déposer. Une nouvelle région sera insérée à l'endroit exact où vous l'avez déposée.
 
-{{< callout type="info" >}}
-Si un fichier son est sélectionné dans la liste de l'éditeur (c.-à-d. s'il est surligné en bleu), la prochaine fois que vous cliquerez sur le nom de ce fichier, Ardour pensera que vous essayez de renommer la région (le nom deviendra éditable). Il est plus probable que vous essayiez simplement de cliquer pour glisser et déposer le fichier sur une piste. Pour cliquer et faire glisser une région précédemment _surlignée_ depuis la liste, vous devez pointer et cliquer dans l'espace vide juste avant ou après le nom.
-{{< /callout >}}
+> [!NOTE]
+> Si un fichier son est sélectionné dans la liste de l'éditeur (c.-à-d. s'il est surligné en bleu), la prochaine fois que vous cliquerez sur le nom de ce fichier, Ardour pensera que vous essayez de renommer la région (le nom deviendra éditable). Il est plus probable que vous essayiez simplement de cliquer pour glisser et déposer le fichier sur une piste. Pour cliquer et faire glisser une région précédemment _surlignée_ depuis la liste, vous devez pointer et cliquer dans l'espace vide juste avant ou après le nom.
 
-Important : vérifiez toujours que vous placez des régions stéréo sur des pistes stéréo.
+Important: vérifiez toujours que vous placez des régions stéréo sur des pistes stéréo.
 Si vous faites glisser un fichier stéréo sur une piste audio mono, seul le canal gauche sera utilisé. Dans la capture d'écran ci-dessous, un fichier stéréo avec des canaux gauche et droit très distincts ont été glissés sur une piste stéréo et une piste nono. Remarquez que dans la piste mono, seul le canal gauche est affiché (et lu).
 
 {{< figure alt="Stereo Mono" src="en/Ardour4_Stereo_Mono_Comparison.png" >}} 
@@ -88,11 +85,10 @@ Le fichier son apparaîtra également dans la liste _Regions_ afin qu'il puisse 
 
 Pour supprimer une région d'une piste, vous pouvez la sélectionner avec la souris et utiliser la fonction *Couper* dans le menu, la touche **Control** (ou **Apple**) et la touche **X** la touche **Delete** ou la combinaison de touches **Fn + Backspace** (utilisée par exemple sur un ordinateur portable).
 
-{{< callout type="warning" >}}
-**Sauvegardez souvent votre travail!** Le raccourci **Control + S** est votre ami. Utilisez-le beaucoup, tout le temps.
-{{< /callout >}}
+> [!WARNING]
+> **Sauvegardez souvent votre travail!** Le raccourci **Control + S** est votre ami. Utilisez-le beaucoup, tout le temps.
 
-## Poursuivre
+**Poursuivre**
 
 Maintenant que vous avez du matériel dans votre session, vous pourriez vouloir personnaliser la timeline pour mieux répondre à vos besoins ou passer à l'enregistrement de nouveaux éléments en direct.
 

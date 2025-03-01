@@ -16,7 +16,7 @@ Parlons maintenant de la configuration des horloges, du snapping et des règles 
 
 Il y a deux horloges en haut de la fenêtre _Editor_ qui peuvent afficher l'heure dans un certain nombre de formats : *Timecode*, *Bars:Beats*, *Minutes:Seconds*, et *Echantillons*. Faites un clic droit pour changer le format de chacune des deux horloges.
 
-![Unités d'horloge](en/Ardour6_Clock_Units.png?width=30vw)
+{{< figure src="en/Ardour6_Clock_Units.png" alt="Unités d'horloge" >}}
 
 Ces horloges sont appelées les horloges de transport. Celle de gauche est l'horloge de transport primaire et celle de droite l'horloge de transport secondaire. L'avantage d'avoir deux horloges de transport est que vous pouvez voir la position de la tête de lecture dans deux unités de temps différentes sans avoir à modifier les paramètres.
 
@@ -31,14 +31,13 @@ Les paramètres d'accrochage sont situés juste en dessous des horloges, à droi
 
 Il existe un commutateur global, _Snap_, puis une liste déroulante de presets de quantification de la grille : _Bar_, _1/4 note_, _1/8 note_ etc, _Timecode_, _Minutes et Secondes_, _CAD frames_, et plus encore.
 
-![Snap](en/Ardour6_Snap_Options_and_Nudge_Controls.png?width=20vw)
+{{< figure src="en/Ardour6_Snap_Options_and_Nudge_Controls.png" alt="Snap" >}}
 
 Lorsque le préréglage de quantification _No Grid_ est sélectionné, aucune grille ne s'affiche sur le canevas des pistes/bus. Dans ce cas, avec le snapping désactivé, rien ne s'accrochera. Et avec le snapping activé, les régions et les notes ne s'accrocheront qu'aux marqueurs d'emplacement.
 
 ## Ligne de temps
 
-La _timeline_ est située sous les paramètres d'accrochage, juste au-dessus du canevas principal.
-principal. En cliquant avec le bouton droit de la souris sur les étiquettes de la timeline (en cliquant avec le bouton droit de la souris sur la zone de gauche où les mots "Timecode, Bar:Beats, Meter" etc. sont affichés), vous pouvez cocher les cases pour afficher ou masquer les différents types d'informations temporelles.
+La _timeline_ est située sous les paramètres d'accrochage, juste au-dessus du canevas principal. En cliquant avec le bouton droit de la souris sur les étiquettes de la timeline (en cliquant avec le bouton droit de la souris sur la zone de gauche où les mots "Timecode, Bar:Beats, Meter" etc. sont affichés), vous pouvez cocher les cases pour afficher ou masquer les différents types d'informations temporelles.
 
 {{< figure alt="Timeline" src="en/ardour7-timeline-rulers.png" >}}
 
@@ -59,8 +58,6 @@ Une fois que vous avez fait cela, assurez-vous de rendre la règle _Timecode_ vi
 
 Il existe d'autres types de règles : tempo, signature temporelle, marqueurs d'emplacement et bien d'autres encore.
 
-## Poursuivre
+**Poursuivre**
 
 Maintenant que vous avez configuré la ligne de temps, passez au chapitre sur l'installation des greffons. Cela vous sera utile dans le prochain chapitre lorsque vous vous apprendrez à enregistrer le MIDI.
-
-Suivant : [INSTALLER DES GREFFONS](../installing-plugins)

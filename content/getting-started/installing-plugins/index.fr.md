@@ -38,8 +38,7 @@ Ce que vous pouvez faire, c'est :
 1. Décompresser tous vos greffons VST2.x dans le même dossier.
 (Sous Linux, `~/.vst` est généralement suggéré).
 
-2. Dans Ardour, allez dans _Editer > Préférences > greffons > VST_ et dans la section VST2.x,
-cliquez sur le bouton **Editer** pour ajouter un nouveau chemin pour les greffons VST2.x.
+2. Dans Ardour, allez dans `Editer > Préférences > greffons > VST` et dans la section VST2.x, cliquez sur le bouton **Editer** pour ajouter un nouveau chemin pour les greffons VST2.x.
 
 3. Ajoutez le chemin vers le dossier que vous avez créé à l'étape 1.
 Ardour vous demandera si vous si vous voulez rescanner les greffons. Dites "oui".
@@ -48,9 +47,7 @@ Cette approche fonctionne sur tous les systèmes d'exploitation pris en charge.
 
 ### VST3
 
-La spécification VST3 a des chemins système codés en dur pour le stockage des greffons.
-Sous Windows et macOS, la plupart du temps, vos greffons sont installés dans le bon dossier.
-Tout ce que vous avez à faire est de re-scanner les dossiers de greffons.
+La spécification VST3 a des chemins système codés en dur pour le stockage des greffons. Sous Windows et macOS, la plupart du temps, vos greffons sont installés dans le bon dossier. Tout ce que vous avez à faire est de re-scanner les dossiers de greffons.
 
 Sous Linux, dans de nombreux cas, vous obtenez une archive ZIP avec un dossier
 `plugin-name.vst3` à l'intérieur. Ce dossier doit aller dans `~/.vst3` ou,
@@ -65,7 +62,7 @@ Tout ce que vous avez à faire est de re-scanner ces dossiers.
 ## Re-scanner les dossiers pour les greffons installés
 
 Lors de l'installation, il est recommandé de scanner à nouveau les greffons disponibles.
-Cela se fait typiquement avec le _Plugin Manager_ (_Window > Plugin Manager_).
+Cela se fait typiquement avec le _Plugin Manager_ (`Window > Plugin Manager`).
 
 {{< figure src="en/plugin-manager.png" alt="Plugin manager" >}}
 
@@ -77,7 +74,7 @@ Si vous avez supprimé certains des greffons précédemment installés, il est p
 de procéder à une nouvelle analyse complète.
 Cliquez plutôt sur **Re-scanner tout** et attendez la fin de l'analyse.
 
-## Poursuivre
+**Poursuivre**
 
 Maintenant que vous savez ce qu'il faut faire si vous voulez installer un greffon d'effet
 ou un synthétiseur logiciel, apprenons à enregistrer de l'audio et du MIDI dans Ardour.
