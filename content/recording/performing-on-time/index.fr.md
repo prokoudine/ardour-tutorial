@@ -16,7 +16,7 @@ lorsque vous enregistrez. Si vous êtes à l'aise, vous pouvez activer le métro
 
 Si les clics du métronome ne sont pas audibles, allez dans `Fenêtre > Connexions audio`, cliquez sur _Ardour Misc_ à gauche et voyez si les ports _Click out_ sont connectés au bus Master. Cela permettra aux clics du métronome d'être joués par la même sortie que le reste de votre session.
 
-![Ports de sortie de clics connectés au bus maître](en/click-out-ports.png?width=40vw)
+{{< figure src="en/click-out-ports.png" alt="Ports de sortie de clics connectés au bus maître" >}}
 
 Il y a également une poignée d'options de personnalisation pour le métronome dans la section du même nom de la page de dialogue _Preferences_ : mettre (ou non) l'accent sur le premier premier temps, réglage du gain pour les clics du métronome, chargement de vos propres clics réguliers et accentués, activation du métronome uniquement lors de l'enregistrement.
 
@@ -44,7 +44,7 @@ Si vous avez des difficultés à jouer dans le temps, déplacez la tête de lect
 
 <!-- ## TODO : correction de la latence ??? -->
 
-## Poursuivre
+**Poursuivre**
 
 A ce stade, vous pouvez passer directement à la section [Arrangement de pistes](../../editing-sessions/arranging-tracks/) pour apprendre à arranger les régions dans une composition. Si vous prévoyez d'effectuer des enregistrements plus complexes que ceux que nous avons décrits ici, passez directement à la section plus compliqué que ce que nous avons abordé ici, en particulier avec une carte son multicanaux, ou à partir d'autres programmes audio compatibles avec JACK sur votre ordinateur, vous devriez également jeter un coup d'oeil à la section [Comprendre le Routage](../understanding-routing).
 

@@ -16,7 +16,7 @@ Les navigateurs web (Firefox, Chromium, etc.) ne sont pas des applications compa
 
 Tout ce que vous avez à faire est de lancer Qjackctl, de démarrer JACK, puis de commencer à faire des sons dans le navigateur, puis de connecter les sorties du navigateur à une piste dans Ardour. Vous pouvez utiliser les fenêtres Connections ou Graph de Qjackctl pour faire cela, ou vous pouvez le faire directement dans Ardour. Pour cela, dans le gestionnaire de connexions audio, passez à l'onglet _Autre_ dans _Sources_ sur la gauche et connectez la sortie de votre navigateur à une Ardour qui s'appelle ici _From YT_ :
 
-![Connexion à la sortie YouTube](en/ardour7-youtube-connection-in-ardour.png?width=40vw)
+{{< figure src="en/ardour7-youtube-connection-in-ardour.png" alt="Connexion à la sortie YouTube" >}}
 
 Comme les applications telles que les navigateurs web n'ont généralement pas de ports de sortie audio persistants vous devez faire en sorte que votre navigateur émette de l'audio pour que les ports soient créés. Il s'agit généralement de lire une vidéo ou de démarrer une vidéoconférence.
 
@@ -24,9 +24,8 @@ Après cela, il suffit d'armer la piste pour l'enregistrement, puis de démarrer
 
 {{< figure src="en/ardour7-youtube-recording.png" alt="Démarrer l'enregistrement" >}}
 
-{{< callout type="info" >}}
-Assurez-vous d'avoir déconnecté toutes les autres sorties (comme un micro) de l'entrée de la piste, sinon votre piste pourrait capter plus que ce que vous vouliez et avec l'audio de votre navigateur. 
-{{< /callout >}}
+> [!NOTE]
+> Assurez-vous d'avoir déconnecté toutes les autres sorties (comme un micro) de l'entrée de la piste, sinon votre piste pourrait capter plus que ce que vous vouliez et avec l'audio de votre navigateur.
 
 ### Des applications JACK à Ardour
 
@@ -43,7 +42,7 @@ Par défaut, Hydrogen crée une sortie stéréo à partir de son propre mixage. 
 
 La fenêtre d'Hydrogen est à droite. La fenêtre du "patchbay" d'Ardour a été laissée ouverte pour la démonstration : remarquez que l'application _Hydrogen_ apparaît comme une source sous l'onglet _Autres_. Ses ports sont connectés directement aux entrées des pistes.
 
-## Poursuivre
+**Poursuivre**
 
 Ceci conclut le chapitre _Enregistrement_. Maintenant que vous avez importé de l'audio, enregistré à partir d'une ligne ou d'un microphone, ou même à partir d'une autre application, passez à la section _Arrangement des pistes_ et apprenez à arranger votre composition.
 

@@ -131,9 +131,6 @@ Si vous n'êtes pas habitué à ce type de saisie de notes et à la rotation men
 
 En mode _Draw_, vous pouvez également faire de l'édition légère : sélectionner et redimensionner des notes individuelles, les déplacer, ajuster la vélocité, utiliser le menu le menu du clic droit pour effectuer diverses transformations.
 
-Poursuivre
-----------
+**Poursuivre**
 
 Dans le chapitre suivant, nous parlerons de la façon de vous aider à jouer en synchronisation avec le reste du matériel de la session, que vous utilisiez un clavier MIDI pour enregistrer une partie de synthétiseur ou une guitare basse.
-
-Suivant : [Jouer dans le tempo](../performing-on-time)
