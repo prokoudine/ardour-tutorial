@@ -38,8 +38,6 @@ Par exemple, si vous avez deux entrées micro, une pour la voix et une pour la g
 
 {{< figure src="en/ardour7-recorder-input-new-names.png" alt="" >}}
 
-## Poursuivre
+**Poursuivre**
 
 Enfin, dans la prochaine section, nous jetterons un coup d'oeil rapide à la fenêtre _Cue_, qui est nouvelle dans Ardour 7.0 et qui fournit une interface utilisateur familière pour lancer des clips audio et clips MIDI.
-
-Suivante : [FENÊTRE CUE](../cue-window)

@@ -42,8 +42,6 @@ Voici un exemple simple :
 
 Ardour joue deux mesures d'une piste MIDI régulière qui utilise un instrument échantillonné, puis lance la scène _A_ à la mesure 3, la scène _B_ à la mesure 4, et arrête toutes les scènes à la mesure 5. Vous pouvez déclencher et arrêter des scènes à n'importe quel moment de votre projet, par ailleurs linéaire, autant de fois que vous le souhaitez.
 
-## Poursuivre
+**Poursuivre**
 
 Maintenant que vous êtes familiarisé avec les fenêtres principales d'Ardour, passons à la section suivante où nous créons une nouvelle piste et importons un fichier audio.
-
-Suivant : [Création de pistes et bus](../../creating-tracks-and-busses)

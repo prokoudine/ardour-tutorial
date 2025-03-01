@@ -16,7 +16,7 @@ Lorsque vous démarrez Ardour pour la première fois, il vous posera quelques qu
 - méthode préférée pour surveiller le signal enregistré, etc.
 - pour surveiller le signal en cours d'enregistrement, etc.
 
-![IGU et mise à l'echelle des polices](en/ardour7-gui-and-font-scaling.png)
+{{< figure src="en/ardour7-gui-and-font-scaling.png" alt="IGU et mise à l'echelle des polices" >}}
 
 Cette boîte de dialogue ne sera plus jamais affichée, sauf si vous effacez tous les paramètres. Vous pouvez modifier toutes les préférences que vous y avez définies à tout moment, plus tard dans la boite de dialogue _Preferences_.
 
@@ -24,7 +24,7 @@ Cette boîte de dialogue ne sera plus jamais affichée, sauf si vous effacez tou
 
 Une fois que vous avez passé l'assistant de démarrage, Ardour vous propose de créer une nouvelle _session_ à partir d'un des quelques modèles disponibles.
 
-![Modèles de nouvelle session](en/ardour7-new-session-templates.png)
+{{< figure src="en/ardour7-new-session-templates.png" alt="Modèles de nouvelle session" >}}
 
 Une session englobe tout le matériel dont vous disposez :
 - les pistes avec les données audio et MIDI,
@@ -53,11 +53,11 @@ Une fois que vous avez créé votre session Ardour, ne renommez _pas_ manuelleme
 
 Sous Linux, vous disposez de plusieurs systèmes audio (ou _backends_). Le système _ALSA_ est proposé par défaut. C'est actuellement la façon recommandée d'utiliser Ardour en production. Avec ALSA, il n'y a pas d'enveloppements ou d'abstractions. Vous vous connectez directement aux ports physiques audio et MIDI. Cela signifie qu'Ardour prendra le contrôle de l'interface audio de votre choix et ne la et ne la partagera pas avec d'autres applications. Tant qu'Ardour fonctionne, toutes les applications de bureau que vous exécutez ne pourront pas se connecter à l'interface audio et jouer un son.
 
-![Configuration audio/MIDI](en/ardour7-alsa-backend-settings.png?width=40vw)
+{{< figure src="en/ardour7-alsa-backend-settings.png" alt="Configuration audio/MIDI" >}}
 
 Le backend _PulseAudio_ ne supporte actuellement que la lecture. Cela signifie que vous ne serez pas en mesure d'enregistrer de l'audio tant que vous utiliserez PulseAudio, mais vous pourrez éditer, mixer et exporter dans un casque Bluetooth par exemple. C'est aussi l'option la plus la plus pratique lorsque vous souhaitez suivre un tutoriel de mixage ou de mastering sur YouTube et être capable d'écouter la sortie d'Ardour.
 
-![Configuration PulseAudio](en/ardour7-pulse-audio-settings.png?width=40vw)
+{{< figure src="en/ardour7-pulse-audio-settings.png" alt="Configuration PulseAudio" >}}
 
 Enfin, il y a le backend audio JACK. Il est conçu selon un modèle d'architecture client-serveur. JACK capture tous les ports physiques d'une interface audio et achemine le signal entre ses clients (par exemple, une station de travail audio numérique, un synthétiseur logiciel, un séquenceur de batterie, etc.) et les différents ports. Il est disponible à la fois sur Linux, Windows et macOS.
 
@@ -72,14 +72,12 @@ La plupart des systèmes audio pris en charge ont quelques paramètres communs :
 
 Une fois que vous avez choisi, configuré et démarré le backend audio/MIDI, Ardour va essayer de découvrir les nouveaux greffons, et vous serez accueilli par la fenêtre principale d'Ardour :
 
-![Fenêtre principale d'Ardour, session vide](en/ardour7-ardour-empty-session.png)
+{{< figure src="en/ardour7-ardour-empty-session.png" alt="Fenêtre principale d'Ardour, session vide" >}}
 
-## Poursuivre
+**Poursuivre**
 
 Dans le chapitre suivant, vous allez vous familiariser avec l'interface utilisateur d'Ardour et ses fenêtres principales :
 - Éditeur,
 - mixeur,
 - enregistreur,
 - et Cue.
-
-Next: [Vue d'ensemble de l'interface](../overview-of-the-interface)

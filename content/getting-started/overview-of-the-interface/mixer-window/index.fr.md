@@ -18,8 +18,6 @@ La fenêtre _Mixer_ comporte 3 grandes sections :
 2. une bande de mixage pour les pistes et les bus, y compris un bus maître par lequel transite généralement le signal final,
 3. une section moniteur optionnelle avec des fonctions comme l'écoute avant/après fondu, _Solitaire exclusif_, etc.
 
-## Poursuivre
+**Poursuivre**
 
 Dans la prochaine section, nous allons jeter un coup d'œil rapide à la fenêtre _Enregistreur_ qui est rationalisée pour lancer et contrôler l'enregistrement de plusieurs pistes en même temps.
-
-Suivant : [FENÊTRE ENREGISTREUR](../recorder-window)
