@@ -5,17 +5,9 @@ chapter = false
 weight = 2
 +++
 
-Un _snapshot_ est une représentation de l'état actuel d'une session. En résumé, c'est comme
-version de votre projet en donnant à chaque version un nom significatif et descriptif.
-Même si ce n'est pas vraiment exposé aux utilisateurs, chaque session a toujours au moins
-un instantané qui est ce que vous avez à ce moment-là.
+Un _snapshot_ est une représentation de l'état actuel d'une session. En résumé, c'est comme version de votre projet en donnant à chaque version un nom significatif et descriptif. Même si ce n'est pas vraiment exposé aux utilisateurs, chaque session a toujours au moins un instantané qui est ce que vous avez à ce moment-là.
 
-Supposons que vous ayez enregistré une chanson dans votre home studio et que vous essayiez
-différents arrangements pour voir lequel fonctionne le mieux. Au lieu de créer plusieurs sessions
-et de copier des fichiers entre elles, vous pouvez faire des instantanés chaque fois que vous pensez avoir
-quelque chose qui vaut la peine d'être conservé. À tout moment, vous pouvez sauvegarder
-l'état actuel de la session et passer à un instantané antérieur pour comparer vos
-arrangements.
+Supposons que vous ayez enregistré une chanson dans votre home studio et que vous essayiez différents arrangements pour voir lequel fonctionne le mieux. Au lieu de créer plusieurs sessions et de copier des fichiers entre elles, vous pouvez faire des instantanés chaque fois que vous pensez avoir quelque chose qui vaut la peine d'être conservé. À tout moment, vous pouvez sauvegarder l'état actuel de la session et passer à un instantané antérieur pour comparer vos arrangements.
 
 ## Enregistrer un instantané
 
@@ -37,22 +29,18 @@ Modèle mental : "C'est très intéressant, explorons cette idée plus avant et 
 Par défaut, le programme nomme le nouvel instantané en fonction de la date et de l'horodatage actuels de votre système.
 Si vous le souhaitez, vous pouvez changer le nom pour un nom qui correspond mieux à la session sur laquelle vous travaillez.
 
-![snapshots](en/ardour7-snapshot-name.png?width=350)
+{{< figure src="en/ardour7-snapshot-name.png" alt="snapshots" >}}
 
 ## Rappel d'instantanés
 
 Vous pouvez rappeler un instantané sauvegardé via l'onglet _Snapshots_ dans la zone de droite.
 
-![snapshot2](en/ardour7-snapshot-list.png?width=700)
+{{< figure src="en/ardour7-snapshot-list.png" alt="snapshot2" >}}
 
 Vous y voyez quelques instantanés que nous avons créés, et l'entrée _my_session_ représente l'état d'origine de notre session.
 
 Cliquez sur n'importe quel instantané de la liste pour le recharger.
 
-## Poursuite
+**Poursuite**
 
-Il est parfois utile d'avoir un point de départ par défaut pour les nouvelles sessions.
-Par exemple, pour une configuration que vous utilisez tout le temps lorsque vous démarrez un nouveau projet.
-Pour apprendre à le faire, veuillez passer à la section suivante intitulée _Sauvegarde d'un Modèle_. 
-
-Suivant : [SAUVEGARDE D'UN MODÈLE](../saving-a-template)
+Il est parfois utile d'avoir un point de départ par défaut pour les nouvelles sessions. Par exemple, pour une configuration que vous utilisez tout le temps lorsque vous démarrez un nouveau projet. Pour apprendre à le faire, veuillez passer à la section suivante intitulée _Sauvegarde d'un Modèle_.

@@ -14,7 +14,7 @@ Pour exporter un intervalle, suivez ces étapes :
 
 1. Cliquez sur le bouton **Range Mode** (raccourci **R**)
 
-![Mode intervalle](en/ardour7-range-edit-mode.png?width=250)
+{{< figure src="en/ardour7-range-edit-mode.png" alt="Mode intervalle" >}}
 
 2. Sélectionner un intervalle :
 
@@ -31,7 +31,7 @@ Choisissez des options, si necessaire, et cliquez sur **Export**. L'intervalle s
 
 Définir une plage consiste simplement à spécifier un point de départ et un point d'arrivée dans le temps. L'affichage **Sélection** à droite de l'horloge secondaire indique les heures de début et de fin de la plage sélectionnée, ainsi que sa durée.
 
-![Durée d'intervalle](en/ardour7-range-duration.png?width=600)
+{{< figure src="en/ardour7-range-duration.png" alt="Durée d'intervalle" >}}
 
 L'intervalle créé avec la méthode ci-dessus disparaitra dès que vous cliquerez en dehors de celle-ci.
 
@@ -59,11 +59,10 @@ Vous pouvez utiliser des marqueurs d'intervalle pour "marquer" un ou plusieurs i
 
 4. Cliquez avec le bouton droit de la souris sur l'un des deux marqueurs de sélection d'intervalle sur la ligne de temps et choisissez l'option de menu _Select Range_. La sélection de la plage est rétablie.
 
-{{< callout type="info" >}}
-Vous pouvez effacer tous les marqueurs d'intervalle existants en cliquant avec le bouton droit de la souris sur la zone _Range Markers_ de la ligne de temps et en choisissant _Clear All Ranges_.
-{{< /callout >}}
+> [!NOTE]
+> Vous pouvez effacer tous les marqueurs d'intervalle existants en cliquant avec le bouton droit de la souris sur la zone _Range Markers_ de la ligne de temps et en choisissant _Clear All Ranges_.
 
-## Poursuivre
+**Poursuivre**
 
 Vous savez maintenant comment exporter des régions isolées, des plages sélectionnées de votre session ou la session entière sous forme de mixage stéréo. La dernière section de ce didacticiel explique comment sauvegarder les sessions, les instantanés et les modèles.
 

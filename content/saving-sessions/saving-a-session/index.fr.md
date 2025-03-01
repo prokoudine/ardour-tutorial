@@ -16,17 +16,12 @@ la créez. Pendant que vous travaillez sur la session, vous devez la sauvegarder
 fréquemment. Prenez l'habitude d'appuyer sur **Ctrl+S** (ou **Commande+S** sur Mac)
 après quelques minutes.
 
-{{< callout type="info" >}}
-Évitez d'utiliser des caractères autres que des lettres et des chiffres pour
+> [!NOTE]
+> Évitez d'utiliser des caractères autres que des lettres et des chiffres pour
 nommer votre session. Évitez les espaces blancs, les lettres accentuées, !@#$%\*()+,
-les points, les virgules, etc.
-Utilisez des tirets ou des traits de soulignement si vous le souhaitez.
-Par exemple, au lieu de "Ma super Session !", préférez "Ma_Grande_Session",
+les points, les virgules, etc. Utilisez des tirets ou des traits de soulignement si vous le souhaitez. Par exemple, au lieu de "Ma super Session !", préférez "Ma_Grande_Session",
 ou "MaGrandeSession", ou encore "ma-grande-session". Au lieu de "Açaí", écrivez "Acai"
-(sans les lettres accentuées), etc.
-Une fois que vous avez créé votre session Ardour, ne renommez _pas_ manuellement
-les dossiers ou fichiers qui appartiennent à la session.
-{{< /callout >}}
+(sans les lettres accentuées), etc. Une fois que vous avez créé votre session Ardour, ne renommez _pas_ manuellement les dossiers ou fichiers qui appartiennent à la session.
 
 ## Format des fichiers et des dossiers Ardour
 
@@ -50,36 +45,20 @@ la méthode standard qui consiste à ouvrir d'abord l'application elle-même,
 puis à cliquer sur le fichier de session dans la boîte de dialogue
 _Session Setup_ (Configuration de la session).
 
-![Ardour Opening](en/ardour7-session-setup-dialog.png?width=600)
+{{< figure src="en/ardour7-session-setup-dialog.png" alt="Ardour Opening" >}}
 
 ## Déplacer une session vers un autre ordinateur ou un autre disque
 
-Si vous avez besoin de déplacer votre session Ardour vers un autre ordinateur,
-ou si vous souhaitez la sauvegarder sur un disque externe,
-*vous devez copier l'ensemble du dossier* contenant tous les fichiers mentionnés ci-dessus.
-Il n'est _pas_ suffisant de copier seulement le fichier `*.ardour`.
+Si vous avez besoin de déplacer votre session Ardour vers un autre ordinateur, ou si vous souhaitez la sauvegarder sur un disque externe, *vous devez copier l'ensemble du dossier* contenant tous les fichiers mentionnés ci-dessus. Il n'est _pas_ suffisant de copier seulement le fichier `*.ardour`.
 
-{{< callout type="warning" >}}
-Lorsque vous copiez un dossier Ardour sur un autre ordinateur ou un autre lecteur,
-ne changez pas manuellement son nom ou le nom d'un autre fichier internes.
-Veuillez également noter que, comme les sessions Ardour sont sensibles à la casse,
-la copie d'une session sur une clé USB (système de fichiers VFAT) risque de corrompre la session.
-ZIPer le dossier de la session pour le déplacer d'une machine à l'autre.
-{{< /callout >}}
+> [!WARNING]
+> Lorsque vous copiez un dossier Ardour sur un autre ordinateur ou un autre lecteur, ne changez pas manuellement son nom ou le nom d'un autre fichier internes. Veuillez également noter que, comme les sessions Ardour sont sensibles à la casse, la copie d'une session sur une clé USB (système de fichiers VFAT) risque de corrompre la session. ZIPer le dossier de la session pour le déplacer d'une machine à l'autre.
 
-La manière la plus simple de transférer l'ensemble du projet est en effet de simplement
-zipper le dossier de la session. Si vous n'avez pas d'instantanés dans votre session,
-vous pouvez également utiliser la commande `Session > Archive...`.
-Cela créera un seul fichier ZIP contenant le fichier du projet et toutes les données audio
-transcodées en fichiers FLAC sans perte.
-Veuillez noter qu'une archive ne contiendra _pas_ d'instantané, seul l'état actuel
-de la session sera préservé.
+La manière la plus simple de transférer l'ensemble du projet est en effet de simplement zipper le dossier de la session. Si vous n'avez pas d'instantanés dans votre session, vous pouvez également utiliser la commande `Session > Archive...`. Cela créera un seul fichier ZIP contenant le fichier du projet et toutes les données audio transcodées en fichiers FLAC sans perte. Veuillez noter qu'une archive ne contiendra _pas_ d'instantané, seul l'état actuel de la session sera préservé.
 
-## Poursuivre
+**Poursuivre**
 
 L'enregistrement d'un ensemble vous permet de l'ouvrir à nouveau ultérieurement.
 Cependant, si vous souhaitez conserver un certain état de votre document,
 afin de pouvoir revenir à cet état plus tard après y avoir apporté des modifications,
-passez à la section suivante intitulée _Sauvegarde d'un instantané_. 
-
-Suivant : [Sauvegarde d'un instantané](../saving-a-snapshot)
+passez à la section suivante intitulée _Sauvegarde d'un instantané_.

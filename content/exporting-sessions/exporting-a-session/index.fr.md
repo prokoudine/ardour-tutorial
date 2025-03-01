@@ -22,7 +22,7 @@ Lorsque vous avez terminé votre composition, l'opération d'exportation la plus
 
 * Cliquez sur le bouton **Zoom to Session** (le troisième bouton des options de zoom):
 
-![options de zoom](en/ardour7-session-zoom-all.png?width=200)
+{{< figure src="en/ardour7-session-zoom-all.png" alt="options de zoom" >}}
 
 * Vous devriez maintenant avoir une belle vue d'ensemble de la session entière, comme ceci :
 
@@ -65,9 +65,8 @@ Si vous n'écrivez rien ici, le nom peut devenir quelque chose de générique co
 
 Après avoir choisi vos options, cliquez sur **Export**. Une fois l'opération terminée, vous pouvez retrouver le fichier à l'aide de votre navigateur de fichiers.
 
-{{< callout type="info" >}}
-L'exportation est gérée par le bus Master, de sorte que le fichier final comprendra tous les sons des pistes et des bus qui ont été routés vers lui. Cela comprendra tous les éléments de normalisation, fondu, panoramique et automatisation que vous avez créés, ainsi que les modifications individuelles apportées aux régions. Si l'une des pistes possède l'option **Mute** ou **Solo**, cela affectera également les pistes qui seront entendues dans le fichier exporté.
-{{< /callout >}}
+> [!NOTE]
+> L'exportation est gérée par le bus Master, de sorte que le fichier final comprendra tous les sons des pistes et des bus qui ont été routés vers lui. Cela comprendra tous les éléments de normalisation, fondu, panoramique et automatisation que vous avez créés, ainsi que les modifications individuelles apportées aux régions. Si l'une des pistes possède l'option **Mute** ou **Solo**, cela affectera également les pistes qui seront entendues dans le fichier exporté.
 
 ## Normalisation
 
@@ -84,10 +83,8 @@ Vous pouvez le faire en appliquant une correction d'intensité (gain) directemen
 
 {{< figure src="en/ardour7-edit-exporting-format.png" alt="Editer le format d'exportation" >}}
 
-## Poursuivre
+**Poursuivre**
 
 A la fin de ce chapitre, vous disposez d'un mixage stéréo exporté représentant l'ensemble de votre session.
 Vous voudrez peut-être aussi savoir comment exporter des régions individuelles ou des plages sélectionnées de votre session.
 Ceci sera brièvement abordé dans les deux chapitres suivants.
-
-Suivant : [EXPORTER DES REGIONS](../exporting-a-region)
