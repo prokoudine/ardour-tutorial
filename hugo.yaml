@@ -56,3 +56,12 @@ menu:
       url: "https://github.com/prokoudine/ardour-tutorial"
       params:
         icon: github
+
+services:
+  googleAnalytics:
+    id: G-ELQWFJX2YN
+
+privacy:
+  googleAnalytics:
+    disable: false
+    respectDoNotTrack: true
