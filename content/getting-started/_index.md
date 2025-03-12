@@ -1,5 +1,5 @@
 ---
-title: Getting Started
+title: Getting started
 description: Create your first session and learn the basics of Ardour's user interface
 weight: 2
 cascade:
