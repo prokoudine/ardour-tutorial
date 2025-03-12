@@ -36,9 +36,13 @@ menu:
       name: Credits
       pageRef: /credits
       weight: 3
+    - identifier: changes
+      name: Changes
+      pageRef: /changes
+      weight: 4
     - identifier: search
       name: Search
-      weight: 4
+      weight: 5
       params:
         type: search
   sidebar:
