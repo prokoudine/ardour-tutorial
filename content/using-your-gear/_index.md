@@ -12,3 +12,4 @@ Contents:
 
 1. [Audio interfaces](audio-interfaces/)
 2. [MIDI devices](midi-devices/)
+3. [Control surfaces](control-surfaces/)
