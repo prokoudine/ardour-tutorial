@@ -6,33 +6,26 @@ cascade:
   type: docs
 ---
 
-There are several ways to get MIDI into a MIDI track in Ardour apart from
-importing an existing MIDI file. Let's have a look at them one by one.
+There are several ways to get MIDI into a MIDI track in Ardour apart from importing an existing MIDI file. Let's have a look at them one by one.
 
 ## Real-time recording
 
-Perhaps the most obvious option to record MIDI into Ardour is connecting a
-MIDI keyboard to your audio interface or your computer directly and recording
-whatever you play. It's a pretty straightforward process: 
+Yhe most obvious option to record MIDI into Ardour is connecting a MIDI keyboard to your audio interface or your computer directly and recording everything you play. It's a pretty straightforward process: 
 
-1. Select an existing MIDI track to record to or create a new one
+1. Select an existing MIDI track to record to or create a new one.
 
-2. Arm that track for recording (click the button with a red circle in the track header or press **Shift+B**)
+2. Arm that track for recording by clicking the button with a red circle in the track header or pressing **Shift+B**.
 
-3. Toggle the global recording mode (click the button with a red circle in the transport panel or press **Shift+R**)
+3. Toggle the recording mode by clicking the button with a red circle in the transport panel or pressing **Shift+R**.
 
-4. Roll the transport (**Space** bar) to begin recording.
+4. Roll the transport by pressing the **Space** bar to begin recording.
 
 {{< figure src="en/real-time-recording.png" alt="Recording to a MIDI region" >}}
 
-5. Stop the transport (**Space** bar) when you are done.
+5. Stop the transport by pressing the **Space** bar when you finished playing.
 
-Usually when you record a part from a MIDI keyboard, you should be able to
-hear yourself playing. If you see that everything is connected correctly and
-yet you still can't hear any sound, check what MIDI channel your MIDI keyboard
-is sending note-on/note-off events to. It is entirely possible that it's a
-channel other than 1, and your virtual instrument of choice got no patches
-loaded for that channel.
+> [!TIP]
+> When you record a part from a MIDI keyboard, you should be able to hear yourself playing. If you see that everything is connected correctly and yet you still can't hear any sound, check what MIDI channel your MIDI keyboard is on. It is possible that it's a channel other than 1, and your virtual instrument of choice has no patches loaded for that channel.
 
 <!-- ### Launching the recording from a MIDI keyboard
 
@@ -48,7 +41,7 @@ where a CC event
 By default Ardour is configured so that MIDI input will follow MIDI track selection. This means that when you have multiple MIDI tracks that all can produce sound when you press a key on your MIDI keyboard,
 Setup MIDI devices in Preferences: set "follow track" globally and per-device. -->
 
-## Step Entry
+## Step entry
 
 The _Step Entry_ recording mode is convenient when a part is too complex to
 record in real time (think sweeping arpeggios of 1/128th notes at 140bpm).
