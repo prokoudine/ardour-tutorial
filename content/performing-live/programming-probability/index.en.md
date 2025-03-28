@@ -6,9 +6,13 @@ cascade:
   type: docs
 ---
 
-Now that you are already familiar with basic follow actions in the Cue window, let’s talk about programming probability.
+{{< details title="Watch the video" closed="true" >}}
 
-<!-- {{< youtube _ET1YqbMPc0 >}} -->
+{{< youtube _ET1YqbMPc0 >}}
+
+{{< /details >}}
+
+Now that you are already familiar with basic follow actions in the Cue window, let’s talk about programming probability.
 
 In a nutshell, probability is how you can get Ardour to make happy little accidents for you to explore ideas. There are two ways you can use this feature.
 

@@ -6,10 +6,15 @@ cascade:
   type: docs
 ---
 
+{{< details title="Watch the video" closed="true" >}}
+
+{{< youtube Gg1eZK8n7P0 >}}
+
+{{< /details >}}
+
 The _Follow Options_ group in the Cue window is where you program the sequence of clips.
 
 ![Follow Options](en/performing-live-follow-options.png)
-<!-- {{< youtube Gg1eZK8n7P0 >}} -->
 
 An easy example of a sequence is a clip that plays 4 bars of intro in cue A, triggers the next clip from cue B that plays eight bars twice, then triggers the clip in cue D, which, after playing four bars four times, triggers the clip in cue B again, and then the B-to-D cycle repeats over and over again.
 
@@ -50,5 +55,3 @@ The _Follow Count_ option is also what separates the _None_ follow action from t
 If you want a clip to play a given number of times and stop, choose the _Stop_ action.
 
 But if you want to temporarily drop the select number or repeats, disregard the customized duration of the clip, and just stop the playback after one time, select the _None_ follow action.
-
-Next: [PROGRAMMING PROBABILITY](../programming-probability/)

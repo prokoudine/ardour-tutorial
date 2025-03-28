@@ -6,9 +6,13 @@ cascade:
   type: docs
 ---
 
-Ardour provides several options that define how a clip is triggered, when it starts playing after you trigger it, and whether it responds to triggering the playback of an entire cue it belongs to.
+{{< details title="Watch the video" closed="true" >}}
 
-<!-- {{< youtube TuZvUn311MQ >}} -->
+{{< youtube TuZvUn311MQ >}}
+
+{{< /details >}}
+
+Ardour provides several options that define how a clip is triggered, when it starts playing after you trigger it, and whether it responds to triggering the playback of an entire cue it belongs to.
 
 ![Launch Options](en/launch-options.png)
 

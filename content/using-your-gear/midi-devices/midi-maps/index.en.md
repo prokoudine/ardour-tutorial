@@ -6,6 +6,12 @@ cascade:
   type: docs
 ---
 
+{{< details title="Watch the video" closed="true" >}}
+
+{{< youtube 56BDrtZNhY0 >}}
+
+{{< /details >}}
+
 Many MIDI keyboards come with faders, encoders, and transport keys. You can use those to control various aspects of Ardour. The way to do that is by using a MIDI map.
 
 ## What is a MIDI map?

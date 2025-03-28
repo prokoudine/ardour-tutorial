@@ -6,14 +6,13 @@ cascade:
   type: docs
 ---
 
-Let's learn how to start and stop single clips and entire cues.
-
-<!-- {{< details title="Video" >}}
+{{< details title="Watch the video" closed="true" >}}
 
 {{< youtube EaNW104iEkM >}}
 
 {{< /details >}}
- -->
+
+Let's learn how to start and stop single clips and entire cues.
 
 ## Starting clip playback
 

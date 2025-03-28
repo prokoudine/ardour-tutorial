@@ -6,6 +6,12 @@ cascade:
   type: docs
 ---
 
+{{< details title="Watch the video" closed="true" >}}
+
+{{< youtube sQYT5f1Z6FQ >}}
+
+{{< /details >}}_
+
 The Cue window provides tools for non-linear sequencing where you trigger the playback of short repeatable audio and MIDI clips.
 
 ## User interface organization

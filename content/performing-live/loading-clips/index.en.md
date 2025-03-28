@@ -6,9 +6,13 @@ cascade:
   type: docs
 ---
 
-Before launching a clip or a cue, let’s learn to load clips into trigger slots. There are several ways to do that.
+{{< details title="Watch the video" closed="true" >}}
 
-<!-- {{< youtube ASN6OMYxe9I >}} -->
+{{< youtube ASN6OMYxe9I >}}
+
+{{< /details >}}
+
+Before launching a clip or a cue, let’s learn to load clips into trigger slots. There are several ways to do that.
 
 ## Load in the Clip Properties box
 

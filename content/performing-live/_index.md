@@ -15,6 +15,6 @@ Contents:
 3. [Launching and stopping](launching-and-stopping/)
 4. [Setting stretch options](setting-stretch-options/)
 5. [Setting launch options](setting-launch-options/)
-6. [Programming Sequences](programming-sequences/)
+6. [Programming sequences](programming-sequences/)
 7. [Programming probability](programming-probability/)
 8. [Using cue markers](using-cue-markers/)

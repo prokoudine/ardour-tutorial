@@ -6,13 +6,13 @@ cascade:
   type: docs
 ---
 
-Sometimes a drum loop that you would really like to use in a song has slower or faster tempo than your session’s tempo. Stretch options help keep it perfectly in sync with the rest of the song.
-
 {{< details title="Watch the video" closed="true" >}}
 
 {{< youtube _Pc7CHzewQ0 >}}
 
 {{< /details >}}
+
+Sometimes a drum loop that you would really like to use in a song has slower or faster tempo than your session’s tempo. Stretch options help keep it perfectly in sync with the rest of the song.
 
 ## How Ardour handles clip tempo by default
 
