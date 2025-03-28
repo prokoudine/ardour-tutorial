@@ -22,13 +22,13 @@ A very common example of a binding is mapping an encoder on your MIDI keyboard t
 
 {{< figure src="en/midi-learn-control-protocol-settings.png" alt="Control Protocol Settings" >}}
 
-Alternatively, you can do the mapping in the **MIDI Connections** dialog:
+Alternatively, you can do the mapping in the **MIDI Connections** dialog. The controller's **MIDI in** port on the **Hardware** tab at the top should be connected to the **Generic MIDI Control In** port on the **Ardour Misc** on the right. If there is no green dot in their cross-section, click to create one.
 
 {{< figure src="en/midi-learn-midi-connection-manager.png" alt="MIDI Connections" >}}
 
 ---
 
-2. Add a new track with a virtual synth. This guide assumes using TAL Noisemaker.
+2. Add a new track with a virtual synth. This guide assumes using TAL-NoiseMaker.
 
 ---
 
