@@ -1,6 +1,7 @@
 ---
 title: Non-destructive editing
 description: What is non-destructive editing and how does it work in Ardour?
+date: 2025-02-25T00:41:04+03:00
 weight: 1
 cascade:
   type: docs

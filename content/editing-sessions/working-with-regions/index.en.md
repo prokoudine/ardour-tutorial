@@ -1,6 +1,7 @@
 ---
 title: Working with regions
 description: Selecting, splitting, moving regions in Ardour
+date: 2025-02-25T00:41:04+03:00
 weight: 5
 cascade:
   type: docs

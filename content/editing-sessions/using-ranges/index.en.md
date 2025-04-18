@@ -1,6 +1,7 @@
 ---
 title: Using ranges
 description: How to create and edit range selection in Ardour
+date: 2025-02-25T00:41:04+03:00
 weight: 4
 cascade:
   type: docs

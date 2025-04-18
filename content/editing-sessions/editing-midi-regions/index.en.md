@@ -1,6 +1,7 @@
 ---
 title: Editing MIDI regions
-#description: FIXME
+description: How to edit MIDI regions in Ardour
+date: 2025-02-25T00:41:04+03:00
 weight: 10
 cascade:
   type: docs

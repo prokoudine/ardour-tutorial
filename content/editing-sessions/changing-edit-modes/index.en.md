@@ -1,6 +1,7 @@
 ---
 title: Changing edit modes
 description: Edit modes for regions in Ardour
+date: 2025-02-25T00:41:04+03:00
 weight: 7
 cascade:
   type: docs

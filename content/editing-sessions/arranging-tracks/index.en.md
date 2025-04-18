@@ -1,6 +1,7 @@
 ---
 title: Arranging tracks
 description: How to organize regions on the timeline in Ardour
+date: 2025-02-25T00:41:04+03:00
 weight: 2
 cascade:
   type: docs

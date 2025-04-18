@@ -1,6 +1,7 @@
 ---
 title: Further region operations
 description: Pitch-shifting, normalizing and other operations on regions in Ardour
+date: 2025-02-25T00:41:04+03:00
 weight: 6
 cascade:
   type: docs

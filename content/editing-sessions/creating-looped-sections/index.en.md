@@ -1,6 +1,7 @@
 ---
 title: Creating looped sections
 description: Creating and combining region duplicates in Ardour
+date: 2025-02-25T00:41:04+03:00
 weight: 8
 cascade:
   type: docs

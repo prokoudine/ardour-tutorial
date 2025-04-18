@@ -1,6 +1,7 @@
 ---
 title: Stretching & shrinking regions
 description: Stretching and shrinking regions in Ardour
+date: 2025-02-25T00:41:04+03:00
 weight: 9
 cascade:
   type: docs

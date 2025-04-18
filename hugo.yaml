@@ -27,6 +27,8 @@ params:
       dark: images/logo-dark.svg
       width: 20
       height: 20
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
 
 menu:
   main:

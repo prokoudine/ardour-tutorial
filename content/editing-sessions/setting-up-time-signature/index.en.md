@@ -1,6 +1,7 @@
 ---
 title: Setting up time signature
 description: How to set up time signature in Ardour
+date: 2025-02-25T00:41:04+03:00
 weight: 3
 cascade:
   type: docs
