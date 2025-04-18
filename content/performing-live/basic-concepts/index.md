@@ -10,7 +10,7 @@ cascade:
 
 {{< youtube sQYT5f1Z6FQ >}}
 
-{{< /details >}}_
+{{< /details >}}
 
 The Cue window provides tools for non-linear sequencing where you trigger the playback of short repeatable audio and MIDI clips.
 
