@@ -28,4 +28,4 @@ In December 2014, the tutorial was updated for Ardour 3.5 and moved to GitHub. T
 
 ## Translators
 
-2023—2024 French translation by Julien Taverna.
+2023—2025 French translation by Julien Taverna.
