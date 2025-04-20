@@ -11,8 +11,9 @@ Install Ardour, create your first session, and learn the basics of Ardour's user
 Contents:
 
 1. [Installing Ardour](installing-ardour/)
-2. [Starting Ardour](starting-ardour/)
-3. [Overview of the interface](overview-of-the-interface/)
+2. [Overview of the interface](overview-of-the-interface/)
+3. [Starting Ardour](starting-ardour/)
 4. [Creating tracks and busses](creating-tracks-and-busses/)
 5. [Importing audio and MIDI](importing-audio-and-midi/)
 6. [Setting up the timeline](setting-up-the-timeline/)
+7. [Installing plugins](installing-plugins/)
