@@ -234,7 +234,8 @@ multiple echos with a _decay_ result.
 : Destructive actions are those that permanently modify or erase the original
 data (sound files) in the course of editing or recording. 
 
-**Distortion** : Distortion occurs when an audio signal is changed in some way
+**Distortion**
+: Distortion occurs when an audio signal is changed in some way
 that produces _frequencies_ not present in the original. Distortion can be
 deliberate or unwanted, and can be produced by driving the signal to a
 _clipping point_, or by using mathematical transformations to alter the shape (or
