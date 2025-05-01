@@ -9,10 +9,15 @@ sidebar:
 
 This page lists major changes in the Ardour tutorial since the port to Hugo in March 2022.
 
+**April 2025**
+
+- Infrastructure: start showing the date of the last update; add Ardour's branding
+
 **March 2025**
 
 - Infrastructure: start the 'Changes' page to list main changes in the documentation
-- Improved content: cleanup of the markup in the French translation
+- Improvements: Control Surfaces, MIDI Learn, Recording MIDI, Recommended Plugins; video embeds where available
+- Fixes: cleanup of the markup in the French translation
 
 **February 2025**
 
