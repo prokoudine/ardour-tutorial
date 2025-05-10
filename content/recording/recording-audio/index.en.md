@@ -182,6 +182,19 @@ To rename a track, just double-click on its name (before you arm the track to re
 > Did we mention how important it is to **save your work often**? Hit **Ctrl + S**
 right now. Get in the habit of hitting it every few minutes.
 
+## Record pre-processed audio
+
+Sometimes it's convenient to record audio that is pre-processed with effects. The easiest way to do that is to use I/O plugins. Here is how it works:
+
+1. Go to `Window > I/O Plugins` in the main menu.
+2. Double-click in the **Pre-Process** section.
+3. Select a plugin you need in the list.
+4. Click **Add**, then **Insert Plugin(s)**.
+5. For the plugin you've just inserted, click the **-** button above its name to open the dropdown list of available hardware inputs and select the input to record from.
+6. If you already have a track to record to, click the **-** button below the I/o plugin's name to open the dropdown list and select the output.
+7. If you don't yet have a track to record to, click the **+** button in the inputs list below for the I/O plugin and create a new track that is automatically connected to this I/O plugin.
+8. Arm the track, toggle recording mode, and press **Space** or click the **Play** button to start recording.
+
 **Continuing**
 
 At this point, you may want to skip directly ahead to the [Arranging Tracks](/editing-sessions/arranging-tracks/) section to learn how to arrange the regions into a composition. If you plan on doing more complicated Recording than what we have discussed here, in particular with a multichannel soundcard, or from other JACK-enabled audio programs on your computer, you should also have a look at the [Understanding Routing](../understanding-routing) chapter.

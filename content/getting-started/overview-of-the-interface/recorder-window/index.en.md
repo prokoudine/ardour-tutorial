@@ -38,6 +38,8 @@ E.g. if you have two mic inputs, one for vocal and one for guitar, naming them a
 
 {{< figure src="en/ardour7-recorder-input-new-names.png" alt="" >}}
 
+If you use [I/O plugins](https://manual.ardour.org/recording/io-plugins/), their inputs will be displayed next to track inputs.
+
 **Continuing**
 
 Finally, in the next section we'll take a quick look at the _Cue_ window that provides a familiar user interface to launching audio and MIDI clips.
