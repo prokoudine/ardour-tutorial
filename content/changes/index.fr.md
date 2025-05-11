@@ -9,6 +9,10 @@ sidebar:
 
 Cette page liste les changements majeurs dans le tutoriel Ardour depuis le portage sur Hugo en mars 2022.
 
+**Avril 2025**
+
+- Infrastructure : Affichage de la date de la dernière mise à jour ; ajout de l'image de d'Ardour
+
 **Mars 2025**
 
 - Infrastructure : lancement de la page 'Modifications' pour lister les principales modifications dans la documentation
