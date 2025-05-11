@@ -16,7 +16,8 @@ Cette page liste les changements majeurs dans le tutoriel Ardour depuis le porta
 **Mars 2025**
 
 - Infrastructure : lancement de la page 'Modifications' pour lister les principales modifications dans la documentation
-- Amélioration du contenu : nettoyage du balisage dans la traduction française
+- Améliorations : Surfaces de contrôle, Apprentissage du MIDI, Enregistrement du MIDI, Plugins recommandés ; intégration de vidéos le cas échéant
+- Corrections : nettoyage du balisage dans la traduction française
 
 **Février 2025**
 
@@ -82,7 +83,7 @@ Cette page liste les changements majeurs dans le tutoriel Ardour depuis le porta
 
 **Mars 2022**
 
-- Infrastructure : portage à Hugo et le thème « réapprendre »
+- Infrastructure : portage à Hugo et le thème `relearn`
 - Nouveau contenu : une section sur l'édition non destructive
 - Nouveau contenu : introduction rapide aux pistes et bus MIDI, aux bus repliables et aux masters VCA
 - Contenu amélioré : commencez à mettre à jour pour correspondre aux nouvelles capacités logicielles
