@@ -29,4 +29,4 @@ En décembre 2014, le tutoriel a été mis à jour pour Ardour 3.5 et déplacé 
 
 ## Traducteurs
 
-2023-2024 traduction française par Julien Taverna.
+2023-2025 traduction française par Julien Taverna.
