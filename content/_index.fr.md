@@ -4,6 +4,8 @@ description: "Tutoriel Ardour v8"
 weight: 1
 cascade:
   type: docs
+sidebar:
+  exclude: false
 ---
 
 **Ardour** est un enregistreur professionnel à disque dur et une station de travail audio numérique (STAN) offrant les caractéristiques suivantes :
@@ -14,6 +16,8 @@ cascade:
 - Séquenceur de performance en direct avec prise en charge de "Novation Launchpad" ;
 - prise en charge des plugins LADSPA, LV2, VST/VST3 et AudioUnit ;
 - prise en charge des surfaces de contrôle telles que PreSonus Faderport et Steinberg CC121.
+
+<!-- {{< figure src="/ardour-tutorial/images/Ardour8.png" alt="Ardour 8" >}} -->
 
 ## C'est parti !
 

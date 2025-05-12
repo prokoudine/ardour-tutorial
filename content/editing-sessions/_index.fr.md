@@ -1,6 +1,6 @@
 ---
 title: Editer des sessions
-description: Les bases de l'édition de sessiosn dans Ardour
+description: Les bases de l'édition de sessions dans Ardour
 weight: 4
 cascade:
   type: docs

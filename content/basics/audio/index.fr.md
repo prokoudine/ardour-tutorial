@@ -1,6 +1,6 @@
 ---
 title: Qu'est-ce que l'audio numérique ?
-description: Qu'est-ce que l'audio numérique ?
+description: Apprenons les bases de l'audio numérique ?
 weight: 1
 cascade:
   type: docs

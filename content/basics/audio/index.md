@@ -1,6 +1,6 @@
 ---
 title: What is digital audio?
-description: FIXME
+description: Let's learn the basics of audio?
 weight: 1
 cascade:
   type: docs

@@ -10,7 +10,7 @@ Le MIDI est une technologie cruciale pour l'écriture et la production de musiqu
 
 Ce chapitre peut sembler un peu écrasant sans avoir d'abord un peu de pratique, alors n'hésitez pas à y revenir et à le relire lorsque vous arriverez à l'enregistrement MIDI.
 
-## Qu'est ce que c'est le MIDI?
+## Qu'est ce que c'est le MIDI ?
 
 MIDI (Musical Instrument Digital Interface) est un protocole de communication qui permet aux instruments de musique électroniques, aux ordinateurs et à d'autres appareils d'échanger des informations. Plutôt que d'envoyer de l'audio, il envoie des messages ou des instructions.
 
@@ -72,7 +72,7 @@ Si les claviers MIDI ne font pas de sons, qui le fait?
 
 Sauf indication contraire de votre part, Ardour créera chaque nouvelle piste MIDI avec un synthétiseur virtuel ajouté automatiquement. Cela signifie que vous entendrez toujours les instructions de traitement de la piste MIDI à partir de l'entrée (comme votre clavier MIDI) ou de la piste MIDI et du son en cours de lecture.
 
-## Que sont les canaux MIDI
+## Que sont les canaux MIDI ?
 
 Un dernier concept que vous devez apprendre ici est celui des canaux MIDI. Considérez cette configuration. Vous disposez d'un clavier MIDI connecté à un synthétiseur matériel. Le synthétiseur peut stocker des préréglages, ou patchs, chacun produisant un son unique. En tant que synthétiseur à plusieurs voix, il peut jouer différents sons en même temps, par exemple une basse et une partie principale simultanément. Pour ce faire, il attend des instructions pour chaque patch provenant séparément, via des chemins indépendants appelés canaux MIDI.
 
