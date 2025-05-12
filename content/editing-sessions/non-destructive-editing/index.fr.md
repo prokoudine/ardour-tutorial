@@ -1,6 +1,7 @@
 ---
 title: Édition non-destructive
 description: Qu'est ce qu'une édition non-destructive et comment celà fonctionne dans Ardour?
+date: 2025-02-25T00:41:04+03:00
 weight: 1
 cascade:
   type: docs
@@ -18,7 +19,7 @@ Au lieu d'écrire dans les fichiers fichiers originaux, un programme préfère d
 
 Voici un exemple rapide. Enregistrons un court clip audio, coupons-le en deux puis faisons glisser la moitié droite vers la droite, créant ainsi un espace :
 
-{{< figure src="en/non-destructive-editing-cut-move-example.gif" alt="Couper et déplacer une région audio" >}}
+![Couper et déplacer une région audio](en/non-destructive-editing-cut-move-example.gif)
 
 Voici ce qui se passe en réalité. Ardour crée une région qui fait référence au fichier audio original et utilise toutes ses données, du premier au dernier échantillon.
 
@@ -32,7 +33,7 @@ Lorsque vous rouvrez la session, Ardour lit toutes ces références, charge les 
 Si vous n'aimez pas la façon dont vous avez édité une prise originale et que vous êtes trop loin dans l'édition pour annuler les modifications, vous pouvez tout recommencer sans enregistrer une nouvelle prise.
 Pour cela, vous pouvez ouvrir la barre latérale droite en appuyant sur **Shift+L**, aller sur l'onglet _Sources_, saisir le nom du fichier audio original de la prise, le déposer sur n'importe quelle piste, puis le déplacer, le couper, etc.
 
-{{< figure src="en/non-destructive-editing-redo-all-over-again.gif" alt="Refaire l'édition à l'infini" >}}
+![Refaire l'édition à l'infini](en/non-destructive-editing-redo-all-over-again.gif)
 
 De plus, tous les effets que vous appliquez à une piste sont également non destructifs. Ardour les appliquera au flux audio original et jouera le résultat à la volée.
 
@@ -52,7 +53,7 @@ Cependant, vous ne pouvez pas faire la même chose avec les régions MIDI, princ
 
 Considérons ce projet générique. Vous avez ici plusieurs pistes audio représentant la batterie, deux pistes audio pour la basse et la guitare solo, et une piste MIDI pour le piano électrique.
 
-{{< figure src="en/session-example.png" alt="Exemple de session" >}}
+![Exemple de session](en/session-example.png)
 
 Si vous allez dans le dossier de la session, vous y trouverez un certain nombre de sous-dossiers, dont ces deux-là :
 
