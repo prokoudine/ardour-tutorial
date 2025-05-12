@@ -1,6 +1,7 @@
 ---
 title: Travailler avec les régions
 description: Sélectionner, diviser, déplacer des régions dans Ardour
+date: 2025-02-25T00:41:04+03:00
 weight: 5
 cascade:
   type: docs
@@ -13,7 +14,7 @@ Certaines de ces options peuvent se produire à des _points d'édition_ spécifi
 
 Le mode _Grab_ (raccourci **G**) est l'outil de sélection et de déplacement des objets. Il est situé juste en dessous du menu transport dans la fenêtre _Editor_ (la petite icône "main"). Vous utiliserez beaucoup cet outil dans votre travail sur Ardour.
 
-{{< figure src="en/ardour7-grab-mode.png" alt="Object Tool" >}}
+![Outils objet](en/ardour7-grab-mode.png?width=30vw)
 
 Lorsqu'il est actif, le pointeur de votre souris ressemble à une petite icône de main.
 
@@ -27,7 +28,7 @@ Essayez toutes les opérations ci-dessous pour vous entraîner :
     
 - Vous pouvez également faire glisser une boîte de sélection sur plusieurs régions pour les sélectionner toutes.
 
-{{< figure src="en/ardour7-object-selection.png" alt="Object selection" >}}
+![Sélection d'objet](en/ardour7-object-selection.png?width=50vw)
 
 - Déplacer plusieurs régions en même temps après les avoir sélectionnées. 
 
@@ -48,8 +49,9 @@ Vous pouvez déplacer les régions horizontalement (latéralement) vers un autre
 
 Lorsqu'un ensemble d'une ou plusieurs régions est sélectionné, vous pouvez déplacer l'ensemble en faisant glisser la souris.
 
-> [!NOTE]
-> Veillez à sélectionner la région dans sa section de forme d'onde, car la sélection de la zone de la barre de titre du bas est utilisée pour une action différente (voir _Découpage_ des régions ci-dessous).
+{{< callout type="info" >}}
+Veillez à sélectionner la région dans sa section de forme d'onde, car la sélection de la zone de la barre de titre du bas est utilisée pour une action différente (voir _Découpage_ des régions ci-dessous).
+{{< /callout >}}
 
 ## Duplication de régions
 
@@ -70,13 +72,13 @@ Dans la capture d'écran suivante, les régions ont été dupliquées à l'aide 
 Lorsque vous utilisez les commandes standard copier/couper/coller, où les régions seront-elles collées ?
 L'emplacement exact est déterminé dans le menu déroulant.
 
-{{< figure src="en/ardour7-edit-point-menu.png" alt="Point d'édition" >}}
+![Point d'édition](en/ardour7-edit-point-menu.png?width=25vw)
 
-Si _Mouse_ est sélectionné comme point d'édition, la région copiée sera collée à la position actuelle de la souris.
+Si _Souris_ est sélectionné comme point d'édition, la région copiée sera collée à la position actuelle de la souris.
 
-Si _Playhead_ est sélectionné comme point d'édition, la région copiée sera collée à la ligne rouge de la tête de lecture sur la même piste que la région originale.
+Si _Tête de lecture_ est sélectionné comme point d'édition, la région copiée sera collée à la ligne rouge de la tête de lecture sur la même piste que la région originale.
 
-Enfin, si _Marker_ est sélectionné comme point d'édition, la région copiée sera collée immédiatement après le _marqueur de localisation_ actuellement sélectionné.
+Enfin, si _Marqueur_ est sélectionné comme point d'édition, la région copiée sera collée immédiatement après le _marqueur de localisation_ actuellement sélectionné.
 
 ## Marqueurs
 
@@ -88,8 +90,9 @@ Les marqueurs d'emplacement peuvent être ajoutés à la ligne de temps en cliqu
 
 {{< figure alt="Marqueur d'emplacement" src="en/Ardour4_Location_Marker.png" >}} 
 
-> [!NOTE]
-> Lorsque vous créez une nouvelle session, deux marqueurs d'emplacement sont automatiquement ajoutés par défaut. Il s'agit des marqueurs _start_ et _end_ que vous voyez dans la capture d'écran ci-dessus. Si vous ne voyez pas le marqueur _end_, effectuez un zoom arrière suffisant et vous le trouverez.
+{{< callout type="info" >}}
+Lorsque vous créez une nouvelle session, deux marqueurs d'emplacement sont automatiquement ajoutés par défaut. Il s'agit des marqueurs _start_ et _end_ que vous voyez dans la capture d'écran ci-dessus. Si vous ne voyez pas le marqueur _end_, effectuez un zoom arrière suffisant et vous le trouverez.
+{{< /callout >}}
 
 ## Diviser les régions
 
@@ -111,8 +114,9 @@ Les régions peuvent également être divisées en utilisant la tête de lecture
 
 Les régions divisées recevront un nom dérivé du nom original de sa région mère et vous le verrez apparaître dans votre liste de régions. Par exemple, dans l'image ci-dessus, vous voyez deux régions appelées _pink.15_ et _pink.16_, ce qui signifie qu'elles ont été divisées à partir d'une région parente appelée "pink" (non montrée dans l'image).
 
-> [!NOTE]
-> La division des plages suivra les paramètres de votre grille. Par exemple, si vous avez une grille définie pour les temps, les divisions se produiront aux limites des temps. Si vous choisissez _Pas de grille_, les divisions se produiront à l'endroit où se trouve le point d'édition, indépendamment de la grille.
+{{< callout type="info" >}}
+La division des plages suivra les paramètres de votre grille. Par exemple, si vous avez une grille définie pour les temps, les divisions se produiront aux limites des temps. Si vous choisissez _Pas de grille_, les divisions se produiront à l'endroit où se trouve le point d'édition, indépendamment de la grille.
+{{< /callout >}}
 
 ## Découpage des régions
 
@@ -123,8 +127,9 @@ Cette action est non destructive : aucun son n'est supprimé. C'est comme si com
 
 {{< figure alt="Trim" src="en/Ardour4_Trimming_Regions.gif" >}}
 
-> [!NOTE]
-> Comme la division, l'élagage obéit aux paramètres de la grille. Si vous ne voulez pas que votre que votre rognage soit contraint à une grille, désactivez simplement la grille (_No Grid_).
+{{< callout type="info" >}}
+Comme la division, l'élagage obéit aux paramètres de la grille. Si vous ne voulez pas que votre que votre rognage soit contraint à une grille, désactivez simplement la grille (_No Grid_).
+{{< /callout >}}
 
 ## Régions supprimées
 
@@ -171,7 +176,7 @@ En d'autres termes, la première région s'efface en miroir au fur et à mesure 
 
 Pour que cela fonctionne, cependant, nous devons nous assurer que la région qui a le fondu désiré est *au sommet* dans le système de superposition d'Ardour. Pour modifier la superposition des régions, sélectionnez une région et allez dans le menu `Région > Layering`. 
 
-{{< figure src="en/ardour7-crossfade-4.png" alt="Crossfade4" >}}
+![Fondu enchainé 4](en/ardour7-crossfade-4.png?width=50vw)
 
 La différence peut être difficile à entendre si vous faites cela avec les sons percussifs très courts que nous avons importés plus tôt.
 
@@ -189,6 +194,8 @@ Il se peut que vous souhaitiez découper les points finaux de certains échantil
 
 {{< figure alt="Beat" src="en/ardour7-beat.png" >}} 
 
-**Poursuivre**
+## Poursuivre
 
 Dans le prochain chapitre, nous explorerons d'autres possibilités offertes par les régions.
+
+Suivant : [AUTRES OPERATIONS SUR LES REGIONS](../further-region-operation

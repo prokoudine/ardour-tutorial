@@ -12,14 +12,14 @@ La source de cet audio peut être les entrées ligne ou micro de votre interface
 
 Cette section vous montrera comment enregistrer de l'audio à partir d'une source externe (par exemple, un microphone) sur une piste.
 
-{{< figure src="en/ardour7-editor-mixer-input.png" alt="Entrée du mixeur de l'éditeur" >}}
+![Editor Mixer Input](en/ardour7-editor-mixer-input.png?width=50vw)
 
 Tout d'abord, vous devez vérifier que les entrées appropriées ont été acheminées vers la piste sur laquelle vous souhaitez enregistrer.
 
 1. Sélectionnez la piste en cliquant sur l'espace vide situé juste en dessous de son nom et de son chariot de volume.
 2. La piste est mise en surbrillance.
 
-{{< figure src="en/ardour7-audio-1-highlight.gif" alt="Mise en évidence d'une piste" >}}
+![Highlighting a track](en/ardour7-audio-1-highlight.gif?width=30vw)
 
 3. La bande verticale du _Editor Mixer_ située sur le côté gauche de la fenêtre de l'_Editor_ devrait maintenant afficher la piste que vous venez de sélectionner (*Audio 1* dans l'image ci-dessus).
 4. Juste en dessous du nom de la piste dans le _Editor Mixer_, vous trouverez un bouton qui vous permet d'éditer le routage.
@@ -43,44 +43,48 @@ L'onglet _Matériel_ affiche les connexions matérielles (par exemple, le microp
 Dans le cadre de ce chapitre, assurez-vous simplement que _system capture_1_ (ou l'équivalent sur votre ordinateur) de l'onglet _Matériel_ soit connecté à la piste que vous voulez utiliser afin que nous puissions faire un enregistrement test. Si vous ne voyez pas de point vert comme dans la capture d'écran ci-dessus, cliquez sur la matrice pour établir la connexion manuellement.
 Vous pouvez maintenant fermer cette fenêtre.
 
-> [!NOTE]
-> L'exemple ci-dessus suppose que vous enregistrez une source sonore mono sur une piste mono. Si vous souhaitez enregistrer en stéréo, les instructions sont à peu près les mêmes, mais vous devez créer une piste stéréo. Vous devriez alors voir deux points verts, l'un pour _capture_1_ et l'autre pour _capture_2_.
+{{< callout type="info" >}}
+L'exemple ci-dessus suppose que vous enregistrez une source sonore mono sur une piste mono. Si vous souhaitez enregistrer en stéréo, les instructions sont à peu près les mêmes, mais vous devez créer une piste stéréo. Vous devriez alors voir deux points verts, l'un pour _capture_1_ et l'autre pour _capture_2_.
+{{< /callout >}}
 
 ### Armement de la piste ###
 
-> [!WARNING]
-> Veillez à baisser le volume de vos haut-parleurs avant de passer à l'étape suivante.
+{{< callout type="warning" >}}
+Veillez à baisser le volume de vos haut-parleurs avant de passer à l'étape suivante.
+{{< /callout >}}
 
 "L'armement de la piste" consiste simplement à la préparer à l'enregistrement. Une fois que vous avez vérifié que les entrées de capture appropriées ont été acheminées vers la piste, vous pouvez armer la piste en cliquant sur la petite icône rouge sur la bande 
 horizontale de la piste (pas la grande dans les commandes de transport).
 
-{{< figure src="en/ardour7-arming-the-track.png" alt="Armer la piste" >}}
+![Arming Track](en/ardour7-arming-the-track.png?width=40vw)
 
 Lorsque la piste est correctement armée, la petite icône rouge reste en surbrillance, et vous pouvez voir le signal entrant en regardant le _compteur de crête_ sur le _Mixer_ ou sur la piste horizontale.
 
 Si vous utilisez un casque, vous devriez pouvoir entendre ("monitor") les sons en cours d'enregistrement. Si vous utilisez des haut-parleurs, veillez à baisser leur volume afin d'éviter l'effet Larsen.
 
-> [!NOTE]
-> À moins que vous n'ayez demandé à Ardour de faire autrement, l'entrée en cours d'enregistrement sera surveillée (en d'autres termes, entendue) via la sortie _Audition_. Si vous n'utilisez pas de casque pour surveiller le processus d'enregistrement, vous risquez d'obtenir des retours bruyants à ce stade!
+{{< callout type="info" >}}
+À moins que vous n'ayez demandé à Ardour de faire autrement, l'entrée en cours d'enregistrement sera surveillée (en d'autres termes, entendue) via la sortie _Audition_. Si vous n'utilisez pas de casque pour surveiller le processus d'enregistrement, vous risquez d'obtenir des retours bruyants à ce stade !
+{{< /callout >}}
 
 ### Armer Ardour et commencer l'enregistrement ###
 
 Maintenant que vous avez armé la piste pour l'enregistrement, vous devez armer Ardour pour l'enregistrement en cliquant sur le gros bouton rouge dans la barre d'outils _Transport_. Le bouton clignotera en rouge, indiquant qu'Ardour est prêt à enregistrer. Pour démarrer l'enregistrement, cliquez sur le bouton **Play** dans le menu _Transport_, ou appuyez sur la barre d'espacement de votre clavier. Cliquer à nouveau sur le bouton **Play** (ou appuyer sur la barre d'espacement) arrêtera l'enregistrement.
 
-{{< figure src="en/ardour7-recording.png" alt="Enregistrement" >}}
+![Enregistrement](en/ardour7-recording.png?width=50vw)
 
 Pendant l'enregistrement, la piste armée capture les sons provenant de l'entrée. Tout son existant sur d'autres pistes sera joué normalement pendant l'enregistrement. Cela permet de jouer, de chanter ou de parler avec d'autres régions et pistes que vous avez déjà enregistrées ou incorporées dans votre session.
 
 Pendant l'enregistrement, vous pourrez voir les _niveaux_ (l'amplitude en décibels) du son entrant, ainsi que les _pointes_ de la _forme d'onde_ qui apparaissent au fur et à mesure de l'enregistrement.
 
-> [!NOTE]
-> Si vous êtes loin de l'ordinateur sur lequel tourne Ardour et que vous avez besoin d'enregistrer de l'audio, une des options est d'ajouter le greffon appelé _Voice/Level Activate_ qui fait partie du "bundle" d'Ardour. Placez-le au début de la chaîne de du signal dans la boîte du processeur, c'est-à-dire tout en haut. Une fois que vous avez armé la piste et que vous avez activé le mode d'enregistrement, le fait de frapper des mains devant un micro ou de pincer une corde de guitare déclenchera le roulement du transport et donc l'enregistrement. Modifiez la valeur du seuil (mesurée en dBFS) pour qu'elle vous convienne.
+{{< callout type="info" >}}
+Si vous êtes loin de l'ordinateur sur lequel tourne Ardour et que vous avez besoin d'enregistrer de l'audio, une des options est d'ajouter le greffon appelé _Voice/Level Activate_ qui fait partie du "bundle" d'Ardour. Placez-le au début de la chaîne de du signal dans la boîte du processeur, c'est-à-dire tout en haut. Une fois que vous avez armé la piste et que vous avez activé le mode d'enregistrement, le fait de frapper des mains devant un micro ou de pincer une corde de guitare déclenchera le roulement du transport et donc l'enregistrement. Modifiez la valeur du seuil (mesurée en dBFS) pour qu'elle vous convienne.
+{{< /callout >}}
 
 ### Éviter l'écrêtage ###
 
 L'audio de la capture d'écran ci-dessous a été enregistré trop fort et a produit un "écrêtage" (clipping) (en d'autres termes, le signal enregistré était en dehors des limites de ce qui peut être représenté numériquement), ce qui entraîne une perte d'informations et une distorsion audible. Les pics d'écrêtage de la forme d'onde sont marqués en rouge.
 
-{{< figure src="en/ardour7-clipping.png" alt="Ècrêtage" >}}
+![Ècrêtage](en/ardour7-clipping.png?width=50vw)
 
 Le meilleur moyen d'éviter l'écrêtage est de contrôler le volume du signal audio entrant avant qu'il n'atteigne la carte son.
 Par exemple, vous pouvez éloigner le microphone du son enregistré ou utiliser une table de mixage pour réduire le volume du signal entrant. 
@@ -95,19 +99,31 @@ L'audio enregistré apparaît comme une nouvelle région dans la piste d'enregis
 
 La région que vous venez d'enregistrer recevra automatiquement le nom de la piste où elle a été enregistrée, les différentes prises étant automatiquement numérotées. Dans la capture d'écran ci-dessous, "*Audio 1-1*" et "*Audio 1-2*" représentent deux enregistrements différents effectués sur une piste nommée "*Audio 1*".
 
-{{< figure src="en/ardour7-region-list-recording.png" alt="Liste d'enregistrement de régions" >}}
+![Liste d'enregistrement de régions](en/ardour7-region-list-recording.png?width=40vw)
 
 Vous pouvez planifier et organiser votre session d'enregistrement en donnant des noms appropriés aux différentes pistes. Par exemple, une piste utilisée uniquement pour l'enregistrement des voix peut être nommée "Voix". De cette façon, les fichiers sonores enregistrés seront nommés en conséquence, et différentes prises apparaîtront dans la liste _Régions_, identifiées comme "Voix-1", "Voix-2", etc., plutôt que les noms génériques par défaut, comme "Audio 1".
 
 Pour renommer une piste, il suffit de double-cliquer sur son nom (avant d'armer la piste pour l'enregistrer) et de taper le nouveau nom.
 
-{{< figure src="en/ardour7-rename-track.png" alt="Renommer une piste" >}}
+![Renommer une piste](en/ardour7-rename-track.png?width=40vw)
 
-> [!NOTE]
-> Avons-nous mentionné à quel point il est important de **sauvegarder votre travail souvent** ? Appuyez sur **Ctrl + S** dès maintenant. Prenez l'habitude de le faire toutes les quelques minutes.
+{{< callout type="info" >}}
+Avons-nous mentionné à quel point il est important de **sauvegarder votre travail souvent** ? Appuyez sur **Ctrl + S** dès maintenant. Prenez l'habitude de le faire toutes les quelques minutes.
+{{< /callout >}}
+
+## Enregistrer de l'audio prétraité
+
+Il est parfois pratique d'enregistrer de l'audio prétraité avec des effets. La façon la plus simple de le faire est d'utiliser des plugins d'E/S. Voici comment cela fonctionne :
+
+1. Allez dans `Window > I/O Plugins` dans le menu principal.
+2. Double-cliquez dans la section **Pre-Process**.
+3. Sélectionnez le plugin dont vous avez besoin dans la liste.
+4. Cliquez sur **Ajouter**, puis **Insérer le(s) plugin(s)**.
+5. Pour le plugin que vous venez d'insérer, cliquez sur le bouton **-** au-dessus de son nom pour ouvrir la liste déroulante des entrées matérielles disponibles et sélectionnez l'entrée à partir de laquelle enregistrer.
+6. Si vous avez déjà une piste sur laquelle enregistrer, cliquez sur le bouton **-** sous le nom du plugin I/o pour ouvrir la liste déroulante et sélectionner la sortie.
+7. Si vous n'avez pas encore de piste sur laquelle enregistrer, cliquez sur le bouton **+** dans la liste des entrées en dessous du plugin I/O et créez une nouvelle piste qui est automatiquement connectée à ce plugin I/O.
+8. Armez la piste, basculez le mode d'enregistrement et appuyez sur **Space** ou cliquez sur le bouton **Play** pour commencer l'enregistrement.
 
 **Poursuivre**
 
 A ce stade, vous pouvez passer directement à la section [Arrangement de pistes](../../editing-sessions/arranging-tracks/) pour apprendre à arranger les régions dans une composition. Si vous prévoyez d'effectuer des enregistrements plus complexes que ceux que nous avons décrits ici, passez directement à la section plus compliqué que ce que nous avons abordé ici, en particulier avec une carte son multicanaux, ou à partir d'autres programmes audio compatibles avec JACK sur votre ordinateur, vous devriez également jeter un coup d'oeil à la section [Comprendre le Routage](../understanding-routing).
-
-Suivant : [Arrangement de pistes](../../editing-sessions/arranging-tracks/) ou [Comprendre le Routage](../understanding-routing)
