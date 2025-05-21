@@ -19,3 +19,4 @@ Contents:
 7. [Changing edit modes](changing-edit-modes/)
 8. [Creating looped sections](creating-looped-sections/)
 9. [Stretching & shrinking regions](stretching-shrinking-regions/)
+10. [MIDI regions editing](editing-midi-regions/)

@@ -58,14 +58,14 @@ La fonction _Pitch Shift_ (**Alt+8**) modifie la hauteur d'une région sans en c
 La fenêtre _Pitch Shift_ permet à l'utilisateur de spécifier la quantité et la direction de la transposition souhaitée.
 La fenêtre comprend une option _Conserver les formants_. Lorsque le décalage de hauteur est important, l'option de préservation des formants peut donner des résultats qui sonnent un peu plus naturels, en particulier lorsqu'ils sont utilisés sur du matériel vocal.
 
-{{< figure src="en/ardour7-pitch-shift-window.png" alt="Pitch Shift" >}}
+![Déplacement de la hauteur](en/ardour7-pitch-shift-window.png?height=30vh)
 
 ## Normaliser
 
 La fonction _Normaliser_ (raccourci **Alt+3**) augmente de façon non destructive le niveau de la région sélectionnée de façon à ce que les _pics_ soient à 0 dB ou moins. Lors d'une normalisation à 0,0, la région sera aussi forte que possible tout en évitant l'écrêtage.
 Il est parfois utile de normaliser une région à une valeur inférieure à 0, telle que -1,0, -3,0 ou -6,0 décibels, afin d'éviter qu'elle ne devienne trop bruyante. 
 
-{{< figure src="en/ardour7-normalize-window.png" alt="Normalize" >}}
+![Normaliser](en/ardour7-normalize-window.png?width=20vw)
 
 Deux autres opérations de gain utiles pour les régions sont _Boost Gain_ (**Alt+6**) et _Cut Gain_ (**Alt+7**), toutes deux incrémentant le gain de 1dB vers le haut ou vers le bas. N'hésitez pas à les essayer.
 
@@ -93,6 +93,8 @@ Remarquez que la région combinée résultante porte le mot "composé" dans son 
 
 {{< figure alt="combine 3" src="en/ardour7-region-combine-3.png" >}} 
 
-**Poursuivre**
+## Poursuivre
 
 Dans le chapitre suivant, nous en apprendrons un peu plus sur les puissants outils dont dispose Ardour en changeant de **Mode d'édition**.
+
+Suivant : [CHANGER LES MODES D'EDITION](../changing-edit-modes)
