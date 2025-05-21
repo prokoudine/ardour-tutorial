@@ -17,7 +17,7 @@ Ardour supports mutiple plugins APIs:
 - **macOS**: LADSPA, LV2, VST2.x, VST3, AU
 
 You can find a list of recommended free/libre plugins
-[in the appendix](../../appendices/plugins/).
+[in the mixing section](../../mixing-sessions/plugins/).
 
 ## Installing plugins
 
@@ -38,13 +38,13 @@ VST2 plugins do not have vendor-recommended location for installation, so what
 you can do is:
 
 1. Unpack all your VST2.x plugins to the same folder. (On Linux, `~/.vst` is
-commonly suggested.)
+   commonly suggested.)
 
 2. In Ardour, go to _Edit > Preferences > Plugins > VST_ and in the VST2.x
-section, click the **Edit** button to add a new path to VST2.x plugins.
+   section, click the **Edit** button to add a new path to VST2.x plugins.
 
 3. Add the path to the folder you created in step 1. Ardour will ask if you
-want to rescan plugins. Say 'yes'.
+   want to rescan plugins. Say 'yes'.
 
 This approach works on each supported operating system.
 
