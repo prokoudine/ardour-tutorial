@@ -15,7 +15,7 @@ Ardour supporte plusieurs API de greffons :
 - **Windows** : LADSPA, LV2, VST2.x, VST3
 - **macOS** : LADSPA, LV2, VST2.x, VST3, AU
 
-Vous pouvez trouver une liste de greffons libres/libre recommandés [en annexe](../../appendices/plugins/).
+Vous pouvez trouver une liste de greffons libres/libre recommandés [dans la section mixage](../../mixing-sessions/plugins/).
 
 ## Installation des greffons
 
@@ -36,12 +36,12 @@ Les greffons VST2 n'ont pas d'emplacement recommandé par le vendeur pour l'inst
 Ce que vous pouvez faire, c'est :
 
 1. Décompresser tous vos greffons VST2.x dans le même dossier.
-(Sous Linux, `~/.vst` est généralement suggéré).
+   (Sous Linux, `~/.vst` est généralement suggéré).
 
 2. Dans Ardour, allez dans `Editer > Préférences > greffons > VST` et dans la section VST2.x, cliquez sur le bouton **Editer** pour ajouter un nouveau chemin pour les greffons VST2.x.
 
 3. Ajoutez le chemin vers le dossier que vous avez créé à l'étape 1.
-Ardour vous demandera si vous si vous voulez rescanner les greffons. Dites "oui".
+   Ardour vous demandera si vous si vous voulez rescanner les greffons. Dites "oui".
 
 Cette approche fonctionne sur tous les systèmes d'exploitation pris en charge.
 
