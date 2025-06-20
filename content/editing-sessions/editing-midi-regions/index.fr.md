@@ -1,6 +1,6 @@
 ---
 title: Editer des régions MIDI
-#description: FIXME
+description: Comment éditer des regions MIDI dans Ardour
 weight: 10
 cascade:
   type: docs
@@ -70,7 +70,7 @@ Pour modifier rapidement la vélocité d'une note, survolez son milieu sur le ca
 
 Un moyen simple de modifier numériquement la vélocité (ainsi que le canal MIDI, la hauteur et la position) est d'utiliser les paramètres la boîte de dialogue des propriétés de la note. Cliquez avec le bouton droit de la souris sur une ou plusieurs notes, puis sélectionnez _Editer_.
 
-{{< figure src="en/note-properties.png" alt="Édition des propriétés de la note" >}}
+![Édition des propriétés de la note](en/note-properties.png?width=45vw)
 
 Si plusieurs notes ont été sélectionnées, vous pouvez les modifier en masse pour leur donner la même valeur. Pour cela, activez l'option _Set selected notes to this velocity_ avant d'appliquer les changements.
 
@@ -139,8 +139,8 @@ Mais cela va sonner un peu trop robotique si nous continuons ainsi.
 
 {{< figure src="en/example-regular-velocity-pattern.png" alt="" >}}
 
-**Poursuivre**
+## Poursuivre
 
 C'était le dernier chapitre de la section _Édition de régions_. Le prochain chapitre sera consacré à _Mixage_.
 
-Suivant : [SESSIONS DE MIXAGE](../../mixing-sessions/the-mixer-strip/)
+Suivant : [JOUER EN DIRECT](../../performing-live/)

@@ -1,6 +1,7 @@
 ---
 title: Routage des pistes
 description: Comment organiser les regions sur la ligne de temps dans Ardour
+date: 2025-02-25T00:41:04+03:00
 weight: 2
 cascade:
   type: docs
@@ -35,13 +36,16 @@ Pour ce faire, cliquez sur l'onglet _Tracks & Busses_ à l'extrême droite de la
 
 Une autre option pour réorganiser les pistes est de sélectionner une piste et d'utiliser les raccourcis **Ctrl+Flèche Haut/Bas** pour la déplacer vers le haut ou vers le bas.
 
-> [!NOTE]
-> Vous pouvez également utiliser les cases à cocher V dans cet onglet pour afficher ou masquer les pistes dans le canevas principal.
+{{< callout type="info" >}}
+Vous pouvez également utiliser les cases à cocher V dans cet onglet pour afficher ou masquer les pistes dans le canevas principal.
+{{< /callout >}}
 
 Ici, nous avons ordonné la batterie de manière à ce que la grosse caisse soit en bas, la caisse claire et le charleston sont au milieu, et le clap est en haut.
 
 {{< figure alt="FS6" src="en/ardour7-freesound-5.png" >}}
 
-**Poursuivre**
+## Poursuivre
 
 Dans l'étape suivante, nous apprendrons à configurer les mesures pour organiser ces échantillons en un rythme.
+
+Suivant : [CONFIGURATION DE LA SIGNATURE TEMPORELLE](../setting-up-time-signature)

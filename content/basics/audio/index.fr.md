@@ -1,7 +1,9 @@
 ---
 title: Qu'est-ce que l'audio numérique ?
-description: Qu'est-ce que l'audio numérique ?
-weight: 3
+description: Apprenons les bases de l'audio numérique ?
+weight: 1
+cascade:
+  type: docs
 ---
 
 **Ardour** est une station de travail audio numérique (STAN). Avant de l'utiliser pour enregistrer et éditer du son, il peut être utile de revoir le fonctionnement de l'audio numérique.
@@ -18,16 +20,17 @@ Un microphone fonctionne comme un haut-parleur à l'envers : les vibrations de l
 
 Lorsque Ardour affiche les échantillons qui ont été enregistrés, ils apparaissent sous la forme d'une onde telle que nous la voyons ci-dessous. La ligne horizontale centrale indique la membrane du haut-parleur au repos, et les _pics_ de la forme d'onde indiquent l'_amplitude_ maximale.
 
-{{< figure src="en/Ardour4_Digital_Audio_Waveform.png" alt="Waveform" >}}
+{{< figure src="en/waveform.png" alt="Waveform" >}}
 
 Si nous prenons une forme d'onde et que nous augmentons fortement son amplitude, certains des pics peuvent maintenant se situer en dehors de la plage que l'ordinateur peut représenter numériquement. L'incapacité de l'ordinateur à représenter les pics en dehors de la plage d'amplitude est appelée "écrêtage", ce qui entraîne une perte permanente des données numériques, ainsi qu'une modification de la qualité du son qui est reconnaissable comme une _distorsion_. Ardour marque les pics écrêtés avec la couleur rouge, comme on peut comme on peut le voir dans l'image ci-dessous.
 
-{{< figure src="en/Ardour4_Digital_Audio_Clipping2.png" alt="Clipping" >}}
+{{< figure src="en/clipping.png" alt="Clipping" >}}
 
 Dans l'image ci-dessus, on peut également voir la _bande de mixage_ à l'extrême gauche, qui donne une mesure courante des pics, ainsi qu'une indication en haut des _peak meters_ montrant la crête maximale jusqu'à présent. Le chiffre rouge indique qu'il y a eu écrêtage.
 
-> [!TIP]
-> L'écrêtage peut souvent se produire au moment de l'enregistrement si vous réglez le niveau du microphone à un niveau trop élevé.
+{{< callout type="info" >}}
+L'écrêtage peut souvent se produire au moment de l'enregistrement si vous réglez le niveau du microphone à un niveau trop élevé.
+{{< /callout >}}
 
 La plage de décibels entre la crête maximale de la région et le point d'écrêtage est communément appelée _headroom_, et la pratique courante d'enregistrement consiste à conserver environ 3 à 6 décibels de "headroom" entre le maximum du signal et le point d'écrêtage, lui-même étant représenté par 0 dB (zéro décibel). En d'autres termes, une région audio avec une marge confortable aurait ses pics maximums entre -6 dB et -3 dB.
 
@@ -42,8 +45,6 @@ Chaque échantillon est enregistré sous la forme d'un nombre de 16 bits. Un _bi
 
 Ainsi, nous pouvons dire que les fichiers audio de qualité CD ont une fréquence d'échantillonnage de 44,1 kHz et une _profondeur de bits_ de 16 bits. Les enregistrements musicaux professionnels sont généralement mixés 24 bits pour préserver le maximum de détails avant d'être mixés en 16 bits pour le CD. Les anciens jeux vidéo ont un son rugueux caractéristique, utilisant seulement 8 bits. En augmentant la fréquence d'échantillonnage, nous sommes capables d'enregistrer des fréquences sonores plus élevées, et en augmentant la profondeur de bit, nous pouvons utiliser une plus grande _plage dynamique_ (la différence entre les sons les plus faibles et les plus forts qu'il est possible d'enregistrer et de lire).
 
-## Poursuivre
+**Poursuivre**
 
-Dans le prochain chapitre, nous lancerons Ardour sur Ubuntu Linux et apprendrons les bases de l'interface utilisateur.
-
-Next: [Démarrer Ardour](../../getting-started/starting-ardour/).
+L'audio n'est pas le seul moyen de stocker des informations musicales. Dans le chapitre suivant, nous allons explorer les bases du MIDI.

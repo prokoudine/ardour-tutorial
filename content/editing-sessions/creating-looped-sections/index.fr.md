@@ -1,6 +1,7 @@
 ---
 title: Créer des scections en boucles
 description: Créer et combiner des régions dupliquées dans Ardour
+date: 2025-02-25T00:41:04+03:00
 weight: 8
 cascade:
   type: docs
@@ -64,6 +65,8 @@ permet de faire une seule copie à la fois.
 
 - L'action unique de duplication avec **Ctrl+Clic** sur la région + _Glisser une copie_.
 
-**Poursuivre**
+## Poursuivre
 
 Dans le prochain tutoriel, nous apprendrons à étirer/réduire les régions qui sont plus longues ou plus courtes qu'une mesure afin de s'adapter au rythme de notre passage.
+
+Suivant : [Étirer et réduire les régions](stretching-shrinking-regions/)

@@ -4,25 +4,29 @@ description: "Tutoriel Ardour v8"
 weight: 1
 cascade:
   type: docs
+sidebar:
+  exclude: false
 ---
 
-**Ardour** est un enregistreur professionnel à disque dur et une station de travail audio numérique (DAW) offrant les caractéristiques suivantes :
+**Ardour** est un enregistreur professionnel à disque dur et une station de travail audio numérique (STAN) offrant les caractéristiques suivantes :
 
-- un nombre illimité de pistes et de bus audio;
-- une édition non destructive et non linéaire avec un nombre illimité d'annulations;
-- routage du signal de n'importe où à n'importe quel endroit;
-- Séquenceur de performance en direct avec prise en charge de Novation Launchpad;
-- prise en charge des plugins LADSPA, LV2, VST/VST3 et AudioUnit;
+- un nombre illimité de pistes et de bus audio ;
+- une édition non destructive et non linéaire avec un nombre illimité d'annulations ;
+- routage du signal depuis n'importe quoi vers n'importe quel endroit ;
+- Séquenceur de performance en direct avec prise en charge de "Novation Launchpad" ;
+- prise en charge des plugins LADSPA, LV2, VST/VST3 et AudioUnit ;
 - prise en charge des surfaces de contrôle telles que PreSonus Faderport et Steinberg CC121.
 
-## C'est parti!
+<!-- {{< figure src="/ardour-tutorial/images/Ardour8.png" alt="Ardour 8" >}} -->
+
+## C'est parti !
 
 {{< cards >}}
   {{< card link="basics/" title="Principes de base" subtitle="Qu'est-ce que l'audio et le MIDI?" icon="book-open" >}}
   {{< card link="getting-started/" title="Pour commencer" subtitle="Comprendre l'interface utilisateur" icon="fast-forward" >}}
   {{< card link="recording/" title="Enregistrement" subtitle="Comment enregistrer de l'audio et du MIDI avec Ardour" icon="microphone" >}}
   {{< card link="editing-sessions/" title="Editer des sessions" subtitle="Comment éditer des sessions avec Ardour" icon="scissors" >}}
-<!--   {{< card link="performing-live/" title="Jouer en direct" subtitle="Comment utiliser le séquenceur matriciel" icon="music-note" >}} -->
+  {{< card link="performing-live/" title="Jouer en direct" subtitle="Comment utiliser le séquenceur matriciel" icon="music-note" >}}
   {{< card link="mixing-sessions/" title="Mixer des sessions" subtitle="Comment configurer le routage et utiliser les plugins" icon="filter" >}}
   {{< card link="exporting-sessions/" title="Exporter des sessions" subtitle="Comment exporter vers des stems et des fichiers individuels" icon="share" >}}
   {{< card link="saving-sessions/" title="Sauvegarder des sessions" subtitle="Comment enregistrer des instantanés et des modèles de session?" icon="save" >}}

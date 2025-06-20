@@ -178,9 +178,10 @@ To rename a track, just double-click on its name (before you arm the track to re
 
 ![Rename Track](en/ardour7-rename-track.png?width=40vw)
 
-> [!TIP]
-> Did we mention how important it is to **save your work often**? Hit **Ctrl + S**
+{{< callout type="info" >}}
+Did we mention how important it is to **save your work often**? Hit **Ctrl + S**
 right now. Get in the habit of hitting it every few minutes.
+{{< /callout >}}
 
 ## Record pre-processed audio
 

@@ -36,7 +36,7 @@ The bottom part of the window is where you control inputs: you can both monitor 
 
 E.g. if you have two mic inputs, one for vocal and one for guitar, naming them accordingly will simplify picking the right one for the right track. This will be even more convenient for audio interfaces with e.g. 18 inputs.
 
-{{< figure src="en/ardour7-recorder-input-new-names.png" alt="" >}}
+![New names](en/ardour7-recorder-input-new-names.png)
 
 If you use [I/O plugins](https://manual.ardour.org/recording/io-plugins/), their inputs will be displayed next to track inputs.
 

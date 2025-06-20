@@ -1,6 +1,7 @@
 ---
 title: Changer les modes d'édition
 description: Modes d'édition pour les régions dans Ardour
+date: 2025-02-25T00:41:04+03:00
 weight: 7
 cascade:
   type: docs
@@ -9,7 +10,7 @@ cascade:
 Nous avons déjà appris quelques notions sur le mode _Grab_ (sélectionner/déplacer des objets) et le mode _Range_.
 Dans ce chapitre, nous allons avoir une vue d'ensemble de tous les _modes d'édition_ et _modes de curseur_ disponibles dans cette partie de la fenêtre de l'_Éditeur_.
 
-{{< figure src="en/ardour8-edit-modes.png" alt="Modes d'édition Ardour" >}}
+![Modes d'édition Ardour](en/ardour8-edit-modes.png?width=30vw)
 
 ## Modes d'édition
 
@@ -30,37 +31,61 @@ si vous coupez une partie d'une interview audio qui n'est pas intéressante, Ard
 
 Nous n'utiliserons que le mode d'édition _Slide_ dans ce tutoriel.
 
+## Point d'édition
+
+Le point d'édition définit l'endroit où se déroulent les différentes opérations d'édition.
+Pour couper/découper par exemple...
+
+**Tête de lecture**
+: Les régions seront divisées à la position de la tête de lecture.
+
+**Marker**
+: Les régions seront divisées au niveau du dernier marqueur situé dans la plage
+de la région sélectionnée.
+
+**Souris**
+: La région sélectionnée sera divisée exactement sous le pointeur de la souris.
+
 ## Modes de curseur
+
 ### Mode de saisie
 
-{{< figure src="en/ardour8-grab-edit-mode.png" alt="G" >}}
+![G](en/ardour8-grab-edit-mode.png?width=20vw)
 
 Ce mode de curseur (raccourci **G**) vous permet de sélectionner ou de déplacer des objets tels que des régions et des points d'arrêt (dans une courbe d'automatisation). Lorsque ce mode de curseur est sélectionné, le pointeur du curseur ressemble à une petite main.
 
-### Mode plage
+## Mode plage
 
-{{< figure src="en/ardour8-range-edit-mode.png" alt="R" >}}
+![R](en/ardour8-range-edit-mode.png?width=20vw)
 
-Ce mode de curseur (raccourci **R**) vous permet de cliquer et de faire glisser pour définir ou redimensionner des plages de temps.
-Lorsque ce mode est sélectionné, le curseur ressemble à une ligne verticale. Les plages de temps peuvent être sélectionnées sur une ou plusieurs pistes, en fonction de la sélection de vos pistes.
+Ce mode de curseur (raccourci **R**) vous permet de cliquer et de faire glisser pour définir ou
+redimensionner des plages de temps.  Lorsque ce mode de curseur est sélectionné, le pointeur de votre curseur ressemble à une ligne verticale. Les plages de temps peuvent être sélectionnées sur une ou plusieurs pistes, en fonction de la sélection de vos pistes.
 
-### Mode Cut
+## Mode intelligent
 
-{{< figure src="en/ardour8-cut-edit-mode.png" alt="C" >}}
+![3](en/ardour8-smart-mode.png?width=20vw)
+
+Lorsque ce mode est activé, en fonction de l'endroit exact au-dessus de la région où se trouve le pointeur de la souris, Ardour fournira soit des fonctions de saisie (par exemple, saisir
+et relocaliser une région), soit des fonctions de plage (sélectionner une plage).
+
+### Mode coupe
+
+![C](en/ardour8-cut-edit-mode.png?width=20vw)
 
 Utilisez ce mode de curseur (raccourci **C**) pour diviser des régions en régions plus petites. Le curseur prend la forme de ciseaux. Cela vous permet de pointer et de cliquer sur une région pour la diviser au niveau du curseur.
 
-> [!NOTE]
-> Vous pouvez également découper des régions directement à partir du mode _Grab_ (cette méthode est parfois plus pratique).
-> Sans quitter le mode _Grab_, il suffit de placer la souris à l'endroit désiré sur la région à couper, et appuyez sur le raccourci **S** (pour "split").
-> Important: votre point d'édition (à gauche de la barre d'outils _Modes_) doit être réglé sur _Souris_.
+{{< callout type="info" >}}
+Vous pouvez également couper des régions directement à partir du mode _Grab_ (cette méthode est parfois plus pratique). Sans quitter le mode _Grab_, placez simplement la souris à
+l'endroit souhaité sur la région à couper, et appuyez sur le raccourci **S** (pour
+"split"). Important : votre point d'édition (à gauche de la barre d'outils _Modes_) doit
+être réglé sur _Souris_.
+{{< /callout >}}
 
 ### Étirer/réduire la région
 
-{{< figure src="en/ardour8-stretch-shrink-edit-mode.png" alt="T" >}}
+![T](en/ardour8-stretch-shrink-edit-mode.png?width=20vw)
 
-Ce mode de curseur (raccourci **T**) vous permet de faire glisser et de redimensionner la durée d'une région entière sans modifier la hauteur. On parle parfois d'"étirement du temps", d'où le raccourci **T**. Voir le chapitre sur _Stretching/Shrinking Regions_ pour plus de détails.
-Lorsque ce mode de curseur est sélectionné, le pointeur du curseur ressemble à une flèche diagonale.
+Ce mode de curseur (raccourci **T**) vous permet de faire glisser et de redimensionner la durée d'une région entière sans modifier la hauteur. On parle parfois d'"étirement du temps", d'où le raccourci **T**. Voir le chapitre sur _Étirer et réduire les régions_ pour plus de détails. Lorsque ce mode de curseur est sélectionné, le pointeur du curseur ressemble à une flèche diagonale.
 
 ### Mode dessin
 
@@ -79,7 +104,7 @@ Pour dessiner des notes MIDI, la barre d'outils dispose également de contrôles
 
 ### Mode d'édition interne
 
-{{< figure src="en/ardour8-internal-edit-mode.png" alt="E" >}}
+![E](en/ardour8-internal-edit-mode.png?width=20vw)
 
 Utilisez ce mode (raccourci **E**) pour éditer les points d'automation existants ou les notes MIDI.
 
@@ -96,6 +121,8 @@ Pour les notes MIDI en particulier, vous pouvez également utiliser la sélectio
 
 {{< figure src="en/ardour7-internal-edit-mode-rubberband-selection.png" alt="Rubberband selection of notes" >}}
 
-**Poursuivre**
+## Poursuivre
 
 Dans le chapitre suivant, nous verrons comment prendre les régions que nous avons éditées et comment créer des sections bouclées à partir de celles-ci.
+
+Suivant : [CREER DES SECTIONS EN BOUCLE](creating-looped-sections/)
