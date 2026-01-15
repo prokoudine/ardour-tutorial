@@ -17,6 +17,9 @@ languages:
   fr:
     languageName: Français
     weight: 2
+  it:
+    languageName: Italiano
+    weight: 3
 
 params:
   navbar:
