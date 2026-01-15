@@ -17,7 +17,7 @@ Ardour supports mutiple plugins APIs:
 - **macOS**: LADSPA, LV2, VST2.x, VST3, AU
 
 You can find a list of recommended free/libre plugins
-[in the appendix](../../appendices/plugins/).
+[in the Mixing section](../../mixing-sessions/plugins/).
 
 ## Installing plugins
 
