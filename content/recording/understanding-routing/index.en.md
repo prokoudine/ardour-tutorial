@@ -12,13 +12,13 @@ In addition to getting audio signals to and from Ardour, routing plays an import
 
 ## Routing in Ardour
 
-The standard routing of inputs, tracks and busses in Ardour is determined when a new session is created in the _Advanced Options_ of the _New Session_ dialog box (see the [Starting Ardour](../../getting-started/starting-ardour-on-ubuntu/) page). By default, the routing is as follows:
+The standard routing of inputs, tracks and busses in Ardour is determined when a new session is created in the _Advanced Options_ of the _New Session_ dialog box (see the [Starting Ardour](../../getting-started/starting-ardour/) page). By default, the routing is as follows:
 
 - The audio device inputs are routed to the track inputs. - All outputs from tracks and busses are routed to the master bus inputs. - The _Master_ bus outputs are routed to the audio device outputs.
 
 Note that when a new bus is created, nothing is routed to its input.
 
-This routing setup makes sense for sessions containing only tracks, but to make use of any busses (other than the _Master_ bus) or to get creative with the paths of the audio signals inside Ardour, we need to be able to change the routing. 
+This routing setup makes sense for sessions containing only tracks, but to make use of any busses (other than the _Master_ bus) or to get creative with the paths of the audio signals inside Ardour, we need to be able to change the routing.
 
 The _Audio Connection Manager_ window (also known as the patchbay) is the main way to make connections to, from ,and within Ardour's mixer. You can open this window with the shortcut **Shift + Alt + A**, or through the `Window >> Audio Connections` menu.
 
@@ -26,11 +26,11 @@ The _Audio Connection Manager_ window (also known as the patchbay) is the main w
 
 The patchbay presents two groups of ports; one set of sources, and one of destinations. Sources and destinations are organized by tabs. The available sources are displayed vertically on the left side, and the destinations are displayed horizontally at the bottom.
 
-In the screenshot below, notice that the _Hardware_ tab is selected on the top left (that's a source), and the *_Ardour Tracks_* is selected as a destination in the bottom. This means that the matrix you see displays connections from available hardware sound sources (for example, a microphone), into existing Ardour tracks.  
+In the screenshot below, notice that the _Hardware_ tab is selected on the top left (that's a source), and the _*Ardour Tracks*_ is selected as a destination in the bottom. This means that the matrix you see displays connections from available hardware sound sources (for example, a microphone), into existing Ardour tracks.
 
 ![ACM 1](en/ardour7-audio-connection-manager-1.png?width=40vw)
 
-The green dots represent a connection. The screenshot above tells us that incoming sounds from _capture\_1_ (the first input source of your soundcard, or the built-in microphone of your laptop) are going into Ardour track named _Audio 1_, and also that incoming sounds from _capture\_2_ are going into input of Ardour track named _Audio 2_. 
+The green dots represent a connection. The screenshot above tells us that incoming sounds from _capture_1_ (the first input source of your soundcard, or the built-in microphone of your laptop) are going into Ardour track named _Audio 1_, and also that incoming sounds from _capture_2_ are going into input of Ardour track named _Audio 2_.
 
 Notice we can see that _Audio 1_ is a Mono track because it only has one connection slot, while track _Audio 2_ is Stereo since it has two slots (Left and Right).
 
@@ -38,13 +38,13 @@ The next screenshot shows the signal path from _Ardour Tracks_ (selected vertica
 
 ![ACM 2](en/ardour7-audio-connection-manager-2.png?width=40vw)
 
-Note: remember that _Audio 1_ is a Mono track? We saw it in the earlier screenshot that _Audio 1_ only has one input slot. But now on the screenshot above you see that "Audio 1" has two outputs (left and right). This is normal: we define whether a track is Mono or Stereo by its *number of inputs*, not outputs. Mono tracks will hold a single channel of audio, but you can still choose to place the sound on the left or the right speaker (or anywhere in between). For more on this  please see the _Panning_ chapter.
+Note: remember that _Audio 1_ is a Mono track? We saw it in the earlier screenshot that _Audio 1_ only has one input slot. But now on the screenshot above you see that "Audio 1" has two outputs (left and right). This is normal: we define whether a track is Mono or Stereo by its _number of inputs_, not outputs. Mono tracks will hold a single channel of audio, but you can still choose to place the sound on the left or the right speaker (or anywhere in between). For more on this please see the _Panning_ chapter.
 
 Finally, let's explore a couple more tabs in the _Audio Connection Manager_ to see the sound going from the _Master_ bus to the actual hardware outputs (your loudspeakers or headphones):
 
 ![ACM 3](en/ardour7-audio-connection-manager-3.png?width=40vw)
 
-As you can see, the selected source tab is now _Ardour Busses_, and the destination tab is _Hardware_. This session happens to have only one bus, the default "master out". The green dots show that all sounds coming out of the _Master_ bus are going to system playback 1 and 2, which are the outputs of your soundcard. 
+As you can see, the selected source tab is now _Ardour Busses_, and the destination tab is _Hardware_. This session happens to have only one bus, the default "master out". The green dots show that all sounds coming out of the _Master_ bus are going to system playback 1 and 2, which are the outputs of your soundcard.
 
 ## How to connect and disconnect?
 
@@ -64,7 +64,7 @@ In the following example session, there are two guitar tracks and one unused bus
 
 Suppose you want to send the output from the two guitar tracks to the _Guitar_ bus instead of the _Master_ bus. This can be useful to control the volume of both guitars with just one fader (in this case the _Guitar_ bus fader) or placing two instruments into the same virtual room by using a reverb plugin on the bus. Then the output of the _Guitar_ bus, which is the sum of the two guitars, goes directly to the _Master_ bus.
 
-Here is how to edit the patchbay to get the desired routing. Select _Ardour Tracks_ tab from _Sources_ (vertical tabs), and _Ardour Busses_ from destinations (horizontal bottom tabs). Undo existing connections from both tracks to _Master_. Then create connections from both tracks to _Guitar_ bus. The final result would look like this: 
+Here is how to edit the patchbay to get the desired routing. Select _Ardour Tracks_ tab from _Sources_ (vertical tabs), and _Ardour Busses_ from destinations (horizontal bottom tabs). Undo existing connections from both tracks to _Master_. Then create connections from both tracks to _Guitar_ bus. The final result would look like this:
 
 ![ACM 5](en/ardour7-audio-connection-manager-5.png?width=40vw)
 
@@ -72,19 +72,19 @@ Now both guitar tracks are routed to the _Guitar_ bus, and no longer directly co
 
 ## Track- or Bus-specific views of the Patchbay
 
-The _Audio Connection Manager_ (Patchbay) that you open with **Alt + P** shows you  the complete matrix of every single source and every single destination available in Ardour. Sometimes this is too much: you just want to quickly change the routing of a single track input or output, for example. Ardour allows you to access a relevant subset of Patchbay connections when you click directly on the **Inputs** or **Outputs** button of a track or bus in the mixer strip.
+The _Audio Connection Manager_ (Patchbay) that you open with **Alt + P** shows you the complete matrix of every single source and every single destination available in Ardour. Sometimes this is too much: you just want to quickly change the routing of a single track input or output, for example. Ardour allows you to access a relevant subset of Patchbay connections when you click directly on the **Inputs** or **Outputs** button of a track or bus in the mixer strip.
 
-The **Inputs** button is at the top, and the **Outputs** button is on the bottom of the  strip. Clicking on either one will show you a menu of connection options. In the  screenshot below, for example, you would click on the **1/2** button right under the track name _Guitar 1_ in order to access this menu:
+The **Inputs** button is at the top, and the **Outputs** button is on the bottom of the strip. Clicking on either one will show you a menu of connection options. In the screenshot below, for example, you would click on the **1/2** button right under the track name _Guitar 1_ in order to access this menu:
 
 ![Editor Mixer In Out](en/ardour7-editor-mixer-in-out.png?width=30vw)
 
-You may select a connection right there from the menu, or choose _Routing Grid_  to see a simpler version of the _Audio Connection Manager_ with only the **Inputs** or **Outputs** of the selected track or bus. 
+You may select a connection right there from the menu, or choose _Routing Grid_ to see a simpler version of the _Audio Connection Manager_ with only the **Inputs** or **Outputs** of the selected track or bus.
 
 ## All Ardour connections are JACK connections
 
 It is important to realize that any routings that you make or disconnect from within Ardour are in fact JACK routings, which you can see from other applications like _Qjackctl_ or _Catia_, depending on your operating system. Below is an example of a _Catia_ window (Linux only) displaying the same JACK connections discussed above:
 
-{{< figure alt="Catia" src="en/Ardour4_Catia_Example.png" >}} 
+{{< figure alt="Catia" src="en/Ardour4_Catia_Example.png" >}}
 
 **Continuing**
 

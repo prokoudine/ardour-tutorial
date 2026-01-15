@@ -42,7 +42,7 @@ For instance, you'll find the contents of the _Region_ menu in the right-click
 menu for a selected region (a clip that you can see on the timeline, see further
 pages of the tutorial).
 
-## Info Panel
+## Info panel
 
 This panel displays useful information about the currently opened project
 (sampling rate, latency, DSP load) as well as how many estimated minutes of
@@ -103,7 +103,7 @@ doesn't have those rulers.
 Please check the Ardour manual for more information on the
 [mini-timeline](https://manual.ardour.org/ardours-interface/mini-timeline/).
 
-## Switching Between Windows
+## Switching between windows
 
 To the right of the global toolbar, right after the _Navigation Timeline_ and
 the master bus output meter, you'll find a convenient widget to switch between
@@ -123,5 +123,10 @@ another one will take you to the _Editor_ window.
 
 The next sections will explain basics of main Ardour's windows:
 
-[Editor](editor-window) | [Mixer](mixer-window) | [Recorder](recorder-window) |
-[Cue](cue-window)
+{{< cards >}}
+  {{< card link="editor-window" title="Editor" image="en/ardour8-editor-window-thumb.webp">}}
+  {{< card link="mixer-window" title="Mixer" image="en/ardour8-mixer-window-thumb.webp" >}}
+  {{< card link="recorder-window" title="Recorder" image="en/ardour8-recorder-window-thumb.webp" >}}
+  {{< card link="cue-window" title="Cue" image="en/ardour8-cue-window-thumb.webp" >}}
+{{< /cards >}}
+

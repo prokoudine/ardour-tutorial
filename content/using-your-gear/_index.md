@@ -6,7 +6,7 @@ cascade:
   type: docs
 ---
 
-Before you get to record audio or MIDI, let's learn how to set your studio up for use with Ardour.
+Before you get to record audio or MIDI, let's learn how to set your studio up for use with Ardour: audio interfaces, MIDI keyboards and controllers, and control surfaces.
 
 Contents:
 
