@@ -5,8 +5,8 @@
 set -euo pipefail
 
 # Canonical versions (single source of truth)
-REQUIRED_HUGO_VERSION="0.145.0"
-REQUIRED_GO_VERSION="1.23.6"
+REQUIRED_HUGO_VERSION="0.154.5"
+REQUIRED_GO_VERSION="1.25.5"
 
 RED='\033[0;31m'
 GREEN='\033[0;32m'
@@ -49,14 +49,6 @@ else
     echo -e "${RED}✗${NC}"
     echo "  Expected Hugo version ${REQUIRED_HUGO_VERSION}"
     ((errors++))
-fi
-
-# Check gitpod.yml (warn only, since it uses brew)
-echo -n "Checking .gitpod.yml... "
-if grep -q "brew install hugo" .gitpod.yml; then
-    echo -e "${YELLOW}⚠${NC}"
-    echo "  Warning: Gitpod uses 'brew install hugo' which installs latest version"
-    echo "  Consider pinning to ${REQUIRED_HUGO_VERSION}"
 fi
 
 echo ""
