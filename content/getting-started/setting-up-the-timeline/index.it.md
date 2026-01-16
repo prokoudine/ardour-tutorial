@@ -6,17 +6,26 @@ cascade:
   type: docs
 ---
 
-Once you import some audio files to Ardour, play them back and start familiarizing yourself with the user interface, you might want finetuning various parts of the user interface for your needs. The timeline settings are one of the obvious options there, because what you want to see on the timeline largely depends on the kind of material you work on.
+Una volta importati alcuni file audio in Ardour, riproducili e inizia a familiarizzare con l'interfaccia utente. 
+Potresti voler mettere a punto varie parti dell'interfaccia utente in base alle tue esigenze. Le impostazioni della 
+timeline sono una delle opzioni più ovvie, perché ciò che desideri vedere sulla timeline dipende in gran parte dal tipo 
+di materiale su cui lavori.
 
-Users creating audio plays, documentaries, reportages or soundscapes may wish to use minutes and seconds for units, while those recording bands or producing electronic music will most likely use bars and beats. Video producers will find a frames-per-second timecode handy, while those wishing for extreme precision may even want to use samples. All of these can be viewed in Ardour and used as a means to organize your regions and edits.
+Gli utenti che creano audio, documentari, reportage o paesaggi sonori potrebbero preferire utilizzare minuti e secondi 
+come unità di misura, mentre chi registra gruppi musicali o produce musica elettronica utilizzerà molto probabilmente 
+battute e battiti. I produttori video troveranno utile il Timecode in fotogrammi al secondo, mentre chi desidera una 
+precisione estrema potrebbe persino voler utilizzare i campioni. Tutti questi elementi possono essere visualizzati in 
+Ardour e utilizzati come mezzo per organizzare le regioni e le modifiche.
 
-Let's talk about setting up clocks, snapping, and timeline rulers.
+Parliamo di come impostare gli orologi, lo snapping e i righelli della timeline.
 
-## Primary and Secondary Clocks
+## Orologi primari e secondari
 
-There are two clocks near the top of the _Editor_ window which can display the time in a number of formats: *Timecode*, *Bars:Beats*, *Minutes:Seconds*, and *Samples*. Right-click to change the format of each of the two clocks.
+Nella parte superiore della finestra _Editor_ sono presenti due orologi che possono visualizzare l'ora in diversi 
+formati: *Timecode*, *Battute:Battiti*, *Minuti:Secondi*, *Secondi* e *Campioni*. Fare clic con il tasto destro del mouse 
+per modificare il formato di ciascuno dei due orologi.
 
-![Clock Units](en/Ardour6_Clock_Units.png?width=30vw)
+{{< figure src="it/Ardour8_Clock_Units.png" alt="Unità orologio" >}}
 
 These are called the transport clocks. The left one is the primary transport clock and the right one is the secondary transport clock. The advantage of having two transport clocks is that you see the playhead position in two different time units without having to change any settings.
 
