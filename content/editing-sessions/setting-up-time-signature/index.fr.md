@@ -20,12 +20,14 @@ Il y a toujours au moins un marqueur pour la signature temporelle et le tempo da
 
 Vous pouvez également modifier facilement la dernière signature temporelle ou le dernier tempo, même si vous avez défilé au-delà du moment où vous pouvez voir le marqueur sur la ligne de temps. Cliquez simplement sur le bouton tempo ou TS juste en dessous de l'horloge secondaire et donnez une nouvelle valeur dans la boîte de dialogue qui vient de s'ouvrir.
 
-{{< figure src="en/Ardour5_Edit_TS_and_Tempo.png" alt="Tempo et signature temporelle" >}}
+![Tempo et signature temporelle](en/Ardour5_Edit_TS_and_Tempo.png?width=25vw)
 
 Pour le tempo (bouton de gauche), choisissez le nombre de battements par minute (bpm) pour votre session.
 
 Pour la _signature temporelle_ (bouton avec légende "TS" à droite), vous pouvez entrer de nouvelles valeurs pour les _battements par mesure_ ainsi que pour la _valeur de la note_.
 
-**Poursuivre**
+## Poursuivre
 
 Ensuite, nous allons explorer l'utilisation des plages pour mettre en place une boucle que nous pouvons écouter pendant que nous arrangeons le rythme.
+
+Suivant : [UTILISER LES PLAGES](../using-ranges)

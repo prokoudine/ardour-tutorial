@@ -1,0 +1,16 @@
+name: Version Consistency Check
+
+on:
+  pull_request:
+  push:
+    branches: ["main"]
+
+jobs:
+  check-versions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run version consistency check
+        run: ./scripts/check-versions.sh

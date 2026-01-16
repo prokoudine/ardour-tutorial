@@ -10,7 +10,7 @@ There are several ways to get MIDI into a MIDI track in Ardour apart from import
 
 ## Real-time recording
 
-Yhe most obvious option to record MIDI into Ardour is connecting a MIDI keyboard to your audio interface or your computer directly and recording everything you play. It's a pretty straightforward process: 
+The most obvious option to record MIDI into Ardour is connecting a MIDI keyboard to your audio interface or your computer directly and recording everything you play. It's a pretty straightforward process: 
 
 1. Select an existing MIDI track to record to or create a new one.
 

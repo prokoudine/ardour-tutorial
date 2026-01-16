@@ -15,7 +15,7 @@ Ardour supporte plusieurs API de greffons :
 - **Windows** : LADSPA, LV2, VST2.x, VST3
 - **macOS** : LADSPA, LV2, VST2.x, VST3, AU
 
-Vous pouvez trouver une liste de greffons libres/libre recommandés [dans la section mixage](../../mixing-sessions/plugins/).
+Vous pouvez trouver une liste de greffons libres recommandés [dans la section mixage](../../mixing-sessions/plugins/).
 
 ## Installation des greffons
 

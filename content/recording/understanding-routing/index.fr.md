@@ -12,7 +12,7 @@ En plus d'acheminer les signaux audio vers et depuis Ardour, le routage joue un 
 
 ### Routage dans Ardour
 
-Le routage standard des entrées, pistes et bus dans Ardour est déterminé lorsque une nouvelle session est créée dans les _Options avancées_ de la boîte de dialogue _Nouvelle session_(voir la page [Démarrer Ardour](../../getting-started/starting-ardour-on-ubuntu/)).
+Le routage standard des entrées, pistes et bus dans Ardour est déterminé lorsque une nouvelle session est créée dans les _Options avancées_ de la boîte de dialogue _Nouvelle session_(voir la page [Démarrer Ardour](../../getting-started/starting-ardour/)).
 Par défaut, le routage est le suivant :
 
 - Les entrées des périphériques audio sont acheminées vers les entrées des pistes.
@@ -29,11 +29,11 @@ La fenêtre _Audio Connection Manager_ (également connue sous le nom de "patchb
 
 La baie de brassage présente deux groupes de ports ; un ensemble de sources et un autre de destinations. Les sources et les destinations sont organisées par onglets. Les sources disponibles sont affichées verticalement sur le côté gauche, et les destinations sont affichées horizontalement en bas.
 
-Dans la capture d'écran ci-dessous, vous remarquerez que l'onglet _Hardware_ est sélectionné en haut à gauche (c'est une source) et que l'onglet *_Ardour_* en haut à gauche (c'est une source), et que l'onglet *_Ardour Tracks_* est sélectionné comme destination en bas. Cela signifie que la matrice que vous voyez affiche les connexions à partir de sources sonores matérielles disponibles (par exemple, un microphone), dans des pistes Ardour existantes.  
+Dans la capture d'écran ci-dessous, vous remarquerez que l'onglet _Hardware_ est sélectionné en haut à gauche (c'est une source) et que l'onglet _*Ardour*_ en haut à gauche (c'est une source), et que l'onglet _*Ardour Tracks*_ est sélectionné comme destination en bas. Cela signifie que la matrice que vous voyez affiche les connexions à partir de sources sonores matérielles disponibles (par exemple, un microphone), dans des pistes Ardour existantes.
 
 {{< figure src="en/ardour7-audio-connection-manager-1.png" alt="ACM 1" >}}
 
-Les points verts représentent une connexion. La capture d'écran ci-dessus nous indique que les sons entrants provenant de _capture\_1_ (la première source d'entrée de votre carte son, ou le microphone intégré de votre ordinateur portable) vont dans la piste Ardour nommée _Audio 1_, et que les sons entrants de _capture\_2_ vont dans l'entrée de la piste Ardour nommée _Audio 2_. 
+Les points verts représentent une connexion. La capture d'écran ci-dessus nous indique que les sons entrants provenant de _capture_1_ (la première source d'entrée de votre carte son, ou le microphone intégré de votre ordinateur portable) vont dans la piste Ardour nommée _Audio 1_, et que les sons entrants de _capture_2_ vont dans l'entrée de la piste Ardour nommée _Audio 2_.
 
 Nous pouvons voir que _Audio 1_ est une piste Mono parce qu'elle n'a qu'un seul slot de connexion, alors que la piste _Audio 2_ est Stéréo car elle a deux slots (Gauche et Droite).
 
@@ -42,13 +42,13 @@ La capture d'écran suivante montre le chemin du signal depuis _Ardour Tracks_ (
 {{< figure src="en/ardour7-audio-connection-manager-2.png" alt="ACM 2" >}}
 
 Note : vous vous souvenez que _Audio 1_ est une piste Mono ? Nous avons vu dans la capture d'écran précédente que _Audio 1_ n'a qu'un seul slot d'entrée. Mais maintenant, sur la capture d'écran ci-dessus, vous voyez que "Audio 1" a deux sorties (gauche et droite). C'est normal :
-nous définissons si une piste est Mono ou Stéréo par son *nombre d'entrées*, pas par ses sorties. Les pistes Mono ne contiennent qu'un seul canal audio, mais vous pouvez toujours choisir de placer le son à gauche ou à droite (ou n'importe où entre les deux). Pour plus d'informations à ce sujet, veuillez consulter le chapitre _Panning_.
+nous définissons si une piste est Mono ou Stéréo par son _nombre d'entrées_, pas par ses sorties. Les pistes Mono ne contiennent qu'un seul canal audio, mais vous pouvez toujours choisir de placer le son à gauche ou à droite (ou n'importe où entre les deux). Pour plus d'informations à ce sujet, veuillez consulter le chapitre _Panning_.
 
 Enfin, explorons quelques onglets supplémentaires dans le _Gestionnaire de connexions audio_ pour voir le son passer du bus _Master_ aux sorties matérielles (vos haut-parleurs ou votre casque) :
 
 {{< figure src="en/ardour7-audio-connection-manager-3.png" alt="ACM 3" >}}
 
-Comme vous pouvez le voir, l'onglet source sélectionné est maintenant _Ardour Busses_, et l'onglet destination est _Hardware_. Cette session n'a qu'un seul bus, le "master out" par défaut. Les points verts indiquent que tous les sons provenant du bus _Master_ sont dirigés vers les systèmes de lecture 1 et 2, qui sont les sorties de votre carte son. 
+Comme vous pouvez le voir, l'onglet source sélectionné est maintenant _Ardour Busses_, et l'onglet destination est _Hardware_. Cette session n'a qu'un seul bus, le "master out" par défaut. Les points verts indiquent que tous les sons provenant du bus _Master_ sont dirigés vers les systèmes de lecture 1 et 2, qui sont les sorties de votre carte son.
 
 ### Comment se connecter et se déconnecter ?
 
@@ -71,7 +71,7 @@ Supposons que vous souhaitiez envoyer la sortie des deux pistes de guitare au bu
 Voici comment éditer le "patchbay" pour obtenir le routage désiré. Sélectionnez l'onglet _Ardour Tracks_ dans _Sources_ (onglets verticaux), et _Ardour Busses_ dans _Destinations_ (onglets horizontaux inférieurs).
 Annulez les connexions existantes des deux pistes vers _Maître_.
 Créez ensuite des connexions entre les deux pistes et le bus _Guitar_.
-Le résultat final ressemblerait à ceci : 
+Le résultat final ressemblerait à ceci :
 
 {{< figure src="en/ardour7-audio-connection-manager-5.png" alt="ACM 5" >}}
 
@@ -88,14 +88,14 @@ Le bouton **Entrées** se trouve en haut et le bouton **Sorties** se trouve en b
 
 {{< figure src="en/ardour7-editor-mixer-in-out.png" alt="Editeur mixeur entrées sorties" >}}
 
-Vous pouvez sélectionner une connexion à partir du menu, ou choisir _Routing Grid_ (grille de routage)  pour voir une version plus simple du _Gestionnaire de connexions audio_ avec seulement les options **Entrées** ou **Sorties** de la piste ou du bus sélectionné. 
+Vous pouvez sélectionner une connexion à partir du menu, ou choisir _Routing Grid_ (grille de routage) pour voir une version plus simple du _Gestionnaire de connexions audio_ avec seulement les options **Entrées** ou **Sorties** de la piste ou du bus sélectionné.
 
 ### Toutes les connexions Ardour sont des connexions JACK
 
 Il est important de réaliser que tous les routages que vous établissez ou que vous déconnectez dans Ardour sont en fait des routages JACK, que vous pouvez voir depuis d'autres applications comme _Qjackctl_ ou _Catia_, selon votre système d'exploitation.
 Voici un exemple de fenêtre _Catia_ (Linux uniquement) affichant les mêmes connexions JACK évoquées ci-dessus :
 
-{{< figure alt="Catia" src="en/Ardour4_Catia_Example.png" >}} 
+{{< figure alt="Catia" src="en/Ardour4_Catia_Example.png" >}}
 
 **Poursuivre**
 
