@@ -63,22 +63,29 @@ controllo per mostrare o nascondere i diversi tipi di informazioni temporali.
 
 {{< figure alt="Timeline" src="it/ardour8-timeline-rulers.png" >}}
 
-**Minutes/Seconds**
-: To view minutes and seconds on the timeline, right-click the timeline labels and select _Mins:Secs_.
+**Minuti/Secondi** 
+: per visualizzare i minuti e i secondi sulla timeline, clicca con il tasto destro sulle etichette della timeline e 
+seleziona _Mins:Secs_.
 
-**Bars/Beats**
-: To view bars and beats on the timeline, right-click the timeline and select _Bars & Beats_.
-: It is possible to set a time signature and tempo for the entire Ardour session, as well as to change them at different points in the same session. For more information on this, please see the _Setting Up The Time Signature_ chapter.
+**Battiti/Battute**
+: Per visualizzare le battute e i battiti sulla timeline, clicca con il tasto destro sulla timeline e seleziona 
+_Battute:battiti_.
+: È possibile impostare un tempo e un'indicazione di tempo per l'intera sessione di Ardour, nonché modificarli in diversi
+punti della stessa sessione. Per ulteriori informazioni al riguardo, consultare il capitolo _Impostazione del tempo_.
 
 **Timecode**
-: To work with SMPTE video timecode, first you need to set the _timecode fps_ (frames per second). This can be found in the timecode tab of the _Session Properties_ window (`Session > Properties` in menu or the **Alt+O** shortcut).
+: Per lavorare con il timecode video SMPTE, è necessario innanzitutto impostare il _timecode fps_ (fotogrammi al secondo). 
+Questa impostazione è disponibile nella scheda timecode della finestra _Proprietà della sessione_ 
+(`Sessione > Proprietà` nel menu o con la scorciatoia **Alt+O**).
 
-{{< figure alt="Timecode" src="en/Ardour6_Timecode.png" >}}
+{{< figure alt="Timecode" src="it/Ardour8_Timecode.png" >}}
 
-Once you have done that, make sure you make the _Timecode_ ruler visible by right-clicking in the timeline and checking the _Timecode_ box.
+Una volta fatto, assicurati di rendere visibile il righello _Timecode_ facendo clic con il pulsante destro del mouse 
+sulla timeline e selezionando _Timecode_.
 
-There are other types of rulers: tempo, time signature, location markers, and more.
+Esistono altri tipi di righelli: tempo, indicazione metrica, marcatore di posizione e altro ancora.
 
-## Continuing
+## Continua
 
-Now that you've set up the timeline, continue on to the chapter on installing plugins. This is will come in handy in the next chapter when you learn how to record MIDI.
+Ora che hai impostato la timeline, passa al capitolo sull'installazione dei plugin. Ti tornerà utile nel prossimo 
+capitolo, quando imparerai a registrare MIDI.
