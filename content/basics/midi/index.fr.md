@@ -22,13 +22,13 @@ Les claviers MIDI et les contrôleurs de grille comme Launchpad envoient génér
 
 Le téléchargement d'un pré réglage à partir d'un éditeur de bureau vers un processeur multi-effets de guitare implique généralement l'envoi d'un message MIDI SysEx.
 
-## Comment MIDI fonctionne-t-il
+## Comment le MIDI fonctionne-t-il
 
 La chose la plus importante à comprendre est que les claviers MIDI ne font aucun son. Ce qu'ils font, c'est envoyer des instructions que le matériel ou le logiciel peut interpréter pour créer un son ou changer le son ou faire quelque chose de complètement différent.
 
 La plupart du temps, vous traiterez du MIDI en vous enregistrant en jouant sur un clavier MIDI.
 
-Considérez ce clavier :
+Voici un clavier MIDI classique avec un ensemble minimal de commandes :
 
 ![Minilab 3](images/midi-keyboard-top.png)
 

@@ -15,17 +15,18 @@ C'est un processus assez simple :
 
 1. Sélectionnez une piste MIDI existante pour l'enregistrer ou créez-en une nouvelle.
 
-2. Armez cette piste pour l'enregistrement (cliquez sur le bouton avec un cercle rouge dans l'en-tête de la piste ou appuyez sur **Shift+B**)
+2. Armez cette piste pour l'enregistrement en cliquant sur le bouton avec un cercle rouge dans l'en-tête de la piste ou appuyez sur **Shift+B**.
 
-3. Basculer le mode d'enregistrement global (cliquer sur le bouton avec un cercle rouge dans l'en-tête de la piste ou appuyer sur **Shift+B**)
+3. Basculer le mode d'enregistrement global en cliquant sur le bouton avec un cercle rouge dans l'en-tête de la piste ou appuyer sur **Shift+B**.
 
-4. Faites rouler le transport (**barre d'espace**) pour commencer l'enregistrement.
+4. Faites rouler le transport **barre d'espace** pour commencer l'enregistrement.
 
 {{< figure src="en/real-time-recording.png" alt="Enregistrement dans une région MIDI" >}}
 
-5. Arrêtez le transport (**barre Espace**) lorsque vous avez terminé.
+5. Arrêtez le transport **barre Espace** lorsque vous avez terminé.
 
-En général, lorsque vous enregistrez une partie à partir d'un clavier MIDI, vous devez pouvoir vous entendre jouer.
+> [!TIP]
+> En général, lorsque vous enregistrez une partie à partir d'un clavier MIDI, vous devez pouvoir vous entendre jouer.
 Si vous constatez que tout est connecté correctement et que et que vous n'entendez toujours pas de son, vérifiez quel canal MIDI votre clavier MIDI envoie des événements note-on/note-off. Il est tout à fait possible qu'il s'agisse d'un canal autre que 1, et que votre instrument virtuel n'ait pas de "patchs" chargés pour ce canal.
 
 <!-- ### Lancement de l'enregistrement à partir d'un clavier MIDI
@@ -83,8 +84,7 @@ Vous pouvez également insérer des silences, ce qui signifie essentiellement qu
 
 Lorsque vous utilisez un clavier MIDI pour la saisie de pas, seul un sous-ensemble de paramètres dans la boîte de dialogue s'appliquent. Ardour utilisera la longueur de note définie, mais ne se préoccupera pas de la vélocité, du canal, de la longueur de note ou de l'octave et utilisera tout ce que vous envoyez à partir du clavier.
 
-Essayons de l'utiliser et de créer une simple ligne de basse que nous pourrons utiliser plus tard dans le
-projet.
+Essayons de l'utiliser et de créer une simple ligne de basse que nous pourrons utiliser plus tard dans le projet.
 
 1. Créez une nouvelle piste, sélectionnez Surge XT comme instrument virtuel.
 
@@ -133,4 +133,4 @@ En mode _Draw_, vous pouvez également faire de l'édition légère : sélection
 
 **Poursuivre**
 
-Dans le chapitre suivant, nous parlerons de la façon de vous aider à jouer en synchronisation avec le reste du matériel de la session, que vous utilisiez un clavier MIDI pour enregistrer une partie de synthétiseur ou une guitare basse.
+Dans le chapitre suivant, nous aborderons les différents modes d'enregistrement parmi lesquels vous pouvez choisir.
