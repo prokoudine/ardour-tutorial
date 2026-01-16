@@ -27,27 +27,41 @@ per modificare il formato di ciascuno dei due orologi.
 
 {{< figure src="it/Ardour8_Clock_Units.png" alt="Unità orologio" >}}
 
-These are called the transport clocks. The left one is the primary transport clock and the right one is the secondary transport clock. The advantage of having two transport clocks is that you see the playhead position in two different time units without having to change any settings.
+Questi sono chiamati orologi di trasporto. Quello a sinistra è l'orologio di trasporto primario e quello a destra è 
+l'orologio di trasporto secondario. Il vantaggio di avere due orologi di trasporto è che è possibile vedere la posizione
+della testina di riproduzione in due diverse unità di tempo senza dover modificare alcuna impostazione.
 
-If you never need the second clock, you can disable it entirely. Go to  `Edit > Preferences > Appearance > Toolbar` and disable the _Display Secondary Clock_ checkbox.
+Se non hai mai bisogno del secondo orologio, puoi disattivarlo completamente. Vai su 
+`Modifica > Preferenze > Aspetto > Barra` e deseleziona la casella _Mostra orologio secondario_.
 
-Please check the Ardour manual for more information on [clocks](http://manual.ardour.org/ardours-interface/using-ardour-clock-displays/).
+Per ulteriori informazioni sugli [orologi](http://manual.ardour.org/ardours-interface/using-ardour-clock-displays/), 
+consultare il manuale di Ardour.
 
-## Snap Modes
+## Modalità allineamento (Snap)
 
-Snapping settings are located just below the clocks to the right. They control the _quantization_ of the time grid, i.e., to which units the timeline grid is divided and to what extent audio regions and MIDI notes get snapped when snapping is enabled. E.g. you can snap to whole seconds when you drag an audio region around or you could snap to a 1/16 note when creating or editing MIDI notes.
+Le impostazioni di allineamento si trovano appena sotto gli orologi sulla destra. Esse controllano la divisione 
+della griglia temporale, ovvero in quali unità è suddivisa la griglia della timeline e in che misura le regioni audio e 
+le note MIDI vengono agganciate quando l'allineamento è abilitato. Ad esempio, è possibile agganciare a secondi interi 
+quando si trascina una regione audio o agganciare a una nota da 1/16 quando si creano o si modificano note MIDI.
 
-There is one global switch, _Snap_, and then a drop-down list of grid quantization presets: _Bar_, _1/4 note_, _1/8 note_ etc., _Triplets_, _Timecode_, _Minutes and Seconds_, _CD frames_, and more.
+È presente un interruttore globale, _Allineamento_, e un elenco a discesa di impostazioni predefinite per la 
+divisione della griglia: _Battuta_, _1/4 note_, _1/8 note_ ecc., _Terzine_, _Timecode_, _Minuti e secondi s_,
+_CD frames_ e altro ancora.
 
-![Snap](en/Ardour6_Snap_Options_and_Nudge_Controls.png?width=20vw)
+{{< figure alt="Allineamento" src="it/Ardour8_Snap_Options_and_Nudge_Controls.png" >}}
 
-When _No Grid_ quantization preset is selected, there is no grid displayed on the tracks/busses canvas. In that case, with snapping off, nothing will snap. And with snapping enabled, regions and notes will only snap to location markers.
+Quando è selezionata l'impostazione predefinita _Nessuna Griglia_, non viene visualizzata alcuna divisione della griglia
+sulle tracce/bus. In tal caso, con la modalità allineamento disattivo, nulla verrà allineato. Con l'allineamento attivo,
+le regioni e le note verranno allineate solo ai marcatori di posizione.
 
 ## Timeline
 
-The _timeline_ is located below the snapping settings, just above the main canvas. By right-clicking on the timeline labels (i.e., right-click on the left-side area where the words "Timecode, Bars:Beats, Meter" etc are displayed), you can set the check boxes to show or hide the different types of time information.
+La _timeline_ si trova sotto le impostazioni di aggancio, appena sopra lo spazio di lavoro principale. Facendo clic con 
+il tasto destro del mouse sulle etichette della timeline (ovvero, facendo clic con il tasto destro del mouse sull'area a
+sinistra dove sono visualizzati "Timecode, Battute:Battiti, Tempo" ecc.), è possibile selezionare le caselle di 
+controllo per mostrare o nascondere i diversi tipi di informazioni temporali.
 
-{{< figure alt="Timeline" src="en/ardour7-timeline-rulers.png" >}}
+{{< figure alt="Timeline" src="it/ardour8-timeline-rulers.png" >}}
 
 **Minutes/Seconds**
 : To view minutes and seconds on the timeline, right-click the timeline labels and select _Mins:Secs_.
