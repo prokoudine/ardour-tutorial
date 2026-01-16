@@ -1,127 +1,114 @@
 +++
-title = "Overview of the Interface"
-description = "Basics of Ardour's user interface"
+title = "Panoramica dell'interfaccia"
+description = "Nozioni di base sull'interfaccia utente di Ardour"
 weight = 2
 +++
 
-This section will give you a basic overview of Ardour's user interface.
+Questa sezione ti fornirà una panoramica di base dell'interfaccia utente di Ardour.
 
-We will take a look at shared elements of the interface, main windows, and focus
-on the _Editor_ window and the _Mixer_ window. Later chapters will give more
-detailed information on each feature listed here.
+Esamineremo gli elementi comuni dell'interfaccia e delle finestre principali, concentrandoci in particolare sulle 
+finestre _Editor_ e _Mixer_. Nei capitoli successivi forniremo informazioni più dettagliate su ciascuna delle 
+funzionalità qui elencate.
 
-## Ardour's window
+## Finestra di Ardour
 
-Here is a typical view of a project opened in Ardour:
+Ecco una schermata tipica di un progetto aperto in Ardour:
 
-![Main window of Ardour 7](en/ardour7-main-window-parts.png)
+{{< figure src="it/ardour8-main-window-parts.png" alt="Finestra principale di Ardour 8" >}}
 
-There are two larger parts of the user interface:
+L'interfaccia utente è composta da due parti principali: 
 
-1. Static part that contains program's menu, transport panel, clocks, navigation
-timeline, and various controls. We'll talk about it later on this page.
+1. La parte statica che contiene il menu del programma, il pannello di trasporto, gli orologi, la timeline di 
+navigazione e vari controlli. Ne parleremo più avanti in questa pagina. 
 
-2. Dynamic part that changes depending on the currently opened window. We'll
-talk about that on further pages covering every window (Editor, Mixer, Recorder,
-Cue).
+2. La parte dinamica che cambia a seconda della finestra attualmente aperta. Ne parleremo nelle pagine successive 
+dedicate a ciascuna finestra (Editor, Mixer, Registratore, Cue).
 
-Let's get on with the static part and focus on features that will be of
-immediate use to you.
+Passiamo alla parte statica e concentriamoci sulle funzionalità che ti saranno immediatamente utili.
 
-## Program's menu
+## Menu del programma
 
-This is a fairly straightforward way of accessing features in any program, you
-shouldn't have any problems navigating it. Session-specific commands are in the
-_Session_ menu, everything that is related to playing and recording is in the
-_Transport_ menu, most editing features are in _Edit_ and so on.
+Questo è il modo più semplice per accedere alle funzioni di qualsiasi programma, non dovresti avere problemi a 
+utilizzarlo. I comandi specifici della sessione si trovano nel menu _Sessione_, tutto ciò che riguarda la riproduzione 
+e la registrazione si trova nel menu _Trasporto_, la maggior parte delle funzioni di editing si trova in _Modifica_ e 
+così via.
 
-![Ardour program menu](en/ardour7-program-menu.png?width=50vw)
+{{< figure src="it/ardour8-program-menu.png" alt="Menu del programma di Ardour 8" >}}
 
-For convenience, item-specific features are duplicated in the right-click menu.
-For instance, you'll find the contents of the _Region_ menu in the right-click
-menu for a selected region (a clip that you can see on the timeline, see further
-pages of the tutorial).
+Per comodità, le funzioni specifiche degli elementi sono duplicate nel menu contestuale. Ad esempio, troverai il 
+contenuto del menu _Regione_ nel menu contestuale di una regione selezionata (una clip che puoi vedere sulla timeline, 
+vedi le pagine successive del tutorial).
 
-## Info Panel
+## Pannello informativo
 
-This panel displays useful information about the currently opened project
-(sampling rate, latency, DSP load) as well as how many estimated minutes of
-recording are available given the current amount of free disk space.
+Questo pannello mostra informazioni utili sul progetto attualmente aperto (frequenza di campionamento, latenza, 
+carico DSP) e quanti minuti di registrazione sono disponibili in base allo spazio libero attualmente disponibile sul disco.
 
-![Ardour info panel](en/ardour7-info-panel.png?width=50vw)
+{{< figure src="it/ardour8-info-panel.png" alt="Pannello informativo di Ardour 8" >}}
 
-If you right-click on it, you will see more options such as name of the current
-project snapshot (more on that later) and wall clock (as seen on the screenshot
-above).
+Se clicchi con il tasto destro del mouse, vedrai altre opzioni come il nome dell'istantanea del progetto corrente 
+(ne parleremo più avanti) e l'orologio (come si vede nella schermata sopra).
 
-## Transport panel
+## Pannello trasporto
 
-The transport panel allows easily navigating the project: going to session
-start/end, playing entire session or just a selection (called 'range' in
-Ardour), initiating recording.
+Il pannello trasporto consente di navigare facilmente nel progetto: andare all'inizio/alla fine della sessione, 
+riprodurre l'intera sessione o solo una selezione (chiamata "intervallo" in Ardour), avviare la registrazione.
 
-![Transport Panel](en/ardour7-transport-panel.png?width=15vw)
+{{< figure src="it/ardour8-transport-panel.png" alt="Pannello trasporto di Ardour 8" >}}
 
-The bottom of the panel has jog/shuttle controls for skipping backward and
-forward at various speed while playing back the contents of the session.
+La parte inferiore del pannello presenta i comandi jog/shuttle per saltare avanti e indietro a varie velocità durante la
+riproduzione dei contenuti della sessione.
 
-In case you want the transport panel sans jog-shuttle controls somewhere else on
-the screen, you can open a floating window called _Transport Controls_
-(`Window > Transport Controls`). You can move this window anywhere on the
-screen and resize it.
+Se desideri che il pannello di trasporto senza i controlli jog-shuttle sia visualizzato in un altro punto dello schermo,
+puoi aprire una finestra mobile denominata _Controlli trasporto_ (`Finestre > Controlli trasporto`). Puoi spostare 
+questa finestra in qualsiasi punto dello schermo e ridimensionarla.
 
-## Clocks
+## Orologi
 
-![Clocks](en/Ardour6_Clocks.png?width=30vw)
+{{< figure src="it/ardour8-clocks.png" alt="Orologi di Ardour 8" >}}
 
-The main _clocks_ are located next to the transport controls. Clocks in Ardour
-can display time in 4 different formats: Time Code, Bars:Beats, Minutes:Seconds,
-and Samples. Right-click on the clock to select a format. You can also turn the
-clock off. The reason for having two transport clocks is that it allows you to
-see the playhead position in two different time units without having to change
-any settings.
+Gli _orologi_ principali si trovano accanto ai controlli trasporto. Gli orologi in Ardour possono visualizzare il tempo 
+in 4 diversi formati: Timecode, Battute:Battiti, Minuti:Secondi e Campioni. Clicca con il tasto destro sull'orologio per
+selezionare un formato. Puoi anche spegnere l'orologio. Il motivo per cui ci sono due orologi di trasporto è che ti 
+permettono di vedere la posizione del cursore di riproduzione in due diverse unità di tempo senza dover modificare 
+alcuna impostazione.
 
-If you are working in a home studio where you use a footswitch to toggle
-recording and you are a few meters away from the screen, you might want a bigger
-clock. Use `Window > Big Clock` to open a clock window that will float on top of
-all other windows and resize it to your liking.
+Se lavori in uno studio domestico dove utilizzi un interruttore a pedale per attivare la registrazione e ti trovi a 
+qualche metro di distanza dallo schermo, potresti aver bisogno di un orologio più grande. Utilizza 
+`Finestre > Orologio grande` per aprire una finestra con l'orologio che rimarrà in primo piano rispetto a tutte le altre
+finestre e ridimensionala a tuo piacimento.
 
-![Big Clock](en/ardour7-big-clock.png?width=50vw)
+{{< figure src="it/ardour8-big-clock.png" alt="Orologio grande di Ardour 8" >}}
 
-Please see the [Setting Up the Timeline](../setting-up-the-timeline) chapter
-for more details on the clocks.
+Per ulteriori dettagli sugli orologi, consultare il capitolo [Impostazione della timeline](../setting-up-the-timeline).
 
-## Navigation timeline
+## Navigazione della timeline
 
-To the right of these two clocks you can see the _mini-timeline_, also called
-_Navigation Timeline_. It's a convenient way to be reminded of cues and location
-markers, especially when you are in the _Recorder_ window where the timeline
-doesn't have those rulers.
+A destra di questi due orologi è possibile vedere la _mini-timeline_, chiamata anche _Navigatore timeline_. È un modo 
+pratico per ricordare i segnali e gli indicatori di posizione, specialmente quando ci si trova nella finestra _Registrazione_, 
+dove la timeline non dispone di tali righelli.
 
-![Navigation timeline](en/ardour7-navigation-timeline.png?width=40vw)
+{{< figure src="it/ardour8-navigation-timeline.png" alt="Navigatore timeline di Ardour 8" >}}
 
-Please check the Ardour manual for more information on the
-[mini-timeline](https://manual.ardour.org/ardours-interface/mini-timeline/).
+Per ulteriori informazioni sulla [mini-timeline](https://manual.ardour.org/ardours-interface/mini-timeline/), consultare il manuale di Ardour.
 
-## Switching Between Windows
+## Passare da una finestra all'altra
 
-To the right of the global toolbar, right after the _Navigation Timeline_ and
-the master bus output meter, you'll find a convenient widget to switch between
-major Ardour windows — Editor, Mixer, Recorder, and Cue.
+A destra della barra degli strumenti globale, subito dopo il _Navigatore della timeline_ e il misuratore di uscita del 
+bus master, troverai un comodo widget per passare da una finestra all'altra di Ardour: Editor, Mixer, Registratore e Cue.
 
-![Window switcher](en/ardour7-window-switcher.png?width=6vw)
+{{< figure src="it/ardour8-window-switcher.png" alt="Selettore di finestre di Ardour 8" >}}
 
-Alternatively, you can use **Ctrl+PageUp/PageDown** to cycle through windows,
-much like in any web browser.
+In alternativa, è possibile utilizzare **Ctrl+Pagina su/Pagina giù** per scorrere le finestre, proprio come in 
+qualsiasi browser web.
 
-You can also use the **Alt+M** shortcut to switch between _Editor_ and _Mixer_
-windows. If you are currently in either _Recorder_ or _Cue_ window, pressing
-that shortcut for the first time will take you to the _Mixer_ window, and the
-another one will take you to the _Editor_ window.
+È anche possibile utilizzare la scorciatoia **Alt+M** per passare dalla finestra _Editor_ alla finestra _Mixer_ e 
+viceversa. Se ci si trova nella finestra _Registratore_ o _Cue_, premendo questa scorciatoia per la prima volta si 
+passerà alla finestra _Mixer_, mentre premendola una seconda volta si passerà alla finestra _Editor_.
 
-**Continuing**
+**Continua**
 
-The next sections will explain basics of main Ardour's windows:
+Le sezioni successive spiegheranno le nozioni di base delle finestre principali di Ardour:
 
-[Editor](editor-window) | [Mixer](mixer-window) | [Recorder](recorder-window) |
+[Editor](editor-window) | [Mixer](mixer-window) | [Registratore](recorder-window) |
 [Cue](cue-window)
