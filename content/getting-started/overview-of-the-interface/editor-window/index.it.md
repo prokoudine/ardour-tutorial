@@ -1,100 +1,92 @@
 +++
-title = "Editor window"
-description = "Basics of Ardour's editor window"
+title = "Finestra dell'editor"
+description = "Nozioni di base sulla finestra dell'editor di Ardour"
 chapter = false
 weight = 1
 +++
 
-When you create a new session, Ardour opens an empty new window called the
-_Editor_ window. The _Editor_ window is the most important window in Ardour, as
-this is where you arrange track, import and edit media on the timeline, and
-control plugin automation for creative effects and mixing.
+Quando crei una nuova sessione, Ardour apre una nuova finestra vuota chiamata finestra _Editor_. La finestra _Editor_ è
+la finestra più importante in Ardour, è qui che si organizzano le tracce, si importano e si modificano i media sulla 
+timeline e si controlla l'automazione dei plugin per effetti creativi e mixaggio.
 
-Let's take a look at main parts of the _Editor_ window:
+Diamo un'occhiata alle parti principali della finestra _Editor_:
 
-{{< figure src="en/ardour7-editor-window-sections.png" alt="Editor window sections" >}}
+{{< figure src="it/ardour8-editor-window-sections.png" alt="Sezioni della finestra dell'editor" >}}
 
-Here they are:
+Eccoli:
+1. Barra degli strumenti specifica dell'editor 
+2. Timeline 
+3. Tracce e bus 
+4. Panoramica del progetto 
+5. Mixer 
+6. Tracce e bus, sorgenti, regioni, clip, ecc.
 
-1. Editor-specific toolbar
-2. Timeline
-3. Tracks and busses
-4. Project overview
-5. Editor mixer strip
-6. Tracks & Busses, Sources, Regions, Clips, etc.
+Diamo loro una rapida occhiata.
 
-Let's overview them quickly.
+## Barra degli strumenti specifica dell'editor
 
-## Editor-specific toolbar
+### Modalità di modifica e modalità cursore
 
-### Edit Modes and Cursor Modes
+{{< figure src="it/ardour8-edit-modes-cursor-modes.png" alt="Modalità di modifica e modalità cursore" >}}
 
-![Edit Modes](en/ardour7-edit-modes-cursor-modes.png?width=30vw)
+I controlli _Modalità di modifica_ e _Modalità cursore_ definiscono il comportamento dell'area di lavoro principale e 
+le diverse funzioni che il cursore può avere. Nel menu a tendina sono disponibili tre modalità di modifica: 
+_Libero_, _Scarto_ e _Bloccato_. Ne parleremo nel capitolo [Modifica delle sessioni](../../../editing-sessions/).
 
-The _Edit Modes_ and _Cursor Modes_ controls define the behavior of the main
-canvas and the different functions the cursor can have. There are three edit
-modes in the drop-down menu: _Slide_, _Ripple_, and _Lock_. We will discuss them
-in the [Editing sessions](../../../editing-sessions/) chapter.
+A destra del pulsante **Intelligente** si trovano le _Modalità cursore_:
 
-To the right of the **Smart** button are the _Cursor Modes_:
+- Modo _Intelligente_ (scorciatoia **3** scorciatoia)
+- Modo _Mano_ (scorciatoia **G**)
+- Modo _Intervallo_ (scorciatoia **R**)
+- Modo _Forbice_ (scorciatoia **C**)
+- Modo _Elastico_ (scorciatoia **T**)
+- Modo _Griglia_ (scorciatoia **Y**)
+- Modo _Matita_ (scorciatoia**D**)
+- Modo _Modifica Interna_ (scorciatoia **E** )
 
-- _Smart_ mode (**3** shortcut)
-- _Grab_ mode (**G** shortcut)
-- _Range_ mode (**R** shortcut)
-- _Cut_ mode (**C** shortcut)
-- _Audition_ mode
-- _Stretch_ mode (**T** shortcut)
-- _Grid_ mode (**Y** shortcut)
-- _Draw_ mode (**D** shortcut)
-- _Internal Edit_ mode (**E** shortcut)
+Le modalità cursore sono trattate nella sezione [Lavorare con le regioni](../../../editing-sessions/working-with-regions/). 
+Le ultime due sono trattati nel capitolo **Utilizzo dell'automazione**.
 
-Most of them are discussed in the [Working With
-Regions](../../../editing-sessions/working-with-regions/) section. The last two
-are discussed in the **Using Automation** chapter.
+La modalità _Intelligente_ è in realtà una combinazione delle modalità _Mano_ e _Intervallo_. Quando è abilitata, il 
+mouse si comporta come se fosse in modalità _Intervallo_ nella metà superiore di una regione e in modalità _Mano_ nella 
+metà inferiore.
 
-The _Smart_ mode is actually a combination of _Grab_ mode and _Range_ mode. When
-enabled, the mouse behaves as if it is in _Range_ mode in the upper half of a
-region, and in _Grab_ mode in the lower half.
+### Opzioni di aggancio
 
-### Snap Options
+La barra degli strumenti _Opzioni di aggancio_ consente di selezionare le unità della griglia visibili che influenzano 
+l'aggancio durante la modifica delle regioni e, nel caso delle regioni MIDI, il loro contenuto.
 
-The _Snap Options_ toolbar allows selecting visible grid units that affect
-snapping when editing regions and, in case of MIDI regions, their contents.
+{{< figure alt="Opzioni di aggancio e controlli di spostamento" src="it/ardour8-snap-options-and-nudge-controls.png" >}}
 
-![Snap](en/ardour7-snap-options-and-nudge-controls.png?width=25vw)
+Ecco un confronto tra la griglia da 1 battuta, la griglia da 1/8 di nota e la griglia da 1/32 di nota:
 
-Here is a comparison between 1 bar grid, 1/8 note grid and 1/32 note grid:
+{{< figure alt="Griglia da 1 battuta, griglia da 1/8 di nota e 1/32 di nota" src="it/ardour8-snapping-1-bar-to-1-32-note.png" >}}
 
-{{< figure alt="1-bar grid, 1/8 note and 1/32 note grid" src="en/ardour7-snapping-1-bar-to-1-32-note.png" >}}
+Per ulteriori dettagli, consultare le sezioni 
+[Impostazione del tempo](../../../editing-sessions/setting-up-time-signature/), 
+[Utilizzo degli intervalli](../../../editing-sessions/using-ranges/) e
+[Lavorare con le regioni](../../../editing-sessions/working-with-regions/).
 
-Please see the sections on
-[Setting Up Time Signature](../../../editing-sessions/setting-up-time-signature/),
-[Using Ranges](../../../editing-sessions/using-ranges/) and
-[Working With Regions](../../../editing-sessions/working-with-regions/) for more
-details.
+### Opzioni di visualizzazione traccia e zoom
 
-### Track View and Zoom Options
+La parte estrema destra della barra degli strumenti contiene le opzioni di visualizzazione traccia e zoom.
 
-The far right part of the toolbar has track view and zoom options.
+{{< figure src="it/ardour8-view-and-zoom-options.png" alt="Opzioni di visualizzazione e zoom" >}}
 
-![Zoom Options](en/ardour7-view-and-zoom-options.png?width=20vw)
+Le opzioni di visualizzazione delle tracce consentono di selezionare il numero di tracce da visualizzare 
+contemporaneamente ed è anche possibile ridurre o espandere lo zoom verticale delle tracce e dei bus selezionati.
 
-Track view options allow selecting how many tracks to display at the same time,
-and you can also shrink or expand the vertical zoom of selected tracks and
-busses.
-
-Zoom options allow incrementally zooming in and out, as well as zooming out to
-show the entire project horizontally.
+Le opzioni di zoom consentono di ingrandire e rimpicciolire gradualmente l'immagine, nonché di ridurre l'intero progetto  
+per essere visualizzato in orizzontale.
 
 > [!TIP]
-> Use the shortcuts **=** (the equal sign on your main keyboard) for zooming, and
-**-** (the dash key on your main keyboard) for zooming out.
+> Utilizza le scorciatoie **=** (il segno di uguale sulla tastiera principale) per ingrandire e **-** 
+> (il tasto trattino sulla tastiera principale) per rimpicciolire.
 
-The drop-down menu controls the _zoom focus_. It defines the focus point of
-zooming operations. Try zooming in and out with a different zoom focus each
-time. For example, choosing _Playhead_ will cause zoom to behave in relation to
-the position of the _Playhead_. _Mouse_ will take your current mouse position as
-the reference, and so on.
+Il menu a tendina controlla il _focus dello zoom_. Definisce il punto focale delle operazioni di zoom. 
+Prova ad ingrandire e rimpicciolire con un focus dello zoom diverso ogni volta. Ad esempio, scegliendo _Testina_ 
+lo zoom si comporterà in relazione alla posizione del _Testina_. _Mouse_ prenderà come riferimento la posizione corrente
+del mouse, e così via.
 
 ## Timeline
 

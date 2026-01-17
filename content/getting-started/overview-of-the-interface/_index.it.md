@@ -110,5 +110,9 @@ passerà alla finestra _Mixer_, mentre premendola una seconda volta si passerà 
 
 Le sezioni successive spiegheranno le nozioni di base delle finestre principali di Ardour:
 
-[Editor](editor-window) | [Mixer](mixer-window) | [Registratore](recorder-window) |
-[Cue](cue-window)
+{{< cards >}}
+    {{< card link="editor-window" title="Editor" image="en/ardour8-editor-window-thumb.webp">}}
+    {{< card link="mixer-window" title="Mixer" image="en/ardour8-mixer-window-thumb.webp" >}}
+    {{< card link="recorder-window" title="Registratore" image="en/ardour8-recorder-window-thumb.webp" >}}
+    {{< card link="cue-window" title="Cue" image="en/ardour8-cue-window-thumb.webp" >}}
+{{< /cards >}}
