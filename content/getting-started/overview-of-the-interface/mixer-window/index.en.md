@@ -6,7 +6,11 @@ cascade:
   type: docs
 ---
 
-The main function of the _Mixer_ window is to display all the mixer strips for the various tracks and busses side by side for easy reference and finetuning. This window is mainly used during the _mixing_ process where you distribute instruments across the virtual room and process them with effects to stand out in a mix. It also provides access to plugins and routing features. Please see the chapters on [understanding routing](en/recording-audio/understanding-routing/), [mixing](en/mixing-sessions/mixing-levels/), and [using plugins](en/mixing-sessions/using-plugins/) for details.
+The main function of the _Mixer_ window is to display all the mixer strips for the various tracks and busses side by side 
+for easy reference and finetuning. This window is mainly used during the _mixing_ process where you distribute instruments 
+across the virtual room and process them with effects to stand out in a mix. It also provides access to plugins and routing features. 
+Please see the chapters on [understanding routing](../../../recording/understanding-routing/), 
+[mixing](../../../mixing-sessions/mixing-levels/), and [using plugins](../../../mixing-sessions/using-plugins/) for details.
 
 The user interface of a virtual mixing console largely resembles that of a physical mixing console where you have mixer channels with gain control and a signal meter.
 

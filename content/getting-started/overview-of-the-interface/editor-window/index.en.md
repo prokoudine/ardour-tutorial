@@ -141,7 +141,7 @@ corresponds.
 
 You can toggle to view or hide the _Editor Mixer_ by clicking on the menu
 `View > Show Editor Mixer` (**Shift + E** shortcut). This Mixer is covered in
-the [Using the Mixer Strip](../mixing-sessions/the-mixer-strip/) chapter.
+the [Using the Mixer Strip](../../../mixing-sessions/the-mixer-strip/) chapter.
 
 ## Editor List
 

@@ -9,6 +9,12 @@ sidebar:
 
 This page lists major changes in the Ardour tutorial since the port to Hugo in March 2022.
 
+**January 2026**
+
+- Initial Italian translation by Christian Galeffi
+- Updated French translation by Julien Taverna
+- Fixes by Aleksandr Prokudin, Geoff, magecnion, and tucumcari
+
 **April 2025**
 
 - Infrastructure: start showing the date of the last update; add Ardour's branding

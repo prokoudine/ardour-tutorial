@@ -33,7 +33,7 @@ Il s'agit d'un moyen assez simple d'accéder à n'importe quelle fonctionnalité
 
 Pour des raisons de commodité, les fonctions spécifiques à un élément sont dupliquées dans le menu du clic droit. Par exemple, vous trouverez le contenu du menu _Region_ dans le menu contextuel pour une région sélectionnée (un clip que vous voyez sur la ligne de temps, voir les autres pages du tutoriel).
 
-## Panneau Info
+## Panneau info
 
 Ce panneau affiche des informations utiles sur le projet actuellement ouvert (taux d'échantillonnage, latence, charge du DSP) ainsi que le nombre de minutes d'enregistrement disponibles en fonction de l'espace disque restant.
 
@@ -84,5 +84,12 @@ Vous pouvez également utiliser le raccourci **Alt+M** pour basculer entre les f
 **Poursuivre**
 
 Les sections suivantes expliquent les principes de base des fenêtres principales d'Ardour :
+
+{{< cards >}}
+  {{< card link="editor-window" title="Editeur" image="en/ardour8-editor-window-thumb.webp">}}
+  {{< card link="mixer-window" title="Mixeur" image="en/ardour8-mixer-window-thumb.webp" >}}
+  {{< card link="recorder-window" title="Enregistreur" image="en/ardour8-recorder-window-thumb.webp" >}}
+  {{< card link="cue-window" title="Cue" image="en/ardour8-cue-window-thumb.webp" >}}
+{{< /cards >}}
 
 [Editor](editor-window) | [Mixer](mixer-window) | [Recorder](recorder-window) | [Cue](cue-window)
