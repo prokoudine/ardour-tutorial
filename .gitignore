@@ -2,5 +2,6 @@
 # Built documentation #
 #######################
 public/
+resources/
 .idea/
 /.hugo_build.lock

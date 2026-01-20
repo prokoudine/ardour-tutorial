@@ -63,106 +63,97 @@ seleziona _Inserimento a passi_. Si aprirà la finestra di dialogo _Inserimento 
 
 Ecco le opzioni:
 
-1. Chord entry mode — you can play multiple notes at once, they will be recorded like a chord and willl be above each other on the pianoroll.
+<<<<<<< HEAD
+1. Modalità di inserimento degli accordi: è possibile suonare più note contemporaneamente, che verranno registrate come 
+un accordo e appariranno una sopra l'altra sul pianoroll. 
+2. Preset di lunghezza delle note, da una nota intera a 1/64.
+3. Preset di note puntate 
+4. Preset di pause 
+5. Preset di velocità, dal pianississimo al fortississimo 
+6. Ingressi numerici per dati MIDI: canale, lunghezza di una nota, velocità, ottava (per l'inserimento da tastiera normale), 
+banco MIDI e programma MIDI (in modo da poter utilizzare, ad esempio, un campione pizzicato in una libreria di campioni 
+anziché un arco).
 
-2. Note length presets, from a whole note to 1/64th.
+Ora hai tre opzioni:
 
-3. Dotted note presets
+1. Clicca sui tasti del pianoforte con il mouse
+2. Premere i tasti sulla tastiera del computer
+3. Utilizza una tastiera MIDI collegata all'ingresso della traccia.
 
-4. Rest presets
+Per l'opzione 2, la fila centrale dei tasti con le lettere è utilizzata per i tasti bianchi, mentre la fila superiore è 
+utilizzata per i tasti neri:
 
-5. Velocity presets, from pianississimo to fortississimo
+{{< figure src="it/keyboard-map-to-piano-keys.svg" alt="Mappa della tastiera per i tasti del pianoforte" >}}
 
-6. Numeric inputs for MIDI data: channel, length of a note, velocity, octave (for
-entry from regular keyboard), MIDI bank and MIDI program (so that you could
-use e.g. pizzicato sample in a sample library rather than arc).
+Tutte le impostazioni visualizzate nella finestra di dialogo _inserimento a passi_ si applicano alle opzioni 1 e 2. 
+Per ogni nota inserita successivamente, è possibile impostare:
 
-Now you have three options:
+- Durata, da una nota intera a 1/64 (o qualsiasi durata quando si utilizza la casella di selezione 1/Nota), con 
+immissione opzionale degli accordi
+- Canale
+- Velocità (i tasti da "z" a "," sulla tastiera italiana (IT) possono essere utilizzati come scorciatoia)
+- Ottava (i tasti da 1 a 9 possono essere utilizzati come scorciatoie)
 
-1. Click piano keys with a mouse
-2. Press keys on your regular keyboard
-3. Use a MIDI keyboard connected to track's input
+È anche possibile inserire delle pause, il che significa sostanzialmente che Ardour sposta il cursore di modifica verso 
+destra della lunghezza della nota attualmente selezionata.
 
-For option 2, the middle row of letter keys is used for white keys, and the upper letter row is for black keys:
+Quando si utilizza una tastiera MIDI per l'inserimento a passi, solo una parte delle impostazioni nella finestra di 
+dialogo è applicabile. Ardour utilizzerà la lunghezza della nota definita, ma non terrà conto delle impostazioni di 
+velocità, canale o ottava e utilizzerà qualsiasi dato inviato dalla tastiera.
 
-{{< figure src="en/keyboard-map-to-piano-keys.svg" alt="Keyboard map to piano keys" >}}
+Proviamo a usarlo e creiamo una semplice linea di basso che potremo poi utilizzare nel progetto.
 
-All the settings you see in the _Step Entry_ dialog apply to the options 1 and
-2. For each note you input next, you can set: 
+1. Crea una nuova traccia, seleziona Surge XT come strumento virtuale.
 
-- Length, from a whole note to 1/64 (or any length when using the 1/Note spinbox), with optional chord input
-- Channel
-- Velocity (z through < on English (US) keyboard can be used as keyboard shortcuts)
-- Octave (keys 1 through 9 can be used as shortcuts)
+2. Apri il navigatore _Factory Patches_ e seleziona _Bass 2_ in _Basses_.
 
-You can also insert rests which basically means that Ardour shifts the editing
-cursor to the right by the currently selected note length.
+{{< figure src="it/surge-xt-bass-patch.png" alt="Selezione di una patch per basso in Surge XT" >}}
 
-When you use a MIDI keyboard for step entry, only a subset of settings in the
-dialog apply. Ardour will use the defined note length, but it won't bother
-with either velocity, channel, or octave settings and will use whatever you
-send from the keyboard.
+3. Assicurati che il cursore di riproduzione si trovi all'inizio della sessione, in modo che corrisponda all'inizio 
+della prima battuta di tutte le tracce di percussioni nel progetto corrente.
 
-Let's try to use it and create a simple bass line that we can later use in the
-project.
+4. Aprire la finestra di dialogo _inserimento a passi_ (Inserimento fase).
 
-1. Create a new track, select Surge XT as a virtual instrument.
+5. Selezionare la durata della nota 1/8 e l'ottava 3
 
-2. Open the _Factory Patches_ navigator and select _Bass 2_ in _Basses_.
+6. Sulla tastiera del computer, premi in sequenza D, G, H, G, D, G, U, J, H, 4, A, S, A, 3, H, 4, A, E, D.
 
-{{< figure src="en/surge-xt-bass-patch.png" alt="Selecting a bass patch in Surge XT" >}}
+Ora hai una linea di basso di base che puoi ripetere.
 
-3. Make sure the playhead is at the beginning of the session so that it
-matches the beginning of the first bar of all percussion tracks in the current
-project.
+{{< figure src="it/bassline.png" alt="Linea di basso iniziale" >}}
 
-4. Open the _Step Entry_ dialog
+## Disegnare note sul piano roll
 
-5. Select 1/8 note length and octave 3
+Forse il modo più semplice per aggiungere note a una traccia MIDI è disegnarle sull'area di lavoro.
 
-6. On your regular keyboard press D,G,H,G,D,G,U,J,H,4,A,S,A,3,H,4,A,E,D.
+1. Crea una traccia MIDI.
 
-Now you have a basic bass line you can repeat.
+2. Passa alla modalità _Disegna_ premendo **D** o facendo clic sul pulsante corrispondente nella barra degli strumenti.
 
-{{< figure src="en/bassline.png" alt="Initial bass line" >}}
+3. Clicca e mantieni premuto sull'area di lavoro per creare una regione MIDI.
 
-## Drawing notes on the piano roll
+{{< figure src="en/draw-new-midi-region.gif" alt="Disegna una nuova regione MIDI" >}}
 
-Perhaps the easiest way to add notes to a MIDI track is to draw them on the
-canvas.
+4. Posizionare il mouse nel punto in cui deve iniziare la nota, tenere premuto il tasto sinistro del mouse e trascinare 
+verso destra fino alla fine della nota. Rilasciare il tasto del mouse.
 
-1. Create a MIDI track.
+{{< figure src="en/draw-new-midi-notes.gif" alt="Disegna nuove note MIDI" >}}
 
-2. Switch to the _Draw_ mode by pressing **D** or clicking the respective button
-in the toolbar.
+5. La barra degli strumenti presenta alcune impostazioni predefinite per le nuove note: durata, velocità, canale. È 
+possibile modificare queste impostazioni prima di aggiungere nuove note: scegliendo un preset in un elenco a discesa o 
+scorrendo la rotellina del mouse su uno dei tre elenchi a discesa.
 
-3. Click and drag on the canvas to create a MIDI region.
+{{< figure src="it/midi-draw-toobar.png" alt="Barra degli strumenti di disegno MIDI" >}}
 
-{{< figure src="en/draw-new-midi-region.gif" alt="Draw a new MIDI region" >}}
+6. Ripeti fino a quando non avrai scritto la melodia.
 
-4. Point the mouse to where a note should begin, press and hold left/primary
-mouse button and drag to the right as far as the note should go. Release the
-mouse button.
+Se non sei abituato a questo tipo di inserimento delle note e ruotare mentalmente la tastiera di 90° in senso orario ti 
+sembra difficile, prova a cliccare sul widget della tastiera verticale del pianoforte per ascoltare le note finché non 
+ti ci abitui.
 
-{{< figure src="en/draw-new-midi-notes.gif" alt="Draw new MIDI notes" >}}
+In modalità _Disegno_ è anche possibile effettuare alcune semplici modifiche: selezionare e ridimensionare singole note,
+trascinarle, regolare la velocità, utilizzare il menu contestuale per eseguire varie trasformazioni.
 
-5. The top toolbar has some default settings for new notes: duration,
-velocity, channel. You can change these settings before adding new notes: by
-either choosing a preset in a drop-down list of by scrolling the mousewheel
-over any of the three drop-down lists.
+**Continua**
 
-{{< figure src="en/midi-draw-toobar.png" alt="MIDI drawing toolbar" >}}
-
-6. Repeat until you wrote down the melody.
-
-If you are not accustomed to this type of entering notes and mentally rotating
-the keyboard by 90° clock wise seems difficult for you, try clicking on the
-vertical piano keyboard widget to listen to notes until it grows on you.
-
-While in the _Draw_ mode, you also can do some leight editing: select and
-resize individual notes, drag them around, adjust velocity, use the
-right-click menu to perform various transformations.
-
-**Continuing**
-
-In the next chapter, we'll talk about different recording modes you can choose between.
+Nel prossimo capitolo parleremo delle diverse modalità di registrazione tra cui è possibile scegliere.

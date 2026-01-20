@@ -22,14 +22,11 @@ sidebar:
 ## Iniziamo!
 
 {{< cards >}}
-  {{< card link="basics/" title="Informazioni di base" subtitle="Cosa sono l'audio e il MIDI?" icon="book-open" >}}
-  {{< card link="getting-started/" title="Inizio" subtitle="Comprendere l'interfaccia utente" icon="fast-forward" >}}
-  {{< card link="recording/" title="Registrazione" subtitle="Come registrare audio e MIDI con Ardour" icon="microphone" >}}
-  {{< card link="editing-sessions/" title="Sessioni di editing" subtitle="Come modificare le sessioni con Ardour" icon="scissors" >}}
-  {{< card link="performing-live/" title="Esibizioni dal vivo" subtitle="Come utilizzare il sequencer a matrice" icon="music-note" >}}
-  {{< card link="mixing-sessions/" title="Sessioni di mixaggio" subtitle="Come impostare il routing e usare i plugin" icon="filter" >}}
-  {{< card link="exporting-sessions/" title="Esportazione delle sessioni" subtitle="Come esportare in file separati e singoli" icon="share" >}}
-  {{< card link="saving-sessions/" title="Salvataggio delle sessioni" subtitle="Come salvare istantanee e modelli delle sessioni" icon="save" >}}
+  {{< card link="getting-started/" title="Comprendere l'interfaccia utente" image="en/ardour8-ui-basics-thumb.webp" >}}
+  {{< card link="recording/" title="Registra la tua prima traccia audio e MIDI" image="en/ardour8-edit-sessions-thumb.webp" >}}
+  {{< card link="editing-sessions/" title="Disporre le tracce e modificare i clip" image="en/ardour8-edit-sessions-thumb.webp" >}}
+  {{< card link="mixing-sessions/" title="Mixa tracce con plugin e crea automazioni" image="en/ardour8-mix-sessions-thumb.webp" >}}
+  
 {{< /cards >}}
 
 ## Supporto utente

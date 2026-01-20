@@ -55,7 +55,7 @@ collegamenti MIDI nell'elenco a discesa.
 ---
 6. Chiudere la finestra di dialogo delle impostazioni del protocollo e quindi la finestra di dialogo Preferenze.
 ---
-7. Vai su `Finestre > Connessioni MIDI`. Seleziona la scheda Hardware in alto e Ardour Misc sulla destra.
+7. Vai su `Finestre > Connessioni MIDI`. Seleziona la scheda Hardware in alto e Ardour varie sulla destra.
 ---
 8. Assicurarsi che la porta "MiniLab3 MIDI In" sia collegata alla porta "Generic MIDI Control In".
 ---
