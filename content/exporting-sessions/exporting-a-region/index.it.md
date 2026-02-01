@@ -9,81 +9,72 @@ cascade:
 Potresti voler esportare solo una parte della tua sessione, magari per usarla come campione in un'altra applicazione o 
 per modificarla in un programma diverso. Questo capitolo ti mostra come farlo.
 
-## Exporting a Region
+## Esportare una regione
 
-To export a region, select it in _Grab_ mode and then right-click into the
-sub-menu _Export_, or use the top menu: `Region > Export`.
+Per esportare una regione, selezionala in modalità _mano_ e poi clicca con il tasto destro del mouse sul sottomenu 
+_Esporta_, oppure utilizza il menu in alto: `Regione > Esporta`.
 
-![export region](en/ardour7-export-region-in-right-click-menu.png?width=600)
+{{< figure alt="Esportare una regione" src="it/ardour8-export-region-in-menu.png" >}}
 
-This will open up the same export dialog box explained in the
-[Exporting Sessions](../exporting-a-session) chapter. Choose your options and
-click **Export**. Only the selected region will be exported.
-
-{{< callout type="info" >}}
-Not all parameters and edits are taken into consideraton when exporting a
-region. Trimmed, split, stretched and reversed regions can be exported, but
-edits such as panning and automation are _not_ exported.
-{{< /callout >}}
-
-Also, the volume of the audio track itself or the _Master_ bus will not affect
-the exported file. To export these edits, please see the chapters on exporting
-a range and exporting a session.
-
-## Exporting Several Regions At Once
-
-If you are building a collection of samples to use later in another software,
-and your samples are basically trimmed and edited regions, at the end of the
-process you will need to export all of them. If the number is large, exporting
-them manually can be tedious. Here's one way of exporting several regions at
-once.
-
-1. In _Grab_ mode (**G** shortcut), select all the regions you want to export.
-They do not need to be on the same track.
-
-{{< figure alt="export region" src="en/ardour7-export-multiple-regions-1.png" >}}
-
-2. Go to the `Region > Ranges` menu and choose _Add Range Marker Per Region_.
-
-{{< figure alt="export region" src="en/ardour7-export-multiple-regions-2.png" >}}
-
-3. Ardour has now just created range markers that fit exactly the beginning and
-ending of your selected regions (see the green rectangles in the range markers
-ruler):
-
-{{< figure alt="export region" src="en/ardour7-export-multiple-regions-3.png" >}}
-
-4. Go to the `Session > Export` menu and choose _Export to Audio File(s)_
-(**Alt+E**).
-
-5. In the export dialog box, click on the _Time span_ tab. You will see all the
-newly created ranges listed there. There is also a default range that stands for
-the entire session. 
-
-6. Under _Time Span_, click **Select All** and de-select the very first range
-(the "session" range). The reason is because we want to export the shorter
-ranges, not the whole session.
-
-{{< figure alt="export region" src="en/ardour7-export-multiple-regions-4.png" >}}
-
-7. Go back to the main tab (_File format_) and click **Export**.
-
-Your regions have now been exported to single audio files.
+Si aprirà la stessa finestra di dialogo di esportazione descritta nel capitolo 
+[Esportazione di una sessione](../exporting-a-session). Scegli le opzioni desiderate e fai clic su **Esporta**. Verrà 
+esportata solo la regione selezionata.
 
 {{< callout type="info" >}}
-This method exports *everything* that falls under each defined time range.
-In other words, if you have other regions in other tracks sounding
-simultaneously with the region(s) you want to export, they will be mixed 
-together. Another way of looking at it is this: the export operation will
-export everything that *plays* under the defined time ranges. If that is not
-what you want, you can use solo or mute buttons on select tracks to ensure 
-you export only what you want.
+Non tutti i parametri e le modifiche vengono presi in considerazione durante l'esportazione di una regione. Le regioni 
+tagliate, divise, allungate e invertite possono essere esportate, ma le modifiche come il panning e l'automazione non 
+vengono esportate.
 {{< /callout >}}
 
-## Continuing
+Inoltre, il volume della traccia audio stessa o del bus _Master_ non influirà sul file esportato. Per esportare queste 
+modifiche, consultare i capitoli relativi all'esportazione di un intervallo e all'esportazione di una sessione.
 
-Finally, the next chapter will discuss _Exporting Ranges_ rather than just an
-individual region. The last trick (exporting multiple regions at once) in fact
-already involved using ranges, as you may have guessed.
+## Esportazione di più regioni contemporaneamente
 
-Next: [EXPORTING A RANGE](../exporting-a-range)
+Se stai creando una raccolta di campioni da utilizzare in un altro software e i tuoi campioni sono fondamentalmente 
+regioni tagliate e modificate, alla fine del processo dovrai esportarli tutti. Se il numero è elevato, esportarli 
+manualmente può essere noioso. Ecco un modo per esportare più regioni contemporaneamente.
+
+1. In modalità _Mano_ (scorciatoia **G**), seleziona tutte le regioni che desideri esportare. Non è necessario che si 
+trovino sulla stessa traccia.
+
+{{< figure alt="Esportare una regione" src="it/ardour8-export-multiple-regions-1.png" >}}
+
+2. Vai al menu `Regione > Intervalli` e seleziona _Aggiungi marcatori di intervallo per regione_.
+
+{{< figure alt="Esportare una regione" src="it/ardour8-export-multiple-regions-2.png" >}}
+
+3. Ardour ha appena creato dei marcatori di intervallo che corrispondono esattamente all'inizio e alla fine delle 
+regioni selezionate (vedi i rettangoli verdi nel righello dei marcatori di intervallo):
+
+{{< figure alt="Esportare una regione" src="it/ardour8-export-multiple-regions-3.png" >}}
+
+4. Vai al menu `Sessione > Esporta` e seleziona _Esporta file audio_ (**Alt+E**).
+
+5. Nella finestra di dialogo di esportazione, clicca sulla scheda _Intervallo_. Qui vedrai elencati tutti gli intervalli
+appena creati. È presente anche un intervallo predefinito che rappresenta l'intera sessione.
+
+6. Clicca su **Seleziona tutto** e deseleziona il primo intervallo (l'intervallo "sessione"). Questo permetterà di
+esportare gli intervalli più brevi, non l'intera sessione.
+
+{{< figure alt="Esportare una regione" src="it/ardour8-export-multiple-regions-4.png" >}}
+
+7. Torna alla scheda principale (_Formato del file_) e clicca su **Esporta**.
+
+Le tue regioni sono state esportate in singoli file audio.
+
+{{< callout type="info" >}}
+Questo metodo esporta *tutto* ciò che rientra in ciascun intervallo di tempo definito.
+In altre parole, se ci sono altre regioni in altre tracce che suonano contemporaneamente alle regioni che si desidera 
+esportare, queste verranno mixate insieme. Un altro modo di vedere la cosa è questo: l'operazione di esportazione 
+esporterà tutto ciò che *viene riprodotto* negli intervalli di tempo definiti. Se questo non è ciò che si desidera, è 
+possibile utilizzare i pulsanti solo o muto sulle tracce selezionate per assicurarsi di esportare solo ciò che si 
+desidera.
+{{< /callout >}}
+
+## Continua
+
+Infine, il prossimo capitolo tratterà l'esportazione di intervalli anziché di singole regioni. L'ultimo trucco 
+(esportare più regioni contemporaneamente) in realtà prevedeva già l'uso di intervalli, come avrete intuito.
+
+Successivo: [Esportazione di un intervallo](../exporting-a-range)

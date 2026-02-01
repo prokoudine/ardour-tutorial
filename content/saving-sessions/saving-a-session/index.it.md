@@ -1,80 +1,70 @@
 ---
-title: Salvataggio di una sessione
+title: Salvare una sessione
 description: Come salvare e spostare una sessione di Ardour
 weight: 1
 cascade:
   type: docs
 ---
 
-There are a number of ways to save Sessions in Ardour, so that each session
-can be used later on. The simplest way is to save the entire session just like
-you would save other documents: hitting **Ctrl+S**.
+Esistono diversi modi per salvare le sessioni in Ardour, in modo che ciascuna sessione possa essere riutilizzata in 
+seguito. Il modo più semplice è salvare l'intera sessione proprio come si farebbe con altri documenti: premendo 
+**Ctrl+S**.
 
-A new session is first saved at the moment you create it. While you are working
-on it, you should save it frequently. Get into the habit of hitting **Ctrl+S**
-(or **Command+S** on a Mac) every few minutes.
+Una nuova sessione viene salvata per la prima volta nel momento in cui la crei. Mentre ci lavori, dovresti salvarla 
+frequentemente. Prendi l'abitudine di premere **Ctrl+S** (o **Command+S** su un Mac) ogni pochi minuti.
 
 {{< callout type="info" >}}
-Avoid using any characters other than letters and numbers when naming your
-session. Avoid white spaces, accented letters, !@#$%\*()+, periods, commas, etc.
-Use dashes or underscores if you like. For example, instead of "My Great
-Session!", prefer "My_Great_Session", or "MyGreatSession", or
-"my-great-session". Instead of "Açaí", write "Acai" (without accented letters),
-etc. Once you have created your Ardour session, do _not_ manually rename any
-folders or files that belong to the session.
+Evita di usare caratteri diversi da lettere e numeri quando dai un nome alla tua sessione. Evita spazi bianchi, 
+lettere accentate, !@#$%\*()+, punti, virgole, ecc. Se vuoi, usa trattini o trattini bassi. Ad esempio, invece di 
+"My Great Session!", preferisci "My_Great_Session", o "MyGreatSession", o "my-great-session". Invece di "Açaí", 
+scrivi "Acai" (senza lettere accentate), ecc. Una volta creata la sessione Ardour, _non_ rinominare manualmente 
+alcuna cartella o file appartenente alla sessione.
 {{< /callout >}}
 
-## Ardour File and Folder Format
+## Formato dei file e delle cartelle Ardour
 
-The contents of a typical session's folder on your hard drive might look
-something like this:
+Il contenuto di una tipica cartella di sessione sul disco rigido potrebbe essere simile al seguente:
 
-{{< figure alt="Ardour Folder" src="en/Ardour4_Session_Folder_Structure.png" >}}
+{{< figure alt="Cartelle di Ardour" src="it/ardour8-session-folder-structure.png" >}}
 
-A bit of information about some of the components inside that folder:
+Alcune informazioni sui componenti contenuti in quella cartella:
 
-* The name of this session is _my\_session_.
-* The main session file is called `my_session.ardour`. The session file is
-periodically backed up by Ardour with a `.bak` extension.
-* The `.history` file keeps a record of changes you have made during your
-session, and is also periodically backed up.
-* The `interchange` folder contains the actual audio data of all the regions
-used in your session.
-* The `export` folder is where exported files are saved by default.
+* Il nome di questa sessione è _Tutorial_.
+* Il file di sessione principale si chiama `Tutorial.ardour`. Il file di sessione viene periodicamente sottoposto a 
+backup da Ardour con estensione `.bak`.
+* Il file `.history` conserva una registrazione delle modifiche apportate durante la sessione e viene sottoposto a 
+backup periodici.
+* La cartella `interchange` contiene i dati audio effettivi di tutte le regioni utilizzate nella sessione.
+* La cartella `export` è quella in cui vengono salvati di default i file esportati.
 
-If double-clicking on the session file does not launch Ardour, use the standard
-method of first opening the application itself, then choosing a session from the
-_Session Setup_ dialog.
+Se facendo doppio clic sul file di sessione non si avvia Ardour, utilizzare il metodo standard che consiste nell'aprire 
+prima l'applicazione stessa, quindi scegliere una sessione dalla finestra di dialogo _Configurazione sessione_.
 
-![Ardour Opening](en/ardour7-session-setup-dialog.png?width=600)
+{{< figure alt="Finestra di dialogo di apertura di Ardour" src="it/ardour8-session-setup-dialog.png" >}}
 
-## Moving a Session to Another Computer or Disk
+## Spostamento di una sessione su un altro computer o disco
 
-If you need to move your Ardour session to another computer, or if you would
-like to make a backup of it on an external drive, *you must copy the entire
-folder* containing all of the files mentioned above. It is _not_ enough to copy
-just the `*.ardour` file.
+Se avete bisogno di trasferire la vostra sessione Ardour su un altro computer, o se desiderate crearne una copia di 
+backup su un disco esterno, *dovete copiare l'intera cartella* contenente tutti i file sopra menzionati. Non è 
+sufficiente copiare solo il file `*.ardour`.
 
 {{< callout type="warning" >}}
-When copying an Ardour folder to another computer or drive, do not manually
-change its name or the name of any of the internal files. Please also note that,
-as Ardour sessions are case-sensitive, copying a session to a USB stick (VFAT
-file-system) will likely corrupt the session. ZIP up the session folder to move
-it between machines.
+Quando si copia una cartella Ardour su un altro computer o unità, non modificare manualmente il suo nome o il nome di 
+uno qualsiasi dei file interni. Si noti inoltre che, poiché le sessioni Ardour distinguono tra maiuscole e minuscole, 
+copiare una sessione su una chiavetta USB (file system VFAT) potrebbe danneggiare la sessione. Comprimere la cartella 
+della sessione in un file ZIP per spostarla da un computer all'altro.
 {{< /callout >}}
 
-The easiest way to transfer the entire project is indeed to just ZIP the
-session's folder. If you don't have snapshots in your session, you can also use
-the `Session > Archive...` command. This will create a single ZIP file
-containing the project file and all audio data transcoded to lossless FLAC
-files. Please note that an archive will _not_ contain snapshot, only the current
-state of the session will be preserved.
+Il modo più semplice per trasferire l'intero progetto è infatti quello di comprimere in un file ZIP la cartella della 
+sessione. Se nella sessione non sono presenti snapshot, è anche possibile utilizzare il comando 
+`Sessione > Archivia...`. In questo modo verrà creato un unico file ZIP contenente il file di progetto e tutti i dati 
+audio transcodificati in file FLAC senza perdita di dati. Si noti che l'archivio non conterrà snapshot, ma solo lo stato
+corrente della sessione.
 
-## Continuing
+## Continua
 
-Saving an entire session allows you to open it again at a later time. However, if you
-would like to preserve a certain state that your session is in, to be able to return to
-that state later on after you have made changes, then please continue to the
-next section called _Saving a Snapshot_. 
+Salvare un'intera sessione consente di riaprirla in un secondo momento. Tuttavia, se desideri conservare uno stato 
+specifico della tua sessione, per poter tornare a quello stato in un secondo momento dopo aver apportato delle 
+modifiche, passa alla sezione successiva _Salvataggio di un'istantanea_.
 
-Next: [SAVING A SNAPSHOT](../saving-a-snapshot)
+Successivo: [Salvare un'istantanea](../saving-a-snapshot)

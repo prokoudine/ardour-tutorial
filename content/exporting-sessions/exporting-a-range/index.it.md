@@ -14,65 +14,71 @@ esportare un intervallo o l'intera sessione.
 
 Per esportare un intervallo, procedere come segue:
 
-1. Click on the **Range Mode** button (**R** shortcut)
+1. Clicca sul pulsante **Modalità intervallo** (scorciatoia **R**)
 
-![Range mode](en/ardour7-range-edit-mode.png?width=250)
+{{< figure src="it/ardour8-range-edit-mode.png" alt="Modalità intervallo" >}}
 
-2. Make a range selection:
+2. Seleziona un intervallo:
 
-{{< figure src="en/ardour7-exporting-range-1.png" alt="Make a range selection" >}}
+{{< figure src="it/ardour8-exporting-range-1.png" alt="Selezionare un intervallo" >}}
 
-3. Right click on the range and choose _Export Range_ from the menu:
+3. Clicca con il tasto destro del mouse sull'intervallo e seleziona _Esporta intervallo_ dal menu:
 
-{{< figure src="en/ardour7-exporting-range-2.png" alt="Export Range in menu" >}}
+{{< figure src="it/ardour8-exporting-range-2.png" alt="Esporta intervallo nel menu" >}}
 
-This will open the familiar _Export_ dialog explained in the [Exporting
-Sessions](../exporting-a-session) chapter. Choose your options, if any, and
-click **Export**. The range will be exported and saved as an audio file.
+Si aprirà la finestra di dialogo _Esporta_ descritta nel capitolo [Esportazione delle sessioni](../exporting-a-session).
+Scegli le opzioni desiderate e fai clic su **Esporta**. L'intervallo verrà esportato e salvato come file audio.
 
-### What Exactly Is a Range?
+### Che cos'è esattamente un intervallo?
 
-To define a range is simply to specify a beginning and ending point in time. The **Selection** display to the right of the secondary clock shows the start and end times of the selected range, as well as its duration.
+Definire un intervallo significa semplicemente specificare un punto iniziale e uno finale nel tempo. Il display 
+**Selezione** in basso a destra sotto la lista dell'editor mostra l'ora di inizio e di fine dell'intervallo selezionato,
+nonché la sua durata.
 
-![Range duration](en/ardour7-range-duration.png?width=600)
+{{< figure src="it/ardour8-range-duration.png" alt="Durata dell'intervallo" >}}
 
-The range created through the method above will disappear as soon as you click outside of it.
+L'intervallo creato con il metodo sopra descritto scomparirà non appena si clicca al di fuori di esso.
 
-The _Export Range_ command will export everything that plays through the
-_Master_ bus, exactly as it plays back in your session. If any of the tracks
-have the **Mute** or **Solo** buttons engaged, this will also affect which
-tracks are heard in the exported file.
+Il comando _Esporta intervallo_ esporterà tutto ciò che viene riprodotto attraverso il bus _Master_, esattamente come 
+viene riprodotto nella sessione. Se uno qualsiasi dei brani ha i pulsanti **Muto** o **Solo** attivati, ciò influirà 
+anche sui brani che saranno udibili nel file esportato.
 
-### How to Create a Range Marker and Then Re-select a Range
+### Come creare un marcatore di intervallo e quindi riselezionarlo
 
-Range markers are essentially two location markers that are grouped together to mark the beginning and end of a section on the timeline. Range markers look like this:
+I marcatori di intervallo sono essenzialmente due marcatori di posizione raggruppati insieme per contrassegnare l'inizio
+e la fine di una sezione sulla timeline. I marcatori di intervallo hanno questo aspetto:
 
-{{< figure src="en/ardour7-range-markers.png" alt="Range markers" >}}
+{{< figure src="it/ardour8-range-markers.png" alt="Marcatori di intervallo" >}}
 
-You can use range markers to "bookmark" one or more ranges that you need to remember or use again later. Here is how you can do that.
+È possibile utilizzare gli indicatori di intervallo per "segnalare" uno o più intervalli che è necessario ricordare o 
+utilizzare nuovamente in seguito. Ecco come procedere.
 
-1. Make a range selection either in _Range_ mode or in _Grab_ mode with _Smart_
-option enabled.
+ 
+1. Effettuare una selezione di intervallo in modalità _Intervallo_ o in modalità _Mano_ con l'opzione _Intelligente_ 
+abilitata.
 
-2. Create range markers in one of the following ways:
+2. Crea indicatori di intervallo in uno dei seguenti modi:
 
-* Right-click on a range selection and choose _Add Range Marker_.
-* From the timeline, right click on the _Range Markers_ horizontal space and choose _New Range_.
-* From one or more selected regions, right-click on the region and choose _Add
-Single Range Marker_ (if a single region is selected), or _Add Range Marker Per
-Region_ (if multiple regions are selected).
+* Fai clic con il pulsante destro del mouse su una selezione di intervalli e scegli _Aggiungi marcatori di intervallo_.
+* Dalla timeline, clicca con il tasto destro dello mouse sullo spazio orizzontale _Marcatori di intervallo_ e seleziona 
+_Intervallo_.
+* Da una o più regioni selezionate, fare clic con il pulsante destro del mouse sulla regione e scegliere 
+_Aggiungi marcatore di intervallo_ (se è selezionata una sola regione) oppure 
+_Aggiungi marcatore di intervallo per regione_ (se sono selezionate più regioni).
 
-3. Click anywhere outside the range selection to lose it.
+3. Clicca in un punto qualsiasi al di fuori dell'intervallo selezionato per annullarlo.
 
-4. Right-click on either of the two range selection markers on the timeline and
-choose the _Select Range_ menu option. The range selection will be restored.
+4. Fai clic con il pulsante destro del mouse su uno dei due indicatori di selezione dell'intervallo sulla timeline e 
+scegli l'opzione di menu _Seleziona intervallo_. La selezione dell'intervallo verrà ripristinata.
 
 {{< callout type="info" >}}
-You can clear all existing range markers by right-clicking on the _Range Markers_ area of the timeline and choosing _Clear All Ranges_.
+È possibile cancellare tutti i marcatori di intervallo esistenti facendo clic con il pulsante destro del mouse sull'area
+_Marcatori di intervallo_ della timeline e selezionando _Cancella tutti gli intervalli_.
 {{< /callout >}}
 
-## Continuing
+## Continua
 
-You now know how to Export isolated Regions, selected Ranges from your Session, or the entire Session as a Stereo Mix. The last section of this tutorial explains saving sessions, snapshots, and templates.
+Ora sapete come esportare regioni isolate, intervalli selezionati dalla vostra sessione o l'intera sessione come mix 
+stereo. L'ultima sezione di questo tutorial spiega come salvare sessioni, istantanee e modelli.
 
-Next: [SAVING A SESSION](../../saving-sessions/saving-a-session/)
+Successivo: [Salvare una sessione](../../saving-sessions/saving-a-session/)

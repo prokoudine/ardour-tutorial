@@ -31,98 +31,87 @@ A questo punto è consigliabile ridurre lo zoom e dare un'occhiata all'intera se
 {{< figure alt="Panoramica sessione" src="it/ardour8-birds-eye-view.png" >}}
 
 Ascolta il tuo brano un'ultima volta e assicurati che tutto sia come desideri (hai dimenticato di disattivare qualche 
-pulsante **Solo** o **Mute**? Devi ancora regolare il volume? ecc.)
+pulsante **Solo** o **Muto**? Devi ancora regolare il volume? ecc.)
 
-#### Start and End Markers
+#### Marcatori di inizio e fine
 
-Finally, make sure the _start_ and _end_ markers on the location markers
-timeline are in the right place.
+Infine, assicurati che i marcatori _inizio_ e _fine_ sulla timeline dei marcatori di posizione siano nella posizione 
+corretta.
 
-Everything included between the _start_ and _end_ markers will be exported, so
-you have to set the markers first if they are not in the correct position. In
-the image below, clearly the _end_ marker is too far to the right in the
-timeline. This will result in a huge silence after the end of the piece (that
-is, between the last region and the _end_ marker).
+Tutto ciò che è compreso tra i marcatori _inizio_ e _fine_ verrà esportato, quindi è necessario impostare prima i 
+marcatori se non sono nella posizione corretta. Nell'immagine sottostante, è evidente che il marcatore _fine_ è troppo 
+spostato a destra nella timeline. Ciò comporterà un lungo silenzio dopo la fine del brano (ovvero tra l'ultima regione e
+il marcatore _fine_).
 
-{{< figure src="en/ardour7-end-marker-too-far.png" alt="The end marker is too far" >}}
+{{< figure src="it/ardour8-end-marker-too-far.png" alt="Il marcatore fine è troppo lontano" >}}
 
-If your _end_ marker is too far after the end of your piece, click and drag it
-to the left until it is pretty close to the end of the very last region of your
-composition.
+Se il tuo indicatore _fine_ è troppo lontano dalla fine del tuo brano, clicca e trascinalo verso sinistra fino a quando 
+non è abbastanza vicino alla fine dell'ultima regione della tua composizione.
 
-## Export it!
+## Esportala!
 
-To export a session, use the top menu:
-`Session > Export > Export to Audio File(s)...`. This will open up a dialog box
-with a number of options.
+Per esportare una sessione, utilizza il menu in alto:
+`Sessione > Esporta > Esporta file audio...`. Si aprirà una finestra di dialogo con una serie di opzioni.
 
-{{< figure alt="Export Session dialog" src="en/ardour7-exporting-settings.png" >}}
+{{< figure alt="Finestra di dialogo Esporta sessione" src="it/ardour8-exporting-settings.png" >}}
 
 **Preset**
-: This is *NOT* where you write the file name. Don't worry about this field now.
+: Questo *NON* è il campo in cui inserire il nome del file. Per ora non preoccuparti di questo campo.
 
-**Format**
-: This allows you to choose the file format (WAV, MP3, OGG, FLAC, etc.). The
-default is CD (Red Book), which will give you a 16-bit WAV file with 44.1kHz
-sample rate.
+**Formato**
+: Questo ti permette di scegliere il formato del file (WAV, MP3, OGG, FLAC, ecc.). L'impostazione predefinita è CD 
+(Red Book), che ti darà un file WAV a 16 bit con una frequenza di campionamento di 44,1 kHz.
 
-**Add another format**
-: If you'd like to export in more than one format at the same time, click on
-this tab.
+**Aggiungi altro formato**
+: Se desideri esportare in più di un formato contemporaneamente, clicca su questa scheda.
 
-**Location**
-: This is the place where you will find the file after it is saved. By default,
-it is in the `export` folder that lives inside your main session folder. You
-could also click **Browse** and select the Desktop, for example.
+**Posizione**
+: Questo è il luogo in cui troverai il file dopo averlo salvato. Per impostazione predefinita, si trova nella cartella 
+`export` all'interno della cartella principale della sessione. Puoi anche fare clic su **Sfoglia** e selezionare, 
+ad esempio, il Desktop.
 
-**Label**
-: _This_ is where you can create a unique name for the file. Ardour will
-automatically append the session name to the exported file, so if you don't
-write anything here the name may end up something generic like `my-session.wav`.
-Use this field to give a unique name to your file.
+**Etichetta**
+: Qui è possibile creare un nome univoco per il file. Ardour aggiungerà automaticamente il nome della sessione al file 
+esportato, quindi se non si scrive nulla in questo campo il nome potrebbe risultare generico, ad esempio 
+"my-session.wav". Utilizzare questo campo per assegnare un nome univoco al file.
 
-Having chosen your options, click **Export**. After the operation is finished,
-you can find the file using your file browser.
+Dopo aver selezionato le opzioni desiderate, clicca su **Esporta**. Al termine dell'operazione, potrai trovare il file 
+utilizzando il tuo browser.
 
 {{< callout type="info" >}}
-Export is handled through the Master bus, so the final file will include all
-the sounds from tracks and busses that were routed to it. This will include any
-normalizing, fading, panning, and automation you have created, along with the
-individual edits made to the regions as well. If any of the tracks have the
-**Mute** or **Solo** buttons engaged, this will also affect which tracks will be
-heard in the exported file.
+L'esportazione viene gestita tramite il bus Master, quindi il file finale includerà tutti i suoni delle tracce e dei bus
+che sono stati indirizzati al bus Master. Ciò includerà qualsiasi normalizzazione, dissolvenza, panning e automazione 
+che hai creato, insieme alle singole modifiche apportate alle regioni. Se una delle tracce ha i pulsanti **Muto** o 
+**Solo** attivati, ciò influirà anche sulle tracce che saranno udibili nel file esportato.
 {{< /callout >}}
 
-## Normalization
+## Normalizzazione
 
-Sometimes the rendered audio is either too loud or too quiet to match demands
-imposed by various popular streaming services like YouTube or Spotify. Ardour
-provides a tool called _Loudness Assistant_ to help with that.
+A volte l'audio renderizzato è troppo alto o troppo basso per soddisfare i requisiti imposti da vari servizi di 
+streaming popolari come YouTube o Spotify. Ardour fornisce uno strumento chiamato _Loudness Assistant_ per aiutare in 
+questo caso.
 
-In layman terms, it analyzes everything that goes through the _Master_ bus,
-estimates how loud the signal is, and then suggests correcting it upwards or
-downwards so that overall loudness would be just about right for this or that
-popular streaming service.
+In parole povere, analizza tutto ciò che passa attraverso il bus _Master_, stima il volume del segnale e poi suggerisce 
+di correggerlo verso l'alto o verso il basso in modo che il volume complessivo sia quello giusto per questo o quel
+popolare servizio di streaming.
 
-While you can apply loudness (gain) correction directly to the _Master_ bus's
-output and benefit from having more manual control over the result, the most
-convenient way is to apply normalization at the exporting stage. You can do
-that two ways:
+Sebbene sia possibile applicare la correzione del volume (guadagno) direttamente all'uscita del bus _Master_ e 
+beneficiare di un maggiore controllo manuale sul risultato, il modo più conveniente è applicare la normalizzazione in 
+fase di esportazione. È possibile farlo in due modi:
 
-1. Just pick a popular service in the drop-down list under _Formats_. Ardour has
-presets for Apple Music, Deezer, Spotify, YouTube etc.
+1. Basta selezionare un servizio popolare dall'elenco a discesa sotto _Formati_. Ardour dispone di impostazioni 
+predefinite per Apple Music, Deezer, Spotify, YouTube ecc.
 
-2. If the service is not listed in the presets, click the **Edit** button to
-open a dialog with advanced exporting settings, enable _Normalize_, choose
-_Loudness_ rather than _Peak_, and then set the desired LUFS value.
+2. Se il servizio non è elencato nelle impostazioni predefinite, clicca sul pulsante **Edit** per aprire una finestra di
+dialogo con le impostazioni avanzate di esportazione, abilita _Normalizza_, scegli _Volume_ anziché _Picco_, quindi 
+imposta il valore LUFS desiderato.
 
-{{< figure src="en/ardour7-edit-exporting-format.png" alt="Edit the exporting Format" >}}
+{{< figure src="it/ardour8-edit-exporting-format.png" alt="Modifica il formato di esportazione" >}}
 
-## Continuing
+## Continua
 
-At the end of this chapter, you now have an exported stereo mix representing
-your entire session. You may also want to know how to export individual regions
-or selected ranges from your session. This will be covered briefly in the next
-two chapters.
+Alla fine di questo capitolo, avrai ottenuto un mix stereo esportato che rappresenta l'intera sessione. Potresti anche 
+voler sapere come esportare singole regioni o intervalli selezionati dalla tua sessione. Questo argomento verrà trattato
+brevemente nei prossimi due capitoli.
 
-Next: [EXPORTING REGIONS](../exporting-a-region)
+Successivo: [Esportazione di una regione](../exporting-a-region)

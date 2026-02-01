@@ -12,266 +12,237 @@ Finora abbiamo utilizzato valori fissi per vari parametri delle nostre tracce, a
 su -3,0 dB o un panner mono impostato al 100% a sinistra. Questi valori fissi si applicano all'intera traccia per tutta 
 la sessione.
 
-But what if you would like these values to change over time in a
-pre-determined way? For example, you may want to have the gain of a track to
-gradually decrease over twenty seconds. Or you may want to make a sound move
-from left to right over two seconds.
+Ma cosa succede se desideri che questi valori cambino nel tempo in modo predeterminato? Ad esempio, potresti voler 
+ridurre gradualmente il guadagno di una traccia nell'arco di venti secondi. Oppure potresti voler spostare un suono da 
+sinistra a destra nell'arco di due secondi.
 
-This is accomplished with automation. The fader, panning, and any of the
-parameters of the plugins used in that track can be automated. An automated
-parameter is displayed underneath the parent track in its own _automation
-track_. Automation data is visually represented as an _automation line_, made
-up of a number of _automation points_. Here's how a track with automation
-looks like:
+Questo risultato si ottiene grazie all'automazione. Il fader, il panning e tutti i parametri dei plugin utilizzati in 
+quella traccia possono essere automatizzati. Un parametro automatizzato viene visualizzato sotto la traccia principale 
+nella propria _traccia di automazione_. I dati di automazione sono rappresentati visivamente come una 
+_linea di automazione_, composta da una serie di _punti di automazione_. Ecco come appare una traccia con automazione:
 
-{{< figure alt="Typical automation lane" src="en/Ardour4_Automation_Fader_1.png" >}}
+{{< figure alt="Tipica linea di automazione" src="it/ardour8-automation-fader-1.png" >}}
 
-In the image above, the automation lane called _Fader_ is associated to the
-parent track called _Audio 1_. The automation line controls fader (volume)
-changes over time. 
+Nell'immagine sopra, la traccia di automazione denominata _Fader_ è associata alla traccia principale denominata 
+_kick_. La linea di automazione controlla le variazioni del fader (volume) nel tempo.
 
-## Creating a Fader Automation Line
+## Creazione di una linea di automazione del fader
 
-Let's create a simple fader automation. Click the **A** button of a chosen
-track. A menu will appear, where you can select the parameter you would like to
-automate. Choose _Fader_.
+Creiamo una semplice automazione del fader. Clicca sul pulsante **A** della traccia scelta. Apparirà un menu in cui 
+potrai selezionare il parametro che desideri automatizzare. Scegli _Fader_.
 
-{{< figure alt="Choose Fader" src="en/Ardour4_Automation_Button.png" >}}
+{{< figure alt="Scegli Fader" src="it/ardour8-automation-button.png" >}}
 
-An automation lane will then appear. Select the _Draw_ mode (**D** shortcut):
+Apparirà quindi una barra di automazione. Seleziona la modalità _Matita_ (scorciatoia **D**):
 
-{{< figure alt="Draw mode" src="en/Ardour4_EditModes_D.png" >}}
+{{< figure alt="Modalità matita" src="it/ardour8-edit-modes-d.png" >}}
 
-Now you can create automation points by clicking anywhere in the automation
-lane. An automation line joins the automation points you add. The yellow number
-(-15.3dB in the image below) indicates the gain level for the selected
-automation point.
+Ora è possibile creare punti di automazione facendo clic in qualsiasi punto della corsia di automazione. Una linea di 
+automazione unisce i punti di automazione aggiunti. Il numero giallo (-18,72 dB nell'immagine sottostante) indica il 
+livello di guadagno per il punto di automazione selezionato.
 
-{{< figure alt="Automation point value indication" src="en/Ardour4_Automation_Fader_2.png" >}}
+{{< figure alt="Indicazione del valore del punto di automazione" src="it/ardour8-automation-fader-2.png" >}}
 
-You can also draw automation lines freely in the Draw mode. Just click, hold,
-and draw a free automation line:
+È possibile tracciare liberamente linee di automazione nella modalità matita. Basta cliccare, tenere premuto e tracciare
+una linea di automazione libera:
 
-{{< figure alt="Drawing automation freely, before releasing mouse button" src="en/ardour8-draw-automation-freely-pre-release.png" >}}
+{{< figure alt="Disegnare liberamente in modo automatico, prima di rilasciare il pulsante del mouse" src="en/ardour8-draw-automation-freely-pre-release.png" >}}
 
-Once you release the mouse button, you see a lot of automation control points,
-because Ardour tries to preserve the exact movement you made when drawing
-the line.
+Una volta rilasciato il pulsante del mouse, vedrai molti punti di controllo dell'automazione, perché Ardour cerca di 
+conservare il movimento esatto che hai fatto quando hai tracciato la linea.
 
-{{< figure alt="Drawing automation freely, after releasing mouse button" src="en/ardour8-draw-automation-freely-post-release.png" >}}
+{{< figure alt="Disegnare in modo automatico, dopo aver rilasciato il pulsante del mouse" src="en/ardour8-draw-automation-freely-post-release.png" >}}
 
-You can see that when you zoom in:
+Lo si può vedere quando si ingrandisce l'immagine:
 
-{{< figure alt="Drawing automation freely, zoomed in" src="en/ardour8-draw-automation-freely-zoomed.png" >}}
+{{< figure alt="Disegno automatico libero, ingrandito" src="en/ardour8-draw-automation-freely-zoomed.png" >}}
 
-You can also press **Ctrl** and click to create straight lines:
+È anche possibile premere **Ctrl** e cliccare per creare linee rette:
 
-{{< figure alt="Drawing straight segments of automation lines, pre-release" src="en/ardour8-draw-automation-lines-pre-release.png" >}}
+{{< figure alt="Disegno di segmenti rettilinei di linee di automazione, pre-rilascio" src="en/ardour8-draw-automation-lines-pre-release.png" >}}
 
-This will create this automation line:
+Questo creerà la seguente linea di automazione:
 
-{{< figure alt="Drawing straight segments of automation lines, post-release" src="en/ardour8-draw-automation-lines-post-release.png" >}}
+{{< figure alt="Disegno di segmenti rettilinei di linee di automazione, post-rilascio" src="en/ardour8-draw-automation-lines-post-release.png" >}}
 
-It's also possible to combine free automation drawing with drawing lines.
-Simply press **Ctrl** when you need to draw straight segment and release the
-button when the straight segment has to end, then keep drawing a free line:
+È anche possibile combinare il disegno automatico libero con il disegno di linee. Basta premere **Ctrl** quando si 
+desidera disegnare un segmento rettilineo e rilasciare il tasto quando il segmento rettilineo deve terminare, quindi 
+continuare a disegnare una linea libera:
 
-{{< figure alt="A combination of free and straight segments" src="en/ardour8-draw-automation-freely-with-lines-pre-release.png" >}}
+{{< figure alt="Una combinazione di segmenti liberi e diritti" src="en/ardour8-draw-automation-freely-with-lines-pre-release.png" >}}
 
-### Automation States
+### Stati di automazione
 
-The automation curve will not play, however, until you set the automation state
-to _Play_.
+La curva di automazione non verrà riprodotta finché non si imposta lo stato di automazione su _Leggi_.
 
-{{< figure alt="automation state" src="en/Ardour4_Automation_Fader_3.png" >}}
+{{< figure alt="stato dell'automazione" src="it/ardour8-automation-fader-3.png" >}}
 
-**Manual**
-: When set to _Manual_, the track will ignore any automation data. It will just
-play with whatever volume is the fader is set to. In this mode, you are able to
-move the track fader by hand to set a new fixed level. That's the default
-behavior of a track when it's first created.
+**Manuale**
+: Quando è impostato su _Manuale_, la traccia ignorerà qualsiasi dato di automazione. Verrà riprodotta semplicemente con
+il volume impostato sul fader. In questa modalità, è possibile spostare manualmente il fader della traccia per impostare
+un nuovo livello fisso. Questo è il comportamento predefinito di una traccia quando viene creata per la prima volta.
 
-**Play**
-: When set to _Play_, the track will automatically change the gain levels
-following the automation curve drawn in the automation lane. You will no longer
-be able to move the track fader by hand. During playback, you will see the track
-fader moving up and down according to the curve. 
+**Leggi**
+: Quando è impostato su _Leggi_, la traccia modificherà automaticamente i livelli di guadagno seguendo la curva di 
+automazione tracciata nella linea di automazione. Non sarà più possibile spostare manualmente il fader della traccia. 
+Durante la riproduzione, vedrai il fader della traccia muoversi su e giù in base alla curva.
 
-**Write**
-: This mode will continuously record user changes to the automated parameter as
-the transport plays, creating an automation line. For instance, you may start
-playback and then make real-time changes in gain using the fader of your track.
-All the changes you make will be written (recorded) as an automation line, which
-then you can play back later by switching the automation mode back to _Play_.
+**Scrivi**
+: Questa modalità registra continuamente le modifiche apportate dall'utente al parametro automatizzato durante la 
+riproduzione, creando una linea di automazione. Ad esempio, è possibile avviare la riproduzione e quindi apportare 
+modifiche in tempo reale al guadagno utilizzando il fader della traccia. Tutte le modifiche apportate verranno scritte 
+(registrate) come una linea di automazione, che quindi potrai riprodurre in un secondo momento riportando la modalità di
+automazione su _Leggi_.
 
-**Touch**
-: This mode is similar to the _Write_ mode, but it won't record over existing
-automation data unless the parameter is being changed.
+**Tocco**
+: Questa modalità è simile alla modalità _Scrivi_, ma non sovrascriverà i dati di automazione esistenti a meno che il 
+parametro non venga modificato.
 
-**Latch**
-: This mode is similar to the _Touch_ mode, but it will also change automation
-when the control is changed in some way during session playback. It will also
-overwrite the automation curve with the last value it was changed to until
-playback is stopped.
+**Azione**
+: Questa modalità è simile alla modalità _Tocco_, ma modifica anche l'automazione quando il controllo viene modificato 
+in qualche modo durante la riproduzione della sessione. Inoltre, sovrascrive la curva di automazione con l'ultimo valore
+modificato fino all'interruzione della riproduzione.
 
-If these concepts are new to you, focus now on just the first two modes
-(_Manual_ and _Play_) and practice creating automation by drawing automation
-curves by hand.
+Se questi concetti sono nuovi per te, concentrati ora solo sulle prime due modalità (_Manuale_ e _Leggi_) ed esercitati
+a creare automazioni disegnando a mano le curve di automazione.
 
-## Creating a Plugin for Automation
+## Creazione di un plugin per l'automazione
 
-You may add automation to any plugin which has already been added to a track. In
-the example below, we have the _AM pitchshifter_ plugin added to a track.
+È possibile aggiungere l'automazione a qualsiasi plugin già aggiunto a una traccia. Nell'esempio seguente, abbiamo 
+aggiunto il plugin _AM pitchshifter_ a una traccia.
 
-{{< figure alt="pluginautomation1" src="en/Ardour4_Automation_Plugin1.png" >}}
+{{< figure alt="automazione plugin 1" src="it/ardour8-automation-plugin1.png" >}}
 
-In order to select a plugin parameter for automation, click the button on the
-track marked _a_. The menu will appear. Under _Processor Automation_ you will
-find a listing of the plugins you have added for that track.
+Per selezionare un parametro del plugin per l'automazione, clicca sul pulsante sulla traccia contrassegnato con _a_. 
+Apparirà il menu. Sotto _Processor Automation_ troverai un elenco dei plugin che hai aggiunto per quella traccia.
 
-{{< figure alt="pluginautomation2" src="en/Ardour4_Automation_Plugin2.png" >}}
+{{< figure alt="automazione plugin 2" src="it/ardour8-automation-plugin2.png" >}}
 
-Within each listed plugin, you may choose which parameter you want to automate
-from a list. In the example, we chose the _Pitch shift_ parameter of the _AM
-pitchshifter_ plugin. An automation lane for that parameter appears. Note that
-as you open several automation lanes, they will appear one after the other
-below the main parent track. 
+All'interno di ciascun plugin elencato, è possibile scegliere da un elenco il parametro che si desidera automatizzare. 
+Nell'esempio, abbiamo scelto il parametro _Pitch shift_ del plugin _AM pitchshifter_. Viene visualizzata una traccia di 
+automazione per quel parametro. Si noti che quando si aprono diverse tracce di automazione, queste appariranno una dopo 
+l'altra sotto la traccia principale.
 
-Draw an automation curve for that parameter. Don't forget to set the automation
-state to _Play_.
+Disegna una curva di automazione per quel parametro. Non dimenticare di impostare lo stato di automazione su _Leggi_.
 
-{{< figure alt="pluginautomation3" src="en/Ardour4_Automation_Plugin3.png" >}}
+{{< figure alt="automazione plugin 3" src="it/ardour8-automation-plugin3.png" >}}
 
-In the image above, the pitch shift of the sound is now changing over time,
-controlled by the curve.
+Nell'immagine sopra, il cambiamento di tonalità del suono ora varia nel tempo, controllato dalla curva.
 
 {{< callout type="info" >}}
-You can hide an automation lane by clicking on the "X" at the upper left corner
-of the automation lane. Note that a hidden automation lane continues to function
-even when it is not visible. 
+È possibile nascondere una traccia di automazione facendo clic sulla "X" nell'angolo superiore sinistro della traccia 
+stessa. Si noti che una traccia di automazione nascosta continua a funzionare anche quando non è visibile. 
 {{< /callout >}}
 
-## Adding Better Visual Resolution to Automation
+## Migliorare la risoluzione visiva nell'automazione
 
-You can achieve a greater amount of vertical precision by increasing the height
-of the automation lane. Move your cursor near the lower edge of the automation
-track. The pointer turns into a vertical double arrow. Drag it down to increase
-the height of the automation lane. Notice that the parent track and the
-automation lane heights are independent, so while working in your automation
-curves you might set them up like this:
+È possibile ottenere una maggiore precisione verticale aumentando l'altezza della corsia di automazione. Spostare il 
+cursore vicino al bordo inferiore della traccia di automazione. Il puntatore si trasforma in una doppia freccia 
+verticale. Trascinarlo verso il basso per aumentare l'altezza della corsia di automazione. Si noti che le altezze della 
+traccia principale e della corsia di automazione sono indipendenti, quindi mentre si lavora sulle curve di automazione è
+possibile impostarle in questo modo:
 
-{{< figure alt="pluginautomation5" src="en/Ardour4_Automation_Plugin4.png" >}}
+{{< figure alt="automazione plugin 4" src="it/ardour8-automation-plugin4.png" >}}
 
 {{< callout type="info" >}}
-Remember that you can also zoom in and out to increase resolution in the
-horizontal axis.
+Ricorda che puoi anche ingrandire e rimpicciolire l'immagine per aumentare la risoluzione sull'asse orizzontale.
 {{< /callout >}}
 
-## Working with Automation Points
+## Lavorare con i punti di automazione
 
-There are several ways to adjust automation points, depending on the editing
-mode you are in:
+Esistono diversi modi per regolare i punti di automazione, a seconda della modalità di modifica in cui ci si trova:
 
-- An automation point can be dragged in any direction with the mouse (works in
-_Grab_, _Draw_, and _Edit_ modes).
-- To remove an automation point, hold down the **Shift** key while
-right-clicking on it (works in _Grab_, _Draw_, and _Edit_ modes).
-- _Edit_ mode only: any segment of the automation line between automation points
-may be dragged vertically, affecting both end points at once, without affecting
-their horizontal position. Simply click somewhere on the line between two
-points, and drag up and down.
-- How to delete multiple automation points at once (_Grab_ mode and _Edit_ mode
-only): select multiple automation points by dragging a box starting on the track
-background around the points. Then the selected points may be deleted by hitting
-**Delete** (_not_ **Backspace**). If you are on a Mac and do not have a true
-**Delete** key, try **Function + Backspace**.
+- Un punto di automazione può essere trascinato in qualsiasi direzione con il mouse (funziona nelle modalità 
+_Mano_, _Matita_ e _Modifica interna_).
+- Per rimuovere un punto di automazione, tieni premuto il tasto **Shift** mentre fai clic con il pulsante destro del 
+mouse su di esso (funziona nelle modalità _Mano_, _Matita_ e _Modifica interna_).
+- Solo in modalità _Modifica interna_: qualsiasi segmento della linea di automazione tra i punti di automazione può 
+essere trascinato verticalmente, influenzando entrambi i punti finali contemporaneamente, senza influire sulla loro 
+posizione orizzontale. È sufficiente fare clic in un punto qualsiasi della linea tra due punti e trascinare verso l'alto
+o verso il basso.
+- Come eliminare più punti di automazione contemporaneamente (solo in modalità _Mano_ e _Modifca interna_): selezionare 
+più punti di automazione trascinando un riquadro che parte dallo sfondo della traccia attorno ai punti. Quindi i punti 
+selezionati possono essere eliminati premendo **Canc** (_non_ **Backspace**). Se si utilizza un Mac e non si dispone di 
+un tasto **Canc** vero e proprio, provare **Funzione + Backspace**.
 
-After an automation curve ends, its value will stay at that level for all
-subsequent regions, whether or not you have drawn a continuation of the curve.
+Al termine di una curva di automazione, il suo valore rimarrà a quel livello per tutte le regioni successive, 
+indipendentemente dal fatto che sia stata tracciata o meno una continuazione della curva.
 
-{{< figure alt="end point" src="en/Ardour4_Automation_Fader_End.png" >}}
+{{< figure alt="punto finale" src="it/ardour8-automation-fader-end.png" >}}
 
-In the example above, the last point of the curve is at -23dB. That same level
-will be kept for the remainder of the track, even though the line is not drawn
-until the end.
+Nell'esempio sopra riportato, l'ultimo punto della curva è a -7,91dB. Lo stesso livello verrà mantenuto per il resto 
+della traccia, anche se la linea non viene tracciata fino alla fine.
 
-## Moving Automation
+## Spostamento dell'automazione
 
-Moving a region to a new location will automatically move the automation data
-that might be aligned with it, as we can see in the following screen shots.
+Lo spostamento di una regione in una nuova posizione comporta automaticamente lo spostamento dei dati di automazione 
+che potrebbero essere allineati con essa, come possiamo vedere nelle seguenti schermate.
 
-Before moving:
+Prima dello spostamento:
 
-{{< figure alt="mv1" src="en/Ardour4_Automation_Moving_1.png" >}}
+{{< figure alt="spostamento1" src="en/Ardour4_Automation_Moving_1.png" >}}
 
-After moving:
+Dopo lo spostamento:
 
-{{< figure alt="mv2" src="en/Ardour4_Automation_Moving_2.png" >}}
+{{< figure alt="spostamento2" src="en/Ardour4_Automation_Moving_2.png" >}}
 
-You can change this behavior if you like. In other words, if you want automation
-curves to stay where they are even when you move regions around, go to `Edit >
-Preferences > Editor` and uncheck _Move relevant automation when audio regions
-are moved_.
+È possibile modificare questo comportamento, se lo si desidera. In altre parole, se si desidera che le curve di 
+automazione rimangano dove sono anche quando si spostano le regioni, andare su `Modifica > Preferenze > Editor` e 
+deselezionare _Sposta automazione rilevanti quando le regioni audio vengono spostate_.
 
-## Region-specific Gain Automation
+## Automazione del guadagno specifico per regione
 
-There is a way to create a gain automation directly bound to a region. When you
-select the _Draw_ mode, you should see a flat line on the top half of each
-region rectangle:
+Esiste un modo per creare un'automazione del guadagno direttamente collegata a una regione. Quando selezioni la modalità
+_Matita_, dovresti vedere una linea piatta nella metà superiore di ogni rettangolo della regione:
 
-{{< figure alt="gain-automation" src="en/Ardour4_Automation_Region_Specific_1.png" >}}
+{{< figure alt="automazione del guadagno 1" src="en/Ardour4_Automation_Region_Specific_1.png" >}}
 
-Click directly on that line to create automation points. These will be drawn
-directly on the region itself, unlike fader automation which is drawn or
-recorded in the automation lane. Region gain automation is separate from, and
-in addition to, fader automation.
+Clicca direttamente su quella linea per creare punti di automazione. Questi saranno disegnati direttamente sulla regione
+stessa, a differenza dell'automazione del fader che viene disegnata o registrata nella corsia di automazione. 
+L'automazione del guadagno della regione è separata e aggiuntiva rispetto all'automazione del fader.
 
-{{< figure alt="gain-automation2" src="en/Ardour4_Automation_Region_Specific_2.png" >}}
+{{< figure alt="automazione del guadagno 2" src="en/Ardour4_Automation_Region_Specific_2.png" >}}
 
-As with the automation lanes, a _gain automation point_ can be dragged in any
-direction with the mouse. To remove a gain automation point, hold down the
-**Shift** key while right-clicking on it.
+Come per le tracce di automazione, un _punto di automazione del guadagno_ può essere trascinato in qualsiasi direzione 
+con il mouse. Per rimuovere un punto di automazione del guadagno, tenere premuto il tasto **Shift** mentre si fa clic 
+con il tasto destro del mouse su di esso.
 
-### Deactivating and Removing Gain Automation
+### Disattivazione e rimozione dell'automazione del guadagno
 
-Gain automation can be reset or deactivated from the region context menu, which
-is reached by right-clicking on the region.
+L'automazione del guadagno può essere reimpostata o disattivata dal menu contestuale della regione, accessibile facendo 
+clic con il tasto destro del mouse sulla regione.
 
-{{< figure alt="gain-automation3" src="en/Ardour4_Automation_Gain_Tool_Reset.png" >}}
+{{< figure alt="automazione del guadagno 3" src="it/ardour8-automation-gain-tool-reset.png" >}}
 
-Here, the gain automation is referred to as the _envelope_:
+Qui, l'automazione del guadagno è indicata come _inviluppo_:
 
-- _Reset Envelope_ removes the gain automation points you have drawn in the
-region.
-- _Envelope Active_ toggles the gain automation envelope on and off.
+- _Azzera inviluppo_ rimuove i punti di automazione del guadagno che hai tracciato nella regione.
 
-### When should I use region Gain Automation or Track Fader Automation?
+- _Inviluppo attivo_ attiva e disattiva l'inviluppo dell'automazione del guadagno.
 
-As seen above, both are very similar. With practice you will notice situations
-in which one is more convenient than the other. Here are two examples:
+### Quando dovrei usare l'automazione del guadagno della regione o l'automazione del fader della traccia?
 
-* If all you need to do is a little touch up (cut or boost gain) in a specific
-portion of a region, and you are otherwise happy with the level for the rest of
-the passage or entire track, use the region-specific automation.
+Come visto sopra, entrambi sono molto simili. Con la pratica noterai situazioni in cui uno è più conveniente dell'altro.
+Ecco due esempi:
 
-{{< figure alt="gain-example1" src="en/Ardour4_Automation_Region_Specific_2.png" >}}
+* Se tutto ciò che devi fare è un piccolo ritocco (taglio o aumento del guadagno) in una parte specifica di una regione 
+e sei soddisfatto del livello del resto del passaggio o dell'intera traccia, utilizza l'automazione specifica per la 
+regione.
 
-* If you have a more complex track with crossfades over regions, and/or need to
-shape a longer dynamic curve across several regions on the same track, use fader
-automation.
+{{< figure alt="esempio guadagno 1" src="en/Ardour4_Automation_Region_Specific_2.png" >}}
 
-{{< figure alt="gain-automation2" src="en/Ardour4_Automation_Gain_Comparison.png" >}}
+* Se hai una traccia più complessa con dissolvenze incrociate tra le regioni e/o hai bisogno di modellare una curva 
+dinamica più lunga su più regioni della stessa traccia, usa l'automazione del fader.
 
-The screenshot above shows a simple gradual fade starting from the first region
-in the track, and ending at the last region. It's very straightforward to do
-this with fader automation, but it would be much harder to do it using
-region-specific automation.
+{{< figure alt="esempio guadagno 2" src="en/Ardour4_Automation_Gain_Comparison.png" >}}
 
-## Continuing
+Lo screenshot sopra mostra una semplice dissolvenza graduale che inizia dalla prima regione della traccia e termina 
+nell'ultima regione. È molto semplice farlo con l'automazione del fader, ma sarebbe molto più difficile farlo 
+utilizzando l'automazione specifica per regione.
 
-Once you have your automation in place, you are just about ready to export your
-stereo mix to an audio file which you can listen to or share on a website.
-Please continue on to the next section to learn the different ways of doing
-this.
+## Continua
+
+Una volta impostata l'automazione, sei pronto per esportare il tuo mix stereo in un file audio che potrai ascoltare o 
+condividere su un sito web. Continua con la sezione successiva per scoprire i diversi modi per farlo.
 
 Successivo: [Esportazione di una sessione](../../exporting-sessions/exporting-a-session)

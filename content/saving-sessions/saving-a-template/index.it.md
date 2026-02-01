@@ -1,62 +1,55 @@
 ---
-title: Salvataggio di un modello di sessione
+title: Salvare un modello di sessione
 description: Come salvare e utilizzare un modello di sessione in Ardour
 weight: 3
 cascade:
   type: docs
 ---
 
-If you often go through the motions of setting up the same information in each
-new session you create, such as tracks/busses, their names and interconnections, what plugins with what settings you have in mixer channels
-etc., then you may wish to create a _template_ instead.
+Se spesso ti ritrovi a configurare le stesse informazioni in ogni nuova sessione che crei, come tracce/bus, i loro nomi 
+e le interconnessioni, quali plugin con quali impostazioni hai nei canali del mixer ecc., allora potresti voler creare 
+un _modello_.
 
-With a _template_, you can save the state of a currently open session _without_
-all the region information files. Templates are useful if, for example, you're
-doing extensive routing on tracks and busses and want to save the _Editor_
-window's state for use in other sessions.
+Con un _modello_, è possibile salvare lo stato di una sessione attualmente aperta _senza_ tutti i file di informazioni 
+sulla regione. I modelli sono utili se, ad esempio, si sta eseguendo un routing esteso su tracce e bus e si desidera 
+salvare lo stato della finestra _Editor_ per utilizzarlo in altre sessioni.
 
-An example might be a template to record tracks of drums, bass, guitar and
-vocals, each with their own input on the soundcard, which you might use as a
-basis for each session you created in that situation. 
+Un esempio potrebbe essere un modello per registrare tracce di batteria, basso, chitarra e voce, ciascuna con il proprio
+ingresso sulla scheda audio, che potresti utilizzare come base per ogni sessione creata in quella situazione.
 
-## Save a Template
+## Salvare un modello
 
-You can save a new template from the main menu: `Session > Save Template`. You
-are asked to give the new template a name and optionally provide a description
-that will show up in the _Session Setup_ dialog:
+È possibile salvare un nuovo modello dal menu principale: `Sessione > Salva modello`. Verrà richiesto di assegnare un 
+nome al nuovo modello e, facoltativamente, di fornire una descrizione che verrà visualizzata nella finestra di dialogo 
+_Configurazione sessione_:
 
-![Template options](en/ardour7-save-template.png?height=300)
+{{< figure alt="Salva modello" src="it/ardour8-save-template.png">}}
 
-## Load a Template
+## Carica un modello
 
-When creating a new session, you can load up a previously saved template. All
-you will need is to tell Ardour where on the disk to save the session:
+Quando crei una nuova sessione, puoi caricare un modello salvato in precedenza. Tutto quello che devi fare è indicare ad
+Ardour dove salvare la sessione sul disco:
 
-![New session from a custom template](en/ardour7-session-setup.png?height=400)
+{{< figure alt="Finestra di dialogo Configurazione sessione" src="it/ardour8-session-setup-dialog.png">}}
 
-## Conclusion
+## Conclusione
 
-Congratulations, you have reached the end of this introduction to Ardour! We
-hope that this tutorial has been useful for you to learn the key functions of
-the program.
+Congratulazioni, sei arrivato alla fine di questa introduzione ad Ardour! Ci auguriamo che questo tutorial ti sia stato 
+utile per imparare le funzioni principali del programma.
 
-In the following section, the **Appendices**, we have included some extra
-information we thought would be useful to new users of Ardour, including how to
-get [_Further Help_](../further-help), a [_Glossary_](../glossary) of
-technical terms used in this manual, some [_Links_](../links) to further
-information about Ardour on the Internet and, last but not least, the
-[_Credits_](../credits) of those involved in creating this free/libre
-open-source software (FLOSS) manual.
+Nella sezione seguente, **Appendici**, abbiamo incluso alcune informazioni aggiuntive che riteniamo utili per i nuovi 
+utenti di Ardour, tra cui come ottenere [_Ulteriore assistenza_](../../further-help), un [_Glossario_](../../glossary) 
+dei termini tecnici utilizzati in questo manuale, alcuni [_Link_](../../links) per ulteriori informazioni su Ardour su 
+Internet e, ultimo ma non meno importante, i [_Crediti_](../../credits) di coloro che hanno contribuito alla creazione 
+di questo manuale sul software libero e open source (FLOSS).
 
-Thanks for reading, and if you have some knowledge about Ardour that is not
-included here, please feel free to propose changes (more info on how to do it:
-[_How to Contribute_](../how-to-contribute/). Also, this manual itself is fully
-open-source and lives at
-[GitHub](https://github.com/prokoudine/ardour-tutorial).
-You can even fork it and create your own customized version of it!
+Grazie per aver letto e, se avete conoscenze su Ardour che non sono incluse qui, non esitate a proporre modifiche 
+(maggiori informazioni su come farlo: [_Come contribuire_](../../how-to-contribute/). Inoltre, questo manuale è 
+completamente open-source e si trova su [GitHub](https://github.com/prokoudine/ardour-tutorial). Potete anche crearne 
+un fork e personalizzarlo a vostro piacimento!
 
-**Appendices:**
-[FURTHER HELP](../further-help)   ||
-[GLOSSARY](../glossary)   ||
-[LINKS](../links)   ||
-[CREDITS](../credits)
+**Appendici:**
+[FURTHER HELP](../../further-help)   ||
+[GLOSSARY](../../glossary)   ||
+[LINKS](../../links)   ||
+[CREDITS](../../credits)

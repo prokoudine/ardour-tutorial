@@ -1,67 +1,59 @@
 ---
-title: Salvataggio di un'istantanea
+title: Salvare un'istantanea
 description: Come salvare e richiamare un'istantanea di una sessione di Ardour
 weight: 2
 cascade:
   type: docs
 ---
 
-A _snapshot_ is a representation of the current state of a session. In a
-nutshell, it's like versioning your project by giving every version a
-meaningful, descriptive name. Even though it's not really exposed to users,
-every session always has at least one snapshot which is whatever you have
-there at the moment.
+Una _istantanea_ (snapshot) è una rappresentazione dello stato attuale di una sessione. In poche parole, è come 
+assegnare una versione al proprio progetto, dando a ogni versione un nome significativo e descrittivo. Anche se non è 
+realmente visibile agli utenti, ogni sessione ha sempre almeno una istantanea, che corrisponde a ciò che si ha in quel 
+momento.
 
-Let's say you recorded a song in your home studio and you are trying different
-arrangements to see which one works best. Instead of creating multiple sessions
-and copying files between them, you can make snapshots every time you think you
-have something worth preserving. At any point in time, you can save the current
-state of the session and switch to an earlier snapshot to compare your
-arrangements.
+Supponiamo che tu abbia registrato una canzone nel tuo studio casalingo e che tu stia provando diversi arrangiamenti per
+vedere quale funziona meglio. Invece di creare più sessioni e copiare i file tra di esse, puoi creare delle istantanee 
+ogni volta che ritieni di avere qualcosa che vale la pena conservare. In qualsiasi momento, puoi salvare lo stato 
+attuale della sessione e passare a una istantanea precedente per confrontare i tuoi arrangiamenti.
 
-## Saving a Snapshot
+## Salvataggio di un'istantanea
 
-Ardour provides two commands in the _Session_ menu to create a snapshot:
+Ardour fornisce due comandi nel menu _Sessione_ per creare una istantanea:
 
-**Snapshot (& keep working on current version)**
-: You will create a new snapshot and continue working on the original version.
-Any new saves will overwrite the current state of the project, the newly
-created snapshot will not be affected. Mental model: "I think I'm about to
-change things in a major way, so I need a backup if everything goes sideways
-with my experiment".
+**Istantanea (e continua sulla versione corrente)**
+: Creerai una nuova istantanea e continuerai a lavorare sulla versione originale. Qualsiasi nuovo salvataggio 
+sovrascriverà lo stato attuale del progetto, mentre la nuova istantanea non sarà interessata. Modello mentale: 
+"Penso che sto per apportare modifiche significative, quindi ho bisogno di un backup nel caso in cui il mio esperimento 
+non vada a buon fine".
 
-**Snapshot (& switch to new version)**
-: You will create a new snapshot and switch to working on that version. Any new
-saves you do will affect the new snapshot until you switch to the original
-snapshot. Mental model: "This is actually quite interesting, let's explore this
-idea further and get back to the previous one if this turns out to be a dead
-end". 
+**Istantanea (e vai alla versione nuova)**
+: Creerai una nuova istantanea e passerai a lavorare su quella versione. Qualsiasi nuovo salvataggio influirà sulla 
+nuova istantanea fino a quando non passerai all'istantanea originale. Modello mentale: "Questo è davvero interessante, 
+approfondiamo questa idea e torniamo a quella precedente se questa si rivela un vicolo cieco".
 
-{{< figure alt="snapshots" src="en/ardour7-snapshot-menu.png" >}}
+{{< figure alt="Istantanee" src="it/ardour8-snapshot-menu.png" >}}
 
-By default the program will name the new snapshot according to the current date
-and timestamp of your system. If you wish, you can change the name to one that
-more meaningfully corresponds to the session you are working on.
+Per impostazione predefinita, il programma assegnerà alla nuova istantanea un nome basato sulla data e sull'ora correnti
+del sistema. Se lo desideri, puoi modificare il nome con uno che corrisponda in modo più significativo alla sessione su 
+cui stai lavorando.
 
-![snapshots](en/ardour7-snapshot-name.png?width=350)
+{{< figure alt="Assegnare un nome all'istantanea" src="it/ardour8-snapshot-name.png" >}}
 
-## Recalling Snapshots
+## Richiamare le istantanee
 
-You can recall a saved snapshot via the _Snapshots_ tab in the area on the
-right:
+È possibile richiamare un'istantanea salvata tramite la scheda _Istantanee_ nell'area a destra:
 
-![snapshot2](en/ardour7-snapshot-list.png?width=700)
+{{< figure alt="Elenco delle istantanee" src="it/ardour8-snapshot-list.png" >}}
 
-There you see a few snapshots that we created, and the _my\_session_ entry
-represents the original state of our session.
+Qui puoi vedere alcune istantanee che abbiamo creato, e la voce _Tutorial_ rappresenta lo stato originale della nostra 
+sessione.
 
-Click on any snapshot from the list to reload it.
+Clicca su una qualsiasi delle istantanee dall'elenco per ricaricarla.
 
-## Continuing
+## Continua
 
-Sometimes it is helpful to have a default starting point for new sessions, for
-example, for a setup that you use all the time when starting a new project. To
-learn how to do this, please continue to the next section called _Saving a
-Template_. 
+A volte è utile avere un punto di partenza predefinito per le nuove sessioni, ad esempio per una configurazione che si 
+utilizza sempre quando si avvia un nuovo progetto. Per imparare come farlo, passare alla sezione successiva denominata 
+_Salvare un modello_.
 
-Next: [SAVING A TEMPLATE](../saving-a-template)
+Successivo: [Salvare un modello](../saving-a-template)
