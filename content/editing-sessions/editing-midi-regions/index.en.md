@@ -80,7 +80,7 @@ nodes, press the left mouse button, hold it and then drag the selection
 left/right or up/down (or both).
 
 You can also transpose by a given amount of octaves and semitones in one go.
-Left-click on the region where some notes are selected, choose _Transpose..._.
+Right-click on the region where some notes are selected, choose _Transpose..._.
 Then specify the amount of octaves and semitones to transpose by.
 
 {{< figure src="en/transpose.png" alt="Transpose MIDI notes" >}}
