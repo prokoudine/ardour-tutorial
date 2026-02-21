@@ -20,6 +20,9 @@ languages:
   it:
     languageName: Italiano
     weight: 3
+  es:
+    languageName: Español
+    weight: 2
 
 params:
   navbar:
