@@ -26,7 +26,7 @@ While Ardour ships with a series of basic plugins, there are more free-as-in-spe
 
 - [AVL Drumkits](https://x42-plugins.com/x42/x42-avldrums), a drum sampler with two built-in kits
 - [DrumGizmo](https://drumgizmo.org), a drum sampler with separately downloadable kits
-- [Geonkick](https://github.com/free-sm/geonkick), a drums/percussion synthesizer
+- [Geonkick](https://quamplex.com/geonkick), a drums/percussion synthesizer
 
 ## Synthesizers
 
