@@ -25,7 +25,7 @@ Ardour est livré avec une série de plugins de base, mais il existe d'autres pl
 
 - [AVL Drumkits](https://x42-plugins.com/x42/x42-avldrums), un échantillonneur de batterie avec deux kits intégrés
 - [DrumGizmo](https://drumgizmo.org), un échantillonneur de batterie avec des kits à télécharger séparément
-- [Geonkick](https://github.com/free-sm/geonkick), un synthétiseur batterie/percussion
+- [Geonkick](https://quamplex.com/geonkick), un synthétiseur batterie/percussion
 
 ## Synthétiseurs
 

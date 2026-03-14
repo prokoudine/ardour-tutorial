@@ -27,7 +27,7 @@ shelfing e alto & passa-basso
 
 - [AVL Drumkits](https://x42-plugins.com/x42/x42-avldrums), un campionatore di batteria con due kit integrati
 - [DrumGizmo](https://drumgizmo.org), un campionatore di batteria con kit scaricabili separatamente
-- [Geonkick](https://github.com/free-sm/geonkick), un sintetizzatore di batteria/percussioni
+- [Geonkick](https://quamplex.com/geonkick), un sintetizzatore di batteria/percussioni
 
 ## Sintetizzatori
 
