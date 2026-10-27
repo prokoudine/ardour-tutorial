@@ -20,6 +20,9 @@ languages:
   it:
     languageName: Italiano
     weight: 3
+  zh:
+    label: 简体中文
+    weight: 4
 
 params:
   navbar:

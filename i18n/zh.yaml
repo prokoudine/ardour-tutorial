@@ -1,0 +1,31 @@
+copyright: "2025 The Ardour Team，所有内容均在 GPL v3+ 许可下发布"
+
+conventions: 阅读说明
+license: 许可协议
+credits: 致谢
+changes: 更新日志
+search: 搜索
+more: 更多信息
+contribute: 贡献指南
+
+backToTop: "返回顶部"
+changeLanguage: "切换语言"
+changeTheme: "切换主题"
+copy: "复制"
+copied: "已复制！"
+copyAsMarkdown: "复制为 Markdown"
+copyPage: "复制页面"
+copyCode: "复制代码"
+dark: "深色"
+editThisPage: "在 GitHub 上编辑此页 →"
+lastUpdated: "最后更新于"
+light: "浅色"
+next: "下一页"
+noResultsFound: "未找到结果。"
+onThisPage: "本页内容"
+previous: "上一页"
+readMore: "阅读更多 →"
+searchPlaceholder: "搜索..."
+system: "跟随系统"
+tags: "标签"
+viewAsMarkdown: "以 Markdown 查看"
