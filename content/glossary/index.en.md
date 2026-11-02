@@ -199,8 +199,8 @@ a compressed sound is less dynamic (has a smaller range of levels)
 hard disk space. Compression such as FLAC, ALAC, or MLP reduce the size
 of audio files compared to WAV or AIFF without changing the data, which
 is referred to as lossless compression. Audio can be compressed to a
-still smaller size by using lossy compression such as MP3, Ogg Vorbis or
-AAC but this is achieved by removing data which can have an audible
+still smaller size by using lossy compression such as MP3, Ogg Vorbis , 
+AAC, or Opus but this is achieved by removing data which can have an audible
 effect. 
 
 **Connections Manager**(JACK)
