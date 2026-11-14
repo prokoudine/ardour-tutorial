@@ -544,6 +544,9 @@ octave below is 220 Hz.
 **Ogg Vorbis**
 : An open source lossy, size-compressed sound file format. 
 
+Opus
+: An open, royalty-free lossy audio format designed for interactive speech and music transmission over the Internet, featuring low latency and high compression efficiency.
+
 **Panning**
 : Panning is the location of sounds in the **Stereo Field**. 
 
