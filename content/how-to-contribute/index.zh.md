@@ -14,9 +14,9 @@ sidebar:
 
 1. 请为您的操作系统安装 Hugo。
 
-2. 分叉 [Git 仓库](https://github.com/prokoudine/ardour-tutorial)。
+2. fork [Git 仓库](https://github.com/prokoudine/ardour-tutorial)。
 
-3. 克隆分叉的仓库：
+3. 克隆fork的仓库：
   git clone git@github.com:USERNAME/ardour-tutorial.git
 
 4. 在终端中进入克隆的仓库：
