@@ -17,15 +17,24 @@ sidebar:
 2. fork [Git 仓库](https://github.com/prokoudine/ardour-tutorial)。
 
 3. 克隆fork的仓库：
-  git clone git@github.com:USERNAME/ardour-tutorial.git
+
+```bash
+git clone git@github.com:USERNAME/ardour-tutorial.git
+```
 
 4. 在终端中进入克隆的仓库：
-  cd ardour-tutorial
+
+```bash
+cd ardour-tutorial
+```
 
 5. 运行 Hugo：
-  hugo server -D --disableFastRender
 
-6. 在浏览器中打开本地运行的 CMS。Hugo 默认地址为 `localhost:1313/`。
+```bash  
+hugo server -D --disableFastRender
+```
+
+6. 在浏览器中打开本地运行的 CMS，Hugo 默认地址为 `localhost:1313/`
 
 ## 使用 Markdown 语法和扩展功能
 
