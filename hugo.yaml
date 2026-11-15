@@ -22,6 +22,7 @@ languages:
     weight: 3
   zh:
     label: 简体中文
+    languageName: 简体中文
     weight: 4
 
 params:
@@ -35,6 +36,12 @@ params:
       height: 20
   displayUpdatedDate: true
   dateFormat: "January 2, 2006"
+
+  search:
+    enable: true
+    type: flexsearch
+    flexsearch:
+      base: "https://fastly.jsdelivr.net/npm/flexsearch@0.8.143/dist"
 
 menu:
   main:
