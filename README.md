@@ -12,6 +12,6 @@ a number of years. All credits are on the
 page.
 
 This updated version is technically a port from Jekyll to Hugo and content-wise
-mostly an update to match many changes between Ardour v4/v6 and v8 plus some
-new material. While it's currently hosted on GitHub, it's an official Ardour
-tutorial for beginners.
+both an update to match numerous changes since Ardour v4/v6 and new material.
+While it's currently hosted on GitHub, it's an official Ardour tutorial
+for beginners linked to from the application and the website.
