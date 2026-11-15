@@ -1,7 +1,8 @@
 # Ardour Tutorial
 
 This is the official crash course for [Ardour](https://ardour.org), a free/libre
-digital audio workstation.
+digital audio workstation. You can read it live 
+[here](https://prokoudine.github.io/ardour-tutorial/).
 
 The content was originally written around in 2009 during a Book Sprint led by
 Derek Holzer for [FLOSS Manuals](http://archive.flossmanuals.net/ardour/). It
