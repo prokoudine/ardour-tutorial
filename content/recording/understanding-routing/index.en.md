@@ -8,13 +8,15 @@ cascade:
 
 Routing an audio signal is sending it from somewhere to somewhere else.
 
-In addition to getting audio signals to and from Ardour, routing plays an important part inside Ardour itself. Examples of using routing inside Ardour include routing audio from tracks to the _Master_ bus or to other busses, creating 'sends', routing the outputs from busses to the _Master_ bus, etc. (see chapter on **Creating a Track** for an explanation of tracks and busses). All routing, both internal and external to Ardour, is handled by JACK.
+In addition to getting audio signals to and from Ardour, routing plays an important part inside Ardour itself. Examples of using routing inside Ardour include routing audio from tracks to the _Master_ bus or to other busses, creating 'sends', routing the outputs from busses to the _Master_ bus, etc. (see chapter on **Creating a Track** for an explanation of tracks and busses).
 
 ## Routing in Ardour
 
 The standard routing of inputs, tracks and busses in Ardour is determined when a new session is created in the _Advanced Options_ of the _New Session_ dialog box (see the [Starting Ardour](../../getting-started/starting-ardour/) page). By default, the routing is as follows:
 
-- The audio device inputs are routed to the track inputs. - All outputs from tracks and busses are routed to the master bus inputs. - The _Master_ bus outputs are routed to the audio device outputs.
+- The audio device inputs are routed to the track inputs. 
+- All outputs from tracks and busses are routed to the master bus inputs.
+- The _Master_ bus outputs are routed to the audio device outputs.
 
 Note that when a new bus is created, nothing is routed to its input.
 
@@ -80,12 +82,6 @@ The **Inputs** button is at the top, and the **Outputs** button is on the bottom
 
 You may select a connection right there from the menu, or choose _Routing Grid_ to see a simpler version of the _Audio Connection Manager_ with only the **Inputs** or **Outputs** of the selected track or bus.
 
-## All Ardour connections are JACK connections
-
-It is important to realize that any routings that you make or disconnect from within Ardour are in fact JACK routings, which you can see from other applications like _Qjackctl_ or _Catia_, depending on your operating system. Below is an example of a _Catia_ window (Linux only) displaying the same JACK connections discussed above:
-
-{{< figure alt="Catia" src="en/Ardour4_Catia_Example.png" >}}
-
 **Continuing**
 
-In this chapter, we covered how to manage routing inside Ardour, or between Ardour and the sound card. However, one of the strengths of using the JACK system is that it can also manage connections between applications on the same computer. To gain a better understanding of how this works, please continue to the chapter [Routing Between Applications](/recording/routing-between-applications/). If you would prefer to work only with Ardour, then skip ahead to the section on [Arranging Tracks](/editing-sessions/arranging-tracks/).
+In this chapter, we covered how to manage routing inside Ardour, or between Ardour and the sound card. To gain a better understanding of how external routing with JACK works, please continue to the chapter [Routing Between Applications](/recording/routing-between-applications/). If you would prefer to work only with Ardour, then skip ahead to the section on [Arranging Tracks](/editing-sessions/arranging-tracks/).
